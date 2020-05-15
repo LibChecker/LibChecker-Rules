@@ -1,8 +1,8 @@
 {
     "label": "Izuko",
     "contributors": ["Absinthe"],
-    "iconUrl": "https://zhaobozhen.github.io/Anywhere-Docs"
-    "contributor": "Absinthe",
+    "iconUrl": "https://zhaobozhen.github.io/Anywhere-Docs",
+    "contributor": ["Absinthe"],
     "description": "Powered by Absinthe.",
     "relativeUrl": "https://zhaobozhen.github.io/Anywhere-Docs"
 }
