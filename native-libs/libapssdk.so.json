@@ -1,0 +1,8 @@
+{
+    "label": "高德 SDK",
+    "team": "高德",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "高德地图 Android SDK 是一套地图开发调用接口，开发者可以轻松地在自己的 Android 应用中加入地图相关的功能，包括：地图显示（含室内、室外地图）、与地图交互、在地图上绘制、兴趣点搜索、地理编码、离线地图等功能。",
+    "relativeUrl": "https://lbs.amap.com/api/android-sdk/summary/"
+}

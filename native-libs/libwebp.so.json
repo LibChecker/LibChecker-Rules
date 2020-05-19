@@ -1,0 +1,8 @@
+{
+    "label": "Fresco",
+    "team": "Facebook",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
+    "relativeUrl": "https://github.com/facebook/fresco/"
+}

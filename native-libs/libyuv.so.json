@@ -1,0 +1,8 @@
+{
+    "label": "libYUV",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "libYUV 是 Google 开源的 yuv 图像处理库，实现对各种 yuv 数据之间的转换，包括数据转换，裁剪，缩放，旋转。",
+    "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
+}

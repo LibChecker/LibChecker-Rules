@@ -1,0 +1,8 @@
+{
+    "label": "极光认证 SDK",
+    "team": "极光",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "极光认证整合了三大运营商的网关认证能力，为开发者提供了一键登录和号码认证功能，优化用户注册/登录、号码验证的体验，提高安全性。",
+    "relativeUrl": "https://docs.jiguang.cn/jverification/client/android_guide/"
+}

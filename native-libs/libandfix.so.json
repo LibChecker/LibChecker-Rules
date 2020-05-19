@@ -1,0 +1,8 @@
+{
+    "label": "AndFix",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "AndFix 是一种在线修复错误而无需重新分发 Android App 的解决方案。",
+    "relativeUrl": "https://github.com/alibaba/AndFix/"
+}

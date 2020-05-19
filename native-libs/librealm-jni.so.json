@@ -1,0 +1,8 @@
+{
+    "label": "Realm",
+    "team": "Realm",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Realm 是一个跨平台的移动数据引擎，使用 C++ 编写，使用非常便便,是基于对象映射。",
+    "relativeUrl": "https://github.com/realm/"
+}

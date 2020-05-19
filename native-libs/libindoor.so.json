@@ -1,0 +1,8 @@
+{
+    "label": "百度 LBS",
+    "team": "Baidu",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "百度地图 Android SDK 是一套基于 Android 4.0 及以上版本设备的应用程序接口。 您可以使用该套 SDK 开发适用于 Android 系统移动设备的地图应用，通过调用地图 SDK 接口，您可以轻松访问百度地图服务和数据，构建功能丰富、交互性强的地图类应用程序。",
+    "relativeUrl": "https://lbsyun.baidu.com/"
+}

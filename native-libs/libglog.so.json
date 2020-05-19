@@ -1,0 +1,8 @@
+{
+    "label": "glog",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "glog 是一个 C++ 日志库，它提供 C++ 流式风格的 API。",
+    "relativeUrl": "https://github.com/google/glog/"
+}
