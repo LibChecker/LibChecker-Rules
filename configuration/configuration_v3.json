@@ -1,7 +1,7 @@
 {
-	"enableLibDetail": false,
+	"enableLibDetail": true,
 	"showLibName": true,
-    "showTeamName": true,
+	"showTeamName": true,
 	"showLibDescription": true,
 	"showContributor": true,
 	"showRelativeUrl": true
