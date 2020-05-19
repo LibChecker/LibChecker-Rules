@@ -1,0 +1,8 @@
+{
+    "label": "Virocore",
+    "team": "Viro Media",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "借助 ViroCore，Android 开发者现在可以使用熟悉的语言和工具来构建沉浸式 AR/VR 应用。",
+    "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
+}

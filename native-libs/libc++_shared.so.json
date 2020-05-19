@@ -1,0 +1,8 @@
+{
+    "label": "C++ 共享库",
+    "team": "Android",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "在 Android 应用中运行原生代码。",
+    "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
+}
