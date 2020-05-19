@@ -1,8 +1,8 @@
 {
     "label": "AndroLua",
-    "team": "Facebook",
+    "team": "mkottman",
     "iconUrl": "",
     "contributors": ["Absinthe"],
-    "description": "React Native使你只使用JavaScript也能编写原生移动应用。 它在设计原理上和React一致，通过声明式的组件机制来搭建丰富多彩的用户界面。",
-    "relativeUrl": "https://reactnative.dev/"
+    "description": "AndroLua 是基于 LuaJava 开发的安卓平台轻量级脚本编程语言工具，既具有 Lua 简洁优雅的特质，又支持绝大部分安卓 API，可以使你在手机上快速编写小型应用。",
+    "relativeUrl": "https://github.com/mkottman/AndroLua/"
 }
