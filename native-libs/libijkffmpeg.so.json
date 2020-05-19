@@ -1,0 +1,8 @@
+{
+    "label": "IJKPlayer",
+    "team": "Bilibili",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "IJKPlayer 是一款基于 FFmpeg 的轻量级 Android/iOS 视频播放器，具有 API 易于集成、编译配置可裁剪、支持硬件加速解码、DanmakuFlameMaster 架构清晰、简单易用等优势。",
+    "relativeUrl": "https://github.com/bilibili/ijkplayer/"
+}
