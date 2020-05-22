@@ -1,0 +1,8 @@
+{
+    "label": "FrameSequence",
+    "team": "Android",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Android 系统中的帧序列封装库。",
+    "relativeUrl": "https://android.googlesource.com/platform/frameworks/ex/"
+}

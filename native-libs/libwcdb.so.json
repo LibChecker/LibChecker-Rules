@@ -1,0 +1,8 @@
+{
+    "label": "WCDB",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "WCDB 是一个高效、完整、易用的移动数据库框架，基于 SQLCipher，支持 iOS, macOS 和 Android。",
+    "relativeUrl": "https://github.com/Tencent/wcdb/"
+}
