@@ -1,0 +1,8 @@
+{
+    "label": "烈焰弹幕使",
+    "team": "Bilibili",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "烈焰弹幕使是 Android 上开源的弹幕解析绘制引擎项目。",
+    "relativeUrl": "https://github.com/bilibili/DanmakuFlameMaster/"
+}

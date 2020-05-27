@@ -1,0 +1,8 @@
+{
+    "label": "LAME",
+    "team": "The LAME Project",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
+    "relativeUrl": "https://lame.sourceforge.io/"
+}

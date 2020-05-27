@@ -1,0 +1,8 @@
+{
+    "label": "Weex GCanvas",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "GCanvas 是一个跨平台的画布解决方案，它实现了图形 2D 和 WebGL API。GCanvas 使其用户能够直接访问 OpenGL ES API。GCanvas 旨在解决 JavaScript 开发人员的画布的性能问题和兼容性问题。",
+    "relativeUrl": "https://alibaba.github.io/GCanvas/"
+}
