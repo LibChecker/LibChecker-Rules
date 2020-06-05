@@ -1,0 +1,8 @@
+{
+    "label": "Firebase",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Firebase 提供了分析、数据库、消息传递和崩溃报告等功能，可助您快速采取行动并专注于您的用户。",
+    "relativeUrl": "https://firebase.google.com/"
+}
