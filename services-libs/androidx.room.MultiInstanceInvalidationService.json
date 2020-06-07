@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Room",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Room 持久性库在 SQLite 的基础上提供了一个抽象层，让用户能够在充分利用 SQLite 的强大功能的同时，获享更强健的数据库访问机制。",
+    "relativeUrl": "https://developer.android.com/topic/libraries/architecture/room/"
+}

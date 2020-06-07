@@ -1,0 +1,8 @@
+{
+    "label": "Google Analytics",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "提供各种 API，可帮助您收集、配置和报告用户与您的在线内容进行互动的数据。",
+    "relativeUrl": "https://developers.google.com/analytics/"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Meizu Push",
+    "team": "Meizu",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+    "relativeUrl": "https://open.flyme.cn/open-web/views/push.html/"
+}
