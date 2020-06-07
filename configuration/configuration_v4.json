@@ -1,6 +1,6 @@
 {
 	"enableLibDetail": true,
-	"enableComponentsDetail": false,
+	"enableComponentsDetail": true,
 	"showLibName": true,
 	"showTeamName": true,
 	"showLibDescription": true,
