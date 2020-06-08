@@ -1,0 +1,8 @@
+{
+    "label": "Google Sign-In",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "提供使用 Google 登录的 API。",
+    "relativeUrl": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
+}
