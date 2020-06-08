@@ -1,0 +1,8 @@
+{
+    "label": "Firebase Analytics",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Google Analytics（分析）是一款免费的应用衡量解决方案，可提供关于应用使用情况和用户互动度的分析数据。",
+    "relativeUrl": "https://firebase.google.com/docs/analytics/"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Facebook SDK",
+    "team": "Facebook",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Facebook SDK是适用于 Android 的将 Facebook集成到 Android 应用程序中的最简单方法。",
+    "relativeUrl": "https://developers.facebook.com/docs/android/getting-started/"
+}
