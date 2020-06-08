@@ -1,0 +1,8 @@
+{
+    "label": "Cronet",
+    "team": "Chromium",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Cronet 是 Chromium 网络堆栈，可作为库提供给 Android 应用。Cronet 利用多种技术来减少延迟并提高应用正常运行所需的网络请求吞吐量。",
+    "relativeUrl": "https://developer.android.google.cn/guide/topics/connectivity/cronet/"
+}
