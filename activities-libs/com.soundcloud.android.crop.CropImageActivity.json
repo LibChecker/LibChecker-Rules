@@ -1,0 +1,8 @@
+{
+    "label": "android-crop",
+    "team": "jdamcd",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "一个基于 AOSP 的代码提供简单图像裁剪 Activity 的 Android 库。",
+    "relativeUrl": "https://github.com/jdamcd/android-crop/"
+}

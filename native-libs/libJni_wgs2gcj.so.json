@@ -1,0 +1,8 @@
+{
+    "label": "wgs2gcj",
+    "team": "",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "WGS84 为一种大地坐标系，也是目前广泛使用的 GPS 全球卫星定位系统使用的坐标系。GCJ02 又称火星坐标系，是由中国国家测绘局制定的地理坐标系统，是由 WGS84 加密后得到的坐标系。在中国，所有的坐标都必须经过国家测绘局进行偏移，因此需要将 GPS 坐标进行转换。",
+    "relativeUrl": ""
+}
