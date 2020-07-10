@@ -1,0 +1,8 @@
+{
+    "label": "百川 SDK",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "百川云推送是基于大数据的阿里移动云服务，实现更快、更稳、更准的实时推送。旨在为百川移动应用提供从云端到移动终端的优质的信息推送服务。开发者只需通过简单的配置和编码工作，即能够快速搭建起服务于自身业务的、高效稳定的推送服务。",
+    "relativeUrl": "https://open.alitrip.com/docs/doc.htm?treeId=29&articleId=102362&docType=1"
+}
