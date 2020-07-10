@@ -1,0 +1,8 @@
+{
+    "label": "小米游戏 SDK",
+    "team": "Xiaomi",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "小米游戏是小米手机、小米平板、小米电视的官方游戏下载平台，在这里我们为所有游戏开发者提供一站式的接入服务，并提供高质量分发与推广服务，为您的游戏助跑。",
+    "relativeUrl": "https://dev.mi.com/console/app/gamecenter.html"
+}
