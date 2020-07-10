@@ -1,0 +1,8 @@
+{
+    "label": "RePlugin",
+    "team": "Qihoo360",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "RePlugin 是一套完整的、稳定的、适合全面使用的，占坑类插件化方案，由 360 手机卫士的 RePlugin Team 研发，也是业内首个提出“全面插件化”（全面特性、全面兼容、全面使用）的方案。",
+    "relativeUrl": "https://github.com/Qihoo360/RePlugin/"
+}
