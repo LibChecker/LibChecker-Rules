@@ -1,0 +1,8 @@
+{
+    "label": "EasyPermissions",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "EasyPermissions 是一个包装器库，用于简化针对 Android M 或更高版本的基本系统权限逻辑。",
+    "relativeUrl": "https://github.com/googlesamples/easypermissions"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Firebase Performance",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Firebase 性能监控服务可帮助您深入了解您的 iOS 应用、Android 应用和网页应用的性能特点。",
+    "relativeUrl": "https://firebase.google.com/docs/perf-mon"
+}

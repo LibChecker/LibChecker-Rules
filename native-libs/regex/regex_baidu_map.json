@@ -2,7 +2,7 @@
     "label": "百度地图 SDK",
     "team": "Baidu",
     "iconUrl": "",
-    "contributors": ["Absinthe"],
+    "contributors": ["Absinthe", "YandexStudio"],
     "description": "百度地图 Android 定位 SDK 是为 Android 移动端应用提供的一套简单易用的定位服务接口，专注于为广大开发者提供最好的综合定位服务。通过使用百度定位 SDK，开发者可以轻松为应用程序实现智能、精准、高效的定位功能。",
     "relativeUrl": "http://lbsyun.baidu.com/index.php/"
 }
