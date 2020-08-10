@@ -1,0 +1,8 @@
+{
+    "label": "Golang",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["YandexStudio"],
+    "description": "Go 是一种开源编程语言，可轻松构建简单，可靠和高效的软件。",
+    "relativeUrl": "https://github.com/golang/mobile"
+}
