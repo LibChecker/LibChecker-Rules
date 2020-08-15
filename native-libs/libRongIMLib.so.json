@@ -1,0 +1,8 @@
+{
+    "label": "融云 IM SDK",
+    "team": "融云 RongCloud",
+    "iconUrl": "",
+    "contributors": ["zxwpm"],
+    "description": "IM 即时通讯 - SealTalk 支持应用内社交等场景，体验单群聊、聊天室、音视频通话、小视频、动态表情等通讯能力",
+    "relativeUrl": "https://github.com/sealtalk/sealtalk-android"
+}
