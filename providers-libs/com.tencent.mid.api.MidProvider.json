@@ -2,7 +2,7 @@
     "label": "腾讯移动分析",
     "team": "Tencent",
     "iconUrl": "",
-    "contributors": ["Absinthe"],
+    "contributors": ["zxwpm", "Absinthe"],
     "description": "MTA 为您的应用（APP、H5和小程序）提供实时数据统计分析服务，监控版本质量、渠道状况、用户画像属性及用户细分行为，通过数据可视化展现，协助产品、运营和市场决策。",
     "relativeUrl": "https://mta.qq.com/docs/"
 }
