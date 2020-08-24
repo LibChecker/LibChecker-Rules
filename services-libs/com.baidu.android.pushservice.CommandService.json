@@ -1,0 +1,8 @@
+{
+    "label": "百度云推送",
+    "team": "Baidu",
+    "iconUrl": "",
+    "contributors": ["zxwpm"],
+    "description": "云推送（Push）是百度开放云向开发者提供的消息推送服务；通过利用云端与客户端之间建立稳定、可靠的长连接来为开发者提供向客户端应用推送实时消息的一种开发者服务。",
+    "relativeUrl": "https://push.baidu.com/doc/android/api"
+}

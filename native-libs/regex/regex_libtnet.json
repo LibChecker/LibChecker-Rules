@@ -1,0 +1,8 @@
+{
+    "label": "libtnet",
+    "team": "siddontang",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "libtnet 是一个用 C++ 编写的高性能网络库，它在设计上面主要参考 Tornado，为服务端网络编程提供简洁而高效的接口，非常易于使用。",
+    "relativeUrl": "https://github.com/siddontang/libtnet"
+}

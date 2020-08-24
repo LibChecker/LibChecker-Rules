@@ -1,0 +1,8 @@
+{
+    "label": "BoostMultiDex",
+    "team": "ByteDance",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
+    "relativeUrl": "https://github.com/bytedance/BoostMultiDex"
+}
