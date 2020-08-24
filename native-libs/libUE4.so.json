@@ -1,0 +1,8 @@
+{
+    "label": "Unreal Engine",
+    "team": "Epic Games",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "虚幻引擎是一款由 Epic Games 开发的游戏引擎。该引擎主要是为了开发第一人称射击游戏而设计，但现在已经被成功地应用于开发潜行类游戏、格斗游戏、角色扮演游戏等多种不同类型的游戏。",
+    "relativeUrl": "https://docs.unrealengine.com/en-US/index.html"
+}
