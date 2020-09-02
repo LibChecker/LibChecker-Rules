@@ -1,0 +1,8 @@
+{
+    "label": "HMS Core AAID",
+    "team": "Huawei",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "华为推送服务开放能力合集提供的匿名设备标识(AAID) 实体类与令牌实体类包。异步方式获取的 AAID 与令牌通过此包中对应的类承载返回。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMS-References/push-aaid-entity-pkg"
+}
