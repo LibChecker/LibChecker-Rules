@@ -1,0 +1,8 @@
+{
+    "label": "GPUImage",
+    "team": "CyberAgent",
+    "iconUrl": "",
+    "contributors": ["nullptr-leo"],
+    "description": "GPUImage for Android 是一个开源项目，用于在 Android 上执行 GPU 加速的图像和视频处理。",
+    "relativeUrl": "https://github.com/cats-oss/android-gpuimage"
+}
