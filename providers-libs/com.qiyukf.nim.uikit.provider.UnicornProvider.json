@@ -1,0 +1,8 @@
+{
+    "label": "七鱼 SDK",
+    "team": "Netease",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "网易七鱼提供了丰富的 SDK 和服务端 API，方便企业快速使用七鱼，同时也可以根据自己的业务场景，进行一定程度的个性化开发。",
+    "relativeUrl": "https://qiyukf.com/docs"
+}

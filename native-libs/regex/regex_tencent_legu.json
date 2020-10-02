@@ -1,0 +1,8 @@
+{
+    "label": "腾讯乐固",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "移动应用安全 （Mobile Security，MS）提供了移动应用的一站式安全解决方案。用户只需上传签名过的安装包，就能享受安全检测、应用加固、渠道监控以及安全 SDK 等一系列安全服务。移动应用安全可帮助您防止应用被盗版破解，及时发现应用漏洞，监控应用正盗版分发等，有效捍卫移动应用所有者利益。",
+    "relativeUrl": "https://cloud.tencent.com/document/product/283"
+}
