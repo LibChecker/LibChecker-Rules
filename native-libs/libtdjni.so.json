@@ -1,0 +1,8 @@
+{
+    "label": "TDLib",
+    "team": "Telegram",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "TDLib 是用于构建 Telegram 客户端的跨平台库。几乎所有编程语言都可以轻松使用它。",
+    "relativeUrl": "https://core.telegram.org/tdlib/docs/index.html"
+}
