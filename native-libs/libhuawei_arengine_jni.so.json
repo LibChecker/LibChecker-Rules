@@ -1,0 +1,8 @@
+{
+    "label": "AR Engine",
+    "team": "Huawei",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "HUAWEI AR Engine 是一个用于在 Android 上构建增强现实应用的平台。HUAWEI AR Engine 基于海思芯片平台整合 AR 核心算法提供了运动跟踪、环境跟踪、人体和人脸跟踪等 AR 基础能力，通过这些能力可让您的应用实现虚拟世界与现实世界的融合，为您的应用提供全新的视觉体验和交互方式。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050130900"
+}
