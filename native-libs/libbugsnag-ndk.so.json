@@ -1,0 +1,8 @@
+{
+    "label": "Bugsnag",
+    "team": "Bugsnag",
+    "iconUrl": "",
+    "contributors": ["su1216"],
+    "description": "Bugsnag 的 Android 崩溃报告库会自动检测 Android 应用程序中的崩溃，收集诊断信息并立即通知您的开发团队，以帮助您尽快理解和解决问题。",
+    "relativeUrl": "https://github.com/bugsnag/bugsnag-android"
+}
