@@ -1,0 +1,8 @@
+{
+    "label": "Telegram APIs",
+    "team": "Telegram",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "使用此 API，您可以构建自己的自定义 Telegram 客户端。它对所有希望在我们的平台上创建 Telegram 应用程序的开发人员都是 100％ 开放的。",
+    "relativeUrl": "https://core.telegram.org/api"
+}
