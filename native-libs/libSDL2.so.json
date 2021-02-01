@@ -1,0 +1,8 @@
+{
+    "label": "libSDL",
+    "team": "libsdl.org",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
+    "relativeUrl": "https://www.libsdl.org"
+}
