@@ -1,0 +1,8 @@
+{
+    "label": "jlibtorrent",
+    "team": "FrostWire",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "FrostWire 的制造商为 libtorrent 提供的 Swig Java 接口。享受用 Java 编写代码来开发基于 libtorrent 的应用程序。",
+    "relativeUrl": "https://github.com/frostwire/frostwire-jlibtorrent"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "libtorrent4j",
+    "team": "aldenml",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "libtorrent 的 Swig Java 接口。",
+    "relativeUrl": "https://github.com/aldenml/libtorrent4j"
+}

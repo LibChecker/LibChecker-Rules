@@ -1,0 +1,8 @@
+{
+    "label": "libGDX",
+    "team": "libgdx",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "libGDX 是基于 OpenGL(ES) 的跨平台 Java 游戏开发框架，可在 Windows，Linux，Mac OS X，Android，iOS 和支持 WebGL 的浏览器上运行。它为快速原型设计和快速迭代提供了一个经过充分验证的健壮环境。LibGDX 不会在您身上强加特定的设计或编码风格，而是使您可以自由选择自己喜欢的方式来创建游戏。",
+    "relativeUrl": "https://github.com/libgdx/libgdx"
+}

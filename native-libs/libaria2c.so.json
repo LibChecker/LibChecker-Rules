@@ -1,0 +1,8 @@
+{
+    "label": "libaria2",
+    "team": "aria2",
+    "iconUrl": "",
+    "contributors": ["飘落的枫叶"],
+    "description": "libaria2 是一个 C 库，并提供 aria2 的核心功能。该库负责所有网络和下载内容，因此，其用法现在非常简单。",
+    "relativeUrl": "https://aria2.github.io/manual/en/html/libaria2.html"
+}

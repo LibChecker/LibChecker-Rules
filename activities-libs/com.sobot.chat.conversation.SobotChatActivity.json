@@ -1,0 +1,8 @@
+{
+    "label": "智齿客服 SDK",
+    "team": "Weibo",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "智齿客服 SDK 是客服系统访客端的解决方案，既包含了客服聊天逻辑管理，也提供了聊天界面，开发者可方便的将客服功能集成到自己的 App 中。",
+    "relativeUrl": "https://www.sobot.com/developerdocs/app_sdk/"
+}
