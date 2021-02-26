@@ -1,0 +1,8 @@
+{
+    "label": "GlideWebpDecoder",
+    "team": "zjupure",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "GlideWebpDecoder 是一个 Glide 集成库，用于在 Android 平台上解码和显示 webp 图像。它基于 libwebp 项目，并以 Fresco 和 GlideWebpSupport 的一些实现作为参考。",
+    "relativeUrl": "https://github.com/zjupure/GlideWebpDecoder"
+}

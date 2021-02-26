@@ -2,7 +2,7 @@
     "label": "FFmpeg",
     "team": "FFmpeg",
     "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
+    "contributors": ["飘落的枫叶", "Absinthe"],
     "description": "FFmpeg 是领先的多媒体框架，能够解码，编码，转码，MUX，DEMUX，流式，过滤和播放人类和机器创建的几乎所有内容。",
-    "relativeUrl": "http://www.ffmpeg.org/libavformat.html"
+    "relativeUrl": "http://www.ffmpeg.org/libavcodec.html"
 }
