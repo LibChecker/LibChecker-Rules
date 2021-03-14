@@ -1,0 +1,8 @@
+{
+    "label": "Unity",
+    "team": "Unity Technologies",
+    "iconUrl": "",
+    "contributors": ["kotori2"],
+    "description": "Unity 游戏使用 Il2Cpp 后端时产生的游戏代码。",
+    "relativeUrl": "https://docs.unity3d.com/Manual/IL2CPP.html"
+}

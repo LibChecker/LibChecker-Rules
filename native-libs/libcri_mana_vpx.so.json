@@ -1,0 +1,8 @@
+{
+    "label": "CRI Sofdec2 Unity 插件",
+    "team": "CRIWARE",
+    "iconUrl": "",
+    "contributors": ["kotori2"],
+    "description": "CRIWARE 中用于视频回放解码的组件。",
+    "relativeUrl": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+}
