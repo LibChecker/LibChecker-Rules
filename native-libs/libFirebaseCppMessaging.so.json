@@ -1,0 +1,8 @@
+{
+    "label": "Firebase Cloud Messaging",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["kotori2"],
+    "description": "Firebase 云消息传递，也称 Firebase 云信息传递，前身为 Google 云消息传递，是一项针对 Android 、 iOS 及网络应用程序的消息与通知的跨平台解决方案，目前可免费使用。 该服务由 Google 拥有的 Firebase 公司提供。 Firebase 已于2014年10月21日宣布被 Google 收购。",
+    "relativeUrl": "https://firebase.google.com/docs/cloud-messaging"
+}
