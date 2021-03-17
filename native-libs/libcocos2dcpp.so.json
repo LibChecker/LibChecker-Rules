@@ -1,0 +1,8 @@
+{
+    "label": "cocos2d-cpp",
+    "team": "cocos2d-cpp",
+    "iconUrl": "",
+    "contributors": ["ag2s20150909"],
+    "description": "cocos2d-cpp 是用 C++ 14 编写的 2D 便携式游戏引擎，适用于 Android，iOS，Linux，MacOS 和 Windows。",
+    "relativeUrl": "https://github.com/cocos2d-cpp/cocos2d-cpp"
+}
