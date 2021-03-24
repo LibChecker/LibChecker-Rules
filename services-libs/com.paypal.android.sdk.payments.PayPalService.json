@@ -1,0 +1,8 @@
+{
+    "label": "PayPal Android SDK",
+    "team": "Paypal",
+    "iconUrl": "",
+    "contributors": ["Xiaoze886"],
+    "description": "PayPal 安卓 SDK 可以轻松地将 PayPal 支付服务集成到移动应用中。",
+    "relativeUrl": "https://github.com/paypal/PayPal-Android-SDK"
+}

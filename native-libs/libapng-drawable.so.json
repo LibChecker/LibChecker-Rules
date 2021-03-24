@@ -1,0 +1,8 @@
+{
+    "label": "ApngDrawable",
+    "team": "LINE",
+    "iconUrl": "",
+    "contributors": ["Anormi"],
+    "description": "ApngDrawable 是 Android 平台上的一个高效而轻量的 APNG 图像解码库。",
+    "relativeUrl": "https://github.com/line/apng-drawable"
+}
