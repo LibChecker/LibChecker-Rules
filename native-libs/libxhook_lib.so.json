@@ -1,0 +1,8 @@
+{
+    "label": "xHook",
+    "team": "iQIYI",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "xHook 是一个针对 Android 平台 ELF (可执行文件和动态库) 的 PLT (Procedure Linkage Table) hook 库。",
+    "relativeUrl": "https://github.com/iqiyi/xHook"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Dexter",
+    "team": "Karumi",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Dexter 是一个 Android 库，它简化了运行时请求权限的过程。",
+    "relativeUrl": "https://github.com/Karumi/Dexter"
+}
