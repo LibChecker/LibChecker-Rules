@@ -1,0 +1,8 @@
+{
+    "label": "ReToast",
+    "team": "ryuunoakaihitomi",
+    "iconUrl": "",
+    "contributors": ["ryuunoakaihitomi"],
+    "description": "这个 Android 库用于以最简单的方式修复 android.widget.Toastm的一些严重的 bug。",
+    "relativeUrl": "https://github.com/ryuunoakaihitomi/ReToast"
+}

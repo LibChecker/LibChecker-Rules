@@ -1,0 +1,8 @@
+{
+    "label": "Ren'Py",
+    "team": "renpy.org",
+    "iconUrl": "",
+    "contributors": ["huangguiniab"],
+    "description": "Ren'Py 是一种视觉小说引擎，被来自世界各地数以千计的创作者们使用，可帮助您使用文字、图像和声音在计算机和移动设备上运行交互式故事。",
+    "relativeUrl": "https://github.com/renpy/renpy"
+}

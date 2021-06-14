@@ -1,0 +1,8 @@
+{
+    "label": "Rclone",
+    "team": "Rclone",
+    "iconUrl": "",
+    "contributors": ["xyl23333"],
+    "description": "Rclone 是一个用于管理云文件的命令行程序。",
+    "relativeUrl": "https://github.com/rclone/rclone"
+}
