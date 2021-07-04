@@ -1,0 +1,8 @@
+{
+    "label": "LibCurl",
+    "team": "curl",
+    "iconUrl": "",
+    "contributors": ["culat"],
+    "description": "libcurl 是一个免费且易于使用的客户端 URL 传输库。",
+    "relativeUrl": "https://github.com/curl/curl"
+}

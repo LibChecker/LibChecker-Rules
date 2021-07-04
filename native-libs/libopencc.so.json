@@ -1,0 +1,8 @@
+{
+    "label": "OpenCC",
+    "team": "BYVoid",
+    "iconUrl": "",
+    "contributors": ["culat"],
+    "description": "中文簡繁轉換開源項目，支持詞彙級別的轉換、異體字轉換和地區習慣用詞轉換（中國大陸、臺灣、香港、日本新字體）。",
+    "relativeUrl": "https://github.com/BYVoid/OpenCC"
+}

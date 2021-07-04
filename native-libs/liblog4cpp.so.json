@@ -1,0 +1,8 @@
+{
+    "label": "Log for C++",
+    "team": "bastiaan, sanchouss_, waffel",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.",
+    "relativeUrl": "https://sourceforge.net/projects/log4cpp/"
+}
