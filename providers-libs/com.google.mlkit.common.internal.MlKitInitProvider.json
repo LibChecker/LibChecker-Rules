@@ -1,0 +1,8 @@
+{
+    "label": "ML Kit",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "ML Kit 以功能强大且易于使用的软件包将 Google 的机器学习专业知识带给移动开发人员。使用经过优化可在设备上运行的解决方案，让您的 iOS 和 Android 应用程序更具吸引力、个性化和有用。",
+    "relativeUrl": "https://developers.google.com/ml-kit"
+}

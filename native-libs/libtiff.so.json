@@ -1,0 +1,8 @@
+{
+    "label": "Android-TiffBitmapFactory",
+    "team": "Beyka",
+    "iconUrl": "",
+    "contributors": ["watwhat"],
+    "description": "TiffBitmapFactory is an Android library that allows opening and saving images in *.tif format on Android devices.",
+    "relativeUrl": "https://github.com/Beyka/Android-TiffBitmapFactory"
+}

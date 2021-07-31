@@ -1,0 +1,8 @@
+{
+    "label": "LibRaw",
+    "team": "LibRaw LLC",
+    "iconUrl": "",
+    "contributors": ["watwhat"],
+    "description": "LibRaw is a library for reading RAW files from digital cameras.",
+    "relativeUrl": "https://github.com/LibRaw/LibRaw"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "gocryptsfs",
+    "team": "@rfjakob, etc.",
+    "iconUrl": "",
+    "contributors": ["watwhat"],
+    "description": "Encrypted overlay filesystem written in Go.",
+    "relativeUrl": "https://github.com/rfjakob/gocryptfs"
+}

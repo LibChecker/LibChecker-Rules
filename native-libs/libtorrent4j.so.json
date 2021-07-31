@@ -1,0 +1,8 @@
+{
+    "label": "Torrent library for java",
+    "team": "Alden Torres",
+    "iconUrl": "",
+    "contributors": ["watwhat"],
+    "description": "libtorrent for java, a swig Java interface for libtorrent.",
+    "relativeUrl": "https://github.com/aldenml/libtorrent4j"
+}
