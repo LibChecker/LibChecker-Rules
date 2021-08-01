@@ -1,0 +1,8 @@
+{
+    "label": "腾讯语音识别",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["xwhPanda", "watwhat"],
+    "description": "腾讯云语音识别 ASR SDK 提供服务端、客户端、前端以及小程序 SDK ，给您提供了一种方便、快捷、灵活的方式，将语音识别功能集成到您的服务。",
+    "relativeUrl": "https://cloud.tencent.com/document/product/1093/52554"
+}

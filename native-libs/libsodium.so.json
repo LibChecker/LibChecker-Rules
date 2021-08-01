@@ -1,0 +1,8 @@
+{
+    "label": "Sodium",
+    "team": "jedisct1",
+    "iconUrl": "",
+    "contributors": ["watwhat"],
+    "description": "A modern, portable, easy to use crypto library.",
+    "relativeUrl": "https://github.com/jedisct1/libsodium"
+}
