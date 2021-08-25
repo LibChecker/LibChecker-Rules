@@ -1,0 +1,8 @@
+{
+    "label": "Android Crazy Linker",
+    "team": "The Chromium Authors",
+    "iconUrl": "",
+    "contributors": ["watwhat"],
+    "description": "Fork of the Android NDK crazy linker.",
+    "relativeUrl": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+}

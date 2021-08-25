@@ -1,0 +1,8 @@
+{
+    "label": "顶象无感验证 SDK",
+    "team": "顶象",
+    "iconUrl": "",
+    "contributors": ["culat"],
+    "description": "顶象无感验证结合了设备指纹、行为特征、访问频率、地理位置等多项技术，有效的拦截恶意登录、批量注册，阻断机器操作，拦截非正常用户。",
+    "relativeUrl": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+}
