@@ -1,0 +1,8 @@
+{
+    "label": "ZXing Android Embedded",
+    "team": "JourneyApps",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Barcode scanning library for Android, using ZXing for decoding.",
+    "relativeUrl": "https://github.com/journeyapps/zxing-android-embedded"
+}

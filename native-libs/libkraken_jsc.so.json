@@ -1,0 +1,8 @@
+{
+    "label": "Kraken",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["pba-cra"],
+    "description": "Kraken 是一款基于 W3C 标准的高性能渲染引擎。Kraken 底层基于 Flutter 进行渲染，通过其自绘渲染的特性，保证多端一致性。上层基于 W3C 标准实现，拥有非常庞大的前端开发者生态。",
+    "relativeUrl": "https://openkraken.com/"
+}

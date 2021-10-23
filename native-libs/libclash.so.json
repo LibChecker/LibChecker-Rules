@@ -1,0 +1,8 @@
+{
+    "label": "Clash Core",
+    "team": "Dreamacro",
+    "iconUrl": "",
+    "contributors": ["Aoang"],
+    "description": "A rule-based tunnel in Go.",
+    "relativeUrl": "https://github.com/Dreamacro/clash"
+}

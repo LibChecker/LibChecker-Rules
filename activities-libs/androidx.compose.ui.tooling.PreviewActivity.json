@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Compose",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Cook21"],
+    "description": "Jetpack Compose 是用于构建原生 Android 界面的新工具包。Jetpack Compose 使用更少的代码、强大的工具和直观的 Kotlin API 简化并加快了 Android 上的界面开发。",
+    "relativeUrl": "https://developer.android.google.cn/jetpack/androidx/releases/compose?hl=zh-cn"
+}

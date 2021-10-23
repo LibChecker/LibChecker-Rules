@@ -1,0 +1,8 @@
+{
+    "label": "CodeLocator",
+    "team": "ByteDance",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "CodeLocator是一个包含Android SDK 与 Android Studio插件的Android工具集。",
+    "relativeUrl": "https://github.com/bytedance/CodeLocator"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Mapbox GL Native",
+    "team": "Mapbox",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL.",
+    "relativeUrl": "https://github.com/mapbox/mapbox-gl-native"
+}
