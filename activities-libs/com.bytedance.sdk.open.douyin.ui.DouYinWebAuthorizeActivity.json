@@ -1,0 +1,8 @@
+{
+    "label": "抖音 SDK",
+    "team": "Douyin",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "抖音开放平台 SDK 目前提供了抖音登录 & 授权以及分享至抖音的基本能力。您可以通过接入抖音开放平台 SDK 来使用抖音授权登录您的应用或者分享图片或视频到抖音。",
+    "relativeUrl": "https://open.douyin.com/platform/doc/6850360698271238152"
+}

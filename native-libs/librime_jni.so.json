@@ -1,0 +1,8 @@
+{
+    "label": "Rime Core",
+    "team": "Rime (create by lotem)",
+    "iconUrl": "",
+    "contributors": ["WhiredPlanck"],
+    "description": "Rime 输入法引擎核心库。",
+    "relativeUrl": "https://github.com/rime/librime"
+}

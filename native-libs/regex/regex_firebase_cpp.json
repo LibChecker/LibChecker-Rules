@@ -1,0 +1,8 @@
+{
+    "label": "Firebase C++ SDK",
+    "team": "Firebase",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Firebase C++ SDK 在适用于 iOS 和 Android 的 Firebase 的基础上提供了 C++ 接口，可为您的 C++ 游戏提供强力支持。您可以完全利用 C++ 代码访问 Firebase，无需编写任何平台原生代码。Firebase SDK 还将 Firebase 使用的许多编程语言所特有的习语转译为 C++ 开发人员更为熟悉的接口。",
+    "relativeUrl": "https://firebase.google.com/docs/cpp/setup?platform=android"
+}

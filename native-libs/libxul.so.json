@@ -1,0 +1,8 @@
+{
+    "label": "Lib_XUL",
+    "team": "Mozilla",
+    "iconUrl": "",
+    "contributors": ["bolucat"],
+    "description": "这个库为使用 XUL 语言和 Gecko 引擎的应用提供可调用的冻结 API。",
+    "relativeUrl": "https://wiki.mozilla.org/XUL:Lib_XUL"
+}
