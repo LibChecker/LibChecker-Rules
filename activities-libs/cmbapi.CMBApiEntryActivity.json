@@ -1,0 +1,8 @@
+{
+    "label": "招商银行 SDK",
+    "team": "CMB",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "为保证用户输入支付密码时的输入安全，招行自主开发了安全输入键盘，以 SDK 形式供商户集成到 APP 中，配合招行一网通支付使用，保护用户的密码安全。分为 Android 版和 iOS 版。",
+    "relativeUrl": "http://link.cmbchina.com/open/pwdpay/sdk/default.aspx"
+}

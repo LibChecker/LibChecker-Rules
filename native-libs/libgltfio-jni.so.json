@@ -1,0 +1,8 @@
+{
+    "label": "Filament",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Filament 是一个基于物理的实时渲染引擎，适用于 Android、iOS、Linux、macOS、Windows 和 WebGL。它被设计为在 Android 上尽可能小且尽可能高效。",
+    "relativeUrl": "https://github.com/google/filament"
+}
