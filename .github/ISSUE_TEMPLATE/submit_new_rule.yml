@@ -45,8 +45,8 @@ body:
     attributes:
       label: Library icon / 库图标
       description: |
-        If there is a logo icon of the library, you can choose to provide it, but it must be in SVG format
-        如果有该库的 Logo 图标可以选择提供，但必须为 SVG 格式
+        If there is a logo icon of the library, you can choose to provide it, **but it must be in SVG format**
+        如果有该库的 Logo 图标可以选择提供，**但必须为 SVG 格式**
     validations:
       required: false
   - type: input
@@ -61,7 +61,7 @@ body:
     attributes:
       label: Library relative URL
       description: |
-        Fill in the relevant links of the library here, first fill in the Github project address, followed by the official documents, not other third-party links
-        这里填写库的相关链接，优先填写 Github 项目地址，其次为官方文档，不可以是其他第三方链接
+        Fill in the relevant links of the library here, first fill in the Github project address, followed by the official documents, **not other third-party links**
+        这里填写库的相关链接，优先填写 Github 项目地址，其次为官方文档，**不可以是其他第三方链接**
     validations:
       required: true
