@@ -13,23 +13,23 @@ body:
       label: Library name / 库名称
       description: |
         Fill in the library name here, for example: **libflutter.so**
-        这里填写库名称，例如：libflutter.so
+        这里填写库名称，例如：**libflutter.so**
     validations:
       required: true
   - type: input
     attributes:
       label: Library label / 库标签
       description: |
-        Fill in the library label here, for example: Flutter
-        这里填写库标签，例如：Flutter
+        Fill in the library label here, for example: **Flutter**
+        这里填写库标签，例如：**Flutter**
     validations:
       required: true
   - type: input
     attributes:
       label: Library team / 库的开发团队
       description: |
-        Fill in the development team of the library here, for example: Google
-        这里填写库的开发团队，例如：Google
+        Fill in the development team of the library here, for example: **Google**
+        这里填写库的开发团队，例如：**Google**
     validations:
       required: true
   - type: textarea
