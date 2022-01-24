@@ -12,7 +12,7 @@ body:
     attributes:
       label: Library name / 库名称
       description: |
-        Fill in the library name here, for example: libflutter.so
+        Fill in the library name here, for example: **libflutter.so**
         这里填写库名称，例如：libflutter.so
     validations:
       required: true
