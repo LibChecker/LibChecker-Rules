@@ -11,22 +11,25 @@ body:
   - type: input
     attributes:
       label: Library name / 库名称
-      placeholder: |
-        Fill in the library name here, for example: libflutter.so / 这里填写库名称，例如：libflutter.so
+      description: |
+        Fill in the library name here, for example: libflutter.so
+        这里填写库名称，例如：libflutter.so
     validations:
       required: true
   - type: input
     attributes:
       label: Library label / 库标签
-      placeholder: |
-        Fill in the library label here, for example: Flutter / 这里填写库标签，例如：Flutter
+      description: |
+        Fill in the library label here, for example: Flutter
+        这里填写库标签，例如：Flutter
     validations:
       required: true
   - type: input
     attributes:
       label: Library team / 库的开发团队
-      placeholder: |
-        Fill in the development team of the library here, for example: Google / 这里填写库的开发团队，例如：Google
+      description: |
+        Fill in the development team of the library here, for example: Google
+        这里填写库的开发团队，例如：Google
     validations:
       required: true
   - type: textarea
@@ -34,25 +37,31 @@ body:
       label: Library group / 库组
       render: shell
       placeholder: |
-        Fill in other libraries belonging to the same SDK here, if the SDK only contains one .so file, you don't need to fill in / 这里填写属于同一 SDK 的其它库，如果该 SDK 只包含一个 .so 文件则无需填写
+        Fill in other libraries belonging to the same SDK here, if the SDK only contains one .so file, you don't need to fill in
+        这里填写属于同一 SDK 的其它库，如果该 SDK 只包含一个 .so 文件则无需填写
     validations:
       required: false
   - type: input
     attributes:
       label: Library icon / 库图标
-      placeholder: |
-        If there is a logo icon of the library, you can choose to provide it, but it must be in SVG format / 如果有该库的 Logo 图标可以选择提供，但必须为 SVG 格式
+      description: |
+        If there is a logo icon of the library, you can choose to provide it, but it must be in SVG format
+        如果有该库的 Logo 图标可以选择提供，但必须为 SVG 格式
     validations:
       required: false
   - type: input
     attributes:
       label: Library description / 库描述
-      description:  Fill in the introduction of the library here, it is best to excerpt from the official document / 这里填写库的简介，最好在官方文档摘抄
+      description: |
+        Fill in the introduction of the library here, it is best to excerpt from the official document
+        这里填写库的简介，最好在官方文档摘抄
     validations:
       required: true
   - type: input
     attributes:
       label: Library relative URL
-      description:  Fill in the relevant links of the library here, first fill in the Github project address, followed by the official documents, not other third-party links / 这里填写库的相关链接，优先填写 Github 项目地址，其次为官方文档，不可以是其他第三方链接
+      description: |
+        Fill in the relevant links of the library here, first fill in the Github project address, followed by the official documents, not other third-party links
+        这里填写库的相关链接，优先填写 Github 项目地址，其次为官方文档，不可以是其他第三方链接
     validations:
       required: true
