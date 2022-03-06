@@ -1,8 +1,8 @@
 {
-    "label": "Lspatch",
+    "label": "LSPatch",
     "team": "LSPosed",
     "iconUrl": "",
     "contributors": ["duzhaokun123"],
-    "description": "LSPatch fork from Xpatch. LSPatch provides a way to insert dex and so into the target APK by repackaging. The following changes have been made since Xpatch",
+    "description": "LSPatch fork from Xpatch. LSPatch provides a way to insert dex and so into the target APK by repackaging.",
     "relativeUrl": "https://github.com/LSPosed/LSPatch"
 }
