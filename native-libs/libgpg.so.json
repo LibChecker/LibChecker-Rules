@@ -1,0 +1,8 @@
+{
+    "label": "Google Play Games plugin for Unity",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "使游戏开发人员能在使用 Unity® 编写的游戏中集成 Google Play Games API。",
+    "relativeUrl": "https://developers.google.com/games/services/integration"
+}

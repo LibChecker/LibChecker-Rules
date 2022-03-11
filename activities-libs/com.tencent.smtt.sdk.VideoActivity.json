@@ -2,7 +2,7 @@
     "label": "腾讯浏览服务（TBS）",
     "team": "Tencent",
     "iconUrl": "",
-    "contributors": ["Absinthe"],
+    "contributors": ["Absinthe", "yfdyh000"],
     "description": "腾讯浏览服务，依托 X5 内核强大的能力，致力于提供优化移动端浏览体验的整套解决方案。",
     "relativeUrl": "https://x5.tencent.com/tbs/guide/sdkInit.html"
 }

@@ -1,0 +1,8 @@
+{
+    "label": "Quack",
+    "team": "koush",
+    "iconUrl": "",
+    "contributors": ["ag2s20150909"],
+    "description": "Quack provides Java (Android and desktop) bindings to JavaScript engines. Quack supports both the Duktape and QuickJS runtimes.",
+    "relativeUrl": "https://github.com/koush/quack"
+}
