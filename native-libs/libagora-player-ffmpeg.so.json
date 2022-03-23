@@ -1,0 +1,8 @@
+{
+    "label": "Agora RTC SDK",
+    "team": "Agora",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。",
+    "relativeUrl": "https://docs.agora.io/"
+}
