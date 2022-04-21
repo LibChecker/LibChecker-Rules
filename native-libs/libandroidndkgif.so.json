@@ -1,0 +1,8 @@
+{
+    "label": "Android NDK GIF",
+    "team": "waynejo",
+    "iconUrl": "",
+    "contributors": ["lgc2333"],
+    "description": "GIF library built with ndk and gradle in aar format for usage with android gradle build system.",
+    "relativeUrl": "https://github.com/waynejo/android-ndk-gif"
+}

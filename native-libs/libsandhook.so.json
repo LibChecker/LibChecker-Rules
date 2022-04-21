@@ -1,0 +1,8 @@
+{
+    "label": "Sandhook",
+    "team": "asLody",
+    "iconUrl": "",
+    "contributors": ["1976222027"],
+    "description": "SandHook 是作用在 Android ART 虚拟机上的 Java 层 Hook 框架，作用于进程内是不需要 Root 的。",
+    "relativeUrl": "https://github.com/asLody/SandHook"
+}

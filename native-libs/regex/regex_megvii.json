@@ -1,0 +1,8 @@
+{
+    "label": "旷视 SDK",
+    "team": "旷视",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "检测图片或视频流中的人脸，支持针对检测出的人脸进行属性分析。",
+    "relativeUrl": "https://www.faceplusplus.com.cn/face-detection/"
+}

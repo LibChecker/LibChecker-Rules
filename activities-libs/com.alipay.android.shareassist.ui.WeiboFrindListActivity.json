@@ -1,0 +1,8 @@
+{
+    "label": "mPaaS 社交分享",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "mPaaS 的社交分享组件提供微博、微信、支付宝、QQ、短信等渠道的分享功能，提供给开发者统一的接口，无须处理各 SDK 的接口差异性。",
+    "relativeUrl": "https://help.aliyun.com/document_detail/68177.html"
+}

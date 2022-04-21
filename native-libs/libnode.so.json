@@ -1,0 +1,8 @@
+{
+    "label": "Node.js",
+    "team": "plenluno",
+    "iconUrl": "",
+    "contributors": ["lgc2333"],
+    "description": "libnode is a C++ implementation of Node.js.",
+    "relativeUrl": "https://github.com/plenluno/libnode"
+}

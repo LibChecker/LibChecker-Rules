@@ -1,0 +1,8 @@
+{
+    "label": "7-Zip",
+    "team": "borisbrodski",
+    "iconUrl": "",
+    "contributors": ["lgc2333"],
+    "description": "7-Zip-JBinding is a free cross-platform java binding of 7-Zip free compress/decompress library.",
+    "relativeUrl": "https://github.com/borisbrodski/sevenzipjbinding"
+}
