@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Camera2",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Camera2 is the latest low-level Android camera package and replaces the deprecated Camera class. Camera2 provides in-depth controls for complex use cases, but requires you to manage device-specific configurations.",
+    "relativeUrl": "https://developer.android.com/training/camera2"
+}
