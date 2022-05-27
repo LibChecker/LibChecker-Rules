@@ -1,0 +1,8 @@
+{
+    "label": "Vorbis",
+    "team": "Xiph.Org",
+    "iconUrl": "",
+    "contributors": ["watashibeme"],
+    "description": "Vorbis is a general purpose audio and music encoding format contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond MPEG audio layer 3.",
+    "relativeUrl": "https://gitlab.xiph.org/xiph/vorbis"
+}
