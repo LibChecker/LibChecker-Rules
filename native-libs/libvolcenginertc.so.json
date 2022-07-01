@@ -1,0 +1,8 @@
+{
+    "label": "实时音视频",
+    "team": "火山引擎",
+    "iconUrl": "",
+    "contributors": ["watashibeme"],
+    "description": "火山引擎实时音视频拥有亿级 DAU 产品验证打磨的音视频最佳实践，可以提供全球范围内高质量、低延时的实时音视频通信能力，帮助开发者快速构建语音通话、视频通话、互动直播、转推直播等丰富场景功能。",
+    "relativeUrl": "https://www.volcengine.com/product/veRTC"
+}

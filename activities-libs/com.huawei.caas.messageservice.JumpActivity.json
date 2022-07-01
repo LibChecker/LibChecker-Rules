@@ -1,0 +1,8 @@
+{
+    "label": "HUAWEI CaaS Engine",
+    "team": "Huawei",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "畅连能力（CaaS Engine）是华为依托畅连业务通信能力，面向应用开发者和硬件开发者提供的开放接口，可以帮助开发者快速实现应用内视频通话服务。开发者通过华为设备虚拟化服务，可以使用任意视频数据作为视频通话的视频源。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/connectivity-Guides/virtualized-devices-calling-introduction-0000001051089010"
+}

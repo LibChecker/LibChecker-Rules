@@ -1,0 +1,8 @@
+{
+    "label": "libusb",
+    "team": "libusb",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "libusb is a C library that provides generic access to USB devices. It is intended to be used by developers to facilitate the production of applications that communicate with USB hardware.",
+    "relativeUrl": "https://github.com/libusb/libusb"
+}

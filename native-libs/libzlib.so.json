@@ -1,0 +1,8 @@
+{
+    "label": "libzip",
+    "team": "nih-at",
+    "iconUrl": "",
+    "contributors": ["d1y"],
+    "description": "libzip 是一个 C 库，用于读取，创建和修改 zip 档案。",
+    "relativeUrl": "https://github.com/nih-at/libzip"
+}

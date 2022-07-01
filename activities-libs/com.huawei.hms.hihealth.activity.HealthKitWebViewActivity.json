@@ -1,0 +1,8 @@
+{
+    "label": "HUAWEI CaaS Engine",
+    "team": "Huawei",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "华为运动健康服务（HUAWEI Health Kit，简称 Health Kit）是为华为生态应用打造的基于华为帐号和用户授权的运动健康数据开放平台。面向消费者，支持运动健康数据存储、灵活授权分享机制；面向开发者和合作伙伴提供数据平台和运动健康开放能力，开发者和合作伙伴可以基于多种类型数据，构建运动健康领域应用与服务。Health Kit 连接硬件设备与生态应用，为消费者提供健康关怀和运动指导，打造优质服务体验。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/health-introduce-0000001053684429"
+}

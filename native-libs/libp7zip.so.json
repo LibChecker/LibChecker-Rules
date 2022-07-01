@@ -1,0 +1,8 @@
+{
+    "label": "AndroidP7zip",
+    "team": "hzy3774",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "An Android compress and extract library, P7Zip port for Android.",
+    "relativeUrl": "https://github.com/hzy3774/AndroidP7zip"
+}
