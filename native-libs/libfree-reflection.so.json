@@ -1,0 +1,8 @@
+{
+    "label": "FreeReflection",
+    "team": "tiann",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "在 Android P 及以上版本中不受任何限制地使用反射。",
+    "relativeUrl": "https://github.com/tiann/FreeReflection"
+}

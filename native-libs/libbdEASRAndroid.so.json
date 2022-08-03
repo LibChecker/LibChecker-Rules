@@ -1,8 +1,8 @@
 {
-    "label": "DuMix",
+    "label": "语音识别 SDK",
     "team": "Baidu",
     "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "DuMix AR 平台是百度 AR 推出的 AR 技术产品化应用服务，帮助开发者快速集成 SDK，高效制作并分发 AR 内容。它包括 AR SDK、内容制作工具、云端内容平台和内容分发服务，组成了一站式 AR 开发集成解决方案。",
-    "relativeUrl": "https://github.com/baidu/ar-sdk/"
+    "contributors": ["yfdyh000"],
+    "description": "百度语音开放平台 Android SDK，提供短语音识别、实时语音识别、离线自定义命令词识别、远场语音识别、语音唤醒、语义解析与对话管理等相关接口。SDK内部均为采用流式协议，即用户边说边处理。区别于 Restapi 需要上传整个录音文件。",
+    "relativeUrl": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
 }

@@ -1,0 +1,8 @@
+{
+    "label": "Tesseract",
+    "team": "Tesseract",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Tesseract Open Source OCR Engine.",
+    "relativeUrl": "https://github.com/tesseract-ocr/tesseract"
+}

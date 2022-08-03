@@ -1,0 +1,8 @@
+{
+    "label": "AndroidLame",
+    "team": "naman14",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Android/Java wrapper around Lame mp3 encoder.",
+    "relativeUrl": "https://github.com/naman14/TAndroidLame"
+}

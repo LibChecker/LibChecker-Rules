@@ -1,0 +1,8 @@
+{
+    "label": "libmonochrome",
+    "team": "Chromium",
+    "iconUrl": "",
+    "contributors": ["lifansama"],
+    "description": "Monochrome's intent was to eliminate the duplication between the 32-bit Chrome and Webview libraries (most of the library is identical). In 32-bit Monochrome, a single combined library serves both Chrome and Webview needs. The 64-bit version adds an extra Webview-only library.",
+    "relativeUrl": "https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/android_native_libraries.md"
+}

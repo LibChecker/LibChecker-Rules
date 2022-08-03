@@ -1,0 +1,8 @@
+{
+    "label": "OpenAL",
+    "team": "Ubuntu MOTU Developers",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Software implementation of the OpenAL audio API",
+    "relativeUrl": "https://packages.ubuntu.com/kinetic/libopenal-dev"
+}

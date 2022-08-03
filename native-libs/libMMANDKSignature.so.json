@@ -2,7 +2,7 @@
     "label": "中国无线营销联盟通用 SDK",
     "team": "中国无线营销联盟",
     "iconUrl": "",
-    "contributors": ["ag2s20150909"],
+    "contributors": ["ag2s20150909", "ArthurCyy", "yfdyh000"],
     "description": "MMA(中国无线营销联盟)通用 SDK。以往，要监测 APP 中广告的曝光、点击等数据，需要加入第三方广告监测公司的 SDK，如果不同广告主使用了不同的第三方广告监测，需要加多个公司的监测 SDK，无疑增加了成本和风险。现在，只需添加一次 MMA(中国无线营销联盟)通用 SDK，即可满足所有 MMA 成员中所有第三方监测公司的监测需求，同时 SDK 内部的调用方法保持一致，也降低了开发成本。",
     "relativeUrl": "http://www.mmachina.cn/assets/mma_doc/index.html"
 }

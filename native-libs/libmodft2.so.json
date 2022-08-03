@@ -1,0 +1,8 @@
+{
+    "label": "Pdfium",
+    "team": "Pdfium",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Pdfium Android binding.",
+    "relativeUrl": "https://github.com/barteksc/PdfiumAndroid"
+}

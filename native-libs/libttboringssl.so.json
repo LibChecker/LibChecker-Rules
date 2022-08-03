@@ -1,0 +1,8 @@
+{
+    "label": "BoringSSL",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "BoringSSL 是 Google 在 OpenSSL 基础上派生出的一个原生库，在很多 Google 产品（最值得注意的是 Google Chrome）中和 Conscrypt 代码（Java 代码和原生代码）一起用于加密和传输层安全协议 (TLS)。BoringSSL 没有正式版本（所有用户都需要从头构建），并且无法保证 API 或 ABI 的稳定性。",
+    "relativeUrl": "https://boringssl.googlesource.com/boringssl/"
+}

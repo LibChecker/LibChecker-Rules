@@ -1,0 +1,8 @@
+{
+    "label": "LayaAir",
+    "team": "Layabox",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "LayaAir 是一个开源的 2D/3D 引擎，专为高性能游戏而设计。LayaAir 支持 TypeScript、JavaScript 和 ActionScript 3.0 编程语言。一次开发，多平台发布。",
+    "relativeUrl": "https://github.com/layabox/LayaAir"
+}

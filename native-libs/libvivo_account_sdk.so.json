@@ -1,0 +1,8 @@
+{
+    "label": "vivo 网游联运 SDK",
+    "team": "vivo",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "使用 vivo 账号统一登录，支付，并提供统一的实名认证服务。",
+    "relativeUrl": "https://dev.vivo.com.cn/documentCenter/doc/8"
+}

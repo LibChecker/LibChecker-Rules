@@ -1,0 +1,8 @@
+{
+    "label": "Xamarin",
+    "team": "Microsoft",
+    "iconUrl": "",
+    "contributors": ["ryank231231", "yfdyh000"],
+    "description": "Xamarin 是一个跨平台开发软件，通过使用 C# 共享的代码库，开发人员可以使用 Xamarin 工具，使用本地用户界面编写原生的 Android、iOS 和 Windows 应用程序，并跨多个平台（包括 Windows 和 MacOS）共享代码。",
+    "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
+}

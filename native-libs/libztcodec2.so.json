@@ -1,0 +1,8 @@
+{
+    "label": "阿里云语音服务 SDK（NLSClinet）",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "阿里云语音服务 SDK（NLSClinet），是运行于 android 平台的基础语音识别、自然语言理解和语音合成的基础服务。语音 Android SDK 提供一句话识别服务，提供将实时短语音转成文字的功能，可直接用于语音搜索类应用。",
+    "relativeUrl": "https://github.com/zhaobozhen/LibChecker-Rules/issues/313"
+}

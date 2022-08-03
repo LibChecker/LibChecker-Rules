@@ -1,0 +1,8 @@
+{
+    "label": "libp2p",
+    "team": "Protocol Labs",
+    "iconUrl": "",
+    "contributors": ["CreationWong"],
+    "description": "libp2p 是一个从 IPFS 项目中模块化出来的网络堆栈和库，并单独捆绑起来供其他工具使用的库。",
+    "relativeUrl": "https://github.com/libp2p/libp2p"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "aria2",
+    "team": "aria2",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "提供 aria2 的核心功能，包括对网络和下载的处理。",
+    "relativeUrl": "https://aria2.github.io/manual/en/html/libaria2.html"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "离线语音合成 SDK",
+    "team": "Baidu",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "百度语音开放平台。纯离线语音合成 SDK 可直接在设备终端进行语音合成，首次使用需要联网，其余时间均可以使用离线合成，为您提供稳定一致、流畅自然的合成体验。",
+    "relativeUrl": "https://cloud.baidu.com/doc/SPEECH/s/Qk4nwu25z"
+}

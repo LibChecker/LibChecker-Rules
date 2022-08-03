@@ -1,0 +1,8 @@
+{
+    "label": "Unity Mono",
+    "team": "Unity",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Mono 脚本后端，使用 JIT 技术在运行时按需编译代码。",
+    "relativeUrl": "https://docs.unity3d.com/cn/current/Manual/Mono.html"
+}

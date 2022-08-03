@@ -1,0 +1,8 @@
+{
+    "label": "Cardboard SDK",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "The open source Cardboard SDK allows you to build immersive cross-platform VR experiences for Android and iOS.",
+    "relativeUrl": "https://developers.google.com/cardboard"
+}

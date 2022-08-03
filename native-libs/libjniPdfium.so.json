@@ -1,0 +1,8 @@
+{
+    "label": "Pdfium",
+    "team": "Foxit, Google, barteksc",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Android view for displaying PDFs rendered with PdfiumAndroid.",
+    "relativeUrl": "https://github.com/barteksc/AndroidPdfViewer"
+}

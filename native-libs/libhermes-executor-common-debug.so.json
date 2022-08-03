@@ -1,0 +1,8 @@
+{
+    "label": "Hermes JS Engine",
+    "team": "Facebook",
+    "iconUrl": "",
+    "contributors": ["xyl23333", "ArthurCyy"],
+    "description": "Hermes 是一个为 React Native 应用程序的快速启动而优化的 JavaScript 引擎。它具有提前静态优化和紧凑的字节码。",
+    "relativeUrl": "https://github.com/facebook/hermes"
+}

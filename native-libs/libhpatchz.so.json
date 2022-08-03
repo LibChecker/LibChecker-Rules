@@ -1,0 +1,8 @@
+{
+    "label": "HDiffPatch",
+    "team": "sisong",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "A C\\C++ library and command-line tools for Diff & Patch between binary files or directories(folder). 一个高效的 diff/patch 实现。",
+    "relativeUrl": "https://github.com/sisong/HDiffPatch"
+}

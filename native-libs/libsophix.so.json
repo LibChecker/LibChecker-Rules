@@ -1,0 +1,8 @@
+{
+    "label": "阿里移动热修复",
+    "team": "Aliyun",
+    "iconUrl": "",
+    "contributors": ["dudukee"],
+    "description": "移动热修复（Mobile Hotfix）是面向Android、iOS 平台应用提供的在线热修复服务方案，产品基于阿里巴巴首创的 Hotpatch 技术，提供细粒度热修复能力，无需等待发版即可实时修复应用线上问题，用户全程无感知。",
+    "relativeUrl": "https://help.aliyun.com/document_detail/434525.html"
+}

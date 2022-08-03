@@ -1,0 +1,8 @@
+{
+    "label": "MACE",
+    "team": "Xiaomi",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "Mobile AI Compute Engine (MACE) 是一个专为移动端异构计算平台(支持 Android, iOS, Linux, Windows)优化的神经网络计算框架。",
+    "relativeUrl": "https://github.com/XiaoMi/mace"
+}

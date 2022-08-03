@@ -1,0 +1,8 @@
+{
+    "label": "Lofelt SDK",
+    "team": "Lofelt",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Lofelt Studio enables content creators to capitalize on the latest technologies for delivering powerful haptic effects. This suite of tools allows you to automatically generate haptic effects by performing detailed analysis of your audio files. You can avoid the painstaking process of manually programming rich and natural haptic experiences. And importantly, Lofelt Studio enables you to author haptic effects once and then use them on a wide variety of devices. There is no need to create different versions of haptic effects for devices with different capabilities.",
+    "relativeUrl": "https://developer.lofelt.com/integrating-haptics/studio-library-for-android/"
+}

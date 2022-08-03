@@ -1,0 +1,8 @@
+{
+    "label": "WebP",
+    "team": "Alexey Pelykh",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "WebP format support for Android < 4.0.",
+    "relativeUrl": "https://github.com/alexey-pelykh/webp-android-backport"
+}

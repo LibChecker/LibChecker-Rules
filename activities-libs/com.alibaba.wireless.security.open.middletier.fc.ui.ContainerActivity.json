@@ -2,7 +2,7 @@
     "label": "阿里聚安全",
     "team": "Alibaba",
     "iconUrl": "",
-    "contributors": ["Absinthe"],
+    "contributors": ["Absinthe", "ArthurCyy"],
     "description": "阿里聚安全是面向开发者，以移动应用安全为核心的开放平台。",
     "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
 }

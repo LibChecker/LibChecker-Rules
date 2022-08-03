@@ -1,0 +1,8 @@
+{
+    "label": "bspatch",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "bspatch library for applying delta patches.",
+    "relativeUrl": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/master/libbspatch.pc"
+}

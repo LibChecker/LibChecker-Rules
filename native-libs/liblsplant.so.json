@@ -1,0 +1,8 @@
+{
+    "label": "LSPlant",
+    "team": "LSPosed",
+    "iconUrl": "",
+    "contributors": ["Moriafly"],
+    "description": "Android 运行时 (ART) 的 Hook 框架。",
+    "relativeUrl": "https://github.com/LSPosed/LSPlant"
+}
