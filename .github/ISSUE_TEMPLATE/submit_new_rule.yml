@@ -1,7 +1,7 @@
 name: Submit new rule / 提交新的规则
 description: Create an issue and describe a library infomation. / 创建一个 issue 并描述库信息。
 labels: [New Rule]
-title: "[New Rule](Library label)"
+title: "[New Rule] (Library label)"
 body:
   - type: markdown
     attributes:
@@ -10,15 +10,15 @@ body:
         In order to avoid wasting each other's time, please fill in the information carefully.
   - type: input
     attributes:
-      label: Library name / 库名称
+      label: Library filename / 库文件名
       description: |
-        Fill in the library name here, for example: **libflutter.so**
-        这里填写库名称，例如：**libflutter.so**
+        Fill in the library filename, for example: **libflutter.so**
+        填写库的文件名称，例如：**libflutter.so**
     validations:
       required: true
   - type: input
     attributes:
-      label: Library label / 库标签
+      label: Library label / 库的文字标签
       description: |
         Fill in the library label here, for example: **Flutter**
         这里填写库标签，例如：**Flutter**
@@ -34,11 +34,18 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Library group / 库组
-      render: shell
+      label: Files & Comment / 同组文件 & 备注
       placeholder: |
-        Fill in other libraries belonging to the same SDK here, if the SDK only contains one .so file, you don't need to fill in
-        这里填写属于同一 SDK 的其它库，如果该 SDK 只包含一个 .so 文件则无需填写
+        Fill in other libraries belonging to the same SDK here, omit it if only one .so file. You can provide additional remarks here for validating SDK files.
+        填写属于同一 SDK 的其它库文件名，仅涉及一个 .so 文件则无需填写。也可以在这里提供额外的说明以帮助验证库文件为何归属某个 SDK。
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: In Apps / 出现于
+      description: |
+        Which applications include the library, for verification. Provide its version if necessary.
+        填写该库存在于哪些 APP，有助于验证。如有必要请提供版本号（例如存在于旧的/非正式版本）。
     validations:
       required: false
   - type: input
