@@ -2,7 +2,7 @@ comment: "This issue is closed because it does not meet our issue template. Plea
 issueConfigs:
 - content:
 # bug report
-  - "Library name"
+  - "Library filename"
   - "Library label"
   - "Library team"
   - "Library relative URL"
