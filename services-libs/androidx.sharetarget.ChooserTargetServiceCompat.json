@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack ShareTarget",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "提供向后兼容性，可以将快捷方式用作直接共享目标。",
+    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/sharetarget"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "APMInsight / 应用性能监控全链路版",
+    "team": "Volcengine (火山引擎)",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "应用性能监控全链路版是火山引擎提供的针对应用服务的品质、性能以及自定义埋点的 APM 服务。应用性能监控全链路版可帮助客户发现多类异常问题，并及时报警，做分配处理，同时平台提供了丰富的归因能力，包括且不限于堆栈分析、调度分析、维度分析、埋点分析、单点日志查询等，结合灵活的报表能力可了解各类指标的趋势变化。更多功能介绍，详见各子监控服务的功能模块说明。",
+    "relativeUrl": "https://github.com/volcengine/APMInsight_Android"
+}

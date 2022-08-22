@@ -1,0 +1,8 @@
+{
+    "label": "python-for-android",
+    "team": "kivy",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "python-for-android is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK or AAB along with your own code.",
+    "relativeUrl": "https://github.com/kivy/python-for-android"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "opencore-amr",
+    "team": "mstorsjo",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "Fraunhofer FDK AAC code from Android.",
+    "relativeUrl": "https://github.com/mstorsjo/fdk-aac"
+}

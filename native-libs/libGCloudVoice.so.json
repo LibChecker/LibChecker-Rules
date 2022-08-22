@@ -1,0 +1,8 @@
+{
+    "label": "游戏语音 GVoice",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "游戏语音（GVoice）全方位为游戏各应用场景提供语音服务，支持实时语音、语音消息、语音识别，范围语音等一系列功能。",
+    "relativeUrl": "https://gcloud.tencent.com/pages/products/gvoice.html"
+}

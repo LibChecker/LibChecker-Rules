@@ -1,0 +1,8 @@
+{
+    "label": "CZXing",
+    "team": "devilsen",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "C++ port of ZXing and ZBar for Android.",
+    "relativeUrl": "https://github.com/devilsen/CZXing"
+}

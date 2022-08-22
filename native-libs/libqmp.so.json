@@ -1,0 +1,8 @@
+{
+    "label": "Qimei SDK",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "提供终端设备的唯一标识 ID 体系服务，能精准的区分识别每一台终端设备，拥有海量的跨应用用户 ID 关系积累，以及实时的 ID 找回能力，应用于常规运营，结算场景。",
+    "relativeUrl": "https://beacon.tencent.com/"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "荣耀推送服务",
+    "team": "HONOR",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "荣耀推送服务（HONOR PUSH）是荣耀公司向开发者提供的消息推送服务，通过服务端与客户端建立一条稳定、可靠的长连接通道，向荣耀手机系统（Magic UI）上的 APP 应用客户端实时推送消息的服务。无论应用进程是否存在，均可正常收到消息。",
+    "relativeUrl": "https://developer.hihonor.com/cn/doc/guides/100220"
+}
