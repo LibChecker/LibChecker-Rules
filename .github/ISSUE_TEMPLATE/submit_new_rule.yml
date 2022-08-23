@@ -66,7 +66,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: Library relative URL
+      label: Library relative URL / 相关链接
       description: |
         Fill in the relevant links of the library here, first fill in the Github project address, followed by the official documents, **not other third-party links**
         这里填写库的相关链接，优先填写 Github 项目地址，其次为官方文档，**不可以是其他第三方链接**
