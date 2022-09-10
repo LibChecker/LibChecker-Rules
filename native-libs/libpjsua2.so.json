@@ -1,0 +1,8 @@
+{
+    "label": "PJSIP",
+    "team": "PJSIP",
+    "iconUrl": "",
+    "contributors": ["yfdyh000"],
+    "description": "PJSIP 是用 C 语言实现的自由开源多媒体通信库。它实现 SIP、SDP、RTP、Stun、Turn、Ice 等标准协议，将 SIP 协议与丰富的多媒体框架和 NAT 穿透功能整合到高层次 API，可移植适配台式机、嵌入式系统、手机等诸多系统。",
+    "relativeUrl": "https://trac.pjsip.org/repos/wiki/Getting-Started/Android"
+}

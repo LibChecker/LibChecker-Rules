@@ -1,0 +1,8 @@
+{
+    "label": "腾讯云直播 SDK",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "腾讯云视立方·直播 SDK 是音视频终端 SDK（腾讯云视立方）针对移动直播场景专属打造的一体化产品，集成了腾讯云直播的推 / 拉流、主播观众互动连麦、主播跨房 PK 等能力，为您提供高质量直播服务，快速满足手机直播的需求。",
+    "relativeUrl": "https://cloud.tencent.com/document/product/454"
+}

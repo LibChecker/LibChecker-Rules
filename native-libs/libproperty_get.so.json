@@ -1,0 +1,8 @@
+{
+    "label": "AntiFakerAndroidChecker",
+    "team": "happylishang",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "Android 模拟器检测，检测 Android 模拟器，作为可信 DeviceID，应对防刷需求等。",
+    "relativeUrl": "https://github.com/happylishang/AntiFakerAndroidChecker"
+}

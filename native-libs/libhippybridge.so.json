@@ -2,7 +2,7 @@
     "label": "Hippy",
     "team": "Tencent",
     "iconUrl": "",
-    "contributors": ["Absinthe"],
+    "contributors": ["Absinthe", "ArthurCyy"],
     "description": "Hippy 是一个新生的跨端开发框架，目标是使开发者可以只写一套代码就直接运行于三个平台（iOS、Android 和 Web）。",
     "relativeUrl": "https://github.com/Tencent/Hippy"
 }

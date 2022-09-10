@@ -1,0 +1,8 @@
+{
+    "label": "Android Beacon Library",
+    "team": "AltBeacon",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "An Android library providing APIs to interact with beacons.",
+    "relativeUrl": "https://github.com/AltBeacon/android-beacon-library"
+}

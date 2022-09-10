@@ -2,7 +2,7 @@
     "label": "mPaaS",
     "team": "Alibaba",
     "iconUrl": "",
-    "contributors": ["Absinthe", "yfdyh000"],
+    "contributors": ["Absinthe", "yfdyh000", "ArthurCyy"],
     "description": "移动开发平台（Mobile PaaS，简称 mPaaS）是源于支付宝 App 的移动开发平台，为移动开发、测试、运营及运维提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率，协助企业快速搭建稳定高质量的移动 App。",
     "relativeUrl": "https://help.aliyun.com/document_detail/49549.html"
 }

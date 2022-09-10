@@ -1,0 +1,8 @@
+{
+    "label": "腾讯灯塔 SDK",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "灯塔（beacon）SDK 由腾讯灯塔团队开发，用于移动应用统计分析。",
+    "relativeUrl": "https://beacon.tencent.com/"
+}
