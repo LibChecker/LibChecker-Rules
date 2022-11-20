@@ -1,0 +1,8 @@
+{
+    "label": "Pdfium",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["yfdyh000", "ArthurCyy"],
+    "description": "Pdfium Android binding.",
+    "relativeUrl": "https://android.googlesource.com/platform/external/pdfium/"
+}

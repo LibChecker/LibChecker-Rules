@@ -1,0 +1,8 @@
+{
+    "label": "ZAndrolua",
+    "team": "MGLSIDE",
+    "iconUrl": "",
+    "contributors": ["MGLSIDE"],
+    "description": "ZAndrolua+ 提供的访问操作系统 Posix API 的 luaC 库。",
+    "relativeUrl": "https://github.com/MGLSIDE/ZAndrolua"
+}

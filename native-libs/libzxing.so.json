@@ -1,0 +1,8 @@
+{
+    "label": "ZXing",
+    "team": "ZXing",
+    "iconUrl": "",
+    "contributors": ["Super12138"],
+    "description": "ZXing 是一个以 Java 实现的开源，多格式的 1D 和 2D 条形码映像处理库，其端口为其他语言。",
+    "relativeUrl": "https://github.com/zxing/zxing"
+}
