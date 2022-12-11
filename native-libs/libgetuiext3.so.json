@@ -2,7 +2,7 @@
     "label": "个推",
     "team": "个推",
     "iconUrl": "",
-    "contributors": ["Absinthe", "culat"],
-    "description": "个推是商用级的移动应用消息推送云服务解决方案，客户端 SDK 支持 Android 和 iOS 两大平台，云端支持丰富的网页端推送管理功能和多种语言版本的 API 开放接口。",
-    "relativeUrl": "http://docs.getui.com/getui/start/product/"
+    "contributors": ["Absinthe", "culat", "ArthurCyy"],
+    "description": "SDK 快速集成，免费注册使用。智能推送+场景推送，有效提升用户活跃度与粘性。",
+    "relativeUrl": "https://www.getui.com/push/"
 }

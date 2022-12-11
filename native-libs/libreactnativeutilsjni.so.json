@@ -1,0 +1,8 @@
+{
+    "label": "React Native App Utils",
+    "team": "Stumble App",
+    "iconUrl": "",
+    "contributors": ["Super12138"],
+    "description": "一个简单的 React-Native Utils 库，具有随机有用的功能。主要用于后台服务任务，例如通知 onReceive 事件。",
+    "relativeUrl": "https://github.com/stumbleapp/react-native-app-utils"
+}
