@@ -2,7 +2,7 @@
     "label": "React Native",
     "team": "Facebook",
     "iconUrl": "",
-    "contributors": ["su1216", "Absinthe", "ArthurCyy"],
+    "contributors": ["su1216", "Absinthe"],
     "description": "React Native 使你只使用 JavaScript 也能编写原生移动应用。 它在设计原理上和 React 一致，通过声明式的组件机制来搭建丰富多彩的用户界面。",
     "relativeUrl": "https://reactnative.dev/"
 }

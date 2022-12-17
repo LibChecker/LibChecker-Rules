@@ -1,8 +1,0 @@
-{
-    "label": "号码认证服务",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["yfdyh000", "ArthurCyy"],
-    "description": "号码认证服务（Phone Number Verification Service）整合三大运营商特有的网关认证能力，验证用户本机号码与输入号码或账号绑定号码的一致性，升级短信验证码体验，应用于用户注册、登录、安全校验等场景，实现无感知校验。",
-    "relativeUrl": "https://help.aliyun.com/product/75010.html"
-}

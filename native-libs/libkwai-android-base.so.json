@@ -1,8 +1,0 @@
-{
-    "label": "KOOM",
-    "team": "KwaiAppTeam",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy"],
-    "description": "KOOM(Kwai OOM, Kill OOM)是快手性能优化团队在处理移动端 OOM 问题的过程中沉淀出的一套完整解决方案。",
-    "relativeUrl": "https://github.com/KwaiAppTeam/KOOM"
-}

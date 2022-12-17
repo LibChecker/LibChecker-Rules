@@ -1,8 +1,8 @@
 {
     "label": "Pdfium",
-    "team": "Google",
+    "team": "Pdfium",
     "iconUrl": "",
-    "contributors": ["yfdyh000", "ArthurCyy"],
+    "contributors": ["yfdyh000"],
     "description": "Pdfium Android binding.",
-    "relativeUrl": "https://android.googlesource.com/platform/external/pdfium/"
+    "relativeUrl": "https://github.com/barteksc/PdfiumAndroid"
 }

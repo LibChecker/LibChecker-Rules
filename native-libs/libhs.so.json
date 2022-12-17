@@ -1,8 +1,0 @@
-{
-    "label": "Hyperscan",
-    "team": "Intel",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "Hyperscan is a high-performance multiple regex matching library. It follows the regular expression syntax of the commonly-used libpcre library, but is a standalone library with its own C API.接入后，能让您的 App 轻松拥有投屏与镜像能力，从而在满足用户需求的同时，也将您的内容分发上大屏。可广泛应用于通话，视频，音乐，直播，游戏，教育，办公等场景。",
-    "relativeUrl": "https://github.com/intel/hyperscan"
-}

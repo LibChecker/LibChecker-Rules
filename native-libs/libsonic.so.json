@@ -1,8 +1,0 @@
-{
-    "label": "Sonic",
-    "team": "waywardgeek",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "The Sonic library is a very simple ANSI C library that is designed to easily be integrated into streaming voice applications, like TTS back ends.",
-    "relativeUrl": "https://github.com/waywardgeek/sonic"
-}

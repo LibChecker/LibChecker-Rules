@@ -2,7 +2,7 @@
     "label": "Realm",
     "team": "Realm",
     "iconUrl": "",
-    "contributors": ["Absinthe", "HenryWu01"],
+    "contributors": ["Absinthe"],
     "description": "Realm 平台是一个用于跨平台应用程序的次世代数据层。Realm 是响应式的、并发的和轻量级的，它允许您使用实时的原生对象。使用 Realm 可使您的应用程序在信号较弱、脱机或中断的情况下无缝运行。",
     "relativeUrl": "https://github.com/realm/"
 }

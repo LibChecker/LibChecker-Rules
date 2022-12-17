@@ -1,8 +1,0 @@
-{
-    "label": "React Native",
-    "team": "Facebook",
-    "iconUrl": "",
-    "contributors": ["su1216", "Absinthe", "ArthurCyy"],
-    "description": "Reanimated is a React Native library that allows for creating smooth animations and interactions that run on the UI thread.",
-    "relativeUrl": "https://github.com/software-mansion/react-native-reanimated"
-}
