@@ -1,8 +1,8 @@
 {
-    "label": "腾讯云直播 SDK",
+    "label": " 人脸核身 SDK",
     "team": "Tencent",
     "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "腾讯云视立方·直播 SDK 是音视频终端 SDK（腾讯云视立方）针对移动直播场景专属打造的一体化产品，集成了腾讯云直播的推 / 拉流、主播观众互动连麦、主播跨房 PK 等能力，为您提供高质量直播服务，快速满足手机直播的需求。",
-    "relativeUrl": "https://cloud.tencent.com/document/product/454"
+    "contributors": ["ArthurCyy", "Absinthe"],
+    "description": "腾讯云慧眼人脸核身（原金融级身份证认证升级版）是一组对用户身份信息真实性进行验证审核的服务套件，提供各类认证功能模块，包含证件 OCR 识别、活体检测、人脸 1:1 对比等能力，以解决行业内大量对用户身份信息核实的需求，广泛应用于金融、运营商、共享出行等领域。",
+    "relativeUrl": "https://cloud.tencent.com/document/product/1007"
 }
