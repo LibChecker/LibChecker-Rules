@@ -1,0 +1,8 @@
+{
+    "label": "一键登录和本机号码校验",
+    "team": "Alibaba",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "号码认证服务，整合三大运营商网关认证能力，在用户无感知过程中实现基于手机号码一键完成登录或认证，升级传统短信验证方式，提升用户体验、提高注册转化率、保障业务流程安全； 通信授权服务，提供用户授权数据实时存证、查询和管理能力，授权过程可知可信可追溯，应用于短信、语音等业务场景。",
+    "relativeUrl": "https://help.aliyun.com/document_detail/362064.html"
+}

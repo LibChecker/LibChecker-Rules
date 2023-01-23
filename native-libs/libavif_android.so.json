@@ -1,0 +1,8 @@
+{
+    "label": "libavif",
+    "team": "Alliance for Open Media",
+    "iconUrl": "",
+    "contributors": ["yfdyh000", "HenryWu01"],
+    "description": "Library for encoding and decoding .avif files",
+    "relativeUrl": "https://github.com/AOMediaCodec/libavif"
+}
