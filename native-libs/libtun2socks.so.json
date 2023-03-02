@@ -1,0 +1,8 @@
+{
+    "label": "Tun2Socks",
+    "team": "Jason Lyu（xjasonlyu）",
+    "iconUrl": "",
+    "contributors": ["Super12138"],
+    "description": "Tun2Socks 是一个网络通信库，它可以处理来自当前设备的任意应用的所有网络流量，并通过 HTTP/Socks4/Socks5/Shadowsocks 远程连接，支持 Windows、macOS 等多平台，并且支持 IPv6，可以提供最佳的性能。",
+    "relativeUrl": "https://github.com/xjasonlyu/tun2socks"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "百度人脸识别",
+    "team": "Baidu",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "人脸离线识别 SDK，包含人脸采集、活体检测、人脸对比/识别、人脸库管理等能力，并全部离线化、本地化。",
+    "relativeUrl": "https://cloud.baidu.com/doc/FACE/s/pk37c1mqu"
+}
