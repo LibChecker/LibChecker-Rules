@@ -1,0 +1,32 @@
+name: Update database
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  db:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+      - uses: LibChecker/lc-add-rules@master
+        with:
+          db_path: cloud/rules/v3/rules.db
+          info_path: cloud/md5/v3
+      - name: Commit changes
+        shell: sh
+        run: |
+          set -eu
+          git add cloud/rules/v3/rules.db
+          git add cloud/md5/v3
+          if ! git diff --cached --quiet; then
+              git commit -m "Regenerate database"
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

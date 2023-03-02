@@ -1,0 +1,8 @@
+{
+    "label": "Rust",
+    "team": "Mozilla",
+    "iconUrl": "",
+    "contributors": ["MarkChan0225"],
+    "description": "Rust 的設計目標之一，是要使設計大型的網際網路客戶端和伺服器的任務變得更容易。因此更加強調安全性、記憶體組態、以及並行處理等方面的特性。",
+    "relativeUrl": "https://www.rust-lang.org/"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "HiAI Foundation",
+    "team": "HUAWEI",
+    "iconUrl": "",
+    "contributors": ["ArthurCyy"],
+    "description": "芯片能力开放，快速转化和迁移已有模型，借助异构调度和 NPU 加速，实现更佳性能、更低功耗。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
+}
