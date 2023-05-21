@@ -1,0 +1,8 @@
+{
+    "label": "TagLib",
+    "team": "TagLib",
+    "iconUrl": "",
+    "contributors": ["MarkChan0225"],
+    "description": "TagLib 是一个用于读取和编辑多种流行音频格式的元数据的库。 目前，它支持 MP3 文件的 ID3v1 和 ID3v2，FLAC、MPC、Speex、WavPack、TrueAudio、WAV、AIFF、MP4 和 ASF 文件中的 Ogg Vorbis 注释和 ID3 标签和 Vorbis 注释。",
+    "relativeUrl": "https://taglib.org/"
+}

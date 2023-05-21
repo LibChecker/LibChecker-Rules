@@ -1,0 +1,8 @@
+{
+    "label": "React Native Skia",
+    "team": "Shopify",
+    "iconUrl": "",
+    "contributors": ["Anormi"],
+    "description": "High-performance 2d Graphics for React Native using Skia.",
+    "relativeUrl": "https://github.com/Shopify/react-native-skia"
+}

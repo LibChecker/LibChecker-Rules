@@ -1,0 +1,8 @@
+{
+    "label": "Isar Database",
+    "team": "isar",
+    "iconUrl": "",
+    "contributors": ["Cierra-Runis"],
+    "description": "Isar 是一款专门为 Flutter 打造的支持全文检索、ACID 语义、类型静态的高可扩展性、异步多线程超高速、跨平台开源数据库。",
+    "relativeUrl": "https://github.com/isar/isar"
+}

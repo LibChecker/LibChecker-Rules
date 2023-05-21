@@ -1,0 +1,8 @@
+{
+    "label": "Breakpad",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["crrashh1542"],
+    "description": "Breakpad 是一组实现崩溃报告系统的客户端和服务器组件。",
+    "relativeUrl": "https://github.com/google/breakpad"
+}

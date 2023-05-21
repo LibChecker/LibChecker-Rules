@@ -1,0 +1,8 @@
+{
+    "label": "Gio",
+    "team": "Gio",
+    "iconUrl": "",
+    "contributors": ["Super12138"],
+    "description": "Gio是一个用于编写跨平台即时模式GUI的Go语言库。Gio支持所有主要平台：Linux、macOS、Windows、Android、iOS、FreeBSD、OpenBSD和WebAssembly。",
+    "relativeUrl": "https://gioui.org/"
+}
