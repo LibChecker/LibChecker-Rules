@@ -1,0 +1,8 @@
+{
+    "label": "libyaml",
+    "team": "yaml",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "YAML is a human-friendly data serialization language for all programming languages and LibYAML is a YAML parser and emitter library.",
+    "relativeUrl": "https://github.com/yaml/libyaml"
+}

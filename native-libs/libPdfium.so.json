@@ -1,0 +1,8 @@
+{
+    "label": "PDFium",
+    "team": "PDFium",
+    "iconUrl": "",
+    "contributors": ["Super12138"],
+    "description": "PDFium 是 Chrome 的 PDF 渲染引擎，并且是开源的。",
+    "relativeUrl": "https://pdfium.googlesource.com/pdfium/"
+}

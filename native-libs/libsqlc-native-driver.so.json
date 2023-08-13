@@ -1,0 +1,8 @@
+{
+    "label": "react-native-sqlite-storage",
+    "team": "Andrzej Porebski",
+    "iconUrl": "",
+    "contributors": ["chengyuhui"],
+    "description": "SQLite3 Native Plugin for React Native",
+    "relativeUrl": "https://github.com/andpor/react-native-sqlite-storage"
+}

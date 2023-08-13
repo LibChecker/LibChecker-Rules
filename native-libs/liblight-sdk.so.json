@@ -1,0 +1,8 @@
+{
+    "label": "腾讯特效 SDK",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "腾讯云视立方·腾讯特效（Tencent Effect）SDK 是音视频终端 SDK （腾讯云视立方）的重要组成部分，提供美颜特效功能。移动端/PC 端美颜特效基于优图精准的 AI 能力和天天 P 图丰富的实时特效处理，为各类视频处理场景提供丰富的产品能力。腾讯特效 SDK 支持与腾讯云视立方·直播 SDK 、短视频 SDK、音视频通话 SDK  等音视频终端产品集成，高效便捷，优势尤为明显。",
+    "relativeUrl": "https://cloud.tencent.com/document/product/616/65891"
+}

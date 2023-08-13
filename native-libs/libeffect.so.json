@@ -1,0 +1,8 @@
+{
+    "label": "CV SDK",
+    "team": "ByteDance",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "通过库的办法供给特效才能，在无用资源删去、无用代码去除、代码优化上有较大空间，实现了对用户拍摄好的视频内容进行编辑、添加特效等工作（如：TikTok 特效拍照），在支撑多功能用途的根底上尽量减小包的体积，提高代码的质量，完成代码功效与代码体积之间的平衡。",
+    "relativeUrl": "http://ailab-cv-sdk.bytedance.com/docs/2036/103109/"
+}

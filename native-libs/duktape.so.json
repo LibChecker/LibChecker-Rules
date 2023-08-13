@@ -1,8 +1,0 @@
-{
-    "label": "Duktape",
-    "team": "svaarala and others",
-    "iconUrl": "",
-    "contributors": ["watashibeme"],
-    "description": "Duktape - embeddable Javascript engine with a focus on portability and compact footprint.",
-    "relativeUrl": "https://github.com/svaarala/duktape"
-}

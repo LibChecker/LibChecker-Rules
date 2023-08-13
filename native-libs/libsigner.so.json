@@ -1,0 +1,8 @@
+{
+    "label": "Adjust SDK",
+    "team": "Adjust",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "通过 Adjust 安卓 SDK，您可以在自己的安卓应用中跟踪归因、事件及更多数据。",
+    "relativeUrl": "https://help.adjust.com/en/developer/android-sdk-documentation"
+}

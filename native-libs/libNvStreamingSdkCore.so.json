@@ -1,0 +1,8 @@
+{
+    "label": "美摄 SDK",
+    "team": "美摄",
+    "iconUrl": "",
+    "contributors": ["Xiaolangs"],
+    "description": "视频拍摄 & 编辑 SDK 基于完全自主研发的跨平台视音频处理引擎，支持 iOS、Android、Web、PC、智能硬件等，提供视频模板(一键成片 & 剪同款)、智能视频创作、美颜滤镜、特效贴纸、智能校色、人像分割等整体解决方案。拥有高效灵活、低消耗、易扩展特点，降低内容创作门槛和成本，为企业和开发者提供具有竞争力的智能视频生产能力。",
+    "relativeUrl": "https://www.meishesdk.com/editsdk"
+}

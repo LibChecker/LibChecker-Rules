@@ -1,0 +1,8 @@
+{
+    "label": "StackBlur",
+    "team": "Enrique López Mañas（kikoso）",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "Android StackBlur 是一个库，可以根据渐变（梯度）或半径对位图执行模糊效果（处理），并返回结果。该库基于 Mario Klingemann 的代码，兼容 Android 版本 1.5（几乎与每台设备兼容）。",
+    "relativeUrl": "https://github.com/kikoso/android-stackblur"
+}

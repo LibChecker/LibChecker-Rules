@@ -1,0 +1,8 @@
+{
+    "label": "OpenMobileMaps",
+    "team": "openmobilemaps.io",
+    "iconUrl": "",
+    "contributors": ["cwxiaoshutong"],
+    "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGl ES 3.2) and iOS (10+)",
+    "relativeUrl": "https://github.com/openmobilemaps/maps-core"
+}

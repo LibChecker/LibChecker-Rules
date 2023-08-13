@@ -1,0 +1,8 @@
+{
+    "label": "阿里云游戏盾",
+    "team": "Aliyun",
+    "iconUrl": "",
+    "contributors": ["4ft35t"],
+    "description": "游戏盾是通过封装登录器隐藏真实 IP，需要修改业务IP换成游戏盾 IP，然后在后台添加源 IP 和转发业务端口，玩家通过下载封装好的登录器进入游戏。是采用多机房集群部署模式，节点切换无感知，加密所有连接，实现 CC 零误封，避免源 IP 泄漏，免疫 CC 与 DDOS 攻击。",
+    "relativeUrl": "https://help.aliyun.com/document_detail/141197.html"
+}

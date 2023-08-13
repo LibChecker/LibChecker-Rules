@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Car",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Build navigation and point of interest apps for Android Auto and Android Automotive OS.",
+    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/car-app"
+}

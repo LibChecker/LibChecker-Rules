@@ -1,8 +1,8 @@
 {
-    "label": "Fresco",
-    "team": "Facebook",
+    "label": "GIFLIB",
+    "team": "GIFLIB",
     "iconUrl": "",
     "contributors": ["Absinthe"],
-    "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
-    "relativeUrl": "https://github.com/facebook/fresco/"
+    "description": "The GIFLIB project maintains the giflib service library, which has been pulling images out of GIFs since 1989. It is deployed everywhere you can think of and some places you probably can't - graphics applications and web browsers on multiple operating systems, game consoles, smartphones, and likely your ATM too.",
+    "relativeUrl": "https://giflib.sourceforge.net/"
 }

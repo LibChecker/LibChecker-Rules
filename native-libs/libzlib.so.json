@@ -1,8 +1,8 @@
 {
-    "label": "libzip",
-    "team": "nih-at",
+    "label": "zlib",
+    "team": "zlib",
     "iconUrl": "",
-    "contributors": ["d1y"],
-    "description": "libzip 是一个 C 库，用于读取，创建和修改 zip 档案。",
-    "relativeUrl": "https://github.com/nih-at/libzip"
+    "contributors": ["binx6"],
+    "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
+    "relativeUrl": "http://www.zlib.net/"
 }

@@ -1,0 +1,8 @@
+{
+    "label": "zipalign",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "zipalign 是一种 zip 归档文件对齐工具，有助于确保归档文件中的所有未压缩文件相对于文件开头对齐。这样一来，您便可直接通过 mmap(2) 访问这些文件，而无需在 RAM 中复制这些数据并减少了应用的内存用量，zipalign 使用了4字节的边界对齐方式来映射内存，通过空间换时间的方式提高执行效率。在将 APK 文件分发给最终用户之前，先使用 zipalign 进行优化。",
+    "relativeUrl": "https://developer.android.google.cn/tools/zipalign"
+}

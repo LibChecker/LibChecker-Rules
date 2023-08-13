@@ -1,0 +1,8 @@
+{
+    "label": "DexKit",
+    "team": "LuckyPray",
+    "iconUrl": "",
+    "contributors": ["Headog"],
+    "description": "一个使用 C++ 实现的 dex 高性能运行时解析库，用于查找被混淆的类、方法或者属性。",
+    "relativeUrl": "https://github.com/LuckyPray/DexKit"
+}
