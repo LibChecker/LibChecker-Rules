@@ -1,0 +1,58 @@
+name: Bug report / 错误规则报告
+description: Create a report to help us improve. / 创建报告以帮助我们改进。
+labels: [bug]
+title: "[Bug] (Library label)"
+body:
+  - type: input
+    attributes:
+      label: Current library filename / 现有库文件名
+      description: |
+        Fill in the library filename, for example: **libflutter.so**
+        填写库的文件名称，例如：**libflutter.so**
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Correct library label / 正确的库文字标签
+      description: |
+        Fill in the library label here, for example: **Flutter**
+        这里填写库标签，例如：**Flutter**
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Correct library team / 正确的库开发团队
+      description: |
+        Fill in the development team of the library here, for example: **Google**
+        这里填写库的开发团队，例如：**Google**
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Correct library icon / 正确的库图标
+      description: |
+        If there is a logo icon of the library, you can choose to provide it, **but it must be in SVG format**
+        如果有该库的 Logo 图标可以选择提供，**但必须为 SVG 格式**
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Correct library description / 正确的库描述
+      description: |
+        Fill in the introduction of the library here, it is best to excerpt from the official document
+        这里填写库的简介，最好在官方文档摘抄
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Library relative URL / 相关链接
+      description: |
+        Fill in the relevant links of the library here, first fill in the Github project address, followed by the official documents, **not other third-party links**
+        这里填写库的相关链接，优先填写 Github 项目地址，其次为官方文档，**不可以是其他第三方链接**
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comment / 备注
+    validations:
+      required: false
