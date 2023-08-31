@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Core",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Target the latest platform features and APIs while also supporting older devices.",
+    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/core"
+}

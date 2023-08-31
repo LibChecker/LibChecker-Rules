@@ -1,0 +1,8 @@
+{
+    "label": "libfuse",
+    "team": "libfuse",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel. The FUSE project consists of two components: the fuse kernel module (maintained in the regular kernel repositories) and the libfuse userspace library (maintained in this repository). libfuse provides the reference implementation for communicating with the FUSE kernel module. A FUSE file system is typically implemented as a standalone application that links with libfuse. libfuse provides functions to mount the file system, unmount it, read requests from the kernel, and send responses back. libfuse offers two APIs: a \"high-level\", synchronous API, and a \"low-level\" asynchronous API.",
+    "relativeUrl": "https://github.com/libfuse/libfuse"
+}

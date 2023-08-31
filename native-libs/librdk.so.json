@@ -1,0 +1,8 @@
+{
+    "label": "Foxit PDF SDK",
+    "team": "Foxit",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "Foxit PDF SDK for Android 致力于帮助开发人员快速将强大的 Foxit PDF 技术集成到他们自己的移动端应用程序中。通过 Foxit 开发包，即使是对 PDF 了解有限的开发人员也可以在 Android 平台上用几行代码快速构建一个专业的 PDF 阅读器。有关更多详细信息，可以访问网站https://developers.foxitsoftware.cn/pdf-sdk/。",
+    "relativeUrl": "https://developers.foxit.com/"
+}

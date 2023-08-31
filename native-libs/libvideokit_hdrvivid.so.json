@@ -1,0 +1,8 @@
+{
+    "label": "HMS Video Kit HDR Vivid",
+    "team": "HUAWEI",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "HDR Vivid视频处理服务提供HDR Vivid视频图像的OETF、Tonemapping、HDR2SDR等能力，助力您快速构建HDR Vivid视频的播放、分享特性，帮助您向用户提供HDR Vivid视频媒体体验。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/c-intro-0000001333121797"
+}
