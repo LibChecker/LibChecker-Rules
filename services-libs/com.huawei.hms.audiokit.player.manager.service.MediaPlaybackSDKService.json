@@ -1,0 +1,8 @@
+{
+    "label": "HMS Audio Kit",
+    "team": "Huawei",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "音频服务（Audio Kit）是华为公司在音频领域的能力集合，为您提供了基于 HMS Core 的音频播放能力，包括硬件及系统底层的音频编解码能力。",
+    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/introduction-0000001050749665"
+}

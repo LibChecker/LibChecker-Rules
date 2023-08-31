@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack AppCompat",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Allows access to new APIs on older API versions of the platform (many using Material Design).",
+    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/appcompat"
+}

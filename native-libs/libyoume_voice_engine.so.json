@@ -1,0 +1,8 @@
+{
+    "label": "Yoga",
+    "team": "Facebook",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Yoga 意在打造一个跨 iOS、Android、Windows 平台在内的布局引擎，兼容 Flexbox 布局方式，让界面布局更加简单。",
+    "relativeUrl": "https://github.com/facebook/yoga/"
+}

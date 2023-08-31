@@ -1,0 +1,8 @@
+{
+    "label": "SNPE SDK",
+    "team": "Qualcomm Snapdragon",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "The Snapdragon Neural Processing Engine (SNPE) is a Qualcomm Snapdragon software accelerated runtime for the execution of deep neural networks.",
+    "relativeUrl": "https://developer.qualcomm.com/sites/default/files/docs/snpe/overview.html"
+}

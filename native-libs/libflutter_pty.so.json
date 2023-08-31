@@ -1,0 +1,8 @@
+{
+    "label": "Flutter Pty",
+    "team": "TerminalStudio",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "这是一个带有实验性质的库，提供使用伪终端文件描述符创建进程的功能，以探索本机上的可能性代码来实现 PTY 与否；而不是去利用纯 FFI 和阻塞隔离的方式。预计它将比当前的实现，即（https://github.com/TerminalStudio/pty）更具稳定性。",
+    "relativeUrl": "https://github.com/TerminalStudio/flutter_pty"
+}

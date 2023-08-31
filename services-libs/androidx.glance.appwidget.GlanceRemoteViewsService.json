@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Glance",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Build layouts for remote surfaces using a Jetpack Compose-style API.",
+    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/glance"
+}
