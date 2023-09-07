@@ -1,0 +1,8 @@
+{
+    "label": "jsenv",
+    "team": "OpenAtom Foundation",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "快应用框架依赖的 JavaScript 运行环境。",
+    "relativeUrl": "https://atomgit.com/hapjs/jsenv"
+}
