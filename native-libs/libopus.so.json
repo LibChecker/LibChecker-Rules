@@ -3,6 +3,6 @@
     "team": "Xiph.Org",
     "iconUrl": "",
     "contributors": ["MeowHCO3"],
-    "description": "Opus 是用于通过网络进行交互式语音和音频传输的编解码器",
+    "description": "Opus 是用于通过网络进行交互式语音和音频传输的编解码器。",
     "relativeUrl": "https://gitlab.xiph.org/xiph/opus"
 }

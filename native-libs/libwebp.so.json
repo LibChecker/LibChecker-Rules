@@ -1,8 +1,8 @@
 {
-    "label": "Fresco",
-    "team": "Facebook",
+    "label": "WebP Codec",
+    "team": "WebM project",
     "iconUrl": "",
     "contributors": ["Absinthe"],
-    "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
-    "relativeUrl": "https://github.com/facebook/fresco/"
+    "description": "WebP codec is a library to encode and decode images in WebP format. This package contains the library that can be used in other programs to add WebP support, as well as the command line tools ‘cwebp’ and ‘dwebp’ to compress and decompress images respectively.",
+    "relativeUrl": "https://chromium.googlesource.com/webm/libwebp"
 }
