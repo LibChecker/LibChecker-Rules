@@ -1,0 +1,8 @@
+{
+    "label": "Mars",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "Mars 是微信官方的跨平台跨业务的终端基础组件。",
+    "relativeUrl": "https://github.com/Tencent/Mars/"
+}

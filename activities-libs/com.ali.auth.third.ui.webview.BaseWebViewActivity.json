@@ -1,8 +1,8 @@
 {
-    "label": "支付宝 SDK",
-    "team": "Alipay",
+    "label": "百川电商 SDK - 授权",
+    "team": "Alibaba",
     "iconUrl": "",
     "contributors": ["Absinthe"],
-    "description": "支付宝开放平台基于支付宝海量用户，将强大的支付、营销、数据能力，通过接口等形式开放给第三方合作伙伴，帮助第三方合作伙伴创建更具竞争力的应用。",
-    "relativeUrl": "https://opendocs.alipay.com/open/200/"
+    "description": "用户可将某些功能/能力同意给媒体使用，媒体可通过获取用户的授权，访问页面/API 等数据。",
+    "relativeUrl": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
 }
