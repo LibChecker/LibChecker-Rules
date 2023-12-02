@@ -1,0 +1,8 @@
+{
+    "label": "Google WOFF2",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["sebastien46"],
+    "description": "WOFF2 compression / decompression algorithm library implemented in C++.",
+    "relativeUrl": "https://github.com/google/woff2"
+}

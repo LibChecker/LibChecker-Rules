@@ -1,0 +1,8 @@
+{
+    "label": "Minilzo",
+    "team": "Oberhumer",
+    "iconUrl": "",
+    "contributors": ["moten-07"],
+    "description": "miniLZO is a very lightweight subset of the LZO library intended for easy inclusion with your application.",
+    "relativeUrl": "https://www.oberhumer.com/opensource/lzo/#minilzo"
+}

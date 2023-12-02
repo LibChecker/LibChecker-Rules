@@ -1,0 +1,8 @@
+{
+    "label": "RootBeer",
+    "team": "Scott Alexander-Bown",
+    "iconUrl": "",
+    "contributors": ["sebastien46"],
+    "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... Has this device got root?",
+    "relativeUrl": "https://github.com/scottyab/rootbeer"
+}

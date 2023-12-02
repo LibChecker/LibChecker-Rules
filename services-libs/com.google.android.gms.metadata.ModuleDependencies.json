@@ -1,0 +1,8 @@
+{
+    "label": "Google Play Legacy Photo Picker",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["sebastien46"],
+    "description": "Older devices that run Android 4.4 (API level 19) through Android 10 (API level 29) and Android Go devices running Android 11 or 12 that support Google Play services can install a backported version of the photo picker.",
+    "relativeUrl": "https://developer.android.com/training/data-storage/shared/photopicker#device-availability"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "腾讯游戏 MSDK",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["makazeu"],
+    "description": "MSDK，全称 Multi-platform Game Software Development Kit 是腾讯游戏公共组件和服务库平台，由增值服务部&公共数据平台部开发。为腾讯研发、发行的海内外游戏产品（移动、PC、主机平台）提供包括账号服务、好友关系链等必要增值服务能力接入。",
+    "relativeUrl": "https://docs.itop.qq.com/"
+}
