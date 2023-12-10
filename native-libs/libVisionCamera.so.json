@@ -1,0 +1,8 @@
+{
+    "label": "React Native Reanimated",
+    "team": "mrousavy",
+    "iconUrl": "",
+    "contributors": ["mrousavy"],
+    "description": "VisionCamera is a powerful Camera library React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
+    "relativeUrl": "https://github.com/mrousavy/react-native-vision-camera"
+}
