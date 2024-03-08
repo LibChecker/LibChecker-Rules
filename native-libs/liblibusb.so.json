@@ -1,0 +1,8 @@
+{
+    "label": "libusb",
+    "team": "libusb",
+    "iconUrl": "",
+    "contributors": ["brooks-xzy"],
+    "description": "A cross-platform library to access USB devices.",
+    "relativeUrl": "https://github.com/libusb/libusb"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "hsynz",
+    "team": "sisong",
+    "iconUrl": "",
+    "contributors": ["zf1234d"],
+    "description": "hsynz 是一个用使用同步算法来进行增量更新的库，类似于 zsync。 通过http(s)实现rsync；在客户端实现同步算法，服务器端只需要提供http(s)的CDN。支持zstd和zlib压缩，支持大文件和目录(文件夹)，支持多线程。",
+    "relativeUrl": "https://github.com/sisong/hsynz"
+}

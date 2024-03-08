@@ -1,0 +1,8 @@
+{
+    "label": "librtlsdr",
+    "team": "librtlsdr",
+    "iconUrl": "",
+    "contributors": ["brooks-xzy"],
+    "description": "Software to turn the RTL2832U into an SDR.",
+    "relativeUrl": "https://github.com/steve-m/librtlsdr"
+}
