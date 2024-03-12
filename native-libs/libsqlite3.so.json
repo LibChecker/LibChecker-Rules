@@ -1,8 +1,31 @@
 {
-    "label": "SQLite",
-    "team": "SQLite",
-    "iconUrl": "",
-    "contributors": ["kotori2", "yfdyh000"],
-    "description": "SQLite 是遵守 ACID 的关系数据库管理系统，它包含在一个相对小的 C 程序库中。与许多其它数据库管理系统不同， SQLite 不是一个客户端/服务器结构的数据库引擎，而是被集成在用户程序中。 SQLite 遵守 ACID ，实现了大多数 SQL 标准。它使用动态的、弱类型的 SQL 语法。",
-    "relativeUrl": "https://www.sqlite.org/docs.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "SQLite",
+                "dev_team": "SQLite",
+                "rule_contributors": [
+                    "kotori2",
+                    "yfdyh000"
+                ],
+                "description": "SQLite 是遵守 ACID 的关系数据库管理系统，它包含在一个相对小的 C 程序库中。与许多其它数据库管理系统不同， SQLite 不是一个客户端/服务器结构的数据库引擎，而是被集成在用户程序中。 SQLite 遵守 ACID ，实现了大多数 SQL 标准。它使用动态的、弱类型的 SQL 语法。",
+                "source_link": "https://www.sqlite.org/docs.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "SQLite",
+                "dev_team": "SQLite",
+                "rule_contributors": [
+                    "kotori2",
+                    "yfdyh000"
+                ],
+                "description": "SQLite 是遵守 ACID 的关系数据库管理系统，它包含在一个相对小的 C 程序库中。与许多其它数据库管理系统不同， SQLite 不是一个客户端/服务器结构的数据库引擎，而是被集成在用户程序中。 SQLite 遵守 ACID ，实现了大多数 SQL 标准。它使用动态的、弱类型的 SQL 语法。",
+                "source_link": "https://www.sqlite.org/docs.html"
+            }
+        }
+    ],
+    "uuid": "1C0C7127-15F6-4ABF-932F-0409CFA4B235"
 }

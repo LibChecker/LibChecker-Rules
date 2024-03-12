@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Xpref",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个 SharedPreferences 的包装器，真正支持跨多进程共享数据。",
+                "source_link": "https://github.com/bilibili/xpref"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Xpref",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个 SharedPreferences 的包装器，真正支持跨多进程共享数据。",
+                "source_link": "https://github.com/bilibili/xpref"
+            }
+        }
+    ],
+    "uuid": "747FD7A4-6BBE-43F5-83ED-F4AA541C6601"
+}

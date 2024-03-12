@@ -1,8 +1,29 @@
 {
-    "label": "Unity Mono",
-    "team": "Unity",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Mono 脚本后端，使用 JIT 技术在运行时按需编译代码。",
-    "relativeUrl": "https://docs.unity3d.com/cn/current/Manual/Mono.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Unity Mono",
+                "dev_team": "Unity",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Mono 脚本后端，使用 JIT 技术在运行时按需编译代码。",
+                "source_link": "https://docs.unity3d.com/cn/current/Manual/Mono.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Unity Mono",
+                "dev_team": "Unity",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Mono 脚本后端，使用 JIT 技术在运行时按需编译代码。",
+                "source_link": "https://docs.unity3d.com/cn/current/Manual/Mono.html"
+            }
+        }
+    ],
+    "uuid": "DEA72298-C9F0-444D-8AD1-53A5F2BDF006"
 }

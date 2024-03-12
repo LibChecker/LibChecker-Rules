@@ -1,8 +1,29 @@
 {
-    "label": "Megazord",
-    "team": "Mozilla",
-    "iconUrl": "",
-    "contributors": ["bolucat"],
-    "description": "Megazord 将多个 Rust 组件打包为单一的 .so 文件，以减少代码体积并增加易用性。",
-    "relativeUrl": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Megazord",
+                "dev_team": "Mozilla",
+                "rule_contributors": [
+                    "bolucat"
+                ],
+                "description": "Megazord 将多个 Rust 组件打包为单一的 .so 文件，以减少代码体积并增加易用性。",
+                "source_link": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Megazord",
+                "dev_team": "Mozilla",
+                "rule_contributors": [
+                    "bolucat"
+                ],
+                "description": "Megazord 将多个 Rust 组件打包为单一的 .so 文件，以减少代码体积并增加易用性。",
+                "source_link": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
+            }
+        }
+    ],
+    "uuid": "B30AE591-CE42-491A-AC9D-11B8E43E2EE6"
 }

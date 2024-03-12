@@ -1,8 +1,29 @@
 {
-    "label": "Speex",
-    "team": "Xiph.Org Foundation",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Speex is an Open Source/Free Software patent-free audio compression format designed for speech. The Speex Project aims to lower the barrier of entry for voice applications by providing a free alternative to expensive proprietary speech codecs. Moreover, Speex is well-adapted to Internet applications and provides useful features that are not present in most other codecs. Finally, Speex is part of the GNU Project and is available under the revised BSD license.",
-    "relativeUrl": "https://www.speex.org/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Speex",
+                "dev_team": "Xiph.Org Foundation",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Speex is an Open Source/Free Software patent-free audio compression format designed for speech. The Speex Project aims to lower the barrier of entry for voice applications by providing a free alternative to expensive proprietary speech codecs. Moreover, Speex is well-adapted to Internet applications and provides useful features that are not present in most other codecs. Finally, Speex is part of the GNU Project and is available under the revised BSD license.",
+                "source_link": "https://www.speex.org/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Speex",
+                "dev_team": "Xiph.Org Foundation",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Speex is an Open Source/Free Software patent-free audio compression format designed for speech. The Speex Project aims to lower the barrier of entry for voice applications by providing a free alternative to expensive proprietary speech codecs. Moreover, Speex is well-adapted to Internet applications and provides useful features that are not present in most other codecs. Finally, Speex is part of the GNU Project and is available under the revised BSD license.",
+                "source_link": "https://www.speex.org/"
+            }
+        }
+    ],
+    "uuid": "32AE99F0-176D-4129-BFE8-00B28058ED2C"
 }

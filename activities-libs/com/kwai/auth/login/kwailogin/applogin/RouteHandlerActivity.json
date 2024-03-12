@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "快手开放平台",
+                "dev_team": "快手",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "致力于将快手在短视频和直播领域积累的技术能力与资源开放给广大开发者们，以合作互惠的方式共建快手生态。",
+                "source_link": "https://open.kuaishou.com/platform/openApi?menu=11"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "快手开放平台",
+                "dev_team": "快手",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "致力于将快手在短视频和直播领域积累的技术能力与资源开放给广大开发者们，以合作互惠的方式共建快手生态。",
+                "source_link": "https://open.kuaishou.com/platform/openApi?menu=11"
+            }
+        }
+    ],
+    "uuid": "F381AD7D-A1BF-4241-9AA6-2D9CE6504B14"
+}

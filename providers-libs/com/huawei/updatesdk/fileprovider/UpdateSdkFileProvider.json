@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HMS Update",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "用于应用自升级。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-2-Guides/hmssdk_huaweipush_devprepare_agent/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HMS Update",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "用于应用自升级。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-2-Guides/hmssdk_huaweipush_devprepare_agent/"
+            }
+        }
+    ],
+    "uuid": "90565FE6-999B-42E5-BDEE-A140F89497F6"
+}

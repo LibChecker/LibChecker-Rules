@@ -1,8 +1,0 @@
-{
-    "label": "小米应用检查更新 SDK",
-    "team": "Xiaomi",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "小米应用检查更新 SDK 帮助您的用户尽快获得最新版本的应用，轻松增加【应用检查更新】的功能，通过小米应用商店的 CDN 服务，快速的把最新版应用推送给用户。",
-    "relativeUrl": "https://dev.mi.com/console/doc/detail?pId=4/"
-}

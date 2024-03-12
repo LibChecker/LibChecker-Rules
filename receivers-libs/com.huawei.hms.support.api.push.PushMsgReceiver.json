@@ -1,8 +1,0 @@
-{
-    "label": "Huawei Push",
-    "team": "Huawei",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "华为推送服务（HUAWEI Push Kit）是华为为开发者提供的消息推送平台，建立了从云端到终端的消息推送通道。开发者通过集成 HUAWEI Push Kit 可以实时推送消息到用户终端应用，构筑良好的用户关系，提升用户的感知度和活跃度。",
-    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/push-introduction/"
-}

@@ -1,8 +1,29 @@
 {
-    "label": "EasyProtector",
-    "team": "lamster2018",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "一行代码检测 XP/调试/多开/模拟器/root。",
-    "relativeUrl": "https://github.com/lamster2018/EasyProtector"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "EasyProtector",
+                "dev_team": "lamster2018",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "一行代码检测 XP/调试/多开/模拟器/root。",
+                "source_link": "https://github.com/lamster2018/EasyProtector"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "EasyProtector",
+                "dev_team": "lamster2018",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "一行代码检测 XP/调试/多开/模拟器/root。",
+                "source_link": "https://github.com/lamster2018/EasyProtector"
+            }
+        }
+    ],
+    "uuid": "321E12B3-92AD-437A-8D83-22E3700106DD"
 }

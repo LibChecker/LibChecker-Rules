@@ -1,8 +1,29 @@
 {
-    "label": "AndroidP7zip",
-    "team": "hzy3774",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "An Android compress and extract library, P7Zip port for Android.",
-    "relativeUrl": "https://github.com/hzy3774/AndroidP7zip"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndroidP7zip",
+                "dev_team": "hzy3774",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "An Android compress and extract library, P7Zip port for Android.",
+                "source_link": "https://github.com/hzy3774/AndroidP7zip"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndroidP7zip",
+                "dev_team": "hzy3774",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "An Android compress and extract library, P7Zip port for Android.",
+                "source_link": "https://github.com/hzy3774/AndroidP7zip"
+            }
+        }
+    ],
+    "uuid": "ACC7D227-058A-4272-BF1F-EA73E7A61D8F"
 }

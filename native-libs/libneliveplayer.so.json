@@ -1,8 +1,31 @@
 {
-    "label": "网易云信",
-    "team": "Netease",
-    "iconUrl": "",
-    "contributors": ["culat", "MattFirefly"],
-    "description": "网易云信致力于互联网络技术的开发与研究，使开发者通过简单集成客户端 SDK 和云端开放 API，快速实现强大的移动互联网 IM 和音视频功能。",
-    "relativeUrl": "https://yunxin.163.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "网易云信",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "culat",
+                    "MattFirefly"
+                ],
+                "description": "网易云信致力于互联网络技术的开发与研究，使开发者通过简单集成客户端 SDK 和云端开放 API，快速实现强大的移动互联网 IM 和音视频功能。",
+                "source_link": "https://yunxin.163.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "网易云信",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "culat",
+                    "MattFirefly"
+                ],
+                "description": "网易云信致力于互联网络技术的开发与研究，使开发者通过简单集成客户端 SDK 和云端开放 API，快速实现强大的移动互联网 IM 和音视频功能。",
+                "source_link": "https://yunxin.163.com/"
+            }
+        }
+    ],
+    "uuid": "9C3CF6AF-0121-4E22-AEC6-74CA75C0F78A"
 }

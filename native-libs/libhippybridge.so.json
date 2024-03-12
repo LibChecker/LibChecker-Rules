@@ -1,8 +1,31 @@
 {
-    "label": "Hippy",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy"],
-    "description": "Hippy 是一个新生的跨端开发框架，目标是使开发者可以只写一套代码就直接运行于三个平台（iOS、Android 和 Web）。",
-    "relativeUrl": "https://github.com/Tencent/Hippy"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Hippy",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "Hippy 是一个新生的跨端开发框架，目标是使开发者可以只写一套代码就直接运行于三个平台（iOS、Android 和 Web）。",
+                "source_link": "https://github.com/Tencent/Hippy"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Hippy",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "Hippy 是一个新生的跨端开发框架，目标是使开发者可以只写一套代码就直接运行于三个平台（iOS、Android 和 Web）。",
+                "source_link": "https://github.com/Tencent/Hippy"
+            }
+        }
+    ],
+    "uuid": "F7EDEC1B-0583-40E8-87B2-0F36CF2FB2AE"
 }

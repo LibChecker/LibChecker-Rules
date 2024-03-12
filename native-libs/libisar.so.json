@@ -1,8 +1,29 @@
 {
-    "label": "Isar Database",
-    "team": "isar",
-    "iconUrl": "",
-    "contributors": ["Cierra-Runis"],
-    "description": "Isar 是一款专门为 Flutter 打造的支持全文检索、ACID 语义、类型静态的高可扩展性、异步多线程超高速、跨平台开源数据库。",
-    "relativeUrl": "https://github.com/isar/isar"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Isar Database",
+                "dev_team": "isar",
+                "rule_contributors": [
+                    "Cierra-Runis"
+                ],
+                "description": "Isar 是一款专门为 Flutter 打造的支持全文检索、ACID 语义、类型静态的高可扩展性、异步多线程超高速、跨平台开源数据库。",
+                "source_link": "https://github.com/isar/isar"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Isar Database",
+                "dev_team": "isar",
+                "rule_contributors": [
+                    "Cierra-Runis"
+                ],
+                "description": "Isar 是一款专门为 Flutter 打造的支持全文检索、ACID 语义、类型静态的高可扩展性、异步多线程超高速、跨平台开源数据库。",
+                "source_link": "https://github.com/isar/isar"
+            }
+        }
+    ],
+    "uuid": "990B401F-AD96-4AC8-B21B-FF5228BF3B06"
 }

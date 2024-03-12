@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Media",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "与其他应用共享媒体内容和控件。已被 media2 取代。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Media",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "与其他应用共享媒体内容和控件。已被 media2 取代。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
+            }
+        }
+    ],
+    "uuid": "A71F8A7D-AFC4-46D6-BAFE-B17D5D129DFD"
+}

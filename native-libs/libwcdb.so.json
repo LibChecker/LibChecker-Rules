@@ -1,8 +1,29 @@
 {
-    "label": "WCDB",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "WCDB 是一个高效、完整、易用的移动数据库框架，基于 SQLCipher，支持 iOS, macOS 和 Android。",
-    "relativeUrl": "https://github.com/Tencent/wcdb/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "WCDB",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "WCDB 是一个高效、完整、易用的移动数据库框架，基于 SQLCipher，支持 iOS, macOS 和 Android。",
+                "source_link": "https://github.com/Tencent/wcdb/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "WCDB",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "WCDB 是一个高效、完整、易用的移动数据库框架，基于 SQLCipher，支持 iOS, macOS 和 Android。",
+                "source_link": "https://github.com/Tencent/wcdb/"
+            }
+        }
+    ],
+    "uuid": "A3D30556-15BA-4C00-92CB-06600F1C5909"
 }

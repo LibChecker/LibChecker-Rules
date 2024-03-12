@@ -1,8 +1,29 @@
 {
-    "label": "顶象无感验证 SDK",
-    "team": "顶象",
-    "iconUrl": "",
-    "contributors": ["culat"],
-    "description": "顶象无感验证结合了设备指纹、行为特征、访问频率、地理位置等多项技术，有效的拦截恶意登录、批量注册，阻断机器操作，拦截非正常用户。",
-    "relativeUrl": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "顶象无感验证 SDK",
+                "dev_team": "顶象",
+                "rule_contributors": [
+                    "culat"
+                ],
+                "description": "顶象无感验证结合了设备指纹、行为特征、访问频率、地理位置等多项技术，有效的拦截恶意登录、批量注册，阻断机器操作，拦截非正常用户。",
+                "source_link": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "顶象无感验证 SDK",
+                "dev_team": "顶象",
+                "rule_contributors": [
+                    "culat"
+                ],
+                "description": "顶象无感验证结合了设备指纹、行为特征、访问频率、地理位置等多项技术，有效的拦截恶意登录、批量注册，阻断机器操作，拦截非正常用户。",
+                "source_link": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+            }
+        }
+    ],
+    "uuid": "00670C76-5F4A-45B2-8103-DA8611DD50A0"
 }

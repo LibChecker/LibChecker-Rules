@@ -1,8 +1,29 @@
 {
-    "label": "NativeAudio",
-    "team": "Unity Technologies",
-    "iconUrl": "",
-    "contributors": ["Hacker-yfs"],
-    "description": "This repository hosts the official Unity Native Audio Plugin SDK. It is a standard Unity project that comes with prebuilt plugin effects and custom GUIs for OSX and Windows. Full source code for all plugin effects is provided, both for the native code (Xcode/VisualStudio C++ projects code in the NativeCode folder) as well as the custom GUIs (MonoDevelop project in the GUICode folder).",
-    "relativeUrl": "https://github.com/Unity-Technologies/NativeAudioPlugins"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "NativeAudio",
+                "dev_team": "Unity Technologies",
+                "rule_contributors": [
+                    "Hacker-yfs"
+                ],
+                "description": "This repository hosts the official Unity Native Audio Plugin SDK. It is a standard Unity project that comes with prebuilt plugin effects and custom GUIs for OSX and Windows. Full source code for all plugin effects is provided, both for the native code (Xcode/VisualStudio C++ projects code in the NativeCode folder) as well as the custom GUIs (MonoDevelop project in the GUICode folder).",
+                "source_link": "https://github.com/Unity-Technologies/NativeAudioPlugins"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "NativeAudio",
+                "dev_team": "Unity Technologies",
+                "rule_contributors": [
+                    "Hacker-yfs"
+                ],
+                "description": "This repository hosts the official Unity Native Audio Plugin SDK. It is a standard Unity project that comes with prebuilt plugin effects and custom GUIs for OSX and Windows. Full source code for all plugin effects is provided, both for the native code (Xcode/VisualStudio C++ projects code in the NativeCode folder) as well as the custom GUIs (MonoDevelop project in the GUICode folder).",
+                "source_link": "https://github.com/Unity-Technologies/NativeAudioPlugins"
+            }
+        }
+    ],
+    "uuid": "7FFE81B1-B407-4E2C-A596-0B61439C8F68"
 }

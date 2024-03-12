@@ -1,8 +1,29 @@
 {
-    "label": "SoundTouch",
-    "team": "Olli Parviainen",
-    "iconUrl": "",
-    "contributors": ["crrashh1542"],
-    "description": "SoundTouch 是开源音频处理库，用于更改音频流或音频文件的节奏、音调和播放速度，以及较准确地估计音轨的 BPM。",
-    "relativeUrl": "http://www.surina.net/soundtouch/README-SoundTouch-Android.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "SoundTouch",
+                "dev_team": "Olli Parviainen",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "SoundTouch 是开源音频处理库，用于更改音频流或音频文件的节奏、音调和播放速度，以及较准确地估计音轨的 BPM。",
+                "source_link": "http://www.surina.net/soundtouch/README-SoundTouch-Android.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "SoundTouch",
+                "dev_team": "Olli Parviainen",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "SoundTouch 是开源音频处理库，用于更改音频流或音频文件的节奏、音调和播放速度，以及较准确地估计音轨的 BPM。",
+                "source_link": "http://www.surina.net/soundtouch/README-SoundTouch-Android.html"
+            }
+        }
+    ],
+    "uuid": "6384A38E-37B0-4E7A-9425-E85335723780"
 }

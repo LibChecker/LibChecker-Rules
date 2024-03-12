@@ -1,8 +1,29 @@
 {
-    "label": "Torrent library for java",
-    "team": "Alden Torres",
-    "iconUrl": "",
-    "contributors": ["watwhat"],
-    "description": "libtorrent for java, a swig Java interface for libtorrent.",
-    "relativeUrl": "https://github.com/aldenml/libtorrent4j"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Torrent library for java",
+                "dev_team": "Alden Torres",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "libtorrent for java, a swig Java interface for libtorrent.",
+                "source_link": "https://github.com/aldenml/libtorrent4j"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Torrent library for java",
+                "dev_team": "Alden Torres",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "libtorrent for java, a swig Java interface for libtorrent.",
+                "source_link": "https://github.com/aldenml/libtorrent4j"
+            }
+        }
+    ],
+    "uuid": "D8459B8A-96A2-43AA-930D-EF1EB61E9413"
 }

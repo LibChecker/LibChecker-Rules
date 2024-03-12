@@ -1,8 +1,29 @@
 {
-    "label": "UniRapidJson",
-    "team": "takezoh",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "UniRapidJSON is RapidJSON wrapper for Unity.",
-    "relativeUrl": "https://github.com/takezoh/UniRapidJson"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "UniRapidJson",
+                "dev_team": "takezoh",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "UniRapidJSON is RapidJSON wrapper for Unity.",
+                "source_link": "https://github.com/takezoh/UniRapidJson"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "UniRapidJson",
+                "dev_team": "takezoh",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "UniRapidJSON is RapidJSON wrapper for Unity.",
+                "source_link": "https://github.com/takezoh/UniRapidJson"
+            }
+        }
+    ],
+    "uuid": "A01020C3-DC89-4A2D-BF16-4555010E57D7"
 }

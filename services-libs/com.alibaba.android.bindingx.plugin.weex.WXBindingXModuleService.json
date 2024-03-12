@@ -1,8 +1,0 @@
-{
-    "label": "Weex",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Weex 致力于使开发者能基于通用跨平台的 Web 开发语言和开发经验，来构建 Android、iOS 和 Web 应用。简单来说，在集成了 WeexSDK 之后，你可以使用 JavaScript 语言和前端开发经验来开发移动应用。",
-    "relativeUrl": "https://weex.apache.org/"
-}

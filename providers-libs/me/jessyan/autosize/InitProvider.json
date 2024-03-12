@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndroidAutoSize",
+                "dev_team": "JessYanCoding",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案。",
+                "source_link": "https://github.com/JessYanCoding/AndroidAutoSize"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndroidAutoSize",
+                "dev_team": "JessYanCoding",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案。",
+                "source_link": "https://github.com/JessYanCoding/AndroidAutoSize"
+            }
+        }
+    ],
+    "uuid": "F50B9838-9F52-46BF-AB88-FA6101B9D27F"
+}

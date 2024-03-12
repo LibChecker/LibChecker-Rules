@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "DataFinder",
+                "dev_team": "Volcengine",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "基于灵活高效的分析模型，发现用户行为数据的价值，进而转化为促进增长的行动。",
+                "source_link": "https://www.volcengine.com/product/datafinder"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DataFinder",
+                "dev_team": "Volcengine",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "基于灵活高效的分析模型，发现用户行为数据的价值，进而转化为促进增长的行动。",
+                "source_link": "https://www.volcengine.com/product/datafinder"
+            }
+        }
+    ],
+    "uuid": "D876CF90-7507-41B2-BAC1-87AC7063E45C"
+}

@@ -1,8 +1,29 @@
 {
-    "label": "ncnn",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["ArchieMeng"],
-    "description": "ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。",
-    "relativeUrl": "https://github.com/Tencent/ncnn"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ncnn",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArchieMeng"
+                ],
+                "description": "ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。",
+                "source_link": "https://github.com/Tencent/ncnn"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ncnn",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArchieMeng"
+                ],
+                "description": "ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。",
+                "source_link": "https://github.com/Tencent/ncnn"
+            }
+        }
+    ],
+    "uuid": "3B354D22-BE6D-4DB3-9956-EABC72AC7789"
 }

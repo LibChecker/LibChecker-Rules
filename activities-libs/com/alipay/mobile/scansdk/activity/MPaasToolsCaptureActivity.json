@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "mPaaS 扫一扫",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "扫一扫（Scan）是 mPaaS 提供的扫码组件，源于支付宝的扫码能力。该组件秉承了支付宝精准、快速的扫码能力，能够迅速识别出条形码并准确地获得条码中的信息。",
+                "source_link": "https://help.aliyun.com/document_detail/52599.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "mPaaS 扫一扫",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "扫一扫（Scan）是 mPaaS 提供的扫码组件，源于支付宝的扫码能力。该组件秉承了支付宝精准、快速的扫码能力，能够迅速识别出条形码并准确地获得条码中的信息。",
+                "source_link": "https://help.aliyun.com/document_detail/52599.html"
+            }
+        }
+    ],
+    "uuid": "8848C2EE-9A94-43DB-84FA-DBF80C6A57DB"
+}

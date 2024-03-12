@@ -1,8 +1,29 @@
 {
-    "label": "libyaml",
-    "team": "yaml",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "YAML is a human-friendly data serialization language for all programming languages and LibYAML is a YAML parser and emitter library.",
-    "relativeUrl": "https://github.com/yaml/libyaml"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libyaml",
+                "dev_team": "yaml",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "YAML is a human-friendly data serialization language for all programming languages and LibYAML is a YAML parser and emitter library.",
+                "source_link": "https://github.com/yaml/libyaml"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libyaml",
+                "dev_team": "yaml",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "YAML is a human-friendly data serialization language for all programming languages and LibYAML is a YAML parser and emitter library.",
+                "source_link": "https://github.com/yaml/libyaml"
+            }
+        }
+    ],
+    "uuid": "162BDF1E-65A4-4B7B-8795-9249A031A441"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "腾讯灯塔 SDK",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "灯塔（beacon）SDK 由腾讯灯塔团队开发，用于移动应用统计分析。",
-    "relativeUrl": "https://beacon.tencent.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯灯塔 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "灯塔（beacon）SDK 由腾讯灯塔团队开发，用于移动应用统计分析。",
+                "source_link": "https://beacon.tencent.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯灯塔 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "灯塔（beacon）SDK 由腾讯灯塔团队开发，用于移动应用统计分析。",
+                "source_link": "https://beacon.tencent.com/"
+            }
+        }
+    ],
+    "uuid": "1272C69F-B7DB-4CEF-A509-827110BEB08E"
 }

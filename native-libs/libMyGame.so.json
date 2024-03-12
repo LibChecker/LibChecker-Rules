@@ -1,8 +1,29 @@
 {
-    "label": "cocos2d-x",
-    "team": "cocos2d",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Cocos2d-x 是一款国产的开源的手机游戏开发框架，基于MIT许可证发布。引擎核心采用C++编写，提供C++、Lua、JavaScript 三种编程语言接口，跨平台支持 iOS、Android 等智能手机，Windows、Mac 等桌面操作系统，以及 Chrome, Safari, IE 等 HTML5 浏览器。Cocos2d-x 引擎被广泛用于开发制作手机游戏、儿童教育软件、网络多媒体UI解决方案等交互性的图形化应用。Cocos2d-x 的主要优势是跨平台、高性能、高兼容性、可热更新、可定制及易用性。",
-    "relativeUrl": "https://github.com/cocos2d/creator_to_cocos2dx/blob/32aae979263570c2fc69c9074519e59a501326b6/README.md#header-search-path"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "cocos2d-x",
+                "dev_team": "cocos2d",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Cocos2d-x 是一款国产的开源的手机游戏开发框架，基于MIT许可证发布。引擎核心采用C++编写，提供C++、Lua、JavaScript 三种编程语言接口，跨平台支持 iOS、Android 等智能手机，Windows、Mac 等桌面操作系统，以及 Chrome, Safari, IE 等 HTML5 浏览器。Cocos2d-x 引擎被广泛用于开发制作手机游戏、儿童教育软件、网络多媒体UI解决方案等交互性的图形化应用。Cocos2d-x 的主要优势是跨平台、高性能、高兼容性、可热更新、可定制及易用性。",
+                "source_link": "https://github.com/cocos2d/creator_to_cocos2dx/blob/32aae979263570c2fc69c9074519e59a501326b6/README.md#header-search-path"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "cocos2d-x",
+                "dev_team": "cocos2d",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Cocos2d-x 是一款国产的开源的手机游戏开发框架，基于MIT许可证发布。引擎核心采用C++编写，提供C++、Lua、JavaScript 三种编程语言接口，跨平台支持 iOS、Android 等智能手机，Windows、Mac 等桌面操作系统，以及 Chrome, Safari, IE 等 HTML5 浏览器。Cocos2d-x 引擎被广泛用于开发制作手机游戏、儿童教育软件、网络多媒体UI解决方案等交互性的图形化应用。Cocos2d-x 的主要优势是跨平台、高性能、高兼容性、可热更新、可定制及易用性。",
+                "source_link": "https://github.com/cocos2d/creator_to_cocos2dx/blob/32aae979263570c2fc69c9074519e59a501326b6/README.md#header-search-path"
+            }
+        }
+    ],
+    "uuid": "F53F4149-0DFA-4CD1-A5A0-6B6112332B63"
 }

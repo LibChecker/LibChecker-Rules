@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack Media",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "与其他应用共享媒体内容和控件。已被 media2 取代。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/media/"
-}

@@ -1,8 +1,33 @@
 {
-    "label": "KOOM",
-    "team": "KwaiAppTeam",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy", "binx6"],
-    "description": "KOOM(Kwai OOM, Kill OOM)是快手性能优化团队在处理移动端 OOM 问题的过程中沉淀出的一套完整解决方案。",
-    "relativeUrl": "https://github.com/KwaiAppTeam/KOOM"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "KOOM",
+                "dev_team": "KwaiAppTeam",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy",
+                    "binx6"
+                ],
+                "description": "KOOM(Kwai OOM, Kill OOM)是快手性能优化团队在处理移动端 OOM 问题的过程中沉淀出的一套完整解决方案。",
+                "source_link": "https://github.com/KwaiAppTeam/KOOM"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "KOOM",
+                "dev_team": "KwaiAppTeam",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy",
+                    "binx6"
+                ],
+                "description": "KOOM(Kwai OOM, Kill OOM)是快手性能优化团队在处理移动端 OOM 问题的过程中沉淀出的一套完整解决方案。",
+                "source_link": "https://github.com/KwaiAppTeam/KOOM"
+            }
+        }
+    ],
+    "uuid": "18E020F8-BBAD-4598-A785-2C242B811AEE"
 }

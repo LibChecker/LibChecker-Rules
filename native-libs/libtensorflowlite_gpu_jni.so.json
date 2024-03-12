@@ -1,8 +1,31 @@
 {
-    "label": "TensorFlow Lite",
-    "team": "TensorFlow",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy"],
-    "description": "TensorFlow Lite 是一组工具，可帮助开发者在移动设备、嵌入式设备和 IoT 设备上运行 TensorFlow 模型。它支持设备端机器学习推断，延迟较低，并且二进制文件很小。",
-    "relativeUrl": "https://www.tensorflow.org/lite"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TensorFlow Lite",
+                "dev_team": "TensorFlow",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "TensorFlow Lite 是一组工具，可帮助开发者在移动设备、嵌入式设备和 IoT 设备上运行 TensorFlow 模型。它支持设备端机器学习推断，延迟较低，并且二进制文件很小。",
+                "source_link": "https://www.tensorflow.org/lite"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TensorFlow Lite",
+                "dev_team": "TensorFlow",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "TensorFlow Lite 是一组工具，可帮助开发者在移动设备、嵌入式设备和 IoT 设备上运行 TensorFlow 模型。它支持设备端机器学习推断，延迟较低，并且二进制文件很小。",
+                "source_link": "https://www.tensorflow.org/lite"
+            }
+        }
+    ],
+    "uuid": "8A32C25F-C130-4CAE-A840-49FD4D75E232"
 }

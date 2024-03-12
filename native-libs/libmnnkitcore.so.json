@@ -1,8 +1,35 @@
 {
-    "label": "MNN",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["nullptr-leo", "Absinthe", "yfdyh000", "binx6"],
-    "description": "MNN 是一个高效、轻量的深度学习框架。它支持深度模型推理与训练，尤其在端侧的推理与训练性能在业界处于领先地位。",
-    "relativeUrl": "https://github.com/alibaba/MNN"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MNN",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "nullptr-leo",
+                    "Absinthe",
+                    "yfdyh000",
+                    "binx6"
+                ],
+                "description": "MNN 是一个高效、轻量的深度学习框架。它支持深度模型推理与训练，尤其在端侧的推理与训练性能在业界处于领先地位。",
+                "source_link": "https://github.com/alibaba/MNN"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MNN",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "nullptr-leo",
+                    "Absinthe",
+                    "yfdyh000",
+                    "binx6"
+                ],
+                "description": "MNN 是一个高效、轻量的深度学习框架。它支持深度模型推理与训练，尤其在端侧的推理与训练性能在业界处于领先地位。",
+                "source_link": "https://github.com/alibaba/MNN"
+            }
+        }
+    ],
+    "uuid": "B53DAF77-92C3-467B-BE30-27D22AFEAFA7"
 }

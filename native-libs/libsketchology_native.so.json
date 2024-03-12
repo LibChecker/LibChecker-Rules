@@ -1,8 +1,29 @@
 {
-    "label": "Google Ink (Sketchology)",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "Ink is a software library enabling Google applications to let their users express themselves using freehand drawing and handwriting",
-    "relativeUrl": "https://chromium.googlesource.com/chromium/src/+/refs/tags/73.0.3660.2/third_party/ink/sketchology"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google Ink (Sketchology)",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "Ink is a software library enabling Google applications to let their users express themselves using freehand drawing and handwriting",
+                "source_link": "https://chromium.googlesource.com/chromium/src/+/refs/tags/73.0.3660.2/third_party/ink/sketchology"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Ink (Sketchology)",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "Ink is a software library enabling Google applications to let their users express themselves using freehand drawing and handwriting",
+                "source_link": "https://chromium.googlesource.com/chromium/src/+/refs/tags/73.0.3660.2/third_party/ink/sketchology"
+            }
+        }
+    ],
+    "uuid": "C21B6781-45B9-4DB9-BF12-C27479D7346E"
 }

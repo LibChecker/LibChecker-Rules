@@ -1,8 +1,29 @@
 {
-    "label": "WebP Codec",
-    "team": "WebM project",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "WebP codec is a library to encode and decode images in WebP format. This package contains the library that can be used in other programs to add WebP support, as well as the command line tools ‘cwebp’ and ‘dwebp’ to compress and decompress images respectively.",
-    "relativeUrl": "https://chromium.googlesource.com/webm/libwebp"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "WebP Codec",
+                "dev_team": "WebM project",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "WebP codec is a library to encode and decode images in WebP format. This package contains the library that can be used in other programs to add WebP support, as well as the command line tools ‘cwebp’ and ‘dwebp’ to compress and decompress images respectively.",
+                "source_link": "https://chromium.googlesource.com/webm/libwebp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "WebP Codec",
+                "dev_team": "WebM project",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "WebP codec is a library to encode and decode images in WebP format. This package contains the library that can be used in other programs to add WebP support, as well as the command line tools ‘cwebp’ and ‘dwebp’ to compress and decompress images respectively.",
+                "source_link": "https://chromium.googlesource.com/webm/libwebp"
+            }
+        }
+    ],
+    "uuid": "D306D2C6-CBE3-4211-967B-C9430CD4A9CA"
 }

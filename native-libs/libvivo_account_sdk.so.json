@@ -1,8 +1,29 @@
 {
-    "label": "vivo 网游联运 SDK",
-    "team": "vivo",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "使用 vivo 账号统一登录，支付，并提供统一的实名认证服务。",
-    "relativeUrl": "https://dev.vivo.com.cn/documentCenter/doc/8"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "vivo 网游联运 SDK",
+                "dev_team": "vivo",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "使用 vivo 账号统一登录，支付，并提供统一的实名认证服务。",
+                "source_link": "https://dev.vivo.com.cn/documentCenter/doc/8"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "vivo 网游联运 SDK",
+                "dev_team": "vivo",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "使用 vivo 账号统一登录，支付，并提供统一的实名认证服务。",
+                "source_link": "https://dev.vivo.com.cn/documentCenter/doc/8"
+            }
+        }
+    ],
+    "uuid": "3B221A67-D50B-46A5-BD8C-FA01456C21DD"
 }

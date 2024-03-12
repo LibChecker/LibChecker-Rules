@@ -1,8 +1,29 @@
 {
-    "label": "GME",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["lgc2333"],
-    "description": "游戏多媒体引擎（Game Multimedia Engine）是一个专门针对游戏场景定制的实时游戏音视频 SDK，覆盖了休闲社交类、MOBA 类、MMORPG 等多种游戏类型，提供了包括多人实时语音、实时视频、语音消息、语音转文本等功能。功能完备，接入门槛低，一个 SDK 即可满足多样化的游戏音视频诉求。",
-    "relativeUrl": "https://github.com/TencentMediaLab/GME"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "GME",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "游戏多媒体引擎（Game Multimedia Engine）是一个专门针对游戏场景定制的实时游戏音视频 SDK，覆盖了休闲社交类、MOBA 类、MMORPG 等多种游戏类型，提供了包括多人实时语音、实时视频、语音消息、语音转文本等功能。功能完备，接入门槛低，一个 SDK 即可满足多样化的游戏音视频诉求。",
+                "source_link": "https://github.com/TencentMediaLab/GME"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "GME",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "游戏多媒体引擎（Game Multimedia Engine）是一个专门针对游戏场景定制的实时游戏音视频 SDK，覆盖了休闲社交类、MOBA 类、MMORPG 等多种游戏类型，提供了包括多人实时语音、实时视频、语音消息、语音转文本等功能。功能完备，接入门槛低，一个 SDK 即可满足多样化的游戏音视频诉求。",
+                "source_link": "https://github.com/TencentMediaLab/GME"
+            }
+        }
+    ],
+    "uuid": "24CC86AC-C4FC-412C-BA85-244CB9F0C02D"
 }

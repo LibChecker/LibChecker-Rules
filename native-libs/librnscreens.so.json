@@ -1,8 +1,29 @@
 {
-    "label": "React Native Screens",
-    "team": "Software Mansion",
-    "iconUrl": "",
-    "contributors": ["crrashh1542"],
-    "description": "React Native Screens 旨在为 React Native 暴露原生的导航容器组件，它目前只能作为 React Navigation 的依赖库而无法独立使用。",
-    "relativeUrl": "https://github.com/software-mansion/react-native-screens"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "React Native Screens",
+                "dev_team": "Software Mansion",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "React Native Screens 旨在为 React Native 暴露原生的导航容器组件，它目前只能作为 React Navigation 的依赖库而无法独立使用。",
+                "source_link": "https://github.com/software-mansion/react-native-screens"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "React Native Screens",
+                "dev_team": "Software Mansion",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "React Native Screens 旨在为 React Native 暴露原生的导航容器组件，它目前只能作为 React Navigation 的依赖库而无法独立使用。",
+                "source_link": "https://github.com/software-mansion/react-native-screens"
+            }
+        }
+    ],
+    "uuid": "9B5C90D9-CAB3-4CAB-9409-141EE1AB46FF"
 }

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "File Provider",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "FileProvider 是 ContentProvider 的特殊子类，它通过创建 content://Uri 代替 file:///Uri 以促进安全分享与应用程序关联的文件。",
+                "source_link": "https://developer.android.com/reference/androidx/core/content/FileProvider/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "File Provider",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "FileProvider 是 ContentProvider 的特殊子类，它通过创建 content://Uri 代替 file:///Uri 以促进安全分享与应用程序关联的文件。",
+                "source_link": "https://developer.android.com/reference/androidx/core/content/FileProvider/"
+            }
+        }
+    ],
+    "uuid": "7B1DA564-ADCF-437B-891E-203CBFF847BE"
+}

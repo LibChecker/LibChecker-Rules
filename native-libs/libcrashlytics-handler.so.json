@@ -1,8 +1,29 @@
 {
-    "label": "Crashlytics",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Crashlytics 是 Firebase 的主要崩溃报告工具。将众多崩溃整理成一个方便管理的问题列表，从而缩短问题排查时间。在 Crashlytics 信息中心内查看问题对用户造成的影响，从而清楚合理地确定应当首先解决哪些问题。",
-    "relativeUrl": "https://firebase.google.com/docs/crashlytics/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Crashlytics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Crashlytics 是 Firebase 的主要崩溃报告工具。将众多崩溃整理成一个方便管理的问题列表，从而缩短问题排查时间。在 Crashlytics 信息中心内查看问题对用户造成的影响，从而清楚合理地确定应当首先解决哪些问题。",
+                "source_link": "https://firebase.google.com/docs/crashlytics/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Crashlytics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Crashlytics 是 Firebase 的主要崩溃报告工具。将众多崩溃整理成一个方便管理的问题列表，从而缩短问题排查时间。在 Crashlytics 信息中心内查看问题对用户造成的影响，从而清楚合理地确定应当首先解决哪些问题。",
+                "source_link": "https://firebase.google.com/docs/crashlytics/"
+            }
+        }
+    ],
+    "uuid": "D1F309E4-8334-4A1D-BE05-1216D07AC420"
 }

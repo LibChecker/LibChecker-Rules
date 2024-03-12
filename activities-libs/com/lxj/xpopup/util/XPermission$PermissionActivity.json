@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "XPopup",
+                "dev_team": "li-xiaojun",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "内置几种了常用的弹窗，十几种良好的动画，将弹窗和动画的自定义设计的极其简单。",
+                "source_link": "https://github.com/li-xiaojun/XPopup"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "XPopup",
+                "dev_team": "li-xiaojun",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "内置几种了常用的弹窗，十几种良好的动画，将弹窗和动画的自定义设计的极其简单。",
+                "source_link": "https://github.com/li-xiaojun/XPopup"
+            }
+        }
+    ],
+    "uuid": "48EDA1EA-9320-4CEE-8E18-6E4258E565D0"
+}

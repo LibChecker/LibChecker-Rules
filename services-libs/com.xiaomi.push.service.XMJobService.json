@@ -1,8 +1,0 @@
-{
-    "label": "MiPush",
-    "team": "Xiaomi",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
-    "relativeUrl": "https://dev.mi.com/console/appservice/push.html/"
-}

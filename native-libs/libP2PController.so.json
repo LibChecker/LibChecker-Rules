@@ -1,8 +1,29 @@
 {
-    "label": "MobileIMSDK",
-    "team": "JackJiang",
-    "iconUrl": "",
-    "contributors": ["huo20102836shui"],
-    "description": "一套专为移动端开发的原创 IM 通信层框架。",
-    "relativeUrl": "https://github.com/JackJiang2011/MobileIMSDK"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MobileIMSDK",
+                "dev_team": "JackJiang",
+                "rule_contributors": [
+                    "huo20102836shui"
+                ],
+                "description": "一套专为移动端开发的原创 IM 通信层框架。",
+                "source_link": "https://github.com/JackJiang2011/MobileIMSDK"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MobileIMSDK",
+                "dev_team": "JackJiang",
+                "rule_contributors": [
+                    "huo20102836shui"
+                ],
+                "description": "一套专为移动端开发的原创 IM 通信层框架。",
+                "source_link": "https://github.com/JackJiang2011/MobileIMSDK"
+            }
+        }
+    ],
+    "uuid": "ADDF0B59-1355-4B43-AC19-109A80BAC28A"
 }

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FlutterBoost",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "新一代 Flutter-Native 混合解决方案。FlutterBoost 是一个 Flutter 插件，它可以轻松地为现有原生应用程序提供 Flutter 混合集成方案。FlutterBoost 的理念是将 Flutter 像 Webview 那样来使用。在现有应用程序中同时管理 Native 页面和 Flutter 页面并非易事。FlutterBoost 帮你处理页面的映射和跳转，你只需关心页面的名字和参数即可（通常可以是 URL）。",
+                "source_link": "https://github.com/alibaba/flutter_boost"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FlutterBoost",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "新一代 Flutter-Native 混合解决方案。FlutterBoost 是一个 Flutter 插件，它可以轻松地为现有原生应用程序提供 Flutter 混合集成方案。FlutterBoost 的理念是将 Flutter 像 Webview 那样来使用。在现有应用程序中同时管理 Native 页面和 Flutter 页面并非易事。FlutterBoost 帮你处理页面的映射和跳转，你只需关心页面的名字和参数即可（通常可以是 URL）。",
+                "source_link": "https://github.com/alibaba/flutter_boost"
+            }
+        }
+    ],
+    "uuid": "BC4E048D-F5F3-43D0-9826-6F198312457F"
+}

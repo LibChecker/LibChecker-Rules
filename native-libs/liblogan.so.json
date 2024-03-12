@@ -1,8 +1,29 @@
 {
-    "label": "Logan",
-    "team": "Meituan-Dianping",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Logan 是美团点评集团推出的大前端日志系统。名称是 Log 和 An 的组合，代表个体日志服务，同时也是金刚狼大叔的大名。",
-    "relativeUrl": "https://github.com/Meituan-Dianping/Logan"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Logan",
+                "dev_team": "Meituan-Dianping",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Logan 是美团点评集团推出的大前端日志系统。名称是 Log 和 An 的组合，代表个体日志服务，同时也是金刚狼大叔的大名。",
+                "source_link": "https://github.com/Meituan-Dianping/Logan"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Logan",
+                "dev_team": "Meituan-Dianping",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Logan 是美团点评集团推出的大前端日志系统。名称是 Log 和 An 的组合，代表个体日志服务，同时也是金刚狼大叔的大名。",
+                "source_link": "https://github.com/Meituan-Dianping/Logan"
+            }
+        }
+    ],
+    "uuid": "4C9B1408-8139-4BE2-AAD9-CAEA666E3E3B"
 }

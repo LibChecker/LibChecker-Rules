@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "CodeLocator",
+                "dev_team": "ByteDance",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "CodeLocator是一个包含Android SDK 与 Android Studio插件的Android工具集。",
+                "source_link": "https://github.com/bytedance/CodeLocator"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "CodeLocator",
+                "dev_team": "ByteDance",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "CodeLocator是一个包含Android SDK 与 Android Studio插件的Android工具集。",
+                "source_link": "https://github.com/bytedance/CodeLocator"
+            }
+        }
+    ],
+    "uuid": "FED839E5-84EE-48F1-9EE0-8ED7EBF5006F"
+}

@@ -1,8 +1,29 @@
 {
-    "label": "imebra",
-    "team": "imebra.com",
-    "iconUrl": "",
-    "contributors": ["KennethYo"],
-    "description": "Imebra DICOM C++ Library Connecting your medical devices.",
-    "relativeUrl": "https://imebra.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "imebra",
+                "dev_team": "imebra.com",
+                "rule_contributors": [
+                    "KennethYo"
+                ],
+                "description": "Imebra DICOM C++ Library Connecting your medical devices.",
+                "source_link": "https://imebra.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "imebra",
+                "dev_team": "imebra.com",
+                "rule_contributors": [
+                    "KennethYo"
+                ],
+                "description": "Imebra DICOM C++ Library Connecting your medical devices.",
+                "source_link": "https://imebra.com/"
+            }
+        }
+    ],
+    "uuid": "B334257F-BB1F-4C47-86C4-E6DABD0DD94A"
 }

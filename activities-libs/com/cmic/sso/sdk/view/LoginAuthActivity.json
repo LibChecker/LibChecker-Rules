@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "移动号码认证",
+                "dev_team": "中国移动",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "号码认证能力提供一键登录、本机号码校验服务。",
+                "source_link": "https://dev.10086.cn/docInside?contentId=10000067529678"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "移动号码认证",
+                "dev_team": "中国移动",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "号码认证能力提供一键登录、本机号码校验服务。",
+                "source_link": "https://dev.10086.cn/docInside?contentId=10000067529678"
+            }
+        }
+    ],
+    "uuid": "8DB2576B-2109-4C16-8065-A7CD7EE17A73"
+}

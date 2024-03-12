@@ -1,8 +1,29 @@
 {
-    "label": "Mapbox GL Native",
-    "team": "Mapbox",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL.",
-    "relativeUrl": "https://github.com/mapbox/mapbox-gl-native"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Mapbox GL Native",
+                "dev_team": "Mapbox",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL.",
+                "source_link": "https://github.com/mapbox/mapbox-gl-native"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Mapbox GL Native",
+                "dev_team": "Mapbox",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL.",
+                "source_link": "https://github.com/mapbox/mapbox-gl-native"
+            }
+        }
+    ],
+    "uuid": "DB3D7BC0-5A5F-481D-B29E-87B5F642855F"
 }

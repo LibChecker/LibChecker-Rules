@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "友盟推送",
+                "dev_team": "Umeng",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "基于友盟+全域数据建立精准的消息推送平台，为开发者提供更灵活、更智能、更有效的消息推送方案，有效提升用户粘性，提高 App 活跃度。",
+                "source_link": "https://developer.umeng.com/docs/67966/cate/67966/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "友盟推送",
+                "dev_team": "Umeng",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "基于友盟+全域数据建立精准的消息推送平台，为开发者提供更灵活、更智能、更有效的消息推送方案，有效提升用户粘性，提高 App 活跃度。",
+                "source_link": "https://developer.umeng.com/docs/67966/cate/67966/"
+            }
+        }
+    ],
+    "uuid": "2DE0FA14-7F76-43EE-9EA0-72AA91298712"
+}

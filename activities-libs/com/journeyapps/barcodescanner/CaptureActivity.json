@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ZXing Android Embedded",
+                "dev_team": "JourneyApps",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Barcode scanning library for Android, using ZXing for decoding.",
+                "source_link": "https://github.com/journeyapps/zxing-android-embedded"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ZXing Android Embedded",
+                "dev_team": "JourneyApps",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Barcode scanning library for Android, using ZXing for decoding.",
+                "source_link": "https://github.com/journeyapps/zxing-android-embedded"
+            }
+        }
+    ],
+    "uuid": "9B662043-8617-46F1-A04E-4B647DA08D47"
+}

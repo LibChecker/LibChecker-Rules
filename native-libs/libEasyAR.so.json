@@ -1,8 +1,29 @@
 {
-    "label": "EasyAR",
-    "team": "视辰信息科技（上海）有限公司",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "EasyAR SDK 是AR（Augmented Reality，增强现实）引擎。",
-    "relativeUrl": "http://help.easyar.cn/EasyAR%20Sense/v2/Getting%20Started/Setting-up-EasyAR-Android-SDK.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "EasyAR",
+                "dev_team": "视辰信息科技（上海）有限公司",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "EasyAR SDK 是AR（Augmented Reality，增强现实）引擎。",
+                "source_link": "http://help.easyar.cn/EasyAR%20Sense/v2/Getting%20Started/Setting-up-EasyAR-Android-SDK.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "EasyAR",
+                "dev_team": "视辰信息科技（上海）有限公司",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "EasyAR SDK 是AR（Augmented Reality，增强现实）引擎。",
+                "source_link": "http://help.easyar.cn/EasyAR%20Sense/v2/Getting%20Started/Setting-up-EasyAR-Android-SDK.html"
+            }
+        }
+    ],
+    "uuid": "3882968C-CA05-42C8-B7BE-315AF61BCDF4"
 }

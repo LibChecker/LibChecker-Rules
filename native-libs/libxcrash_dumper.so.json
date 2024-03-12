@@ -1,8 +1,29 @@
 {
-    "label": "xCrash",
-    "team": "iQIYI",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "xCrash 能为安卓 app 提供捕获 Java 崩溃，native 崩溃和 ANR 的能力。不需要 root 权限或任何系统权限。",
-    "relativeUrl": "https://github.com/iqiyi/xCrash/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "xCrash",
+                "dev_team": "iQIYI",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "xCrash 能为安卓 app 提供捕获 Java 崩溃，native 崩溃和 ANR 的能力。不需要 root 权限或任何系统权限。",
+                "source_link": "https://github.com/iqiyi/xCrash/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "xCrash",
+                "dev_team": "iQIYI",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "xCrash 能为安卓 app 提供捕获 Java 崩溃，native 崩溃和 ANR 的能力。不需要 root 权限或任何系统权限。",
+                "source_link": "https://github.com/iqiyi/xCrash/"
+            }
+        }
+    ],
+    "uuid": "0266FDBA-CE71-4987-A407-21EC0CDDF58B"
 }

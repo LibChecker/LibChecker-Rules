@@ -1,8 +1,31 @@
 {
-    "label": "Sandhook",
-    "team": "asLody",
-    "iconUrl": "",
-    "contributors": ["1976222027", "yfdyh000"],
-    "description": "SandHook 是作用在 Android ART 虚拟机上的 Java 层 Hook 框架，作用于进程内是不需要 Root 的。",
-    "relativeUrl": "https://github.com/asLody/SandHook"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Sandhook",
+                "dev_team": "asLody",
+                "rule_contributors": [
+                    "1976222027",
+                    "yfdyh000"
+                ],
+                "description": "SandHook 是作用在 Android ART 虚拟机上的 Java 层 Hook 框架，作用于进程内是不需要 Root 的。",
+                "source_link": "https://github.com/asLody/SandHook"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Sandhook",
+                "dev_team": "asLody",
+                "rule_contributors": [
+                    "1976222027",
+                    "yfdyh000"
+                ],
+                "description": "SandHook 是作用在 Android ART 虚拟机上的 Java 层 Hook 框架，作用于进程内是不需要 Root 的。",
+                "source_link": "https://github.com/asLody/SandHook"
+            }
+        }
+    ],
+    "uuid": "00B74EAB-D3F4-4768-A325-F01E2080D5CC"
 }

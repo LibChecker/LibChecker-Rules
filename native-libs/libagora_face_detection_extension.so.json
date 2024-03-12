@@ -1,8 +1,31 @@
 {
-    "label": "Agora RTC SDK",
-    "team": "Agora",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy"],
-    "description": "视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。",
-    "relativeUrl": "https://docs.agora.io/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Agora RTC SDK",
+                "dev_team": "Agora",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。",
+                "source_link": "https://docs.agora.io/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Agora RTC SDK",
+                "dev_team": "Agora",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。",
+                "source_link": "https://docs.agora.io/"
+            }
+        }
+    ],
+    "uuid": "E0018805-1F10-4089-A249-DFA19BF24B83"
 }

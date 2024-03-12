@@ -1,8 +1,29 @@
 {
-    "label": "libtcc",
-    "team": "Fabrice Bellard",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "Tiny C Compiler（简称 TCC, 或 Tiny CC）。可以编译所有 C99 标准的 ANSI C 程序 , 支持 CPU 包括：X86 32 或 64 位, ARM，支持 Windows, Linux, OSX.（跨平台跨系统的能力强）。",
-    "relativeUrl": "https://bellard.org/tcc/tcc-doc.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libtcc",
+                "dev_team": "Fabrice Bellard",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Tiny C Compiler（简称 TCC, 或 Tiny CC）。可以编译所有 C99 标准的 ANSI C 程序 , 支持 CPU 包括：X86 32 或 64 位, ARM，支持 Windows, Linux, OSX.（跨平台跨系统的能力强）。",
+                "source_link": "https://bellard.org/tcc/tcc-doc.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libtcc",
+                "dev_team": "Fabrice Bellard",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Tiny C Compiler（简称 TCC, 或 Tiny CC）。可以编译所有 C99 标准的 ANSI C 程序 , 支持 CPU 包括：X86 32 或 64 位, ARM，支持 Windows, Linux, OSX.（跨平台跨系统的能力强）。",
+                "source_link": "https://bellard.org/tcc/tcc-doc.html"
+            }
+        }
+    ],
+    "uuid": "9F019E8A-6716-43B6-AB82-70418B286C8C"
 }

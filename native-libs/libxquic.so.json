@@ -1,8 +1,29 @@
 {
-    "label": "XQUIC",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["ag2s20150909"],
-    "description": "阿里巴巴发布的 XQUIC 库是一个遵循 IETF 标准的 QUIC 和 HTTP/3 的客户端和服务端实现。支持 Android、iOS、Linux 和 macOS。",
-    "relativeUrl": "https://github.com/alibaba/xquic"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "XQUIC",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "阿里巴巴发布的 XQUIC 库是一个遵循 IETF 标准的 QUIC 和 HTTP/3 的客户端和服务端实现。支持 Android、iOS、Linux 和 macOS。",
+                "source_link": "https://github.com/alibaba/xquic"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "XQUIC",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "阿里巴巴发布的 XQUIC 库是一个遵循 IETF 标准的 QUIC 和 HTTP/3 的客户端和服务端实现。支持 Android、iOS、Linux 和 macOS。",
+                "source_link": "https://github.com/alibaba/xquic"
+            }
+        }
+    ],
+    "uuid": "921BF876-7F05-4749-819D-6E39C171F1B5"
 }

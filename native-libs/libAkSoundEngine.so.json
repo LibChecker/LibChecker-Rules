@@ -1,8 +1,29 @@
 {
-    "label": "Wwise",
-    "team": "Audiokinetic",
-    "iconUrl": "",
-    "contributors": ["Hacker-yfs"],
-    "description": "Wwise® 是一款针对游戏开发的综合音频中间件解决方案，可创建精密、丰富的互动音频。它由紧密集成的设计工具和声音引擎构成，可让声音设计师和程序员在更短的时间内更经济地完成令人震憾的音频。",
-    "relativeUrl": "https://www.audiokinetic.com/zh/library/edge/?source=SDK&id=index.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Wwise",
+                "dev_team": "Audiokinetic",
+                "rule_contributors": [
+                    "Hacker-yfs"
+                ],
+                "description": "Wwise® 是一款针对游戏开发的综合音频中间件解决方案，可创建精密、丰富的互动音频。它由紧密集成的设计工具和声音引擎构成，可让声音设计师和程序员在更短的时间内更经济地完成令人震憾的音频。",
+                "source_link": "https://www.audiokinetic.com/zh/library/edge/?source=SDK&id=index.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Wwise",
+                "dev_team": "Audiokinetic",
+                "rule_contributors": [
+                    "Hacker-yfs"
+                ],
+                "description": "Wwise® 是一款针对游戏开发的综合音频中间件解决方案，可创建精密、丰富的互动音频。它由紧密集成的设计工具和声音引擎构成，可让声音设计师和程序员在更短的时间内更经济地完成令人震憾的音频。",
+                "source_link": "https://www.audiokinetic.com/zh/library/edge/?source=SDK&id=index.html"
+            }
+        }
+    ],
+    "uuid": "A7631C83-E878-4BC4-9A98-1610D2FD4929"
 }

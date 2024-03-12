@@ -1,8 +1,29 @@
 {
-    "label": "FrameSequence",
-    "team": "Android",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Android 系统中的帧序列封装库。",
-    "relativeUrl": "https://android.googlesource.com/platform/frameworks/ex/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FrameSequence",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Android 系统中的帧序列封装库。",
+                "source_link": "https://android.googlesource.com/platform/frameworks/ex/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FrameSequence",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Android 系统中的帧序列封装库。",
+                "source_link": "https://android.googlesource.com/platform/frameworks/ex/"
+            }
+        }
+    ],
+    "uuid": "C45F5E79-D24E-4778-9F6D-72B224B9FAFD"
 }

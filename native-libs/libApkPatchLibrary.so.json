@@ -1,8 +1,29 @@
 {
-    "label": "SmartAppUpdates",
-    "team": "cundong",
-    "iconUrl": "",
-    "contributors": ["d1y"],
-    "description": "Android 应用增量更新。",
-    "relativeUrl": "https://github.com/cundong/SmartAppUpdates"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "SmartAppUpdates",
+                "dev_team": "cundong",
+                "rule_contributors": [
+                    "d1y"
+                ],
+                "description": "Android 应用增量更新。",
+                "source_link": "https://github.com/cundong/SmartAppUpdates"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "SmartAppUpdates",
+                "dev_team": "cundong",
+                "rule_contributors": [
+                    "d1y"
+                ],
+                "description": "Android 应用增量更新。",
+                "source_link": "https://github.com/cundong/SmartAppUpdates"
+            }
+        }
+    ],
+    "uuid": "679E7EE7-CFDC-4E65-BE77-2125683F4EEC"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "ShadowHook",
-    "team": "ByteDance",
-    "iconUrl": "",
-    "contributors": ["crrashh1542"],
-    "description": "ShadowHook 支持了很多新增 hook 特性，例如通过“函数地址”或“库名 + 函数名”的方式指定 hook 位置、集成符号地址查找功能等，现在被用于 Tiktok，抖音，今日头条等软件中。",
-    "relativeUrl": "https://github.com/bytedance/android-inline-hook"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ShadowHook",
+                "dev_team": "ByteDance",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "ShadowHook 支持了很多新增 hook 特性，例如通过“函数地址”或“库名 + 函数名”的方式指定 hook 位置、集成符号地址查找功能等，现在被用于 Tiktok，抖音，今日头条等软件中。",
+                "source_link": "https://github.com/bytedance/android-inline-hook"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ShadowHook",
+                "dev_team": "ByteDance",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "ShadowHook 支持了很多新增 hook 特性，例如通过“函数地址”或“库名 + 函数名”的方式指定 hook 位置、集成符号地址查找功能等，现在被用于 Tiktok，抖音，今日头条等软件中。",
+                "source_link": "https://github.com/bytedance/android-inline-hook"
+            }
+        }
+    ],
+    "uuid": "412158E6-C860-43DA-839A-7F16BCB43965"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "金山云短视频编辑 SDK",
-    "team": "Kingsoft",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "金山云短视频编辑 SDK Android 版本，合成速度快，支持抖动、冲击波、灵魂出窍等特效滤镜。",
-    "relativeUrl": "https://github.com/ksvc/KSYMediaEditorKit_Android"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "金山云短视频编辑 SDK",
+                "dev_team": "Kingsoft",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "金山云短视频编辑 SDK Android 版本，合成速度快，支持抖动、冲击波、灵魂出窍等特效滤镜。",
+                "source_link": "https://github.com/ksvc/KSYMediaEditorKit_Android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "金山云短视频编辑 SDK",
+                "dev_team": "Kingsoft",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "金山云短视频编辑 SDK Android 版本，合成速度快，支持抖动、冲击波、灵魂出窍等特效滤镜。",
+                "source_link": "https://github.com/ksvc/KSYMediaEditorKit_Android"
+            }
+        }
+    ],
+    "uuid": "4C62DC31-0466-487C-8E2B-176C12F3CFC1"
 }

@@ -1,8 +1,31 @@
 {
-    "label": "Pdfium",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["yfdyh000", "ArthurCyy"],
-    "description": "Pdfium Android binding.",
-    "relativeUrl": "https://android.googlesource.com/platform/external/pdfium/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Pdfium",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "ArthurCyy"
+                ],
+                "description": "Pdfium Android binding.",
+                "source_link": "https://android.googlesource.com/platform/external/pdfium/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Pdfium",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "ArthurCyy"
+                ],
+                "description": "Pdfium Android binding.",
+                "source_link": "https://android.googlesource.com/platform/external/pdfium/"
+            }
+        }
+    ],
+    "uuid": "66D2110B-94D1-413C-8C70-8D1DE223F178"
 }

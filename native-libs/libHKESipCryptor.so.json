@@ -1,8 +1,29 @@
 {
-    "label": "CFCA",
-    "team": "中国金融认证中心 (CFCA)",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "中国金融认证中心（CFCA）安全输入控件。",
-    "relativeUrl": "https://www.cfca.com.cn/20210224/100004551.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "CFCA",
+                "dev_team": "中国金融认证中心 (CFCA)",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "中国金融认证中心（CFCA）安全输入控件。",
+                "source_link": "https://www.cfca.com.cn/20210224/100004551.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "CFCA",
+                "dev_team": "中国金融认证中心 (CFCA)",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "中国金融认证中心（CFCA）安全输入控件。",
+                "source_link": "https://www.cfca.com.cn/20210224/100004551.html"
+            }
+        }
+    ],
+    "uuid": "87D23FAD-B3D5-4D40-8D75-877CF45F4BB2"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "Clash Core",
-    "team": "Dreamacro",
-    "iconUrl": "",
-    "contributors": ["Aoang"],
-    "description": "A rule-based tunnel in Go.",
-    "relativeUrl": "https://github.com/Dreamacro/clash"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Clash Core",
+                "dev_team": "Dreamacro",
+                "rule_contributors": [
+                    "Aoang"
+                ],
+                "description": "A rule-based tunnel in Go.",
+                "source_link": "https://github.com/Dreamacro/clash"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Clash Core",
+                "dev_team": "Dreamacro",
+                "rule_contributors": [
+                    "Aoang"
+                ],
+                "description": "A rule-based tunnel in Go.",
+                "source_link": "https://github.com/Dreamacro/clash"
+            }
+        }
+    ],
+    "uuid": "D3A7DD55-A0CC-453F-8061-CADCCE16A9C3"
 }

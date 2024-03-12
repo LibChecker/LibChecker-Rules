@@ -1,8 +1,29 @@
 {
-    "label": "Yoga",
-    "team": "Facebook",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Yoga 意在打造一个跨 iOS、Android、Windows 平台在内的布局引擎，兼容 Flexbox 布局方式，让界面布局更加简单。",
-    "relativeUrl": "https://github.com/facebook/yoga/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Yoga",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Yoga 意在打造一个跨 iOS、Android、Windows 平台在内的布局引擎，兼容 Flexbox 布局方式，让界面布局更加简单。",
+                "source_link": "https://github.com/facebook/yoga/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Yoga",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Yoga 意在打造一个跨 iOS、Android、Windows 平台在内的布局引擎，兼容 Flexbox 布局方式，让界面布局更加简单。",
+                "source_link": "https://github.com/facebook/yoga/"
+            }
+        }
+    ],
+    "uuid": "F9D78474-DED0-42F4-9509-CE38E4C54A88"
 }

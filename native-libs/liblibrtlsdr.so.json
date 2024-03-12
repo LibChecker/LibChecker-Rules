@@ -1,8 +1,29 @@
 {
-    "label": "librtlsdr",
-    "team": "librtlsdr",
-    "iconUrl": "",
-    "contributors": ["brooks-xzy"],
-    "description": "Software to turn the RTL2832U into an SDR.",
-    "relativeUrl": "https://github.com/steve-m/librtlsdr"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "librtlsdr",
+                "dev_team": "librtlsdr",
+                "rule_contributors": [
+                    "brooks-xzy"
+                ],
+                "description": "Software to turn the RTL2832U into an SDR.",
+                "source_link": "https://github.com/steve-m/librtlsdr"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "librtlsdr",
+                "dev_team": "librtlsdr",
+                "rule_contributors": [
+                    "brooks-xzy"
+                ],
+                "description": "Software to turn the RTL2832U into an SDR.",
+                "source_link": "https://github.com/steve-m/librtlsdr"
+            }
+        }
+    ],
+    "uuid": "BF2E2488-27E3-43DA-B40C-D34207E9CC45"
 }

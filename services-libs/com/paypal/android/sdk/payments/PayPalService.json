@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "PayPal Android SDK",
+                "dev_team": "Paypal",
+                "rule_contributors": [
+                    "Xiaoze886"
+                ],
+                "description": "PayPal 安卓 SDK 可以轻松地将 PayPal 支付服务集成到移动应用中。",
+                "source_link": "https://github.com/paypal/PayPal-Android-SDK"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "PayPal Android SDK",
+                "dev_team": "Paypal",
+                "rule_contributors": [
+                    "Xiaoze886"
+                ],
+                "description": "PayPal 安卓 SDK 可以轻松地将 PayPal 支付服务集成到移动应用中。",
+                "source_link": "https://github.com/paypal/PayPal-Android-SDK"
+            }
+        }
+    ],
+    "uuid": "A370F8D4-75E5-4731-9189-A0665FD411AF"
+}

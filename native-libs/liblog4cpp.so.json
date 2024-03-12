@@ -1,8 +1,29 @@
 {
-    "label": "Log for C++",
-    "team": "bastiaan, sanchouss_, waffel",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.",
-    "relativeUrl": "https://sourceforge.net/projects/log4cpp/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Log for C++",
+                "dev_team": "bastiaan, sanchouss_, waffel",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.",
+                "source_link": "https://sourceforge.net/projects/log4cpp/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Log for C++",
+                "dev_team": "bastiaan, sanchouss_, waffel",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.",
+                "source_link": "https://sourceforge.net/projects/log4cpp/"
+            }
+        }
+    ],
+    "uuid": "F04B2BAF-71ED-487F-8CC0-035B68F6412B"
 }

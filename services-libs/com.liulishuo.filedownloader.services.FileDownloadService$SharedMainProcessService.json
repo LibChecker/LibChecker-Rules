@@ -1,8 +1,0 @@
-{
-    "label": "FileDownloader",
-    "team": "LingoChamp",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Android 文件下载引擎，稳定、高效、灵活、简单易用。",
-    "relativeUrl": "https://github.com/lingochamp/FileDownloader/"
-}

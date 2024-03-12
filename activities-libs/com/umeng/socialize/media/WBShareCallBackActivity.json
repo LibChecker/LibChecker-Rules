@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "U-Share 社会化分享",
+                "dev_team": "Umeng",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "帮助应用或游戏快速具备国内外多平台分享、第三方登录功能，SDK 包小，集成成本低，平台覆盖全。",
+                "source_link": "https://www.umeng.com/social"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "U-Share 社会化分享",
+                "dev_team": "Umeng",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "帮助应用或游戏快速具备国内外多平台分享、第三方登录功能，SDK 包小，集成成本低，平台覆盖全。",
+                "source_link": "https://www.umeng.com/social"
+            }
+        }
+    ],
+    "uuid": "5D68FADA-9577-4DF6-BB72-8E4BCC72F0A4"
+}

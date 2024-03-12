@@ -1,8 +1,29 @@
 {
-    "label": "nmmp",
-    "team": "maoabc",
-    "iconUrl": "",
-    "contributors": ["Super12138"],
-    "description": "nmmp 是一个用于保护 Android 类的 dex 文件的库，它使用 dex-vm 技术将类和方法转换为字节码，从而防止反编译。",
-    "relativeUrl": "https://github.com/maoabc/nmmp"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "nmmp",
+                "dev_team": "maoabc",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "nmmp 是一个用于保护 Android 类的 dex 文件的库，它使用 dex-vm 技术将类和方法转换为字节码，从而防止反编译。",
+                "source_link": "https://github.com/maoabc/nmmp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "nmmp",
+                "dev_team": "maoabc",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "nmmp 是一个用于保护 Android 类的 dex 文件的库，它使用 dex-vm 技术将类和方法转换为字节码，从而防止反编译。",
+                "source_link": "https://github.com/maoabc/nmmp"
+            }
+        }
+    ],
+    "uuid": "C65BB325-CB06-46A4-BD26-C1E35AB48E03"
 }

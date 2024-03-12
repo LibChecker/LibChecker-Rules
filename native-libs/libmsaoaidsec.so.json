@@ -1,8 +1,33 @@
 {
-    "label": "MSA SDK",
-    "team": "移动安全联盟",
-    "iconUrl": "",
-    "contributors": ["su1216", "Absinthe", "yfdyh000"],
-    "description": "移动智能终端补充设备标识体系统一调用 SDK 由中国信息通信研究院泰尔终端实验室、移动安全联盟整合提供，知识产权归中国信息通信研究院所有。",
-    "relativeUrl": "http://msa-alliance.cn"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MSA SDK",
+                "dev_team": "移动安全联盟",
+                "rule_contributors": [
+                    "su1216",
+                    "Absinthe",
+                    "yfdyh000"
+                ],
+                "description": "移动智能终端补充设备标识体系统一调用 SDK 由中国信息通信研究院泰尔终端实验室、移动安全联盟整合提供，知识产权归中国信息通信研究院所有。",
+                "source_link": "http://msa-alliance.cn"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MSA SDK",
+                "dev_team": "移动安全联盟",
+                "rule_contributors": [
+                    "su1216",
+                    "Absinthe",
+                    "yfdyh000"
+                ],
+                "description": "移动智能终端补充设备标识体系统一调用 SDK 由中国信息通信研究院泰尔终端实验室、移动安全联盟整合提供，知识产权归中国信息通信研究院所有。",
+                "source_link": "http://msa-alliance.cn"
+            }
+        }
+    ],
+    "uuid": "6CD3B14A-C75E-4451-8EAB-AC3BD931EF00"
 }

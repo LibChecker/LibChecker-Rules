@@ -1,8 +1,29 @@
 {
-    "label": "Fresco",
-    "team": "Facebook",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
-    "relativeUrl": "https://github.com/facebook/fresco/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Fresco",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
+                "source_link": "https://github.com/facebook/fresco/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Fresco",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
+                "source_link": "https://github.com/facebook/fresco/"
+            }
+        }
+    ],
+    "uuid": "951BAD0E-83E5-44F7-83F2-7B3B6AF1C7BC"
 }

@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack Camera",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "CameraX 是 Jetpack 的新增库。利用该库，可以更轻松地向应用添加相机功能。该库提供了很多兼容性修复程序和解决方法，有助于在众多设备上打造一致的开发者体验。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/camera"
-}

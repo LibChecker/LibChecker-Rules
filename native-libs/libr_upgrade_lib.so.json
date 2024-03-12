@@ -1,8 +1,29 @@
 {
-    "label": "RUpgrade",
-    "team": "rhymelph",
-    "iconUrl": "",
-    "contributors": ["LollipopKit"],
-    "description": "Android 和 iOS 的升级应用插件。",
-    "relativeUrl": "https://github.com/rhymelph/r_upgrade"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "RUpgrade",
+                "dev_team": "rhymelph",
+                "rule_contributors": [
+                    "LollipopKit"
+                ],
+                "description": "Android 和 iOS 的升级应用插件。",
+                "source_link": "https://github.com/rhymelph/r_upgrade"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "RUpgrade",
+                "dev_team": "rhymelph",
+                "rule_contributors": [
+                    "LollipopKit"
+                ],
+                "description": "Android 和 iOS 的升级应用插件。",
+                "source_link": "https://github.com/rhymelph/r_upgrade"
+            }
+        }
+    ],
+    "uuid": "F5DF29BC-2C9C-4AD2-BF1F-75D0B053BAFC"
 }

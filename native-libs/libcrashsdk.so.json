@@ -1,8 +1,29 @@
 {
-    "label": "岳鹰全景监控",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "岳鹰全景监控，是阿里 UC 官方出品的先进移动应用线上监控平台，为多家知名企业提供服务。",
-    "relativeUrl": "https://yueying-docs.effirst.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "岳鹰全景监控",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "岳鹰全景监控，是阿里 UC 官方出品的先进移动应用线上监控平台，为多家知名企业提供服务。",
+                "source_link": "https://yueying-docs.effirst.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "岳鹰全景监控",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "岳鹰全景监控，是阿里 UC 官方出品的先进移动应用线上监控平台，为多家知名企业提供服务。",
+                "source_link": "https://yueying-docs.effirst.com/"
+            }
+        }
+    ],
+    "uuid": "81731C38-3E65-4B3F-A8C7-47083F62E928"
 }

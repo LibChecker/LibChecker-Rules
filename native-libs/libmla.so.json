@@ -1,8 +1,29 @@
 {
-    "label": "LibVLC",
-    "team": "VideoLAN",
-    "iconUrl": "",
-    "contributors": ["ag2s20150909"],
-    "description": "VLC 是一款免费、自由、开源的跨平台多媒体播放器及框架，可播放大多数多媒体文件，以及各类流媒体协议。",
-    "relativeUrl": "https://github.com/videolan/vlc-android"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LibVLC",
+                "dev_team": "VideoLAN",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "VLC 是一款免费、自由、开源的跨平台多媒体播放器及框架，可播放大多数多媒体文件，以及各类流媒体协议。",
+                "source_link": "https://github.com/videolan/vlc-android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibVLC",
+                "dev_team": "VideoLAN",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "VLC 是一款免费、自由、开源的跨平台多媒体播放器及框架，可播放大多数多媒体文件，以及各类流媒体协议。",
+                "source_link": "https://github.com/videolan/vlc-android"
+            }
+        }
+    ],
+    "uuid": "808EBEF8-FB5B-4AD5-B9C7-9B3F2556DDA8"
 }

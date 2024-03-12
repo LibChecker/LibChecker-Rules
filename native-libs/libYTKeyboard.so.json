@@ -1,8 +1,29 @@
 {
-    "label": "屹通 SDK",
-    "team": "上海屹通信息科技发展有限公司",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "上海屹通是一家专注银行业应用软件研发、应用、咨询与服务的高新技术企业。",
-    "relativeUrl": "http://www.yitong.com.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "屹通 SDK",
+                "dev_team": "上海屹通信息科技发展有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "上海屹通是一家专注银行业应用软件研发、应用、咨询与服务的高新技术企业。",
+                "source_link": "http://www.yitong.com.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "屹通 SDK",
+                "dev_team": "上海屹通信息科技发展有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "上海屹通是一家专注银行业应用软件研发、应用、咨询与服务的高新技术企业。",
+                "source_link": "http://www.yitong.com.cn/"
+            }
+        }
+    ],
+    "uuid": "5D0E9F9D-B1A1-41E1-AB81-5210D6A38A01"
 }

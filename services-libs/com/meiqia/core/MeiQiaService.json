@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "美洽客服 SDK",
+                "dev_team": "美洽",
+                "rule_contributors": [
+                    "limuyang2"
+                ],
+                "description": "在线客服，连接一切客户。",
+                "source_link": "https://meiqia.com/help/article/sdk-for-android/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "美洽客服 SDK",
+                "dev_team": "美洽",
+                "rule_contributors": [
+                    "limuyang2"
+                ],
+                "description": "在线客服，连接一切客户。",
+                "source_link": "https://meiqia.com/help/article/sdk-for-android/"
+            }
+        }
+    ],
+    "uuid": "5D594020-2C91-44FD-9C47-5C898F430A7B"
+}

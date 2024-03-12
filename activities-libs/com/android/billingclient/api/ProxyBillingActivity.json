@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google Play Billing",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Google Play 结算服务可让您在 Android 上销售数字内容。本文档介绍了 Google Play 结算服务解决方案的基本构建基块。要决定如何实现特定的 Google Play 结算服务解决方案，您必须了解这些构建基块。",
+                "source_link": "https://developer.android.com/google/play/billing/billing_overview/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Play Billing",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Google Play 结算服务可让您在 Android 上销售数字内容。本文档介绍了 Google Play 结算服务解决方案的基本构建基块。要决定如何实现特定的 Google Play 结算服务解决方案，您必须了解这些构建基块。",
+                "source_link": "https://developer.android.com/google/play/billing/billing_overview/"
+            }
+        }
+    ],
+    "uuid": "B65CC95E-D0B0-4B0C-9573-FB2E674FB395"
+}

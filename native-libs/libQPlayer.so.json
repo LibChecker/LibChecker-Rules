@@ -1,8 +1,29 @@
 {
-    "label": "PLDroidPlayer",
-    "team": "七牛云",
-    "iconUrl": "",
-    "contributors": ["zxwpm"],
-    "description": "PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。",
-    "relativeUrl": "https://github.com/pili-engineering/PLDroidPlayer"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "PLDroidPlayer",
+                "dev_team": "七牛云",
+                "rule_contributors": [
+                    "zxwpm"
+                ],
+                "description": "PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。",
+                "source_link": "https://github.com/pili-engineering/PLDroidPlayer"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "PLDroidPlayer",
+                "dev_team": "七牛云",
+                "rule_contributors": [
+                    "zxwpm"
+                ],
+                "description": "PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。",
+                "source_link": "https://github.com/pili-engineering/PLDroidPlayer"
+            }
+        }
+    ],
+    "uuid": "46F0DFDA-DBAA-45F5-838F-CFEC31D0C10A"
 }

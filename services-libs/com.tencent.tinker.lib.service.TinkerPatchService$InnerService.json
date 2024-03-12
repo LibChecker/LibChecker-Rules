@@ -1,8 +1,0 @@
-{
-    "label": "Tinker",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Tinker 是适用于 Android 的热更新程序库，它支持无需重新安装 apk 来更新 dex，库和资源。",
-    "relativeUrl": "https://github.com/Tencent/tinker/"
-}

@@ -1,8 +1,29 @@
 {
-    "label": "react-native-sqlite-storage",
-    "team": "Andrzej Porebski",
-    "iconUrl": "",
-    "contributors": ["chengyuhui"],
-    "description": "SQLite3 Native Plugin for React Native",
-    "relativeUrl": "https://github.com/andpor/react-native-sqlite-storage"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "react-native-sqlite-storage",
+                "dev_team": "Andrzej Porebski",
+                "rule_contributors": [
+                    "chengyuhui"
+                ],
+                "description": "SQLite3 Native Plugin for React Native",
+                "source_link": "https://github.com/andpor/react-native-sqlite-storage"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "react-native-sqlite-storage",
+                "dev_team": "Andrzej Porebski",
+                "rule_contributors": [
+                    "chengyuhui"
+                ],
+                "description": "SQLite3 Native Plugin for React Native",
+                "source_link": "https://github.com/andpor/react-native-sqlite-storage"
+            }
+        }
+    ],
+    "uuid": "7920F0B3-BA37-460B-BB47-60C5CD0D3890"
 }

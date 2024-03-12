@@ -1,8 +1,29 @@
 {
-    "label": "Unity",
-    "team": "Unity Technologies",
-    "iconUrl": "",
-    "contributors": ["kotori2"],
-    "description": "Unity 游戏使用 Il2Cpp 后端时产生的游戏代码。",
-    "relativeUrl": "https://docs.unity3d.com/Manual/IL2CPP.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Unity",
+                "dev_team": "Unity Technologies",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "Unity 游戏使用 Il2Cpp 后端时产生的游戏代码。",
+                "source_link": "https://docs.unity3d.com/Manual/IL2CPP.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Unity",
+                "dev_team": "Unity Technologies",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "Unity 游戏使用 Il2Cpp 后端时产生的游戏代码。",
+                "source_link": "https://docs.unity3d.com/Manual/IL2CPP.html"
+            }
+        }
+    ],
+    "uuid": "4622B49D-4ACA-42B3-9FCC-F82D2365B81B"
 }

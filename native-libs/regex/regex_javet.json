@@ -1,8 +1,29 @@
 {
-    "label": "Javet",
-    "team": "caoccao",
-    "iconUrl": "",
-    "contributors": ["tsukiymk"],
-    "description": "Javet 是 V8 JavaScript 引擎的 Java 封装库。它是 Java 嵌入 Node.js 和 V8 的绝佳方案。",
-    "relativeUrl": "https://github.com/caoccao/Javet"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Javet",
+                "dev_team": "caoccao",
+                "rule_contributors": [
+                    "tsukiymk"
+                ],
+                "description": "Javet 是 V8 JavaScript 引擎的 Java 封装库。它是 Java 嵌入 Node.js 和 V8 的绝佳方案。",
+                "source_link": "https://github.com/caoccao/Javet"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Javet",
+                "dev_team": "caoccao",
+                "rule_contributors": [
+                    "tsukiymk"
+                ],
+                "description": "Javet 是 V8 JavaScript 引擎的 Java 封装库。它是 Java 嵌入 Node.js 和 V8 的绝佳方案。",
+                "source_link": "https://github.com/caoccao/Javet"
+            }
+        }
+    ],
+    "uuid": "4CF2C811-245B-418C-AA1E-1C1B542274D2"
 }

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Dexter",
+                "dev_team": "Karumi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Dexter 是一个 Android 库，它简化了运行时请求权限的过程。",
+                "source_link": "https://github.com/Karumi/Dexter"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Dexter",
+                "dev_team": "Karumi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Dexter 是一个 Android 库，它简化了运行时请求权限的过程。",
+                "source_link": "https://github.com/Karumi/Dexter"
+            }
+        }
+    ],
+    "uuid": "8B8A8971-8E8C-4BA8-9DCE-FADC7FE6C6D5"
+}

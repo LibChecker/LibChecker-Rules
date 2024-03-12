@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Android-Job",
+                "dev_team": "evernote",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Android 实用程序库，用于在后台延迟运行作业。 根据 Android 版本的不同，将使用 JobScheduler，GcmNetworkManager 或 AlarmManager。",
+                "source_link": "https://github.com/evernote/android-job"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Android-Job",
+                "dev_team": "evernote",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Android 实用程序库，用于在后台延迟运行作业。 根据 Android 版本的不同，将使用 JobScheduler，GcmNetworkManager 或 AlarmManager。",
+                "source_link": "https://github.com/evernote/android-job"
+            }
+        }
+    ],
+    "uuid": "CA6A8B37-6359-4E6B-AE7B-B4439579BAB4"
+}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "小红书分享 SDK",
+                "dev_team": "Xiaohongshu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "小红书分享开放平台基于行业规则和开发者诉求，提供了基于客户端代码的分享 SDK。",
+                "source_link": "https://agora.xiaohongshu.com/doc/android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "小红书分享 SDK",
+                "dev_team": "Xiaohongshu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "小红书分享开放平台基于行业规则和开发者诉求，提供了基于客户端代码的分享 SDK。",
+                "source_link": "https://agora.xiaohongshu.com/doc/android"
+            }
+        }
+    ],
+    "uuid": "12333A87-EEA8-41C6-9C05-659D5940955E"
+}

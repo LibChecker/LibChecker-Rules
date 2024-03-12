@@ -1,8 +1,29 @@
 {
-    "label": "CRI Sofdec2 Unity 插件",
-    "team": "CRIWARE",
-    "iconUrl": "",
-    "contributors": ["kotori2"],
-    "description": "CRIWARE 中用于视频回放解码的组件。",
-    "relativeUrl": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "CRI Sofdec2 Unity 插件",
+                "dev_team": "CRIWARE",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "CRIWARE 中用于视频回放解码的组件。",
+                "source_link": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "CRI Sofdec2 Unity 插件",
+                "dev_team": "CRIWARE",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "CRIWARE 中用于视频回放解码的组件。",
+                "source_link": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+            }
+        }
+    ],
+    "uuid": "1057A9DD-4798-42E5-9269-FCB25C14F2B5"
 }

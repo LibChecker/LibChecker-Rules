@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Tracing",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "将跟踪事件写入系统跟踪缓冲区。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/tracing"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Tracing",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "将跟踪事件写入系统跟踪缓冲区。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/tracing"
+            }
+        }
+    ],
+    "uuid": "7C18D201-2C7B-47BB-AAB1-AD934AC1B253"
+}

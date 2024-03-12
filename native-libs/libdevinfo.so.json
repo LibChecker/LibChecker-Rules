@@ -1,8 +1,29 @@
 {
-    "label": "libdevinfo",
-    "team": "Oracle",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "libdevinfo 库提供用于访问所有公共设备配置数据的接口。",
-    "relativeUrl": "https://docs.oracle.com/cd/E36784_01/html/E36873/libdevinfo-3lib.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libdevinfo",
+                "dev_team": "Oracle",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "libdevinfo 库提供用于访问所有公共设备配置数据的接口。",
+                "source_link": "https://docs.oracle.com/cd/E36784_01/html/E36873/libdevinfo-3lib.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libdevinfo",
+                "dev_team": "Oracle",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "libdevinfo 库提供用于访问所有公共设备配置数据的接口。",
+                "source_link": "https://docs.oracle.com/cd/E36784_01/html/E36873/libdevinfo-3lib.html"
+            }
+        }
+    ],
+    "uuid": "C3B1C90C-7A7F-4938-86DB-5680932EDDE5"
 }

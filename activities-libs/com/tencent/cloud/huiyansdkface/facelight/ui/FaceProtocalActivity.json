@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": " 人脸核身 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "Absinthe"
+                ],
+                "description": "腾讯云慧眼人脸核身（原金融级身份证认证升级版）是一组对用户身份信息真实性进行验证审核的服务套件，提供各类认证功能模块，包含证件 OCR 识别、活体检测、人脸 1:1 对比等能力，以解决行业内大量对用户身份信息核实的需求，广泛应用于金融、运营商、共享出行等领域。",
+                "source_link": "https://cloud.tencent.com/document/product/1007"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": " 人脸核身 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "Absinthe"
+                ],
+                "description": "腾讯云慧眼人脸核身（原金融级身份证认证升级版）是一组对用户身份信息真实性进行验证审核的服务套件，提供各类认证功能模块，包含证件 OCR 识别、活体检测、人脸 1:1 对比等能力，以解决行业内大量对用户身份信息核实的需求，广泛应用于金融、运营商、共享出行等领域。",
+                "source_link": "https://cloud.tencent.com/document/product/1007"
+            }
+        }
+    ],
+    "uuid": "13ED49B9-4B45-45F6-8ACC-8476DA0F1591"
+}

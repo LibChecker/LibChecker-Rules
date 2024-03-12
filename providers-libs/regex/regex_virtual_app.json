@@ -1,8 +1,29 @@
 {
-    "label": "VirtualApp",
-    "team": "asLody",
-    "iconUrl": "",
-    "contributors": ["su1216"],
-    "description": "VirtualApp(VA) 是一款运行于 Android 系统的沙盒产品，可以理解为轻量级的“Android 虚拟机”。其产品形态为高可扩展，可定制的集成 SDK，您可以基于 VA 或者使用 VA 定制开发各种看似不可能完成的项目。VA 目前被广泛应用于插件化开发、无感知热更新、云控自动化、多开、手游租号、手游手柄免激活、区块链、移动办公安全、军队政府保密、手机模拟信息、脚本自动化、自动化测试等技术领域。",
-    "relativeUrl": "https://github.com/asLody/VirtualApp"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "VirtualApp",
+                "dev_team": "asLody",
+                "rule_contributors": [
+                    "su1216"
+                ],
+                "description": "VirtualApp(VA) 是一款运行于 Android 系统的沙盒产品，可以理解为轻量级的“Android 虚拟机”。其产品形态为高可扩展，可定制的集成 SDK，您可以基于 VA 或者使用 VA 定制开发各种看似不可能完成的项目。VA 目前被广泛应用于插件化开发、无感知热更新、云控自动化、多开、手游租号、手游手柄免激活、区块链、移动办公安全、军队政府保密、手机模拟信息、脚本自动化、自动化测试等技术领域。",
+                "source_link": "https://github.com/asLody/VirtualApp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "VirtualApp",
+                "dev_team": "asLody",
+                "rule_contributors": [
+                    "su1216"
+                ],
+                "description": "VirtualApp(VA) 是一款运行于 Android 系统的沙盒产品，可以理解为轻量级的“Android 虚拟机”。其产品形态为高可扩展，可定制的集成 SDK，您可以基于 VA 或者使用 VA 定制开发各种看似不可能完成的项目。VA 目前被广泛应用于插件化开发、无感知热更新、云控自动化、多开、手游租号、手游手柄免激活、区块链、移动办公安全、军队政府保密、手机模拟信息、脚本自动化、自动化测试等技术领域。",
+                "source_link": "https://github.com/asLody/VirtualApp"
+            }
+        }
+    ],
+    "uuid": "9ABA41D7-B390-4463-8D67-6936469CE2FF"
 }

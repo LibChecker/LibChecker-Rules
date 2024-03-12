@@ -1,8 +1,29 @@
 {
-    "label": "xLua",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "xLua 为 Unity、.Net、Mono 等 C# 环境增加 Lua 脚本编程的能力，借助 xLua，这些 Lua 代码可以方便的和 C# 相互调用。",
-    "relativeUrl": "https://github.com/Tencent/xLua"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "xLua",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "xLua 为 Unity、.Net、Mono 等 C# 环境增加 Lua 脚本编程的能力，借助 xLua，这些 Lua 代码可以方便的和 C# 相互调用。",
+                "source_link": "https://github.com/Tencent/xLua"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "xLua",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "xLua 为 Unity、.Net、Mono 等 C# 环境增加 Lua 脚本编程的能力，借助 xLua，这些 Lua 代码可以方便的和 C# 相互调用。",
+                "source_link": "https://github.com/Tencent/xLua"
+            }
+        }
+    ],
+    "uuid": "61B68276-3BFF-4F6E-B0E6-3C1E37F5BC37"
 }

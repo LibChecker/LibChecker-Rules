@@ -1,8 +1,29 @@
 {
-    "label": "ZAndrolua",
-    "team": "MGLSIDE",
-    "iconUrl": "",
-    "contributors": ["MGLSIDE"],
-    "description": "ZAndrolua+ 提供的访问操作系统 Posix API 的 luaC 库。",
-    "relativeUrl": "https://github.com/MGLSIDE/ZAndrolua"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ZAndrolua",
+                "dev_team": "MGLSIDE",
+                "rule_contributors": [
+                    "MGLSIDE"
+                ],
+                "description": "ZAndrolua+ 提供的访问操作系统 Posix API 的 luaC 库。",
+                "source_link": "https://github.com/MGLSIDE/ZAndrolua"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ZAndrolua",
+                "dev_team": "MGLSIDE",
+                "rule_contributors": [
+                    "MGLSIDE"
+                ],
+                "description": "ZAndrolua+ 提供的访问操作系统 Posix API 的 luaC 库。",
+                "source_link": "https://github.com/MGLSIDE/ZAndrolua"
+            }
+        }
+    ],
+    "uuid": "1220EEBB-9ED4-496A-9D16-7C0BA72CB683"
 }

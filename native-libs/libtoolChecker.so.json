@@ -1,8 +1,29 @@
 {
-    "label": "RootBeer",
-    "team": "Scott Alexander-Bown",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... Has this device got root?",
-    "relativeUrl": "https://github.com/scottyab/rootbeer"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "RootBeer",
+                "dev_team": "Scott Alexander-Bown",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... Has this device got root?",
+                "source_link": "https://github.com/scottyab/rootbeer"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "RootBeer",
+                "dev_team": "Scott Alexander-Bown",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... Has this device got root?",
+                "source_link": "https://github.com/scottyab/rootbeer"
+            }
+        }
+    ],
+    "uuid": "A908E94C-73FC-4CD8-9742-097C210C34A5"
 }

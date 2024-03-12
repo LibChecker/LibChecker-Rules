@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Huawei Ads SDK",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "HUAWEI Ads 流量变现服务（HUAWEI Ads Publisher Service）是依托华为终端强大的平台与数据能力为开发者提供的 App 流量变现服务，开发者通过该服务可以在自己的 App 中获取并向用户展示精准的、精美的、高价值的广告内容，并从中获得广告收益。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ads-sdk-guide"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Huawei Ads SDK",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "HUAWEI Ads 流量变现服务（HUAWEI Ads Publisher Service）是依托华为终端强大的平台与数据能力为开发者提供的 App 流量变现服务，开发者通过该服务可以在自己的 App 中获取并向用户展示精准的、精美的、高价值的广告内容，并从中获得广告收益。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ads-sdk-guide"
+            }
+        }
+    ],
+    "uuid": "B3773373-FCFC-4083-ADCD-978C02A647EC"
+}

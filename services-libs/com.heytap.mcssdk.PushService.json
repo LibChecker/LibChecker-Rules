@@ -1,8 +1,0 @@
-{
-    "label": "OPPO Push",
-    "team": "OPPO",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "OPPO PUSH 是 ColorOS 上的系统级通道，为开发者提供稳定，高效的消息推送服务。",
-    "relativeUrl": "https://push.oppo.com/"
-}

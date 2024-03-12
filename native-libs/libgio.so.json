@@ -1,8 +1,29 @@
 {
-    "label": "Gio",
-    "team": "Gio",
-    "iconUrl": "",
-    "contributors": ["Super12138"],
-    "description": "Gio是一个用于编写跨平台即时模式GUI的Go语言库。Gio支持所有主要平台：Linux、macOS、Windows、Android、iOS、FreeBSD、OpenBSD和WebAssembly。",
-    "relativeUrl": "https://gioui.org/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Gio",
+                "dev_team": "Gio",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "Gio是一个用于编写跨平台即时模式GUI的Go语言库。Gio支持所有主要平台：Linux、macOS、Windows、Android、iOS、FreeBSD、OpenBSD和WebAssembly。",
+                "source_link": "https://gioui.org/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Gio",
+                "dev_team": "Gio",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "Gio是一个用于编写跨平台即时模式GUI的Go语言库。Gio支持所有主要平台：Linux、macOS、Windows、Android、iOS、FreeBSD、OpenBSD和WebAssembly。",
+                "source_link": "https://gioui.org/"
+            }
+        }
+    ],
+    "uuid": "6A182DF7-14B1-4AC9-8747-3DC02153EAE3"
 }

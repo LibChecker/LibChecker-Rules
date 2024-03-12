@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HMS Analytics Kit",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "华为分析服务（Analytics Kit）是针对移动应用、Web、快应用等产品的一站式用户行为分析平台，贴合业务场景，提供数据采集、数据管理、数据分析、数据应用的一体化解决方案，驱动企业实现精准拉新、产品优化、精益运营、业务增长。    ",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HMS Analytics Kit",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "华为分析服务（Analytics Kit）是针对移动应用、Web、快应用等产品的一站式用户行为分析平台，贴合业务场景，提供数据采集、数据管理、数据分析、数据应用的一体化解决方案，驱动企业实现精准拉新、产品优化、精益运营、业务增长。    ",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149"
+            }
+        }
+    ],
+    "uuid": "6F8997BA-230E-4ADE-9656-0EC8D6102C9C"
+}

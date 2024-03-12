@@ -1,8 +1,0 @@
-{
-    "label": "小米账号开放平台",
-    "team": "Xiaomi",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "小米帐号授权登录服务是小米公司向开发者提供的，基于 OAuth 2.0 标准协议的小米帐号快捷登录服务，用户可以方便快捷的使用小米帐号登录您的网站或者移动应用。",
-    "relativeUrl": "https://dev.mi.com/console/appservice/account.html"
-}

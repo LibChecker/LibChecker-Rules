@@ -1,8 +1,0 @@
-{
-    "label": "ACRA",
-    "team": "ACRA",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "ACRA catches exceptions, retrieves lots of context data and sends them to the backend of your choice.",
-    "relativeUrl": "https://github.com/ACRA/acra"
-}

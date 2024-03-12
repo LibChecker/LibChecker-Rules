@@ -1,8 +1,29 @@
 {
-    "label": "FinClip",
-    "team": "凡泰极客",
-    "iconUrl": "",
-    "contributors": ["HenryWu01"],
-    "description": "移动互联网发展迅速，移动应用作为企业与客户连接的重要阵地具有重大战略意义，为了让移动应用成功实现数字化转型，凡泰极客推出 FinClip 小程序容器技术，任何 App 均可通过引入此小程序容器来获得运行小程序的能力，使研发人员能够快速响应一线业务诉求，达到降本增效的目的，进一步提升移动应用业务运营能力。",
-    "relativeUrl": "https://www.finclip.com/mop/document/introduce/introduction/finclip.html#_1-产品介绍"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FinClip",
+                "dev_team": "凡泰极客",
+                "rule_contributors": [
+                    "HenryWu01"
+                ],
+                "description": "移动互联网发展迅速，移动应用作为企业与客户连接的重要阵地具有重大战略意义，为了让移动应用成功实现数字化转型，凡泰极客推出 FinClip 小程序容器技术，任何 App 均可通过引入此小程序容器来获得运行小程序的能力，使研发人员能够快速响应一线业务诉求，达到降本增效的目的，进一步提升移动应用业务运营能力。",
+                "source_link": "https://www.finclip.com/mop/document/introduce/introduction/finclip.html#_1-产品介绍"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FinClip",
+                "dev_team": "凡泰极客",
+                "rule_contributors": [
+                    "HenryWu01"
+                ],
+                "description": "移动互联网发展迅速，移动应用作为企业与客户连接的重要阵地具有重大战略意义，为了让移动应用成功实现数字化转型，凡泰极客推出 FinClip 小程序容器技术，任何 App 均可通过引入此小程序容器来获得运行小程序的能力，使研发人员能够快速响应一线业务诉求，达到降本增效的目的，进一步提升移动应用业务运营能力。",
+                "source_link": "https://www.finclip.com/mop/document/introduce/introduction/finclip.html#_1-产品介绍"
+            }
+        }
+    ],
+    "uuid": "345DD6BE-3748-4FF9-9016-29AD74963D6A"
 }

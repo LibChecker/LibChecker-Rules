@@ -1,8 +1,33 @@
 {
-    "label": "梆梆安全",
-    "team": "梆梆安全",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy", "yfdyh000"],
-    "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
-    "relativeUrl": "https://dev.bangcle.com/home/introduction"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "梆梆安全",
+                "dev_team": "梆梆安全",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy",
+                    "yfdyh000"
+                ],
+                "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+                "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "梆梆安全",
+                "dev_team": "梆梆安全",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy",
+                    "yfdyh000"
+                ],
+                "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+                "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+        }
+    ],
+    "uuid": "E240642F-78A6-4721-B9D6-9A4713811993"
 }

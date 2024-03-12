@@ -1,8 +1,29 @@
 {
-    "label": "libmonochrome",
-    "team": "Chromium",
-    "iconUrl": "",
-    "contributors": ["lifansama"],
-    "description": "Monochrome's intent was to eliminate the duplication between the 32-bit Chrome and Webview libraries (most of the library is identical). In 32-bit Monochrome, a single combined library serves both Chrome and Webview needs. The 64-bit version adds an extra Webview-only library.",
-    "relativeUrl": "https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/android_native_libraries.md"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libmonochrome",
+                "dev_team": "Chromium",
+                "rule_contributors": [
+                    "lifansama"
+                ],
+                "description": "Monochrome's intent was to eliminate the duplication between the 32-bit Chrome and Webview libraries (most of the library is identical). In 32-bit Monochrome, a single combined library serves both Chrome and Webview needs. The 64-bit version adds an extra Webview-only library.",
+                "source_link": "https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/android_native_libraries.md"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libmonochrome",
+                "dev_team": "Chromium",
+                "rule_contributors": [
+                    "lifansama"
+                ],
+                "description": "Monochrome's intent was to eliminate the duplication between the 32-bit Chrome and Webview libraries (most of the library is identical). In 32-bit Monochrome, a single combined library serves both Chrome and Webview needs. The 64-bit version adds an extra Webview-only library.",
+                "source_link": "https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/android_native_libraries.md"
+            }
+        }
+    ],
+    "uuid": "1681548C-A280-472E-9303-159A5E75C278"
 }

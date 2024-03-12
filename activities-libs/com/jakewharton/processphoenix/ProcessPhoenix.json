@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Process Phoenix",
+                "dev_team": "JakeWharton",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Process Phoenix facilitates restarting your application process.",
+                "source_link": "https://github.com/JakeWharton/ProcessPhoenix"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Process Phoenix",
+                "dev_team": "JakeWharton",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Process Phoenix facilitates restarting your application process.",
+                "source_link": "https://github.com/JakeWharton/ProcessPhoenix"
+            }
+        }
+    ],
+    "uuid": "B182018B-F6AF-4D8A-9EA9-FCDCF2B5614D"
+}

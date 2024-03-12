@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack ProfileInstaller",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "让库能够提前预填充要由 ART 读取的编译轨迹。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/profileinstaller"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack ProfileInstaller",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "让库能够提前预填充要由 ART 读取的编译轨迹。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/profileinstaller"
+            }
+        }
+    ],
+    "uuid": "0EA939B4-805A-4D08-9C68-47C745EB49E5"
+}

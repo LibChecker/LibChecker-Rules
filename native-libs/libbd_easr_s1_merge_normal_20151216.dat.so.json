@@ -1,8 +1,29 @@
 {
-    "label": "语音识别 SDK",
-    "team": "Baidu",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "百度语音开放平台 Android SDK，提供短语音识别、实时语音识别、离线自定义命令词识别、远场语音识别、语音唤醒、语义解析与对话管理等相关接口。SDK内部均为采用流式协议，即用户边说边处理。区别于 Restapi 需要上传整个录音文件。",
-    "relativeUrl": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "语音识别 SDK",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "百度语音开放平台 Android SDK，提供短语音识别、实时语音识别、离线自定义命令词识别、远场语音识别、语音唤醒、语义解析与对话管理等相关接口。SDK内部均为采用流式协议，即用户边说边处理。区别于 Restapi 需要上传整个录音文件。",
+                "source_link": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "语音识别 SDK",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "百度语音开放平台 Android SDK，提供短语音识别、实时语音识别、离线自定义命令词识别、远场语音识别、语音唤醒、语义解析与对话管理等相关接口。SDK内部均为采用流式协议，即用户边说边处理。区别于 Restapi 需要上传整个录音文件。",
+                "source_link": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
+            }
+        }
+    ],
+    "uuid": "A8805A8D-BE58-4411-87FA-613941D32558"
 }

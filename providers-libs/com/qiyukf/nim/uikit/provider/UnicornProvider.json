@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "七鱼 SDK",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "网易七鱼提供了丰富的 SDK 和服务端 API，方便企业快速使用七鱼，同时也可以根据自己的业务场景，进行一定程度的个性化开发。",
+                "source_link": "https://qiyukf.com/docs"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "七鱼 SDK",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "网易七鱼提供了丰富的 SDK 和服务端 API，方便企业快速使用七鱼，同时也可以根据自己的业务场景，进行一定程度的个性化开发。",
+                "source_link": "https://qiyukf.com/docs"
+            }
+        }
+    ],
+    "uuid": "C1D3CC0E-F98B-4454-97E6-EC2F5C02B6E7"
+}

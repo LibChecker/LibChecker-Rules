@@ -1,8 +1,29 @@
 {
-    "label": "LibJPEG",
-    "team": "Independent JPEG Group",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "This package contains C software to implement JPEG image encoding, decoding, and transcoding. JPEG is a standardized compression method for full-color and grayscale images.",
-    "relativeUrl": "https://ijg.org/files"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LibJPEG",
+                "dev_team": "Independent JPEG Group",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "This package contains C software to implement JPEG image encoding, decoding, and transcoding. JPEG is a standardized compression method for full-color and grayscale images.",
+                "source_link": "https://ijg.org/files"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibJPEG",
+                "dev_team": "Independent JPEG Group",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "This package contains C software to implement JPEG image encoding, decoding, and transcoding. JPEG is a standardized compression method for full-color and grayscale images.",
+                "source_link": "https://ijg.org/files"
+            }
+        }
+    ],
+    "uuid": "5CF6CB35-3233-4D59-B4CE-DBC0CE104CBB"
 }

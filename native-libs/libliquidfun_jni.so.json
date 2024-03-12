@@ -1,8 +1,29 @@
 {
-    "label": "LiquidFun",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["IveTian"],
-    "description": "LiquidFun 是 Box2D 的扩展。它为 Box2D 的刚体功能添加了基于粒子的流体和软体模拟。LiquidFun 可以为许多不同的系统构建，包括 Android，iOS，Windows，OS X，Linux 和 JavaScript。",
-    "relativeUrl": "https://github.com/google/liquidfun"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LiquidFun",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "IveTian"
+                ],
+                "description": "LiquidFun 是 Box2D 的扩展。它为 Box2D 的刚体功能添加了基于粒子的流体和软体模拟。LiquidFun 可以为许多不同的系统构建，包括 Android，iOS，Windows，OS X，Linux 和 JavaScript。",
+                "source_link": "https://github.com/google/liquidfun"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LiquidFun",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "IveTian"
+                ],
+                "description": "LiquidFun 是 Box2D 的扩展。它为 Box2D 的刚体功能添加了基于粒子的流体和软体模拟。LiquidFun 可以为许多不同的系统构建，包括 Android，iOS，Windows，OS X，Linux 和 JavaScript。",
+                "source_link": "https://github.com/google/liquidfun"
+            }
+        }
+    ],
+    "uuid": "86F918AF-D3F1-4A78-85C9-6C18242C84E7"
 }

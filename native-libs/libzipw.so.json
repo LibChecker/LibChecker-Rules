@@ -1,8 +1,29 @@
 {
-    "label": "zipw",
-    "team": "A dog's life software",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "A shared library for Android, iOS*, OSX, Windows, Linux and webGL** to compress/decompress zip/gzip/tar/bz2 (.zip/.gz) files and buffers.",
-    "relativeUrl": "https://assetstore.unity.com/packages/tools/input-management/zip-gzip-multiplatform-native-plugin-39411"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "zipw",
+                "dev_team": "A dog's life software",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "A shared library for Android, iOS*, OSX, Windows, Linux and webGL** to compress/decompress zip/gzip/tar/bz2 (.zip/.gz) files and buffers.",
+                "source_link": "https://assetstore.unity.com/packages/tools/input-management/zip-gzip-multiplatform-native-plugin-39411"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "zipw",
+                "dev_team": "A dog's life software",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "A shared library for Android, iOS*, OSX, Windows, Linux and webGL** to compress/decompress zip/gzip/tar/bz2 (.zip/.gz) files and buffers.",
+                "source_link": "https://assetstore.unity.com/packages/tools/input-management/zip-gzip-multiplatform-native-plugin-39411"
+            }
+        }
+    ],
+    "uuid": "8597D3CF-C63E-42D4-ACAB-C74D68D33091"
 }

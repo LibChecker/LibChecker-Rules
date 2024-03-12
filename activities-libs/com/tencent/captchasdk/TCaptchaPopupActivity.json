@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "防水墙",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "专注业务安全服务，用领先的人工智能技术解决业务欺诈、薅羊毛、刷单、爬虫、撞库等问题，让您的企业零投入也能有微信/QQ 级别的业务安全服务。",
+                "source_link": "https://007.qq.com/quick-start.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "防水墙",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "专注业务安全服务，用领先的人工智能技术解决业务欺诈、薅羊毛、刷单、爬虫、撞库等问题，让您的企业零投入也能有微信/QQ 级别的业务安全服务。",
+                "source_link": "https://007.qq.com/quick-start.html"
+            }
+        }
+    ],
+    "uuid": "73C8750C-42CB-4E42-A58E-B87C36F97E09"
+}

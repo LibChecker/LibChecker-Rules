@@ -1,8 +1,29 @@
 {
-    "label": "CRI ADX2 Unity 插件",
-    "team": "CRIWARE",
-    "iconUrl": "",
-    "contributors": ["kotori2"],
-    "description": "Unity 中的可用于商业游戏开发的声音系统插件。可以从支持网站上下载专用工具来编辑声音，同时网站上还提供技术支持。",
-    "relativeUrl": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "CRI ADX2 Unity 插件",
+                "dev_team": "CRIWARE",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "Unity 中的可用于商业游戏开发的声音系统插件。可以从支持网站上下载专用工具来编辑声音，同时网站上还提供技术支持。",
+                "source_link": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "CRI ADX2 Unity 插件",
+                "dev_team": "CRIWARE",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "Unity 中的可用于商业游戏开发的声音系统插件。可以从支持网站上下载专用工具来编辑声音，同时网站上还提供技术支持。",
+                "source_link": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
+            }
+        }
+    ],
+    "uuid": "2223209B-1831-4C74-8318-C6F883B6508C"
 }

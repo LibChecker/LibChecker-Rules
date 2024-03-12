@@ -1,8 +1,0 @@
-{
-    "label": "Sentry",
-    "team": "Sentry",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Sentry 是一个实时事件日志记录和聚合平台，它专门用于监视错误和提取执行适当的事后操作所需的所有信息。",
-    "relativeUrl": "https://sentry.io/for/android/"
-}

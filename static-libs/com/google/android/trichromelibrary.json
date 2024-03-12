@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Trichrome",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "YuukikazeMKII"
+                ],
+                "description": "Trichrome returns to separate apps for Chrome and Webview, but places shared resources in a third shared-library APK.",
+                "source_link": "https://chromium.googlesource.com/chromium/src/+/master/docs/android_native_libraries.md#Trichrome"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Trichrome",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "YuukikazeMKII"
+                ],
+                "description": "Trichrome returns to separate apps for Chrome and Webview, but places shared resources in a third shared-library APK.",
+                "source_link": "https://chromium.googlesource.com/chromium/src/+/master/docs/android_native_libraries.md#Trichrome"
+            }
+        }
+    ],
+    "uuid": "84362B40-8621-448A-A975-73F0E69E91C6"
+}

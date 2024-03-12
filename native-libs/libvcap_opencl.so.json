@@ -1,8 +1,29 @@
 {
-    "label": "VCAP",
-    "team": "vivo",
-    "iconUrl": "",
-    "contributors": ["ashes68"],
-    "description": "VCAP 是 vivo 自研的全能力、高性能、跨平台的移动端 AI 计算加速平台，助力开发者将 AI 算法在移动端快速部署、高效运行。",
-    "relativeUrl": "https://developers.vivo.com/product/ai/vcap"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "VCAP",
+                "dev_team": "vivo",
+                "rule_contributors": [
+                    "ashes68"
+                ],
+                "description": "VCAP 是 vivo 自研的全能力、高性能、跨平台的移动端 AI 计算加速平台，助力开发者将 AI 算法在移动端快速部署、高效运行。",
+                "source_link": "https://developers.vivo.com/product/ai/vcap"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "VCAP",
+                "dev_team": "vivo",
+                "rule_contributors": [
+                    "ashes68"
+                ],
+                "description": "VCAP 是 vivo 自研的全能力、高性能、跨平台的移动端 AI 计算加速平台，助力开发者将 AI 算法在移动端快速部署、高效运行。",
+                "source_link": "https://developers.vivo.com/product/ai/vcap"
+            }
+        }
+    ],
+    "uuid": "4C2F3C58-23BA-4AB8-829E-ABE73365D06B"
 }

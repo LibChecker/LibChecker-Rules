@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Picasso",
+                "dev_team": "Square",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个强大的 Android 图片下载缓存库。",
+                "source_link": "https://github.com/square/picasso/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Picasso",
+                "dev_team": "Square",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个强大的 Android 图片下载缓存库。",
+                "source_link": "https://github.com/square/picasso/"
+            }
+        }
+    ],
+    "uuid": "2A4CB04C-0710-4BFF-AA14-F9BEA71D3055"
+}

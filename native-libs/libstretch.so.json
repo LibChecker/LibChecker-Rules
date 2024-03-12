@@ -1,8 +1,29 @@
 {
-    "label": "Stretch",
-    "team": "vislyhq（visly）",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "Stretch is an implementation of high performance Flexbox written in Rust. The goal of stretch is to provide a solid foundation for layout across all platforms with a specific focus on mobile. Long term we want stretch to not only support flexbox but also many other layout algorithms such as grid layout. Stretch was made for and powers https://visly.app.",
-    "relativeUrl": "https://github.com/vislyhq/stretch"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Stretch",
+                "dev_team": "vislyhq（visly）",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Stretch is an implementation of high performance Flexbox written in Rust. The goal of stretch is to provide a solid foundation for layout across all platforms with a specific focus on mobile. Long term we want stretch to not only support flexbox but also many other layout algorithms such as grid layout. Stretch was made for and powers https://visly.app.",
+                "source_link": "https://github.com/vislyhq/stretch"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Stretch",
+                "dev_team": "vislyhq（visly）",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Stretch is an implementation of high performance Flexbox written in Rust. The goal of stretch is to provide a solid foundation for layout across all platforms with a specific focus on mobile. Long term we want stretch to not only support flexbox but also many other layout algorithms such as grid layout. Stretch was made for and powers https://visly.app.",
+                "source_link": "https://github.com/vislyhq/stretch"
+            }
+        }
+    ],
+    "uuid": "59A2F7BC-48B4-4499-992A-348400AFFDD3"
 }

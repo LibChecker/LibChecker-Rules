@@ -1,8 +1,29 @@
 {
-    "label": "7-Zip",
-    "team": "borisbrodski",
-    "iconUrl": "",
-    "contributors": ["lgc2333"],
-    "description": "7-Zip-JBinding is a free cross-platform java binding of 7-Zip free compress/decompress library.",
-    "relativeUrl": "https://github.com/borisbrodski/sevenzipjbinding"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "7-Zip",
+                "dev_team": "borisbrodski",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "7-Zip-JBinding is a free cross-platform java binding of 7-Zip free compress/decompress library.",
+                "source_link": "https://github.com/borisbrodski/sevenzipjbinding"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "7-Zip",
+                "dev_team": "borisbrodski",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "7-Zip-JBinding is a free cross-platform java binding of 7-Zip free compress/decompress library.",
+                "source_link": "https://github.com/borisbrodski/sevenzipjbinding"
+            }
+        }
+    ],
+    "uuid": "4758E42D-12CA-4F33-B4E8-DE8D6E08F22F"
 }

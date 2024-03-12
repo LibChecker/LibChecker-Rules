@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "OkDownload",
+                "dev_team": "LingoChamp",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "可靠，灵活，高性能以及强大的下载引擎。",
+                "source_link": "https://github.com/lingochamp/okdownload/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OkDownload",
+                "dev_team": "LingoChamp",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "可靠，灵活，高性能以及强大的下载引擎。",
+                "source_link": "https://github.com/lingochamp/okdownload/"
+            }
+        }
+    ],
+    "uuid": "E848DA37-070B-4C3C-B045-FA3532E96C95"
+}

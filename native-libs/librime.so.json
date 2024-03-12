@@ -1,8 +1,29 @@
 {
-    "label": "Rime Core",
-    "team": "Rime (create by lotem)",
-    "iconUrl": "",
-    "contributors": ["WhiredPlanck"],
-    "description": "Rime 输入法引擎核心库。",
-    "relativeUrl": "https://github.com/rime/librime"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Rime Core",
+                "dev_team": "Rime (create by lotem)",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Rime 输入法引擎核心库。",
+                "source_link": "https://github.com/rime/librime"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Rime Core",
+                "dev_team": "Rime (create by lotem)",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Rime 输入法引擎核心库。",
+                "source_link": "https://github.com/rime/librime"
+            }
+        }
+    ],
+    "uuid": "58F4089F-05A7-4ECE-B2BC-EC637C17B95C"
 }

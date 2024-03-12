@@ -1,8 +1,29 @@
 {
-    "label": "小米 IoT SDK",
-    "team": "Xiaomi",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "小米 IoT 平台是小米面向消费类智能硬件领域的开放合作平台，开发者借助小米 IoT 平台开放的资源、能力和产品智能化解决方案，能够以极低的成本快速提升产品的智能化水平，满足不同用户对智能产品的使用需求和体验要求，与加入小米 IoT 的其他开发者共同打造极致的智能生活体验。",
-    "relativeUrl": "https://iot.mi.com/new/doc/accesses/app-development/native-app/android/introduction"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "小米 IoT SDK",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "小米 IoT 平台是小米面向消费类智能硬件领域的开放合作平台，开发者借助小米 IoT 平台开放的资源、能力和产品智能化解决方案，能够以极低的成本快速提升产品的智能化水平，满足不同用户对智能产品的使用需求和体验要求，与加入小米 IoT 的其他开发者共同打造极致的智能生活体验。",
+                "source_link": "https://iot.mi.com/new/doc/accesses/app-development/native-app/android/introduction"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "小米 IoT SDK",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "小米 IoT 平台是小米面向消费类智能硬件领域的开放合作平台，开发者借助小米 IoT 平台开放的资源、能力和产品智能化解决方案，能够以极低的成本快速提升产品的智能化水平，满足不同用户对智能产品的使用需求和体验要求，与加入小米 IoT 的其他开发者共同打造极致的智能生活体验。",
+                "source_link": "https://iot.mi.com/new/doc/accesses/app-development/native-app/android/introduction"
+            }
+        }
+    ],
+    "uuid": "626512BE-E87D-4B7E-959D-1B074197D635"
 }

@@ -1,8 +1,31 @@
 {
-    "label": "Google AdMob",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "yfdyh000"],
-    "description": "Google AdMob 是一个助您通过应用实现创收的移动广告平台。",
-    "relativeUrl": "https://developers.google.com/admob/android/sdk/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google AdMob",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe",
+                    "yfdyh000"
+                ],
+                "description": "Google AdMob 是一个助您通过应用实现创收的移动广告平台。",
+                "source_link": "https://developers.google.com/admob/android/sdk/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google AdMob",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe",
+                    "yfdyh000"
+                ],
+                "description": "Google AdMob 是一个助您通过应用实现创收的移动广告平台。",
+                "source_link": "https://developers.google.com/admob/android/sdk/"
+            }
+        }
+    ],
+    "uuid": "4CA775FF-C215-4140-B184-191E24CB9D4C"
 }

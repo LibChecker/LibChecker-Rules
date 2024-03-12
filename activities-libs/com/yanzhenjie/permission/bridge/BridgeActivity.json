@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndPermission",
+                "dev_team": "yanzhenjie",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Android 平台上的权限管理器。",
+                "source_link": "https://github.com/yanzhenjie/AndPermission"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndPermission",
+                "dev_team": "yanzhenjie",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Android 平台上的权限管理器。",
+                "source_link": "https://github.com/yanzhenjie/AndPermission"
+            }
+        }
+    ],
+    "uuid": "CF7F80B8-7928-479C-8522-B44574755552"
+}

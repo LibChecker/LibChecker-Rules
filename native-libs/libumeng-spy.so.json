@@ -1,8 +1,29 @@
 {
-    "label": "移动统计分析",
-    "team": "Umeng",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "U-App 作为一款专业、免费的移动统计分析产品。在日常业务中帮您解决多种数据相关问题，如数据采集与管理、业务监测、用户行为分析、App 稳定性监控及实现多种运营方案等。助力互联网企业充分挖掘用户行为数据价值，找到产品更新迭代方向，实现精细化运营，全面提升业务增长效能。",
-    "relativeUrl": "https://developer.umeng.com/docs/119267/detail/126061"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "移动统计分析",
+                "dev_team": "Umeng",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "U-App 作为一款专业、免费的移动统计分析产品。在日常业务中帮您解决多种数据相关问题，如数据采集与管理、业务监测、用户行为分析、App 稳定性监控及实现多种运营方案等。助力互联网企业充分挖掘用户行为数据价值，找到产品更新迭代方向，实现精细化运营，全面提升业务增长效能。",
+                "source_link": "https://developer.umeng.com/docs/119267/detail/126061"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "移动统计分析",
+                "dev_team": "Umeng",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "U-App 作为一款专业、免费的移动统计分析产品。在日常业务中帮您解决多种数据相关问题，如数据采集与管理、业务监测、用户行为分析、App 稳定性监控及实现多种运营方案等。助力互联网企业充分挖掘用户行为数据价值，找到产品更新迭代方向，实现精细化运营，全面提升业务增长效能。",
+                "source_link": "https://developer.umeng.com/docs/119267/detail/126061"
+            }
+        }
+    ],
+    "uuid": "541E93F2-94FD-410E-A01A-FC437D531CAE"
 }

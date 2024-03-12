@@ -1,8 +1,29 @@
 {
-    "label": "android-gif-drawable",
-    "team": "koral--",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "android-gif-drawable 是在 Android 上显示动画 GIF 的绘制库。",
-    "relativeUrl": "https://github.com/koral--/android-gif-drawable/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "android-gif-drawable",
+                "dev_team": "koral--",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "android-gif-drawable 是在 Android 上显示动画 GIF 的绘制库。",
+                "source_link": "https://github.com/koral--/android-gif-drawable/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "android-gif-drawable",
+                "dev_team": "koral--",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "android-gif-drawable 是在 Android 上显示动画 GIF 的绘制库。",
+                "source_link": "https://github.com/koral--/android-gif-drawable/"
+            }
+        }
+    ],
+    "uuid": "87EEFC4A-749B-4E72-9551-54F7B5908C9D"
 }

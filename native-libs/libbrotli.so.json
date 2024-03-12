@@ -1,8 +1,29 @@
 {
-    "label": "Brotli",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Goooler"],
-    "description": "Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression.",
-    "relativeUrl": "https://github.com/google/brotli"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Brotli",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Goooler"
+                ],
+                "description": "Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression.",
+                "source_link": "https://github.com/google/brotli"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Brotli",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Goooler"
+                ],
+                "description": "Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression.",
+                "source_link": "https://github.com/google/brotli"
+            }
+        }
+    ],
+    "uuid": "1F60DEDD-88A8-4DBD-8F57-21CEEB29355B"
 }

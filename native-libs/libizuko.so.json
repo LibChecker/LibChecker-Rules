@@ -1,8 +1,29 @@
 {
-    "label": "Izuko",
-    "team": "Absinthe",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Powered by Absinthe.",
-    "relativeUrl": "https://zhaobozhen.github.io/Anywhere-Docs"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Izuko",
+                "dev_team": "Absinthe",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Powered by Absinthe.",
+                "source_link": "https://zhaobozhen.github.io/Anywhere-Docs"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Izuko",
+                "dev_team": "Absinthe",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Powered by Absinthe.",
+                "source_link": "https://zhaobozhen.github.io/Anywhere-Docs"
+            }
+        }
+    ],
+    "uuid": "C033018D-6D44-4A38-B502-2DEC3466E57D"
 }

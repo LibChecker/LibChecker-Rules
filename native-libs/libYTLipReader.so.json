@@ -1,8 +1,31 @@
 {
-    "label": "腾讯优图 SDK",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy", "Absinthe"],
-    "description": "腾讯优图 AI 开放平台提供 AI + 互联网、金融、教育等多元化的人工智能服务和行业解决方案，包括人脸核身、人脸防伪、内容安全等领域的产品和案例。",
-    "relativeUrl": "https://open.youtu.qq.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯优图 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "Absinthe"
+                ],
+                "description": "腾讯优图 AI 开放平台提供 AI + 互联网、金融、教育等多元化的人工智能服务和行业解决方案，包括人脸核身、人脸防伪、内容安全等领域的产品和案例。",
+                "source_link": "https://open.youtu.qq.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯优图 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "Absinthe"
+                ],
+                "description": "腾讯优图 AI 开放平台提供 AI + 互联网、金融、教育等多元化的人工智能服务和行业解决方案，包括人脸核身、人脸防伪、内容安全等领域的产品和案例。",
+                "source_link": "https://open.youtu.qq.com/"
+            }
+        }
+    ],
+    "uuid": "A2D6A586-AF4E-44FB-83B0-095D137581E5"
 }

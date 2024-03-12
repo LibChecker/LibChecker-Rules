@@ -1,8 +1,29 @@
 {
-    "label": "快应用",
-    "team": "快应用联盟",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "快应用是一种新的应用形态，以往的手机端应用主要有两种方式：网页、原生应用；网页无需安装，却体验不是很好；原生应用体验流畅，却需要从应用商店下载安装，难以一步直达用户；快应用的出现，就是希望能够让用户无需下载安装，并且还能流畅的体验应用内容。",
-    "relativeUrl": "https://doc.quickapp.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "快应用",
+                "dev_team": "快应用联盟",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "快应用是一种新的应用形态，以往的手机端应用主要有两种方式：网页、原生应用；网页无需安装，却体验不是很好；原生应用体验流畅，却需要从应用商店下载安装，难以一步直达用户；快应用的出现，就是希望能够让用户无需下载安装，并且还能流畅的体验应用内容。",
+                "source_link": "https://doc.quickapp.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "快应用",
+                "dev_team": "快应用联盟",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "快应用是一种新的应用形态，以往的手机端应用主要有两种方式：网页、原生应用；网页无需安装，却体验不是很好；原生应用体验流畅，却需要从应用商店下载安装，难以一步直达用户；快应用的出现，就是希望能够让用户无需下载安装，并且还能流畅的体验应用内容。",
+                "source_link": "https://doc.quickapp.cn/"
+            }
+        }
+    ],
+    "uuid": "FD6B295F-6973-4D71-96E2-4EE19545FE26"
 }

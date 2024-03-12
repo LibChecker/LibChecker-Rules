@@ -1,8 +1,29 @@
 {
-    "label": "Android Crazy Linker",
-    "team": "The Chromium Authors",
-    "iconUrl": "",
-    "contributors": ["watwhat"],
-    "description": "Fork of the Android NDK crazy linker.",
-    "relativeUrl": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Android Crazy Linker",
+                "dev_team": "The Chromium Authors",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "Fork of the Android NDK crazy linker.",
+                "source_link": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Android Crazy Linker",
+                "dev_team": "The Chromium Authors",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "Fork of the Android NDK crazy linker.",
+                "source_link": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+            }
+        }
+    ],
+    "uuid": "5D371535-E819-48FC-8E33-607F74C079CB"
 }

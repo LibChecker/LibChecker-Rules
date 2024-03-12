@@ -1,8 +1,29 @@
 {
-    "label": "腾讯客户端性能分析",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "腾讯客户端性能分析（QAPM）是一款全方位定位检测 APP 应用性能的 SDK，其简单易用、并能提供多维度检测及分析，您只需简单的调用几个接口，就能对您的 APP 做全方位的性能检测。",
-    "relativeUrl": "https://cloud.tencent.com/document/product/683"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯客户端性能分析",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯客户端性能分析（QAPM）是一款全方位定位检测 APP 应用性能的 SDK，其简单易用、并能提供多维度检测及分析，您只需简单的调用几个接口，就能对您的 APP 做全方位的性能检测。",
+                "source_link": "https://cloud.tencent.com/document/product/683"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯客户端性能分析",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯客户端性能分析（QAPM）是一款全方位定位检测 APP 应用性能的 SDK，其简单易用、并能提供多维度检测及分析，您只需简单的调用几个接口，就能对您的 APP 做全方位的性能检测。",
+                "source_link": "https://cloud.tencent.com/document/product/683"
+            }
+        }
+    ],
+    "uuid": "02F9D51A-248A-4B0F-8CE5-E3607441D63D"
 }

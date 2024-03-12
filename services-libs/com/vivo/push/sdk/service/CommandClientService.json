@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "vivo Push",
+                "dev_team": "vivo",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "vivo 推送是 Funtouch OS 上系统级消息推送平台，帮助开发者在 vivo 平台有效提升活跃和留存。通过和系统的深度结合，建立稳定可靠、安全可控、高性能的消息推送服务，帮助不同行业的开发者挖掘更多的运营价值。",
+                "source_link": "https://push.vivo.com.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "vivo Push",
+                "dev_team": "vivo",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "vivo 推送是 Funtouch OS 上系统级消息推送平台，帮助开发者在 vivo 平台有效提升活跃和留存。通过和系统的深度结合，建立稳定可靠、安全可控、高性能的消息推送服务，帮助不同行业的开发者挖掘更多的运营价值。",
+                "source_link": "https://push.vivo.com.cn/"
+            }
+        }
+    ],
+    "uuid": "5FB95D44-3E64-4674-9ABA-B2653814FE4A"
+}

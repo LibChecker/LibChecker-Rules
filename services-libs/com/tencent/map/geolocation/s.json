@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯地图 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe",
+                    "HenryWu01"
+                ],
+                "description": "腾讯地图定位 SDK 是一套基于 Android 4.1 及以上版本设备的应用程序接口。通过该接口，您可以轻松使用腾讯地图定位服务，构建 LBS 应用程序。",
+                "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯地图 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe",
+                    "HenryWu01"
+                ],
+                "description": "腾讯地图定位 SDK 是一套基于 Android 4.1 及以上版本设备的应用程序接口。通过该接口，您可以轻松使用腾讯地图定位服务，构建 LBS 应用程序。",
+                "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+            }
+        }
+    ],
+    "uuid": "C42C6BCB-7E49-42D6-8C5B-092226AF8D00"
+}

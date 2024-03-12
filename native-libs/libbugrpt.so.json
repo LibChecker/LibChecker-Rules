@@ -1,8 +1,29 @@
 {
-    "label": "网易云捕",
-    "team": "Netease",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "……",
-    "relativeUrl": "http://crash.163.com/index.do"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "网易云捕",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "……",
+                "source_link": "http://crash.163.com/index.do"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "网易云捕",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "……",
+                "source_link": "http://crash.163.com/index.do"
+            }
+        }
+    ],
+    "uuid": "8B905AEB-A3C3-4B39-B2A1-C434E0125C61"
 }

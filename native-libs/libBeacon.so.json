@@ -1,8 +1,29 @@
 {
-    "label": "腾讯流量联盟",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "腾讯移动开放平台是为广大移动端应用开发者提供的平台。",
-    "relativeUrl": "https://wiki.open.qq.com/wiki/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯流量联盟",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯移动开放平台是为广大移动端应用开发者提供的平台。",
+                "source_link": "https://wiki.open.qq.com/wiki/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯流量联盟",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯移动开放平台是为广大移动端应用开发者提供的平台。",
+                "source_link": "https://wiki.open.qq.com/wiki/"
+            }
+        }
+    ],
+    "uuid": "2A04354C-73FA-4718-8A52-2284C01043B7"
 }

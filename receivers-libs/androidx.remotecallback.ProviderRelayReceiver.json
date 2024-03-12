@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack Remote Callback",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "创建一个包装，使开发人员更容易地提供 PendingIntent。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/media/"
-}

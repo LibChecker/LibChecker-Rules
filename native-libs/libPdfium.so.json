@@ -1,8 +1,29 @@
 {
-    "label": "PDFium",
-    "team": "PDFium",
-    "iconUrl": "",
-    "contributors": ["Super12138"],
-    "description": "PDFium 是 Chrome 的 PDF 渲染引擎，并且是开源的。",
-    "relativeUrl": "https://pdfium.googlesource.com/pdfium/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "PDFium",
+                "dev_team": "PDFium",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "PDFium 是 Chrome 的 PDF 渲染引擎，并且是开源的。",
+                "source_link": "https://pdfium.googlesource.com/pdfium/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "PDFium",
+                "dev_team": "PDFium",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "PDFium 是 Chrome 的 PDF 渲染引擎，并且是开源的。",
+                "source_link": "https://pdfium.googlesource.com/pdfium/"
+            }
+        }
+    ],
+    "uuid": "A12D8557-3D31-4E33-8895-0591490E0B55"
 }

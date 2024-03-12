@@ -1,8 +1,29 @@
 {
-    "label": "opencore-amr",
-    "team": "mstorsjo",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Fraunhofer FDK AAC code from Android.",
-    "relativeUrl": "https://github.com/mstorsjo/fdk-aac"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "opencore-amr",
+                "dev_team": "mstorsjo",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Fraunhofer FDK AAC code from Android.",
+                "source_link": "https://github.com/mstorsjo/fdk-aac"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "opencore-amr",
+                "dev_team": "mstorsjo",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Fraunhofer FDK AAC code from Android.",
+                "source_link": "https://github.com/mstorsjo/fdk-aac"
+            }
+        }
+    ],
+    "uuid": "7E830C8A-4C39-4B64-9326-E8C8F924EDC4"
 }

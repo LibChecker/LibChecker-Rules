@@ -1,8 +1,29 @@
 {
-    "label": "Yandex SpeechKit",
-    "team": "Yandex",
-    "iconUrl": "",
-    "contributors": ["xyl23333"],
-    "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).。",
-    "relativeUrl": "https://cloud.yandex.com/en-ru/docs/speechkit/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Yandex SpeechKit",
+                "dev_team": "Yandex",
+                "rule_contributors": [
+                    "xyl23333"
+                ],
+                "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).。",
+                "source_link": "https://cloud.yandex.com/en-ru/docs/speechkit/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Yandex SpeechKit",
+                "dev_team": "Yandex",
+                "rule_contributors": [
+                    "xyl23333"
+                ],
+                "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).。",
+                "source_link": "https://cloud.yandex.com/en-ru/docs/speechkit/"
+            }
+        }
+    ],
+    "uuid": "E331500D-8703-4F27-9CE5-1E4224806036"
 }

@@ -1,8 +1,35 @@
 {
-    "label": "FFmpeg",
-    "team": "FFmpeg",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶", "Absinthe", "lgc2333", "Super12138"],
-    "description": "FFmpeg 是领先的多媒体框架，能够解码，编码，转码，MUX，DEMUX，流式，过滤和播放人类和机器创建的几乎所有内容。",
-    "relativeUrl": "http://www.ffmpeg.org/libavcodec.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FFmpeg",
+                "dev_team": "FFmpeg",
+                "rule_contributors": [
+                    "飘落的枫叶",
+                    "Absinthe",
+                    "lgc2333",
+                    "Super12138"
+                ],
+                "description": "FFmpeg 是领先的多媒体框架，能够解码，编码，转码，MUX，DEMUX，流式，过滤和播放人类和机器创建的几乎所有内容。",
+                "source_link": "http://www.ffmpeg.org/libavcodec.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FFmpeg",
+                "dev_team": "FFmpeg",
+                "rule_contributors": [
+                    "飘落的枫叶",
+                    "Absinthe",
+                    "lgc2333",
+                    "Super12138"
+                ],
+                "description": "FFmpeg 是领先的多媒体框架，能够解码，编码，转码，MUX，DEMUX，流式，过滤和播放人类和机器创建的几乎所有内容。",
+                "source_link": "http://www.ffmpeg.org/libavcodec.html"
+            }
+        }
+    ],
+    "uuid": "2733A862-D941-4D4E-BE95-67AA5A3F4093"
 }

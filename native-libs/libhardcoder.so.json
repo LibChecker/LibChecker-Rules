@@ -1,8 +1,29 @@
 {
-    "label": "HardCoder",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["xyl23333"],
-    "description": "Hardcoder 是一套 Android APP 与系统间的通信解决方案，突破了 APP 只能调用系统标准 API，无法直接调用系统底层硬件资源的问题，让 Android APP 和系统能实时通信。APP 能充分调度系统资源如 CPU 频率，大小核，GPU 频率等来提升 APP 性能，系统能够从 APP 侧获取更多信息以便更合理提供各项系统资源。同时，对于 Android 缺乏标准接口实现的功能，APP 和系统也可以通过该框架实现机型适配和功能拓展。",
-    "relativeUrl": "https://github.com/Tencent/Hardcoder"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HardCoder",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "xyl23333"
+                ],
+                "description": "Hardcoder 是一套 Android APP 与系统间的通信解决方案，突破了 APP 只能调用系统标准 API，无法直接调用系统底层硬件资源的问题，让 Android APP 和系统能实时通信。APP 能充分调度系统资源如 CPU 频率，大小核，GPU 频率等来提升 APP 性能，系统能够从 APP 侧获取更多信息以便更合理提供各项系统资源。同时，对于 Android 缺乏标准接口实现的功能，APP 和系统也可以通过该框架实现机型适配和功能拓展。",
+                "source_link": "https://github.com/Tencent/Hardcoder"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HardCoder",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "xyl23333"
+                ],
+                "description": "Hardcoder 是一套 Android APP 与系统间的通信解决方案，突破了 APP 只能调用系统标准 API，无法直接调用系统底层硬件资源的问题，让 Android APP 和系统能实时通信。APP 能充分调度系统资源如 CPU 频率，大小核，GPU 频率等来提升 APP 性能，系统能够从 APP 侧获取更多信息以便更合理提供各项系统资源。同时，对于 Android 缺乏标准接口实现的功能，APP 和系统也可以通过该框架实现机型适配和功能拓展。",
+                "source_link": "https://github.com/Tencent/Hardcoder"
+            }
+        }
+    ],
+    "uuid": "3C4F8E5B-3FD2-43C2-B546-26A20C6AE7FB"
 }

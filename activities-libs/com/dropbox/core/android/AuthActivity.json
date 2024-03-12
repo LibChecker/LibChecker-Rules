@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Dropbox Core SDK for Java",
+                "dev_team": "Dropbox",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "A Java library to access Dropbox's HTTP-based Core API v2. This SDK also supports the older Core API v1, but that support will be removed at some point.",
+                "source_link": "https://github.com/dropbox/dropbox-sdk-java"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Dropbox Core SDK for Java",
+                "dev_team": "Dropbox",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "A Java library to access Dropbox's HTTP-based Core API v2. This SDK also supports the older Core API v1, but that support will be removed at some point.",
+                "source_link": "https://github.com/dropbox/dropbox-sdk-java"
+            }
+        }
+    ],
+    "uuid": "E1784B0F-3AEA-4F4D-870C-52899393C09F"
+}

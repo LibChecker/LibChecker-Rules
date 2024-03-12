@@ -1,8 +1,29 @@
 {
-    "label": "AndroidPhotoFilters",
-    "team": "Zomato",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "AndroidPhotoFilters aims to provide fast, powerful and flexible image processing instrument for creating awesome effects on any image media.",
-    "relativeUrl": "https://github.com/Zomato/AndroidPhotoFilters"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndroidPhotoFilters",
+                "dev_team": "Zomato",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "AndroidPhotoFilters aims to provide fast, powerful and flexible image processing instrument for creating awesome effects on any image media.",
+                "source_link": "https://github.com/Zomato/AndroidPhotoFilters"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndroidPhotoFilters",
+                "dev_team": "Zomato",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "AndroidPhotoFilters aims to provide fast, powerful and flexible image processing instrument for creating awesome effects on any image media.",
+                "source_link": "https://github.com/Zomato/AndroidPhotoFilters"
+            }
+        }
+    ],
+    "uuid": "D8B1C164-EFEA-4BF3-A8AC-72AE696812C9"
 }

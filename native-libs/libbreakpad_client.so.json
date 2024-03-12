@@ -1,8 +1,29 @@
 {
-    "label": "Breakpad",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["crrashh1542"],
-    "description": "Breakpad 是一组实现崩溃报告系统的客户端和服务器组件。",
-    "relativeUrl": "https://github.com/google/breakpad"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Breakpad",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "Breakpad 是一组实现崩溃报告系统的客户端和服务器组件。",
+                "source_link": "https://github.com/google/breakpad"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Breakpad",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "crrashh1542"
+                ],
+                "description": "Breakpad 是一组实现崩溃报告系统的客户端和服务器组件。",
+                "source_link": "https://github.com/google/breakpad"
+            }
+        }
+    ],
+    "uuid": "3E62B930-55DE-4D17-A948-A8D2D0ACD703"
 }

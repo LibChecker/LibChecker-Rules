@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AppGallery Connect",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "为开发者提供移动应用全生命周期服务，覆盖全终端全场景，降低开发成本，提升运营效率，助力商业成功。",
+                "source_link": "https://developer.huawei.com/consumer/cn/agconnect/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AppGallery Connect",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "为开发者提供移动应用全生命周期服务，覆盖全终端全场景，降低开发成本，提升运营效率，助力商业成功。",
+                "source_link": "https://developer.huawei.com/consumer/cn/agconnect/"
+            }
+        }
+    ],
+    "uuid": "D6334CD5-54FC-4E27-8E48-A228C094FBC9"
+}

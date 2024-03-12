@@ -1,8 +1,31 @@
 {
-    "label": "Paddle Lite",
-    "team": "Baidu",
-    "iconUrl": "",
-    "contributors": ["yfdyh000", "HenryWu01"],
-    "description": "Paddle Lite 是一个高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。当前 Paddle Lite 不仅在百度内部业务中得到全面应用，也成功支持了众多外部用户和企业的生产任务。",
-    "relativeUrl": "https://github.com/PaddlePaddle/Paddle-Lite"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Paddle Lite",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "HenryWu01"
+                ],
+                "description": "Paddle Lite 是一个高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。当前 Paddle Lite 不仅在百度内部业务中得到全面应用，也成功支持了众多外部用户和企业的生产任务。",
+                "source_link": "https://github.com/PaddlePaddle/Paddle-Lite"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Paddle Lite",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "HenryWu01"
+                ],
+                "description": "Paddle Lite 是一个高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。当前 Paddle Lite 不仅在百度内部业务中得到全面应用，也成功支持了众多外部用户和企业的生产任务。",
+                "source_link": "https://github.com/PaddlePaddle/Paddle-Lite"
+            }
+        }
+    ],
+    "uuid": "90E6F74C-DC0E-4864-8C4E-73497BDB9465"
 }

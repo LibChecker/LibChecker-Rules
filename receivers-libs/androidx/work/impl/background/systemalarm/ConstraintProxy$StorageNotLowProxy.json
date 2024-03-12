@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack WorkManager",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "使用 WorkManager API 可以轻松地调度即使在应用退出或设备重启时仍应运行的可延迟异步任务。",
+                "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack WorkManager",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "使用 WorkManager API 可以轻松地调度即使在应用退出或设备重启时仍应运行的可延迟异步任务。",
+                "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
+            }
+        }
+    ],
+    "uuid": "42C6F59C-5ABB-442C-A5A1-4638A9BE329D"
+}

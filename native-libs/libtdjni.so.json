@@ -1,8 +1,29 @@
 {
-    "label": "TDLib",
-    "team": "Telegram",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
-    "description": "TDLib 是用于构建 Telegram 客户端的跨平台库。几乎所有编程语言都可以轻松使用它。",
-    "relativeUrl": "https://core.telegram.org/tdlib/docs/index.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TDLib",
+                "dev_team": "Telegram",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "TDLib 是用于构建 Telegram 客户端的跨平台库。几乎所有编程语言都可以轻松使用它。",
+                "source_link": "https://core.telegram.org/tdlib/docs/index.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TDLib",
+                "dev_team": "Telegram",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "TDLib 是用于构建 Telegram 客户端的跨平台库。几乎所有编程语言都可以轻松使用它。",
+                "source_link": "https://core.telegram.org/tdlib/docs/index.html"
+            }
+        }
+    ],
+    "uuid": "CDF259CF-68D3-4F94-97D7-509874DF268B"
 }

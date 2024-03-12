@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack AppCompat",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Allows access to new APIs on older API versions of the platform (many using Material Design).",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/appcompat"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack AppCompat",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Allows access to new APIs on older API versions of the platform (many using Material Design).",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/appcompat"
+            }
+        }
+    ],
+    "uuid": "D2A17366-5160-4179-BCEC-F88A566BA8DC"
+}

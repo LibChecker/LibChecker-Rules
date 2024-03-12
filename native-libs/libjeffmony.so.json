@@ -1,8 +1,29 @@
 {
-    "label": "PlayerSDK",
-    "team": "JeffMony",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "提供一个高效的播放器库。",
-    "relativeUrl": "https://github.com/JeffMony/PlayerSDK"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "PlayerSDK",
+                "dev_team": "JeffMony",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "提供一个高效的播放器库。",
+                "source_link": "https://github.com/JeffMony/PlayerSDK"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "PlayerSDK",
+                "dev_team": "JeffMony",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "提供一个高效的播放器库。",
+                "source_link": "https://github.com/JeffMony/PlayerSDK"
+            }
+        }
+    ],
+    "uuid": "2227696E-A553-4496-BCAE-6CA8D07A9D28"
 }

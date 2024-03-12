@@ -1,8 +1,29 @@
 {
-    "label": "cJSON",
-    "team": "cJSON",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "Ultralightweight JSON parser in ANSI C.",
-    "relativeUrl": "https://github.com/DaveGamble/cJSON"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "cJSON",
+                "dev_team": "cJSON",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Ultralightweight JSON parser in ANSI C.",
+                "source_link": "https://github.com/DaveGamble/cJSON"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "cJSON",
+                "dev_team": "cJSON",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Ultralightweight JSON parser in ANSI C.",
+                "source_link": "https://github.com/DaveGamble/cJSON"
+            }
+        }
+    ],
+    "uuid": "F1CE2C68-4325-4C5D-BCF4-9BF4C96C3C50"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "React Native App Utils",
-    "team": "Stumble App",
-    "iconUrl": "",
-    "contributors": ["Super12138"],
-    "description": "一个简单的 React-Native Utils 库，具有随机有用的功能。主要用于后台服务任务，例如通知 onReceive 事件。",
-    "relativeUrl": "https://github.com/stumbleapp/react-native-app-utils"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "React Native App Utils",
+                "dev_team": "Stumble App",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "一个简单的 React-Native Utils 库，具有随机有用的功能。主要用于后台服务任务，例如通知 onReceive 事件。",
+                "source_link": "https://github.com/stumbleapp/react-native-app-utils"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "React Native App Utils",
+                "dev_team": "Stumble App",
+                "rule_contributors": [
+                    "Super12138"
+                ],
+                "description": "一个简单的 React-Native Utils 库，具有随机有用的功能。主要用于后台服务任务，例如通知 onReceive 事件。",
+                "source_link": "https://github.com/stumbleapp/react-native-app-utils"
+            }
+        }
+    ],
+    "uuid": "18B2C3E2-6045-4934-84A6-585162A72B81"
 }

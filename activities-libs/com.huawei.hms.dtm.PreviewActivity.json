@@ -1,8 +1,0 @@
-{
-    "label": "Huawei DTM",
-    "team": "Huawei",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "华为动态标签管理器 Dynamic Tag Manager（DTM）是一个动态标签代码管理系统（Tag Manager System），您可以通过 Web 页面动态更新跟踪代码，轻松完成特定事件跟踪并将数据传送给第三方分析平台，实现营销数据随需监控。",
-    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/dtm-guide"
-}

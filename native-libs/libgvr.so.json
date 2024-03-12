@@ -1,8 +1,29 @@
 {
-    "label": "Google VR SDK",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["ag2s20150909"],
-    "description": "Google VR for Android 支持 DayDream 和 Cardboard。",
-    "relativeUrl": "https://github.com/googlevr/gvr-android-sdk"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google VR SDK",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "Google VR for Android 支持 DayDream 和 Cardboard。",
+                "source_link": "https://github.com/googlevr/gvr-android-sdk"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google VR SDK",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "Google VR for Android 支持 DayDream 和 Cardboard。",
+                "source_link": "https://github.com/googlevr/gvr-android-sdk"
+            }
+        }
+    ],
+    "uuid": "7F02BB86-6A46-4602-A155-8470A821A9D1"
 }

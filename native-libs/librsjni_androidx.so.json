@@ -1,8 +1,29 @@
 {
-    "label": "RenderScript",
-    "team": "Android",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "RenderScript 是用于在 Android 上以高性能运行计算密集型任务的框架。RenderScript 主要用于数据并行计算，不过串行工作负载也可以从中受益。RenderScript 运行时可在设备上提供的多个处理器（如多核 CPU 和 GPU）间并行调度工作。这样您就能够专注于表达算法而不是调度工作。RenderScript 对于执行图像处理、计算摄影或计算机视觉的应用来说尤其有用。",
-    "relativeUrl": "https://developer.android.com/guide/topics/renderscript/compute/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "RenderScript",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "RenderScript 是用于在 Android 上以高性能运行计算密集型任务的框架。RenderScript 主要用于数据并行计算，不过串行工作负载也可以从中受益。RenderScript 运行时可在设备上提供的多个处理器（如多核 CPU 和 GPU）间并行调度工作。这样您就能够专注于表达算法而不是调度工作。RenderScript 对于执行图像处理、计算摄影或计算机视觉的应用来说尤其有用。",
+                "source_link": "https://developer.android.com/guide/topics/renderscript/compute/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "RenderScript",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "RenderScript 是用于在 Android 上以高性能运行计算密集型任务的框架。RenderScript 主要用于数据并行计算，不过串行工作负载也可以从中受益。RenderScript 运行时可在设备上提供的多个处理器（如多核 CPU 和 GPU）间并行调度工作。这样您就能够专注于表达算法而不是调度工作。RenderScript 对于执行图像处理、计算摄影或计算机视觉的应用来说尤其有用。",
+                "source_link": "https://developer.android.com/guide/topics/renderscript/compute/"
+            }
+        }
+    ],
+    "uuid": "BFC29D0B-6C58-4A62-9EC4-2F716C3220D7"
 }

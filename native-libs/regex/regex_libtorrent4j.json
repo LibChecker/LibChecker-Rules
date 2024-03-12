@@ -1,8 +1,29 @@
 {
-    "label": "libtorrent4j",
-    "team": "aldenml",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
-    "description": "libtorrent 的 Swig Java 接口。",
-    "relativeUrl": "https://github.com/aldenml/libtorrent4j"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libtorrent4j",
+                "dev_team": "aldenml",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "libtorrent 的 Swig Java 接口。",
+                "source_link": "https://github.com/aldenml/libtorrent4j"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libtorrent4j",
+                "dev_team": "aldenml",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "libtorrent 的 Swig Java 接口。",
+                "source_link": "https://github.com/aldenml/libtorrent4j"
+            }
+        }
+    ],
+    "uuid": "A677C5B5-5466-4446-9B69-969D5FA6DBF4"
 }

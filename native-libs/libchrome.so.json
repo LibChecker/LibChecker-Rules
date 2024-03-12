@@ -1,8 +1,29 @@
 {
-    "label": "libchrome",
-    "team": "Chromium",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
-    "description": "The Chromium project has an general utility library referred to as libbase. Because it is standalone and does not depend on any other parts of Chromium, it has been been picked up by other Google related projects so people don't have to reinvent these things. Along those lines, a package in Chromium OS is provided so that projects specific to us can share the code without having to bundle it multiple times over. Currently, there are over 20 such projects in Chromium OS. To keep people on their toes, the package is named libchrome as libbase by itself is too confusing. Granted, libchrome isn‘t exactly clear itself, but it’s a lose-lose situation, and we tried our best. Please still love us.",
-    "relativeUrl": "https://chromium.googlesource.com/chromiumos/docs/+/master/packages/libchrome.md"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libchrome",
+                "dev_team": "Chromium",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "The Chromium project has an general utility library referred to as libbase. Because it is standalone and does not depend on any other parts of Chromium, it has been been picked up by other Google related projects so people don't have to reinvent these things. Along those lines, a package in Chromium OS is provided so that projects specific to us can share the code without having to bundle it multiple times over. Currently, there are over 20 such projects in Chromium OS. To keep people on their toes, the package is named libchrome as libbase by itself is too confusing. Granted, libchrome isn‘t exactly clear itself, but it’s a lose-lose situation, and we tried our best. Please still love us.",
+                "source_link": "https://chromium.googlesource.com/chromiumos/docs/+/master/packages/libchrome.md"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libchrome",
+                "dev_team": "Chromium",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "The Chromium project has an general utility library referred to as libbase. Because it is standalone and does not depend on any other parts of Chromium, it has been been picked up by other Google related projects so people don't have to reinvent these things. Along those lines, a package in Chromium OS is provided so that projects specific to us can share the code without having to bundle it multiple times over. Currently, there are over 20 such projects in Chromium OS. To keep people on their toes, the package is named libchrome as libbase by itself is too confusing. Granted, libchrome isn‘t exactly clear itself, but it’s a lose-lose situation, and we tried our best. Please still love us.",
+                "source_link": "https://chromium.googlesource.com/chromiumos/docs/+/master/packages/libchrome.md"
+            }
+        }
+    ],
+    "uuid": "0039ABEC-E965-4359-A1B3-693DD9AE1805"
 }

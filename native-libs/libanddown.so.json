@@ -1,8 +1,29 @@
 {
-    "label": "CWAC AndDown",
-    "team": "commonsware",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Markdown Utility Library.",
-    "relativeUrl": "https://github.com/commonsguy/cwac-anddown"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "CWAC AndDown",
+                "dev_team": "commonsware",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Markdown Utility Library.",
+                "source_link": "https://github.com/commonsguy/cwac-anddown"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "CWAC AndDown",
+                "dev_team": "commonsware",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Markdown Utility Library.",
+                "source_link": "https://github.com/commonsguy/cwac-anddown"
+            }
+        }
+    ],
+    "uuid": "C69C9F73-9F4B-43CD-AE19-12406ECD76DF"
 }

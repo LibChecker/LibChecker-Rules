@@ -1,8 +1,0 @@
-{
-    "label": "Mtop SDK",
-    "team": "Aliyun",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Mtop 是稳定的高性能无线 RPC 网关，网关本身包含了一套安全体系，包括加密传输、防攻击、防刷、防篡改、过载保护等安全策略，同时针对无线网络的特点，在连通性、网络加速、流量方面进行了针对性优化。",
-    "relativeUrl": "https://help.aliyun.com/document_detail/69785.html/"
-}

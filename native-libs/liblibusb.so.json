@@ -1,8 +1,29 @@
 {
-    "label": "libusb",
-    "team": "libusb",
-    "iconUrl": "",
-    "contributors": ["brooks-xzy"],
-    "description": "A cross-platform library to access USB devices.",
-    "relativeUrl": "https://github.com/libusb/libusb"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libusb",
+                "dev_team": "libusb",
+                "rule_contributors": [
+                    "brooks-xzy"
+                ],
+                "description": "A cross-platform library to access USB devices.",
+                "source_link": "https://github.com/libusb/libusb"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libusb",
+                "dev_team": "libusb",
+                "rule_contributors": [
+                    "brooks-xzy"
+                ],
+                "description": "A cross-platform library to access USB devices.",
+                "source_link": "https://github.com/libusb/libusb"
+            }
+        }
+    ],
+    "uuid": "BD134228-E89E-4B74-A54B-654BCD18C9C1"
 }

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "移动应用推广 SDK",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "百度移动推广 SDK(Android)是百度官方推出的移动推广 SDK 在 Android 平台上的版本",
+                "source_link": "https://ssp.baidu.com/home"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "移动应用推广 SDK",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "百度移动推广 SDK(Android)是百度官方推出的移动推广 SDK 在 Android 平台上的版本",
+                "source_link": "https://ssp.baidu.com/home"
+            }
+        }
+    ],
+    "uuid": "CBF5BE97-7FB5-4DD7-87CB-B35C4DBF6C02"
+}

@@ -1,8 +1,29 @@
 {
-    "label": "Godot Engine",
-    "team": "Godot Developers",
-    "iconUrl": "",
-    "contributors": ["Ahopness"],
-    "description": "Open source game engine.",
-    "relativeUrl": "https://godotengine.org/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Godot Engine",
+                "dev_team": "Godot Developers",
+                "rule_contributors": [
+                    "Ahopness"
+                ],
+                "description": "Open source game engine.",
+                "source_link": "https://godotengine.org/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Godot Engine",
+                "dev_team": "Godot Developers",
+                "rule_contributors": [
+                    "Ahopness"
+                ],
+                "description": "Open source game engine.",
+                "source_link": "https://godotengine.org/"
+            }
+        }
+    ],
+    "uuid": "EBE54595-4C08-4BC8-A7EA-B53C04115993"
 }

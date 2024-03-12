@@ -1,8 +1,29 @@
 {
-    "label": "Bugsnag",
-    "team": "Bugsnag",
-    "iconUrl": "",
-    "contributors": ["su1216"],
-    "description": "Bugsnag 的 Android 崩溃报告库会自动检测 Android 应用程序中的崩溃，收集诊断信息并立即通知您的开发团队，以帮助您尽快理解和解决问题。",
-    "relativeUrl": "https://github.com/bugsnag/bugsnag-android"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Bugsnag",
+                "dev_team": "Bugsnag",
+                "rule_contributors": [
+                    "su1216"
+                ],
+                "description": "Bugsnag 的 Android 崩溃报告库会自动检测 Android 应用程序中的崩溃，收集诊断信息并立即通知您的开发团队，以帮助您尽快理解和解决问题。",
+                "source_link": "https://github.com/bugsnag/bugsnag-android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Bugsnag",
+                "dev_team": "Bugsnag",
+                "rule_contributors": [
+                    "su1216"
+                ],
+                "description": "Bugsnag 的 Android 崩溃报告库会自动检测 Android 应用程序中的崩溃，收集诊断信息并立即通知您的开发团队，以帮助您尽快理解和解决问题。",
+                "source_link": "https://github.com/bugsnag/bugsnag-android"
+            }
+        }
+    ],
+    "uuid": "4EF1EB69-5CCC-401B-B910-D3648400724E"
 }

@@ -1,8 +1,0 @@
-{
-    "label": "Trichrome",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["YuukikazeMKII"],
-    "description": "Trichrome returns to separate apps for Chrome and Webview, but places shared resources in a third shared-library APK.",
-    "relativeUrl": "https://chromium.googlesource.com/chromium/src/+/master/docs/android_native_libraries.md#Trichrome"
-}

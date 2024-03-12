@@ -1,8 +1,0 @@
-{
-    "label": "AndPermission",
-    "team": "yanzhenjie",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Android 平台上的权限管理器。",
-    "relativeUrl": "https://github.com/yanzhenjie/AndPermission"
-}

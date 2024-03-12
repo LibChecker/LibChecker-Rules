@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "抖音 SDK",
+                "dev_team": "Douyin",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "抖音开放平台 SDK 目前提供了抖音登录 & 授权以及分享至抖音的基本能力。您可以通过接入抖音开放平台 SDK 来使用抖音授权登录您的应用或者分享图片或视频到抖音。",
+                "source_link": "https://open.douyin.com/platform/doc/6850360698271238152"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "抖音 SDK",
+                "dev_team": "Douyin",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "抖音开放平台 SDK 目前提供了抖音登录 & 授权以及分享至抖音的基本能力。您可以通过接入抖音开放平台 SDK 来使用抖音授权登录您的应用或者分享图片或视频到抖音。",
+                "source_link": "https://open.douyin.com/platform/doc/6850360698271238152"
+            }
+        }
+    ],
+    "uuid": "09D0DE2C-5866-4F23-B42D-5C66E876A3AD"
+}
