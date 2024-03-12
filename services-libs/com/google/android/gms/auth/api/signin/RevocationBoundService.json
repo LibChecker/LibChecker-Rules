@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google Sign-In",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "提供使用 Google 登录的 API。",
+                "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Sign-In",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "提供使用 Google 登录的 API。",
+                "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
+            }
+        }
+    ],
+    "uuid": "3875CCD5-A4CD-4F61-BDC2-FD7313957987"
+}

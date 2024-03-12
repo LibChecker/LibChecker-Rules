@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack ShareTarget",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "提供向后兼容性，可以将快捷方式用作直接共享目标。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/sharetarget"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack ShareTarget",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "提供向后兼容性，可以将快捷方式用作直接共享目标。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/sharetarget"
+            }
+        }
+    ],
+    "uuid": "E345D252-9789-480A-8D3A-1316A09D142D"
+}

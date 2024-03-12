@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AppAuth",
+                "dev_team": "openid",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "AppAuth for Android 是用于与 OAuth 2.0 和 OpenID Connect 提供程序进行通信的客户端 SDK。 它致力于直接映射那些规范的请求和响应，同时遵循实现语言的惯用风格。 除了映射原始协议流外，还有协助执行常见任务的便捷方法，例如执行刷新令牌操作。",
+                "source_link": "https://github.com/openid/AppAuth-Android/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AppAuth",
+                "dev_team": "openid",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "AppAuth for Android 是用于与 OAuth 2.0 和 OpenID Connect 提供程序进行通信的客户端 SDK。 它致力于直接映射那些规范的请求和响应，同时遵循实现语言的惯用风格。 除了映射原始协议流外，还有协助执行常见任务的便捷方法，例如执行刷新令牌操作。",
+                "source_link": "https://github.com/openid/AppAuth-Android/"
+            }
+        }
+    ],
+    "uuid": "681FE79B-481E-4927-85F7-3EB21CFFDDF2"
+}

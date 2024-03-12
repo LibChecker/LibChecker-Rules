@@ -1,8 +1,31 @@
 {
-    "label": "手游安全 SDK",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["a4acg", "yfdyh000"],
-    "description": "手游安全是由腾讯游戏安全提供的专业手游安全解决方案。帮助手游厂商快速应对修改器、变速器等常见游戏安全问题。手游安全为王者荣耀、火影忍者等数百款游戏，超过 7 亿玩家提供稳定安全服务。具备 24 小时安全保障能力，支持全方位多维度的防护与检测，仅需客户端 2 - 3 个接口调用即可完成接入，无后台开发成本。",
-    "relativeUrl": "https://cloud.tencent.com/document/product/654"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "手游安全 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "a4acg",
+                    "yfdyh000"
+                ],
+                "description": "手游安全是由腾讯游戏安全提供的专业手游安全解决方案。帮助手游厂商快速应对修改器、变速器等常见游戏安全问题。手游安全为王者荣耀、火影忍者等数百款游戏，超过 7 亿玩家提供稳定安全服务。具备 24 小时安全保障能力，支持全方位多维度的防护与检测，仅需客户端 2 - 3 个接口调用即可完成接入，无后台开发成本。",
+                "source_link": "https://cloud.tencent.com/document/product/654"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "手游安全 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "a4acg",
+                    "yfdyh000"
+                ],
+                "description": "手游安全是由腾讯游戏安全提供的专业手游安全解决方案。帮助手游厂商快速应对修改器、变速器等常见游戏安全问题。手游安全为王者荣耀、火影忍者等数百款游戏，超过 7 亿玩家提供稳定安全服务。具备 24 小时安全保障能力，支持全方位多维度的防护与检测，仅需客户端 2 - 3 个接口调用即可完成接入，无后台开发成本。",
+                "source_link": "https://cloud.tencent.com/document/product/654"
+            }
+        }
+    ],
+    "uuid": "E18C1369-E9BC-49F9-AE1F-B4163869DBEA"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "Android NDK GIF",
-    "team": "waynejo",
-    "iconUrl": "",
-    "contributors": ["lgc2333"],
-    "description": "GIF library built with ndk and gradle in aar format for usage with android gradle build system.",
-    "relativeUrl": "https://github.com/waynejo/android-ndk-gif"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Android NDK GIF",
+                "dev_team": "waynejo",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "GIF library built with ndk and gradle in aar format for usage with android gradle build system.",
+                "source_link": "https://github.com/waynejo/android-ndk-gif"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Android NDK GIF",
+                "dev_team": "waynejo",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "GIF library built with ndk and gradle in aar format for usage with android gradle build system.",
+                "source_link": "https://github.com/waynejo/android-ndk-gif"
+            }
+        }
+    ],
+    "uuid": "1F5FAAD5-0BA2-4723-ACF2-4478BF1F02FE"
 }

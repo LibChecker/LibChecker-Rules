@@ -1,8 +1,29 @@
 {
-    "label": "Facebook SDK",
-    "team": "Facebook",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Facebook SDK是适用于 Android 的将 Facebook集成到 Android 应用程序中的最简单方法。",
-    "relativeUrl": "https://developers.facebook.com/docs/android/getting-started/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Facebook SDK",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Facebook SDK是适用于 Android 的将 Facebook集成到 Android 应用程序中的最简单方法。",
+                "source_link": "https://developers.facebook.com/docs/android/getting-started/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Facebook SDK",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Facebook SDK是适用于 Android 的将 Facebook集成到 Android 应用程序中的最简单方法。",
+                "source_link": "https://developers.facebook.com/docs/android/getting-started/"
+            }
+        }
+    ],
+    "uuid": "FE88971C-0A92-4E23-BF51-09873298B5CE"
 }

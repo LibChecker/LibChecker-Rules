@@ -1,8 +1,29 @@
 {
-    "label": "腾讯云通信 SDK",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "腾讯云通信基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理能力，帮助您实现文字、图片、短语音、短视频等富媒体消息收发，全面满足通信需要。",
-    "relativeUrl": "https://cloud.tencent.com/product/im/getting-started/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯云通信 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯云通信基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理能力，帮助您实现文字、图片、短语音、短视频等富媒体消息收发，全面满足通信需要。",
+                "source_link": "https://cloud.tencent.com/product/im/getting-started/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯云通信 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯云通信基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理能力，帮助您实现文字、图片、短语音、短视频等富媒体消息收发，全面满足通信需要。",
+                "source_link": "https://cloud.tencent.com/product/im/getting-started/"
+            }
+        }
+    ],
+    "uuid": "5C466086-DBB2-495D-8F82-58EE37130CC8"
 }

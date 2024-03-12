@@ -1,8 +1,29 @@
 {
-    "label": "Live2D Cubism SDK",
-    "team": "Live2D",
-    "iconUrl": "",
-    "contributors": ["MeowHCO3"],
-    "description": "Cubism SDK 是在用户 APP 上使用通过 Live2D Cubism Editor 制作的模型所需的软件开发组套件。",
-    "relativeUrl": "https://docs.live2d.com/cubism-sdk-manual/top/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Live2D Cubism SDK",
+                "dev_team": "Live2D",
+                "rule_contributors": [
+                    "MeowHCO3"
+                ],
+                "description": "Cubism SDK 是在用户 APP 上使用通过 Live2D Cubism Editor 制作的模型所需的软件开发组套件。",
+                "source_link": "https://docs.live2d.com/cubism-sdk-manual/top/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Live2D Cubism SDK",
+                "dev_team": "Live2D",
+                "rule_contributors": [
+                    "MeowHCO3"
+                ],
+                "description": "Cubism SDK 是在用户 APP 上使用通过 Live2D Cubism Editor 制作的模型所需的软件开发组套件。",
+                "source_link": "https://docs.live2d.com/cubism-sdk-manual/top/"
+            }
+        }
+    ],
+    "uuid": "8369CDF8-A953-4BEE-B16C-1C7660F20AA7"
 }

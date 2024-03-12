@@ -1,8 +1,29 @@
 {
-    "label": "ion",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "ion 是 Google 在 Android 4.0 ICS 为了解决内存碎片化管理而引入的通用内存管理器，用来支持不同的内存分配机制。另外，ion 在内核空间和用户空间分别有一套接口，它不仅能管理内存，还可在其 clients（来自内核的或者来自用户空间的）之间共享内存；简单来说，ion 是一种用于内存管理和分配的高性能内核驱动程序。它可以帮助开发人员实现零拷贝（zero-copy）和共享内存等功能，从而提高系统的性能和效率。与此同时，ion 还与 CMA（Contiguous Memory Allocator）密切相关。在 Android 中，ion 使用了 CMA 来实现对物理内存的分配和释放。",
-    "relativeUrl": "https://android.googlesource.com/platform/system/memory/libion/+/master/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ion",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "ion 是 Google 在 Android 4.0 ICS 为了解决内存碎片化管理而引入的通用内存管理器，用来支持不同的内存分配机制。另外，ion 在内核空间和用户空间分别有一套接口，它不仅能管理内存，还可在其 clients（来自内核的或者来自用户空间的）之间共享内存；简单来说，ion 是一种用于内存管理和分配的高性能内核驱动程序。它可以帮助开发人员实现零拷贝（zero-copy）和共享内存等功能，从而提高系统的性能和效率。与此同时，ion 还与 CMA（Contiguous Memory Allocator）密切相关。在 Android 中，ion 使用了 CMA 来实现对物理内存的分配和释放。",
+                "source_link": "https://android.googlesource.com/platform/system/memory/libion/+/master/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ion",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "ion 是 Google 在 Android 4.0 ICS 为了解决内存碎片化管理而引入的通用内存管理器，用来支持不同的内存分配机制。另外，ion 在内核空间和用户空间分别有一套接口，它不仅能管理内存，还可在其 clients（来自内核的或者来自用户空间的）之间共享内存；简单来说，ion 是一种用于内存管理和分配的高性能内核驱动程序。它可以帮助开发人员实现零拷贝（zero-copy）和共享内存等功能，从而提高系统的性能和效率。与此同时，ion 还与 CMA（Contiguous Memory Allocator）密切相关。在 Android 中，ion 使用了 CMA 来实现对物理内存的分配和释放。",
+                "source_link": "https://android.googlesource.com/platform/system/memory/libion/+/master/"
+            }
+        }
+    ],
+    "uuid": "156FAC36-D34E-4047-B446-11D17631E083"
 }

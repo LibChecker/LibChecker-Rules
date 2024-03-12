@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "华为帐号服务",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "通过华为帐号开放服务，Android 应用可以方便、安全地实现快速登录授权、读取短信验证码等功能，凭借用户授权凭证，应用可快速访问调用华为提供的公开 API。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050048870"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "华为帐号服务",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "通过华为帐号开放服务，Android 应用可以方便、安全地实现快速登录授权、读取短信验证码等功能，凭借用户授权凭证，应用可快速访问调用华为提供的公开 API。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050048870"
+            }
+        }
+    ],
+    "uuid": "3406FD64-324C-4D40-B501-5FD47528ACFC"
+}

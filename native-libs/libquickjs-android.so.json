@@ -1,8 +1,29 @@
 {
-    "label": "QuickJS Binding",
-    "team": "Harlon Wang",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Android 下的 QuickJS Binding 库。",
-    "relativeUrl": "https://github.com/HarlonWang/quickjs-android-wrapper"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "QuickJS Binding",
+                "dev_team": "Harlon Wang",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Android 下的 QuickJS Binding 库。",
+                "source_link": "https://github.com/HarlonWang/quickjs-android-wrapper"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "QuickJS Binding",
+                "dev_team": "Harlon Wang",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Android 下的 QuickJS Binding 库。",
+                "source_link": "https://github.com/HarlonWang/quickjs-android-wrapper"
+            }
+        }
+    ],
+    "uuid": "6E8B57B1-5F50-4CAA-88FA-3CE51B27F421"
 }

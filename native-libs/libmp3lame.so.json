@@ -1,8 +1,29 @@
 {
-    "label": "LAME",
-    "team": "The LAME Project",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
-    "relativeUrl": "https://lame.sourceforge.io/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LAME",
+                "dev_team": "The LAME Project",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
+                "source_link": "https://lame.sourceforge.io/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LAME",
+                "dev_team": "The LAME Project",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
+                "source_link": "https://lame.sourceforge.io/"
+            }
+        }
+    ],
+    "uuid": "E5025ACF-ADEE-4BA9-98D7-FD4B3B22DBE5"
 }

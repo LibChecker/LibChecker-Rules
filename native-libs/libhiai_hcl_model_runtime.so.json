@@ -1,8 +1,29 @@
 {
-    "label": "HiAI Foundation",
-    "team": "HUAWEI",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "芯片能力开放，快速转化和迁移已有模型，借助异构调度和 NPU 加速，实现更佳性能、更低功耗。",
-    "relativeUrl": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HiAI Foundation",
+                "dev_team": "HUAWEI",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "芯片能力开放，快速转化和迁移已有模型，借助异构调度和 NPU 加速，实现更佳性能、更低功耗。",
+                "source_link": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HiAI Foundation",
+                "dev_team": "HUAWEI",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "芯片能力开放，快速转化和迁移已有模型，借助异构调度和 NPU 加速，实现更佳性能、更低功耗。",
+                "source_link": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
+            }
+        }
+    ],
+    "uuid": "54F743D1-03D4-4CF6-A126-92A9C5ED8041"
 }

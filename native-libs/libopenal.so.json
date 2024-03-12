@@ -1,8 +1,29 @@
 {
-    "label": "OpenAL",
-    "team": "Ubuntu MOTU Developers",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Software implementation of the OpenAL audio API",
-    "relativeUrl": "https://packages.ubuntu.com/kinetic/libopenal-dev"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "OpenAL",
+                "dev_team": "Ubuntu MOTU Developers",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Software implementation of the OpenAL audio API",
+                "source_link": "https://packages.ubuntu.com/kinetic/libopenal-dev"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OpenAL",
+                "dev_team": "Ubuntu MOTU Developers",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Software implementation of the OpenAL audio API",
+                "source_link": "https://packages.ubuntu.com/kinetic/libopenal-dev"
+            }
+        }
+    ],
+    "uuid": "83638A81-BA2C-49B3-8660-173D776BE3B1"
 }

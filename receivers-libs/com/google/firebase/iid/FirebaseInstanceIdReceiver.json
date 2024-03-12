@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Firebase",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Firebase 提供了分析、数据库、消息传递和崩溃报告等功能，可助您快速采取行动并专注于您的用户。",
+                "source_link": "https://firebase.google.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Firebase",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Firebase 提供了分析、数据库、消息传递和崩溃报告等功能，可助您快速采取行动并专注于您的用户。",
+                "source_link": "https://firebase.google.com/"
+            }
+        }
+    ],
+    "uuid": "E16F3713-3EC7-4943-8658-9F76240ED52C"
+}

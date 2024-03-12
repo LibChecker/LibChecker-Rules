@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "nubia Push",
+                "dev_team": "nubia",
+                "rule_contributors": [
+                    "ShuiHuo"
+                ],
+                "description": "努比亚系统的推送服务。",
+                "source_link": "https://developer.nubia.com/developer/view/help/help_center.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "nubia Push",
+                "dev_team": "nubia",
+                "rule_contributors": [
+                    "ShuiHuo"
+                ],
+                "description": "努比亚系统的推送服务。",
+                "source_link": "https://developer.nubia.com/developer/view/help/help_center.html"
+            }
+        }
+    ],
+    "uuid": "FC311A7B-E1A4-4572-8AD1-5F78F6731244"
+}

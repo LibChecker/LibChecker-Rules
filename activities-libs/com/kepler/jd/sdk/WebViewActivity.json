@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "开普勒 SDK",
+                "dev_team": "JD",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "京东开普勒提供标准化交易组件，合作伙伴以 SDK/H5 的方式集成，也可直接呼起京东 APP，打造完美的购物体验，轻松实现流量合作。",
+                "source_link": "https://k.jd.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "开普勒 SDK",
+                "dev_team": "JD",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "京东开普勒提供标准化交易组件，合作伙伴以 SDK/H5 的方式集成，也可直接呼起京东 APP，打造完美的购物体验，轻松实现流量合作。",
+                "source_link": "https://k.jd.com/"
+            }
+        }
+    ],
+    "uuid": "CFBD87F5-E5BE-4759-B59E-8B8BEC1C06FF"
+}

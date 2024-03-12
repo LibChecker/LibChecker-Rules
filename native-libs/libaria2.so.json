@@ -1,8 +1,29 @@
 {
-    "label": "aria2",
-    "team": "aria2",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "提供 aria2 的核心功能，包括对网络和下载的处理。",
-    "relativeUrl": "https://aria2.github.io/manual/en/html/libaria2.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "aria2",
+                "dev_team": "aria2",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "提供 aria2 的核心功能，包括对网络和下载的处理。",
+                "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "aria2",
+                "dev_team": "aria2",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "提供 aria2 的核心功能，包括对网络和下载的处理。",
+                "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
+            }
+        }
+    ],
+    "uuid": "EA41B40E-4DC4-458D-B679-7FC3CCBAE83E"
 }

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google Analytics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "提供各种 API，可帮助您收集、配置和报告用户与您的在线内容进行互动的数据。",
+                "source_link": "https://developers.google.com/analytics/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Analytics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "提供各种 API，可帮助您收集、配置和报告用户与您的在线内容进行互动的数据。",
+                "source_link": "https://developers.google.com/analytics/"
+            }
+        }
+    ],
+    "uuid": "15B49681-431F-48B0-A947-13FD28E246C4"
+}

@@ -1,8 +1,29 @@
 {
-    "label": "腾讯云短视频 SDK",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "腾讯云点播推出了短视频一站式解决方案，覆盖了视频生成、上传、处理、分发和播放在内的各个环节，帮助用户以最快速度实现短视频应用的上线。",
-    "relativeUrl": "https://cloud.tencent.com/document/product/584/9453"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯云短视频 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯云点播推出了短视频一站式解决方案，覆盖了视频生成、上传、处理、分发和播放在内的各个环节，帮助用户以最快速度实现短视频应用的上线。",
+                "source_link": "https://cloud.tencent.com/document/product/584/9453"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯云短视频 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯云点播推出了短视频一站式解决方案，覆盖了视频生成、上传、处理、分发和播放在内的各个环节，帮助用户以最快速度实现短视频应用的上线。",
+                "source_link": "https://cloud.tencent.com/document/product/584/9453"
+            }
+        }
+    ],
+    "uuid": "9714D30D-7EAB-4DBA-BC89-6A03192A39A7"
 }

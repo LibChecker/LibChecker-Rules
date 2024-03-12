@@ -1,8 +1,29 @@
 {
-    "label": "腾讯云直播 SDK",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "云直播（Cloud Streaming Services，CSS）依托腾讯强大的技术平台，将腾讯视频等核心业务底层能力开放给用户，为用户提供专业稳定快速的直播接入和分发服务，具有低延迟、高安全、高性能、易接入、多终端、多码率支持等特点。",
-    "relativeUrl": "https://cloud.tencent.com/document/product/267/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯云直播 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "云直播（Cloud Streaming Services，CSS）依托腾讯强大的技术平台，将腾讯视频等核心业务底层能力开放给用户，为用户提供专业稳定快速的直播接入和分发服务，具有低延迟、高安全、高性能、易接入、多终端、多码率支持等特点。",
+                "source_link": "https://cloud.tencent.com/document/product/267/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯云直播 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "云直播（Cloud Streaming Services，CSS）依托腾讯强大的技术平台，将腾讯视频等核心业务底层能力开放给用户，为用户提供专业稳定快速的直播接入和分发服务，具有低延迟、高安全、高性能、易接入、多终端、多码率支持等特点。",
+                "source_link": "https://cloud.tencent.com/document/product/267/"
+            }
+        }
+    ],
+    "uuid": "7DFB5A3D-6CC5-4325-8BA2-5457B36CB256"
 }

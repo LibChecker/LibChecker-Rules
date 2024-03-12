@@ -1,8 +1,29 @@
 {
-    "label": "Faceunity Nama SDK",
-    "team": "杭州相芯科技有限公司",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Faceunity Nama SDK 提供人脸跟踪及视频特效开发包，支持在 iOS、Android、 Windows、Mac 以及 Unity3D 上集成。",
-    "relativeUrl": "https://www.faceunity.com/developer.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Faceunity Nama SDK",
+                "dev_team": "杭州相芯科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Faceunity Nama SDK 提供人脸跟踪及视频特效开发包，支持在 iOS、Android、 Windows、Mac 以及 Unity3D 上集成。",
+                "source_link": "https://www.faceunity.com/developer.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Faceunity Nama SDK",
+                "dev_team": "杭州相芯科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Faceunity Nama SDK 提供人脸跟踪及视频特效开发包，支持在 iOS、Android、 Windows、Mac 以及 Unity3D 上集成。",
+                "source_link": "https://www.faceunity.com/developer.html"
+            }
+        }
+    ],
+    "uuid": "C4C2566A-FDCD-4B4A-A5DB-AE94EB7396D0"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "TUTK SDK",
-    "team": "TUTK",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "IOTC（物联网云）平台是 Throughtek (TUTK) 所开发的基于云平台的物联网解决方案。它利用 P2P 连接技术与云计算，加上跨平台 API，使得不同的互联网设备之间可以建立跨平台的连接。使用 TUTK 提供的 SDK 所开发的网络摄像机客户端与服务端，会被嵌入 IOTC 库，用于与 TUTK 服务器通讯，并建立 P2P 连接。",
-    "relativeUrl": "https://www.throughtek.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TUTK SDK",
+                "dev_team": "TUTK",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "IOTC（物联网云）平台是 Throughtek (TUTK) 所开发的基于云平台的物联网解决方案。它利用 P2P 连接技术与云计算，加上跨平台 API，使得不同的互联网设备之间可以建立跨平台的连接。使用 TUTK 提供的 SDK 所开发的网络摄像机客户端与服务端，会被嵌入 IOTC 库，用于与 TUTK 服务器通讯，并建立 P2P 连接。",
+                "source_link": "https://www.throughtek.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TUTK SDK",
+                "dev_team": "TUTK",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "IOTC（物联网云）平台是 Throughtek (TUTK) 所开发的基于云平台的物联网解决方案。它利用 P2P 连接技术与云计算，加上跨平台 API，使得不同的互联网设备之间可以建立跨平台的连接。使用 TUTK 提供的 SDK 所开发的网络摄像机客户端与服务端，会被嵌入 IOTC 库，用于与 TUTK 服务器通讯，并建立 P2P 连接。",
+                "source_link": "https://www.throughtek.cn/"
+            }
+        }
+    ],
+    "uuid": "C0480A80-600A-4F7D-A475-C3F1A17B68C9"
 }

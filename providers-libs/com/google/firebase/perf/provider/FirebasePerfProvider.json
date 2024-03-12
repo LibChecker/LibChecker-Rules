@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Firebase Performance",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Firebase 性能监控服务可帮助您深入了解您的 iOS 应用、Android 应用和网页应用的性能特点。",
+                "source_link": "https://firebase.google.com/docs/perf-mon"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Firebase Performance",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Firebase 性能监控服务可帮助您深入了解您的 iOS 应用、Android 应用和网页应用的性能特点。",
+                "source_link": "https://firebase.google.com/docs/perf-mon"
+            }
+        }
+    ],
+    "uuid": "BF018408-691C-4527-AA5D-7921038FF8CE"
+}

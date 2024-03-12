@@ -1,8 +1,29 @@
 {
-    "label": "同盾设备指纹",
-    "team": "同盾科技有限公司",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "设备指纹识别。",
-    "relativeUrl": "https://www.tongdun.cn/platform/core#devicefingerp"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "同盾设备指纹",
+                "dev_team": "同盾科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "设备指纹识别。",
+                "source_link": "https://www.tongdun.cn/platform/core#devicefingerp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "同盾设备指纹",
+                "dev_team": "同盾科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "设备指纹识别。",
+                "source_link": "https://www.tongdun.cn/platform/core#devicefingerp"
+            }
+        }
+    ],
+    "uuid": "DE857982-E94B-40A5-BC41-BA87740B34E1"
 }

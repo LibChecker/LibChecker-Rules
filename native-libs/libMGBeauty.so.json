@@ -1,8 +1,29 @@
 {
-    "label": "人像美化 SDK",
-    "team": "旷视",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "提供美颜、美型、滤镜、AR 贴纸、美妆等功能。",
-    "relativeUrl": "https://console.faceplusplus.com.cn/documents/276117363"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "人像美化 SDK",
+                "dev_team": "旷视",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "提供美颜、美型、滤镜、AR 贴纸、美妆等功能。",
+                "source_link": "https://console.faceplusplus.com.cn/documents/276117363"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "人像美化 SDK",
+                "dev_team": "旷视",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "提供美颜、美型、滤镜、AR 贴纸、美妆等功能。",
+                "source_link": "https://console.faceplusplus.com.cn/documents/276117363"
+            }
+        }
+    ],
+    "uuid": "8DF8CDC3-51A1-4BDD-B2BB-14CD3C428BFC"
 }

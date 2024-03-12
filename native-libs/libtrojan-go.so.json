@@ -1,8 +1,29 @@
 {
-    "label": "Trojan-Go",
-    "team": "p4gefau1t",
-    "iconUrl": "",
-    "contributors": ["ag2s20150909"],
-    "description": "Go 实现的 Trojan 代理，支持多路复用/路由功能/CDN 中转/Shadowsocks 混淆插件，多平台，无依赖。",
-    "relativeUrl": "https://github.com/p4gefau1t/trojan-go"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Trojan-Go",
+                "dev_team": "p4gefau1t",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "Go 实现的 Trojan 代理，支持多路复用/路由功能/CDN 中转/Shadowsocks 混淆插件，多平台，无依赖。",
+                "source_link": "https://github.com/p4gefau1t/trojan-go"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Trojan-Go",
+                "dev_team": "p4gefau1t",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "Go 实现的 Trojan 代理，支持多路复用/路由功能/CDN 中转/Shadowsocks 混淆插件，多平台，无依赖。",
+                "source_link": "https://github.com/p4gefau1t/trojan-go"
+            }
+        }
+    ],
+    "uuid": "6910F1C7-3FA3-4D00-8067-20640281226C"
 }

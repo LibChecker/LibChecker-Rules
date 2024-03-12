@@ -1,8 +1,29 @@
 {
-    "label": "Sentry",
-    "team": "Sentry",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Sentry 是一个实时事件日志记录和聚合平台，它专门用于监视错误和提取执行适当的事后操作所需的所有信息。",
-    "relativeUrl": "https://sentry.io/for/android/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Sentry",
+                "dev_team": "Sentry",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Sentry 是一个实时事件日志记录和聚合平台，它专门用于监视错误和提取执行适当的事后操作所需的所有信息。",
+                "source_link": "https://sentry.io/for/android/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Sentry",
+                "dev_team": "Sentry",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Sentry 是一个实时事件日志记录和聚合平台，它专门用于监视错误和提取执行适当的事后操作所需的所有信息。",
+                "source_link": "https://sentry.io/for/android/"
+            }
+        }
+    ],
+    "uuid": "3489D3BA-EB43-4AF4-AFB7-18D7782E2A77"
 }

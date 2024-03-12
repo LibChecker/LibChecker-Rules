@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯开放平台",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯核心内部服务，二十年技术沉淀，助你成就更高梦想。",
+                "source_link": "https://open.tencent.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯开放平台",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯核心内部服务，二十年技术沉淀，助你成就更高梦想。",
+                "source_link": "https://open.tencent.com/"
+            }
+        }
+    ],
+    "uuid": "00366AB5-CE1E-4647-BEB5-4B1F87D998DA"
+}

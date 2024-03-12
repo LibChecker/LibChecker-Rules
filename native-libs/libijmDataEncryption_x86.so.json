@@ -1,8 +1,31 @@
 {
-    "label": "爱加密",
-    "team": "北京智游网安科技有限公司",
-    "iconUrl": "",
-    "contributors": ["yfdyh000", "ArthurCyy"],
-    "description": "针对目前移动应用普遍存在的破解、篡改、劫持、盗版、数据窃取、钓鱼欺诈等各类安全风险，通过行业领先的第六代加固技术，爱加密为用户提供全面的移动应用加固加密技术和攻击防范服务。",
-    "relativeUrl": "https://www.ijiami.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "爱加密",
+                "dev_team": "北京智游网安科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "ArthurCyy"
+                ],
+                "description": "针对目前移动应用普遍存在的破解、篡改、劫持、盗版、数据窃取、钓鱼欺诈等各类安全风险，通过行业领先的第六代加固技术，爱加密为用户提供全面的移动应用加固加密技术和攻击防范服务。",
+                "source_link": "https://www.ijiami.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "爱加密",
+                "dev_team": "北京智游网安科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "ArthurCyy"
+                ],
+                "description": "针对目前移动应用普遍存在的破解、篡改、劫持、盗版、数据窃取、钓鱼欺诈等各类安全风险，通过行业领先的第六代加固技术，爱加密为用户提供全面的移动应用加固加密技术和攻击防范服务。",
+                "source_link": "https://www.ijiami.cn/"
+            }
+        }
+    ],
+    "uuid": "4B263D0B-EF3E-4114-AE94-8AF5B9B94FEE"
 }

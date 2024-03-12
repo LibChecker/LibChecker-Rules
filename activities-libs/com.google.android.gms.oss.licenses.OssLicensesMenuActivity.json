@@ -1,8 +1,0 @@
-{
-    "label": "Open Source Notices",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Google Play 服务提供了一套工具，旨在让开发者更轻松地表达其应用中所用库的开源软件通知。其中一个工具就是 Gradle 插件，按照 POM 文件中的声明从包含的库收集许可条款，并创建可用于显示这些条款的 activity。",
-    "relativeUrl": "https://developers.google.com/android/guides/opensource"
-}

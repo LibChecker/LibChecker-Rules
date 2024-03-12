@@ -1,8 +1,29 @@
 {
-    "label": "Minilzo",
-    "team": "Oberhumer",
-    "iconUrl": "",
-    "contributors": ["moten-07"],
-    "description": "miniLZO is a very lightweight subset of the LZO library intended for easy inclusion with your application.",
-    "relativeUrl": "https://www.oberhumer.com/opensource/lzo/#minilzo"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Minilzo",
+                "dev_team": "Oberhumer",
+                "rule_contributors": [
+                    "moten-07"
+                ],
+                "description": "miniLZO is a very lightweight subset of the LZO library intended for easy inclusion with your application.",
+                "source_link": "https://www.oberhumer.com/opensource/lzo/#minilzo"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Minilzo",
+                "dev_team": "Oberhumer",
+                "rule_contributors": [
+                    "moten-07"
+                ],
+                "description": "miniLZO is a very lightweight subset of the LZO library intended for easy inclusion with your application.",
+                "source_link": "https://www.oberhumer.com/opensource/lzo/#minilzo"
+            }
+        }
+    ],
+    "uuid": "366990BF-D467-4788-AB96-33B9FBEBBD2D"
 }

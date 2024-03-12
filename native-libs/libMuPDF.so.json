@@ -1,8 +1,29 @@
 {
-    "label": "MuPDF",
-    "team": "Artifex Software Inc.",
-    "iconUrl": "",
-    "contributors": ["XieyilinMain"],
-    "description": "MuPDF is a lightweight PDF, XPS, and E-book viewer.",
-    "relativeUrl": "https://mupdf.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MuPDF",
+                "dev_team": "Artifex Software Inc.",
+                "rule_contributors": [
+                    "XieyilinMain"
+                ],
+                "description": "MuPDF is a lightweight PDF, XPS, and E-book viewer.",
+                "source_link": "https://mupdf.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MuPDF",
+                "dev_team": "Artifex Software Inc.",
+                "rule_contributors": [
+                    "XieyilinMain"
+                ],
+                "description": "MuPDF is a lightweight PDF, XPS, and E-book viewer.",
+                "source_link": "https://mupdf.com/"
+            }
+        }
+    ],
+    "uuid": "D100E2DE-D729-4D97-A66E-8B51A090ED5B"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "SHook",
-    "team": "DIE.LU",
-    "iconUrl": "",
-    "contributors": ["lianglixin"],
-    "description": "一个用于动态更改 Android ART 运行时的库，可以用于方法动态代理、内存注入、Xposed 以及应用脱壳等。",
-    "relativeUrl": "https://github.com/lianglixin/SPatch"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "SHook",
+                "dev_team": "DIE.LU",
+                "rule_contributors": [
+                    "lianglixin"
+                ],
+                "description": "一个用于动态更改 Android ART 运行时的库，可以用于方法动态代理、内存注入、Xposed 以及应用脱壳等。",
+                "source_link": "https://github.com/lianglixin/SPatch"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "SHook",
+                "dev_team": "DIE.LU",
+                "rule_contributors": [
+                    "lianglixin"
+                ],
+                "description": "一个用于动态更改 Android ART 运行时的库，可以用于方法动态代理、内存注入、Xposed 以及应用脱壳等。",
+                "source_link": "https://github.com/lianglixin/SPatch"
+            }
+        }
+    ],
+    "uuid": "4912BFFC-E3C2-4254-A113-0382789F15D2"
 }

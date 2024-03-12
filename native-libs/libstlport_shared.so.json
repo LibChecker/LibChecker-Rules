@@ -1,8 +1,29 @@
 {
-    "label": "SQLCipher",
-    "team": "SQLCipher",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "SQLCipher 是一个 SQLite 扩展，它提供数据库文件的 256 位 AES 加密能力。",
-    "relativeUrl": "https://github.com/sqlcipher/sqlcipher/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "SQLCipher",
+                "dev_team": "SQLCipher",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "SQLCipher 是一个 SQLite 扩展，它提供数据库文件的 256 位 AES 加密能力。",
+                "source_link": "https://github.com/sqlcipher/sqlcipher/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "SQLCipher",
+                "dev_team": "SQLCipher",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "SQLCipher 是一个 SQLite 扩展，它提供数据库文件的 256 位 AES 加密能力。",
+                "source_link": "https://github.com/sqlcipher/sqlcipher/"
+            }
+        }
+    ],
+    "uuid": "2BE524AA-7BE2-48BB-B344-E8B4C10AAD1D"
 }

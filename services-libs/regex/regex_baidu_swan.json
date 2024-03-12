@@ -1,8 +1,29 @@
 {
-    "label": "智能小程序",
-    "team": "Baidu",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "智能小程序，是百度提供的一种技术解决方案。开发者基于此开发出来的服务，在各类宿主环境（手机 App、车载系统、IOT 设备等）中，可做到用户无感知安装，即点即用。",
-    "relativeUrl": "https://smartprogram.baidu.com/developer/index.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "智能小程序",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "智能小程序，是百度提供的一种技术解决方案。开发者基于此开发出来的服务，在各类宿主环境（手机 App、车载系统、IOT 设备等）中，可做到用户无感知安装，即点即用。",
+                "source_link": "https://smartprogram.baidu.com/developer/index.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "智能小程序",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "智能小程序，是百度提供的一种技术解决方案。开发者基于此开发出来的服务，在各类宿主环境（手机 App、车载系统、IOT 设备等）中，可做到用户无感知安装，即点即用。",
+                "source_link": "https://smartprogram.baidu.com/developer/index.html"
+            }
+        }
+    ],
+    "uuid": "1DA090EF-5D34-40A8-B236-6173A544A2DD"
 }

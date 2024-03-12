@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MiPush",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+                "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MiPush",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+                "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+        }
+    ],
+    "uuid": "7F95A4F6-AFD2-451D-B835-1B969E7A53A4"
+}

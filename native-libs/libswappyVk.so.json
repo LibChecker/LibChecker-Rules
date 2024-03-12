@@ -1,8 +1,29 @@
 {
-    "label": "Android Game Development Kit Frame Pacing",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Android Game Development Kit Frame Pacing library, also known as Swappy.",
-    "relativeUrl": "https://developer.android.com/games/sdk/reference/frame-pacing"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Android Game Development Kit Frame Pacing",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Android Game Development Kit Frame Pacing library, also known as Swappy.",
+                "source_link": "https://developer.android.com/games/sdk/reference/frame-pacing"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Android Game Development Kit Frame Pacing",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Android Game Development Kit Frame Pacing library, also known as Swappy.",
+                "source_link": "https://developer.android.com/games/sdk/reference/frame-pacing"
+            }
+        }
+    ],
+    "uuid": "14CE8B11-CB8C-4E98-8618-6278028B08F8"
 }

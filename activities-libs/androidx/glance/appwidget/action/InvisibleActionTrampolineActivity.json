@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Glance",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Build layouts for remote surfaces using a Jetpack Compose-style API.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/glance"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Glance",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Build layouts for remote surfaces using a Jetpack Compose-style API.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/glance"
+            }
+        }
+    ],
+    "uuid": "744E2A7B-9603-4C80-B0FE-7B9ECC46704E"
+}

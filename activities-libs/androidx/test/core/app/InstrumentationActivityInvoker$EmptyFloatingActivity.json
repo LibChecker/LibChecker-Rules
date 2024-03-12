@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Test",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "在 Android 中进行测试。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/test"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Test",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "在 Android 中进行测试。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/test"
+            }
+        }
+    ],
+    "uuid": "88269B1E-863C-45A3-892B-8D9BC8597589"
+}

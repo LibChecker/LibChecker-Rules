@@ -1,8 +1,29 @@
 {
-    "label": "HDiffPatch",
-    "team": "sisong",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "A C\\C++ library and command-line tools for Diff & Patch between binary files or directories(folder). 一个高效的 diff/patch 实现。",
-    "relativeUrl": "https://github.com/sisong/HDiffPatch"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HDiffPatch",
+                "dev_team": "sisong",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "A C\\C++ library and command-line tools for Diff & Patch between binary files or directories(folder). 一个高效的 diff/patch 实现。",
+                "source_link": "https://github.com/sisong/HDiffPatch"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HDiffPatch",
+                "dev_team": "sisong",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "A C\\C++ library and command-line tools for Diff & Patch between binary files or directories(folder). 一个高效的 diff/patch 实现。",
+                "source_link": "https://github.com/sisong/HDiffPatch"
+            }
+        }
+    ],
+    "uuid": "68944C21-9EFA-4B69-9F56-023676BDF6CF"
 }

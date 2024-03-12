@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack MediaRouter",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Enable media display and playback on remote receiver devices using a common user interface.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/mediarouter"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack MediaRouter",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Enable media display and playback on remote receiver devices using a common user interface.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/mediarouter"
+            }
+        }
+    ],
+    "uuid": "C6E84B9F-A3BE-49D7-B1EC-4AB7D5DBF3F1"
+}

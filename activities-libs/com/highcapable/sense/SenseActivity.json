@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Sense",
+                "dev_team": "HighCapable",
+                "rule_contributors": [
+                    "fankes"
+                ],
+                "description": "为你的项目集成一个高效可复用的 Activity 实例片段。",
+                "source_link": "https://github.com/fankes/Sense"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Sense",
+                "dev_team": "HighCapable",
+                "rule_contributors": [
+                    "fankes"
+                ],
+                "description": "为你的项目集成一个高效可复用的 Activity 实例片段。",
+                "source_link": "https://github.com/fankes/Sense"
+            }
+        }
+    ],
+    "uuid": "FA5EF076-DB47-4EE8-B12B-14E84B24B92C"
+}

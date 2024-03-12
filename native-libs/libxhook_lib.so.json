@@ -1,8 +1,31 @@
 {
-    "label": "xHook",
-    "team": "iQIYI",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "peashooter2"],
-    "description": "xHook 是一个针对 Android 平台 ELF (可执行文件和动态库) 的 PLT (Procedure Linkage Table) hook 库。",
-    "relativeUrl": "https://github.com/iqiyi/xHook"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "xHook",
+                "dev_team": "iQIYI",
+                "rule_contributors": [
+                    "Absinthe",
+                    "peashooter2"
+                ],
+                "description": "xHook 是一个针对 Android 平台 ELF (可执行文件和动态库) 的 PLT (Procedure Linkage Table) hook 库。",
+                "source_link": "https://github.com/iqiyi/xHook"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "xHook",
+                "dev_team": "iQIYI",
+                "rule_contributors": [
+                    "Absinthe",
+                    "peashooter2"
+                ],
+                "description": "xHook 是一个针对 Android 平台 ELF (可执行文件和动态库) 的 PLT (Procedure Linkage Table) hook 库。",
+                "source_link": "https://github.com/iqiyi/xHook"
+            }
+        }
+    ],
+    "uuid": "2625B5BA-5189-4386-9249-B037015BD402"
 }

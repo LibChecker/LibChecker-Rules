@@ -1,8 +1,0 @@
-{
-    "label": "Flutter",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建高质量的原生用户界面。",
-    "relativeUrl": "https://flutter.dev/"
-}

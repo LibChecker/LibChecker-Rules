@@ -1,8 +1,29 @@
 {
-    "label": "信鸽推送",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "信鸽推送为开发者提供免费、快速、简单的推送服务。",
-    "relativeUrl": "https://xg.qq.com/docs/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "信鸽推送",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "信鸽推送为开发者提供免费、快速、简单的推送服务。",
+                "source_link": "https://xg.qq.com/docs/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "信鸽推送",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "信鸽推送为开发者提供免费、快速、简单的推送服务。",
+                "source_link": "https://xg.qq.com/docs/"
+            }
+        }
+    ],
+    "uuid": "DAA626BA-CBC2-4265-B2C7-145D8527EBAA"
 }

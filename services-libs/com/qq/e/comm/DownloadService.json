@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯广告 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯广告汇聚腾讯公司全量的应用场景，拥有核心行业数据、营销技术与专业服务能力。",
+                "source_link": "https://developers.e.qq.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯广告 SDK",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "腾讯广告汇聚腾讯公司全量的应用场景，拥有核心行业数据、营销技术与专业服务能力。",
+                "source_link": "https://developers.e.qq.com/"
+            }
+        }
+    ],
+    "uuid": "D10C56EE-7F64-46B6-A0D0-EAD6D26C896B"
+}

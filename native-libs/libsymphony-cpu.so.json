@@ -1,8 +1,29 @@
 {
-    "label": "Symphony CPU runtime library",
-    "team": "Qualcomm Snapdragon",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "The Snapdragon Neural Processing Engine (SNPE) is a Qualcomm Snapdragon software accelerated runtime for the execution of deep neural networks.",
-    "relativeUrl": "https://developer.qualcomm.com/sites/default/files/docs/snpe/overview.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Symphony CPU runtime library",
+                "dev_team": "Qualcomm Snapdragon",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "The Snapdragon Neural Processing Engine (SNPE) is a Qualcomm Snapdragon software accelerated runtime for the execution of deep neural networks.",
+                "source_link": "https://developer.qualcomm.com/sites/default/files/docs/snpe/overview.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Symphony CPU runtime library",
+                "dev_team": "Qualcomm Snapdragon",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "The Snapdragon Neural Processing Engine (SNPE) is a Qualcomm Snapdragon software accelerated runtime for the execution of deep neural networks.",
+                "source_link": "https://developer.qualcomm.com/sites/default/files/docs/snpe/overview.html"
+            }
+        }
+    ],
+    "uuid": "A400F3F7-308C-4CC6-9F9C-3512F8ED0D69"
 }

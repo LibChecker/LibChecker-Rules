@@ -1,8 +1,31 @@
 {
-    "label": "Xamarin",
-    "team": "Microsoft",
-    "iconUrl": "",
-    "contributors": ["ryank231231", "yfdyh000"],
-    "description": "Xamarin 是一个跨平台开发软件，通过使用 C# 共享的代码库，开发人员可以使用 Xamarin 工具，使用本地用户界面编写原生的 Android、iOS 和 Windows 应用程序，并跨多个平台（包括 Windows 和 MacOS）共享代码。",
-    "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Xamarin",
+                "dev_team": "Microsoft",
+                "rule_contributors": [
+                    "ryank231231",
+                    "yfdyh000"
+                ],
+                "description": "Xamarin 是一个跨平台开发软件，通过使用 C# 共享的代码库，开发人员可以使用 Xamarin 工具，使用本地用户界面编写原生的 Android、iOS 和 Windows 应用程序，并跨多个平台（包括 Windows 和 MacOS）共享代码。",
+                "source_link": "https://dotnet.microsoft.com/apps/xamarin/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Xamarin",
+                "dev_team": "Microsoft",
+                "rule_contributors": [
+                    "ryank231231",
+                    "yfdyh000"
+                ],
+                "description": "Xamarin 是一个跨平台开发软件，通过使用 C# 共享的代码库，开发人员可以使用 Xamarin 工具，使用本地用户界面编写原生的 Android、iOS 和 Windows 应用程序，并跨多个平台（包括 Windows 和 MacOS）共享代码。",
+                "source_link": "https://dotnet.microsoft.com/apps/xamarin/"
+            }
+        }
+    ],
+    "uuid": "2C146336-D9ED-480E-8459-5F2F4894F534"
 }

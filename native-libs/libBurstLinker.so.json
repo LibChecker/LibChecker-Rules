@@ -1,8 +1,29 @@
 {
-    "label": "BurstLinker",
-    "team": "Bilibili",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "一个 Android 平台上的简单的 GIF 编码器。",
-    "relativeUrl": "https://github.com/bilibili/BurstLinker"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "BurstLinker",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个 Android 平台上的简单的 GIF 编码器。",
+                "source_link": "https://github.com/bilibili/BurstLinker"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "BurstLinker",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个 Android 平台上的简单的 GIF 编码器。",
+                "source_link": "https://github.com/bilibili/BurstLinker"
+            }
+        }
+    ],
+    "uuid": "A6A77DDF-94A8-4B4D-8268-AFEFAE2F8883"
 }

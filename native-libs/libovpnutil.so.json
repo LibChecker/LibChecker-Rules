@@ -1,8 +1,29 @@
 {
-    "label": "OpenVPN",
-    "team": "OpenVPN Inc.",
-    "iconUrl": "",
-    "contributors": ["cliuff"],
-    "description": "OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations, including remote access, site-to-site VPNs, Wi-Fi security, and enterprise-scale remote access solutions with load balancing, failover, and fine-grained access-controls. Starting with the fundamental premise that complexity is the enemy of security, OpenVPN offers a cost-effective, lightweight alternative to other VPN technologies that is well-adapted for the SME and enterprise markets.",
-    "relativeUrl": "https://github.com/schwabe/ics-openvpn"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "OpenVPN",
+                "dev_team": "OpenVPN Inc.",
+                "rule_contributors": [
+                    "cliuff"
+                ],
+                "description": "OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations, including remote access, site-to-site VPNs, Wi-Fi security, and enterprise-scale remote access solutions with load balancing, failover, and fine-grained access-controls. Starting with the fundamental premise that complexity is the enemy of security, OpenVPN offers a cost-effective, lightweight alternative to other VPN technologies that is well-adapted for the SME and enterprise markets.",
+                "source_link": "https://github.com/schwabe/ics-openvpn"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OpenVPN",
+                "dev_team": "OpenVPN Inc.",
+                "rule_contributors": [
+                    "cliuff"
+                ],
+                "description": "OpenVPN is a full-featured open source SSL VPN solution that accommodates a wide range of configurations, including remote access, site-to-site VPNs, Wi-Fi security, and enterprise-scale remote access solutions with load balancing, failover, and fine-grained access-controls. Starting with the fundamental premise that complexity is the enemy of security, OpenVPN offers a cost-effective, lightweight alternative to other VPN technologies that is well-adapted for the SME and enterprise markets.",
+                "source_link": "https://github.com/schwabe/ics-openvpn"
+            }
+        }
+    ],
+    "uuid": "A5C87088-862F-42F0-BE01-78D0E61861F6"
 }

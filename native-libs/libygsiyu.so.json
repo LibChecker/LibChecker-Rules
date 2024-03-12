@@ -1,8 +1,29 @@
 {
-    "label": "iApp",
-    "team": "iApp",
-    "iconUrl": "",
-    "contributors": ["d1y"],
-    "description": "将想法变为现实一款国产手机端可视化编程软件。",
-    "relativeUrl": "http://www.yougais.com"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "iApp",
+                "dev_team": "iApp",
+                "rule_contributors": [
+                    "d1y"
+                ],
+                "description": "将想法变为现实一款国产手机端可视化编程软件。",
+                "source_link": "http://www.yougais.com"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "iApp",
+                "dev_team": "iApp",
+                "rule_contributors": [
+                    "d1y"
+                ],
+                "description": "将想法变为现实一款国产手机端可视化编程软件。",
+                "source_link": "http://www.yougais.com"
+            }
+        }
+    ],
+    "uuid": "AEDBB98B-B9F0-4A41-BB5C-35C04BFA2921"
 }

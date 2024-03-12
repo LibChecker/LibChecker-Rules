@@ -1,8 +1,29 @@
 {
-    "label": "LibRaw",
-    "team": "LibRaw LLC",
-    "iconUrl": "",
-    "contributors": ["watwhat"],
-    "description": "LibRaw is a library for reading RAW files from digital cameras.",
-    "relativeUrl": "https://github.com/LibRaw/LibRaw"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LibRaw",
+                "dev_team": "LibRaw LLC",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "LibRaw is a library for reading RAW files from digital cameras.",
+                "source_link": "https://github.com/LibRaw/LibRaw"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibRaw",
+                "dev_team": "LibRaw LLC",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "LibRaw is a library for reading RAW files from digital cameras.",
+                "source_link": "https://github.com/LibRaw/LibRaw"
+            }
+        }
+    ],
+    "uuid": "85A6B8E4-F6D1-4A5C-AB49-FE7264B13AED"
 }

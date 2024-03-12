@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "百川电商 SDK - 授权",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "用户可将某些功能/能力同意给媒体使用，媒体可通过获取用户的授权，访问页面/API 等数据。",
+                "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "百川电商 SDK - 授权",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "用户可将某些功能/能力同意给媒体使用，媒体可通过获取用户的授权，访问页面/API 等数据。",
+                "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
+            }
+        }
+    ],
+    "uuid": "76EBC737-8F52-41AF-A5D5-6F399EB75C7B"
+}

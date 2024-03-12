@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack Tracing",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "将跟踪事件写入系统跟踪缓冲区。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/tracing"
-}

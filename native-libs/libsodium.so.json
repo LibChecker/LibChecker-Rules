@@ -1,8 +1,29 @@
 {
-    "label": "Sodium",
-    "team": "jedisct1",
-    "iconUrl": "",
-    "contributors": ["watwhat"],
-    "description": "A modern, portable, easy to use crypto library.",
-    "relativeUrl": "https://github.com/jedisct1/libsodium"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Sodium",
+                "dev_team": "jedisct1",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "A modern, portable, easy to use crypto library.",
+                "source_link": "https://github.com/jedisct1/libsodium"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Sodium",
+                "dev_team": "jedisct1",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "A modern, portable, easy to use crypto library.",
+                "source_link": "https://github.com/jedisct1/libsodium"
+            }
+        }
+    ],
+    "uuid": "0F7FA946-08DC-400B-A880-C19C06591C81"
 }

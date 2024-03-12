@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "小米账号开放平台",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "小米帐号授权登录服务是小米公司向开发者提供的，基于 OAuth 2.0 标准协议的小米帐号快捷登录服务，用户可以方便快捷的使用小米帐号登录您的网站或者移动应用。",
+                "source_link": "https://dev.mi.com/console/appservice/account.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "小米账号开放平台",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "小米帐号授权登录服务是小米公司向开发者提供的，基于 OAuth 2.0 标准协议的小米帐号快捷登录服务，用户可以方便快捷的使用小米帐号登录您的网站或者移动应用。",
+                "source_link": "https://dev.mi.com/console/appservice/account.html"
+            }
+        }
+    ],
+    "uuid": "36606EE7-9765-46EB-B404-A6247BE84F37"
+}

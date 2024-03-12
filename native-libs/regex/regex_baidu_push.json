@@ -1,8 +1,29 @@
 {
-    "label": "百度云推送",
-    "team": "Baidu",
-    "iconUrl": "",
-    "contributors": ["zxwpm"],
-    "description": "百度云推送（Push）是一站式APP信息推送平台，为企业和开发者提供免费的消息推送服务，开发者可以通过云推送向用户精准推送通知和自定义消息以提升用户留存率和活跃度。",
-    "relativeUrl": "http://push.baidu.com/doc/android/api"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "百度云推送",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "zxwpm"
+                ],
+                "description": "百度云推送（Push）是一站式APP信息推送平台，为企业和开发者提供免费的消息推送服务，开发者可以通过云推送向用户精准推送通知和自定义消息以提升用户留存率和活跃度。",
+                "source_link": "http://push.baidu.com/doc/android/api"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "百度云推送",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "zxwpm"
+                ],
+                "description": "百度云推送（Push）是一站式APP信息推送平台，为企业和开发者提供免费的消息推送服务，开发者可以通过云推送向用户精准推送通知和自定义消息以提升用户留存率和活跃度。",
+                "source_link": "http://push.baidu.com/doc/android/api"
+            }
+        }
+    ],
+    "uuid": "49DAAC63-786C-434F-A4C4-3896FF4CDD1F"
 }

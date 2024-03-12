@@ -1,8 +1,0 @@
-{
-    "label": "Android-Job",
-    "team": "evernote",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Android 实用程序库，用于在后台延迟运行作业。 根据 Android 版本的不同，将使用 JobScheduler，GcmNetworkManager 或 AlarmManager。",
-    "relativeUrl": "https://github.com/evernote/android-job"
-}

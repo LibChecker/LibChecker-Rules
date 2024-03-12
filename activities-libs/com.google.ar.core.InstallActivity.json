@@ -1,8 +1,0 @@
-{
-    "label": "ARCore",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "ARCore 是 Google 的增强现实体验构建平台。 ARCore 利用不同的 API 让您的手机能够感知其环境、理解现实世界并与信息进行交互。 一些在 Android 和 iOS 上同时提供的 API 支持共享 AR 体验。",
-    "relativeUrl": "https://developers.google.com/ar/discover/"
-}

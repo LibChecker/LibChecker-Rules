@@ -1,8 +1,31 @@
 {
-    "label": "游戏语音 GVoice",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["yfdyh000", "crrashh1542"],
-    "description": "游戏语音（GVoice）全方位为游戏各应用场景提供语音服务，支持实时语音、语音消息、语音识别，范围语音等一系列功能。",
-    "relativeUrl": "https://gcloud.tencent.com/pages/products/gvoice.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "游戏语音 GVoice",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "crrashh1542"
+                ],
+                "description": "游戏语音（GVoice）全方位为游戏各应用场景提供语音服务，支持实时语音、语音消息、语音识别，范围语音等一系列功能。",
+                "source_link": "https://gcloud.tencent.com/pages/products/gvoice.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "游戏语音 GVoice",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "crrashh1542"
+                ],
+                "description": "游戏语音（GVoice）全方位为游戏各应用场景提供语音服务，支持实时语音、语音消息、语音识别，范围语音等一系列功能。",
+                "source_link": "https://gcloud.tencent.com/pages/products/gvoice.html"
+            }
+        }
+    ],
+    "uuid": "4870FD6D-4E48-4A2F-ACBB-01BF3C1FDF45"
 }

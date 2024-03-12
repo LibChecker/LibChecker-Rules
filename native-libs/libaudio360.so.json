@@ -1,8 +1,29 @@
 {
-    "label": "AVPro Video",
-    "team": "RenderHeads Ltd",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "AVPro Video is a multi-platform Unity plugin for advanced video playback",
-    "relativeUrl": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AVPro Video",
+                "dev_team": "RenderHeads Ltd",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "AVPro Video is a multi-platform Unity plugin for advanced video playback",
+                "source_link": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AVPro Video",
+                "dev_team": "RenderHeads Ltd",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "AVPro Video is a multi-platform Unity plugin for advanced video playback",
+                "source_link": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+            }
+        }
+    ],
+    "uuid": "3A81F882-7FA6-44E0-ADAC-F7A7E4FF348D"
 }

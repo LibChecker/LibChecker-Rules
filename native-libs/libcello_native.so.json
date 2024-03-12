@@ -1,8 +1,29 @@
 {
-    "label": "Cello",
-    "team": "orangeduck",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "Cello is a library that brings higher level programming to C. By acting as a modern, powerful runtime system Cello makes many things easy that were previously impractical or awkward in C.",
-    "relativeUrl": "https://github.com/orangeduck/Cello"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Cello",
+                "dev_team": "orangeduck",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "Cello is a library that brings higher level programming to C. By acting as a modern, powerful runtime system Cello makes many things easy that were previously impractical or awkward in C.",
+                "source_link": "https://github.com/orangeduck/Cello"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Cello",
+                "dev_team": "orangeduck",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "Cello is a library that brings higher level programming to C. By acting as a modern, powerful runtime system Cello makes many things easy that were previously impractical or awkward in C.",
+                "source_link": "https://github.com/orangeduck/Cello"
+            }
+        }
+    ],
+    "uuid": "E8E71511-DEAD-4F5D-9A31-1953E14B8FD5"
 }

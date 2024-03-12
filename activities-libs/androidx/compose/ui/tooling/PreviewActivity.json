@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Compose",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Cook21"
+                ],
+                "description": "Jetpack Compose 是用于构建原生 Android 界面的新工具包。Jetpack Compose 使用更少的代码、强大的工具和直观的 Kotlin API 简化并加快了 Android 上的界面开发。",
+                "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose?hl=zh-cn"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Compose",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Cook21"
+                ],
+                "description": "Jetpack Compose 是用于构建原生 Android 界面的新工具包。Jetpack Compose 使用更少的代码、强大的工具和直观的 Kotlin API 简化并加快了 Android 上的界面开发。",
+                "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose?hl=zh-cn"
+            }
+        }
+    ],
+    "uuid": "EFD95ADE-EADB-42FB-9F96-57D47F62FF4F"
+}

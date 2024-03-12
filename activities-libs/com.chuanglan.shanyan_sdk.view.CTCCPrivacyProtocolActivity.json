@@ -1,8 +1,0 @@
-{
-    "label": "闪验 SDK",
-    "team": "创蓝云智",
-    "iconUrl": "",
-    "contributors": ["xwhPanda", "watwhat", "Absinthe"],
-    "description": "闪验整合三大运营商，支持国内三网手机号段，Android/iOS 手机，可通过一键获取用户手机号的 SDK 产品，建立以手机号码作为去中心化的开放账号体系，提升注册转换效率的必备功能。",
-    "relativeUrl": "https://shanyan.253.com/"
-}

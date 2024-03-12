@@ -1,8 +1,29 @@
 {
-    "label": "Virocore",
-    "team": "Viro Media",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "借助 ViroCore，Android 开发者现在可以使用熟悉的语言和工具来构建沉浸式 AR/VR 应用。",
-    "relativeUrl": "https://github.com/ViroCommunity/virocore"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Virocore",
+                "dev_team": "Viro Media",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "借助 ViroCore，Android 开发者现在可以使用熟悉的语言和工具来构建沉浸式 AR/VR 应用。",
+                "source_link": "https://github.com/ViroCommunity/virocore"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Virocore",
+                "dev_team": "Viro Media",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "借助 ViroCore，Android 开发者现在可以使用熟悉的语言和工具来构建沉浸式 AR/VR 应用。",
+                "source_link": "https://github.com/ViroCommunity/virocore"
+            }
+        }
+    ],
+    "uuid": "798832B0-8725-415C-BFCB-D89EBA5492CD"
 }

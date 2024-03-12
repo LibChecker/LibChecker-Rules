@@ -1,8 +1,29 @@
 {
-    "label": "CZXing",
-    "team": "devilsen",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "C++ port of ZXing and ZBar for Android.",
-    "relativeUrl": "https://github.com/devilsen/CZXing"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "CZXing",
+                "dev_team": "devilsen",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "C++ port of ZXing and ZBar for Android.",
+                "source_link": "https://github.com/devilsen/CZXing"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "CZXing",
+                "dev_team": "devilsen",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "C++ port of ZXing and ZBar for Android.",
+                "source_link": "https://github.com/devilsen/CZXing"
+            }
+        }
+    ],
+    "uuid": "8DAB4AB6-D34E-49EB-BDF6-B81FA2305D72"
 }

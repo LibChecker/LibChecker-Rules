@@ -1,8 +1,29 @@
 {
-    "label": "libhfyuv",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "libyuv is an open source project that includes YUV scaling and conversion functionality.",
-    "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libhfyuv",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "libyuv is an open source project that includes YUV scaling and conversion functionality.",
+                "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libhfyuv",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "libyuv is an open source project that includes YUV scaling and conversion functionality.",
+                "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+            }
+        }
+    ],
+    "uuid": "107614AB-92EE-4681-BF7E-EAF85EB5F45C"
 }

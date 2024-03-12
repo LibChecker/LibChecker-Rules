@@ -1,8 +1,29 @@
 {
-    "label": "AVPro Video",
-    "team": "RenderHeads",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
-    "description": "AVPro Video 是一个用于高级视频播放的多平台 Unity 插件。",
-    "relativeUrl": "https://renderheads.com/products/avpro-video/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AVPro Video",
+                "dev_team": "RenderHeads",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "AVPro Video 是一个用于高级视频播放的多平台 Unity 插件。",
+                "source_link": "https://renderheads.com/products/avpro-video/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AVPro Video",
+                "dev_team": "RenderHeads",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "AVPro Video 是一个用于高级视频播放的多平台 Unity 插件。",
+                "source_link": "https://renderheads.com/products/avpro-video/"
+            }
+        }
+    ],
+    "uuid": "3A81F882-7FA6-44E0-ADAC-F7A7E4FF348D"
 }

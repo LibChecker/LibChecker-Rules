@@ -1,8 +1,29 @@
 {
-    "label": "jsenv",
-    "team": "OpenAtom Foundation",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "快应用框架依赖的 JavaScript 运行环境。",
-    "relativeUrl": "https://atomgit.com/hapjs/jsenv"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "jsenv",
+                "dev_team": "OpenAtom Foundation",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "快应用框架依赖的 JavaScript 运行环境。",
+                "source_link": "https://atomgit.com/hapjs/jsenv"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "jsenv",
+                "dev_team": "OpenAtom Foundation",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "快应用框架依赖的 JavaScript 运行环境。",
+                "source_link": "https://atomgit.com/hapjs/jsenv"
+            }
+        }
+    ],
+    "uuid": "75F0D24D-BEFC-49ED-9121-A8D2C7B4C454"
 }

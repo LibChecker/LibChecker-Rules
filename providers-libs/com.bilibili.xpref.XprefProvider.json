@@ -1,8 +1,0 @@
-{
-    "label": "Xpref",
-    "team": "Bilibili",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "一个 SharedPreferences 的包装器，真正支持跨多进程共享数据。",
-    "relativeUrl": "https://github.com/bilibili/xpref"
-}

@@ -1,8 +1,0 @@
-{
-    "label": "LeakCanary",
-    "team": "Square",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "LeakCanary 是适用于 Android 的内存泄漏检测库。",
-    "relativeUrl": "https://square.github.io/"
-}

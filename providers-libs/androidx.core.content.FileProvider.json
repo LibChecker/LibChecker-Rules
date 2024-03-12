@@ -1,8 +1,0 @@
-{
-    "label": "File Provider",
-    "team": "Android",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "FileProvider 是 ContentProvider 的特殊子类，它通过创建 content://Uri 代替 file:///Uri 以促进安全分享与应用程序关联的文件。",
-    "relativeUrl": "https://developer.android.com/reference/androidx/core/content/FileProvider/"
-}

@@ -1,8 +1,0 @@
-{
-    "label": "Unity Ads",
-    "team": "Unity Technologies",
-    "iconUrl": "",
-    "contributors": ["JerryHan3"],
-    "description": "Unity Ads SDK 由领先的移动游戏引擎创建，无论您是在 Unity、xCode 还是 Android Studio 中进行开发，都能为您的游戏提供全面的变现服务框架。",
-    "relativeUrl": "https://docs.unity.cn/cn/2020.3/Manual/UnityAds.html"
-}

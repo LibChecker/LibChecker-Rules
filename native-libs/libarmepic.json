@@ -1,8 +1,31 @@
 {
-    "label": "Epic",
-    "team": "weishu",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "d1y"],
-    "description": "Epic 是一个在虚拟机层面、以 Java Method 为粒度的 运行时 AOP Hook 框架。简单来说，Epic 就是 ART 上的 Dexposed（支持 Android 4.0 ~ 10.0）。它可以拦截本进程内部几乎任意的 Java 方法调用，可用于实现 AOP 编程、运行时插桩、性能分析、安全审计等。",
-    "relativeUrl": "https://github.com/tiann/epic/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Epic",
+                "dev_team": "weishu",
+                "rule_contributors": [
+                    "Absinthe",
+                    "d1y"
+                ],
+                "description": "Epic 是一个在虚拟机层面、以 Java Method 为粒度的 运行时 AOP Hook 框架。简单来说，Epic 就是 ART 上的 Dexposed（支持 Android 4.0 ~ 10.0）。它可以拦截本进程内部几乎任意的 Java 方法调用，可用于实现 AOP 编程、运行时插桩、性能分析、安全审计等。",
+                "source_link": "https://github.com/tiann/epic/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Epic",
+                "dev_team": "weishu",
+                "rule_contributors": [
+                    "Absinthe",
+                    "d1y"
+                ],
+                "description": "Epic 是一个在虚拟机层面、以 Java Method 为粒度的 运行时 AOP Hook 框架。简单来说，Epic 就是 ART 上的 Dexposed（支持 Android 4.0 ~ 10.0）。它可以拦截本进程内部几乎任意的 Java 方法调用，可用于实现 AOP 编程、运行时插桩、性能分析、安全审计等。",
+                "source_link": "https://github.com/tiann/epic/"
+            }
+        }
+    ],
+    "uuid": "0EC5EBE1-FAB6-44D2-8669-3CBB9AE952C9"
 }

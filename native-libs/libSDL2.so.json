@@ -1,8 +1,31 @@
 {
-    "label": "libSDL",
-    "team": "libsdl.org",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶", "yfdyh000"],
-    "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
-    "relativeUrl": "https://www.libsdl.org"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libSDL",
+                "dev_team": "libsdl.org",
+                "rule_contributors": [
+                    "飘落的枫叶",
+                    "yfdyh000"
+                ],
+                "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
+                "source_link": "https://www.libsdl.org"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libSDL",
+                "dev_team": "libsdl.org",
+                "rule_contributors": [
+                    "飘落的枫叶",
+                    "yfdyh000"
+                ],
+                "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
+                "source_link": "https://www.libsdl.org"
+            }
+        }
+    ],
+    "uuid": "72DDCF09-26D6-4549-B02C-0D83D7F3C2A1"
 }

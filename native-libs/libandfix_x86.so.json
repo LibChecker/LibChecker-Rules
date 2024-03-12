@@ -1,8 +1,31 @@
 {
-    "label": "AndFix",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["su1216", "Absinthe"],
-    "description": "AndFix 是一种在线修复错误而无需重新分发 Android App 的解决方案。",
-    "relativeUrl": "https://github.com/alibaba/AndFix"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndFix",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "su1216",
+                    "Absinthe"
+                ],
+                "description": "AndFix 是一种在线修复错误而无需重新分发 Android App 的解决方案。",
+                "source_link": "https://github.com/alibaba/AndFix"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndFix",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "su1216",
+                    "Absinthe"
+                ],
+                "description": "AndFix 是一种在线修复错误而无需重新分发 Android App 的解决方案。",
+                "source_link": "https://github.com/alibaba/AndFix"
+            }
+        }
+    ],
+    "uuid": "34A26199-9F89-41C3-B9E4-5DFB03982A93"
 }

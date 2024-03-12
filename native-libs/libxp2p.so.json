@@ -1,8 +1,29 @@
 {
-    "label": "libp2p",
-    "team": "Protocol Labs",
-    "iconUrl": "",
-    "contributors": ["CreationWong"],
-    "description": "libp2p 是一个从 IPFS 项目中模块化出来的网络堆栈和库，并单独捆绑起来供其他工具使用的库。",
-    "relativeUrl": "https://github.com/libp2p/libp2p"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libp2p",
+                "dev_team": "Protocol Labs",
+                "rule_contributors": [
+                    "CreationWong"
+                ],
+                "description": "libp2p 是一个从 IPFS 项目中模块化出来的网络堆栈和库，并单独捆绑起来供其他工具使用的库。",
+                "source_link": "https://github.com/libp2p/libp2p"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libp2p",
+                "dev_team": "Protocol Labs",
+                "rule_contributors": [
+                    "CreationWong"
+                ],
+                "description": "libp2p 是一个从 IPFS 项目中模块化出来的网络堆栈和库，并单独捆绑起来供其他工具使用的库。",
+                "source_link": "https://github.com/libp2p/libp2p"
+            }
+        }
+    ],
+    "uuid": "14B29CAB-B568-4B14-8D90-831D54776B25"
 }

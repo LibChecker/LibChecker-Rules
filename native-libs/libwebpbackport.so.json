@@ -1,8 +1,29 @@
 {
-    "label": "WebP",
-    "team": "Alexey Pelykh",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "WebP format support for Android < 4.0.",
-    "relativeUrl": "https://github.com/alexey-pelykh/webp-android-backport"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "WebP",
+                "dev_team": "Alexey Pelykh",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "WebP format support for Android < 4.0.",
+                "source_link": "https://github.com/alexey-pelykh/webp-android-backport"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "WebP",
+                "dev_team": "Alexey Pelykh",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "WebP format support for Android < 4.0.",
+                "source_link": "https://github.com/alexey-pelykh/webp-android-backport"
+            }
+        }
+    ],
+    "uuid": "2DB234BA-EC81-4B8F-9D64-2FC5CF2C7330"
 }

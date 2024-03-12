@@ -1,8 +1,31 @@
 {
-    "label": "阿里聚安全",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "ArthurCyy"],
-    "description": "阿里聚安全是面向开发者，以移动应用安全为核心的开放平台。",
-    "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "阿里聚安全",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "阿里聚安全是面向开发者，以移动应用安全为核心的开放平台。",
+                "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "阿里聚安全",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy"
+                ],
+                "description": "阿里聚安全是面向开发者，以移动应用安全为核心的开放平台。",
+                "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
+            }
+        }
+    ],
+    "uuid": "21ABDBB7-CDC7-4D93-8043-FC5600D56D34"
 }

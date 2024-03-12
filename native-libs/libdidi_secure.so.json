@@ -1,8 +1,29 @@
 {
-    "label": "滴滴 SDK",
-    "team": "Didi",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "滴滴出行开放平台正式上线，三方应用与个人开发者接入 SDK 后，可将滴滴出行集成到自己的应用中，轻松构建打车服务，为您的用户提供一段美好旅程。",
-    "relativeUrl": "https://developer.xiaojukeji.com/doc/sdk/implementation.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "滴滴 SDK",
+                "dev_team": "Didi",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "滴滴出行开放平台正式上线，三方应用与个人开发者接入 SDK 后，可将滴滴出行集成到自己的应用中，轻松构建打车服务，为您的用户提供一段美好旅程。",
+                "source_link": "https://developer.xiaojukeji.com/doc/sdk/implementation.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "滴滴 SDK",
+                "dev_team": "Didi",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "滴滴出行开放平台正式上线，三方应用与个人开发者接入 SDK 后，可将滴滴出行集成到自己的应用中，轻松构建打车服务，为您的用户提供一段美好旅程。",
+                "source_link": "https://developer.xiaojukeji.com/doc/sdk/implementation.html"
+            }
+        }
+    ],
+    "uuid": "F2A2D33E-B485-4D8D-8D30-8F232F734FCC"
 }

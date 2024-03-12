@@ -1,8 +1,29 @@
 {
-    "label": "思必驰",
-    "team": "AISPEECH",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "基于语音的人机交互，一直都是带着神秘的面纱，给广大需要使用这个能力的设备、应用的开发者带来不少的困惑。为了让大家能比较容易为设备进行语音赋能，思必驰基于自己近十多年的深度研发，基于全链路语音技术推出 DUI 平台及 DUI 语音系统，旨在为大家降低进入门槛，为您的设备、应用赋能语音交互能力，给您服务的用户带来全新的体验。",
-    "relativeUrl": "https://cloud.aispeech.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "思必驰",
+                "dev_team": "AISPEECH",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "基于语音的人机交互，一直都是带着神秘的面纱，给广大需要使用这个能力的设备、应用的开发者带来不少的困惑。为了让大家能比较容易为设备进行语音赋能，思必驰基于自己近十多年的深度研发，基于全链路语音技术推出 DUI 平台及 DUI 语音系统，旨在为大家降低进入门槛，为您的设备、应用赋能语音交互能力，给您服务的用户带来全新的体验。",
+                "source_link": "https://cloud.aispeech.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "思必驰",
+                "dev_team": "AISPEECH",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "基于语音的人机交互，一直都是带着神秘的面纱，给广大需要使用这个能力的设备、应用的开发者带来不少的困惑。为了让大家能比较容易为设备进行语音赋能，思必驰基于自己近十多年的深度研发，基于全链路语音技术推出 DUI 平台及 DUI 语音系统，旨在为大家降低进入门槛，为您的设备、应用赋能语音交互能力，给您服务的用户带来全新的体验。",
+                "source_link": "https://cloud.aispeech.com/"
+            }
+        }
+    ],
+    "uuid": "89323A0E-4DE5-4460-9FF8-65EB9D76E662"
 }

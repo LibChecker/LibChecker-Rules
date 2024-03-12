@@ -1,8 +1,0 @@
-{
-    "label": "Firebase Cloud Messaging",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "kotori2", "sebastien46"],
-    "description": "Firebase 云信息传递 (FCM) 是一种跨平台消息传递解决方案，可供您免费、可靠地传递消息。",
-    "relativeUrl": "https://firebase.google.com/docs/cloud-messaging/"
-}

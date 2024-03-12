@@ -1,8 +1,29 @@
 {
-    "label": "Node.js",
-    "team": "plenluno",
-    "iconUrl": "",
-    "contributors": ["lgc2333"],
-    "description": "libnode is a C++ implementation of Node.js.",
-    "relativeUrl": "https://github.com/plenluno/libnode"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Node.js",
+                "dev_team": "plenluno",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "libnode is a C++ implementation of Node.js.",
+                "source_link": "https://github.com/plenluno/libnode"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Node.js",
+                "dev_team": "plenluno",
+                "rule_contributors": [
+                    "lgc2333"
+                ],
+                "description": "libnode is a C++ implementation of Node.js.",
+                "source_link": "https://github.com/plenluno/libnode"
+            }
+        }
+    ],
+    "uuid": "66E8AEBE-A783-48F6-B537-06E3225411CF"
 }

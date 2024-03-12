@@ -1,8 +1,29 @@
 {
-    "label": "小爱 SDK",
-    "team": "Xiaomi",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "⼩米⼩爱开放平台借助小米的硬件生态和海量数据，提供全球领先的语音识别、NLP 等多项人工智能技术，为开发者提供一站式的人工智能服务平台。小米小爱开放平台包括语音服务平台和技能开发平台两部分，为企业级用户和个人开发者打造更多更好的语⾳服务和技能。",
-    "relativeUrl": "https://xiaoai.mi.com/documents/Home?type=/api/doc/render_markdown/Home/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "小爱 SDK",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "⼩米⼩爱开放平台借助小米的硬件生态和海量数据，提供全球领先的语音识别、NLP 等多项人工智能技术，为开发者提供一站式的人工智能服务平台。小米小爱开放平台包括语音服务平台和技能开发平台两部分，为企业级用户和个人开发者打造更多更好的语⾳服务和技能。",
+                "source_link": "https://xiaoai.mi.com/documents/Home?type=/api/doc/render_markdown/Home/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "小爱 SDK",
+                "dev_team": "Xiaomi",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "⼩米⼩爱开放平台借助小米的硬件生态和海量数据，提供全球领先的语音识别、NLP 等多项人工智能技术，为开发者提供一站式的人工智能服务平台。小米小爱开放平台包括语音服务平台和技能开发平台两部分，为企业级用户和个人开发者打造更多更好的语⾳服务和技能。",
+                "source_link": "https://xiaoai.mi.com/documents/Home?type=/api/doc/render_markdown/Home/"
+            }
+        }
+    ],
+    "uuid": "F8D5DBD2-FD89-4BD7-9D4E-CD38F1B12B74"
 }

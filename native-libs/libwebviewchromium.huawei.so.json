@@ -1,8 +1,29 @@
 {
-    "label": "HUAWEI WebView",
-    "team": "Chromium, HUAWEI",
-    "iconUrl": "",
-    "contributors": ["homo1919810"],
-    "description": "WebView 提供在应用中集成 Web 页面的能力。",
-    "relativeUrl": "https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-java-component-webview-0000001092715158"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HUAWEI WebView",
+                "dev_team": "Chromium, HUAWEI",
+                "rule_contributors": [
+                    "homo1919810"
+                ],
+                "description": "WebView 提供在应用中集成 Web 页面的能力。",
+                "source_link": "https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-java-component-webview-0000001092715158"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HUAWEI WebView",
+                "dev_team": "Chromium, HUAWEI",
+                "rule_contributors": [
+                    "homo1919810"
+                ],
+                "description": "WebView 提供在应用中集成 Web 页面的能力。",
+                "source_link": "https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-java-component-webview-0000001092715158"
+            }
+        }
+    ],
+    "uuid": "8F78B845-1C47-4154-A80B-3C3F8C436DF4"
 }

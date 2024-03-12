@@ -1,8 +1,29 @@
 {
-    "label": "ENet",
-    "team": "Lee Salzman",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "ENet's purpose is to provide a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol).The primary feature it provides is optional reliable, in-order delivery of packets.",
-    "relativeUrl": "http://enet.bespin.org/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ENet",
+                "dev_team": "Lee Salzman",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "ENet's purpose is to provide a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol).The primary feature it provides is optional reliable, in-order delivery of packets.",
+                "source_link": "http://enet.bespin.org/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ENet",
+                "dev_team": "Lee Salzman",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "ENet's purpose is to provide a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol).The primary feature it provides is optional reliable, in-order delivery of packets.",
+                "source_link": "http://enet.bespin.org/"
+            }
+        }
+    ],
+    "uuid": "D7145350-1302-48E1-9E47-2097ED5818DB"
 }

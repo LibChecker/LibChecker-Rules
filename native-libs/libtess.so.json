@@ -1,8 +1,29 @@
 {
-    "label": "Tesseract",
-    "team": "Tesseract",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Tesseract Open Source OCR Engine.",
-    "relativeUrl": "https://github.com/tesseract-ocr/tesseract"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Tesseract",
+                "dev_team": "Tesseract",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Tesseract Open Source OCR Engine.",
+                "source_link": "https://github.com/tesseract-ocr/tesseract"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Tesseract",
+                "dev_team": "Tesseract",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Tesseract Open Source OCR Engine.",
+                "source_link": "https://github.com/tesseract-ocr/tesseract"
+            }
+        }
+    ],
+    "uuid": "080918F0-FE0D-46B8-B7B2-5FADF9728617"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "OpenMobileMaps",
-    "team": "openmobilemaps.io",
-    "iconUrl": "",
-    "contributors": ["cwxiaoshutong"],
-    "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGl ES 3.2) and iOS (10+)",
-    "relativeUrl": "https://github.com/openmobilemaps/maps-core"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "OpenMobileMaps",
+                "dev_team": "openmobilemaps.io",
+                "rule_contributors": [
+                    "cwxiaoshutong"
+                ],
+                "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGl ES 3.2) and iOS (10+)",
+                "source_link": "https://github.com/openmobilemaps/maps-core"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OpenMobileMaps",
+                "dev_team": "openmobilemaps.io",
+                "rule_contributors": [
+                    "cwxiaoshutong"
+                ],
+                "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGl ES 3.2) and iOS (10+)",
+                "source_link": "https://github.com/openmobilemaps/maps-core"
+            }
+        }
+    ],
+    "uuid": "0539E6F0-60D8-4A21-8B93-777EFE950A9D"
 }

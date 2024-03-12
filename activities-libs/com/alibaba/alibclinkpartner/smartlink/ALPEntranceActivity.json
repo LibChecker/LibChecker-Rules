@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "百川电商 SDK - 唤醒手淘",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "①任何投放都可直接唤醒手淘打开。当消费者无手淘时，默认引导手淘下载，但开发者可自行调整为退回到 H5 页面打开(请注意此时登录态不再支持透传)；\n②部分页面可支持在开发者APP内打开，可以默认不唤醒手淘。这部分页面，新版百川 SDK 将通过套件功能对外开放，在套件内会包含相应可被调用的页面。",
+                "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "百川电商 SDK - 唤醒手淘",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "①任何投放都可直接唤醒手淘打开。当消费者无手淘时，默认引导手淘下载，但开发者可自行调整为退回到 H5 页面打开(请注意此时登录态不再支持透传)；\n②部分页面可支持在开发者APP内打开，可以默认不唤醒手淘。这部分页面，新版百川 SDK 将通过套件功能对外开放，在套件内会包含相应可被调用的页面。",
+                "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
+            }
+        }
+    ],
+    "uuid": "9502AC06-29A5-464C-AAA1-A81A0A8825AA"
+}

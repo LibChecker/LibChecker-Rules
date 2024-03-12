@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Bilibili Oauth SDK",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "哔哩哔哩 OAuth 2.0，可使用户授权第三方应用访问其哔哩哔哩上基本开放信息和其他已授权的相关信息，而无需将用户名和密码提供给第三方应用。",
+                "source_link": "https://openhome.bilibili.com/doc/4/1f1cd948-de8f-6a9f-3b9c-2cb484da3cbb"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Bilibili Oauth SDK",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "哔哩哔哩 OAuth 2.0，可使用户授权第三方应用访问其哔哩哔哩上基本开放信息和其他已授权的相关信息，而无需将用户名和密码提供给第三方应用。",
+                "source_link": "https://openhome.bilibili.com/doc/4/1f1cd948-de8f-6a9f-3b9c-2cb484da3cbb"
+            }
+        }
+    ],
+    "uuid": "18A5E6C3-71D4-4AF7-9A9F-48F0A07BAACE"
+}

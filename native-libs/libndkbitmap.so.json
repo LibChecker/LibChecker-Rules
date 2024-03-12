@@ -1,8 +1,29 @@
 {
-    "label": "烈焰弹幕使",
-    "team": "Bilibili",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "烈焰弹幕使是 Android 上开源的弹幕解析绘制引擎项目。",
-    "relativeUrl": "https://github.com/bilibili/DanmakuFlameMaster/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "烈焰弹幕使",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "烈焰弹幕使是 Android 上开源的弹幕解析绘制引擎项目。",
+                "source_link": "https://github.com/bilibili/DanmakuFlameMaster/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "烈焰弹幕使",
+                "dev_team": "Bilibili",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "烈焰弹幕使是 Android 上开源的弹幕解析绘制引擎项目。",
+                "source_link": "https://github.com/bilibili/DanmakuFlameMaster/"
+            }
+        }
+    ],
+    "uuid": "B68DB390-F7D8-4CB9-9F4B-F08B1EDD674A"
 }

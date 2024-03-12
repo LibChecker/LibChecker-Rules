@@ -1,8 +1,0 @@
-{
-    "label": "Qigsaw",
-    "team": "iQIYI",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Qigsaw 是一套基于 Android App Bundles 实现的 Android 动态组件化方案，它无需应用重新安装即可动态分发插件。",
-    "relativeUrl": "https://github.com/iqiyi/Qigsaw"
-}

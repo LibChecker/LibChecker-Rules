@@ -1,8 +1,29 @@
 {
-    "label": "Mozilla NSS",
-    "team": "Mozilla",
-    "iconUrl": "",
-    "contributors": ["tomac4t"],
-    "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards.",
-    "relativeUrl": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Mozilla NSS",
+                "dev_team": "Mozilla",
+                "rule_contributors": [
+                    "tomac4t"
+                ],
+                "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards.",
+                "source_link": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Mozilla NSS",
+                "dev_team": "Mozilla",
+                "rule_contributors": [
+                    "tomac4t"
+                ],
+                "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards.",
+                "source_link": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS"
+            }
+        }
+    ],
+    "uuid": "F53F1DE9-6ACD-44F7-B71E-E9A8ED63F4A0"
 }

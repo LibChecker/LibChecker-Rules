@@ -1,8 +1,29 @@
 {
-    "label": "AnyChat",
-    "team": "广州佰锐网络科技有限公司",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "一站式音视频生态系统解决方案 / 跨平台音视频能力生态解决方案。",
-    "relativeUrl": "http://anychat.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AnyChat",
+                "dev_team": "广州佰锐网络科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "一站式音视频生态系统解决方案 / 跨平台音视频能力生态解决方案。",
+                "source_link": "http://anychat.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AnyChat",
+                "dev_team": "广州佰锐网络科技有限公司",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "一站式音视频生态系统解决方案 / 跨平台音视频能力生态解决方案。",
+                "source_link": "http://anychat.cn/"
+            }
+        }
+    ],
+    "uuid": "A4C176FF-1B68-4AB6-B840-05C1EAB85659"
 }

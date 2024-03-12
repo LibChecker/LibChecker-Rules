@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HMS Video Kit",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "视频服务（Video Kit）提供视频播放、HDR Vivid 视频处理服务，后续将提供视频编辑和视频托管服务，助力您快速构建视频特性，帮助您向用户提供视频媒体体验。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/introduction-0000001050439577"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HMS Video Kit",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "视频服务（Video Kit）提供视频播放、HDR Vivid 视频处理服务，后续将提供视频编辑和视频托管服务，助力您快速构建视频特性，帮助您向用户提供视频媒体体验。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/introduction-0000001050439577"
+            }
+        }
+    ],
+    "uuid": "DBF958D8-E13F-43F8-8F6A-ED6E94A2FDF0"
+}

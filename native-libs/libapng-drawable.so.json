@@ -1,8 +1,29 @@
 {
-    "label": "ApngDrawable",
-    "team": "LINE",
-    "iconUrl": "",
-    "contributors": ["Anormi"],
-    "description": "ApngDrawable 是 Android 平台上的一个高效而轻量的 APNG 图像解码库。",
-    "relativeUrl": "https://github.com/line/apng-drawable"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ApngDrawable",
+                "dev_team": "LINE",
+                "rule_contributors": [
+                    "Anormi"
+                ],
+                "description": "ApngDrawable 是 Android 平台上的一个高效而轻量的 APNG 图像解码库。",
+                "source_link": "https://github.com/line/apng-drawable"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ApngDrawable",
+                "dev_team": "LINE",
+                "rule_contributors": [
+                    "Anormi"
+                ],
+                "description": "ApngDrawable 是 Android 平台上的一个高效而轻量的 APNG 图像解码库。",
+                "source_link": "https://github.com/line/apng-drawable"
+            }
+        }
+    ],
+    "uuid": "D599117F-8741-4044-8A08-F0E039E26CC9"
 }

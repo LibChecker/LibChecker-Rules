@@ -1,8 +1,29 @@
 {
-    "label": "C++ 共享库",
-    "team": "Android",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "在 Android 应用中运行原生代码。",
-    "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "C++ 共享库",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "在 Android 应用中运行原生代码。",
+                "source_link": "https://developer.android.com/ndk/guides/cpp-support/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "C++ 共享库",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "在 Android 应用中运行原生代码。",
+                "source_link": "https://developer.android.com/ndk/guides/cpp-support/"
+            }
+        }
+    ],
+    "uuid": "3AF88EFC-244B-4F4B-B7E3-1799464DB267"
 }

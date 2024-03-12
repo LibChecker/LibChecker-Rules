@@ -1,8 +1,0 @@
-{
-    "label": "银联 SDK",
-    "team": "银联",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "银联在线支付网关是中国银联联合各商业银行为持卡人提供的集成化、综合性互联网支付工具，主要支持输入卡号付款、用户登录支付、网银支付、迷你付（IC 卡支付）等多种支付方式，为持卡人提供境内外网上购物、水电煤缴费、商旅预订等支付服务。",
-    "relativeUrl": "https://open.unionpay.com/"
-}

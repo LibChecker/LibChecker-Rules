@@ -1,8 +1,29 @@
 {
-    "label": "Adjust SDK",
-    "team": "Adjust",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "通过 Adjust 安卓 SDK，您可以在自己的安卓应用中跟踪归因、事件及更多数据。",
-    "relativeUrl": "https://help.adjust.com/en/developer/android-sdk-documentation"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Adjust SDK",
+                "dev_team": "Adjust",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "通过 Adjust 安卓 SDK，您可以在自己的安卓应用中跟踪归因、事件及更多数据。",
+                "source_link": "https://help.adjust.com/en/developer/android-sdk-documentation"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Adjust SDK",
+                "dev_team": "Adjust",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "通过 Adjust 安卓 SDK，您可以在自己的安卓应用中跟踪归因、事件及更多数据。",
+                "source_link": "https://help.adjust.com/en/developer/android-sdk-documentation"
+            }
+        }
+    ],
+    "uuid": "AA531A14-8838-4224-BA7E-5C89B324F765"
 }

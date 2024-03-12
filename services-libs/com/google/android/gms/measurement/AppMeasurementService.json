@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Firebase Analytics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Google Analytics（分析）是一款免费的应用衡量解决方案，可提供关于应用使用情况和用户互动度的分析数据。",
+                "source_link": "https://firebase.google.com/docs/analytics/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Firebase Analytics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Google Analytics（分析）是一款免费的应用衡量解决方案，可提供关于应用使用情况和用户互动度的分析数据。",
+                "source_link": "https://firebase.google.com/docs/analytics/"
+            }
+        }
+    ],
+    "uuid": "FA665B35-8580-4349-B941-DDE3EDC0EF6E"
+}

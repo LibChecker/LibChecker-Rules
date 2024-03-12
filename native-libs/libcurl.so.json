@@ -1,8 +1,29 @@
 {
-    "label": "LibCurl",
-    "team": "curl",
-    "iconUrl": "",
-    "contributors": ["culat"],
-    "description": "libcurl 是一个免费且易于使用的客户端 URL 传输库。",
-    "relativeUrl": "https://github.com/curl/curl"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LibCurl",
+                "dev_team": "curl",
+                "rule_contributors": [
+                    "culat"
+                ],
+                "description": "libcurl 是一个免费且易于使用的客户端 URL 传输库。",
+                "source_link": "https://github.com/curl/curl"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibCurl",
+                "dev_team": "curl",
+                "rule_contributors": [
+                    "culat"
+                ],
+                "description": "libcurl 是一个免费且易于使用的客户端 URL 传输库。",
+                "source_link": "https://github.com/curl/curl"
+            }
+        }
+    ],
+    "uuid": "85F5C7D6-D22A-4F3D-A02A-ED6D791ADAB3"
 }

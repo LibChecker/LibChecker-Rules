@@ -1,8 +1,29 @@
 {
-    "label": "Leptonica",
-    "team": "Dan Bloomberg",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "Leptonica is a pedagogically-oriented open source library containing software that is broadly useful for image processing and image analysis applications.",
-    "relativeUrl": "https://github.com/DanBloomberg/leptonica"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Leptonica",
+                "dev_team": "Dan Bloomberg",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Leptonica is a pedagogically-oriented open source library containing software that is broadly useful for image processing and image analysis applications.",
+                "source_link": "https://github.com/DanBloomberg/leptonica"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Leptonica",
+                "dev_team": "Dan Bloomberg",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Leptonica is a pedagogically-oriented open source library containing software that is broadly useful for image processing and image analysis applications.",
+                "source_link": "https://github.com/DanBloomberg/leptonica"
+            }
+        }
+    ],
+    "uuid": "80E008DF-1291-4AB1-A977-3C90A43D65C9"
 }

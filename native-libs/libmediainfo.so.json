@@ -1,8 +1,29 @@
 {
-    "label": "MediaInfoLib",
-    "team": "MediaArea",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
-    "description": "MediaInfo(Lib) 是便捷统一展示视频和音频文件最相关的技术和标签数据的库。",
-    "relativeUrl": "https://github.com/MediaArea/MediaInfoLib"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MediaInfoLib",
+                "dev_team": "MediaArea",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "MediaInfo(Lib) 是便捷统一展示视频和音频文件最相关的技术和标签数据的库。",
+                "source_link": "https://github.com/MediaArea/MediaInfoLib"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MediaInfoLib",
+                "dev_team": "MediaArea",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "MediaInfo(Lib) 是便捷统一展示视频和音频文件最相关的技术和标签数据的库。",
+                "source_link": "https://github.com/MediaArea/MediaInfoLib"
+            }
+        }
+    ],
+    "uuid": "63691E6A-DCE7-40BF-8B19-681E03CDCA26"
 }

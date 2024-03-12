@@ -1,8 +1,29 @@
 {
-    "label": "Threadfix",
-    "team": "Coalfire",
-    "iconUrl": "",
-    "contributors": ["Samuioto"],
-    "description": "ThreadFix 通过将测试和漏洞数据集中在一个地方，使安全团队能够花更少的时间手动关联结果，花更多的时间解决安全风险和漏洞。而且，由于您可以快速识别对组织最重要的风险领域，因此您可以将漏洞存在于应用程序中的时间减少多达 40%。",
-    "relativeUrl": "https://www.coalfire.com/solutions/threadfix"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Threadfix",
+                "dev_team": "Coalfire",
+                "rule_contributors": [
+                    "Samuioto"
+                ],
+                "description": "ThreadFix 通过将测试和漏洞数据集中在一个地方，使安全团队能够花更少的时间手动关联结果，花更多的时间解决安全风险和漏洞。而且，由于您可以快速识别对组织最重要的风险领域，因此您可以将漏洞存在于应用程序中的时间减少多达 40%。",
+                "source_link": "https://www.coalfire.com/solutions/threadfix"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Threadfix",
+                "dev_team": "Coalfire",
+                "rule_contributors": [
+                    "Samuioto"
+                ],
+                "description": "ThreadFix 通过将测试和漏洞数据集中在一个地方，使安全团队能够花更少的时间手动关联结果，花更多的时间解决安全风险和漏洞。而且，由于您可以快速识别对组织最重要的风险领域，因此您可以将漏洞存在于应用程序中的时间减少多达 40%。",
+                "source_link": "https://www.coalfire.com/solutions/threadfix"
+            }
+        }
+    ],
+    "uuid": "EEC3C5FF-7C20-4BA9-9601-A43B855F79F6"
 }

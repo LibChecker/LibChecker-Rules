@@ -1,8 +1,29 @@
 {
-    "label": "AdColony",
-    "team": "AdColony",
-    "iconUrl": "",
-    "contributors": ["watwhat"],
-    "description": "AdColony Mobile Ads SDK for Android.",
-    "relativeUrl": "https://github.com/AdColony/AdColony-Android-SDK"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AdColony",
+                "dev_team": "AdColony",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "AdColony Mobile Ads SDK for Android.",
+                "source_link": "https://github.com/AdColony/AdColony-Android-SDK"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AdColony",
+                "dev_team": "AdColony",
+                "rule_contributors": [
+                    "watwhat"
+                ],
+                "description": "AdColony Mobile Ads SDK for Android.",
+                "source_link": "https://github.com/AdColony/AdColony-Android-SDK"
+            }
+        }
+    ],
+    "uuid": "853204BF-71F4-4AF6-A6DB-0394BAE2C515"
 }

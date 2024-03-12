@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack Test",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "在 Android 中进行测试。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/test"
-}

@@ -1,8 +1,29 @@
 {
-    "label": "腾讯云 HTTPDNS",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["su1216"],
-    "description": "HTTPDNS 基于 HTTP 协议向腾讯云的 DNS 服务器发送域名解析请求，替代了基于 DNS 协议向运营商 LocalDNS 发起解析请求的传统方式，可以避免 LocalDNS 造成的域名劫持和跨网访问问题，解决移动互联网服务中域名解析异常带来的困扰。",
-    "relativeUrl": "https://github.com/tencentyun/httpdns-android-sdk"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯云 HTTPDNS",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "su1216"
+                ],
+                "description": "HTTPDNS 基于 HTTP 协议向腾讯云的 DNS 服务器发送域名解析请求，替代了基于 DNS 协议向运营商 LocalDNS 发起解析请求的传统方式，可以避免 LocalDNS 造成的域名劫持和跨网访问问题，解决移动互联网服务中域名解析异常带来的困扰。",
+                "source_link": "https://github.com/tencentyun/httpdns-android-sdk"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯云 HTTPDNS",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "su1216"
+                ],
+                "description": "HTTPDNS 基于 HTTP 协议向腾讯云的 DNS 服务器发送域名解析请求，替代了基于 DNS 协议向运营商 LocalDNS 发起解析请求的传统方式，可以避免 LocalDNS 造成的域名劫持和跨网访问问题，解决移动互联网服务中域名解析异常带来的困扰。",
+                "source_link": "https://github.com/tencentyun/httpdns-android-sdk"
+            }
+        }
+    ],
+    "uuid": "03E0B89A-55F3-480E-9DDF-87EF69ADDA5C"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "BoostMultiDex",
-    "team": "ByteDance",
-    "iconUrl": "",
-    "contributors": ["zxwpm"],
-    "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
-    "relativeUrl": "https://github.com/bytedance/BoostMultiDex"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "BoostMultiDex",
+                "dev_team": "ByteDance",
+                "rule_contributors": [
+                    "zxwpm"
+                ],
+                "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
+                "source_link": "https://github.com/bytedance/BoostMultiDex"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "BoostMultiDex",
+                "dev_team": "ByteDance",
+                "rule_contributors": [
+                    "zxwpm"
+                ],
+                "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
+                "source_link": "https://github.com/bytedance/BoostMultiDex"
+            }
+        }
+    ],
+    "uuid": "E8CB8812-B1CB-49DF-BFE6-942F880DE2D6"
 }

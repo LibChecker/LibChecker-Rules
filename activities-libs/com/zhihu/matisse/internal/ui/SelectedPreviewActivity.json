@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Matisse",
+                "dev_team": "Zhihu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个设计精美的 Android 图片视频选择器。",
+                "source_link": "https://github.com/zhihu/Matisse/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Matisse",
+                "dev_team": "Zhihu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个设计精美的 Android 图片视频选择器。",
+                "source_link": "https://github.com/zhihu/Matisse/"
+            }
+        }
+    ],
+    "uuid": "EF139912-D54A-4C26-9031-62BB8786263F"
+}

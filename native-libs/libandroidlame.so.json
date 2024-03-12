@@ -1,8 +1,29 @@
 {
-    "label": "AndroidLame",
-    "team": "naman14",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Android/Java wrapper around Lame mp3 encoder.",
-    "relativeUrl": "https://github.com/naman14/TAndroidLame"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndroidLame",
+                "dev_team": "naman14",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Android/Java wrapper around Lame mp3 encoder.",
+                "source_link": "https://github.com/naman14/TAndroidLame"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndroidLame",
+                "dev_team": "naman14",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Android/Java wrapper around Lame mp3 encoder.",
+                "source_link": "https://github.com/naman14/TAndroidLame"
+            }
+        }
+    ],
+    "uuid": "E8A37A2B-24E5-460D-9818-587FACC551E8"
 }

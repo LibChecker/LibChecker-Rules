@@ -1,8 +1,29 @@
 {
-    "label": "AppGallery Connect APM",
-    "team": "Huawei",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "华为 AppGallery Connect（简称 AGC）性能管理（APM，App Performance Management）服务是一个功能强大、使用简便的性能管理解决方案。",
-    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-apm-introduction-0000001052247254"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AppGallery Connect APM",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "华为 AppGallery Connect（简称 AGC）性能管理（APM，App Performance Management）服务是一个功能强大、使用简便的性能管理解决方案。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-apm-introduction-0000001052247254"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AppGallery Connect APM",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "华为 AppGallery Connect（简称 AGC）性能管理（APM，App Performance Management）服务是一个功能强大、使用简便的性能管理解决方案。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-apm-introduction-0000001052247254"
+            }
+        }
+    ],
+    "uuid": "807841F8-5FC8-4DBB-B526-30F640902436"
 }

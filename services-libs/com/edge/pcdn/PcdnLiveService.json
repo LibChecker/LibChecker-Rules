@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "PCDN SDK",
+                "dev_team": "Alipay",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "PCDN 支持点播和直播的 P2P 加速服务，采用独立进程的方式运行，即使崩溃也不影响 App 主进程的使用。",
+                "source_link": "https://help.aliyun.com/document_detail/54295.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "PCDN SDK",
+                "dev_team": "Alipay",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "PCDN 支持点播和直播的 P2P 加速服务，采用独立进程的方式运行，即使崩溃也不影响 App 主进程的使用。",
+                "source_link": "https://help.aliyun.com/document_detail/54295.html"
+            }
+        }
+    ],
+    "uuid": "D98B4F90-5D1D-4732-AAA3-AE9FE070520C"
+}

@@ -1,8 +1,33 @@
 {
-    "label": "BarHopper",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "sebastien46", "crrashh1542"],
-    "description": "BarHopper 是一个 ML Kit 中的库，用于在 Android 设备上识别或解码条形码。",
-    "relativeUrl": "https://developers.google.com/ml-kit/vision/barcode-scanning/android"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "BarHopper",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe",
+                    "sebastien46",
+                    "crrashh1542"
+                ],
+                "description": "BarHopper 是一个 ML Kit 中的库，用于在 Android 设备上识别或解码条形码。",
+                "source_link": "https://developers.google.com/ml-kit/vision/barcode-scanning/android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "BarHopper",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe",
+                    "sebastien46",
+                    "crrashh1542"
+                ],
+                "description": "BarHopper 是一个 ML Kit 中的库，用于在 Android 设备上识别或解码条形码。",
+                "source_link": "https://developers.google.com/ml-kit/vision/barcode-scanning/android"
+            }
+        }
+    ],
+    "uuid": "587512BA-F0D0-43FE-9A4A-3E57074A5201"
 }

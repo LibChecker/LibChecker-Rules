@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LeakCanary",
+                "dev_team": "Square",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "LeakCanary 是适用于 Android 的内存泄漏检测库。",
+                "source_link": "https://square.github.io/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LeakCanary",
+                "dev_team": "Square",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "LeakCanary 是适用于 Android 的内存泄漏检测库。",
+                "source_link": "https://square.github.io/"
+            }
+        }
+    ],
+    "uuid": "07BCD6B3-C777-4763-9D3F-8821DD843828"
+}

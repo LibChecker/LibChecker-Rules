@@ -1,8 +1,29 @@
 {
-    "label": "AntiFakerAndroidChecker",
-    "team": "happylishang",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "Android 模拟器检测，检测 Android 模拟器，作为可信 DeviceID，应对防刷需求等。",
-    "relativeUrl": "https://github.com/happylishang/AntiFakerAndroidChecker"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AntiFakerAndroidChecker",
+                "dev_team": "happylishang",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "Android 模拟器检测，检测 Android 模拟器，作为可信 DeviceID，应对防刷需求等。",
+                "source_link": "https://github.com/happylishang/AntiFakerAndroidChecker"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AntiFakerAndroidChecker",
+                "dev_team": "happylishang",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "Android 模拟器检测，检测 Android 模拟器，作为可信 DeviceID，应对防刷需求等。",
+                "source_link": "https://github.com/happylishang/AntiFakerAndroidChecker"
+            }
+        }
+    ],
+    "uuid": "F81DC466-2845-422B-AD4F-29ED68FF6B61"
 }

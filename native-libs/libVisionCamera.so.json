@@ -1,8 +1,29 @@
 {
-    "label": "React Native Vision Camera",
-    "team": "mrousavy",
-    "iconUrl": "",
-    "contributors": ["mrousavy"],
-    "description": "VisionCamera is a powerful Camera library React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
-    "relativeUrl": "https://github.com/mrousavy/react-native-vision-camera"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "React Native Vision Camera",
+                "dev_team": "mrousavy",
+                "rule_contributors": [
+                    "mrousavy"
+                ],
+                "description": "VisionCamera is a powerful Camera library React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
+                "source_link": "https://github.com/mrousavy/react-native-vision-camera"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "React Native Vision Camera",
+                "dev_team": "mrousavy",
+                "rule_contributors": [
+                    "mrousavy"
+                ],
+                "description": "VisionCamera is a powerful Camera library React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
+                "source_link": "https://github.com/mrousavy/react-native-vision-camera"
+            }
+        }
+    ],
+    "uuid": "53E1B4D6-5346-409E-B810-4742C3BC7FF6"
 }

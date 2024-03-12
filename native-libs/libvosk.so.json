@@ -1,8 +1,29 @@
 {
-    "label": "Vosk",
-    "team": "alphacephei",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node.",
-    "relativeUrl": "https://github.com/alphacep/vosk-api"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Vosk",
+                "dev_team": "alphacephei",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node.",
+                "source_link": "https://github.com/alphacep/vosk-api"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Vosk",
+                "dev_team": "alphacephei",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node.",
+                "source_link": "https://github.com/alphacep/vosk-api"
+            }
+        }
+    ],
+    "uuid": "9A10FC06-0C22-47D2-A473-A6E8BC254952"
 }

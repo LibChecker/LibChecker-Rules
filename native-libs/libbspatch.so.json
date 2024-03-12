@@ -1,8 +1,29 @@
 {
-    "label": "bspatch",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "bspatch library for applying delta patches.",
-    "relativeUrl": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/master/libbspatch.pc"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "bspatch",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "bspatch library for applying delta patches.",
+                "source_link": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/master/libbspatch.pc"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "bspatch",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "bspatch library for applying delta patches.",
+                "source_link": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/master/libbspatch.pc"
+            }
+        }
+    ],
+    "uuid": "FFA204C8-030B-4C4E-ABAA-5CC5376CF23D"
 }

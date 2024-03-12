@@ -1,8 +1,29 @@
 {
-    "label": "iconv",
-    "team": "GNU",
-    "iconUrl": "",
-    "contributors": ["kotori2"],
-    "description": "iconv 是一个计算机程序以及一套应用程序编程接口的名称。它的作用是在多种国际编码格式之间进行文本内码的转换。",
-    "relativeUrl": "https://www.gnu.org/software/libiconv/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "iconv",
+                "dev_team": "GNU",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "iconv 是一个计算机程序以及一套应用程序编程接口的名称。它的作用是在多种国际编码格式之间进行文本内码的转换。",
+                "source_link": "https://www.gnu.org/software/libiconv/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "iconv",
+                "dev_team": "GNU",
+                "rule_contributors": [
+                    "kotori2"
+                ],
+                "description": "iconv 是一个计算机程序以及一套应用程序编程接口的名称。它的作用是在多种国际编码格式之间进行文本内码的转换。",
+                "source_link": "https://www.gnu.org/software/libiconv/"
+            }
+        }
+    ],
+    "uuid": "F02F9528-C4CD-4199-BB23-BFA960209D4D"
 }

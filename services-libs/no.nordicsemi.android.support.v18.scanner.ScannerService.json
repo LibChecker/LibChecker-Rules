@@ -1,8 +1,0 @@
-{
-    "label": "Android BLE Scanner Compat library",
-    "team": "NordicSemiconductor",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Scanner Compat 库解决了在 Android 上扫描 BLE 设备的问题。",
-    "relativeUrl": "https://github.com/NordicSemiconductor/Android-Scanner-Compat-Library"
-}

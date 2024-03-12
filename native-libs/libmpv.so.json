@@ -1,8 +1,29 @@
 {
-    "label": "LibMpv",
-    "team": "Mpv",
-    "iconUrl": "",
-    "contributors": ["MarkChan0225"],
-    "description": "mpv 是一个免费的命令行媒体播放器。 它支持多种媒体文件格式、音频和视频编解码器以及字幕类型。",
-    "relativeUrl": "https://mpv.io/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LibMpv",
+                "dev_team": "Mpv",
+                "rule_contributors": [
+                    "MarkChan0225"
+                ],
+                "description": "mpv 是一个免费的命令行媒体播放器。 它支持多种媒体文件格式、音频和视频编解码器以及字幕类型。",
+                "source_link": "https://mpv.io/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibMpv",
+                "dev_team": "Mpv",
+                "rule_contributors": [
+                    "MarkChan0225"
+                ],
+                "description": "mpv 是一个免费的命令行媒体播放器。 它支持多种媒体文件格式、音频和视频编解码器以及字幕类型。",
+                "source_link": "https://mpv.io/"
+            }
+        }
+    ],
+    "uuid": "3D48CEEF-8233-421E-85E9-6943B0CCB2EA"
 }

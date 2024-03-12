@@ -1,8 +1,31 @@
 {
-    "label": "libYUV",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "d1y"],
-    "description": "libYUV 是 Google 开源的 yuv 图像处理库，实现对各种 yuv 数据之间的转换，包括数据转换，裁剪，缩放，旋转。",
-    "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libYUV",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe",
+                    "d1y"
+                ],
+                "description": "libYUV 是 Google 开源的 yuv 图像处理库，实现对各种 yuv 数据之间的转换，包括数据转换，裁剪，缩放，旋转。",
+                "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libYUV",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe",
+                    "d1y"
+                ],
+                "description": "libYUV 是 Google 开源的 yuv 图像处理库，实现对各种 yuv 数据之间的转换，包括数据转换，裁剪，缩放，旋转。",
+                "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+            }
+        }
+    ],
+    "uuid": "621584E6-9D95-4B4A-8443-B7B6E1E64572"
 }

@@ -1,8 +1,31 @@
 {
-    "label": "腾讯移动分析",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["zxwpm", "Absinthe"],
-    "description": "MTA 为您的应用（APP、H5和小程序）提供实时数据统计分析服务，监控版本质量、渠道状况、用户画像属性及用户细分行为，通过数据可视化展现，协助产品、运营和市场决策。",
-    "relativeUrl": "https://mta.qq.com/docs/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯移动分析",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "zxwpm",
+                    "Absinthe"
+                ],
+                "description": "MTA 为您的应用（APP、H5和小程序）提供实时数据统计分析服务，监控版本质量、渠道状况、用户画像属性及用户细分行为，通过数据可视化展现，协助产品、运营和市场决策。",
+                "source_link": "https://mta.qq.com/docs/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯移动分析",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "zxwpm",
+                    "Absinthe"
+                ],
+                "description": "MTA 为您的应用（APP、H5和小程序）提供实时数据统计分析服务，监控版本质量、渠道状况、用户画像属性及用户细分行为，通过数据可视化展现，协助产品、运营和市场决策。",
+                "source_link": "https://mta.qq.com/docs/"
+            }
+        }
+    ],
+    "uuid": "346F3D3B-688D-4E5C-9A37-576CD70BDB0D"
 }

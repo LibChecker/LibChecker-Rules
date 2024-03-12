@@ -1,8 +1,29 @@
 {
-    "label": "cocos2d-x",
-    "team": "cocos2d",
-    "iconUrl": "",
-    "contributors": ["09277632"],
-    "description": "Cocos2d-x 是 MIT 许可证下发布的一款功能强大的开源游戏引擎。允许开发人员使用 C++、Javascript 及 Lua 三种语言来进行游戏开发。 支持所有常见平台，包括 iOS、Android、Windows、macOS、Linux。",
-    "relativeUrl": "https://github.com/cocos2d/cocos2d-x"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "cocos2d-x",
+                "dev_team": "cocos2d",
+                "rule_contributors": [
+                    "09277632"
+                ],
+                "description": "Cocos2d-x 是 MIT 许可证下发布的一款功能强大的开源游戏引擎。允许开发人员使用 C++、Javascript 及 Lua 三种语言来进行游戏开发。 支持所有常见平台，包括 iOS、Android、Windows、macOS、Linux。",
+                "source_link": "https://github.com/cocos2d/cocos2d-x"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "cocos2d-x",
+                "dev_team": "cocos2d",
+                "rule_contributors": [
+                    "09277632"
+                ],
+                "description": "Cocos2d-x 是 MIT 许可证下发布的一款功能强大的开源游戏引擎。允许开发人员使用 C++、Javascript 及 Lua 三种语言来进行游戏开发。 支持所有常见平台，包括 iOS、Android、Windows、macOS、Linux。",
+                "source_link": "https://github.com/cocos2d/cocos2d-x"
+            }
+        }
+    ],
+    "uuid": "F53F4149-0DFA-4CD1-A5A0-6B6112332B63"
 }

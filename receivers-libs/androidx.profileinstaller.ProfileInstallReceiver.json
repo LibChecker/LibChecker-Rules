@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack ProfileInstaller",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "让库能够提前预填充要由 ART 读取的编译轨迹。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/profileinstaller"
-}

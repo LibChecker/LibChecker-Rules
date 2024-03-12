@@ -1,8 +1,29 @@
 {
-    "label": "腾讯御安全",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["wwxghh"],
-    "description": "腾讯御安全专注于为个人或企业移动应用开发者，提供全面的应用安全服务。通过对移动应用技术的持续研究，腾讯在移动应用安全领域积累了深厚的开发经验与技术，拥有强大的安全技术团队和丰富的安全数据资源库。",
-    "relativeUrl": "https://cloud.tencent.com/product/ms"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "腾讯御安全",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "wwxghh"
+                ],
+                "description": "腾讯御安全专注于为个人或企业移动应用开发者，提供全面的应用安全服务。通过对移动应用技术的持续研究，腾讯在移动应用安全领域积累了深厚的开发经验与技术，拥有强大的安全技术团队和丰富的安全数据资源库。",
+                "source_link": "https://cloud.tencent.com/product/ms"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯御安全",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "wwxghh"
+                ],
+                "description": "腾讯御安全专注于为个人或企业移动应用开发者，提供全面的应用安全服务。通过对移动应用技术的持续研究，腾讯在移动应用安全领域积累了深厚的开发经验与技术，拥有强大的安全技术团队和丰富的安全数据资源库。",
+                "source_link": "https://cloud.tencent.com/product/ms"
+            }
+        }
+    ],
+    "uuid": "9A3FA509-5843-4BDF-9811-20D641484267"
 }

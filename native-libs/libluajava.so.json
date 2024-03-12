@@ -1,8 +1,29 @@
 {
-    "label": "AndroLua",
-    "team": "mkottman",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "AndroLua 是基于 LuaJava 开发的安卓平台轻量级脚本编程语言工具，既具有 Lua 简洁优雅的特质，又支持绝大部分安卓 API，可以使你在手机上快速编写小型应用。",
-    "relativeUrl": "https://github.com/mkottman/AndroLua/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "AndroLua",
+                "dev_team": "mkottman",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "AndroLua 是基于 LuaJava 开发的安卓平台轻量级脚本编程语言工具，既具有 Lua 简洁优雅的特质，又支持绝大部分安卓 API，可以使你在手机上快速编写小型应用。",
+                "source_link": "https://github.com/mkottman/AndroLua/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndroLua",
+                "dev_team": "mkottman",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "AndroLua 是基于 LuaJava 开发的安卓平台轻量级脚本编程语言工具，既具有 Lua 简洁优雅的特质，又支持绝大部分安卓 API，可以使你在手机上快速编写小型应用。",
+                "source_link": "https://github.com/mkottman/AndroLua/"
+            }
+        }
+    ],
+    "uuid": "52E43EAA-1603-443A-8DFC-2B8C35C69BC8"
 }

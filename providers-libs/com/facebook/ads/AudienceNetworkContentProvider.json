@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Audience Network",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "通过 Facebook 广告使您通过移动媒体资源获利",
+                "source_link": "https://developers.facebook.com/products/audience-network/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Audience Network",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "通过 Facebook 广告使您通过移动媒体资源获利",
+                "source_link": "https://developers.facebook.com/products/audience-network/"
+            }
+        }
+    ],
+    "uuid": "A275EB7F-4451-4E4D-A879-6F80511AD7F5"
+}

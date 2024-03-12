@@ -1,8 +1,29 @@
 {
-    "label": "HUAWEI Ads Kit",
-    "team": "Huawei",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "广告服务（Ads Kit）依托华为终端平台与数据能力为您提供流量变现服务，帮助您解决流量变现的难题；同时为广告主提供广告服务，配合华为终端平台向用户提供个性化的营销活动或商业广告。",
-    "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HUAWEI Ads Kit",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "广告服务（Ads Kit）依托华为终端平台与数据能力为您提供流量变现服务，帮助您解决流量变现的难题；同时为广告主提供广告服务，配合华为终端平台向用户提供个性化的营销活动或商业广告。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HUAWEI Ads Kit",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "广告服务（Ads Kit）依托华为终端平台与数据能力为您提供流量变现服务，帮助您解决流量变现的难题；同时为广告主提供广告服务，配合华为终端平台向用户提供个性化的营销活动或商业广告。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805"
+            }
+        }
+    ],
+    "uuid": "14A524DE-4B4E-47CF-BB77-37E9BCD5FAEA"
 }

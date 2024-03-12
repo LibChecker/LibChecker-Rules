@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Android Beacon Library",
+                "dev_team": "AltBeacon",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "An Android library providing APIs to interact with beacons.",
+                "source_link": "https://github.com/AltBeacon/android-beacon-library"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Android Beacon Library",
+                "dev_team": "AltBeacon",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "An Android library providing APIs to interact with beacons.",
+                "source_link": "https://github.com/AltBeacon/android-beacon-library"
+            }
+        }
+    ],
+    "uuid": "CD33B7D3-71A4-45F9-89E5-619B033ACD16"
+}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Lifecycle",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "生命周期感知型组件可执行操作来响应另一个组件（如 Activity 和 Fragment）的生命周期状态的变化。这些组件有助于您写出更有条理且往往更精简的代码，这样的代码更易于维护。",
+                "source_link": "https://developer.android.com/topic/libraries/architecture/lifecycle/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Lifecycle",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "生命周期感知型组件可执行操作来响应另一个组件（如 Activity 和 Fragment）的生命周期状态的变化。这些组件有助于您写出更有条理且往往更精简的代码，这样的代码更易于维护。",
+                "source_link": "https://developer.android.com/topic/libraries/architecture/lifecycle/"
+            }
+        }
+    ],
+    "uuid": "1987147A-53F5-4C2B-8913-C56CF3C84BA6"
+}

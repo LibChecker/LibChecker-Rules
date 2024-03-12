@@ -1,8 +1,0 @@
-{
-    "label": "Google Cast",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "使用 Google Cast SDK，您可以扩展 Android，iOS 或 Chrome 应用，以将其流式视频和音频定向到电视或声音系统。 您的应用程序成为播放，暂停，搜索，倒带，停止和控制媒体的遥控器。",
-    "relativeUrl": "https://developers.google.com/cast/"
-}

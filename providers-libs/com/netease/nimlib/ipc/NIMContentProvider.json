@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "网易云通信 SDK",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "IM SDK 是网易云通信其他能力（实时语音视频、互动白板等）的基础，本节讲述 IM SDK 的集成步骤也将其他能力 SDK 的集成步骤融合起来，开发者可以根据实际业务需要选择接入的类库。",
+                "source_link": "https://dev.yunxin.163.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "网易云通信 SDK",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "IM SDK 是网易云通信其他能力（实时语音视频、互动白板等）的基础，本节讲述 IM SDK 的集成步骤也将其他能力 SDK 的集成步骤融合起来，开发者可以根据实际业务需要选择接入的类库。",
+                "source_link": "https://dev.yunxin.163.com/"
+            }
+        }
+    ],
+    "uuid": "442A032D-FA70-46EF-A55C-5AB6B9BF771C"
+}

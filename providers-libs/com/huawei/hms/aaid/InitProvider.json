@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HMS Core AAID",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "华为推送服务开放能力合集提供的匿名设备标识(AAID) 实体类与令牌实体类包。异步方式获取的 AAID 与令牌通过此包中对应的类承载返回。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-References/push-aaid-entity-pkg"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HMS Core AAID",
+                "dev_team": "Huawei",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "华为推送服务开放能力合集提供的匿名设备标识(AAID) 实体类与令牌实体类包。异步方式获取的 AAID 与令牌通过此包中对应的类承载返回。",
+                "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-References/push-aaid-entity-pkg"
+            }
+        }
+    ],
+    "uuid": "51A3D61E-5A43-48A2-B4E3-4A4C2E36393F"
+}

@@ -1,8 +1,29 @@
 {
-    "label": "OpenSSL",
-    "team": "OpenSSL",
-    "iconUrl": "",
-    "contributors": ["culat"],
-    "description": "OpenSSL 是用于传输层安全性协议（TLS）和安全套接字层（SSL）协议的功能强大的，商业级且功能齐全的工具包。",
-    "relativeUrl": "https://github.com/openssl/openssl"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "OpenSSL",
+                "dev_team": "OpenSSL",
+                "rule_contributors": [
+                    "culat"
+                ],
+                "description": "OpenSSL 是用于传输层安全性协议（TLS）和安全套接字层（SSL）协议的功能强大的，商业级且功能齐全的工具包。",
+                "source_link": "https://github.com/openssl/openssl"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OpenSSL",
+                "dev_team": "OpenSSL",
+                "rule_contributors": [
+                    "culat"
+                ],
+                "description": "OpenSSL 是用于传输层安全性协议（TLS）和安全套接字层（SSL）协议的功能强大的，商业级且功能齐全的工具包。",
+                "source_link": "https://github.com/openssl/openssl"
+            }
+        }
+    ],
+    "uuid": "900928FD-B86B-4C72-9FDE-372EDC299B00"
 }

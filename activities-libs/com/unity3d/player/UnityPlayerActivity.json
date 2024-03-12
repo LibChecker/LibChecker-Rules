@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Unity",
+                "dev_team": "Unity Technologies",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Unity 是一款由 Unity Technologies 所研发的跨平台2D / 3D 游戏引擎，可用于开发 Windows、MacOS 及 Linux 平台的单机游戏，PlayStation、XBox、Wii、3DS 和 任天堂Switch 等游戏主机平台的视频游戏，以及 iOS、Android 等移动设备的游戏。",
+                "source_link": "https://docs.unity3d.com/Manual/index.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Unity",
+                "dev_team": "Unity Technologies",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Unity 是一款由 Unity Technologies 所研发的跨平台2D / 3D 游戏引擎，可用于开发 Windows、MacOS 及 Linux 平台的单机游戏，PlayStation、XBox、Wii、3DS 和 任天堂Switch 等游戏主机平台的视频游戏，以及 iOS、Android 等移动设备的游戏。",
+                "source_link": "https://docs.unity3d.com/Manual/index.html"
+            }
+        }
+    ],
+    "uuid": "4622B49D-4ACA-42B3-9FCC-F82D2365B81B"
+}

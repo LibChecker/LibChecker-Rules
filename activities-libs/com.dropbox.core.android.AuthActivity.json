@@ -1,8 +1,0 @@
-{
-    "label": "Dropbox Core SDK for Java",
-    "team": "Dropbox",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "A Java library to access Dropbox's HTTP-based Core API v2. This SDK also supports the older Core API v1, but that support will be removed at some point.",
-    "relativeUrl": "https://github.com/dropbox/dropbox-sdk-java"
-}

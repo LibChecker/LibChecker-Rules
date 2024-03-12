@@ -1,8 +1,29 @@
 {
-    "label": "离线语音合成",
-    "team": "iFlyTek",
-    "iconUrl": "",
-    "contributors": ["d1y"],
-    "description": "将文字信息转化为声音信息，让应用具备离线语音合成的能力。即让机器像人一样开口说话，给开发者的应用配上“嘴巴”。",
-    "relativeUrl": "https://www.xfyun.cn/service/offline_tts"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "离线语音合成",
+                "dev_team": "iFlyTek",
+                "rule_contributors": [
+                    "d1y"
+                ],
+                "description": "将文字信息转化为声音信息，让应用具备离线语音合成的能力。即让机器像人一样开口说话，给开发者的应用配上“嘴巴”。",
+                "source_link": "https://www.xfyun.cn/service/offline_tts"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "离线语音合成",
+                "dev_team": "iFlyTek",
+                "rule_contributors": [
+                    "d1y"
+                ],
+                "description": "将文字信息转化为声音信息，让应用具备离线语音合成的能力。即让机器像人一样开口说话，给开发者的应用配上“嘴巴”。",
+                "source_link": "https://www.xfyun.cn/service/offline_tts"
+            }
+        }
+    ],
+    "uuid": "AD40CF2D-0585-477C-B774-97D9BB11283D"
 }

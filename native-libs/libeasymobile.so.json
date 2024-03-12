@@ -1,8 +1,29 @@
 {
-    "label": "Easy Mobile",
-    "team": "SgLib Games",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Easy Mobile is a many-in-one Unity package that greatly simplifies the implementation of de facto standard features of mobile games including advertising, in-app purchasing, game service, notification and native mobile functionalities.",
-    "relativeUrl": "https://www.easymobile.sglibgames.com/docs/pro/chapters/getting-started/introduction.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Easy Mobile",
+                "dev_team": "SgLib Games",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Easy Mobile is a many-in-one Unity package that greatly simplifies the implementation of de facto standard features of mobile games including advertising, in-app purchasing, game service, notification and native mobile functionalities.",
+                "source_link": "https://www.easymobile.sglibgames.com/docs/pro/chapters/getting-started/introduction.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Easy Mobile",
+                "dev_team": "SgLib Games",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Easy Mobile is a many-in-one Unity package that greatly simplifies the implementation of de facto standard features of mobile games including advertising, in-app purchasing, game service, notification and native mobile functionalities.",
+                "source_link": "https://www.easymobile.sglibgames.com/docs/pro/chapters/getting-started/introduction.html"
+            }
+        }
+    ],
+    "uuid": "9F8A3FAA-4C0A-4E82-A590-288AD525C796"
 }

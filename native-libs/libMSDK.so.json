@@ -1,8 +1,29 @@
 {
-    "label": "MSDK / MobileGame Software Development Kit",
-    "team": "腾讯互动娱乐",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "MSDK，全称 MobileGame Software Development Kit，是增值服务部为游戏（主要为手游）提供公共组件和服务库的平台，旨在加快游戏接入各公共组件和海外开放平台。",
-    "relativeUrl": "https://docs.msdk.qq.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "MSDK / MobileGame Software Development Kit",
+                "dev_team": "腾讯互动娱乐",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "MSDK，全称 MobileGame Software Development Kit，是增值服务部为游戏（主要为手游）提供公共组件和服务库的平台，旨在加快游戏接入各公共组件和海外开放平台。",
+                "source_link": "https://docs.msdk.qq.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MSDK / MobileGame Software Development Kit",
+                "dev_team": "腾讯互动娱乐",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "MSDK，全称 MobileGame Software Development Kit，是增值服务部为游戏（主要为手游）提供公共组件和服务库的平台，旨在加快游戏接入各公共组件和海外开放平台。",
+                "source_link": "https://docs.msdk.qq.com/"
+            }
+        }
+    ],
+    "uuid": "BD752B15-8E42-41E1-8796-1073F88B4339"
 }

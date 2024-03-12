@@ -1,8 +1,37 @@
 {
-    "label": "FFmpegKit",
-    "team": "arthenica",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶", "Absinthe", "lgc2333", "Super12138", "binx6"],
-    "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, Linux, macOS, tvOS, Flutter and React Native applications.",
-    "relativeUrl": "https://github.com/arthenica/ffmpeg-kit"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FFmpegKit",
+                "dev_team": "arthenica",
+                "rule_contributors": [
+                    "飘落的枫叶",
+                    "Absinthe",
+                    "lgc2333",
+                    "Super12138",
+                    "binx6"
+                ],
+                "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, Linux, macOS, tvOS, Flutter and React Native applications.",
+                "source_link": "https://github.com/arthenica/ffmpeg-kit"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FFmpegKit",
+                "dev_team": "arthenica",
+                "rule_contributors": [
+                    "飘落的枫叶",
+                    "Absinthe",
+                    "lgc2333",
+                    "Super12138",
+                    "binx6"
+                ],
+                "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, Linux, macOS, tvOS, Flutter and React Native applications.",
+                "source_link": "https://github.com/arthenica/ffmpeg-kit"
+            }
+        }
+    ],
+    "uuid": "B9B51F35-0313-4192-9C32-20BAFD83A9CB"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "Mediastreamer2",
-    "team": "Belledonne Communications",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "Mediastreamer2 is a powerful and lightweight streaming engine for voice/video telephony applications.",
-    "relativeUrl": "https://github.com/BelledonneCommunications/mediastreamer2"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Mediastreamer2",
+                "dev_team": "Belledonne Communications",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Mediastreamer2 is a powerful and lightweight streaming engine for voice/video telephony applications.",
+                "source_link": "https://github.com/BelledonneCommunications/mediastreamer2"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Mediastreamer2",
+                "dev_team": "Belledonne Communications",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "Mediastreamer2 is a powerful and lightweight streaming engine for voice/video telephony applications.",
+                "source_link": "https://github.com/BelledonneCommunications/mediastreamer2"
+            }
+        }
+    ],
+    "uuid": "D4705797-EBDB-4B3C-83B5-789C64E1205F"
 }

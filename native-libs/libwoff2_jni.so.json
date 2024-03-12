@@ -1,8 +1,29 @@
 {
-    "label": "Google WOFF2",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["sebastien46"],
-    "description": "WOFF2 compression / decompression algorithm library implemented in C++.",
-    "relativeUrl": "https://github.com/google/woff2"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google WOFF2",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "WOFF2 compression / decompression algorithm library implemented in C++.",
+                "source_link": "https://github.com/google/woff2"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google WOFF2",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "WOFF2 compression / decompression algorithm library implemented in C++.",
+                "source_link": "https://github.com/google/woff2"
+            }
+        }
+    ],
+    "uuid": "FE932D91-3B7A-4F6B-9EEF-EBC9A5607028"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "libusb",
-    "team": "libusb",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "libusb is a C library that provides generic access to USB devices. It is intended to be used by developers to facilitate the production of applications that communicate with USB hardware.",
-    "relativeUrl": "https://github.com/libusb/libusb"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libusb",
+                "dev_team": "libusb",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "libusb is a C library that provides generic access to USB devices. It is intended to be used by developers to facilitate the production of applications that communicate with USB hardware.",
+                "source_link": "https://github.com/libusb/libusb"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libusb",
+                "dev_team": "libusb",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "libusb is a C library that provides generic access to USB devices. It is intended to be used by developers to facilitate the production of applications that communicate with USB hardware.",
+                "source_link": "https://github.com/libusb/libusb"
+            }
+        }
+    ],
+    "uuid": "BD134228-E89E-4B74-A54B-654BCD18C9C1"
 }

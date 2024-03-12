@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "android-crop",
+                "dev_team": "jdamcd",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个基于 AOSP 的代码提供简单图像裁剪 Activity 的 Android 库。",
+                "source_link": "https://github.com/jdamcd/android-crop/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "android-crop",
+                "dev_team": "jdamcd",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "一个基于 AOSP 的代码提供简单图像裁剪 Activity 的 Android 库。",
+                "source_link": "https://github.com/jdamcd/android-crop/"
+            }
+        }
+    ],
+    "uuid": "A0A12107-8560-49B9-A47E-8012BEFC71E1"
+}

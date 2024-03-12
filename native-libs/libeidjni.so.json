@@ -1,8 +1,29 @@
 {
-    "label": "eID SDK",
-    "team": "公安部第三研究所",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "以智能手机的 SE 芯片作为 eID 的安全载体，除了具备国密资质的安全芯片提供的安全保障外，还有 TEE 加强了对用户授权的保护，更有 NFC 通道为传统 eID 打通线上线下功能。",
-    "relativeUrl": "https://eid.cn/useeid/mobile.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "eID SDK",
+                "dev_team": "公安部第三研究所",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "以智能手机的 SE 芯片作为 eID 的安全载体，除了具备国密资质的安全芯片提供的安全保障外，还有 TEE 加强了对用户授权的保护，更有 NFC 通道为传统 eID 打通线上线下功能。",
+                "source_link": "https://eid.cn/useeid/mobile.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "eID SDK",
+                "dev_team": "公安部第三研究所",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "以智能手机的 SE 芯片作为 eID 的安全载体，除了具备国密资质的安全芯片提供的安全保障外，还有 TEE 加强了对用户授权的保护，更有 NFC 通道为传统 eID 打通线上线下功能。",
+                "source_link": "https://eid.cn/useeid/mobile.html"
+            }
+        }
+    ],
+    "uuid": "61344149-BA7D-4021-A3F1-81A89CE11365"
 }

@@ -1,8 +1,29 @@
 {
-    "label": "DuMix",
-    "team": "Baidu",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "DuMix AR 平台是百度 AR 推出的 AR 技术产品化应用服务，帮助开发者快速集成 SDK，高效制作并分发 AR 内容。它包括 AR SDK、内容制作工具、云端内容平台和内容分发服务，组成了一站式 AR 开发集成解决方案。",
-    "relativeUrl": "https://github.com/baidu/ar-sdk/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "DuMix",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "DuMix AR 平台是百度 AR 推出的 AR 技术产品化应用服务，帮助开发者快速集成 SDK，高效制作并分发 AR 内容。它包括 AR SDK、内容制作工具、云端内容平台和内容分发服务，组成了一站式 AR 开发集成解决方案。",
+                "source_link": "https://github.com/baidu/ar-sdk/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DuMix",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "DuMix AR 平台是百度 AR 推出的 AR 技术产品化应用服务，帮助开发者快速集成 SDK，高效制作并分发 AR 内容。它包括 AR SDK、内容制作工具、云端内容平台和内容分发服务，组成了一站式 AR 开发集成解决方案。",
+                "source_link": "https://github.com/baidu/ar-sdk/"
+            }
+        }
+    ],
+    "uuid": "0D242852-2EAC-4C65-B912-D50B2C85EC6D"
 }

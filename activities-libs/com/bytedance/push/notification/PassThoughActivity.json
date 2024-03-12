@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "GMP Push SDK",
+                "dev_team": "Volcengine",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "GMP Push SDK 是 GMP 提供端触达能力的 SDK。",
+                "source_link": "https://www.volcengine.com/docs/6315/164573"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "GMP Push SDK",
+                "dev_team": "Volcengine",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "GMP Push SDK 是 GMP 提供端触达能力的 SDK。",
+                "source_link": "https://www.volcengine.com/docs/6315/164573"
+            }
+        }
+    ],
+    "uuid": "A42C82E8-79FB-4D79-BBDA-E0C4AC85D025"
+}

@@ -1,8 +1,31 @@
 {
-    "label": "FMOD",
-    "team": "Firelight",
-    "iconUrl": "",
-    "contributors": ["lgc2333", "d1y"],
-    "description": "FMOD is the solution for adaptive audio.",
-    "relativeUrl": "https://www.fmod.com/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FMOD",
+                "dev_team": "Firelight",
+                "rule_contributors": [
+                    "lgc2333",
+                    "d1y"
+                ],
+                "description": "FMOD is the solution for adaptive audio.",
+                "source_link": "https://www.fmod.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FMOD",
+                "dev_team": "Firelight",
+                "rule_contributors": [
+                    "lgc2333",
+                    "d1y"
+                ],
+                "description": "FMOD is the solution for adaptive audio.",
+                "source_link": "https://www.fmod.com/"
+            }
+        }
+    ],
+    "uuid": "99488042-9BD2-4A71-845D-C56880285873"
 }

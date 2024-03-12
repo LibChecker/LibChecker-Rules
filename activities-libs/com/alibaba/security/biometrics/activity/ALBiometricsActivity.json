@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "实人认证 SDK",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "基于大数据风险识别及生物特征，面向多场景，提供多样化动态认证服务平台，精准识别并认证当前行为人的身份。",
+                "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?spm=a313e.7629140.0.0.246751c3G9nvDl&treeId=243&articleId=105524&docType=1"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "实人认证 SDK",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "基于大数据风险识别及生物特征，面向多场景，提供多样化动态认证服务平台，精准识别并认证当前行为人的身份。",
+                "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?spm=a313e.7629140.0.0.246751c3G9nvDl&treeId=243&articleId=105524&docType=1"
+            }
+        }
+    ],
+    "uuid": "6350ECA8-45AF-4E86-808C-134880E6C87C"
+}

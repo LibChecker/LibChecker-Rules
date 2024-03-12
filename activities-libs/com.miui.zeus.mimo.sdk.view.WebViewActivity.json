@@ -1,8 +1,0 @@
-{
-    "label": "小米广告 SDK",
-    "team": "Xiaomi",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "小米广告 SDK 提供各种广告形式给客户端集成，应用既可以在 MIUI 系统上运行，也可以在非 MIUI 系统上运行。",
-    "relativeUrl": "https://dev.mi.com/docs/gameentry/%E6%89%8B%E6%9C%BA&pad%E6%B8%B8%E6%88%8F%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3/%E5%B0%8F%E7%B1%B3%E5%B9%BF%E5%91%8ASDK%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/#sdk-android"
-}

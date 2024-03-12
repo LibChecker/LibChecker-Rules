@@ -1,8 +1,0 @@
-{
-    "label": "App Center",
-    "team": "Microsoft",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Visual Studio App Center 将多个通用服务整合到 DevOps 云解决方案中。开发人员使用 App Center 来构建，测试和分发应用程序。部署应用程序后，开发人员可以使用 Analytics 和 Diagnostics 服务监视应用程序的状态和使用情况。",
-    "relativeUrl": "https://docs.microsoft.com/appcenter/"
-}

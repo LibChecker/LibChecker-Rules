@@ -1,8 +1,0 @@
-{
-    "label": "百川电商 SDK - 授权",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "用户可将某些功能/能力同意给媒体使用，媒体可通过获取用户的授权，访问页面/API 等数据。",
-    "relativeUrl": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
-}

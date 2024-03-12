@@ -1,8 +1,31 @@
 {
-    "label": "libavif",
-    "team": "Alliance for Open Media",
-    "iconUrl": "",
-    "contributors": ["yfdyh000", "HenryWu01"],
-    "description": "Library for encoding and decoding .avif files",
-    "relativeUrl": "https://github.com/AOMediaCodec/libavif"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libavif",
+                "dev_team": "Alliance for Open Media",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "HenryWu01"
+                ],
+                "description": "Library for encoding and decoding .avif files",
+                "source_link": "https://github.com/AOMediaCodec/libavif"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libavif",
+                "dev_team": "Alliance for Open Media",
+                "rule_contributors": [
+                    "yfdyh000",
+                    "HenryWu01"
+                ],
+                "description": "Library for encoding and decoding .avif files",
+                "source_link": "https://github.com/AOMediaCodec/libavif"
+            }
+        }
+    ],
+    "uuid": "195E06E2-6D1D-4322-8BA6-38D6E9522533"
 }

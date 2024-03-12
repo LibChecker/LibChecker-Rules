@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "极光联盟",
+                "dev_team": "Aurora 极光",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "极光联盟涵盖效果广告、智能触达、VaaS、互动广告、互动游戏等五大服务，助力开发者提高用户活跃时长、增加用户粘性，提升用户价值。为开发者提供优质的广告变现服务！",
+                "source_link": "https://docs.jiguang.cn/jad/guideline/intro"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "极光联盟",
+                "dev_team": "Aurora 极光",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "极光联盟涵盖效果广告、智能触达、VaaS、互动广告、互动游戏等五大服务，助力开发者提高用户活跃时长、增加用户粘性，提升用户价值。为开发者提供优质的广告变现服务！",
+                "source_link": "https://docs.jiguang.cn/jad/guideline/intro"
+            }
+        }
+    ],
+    "uuid": "01DC5EBE-E044-4D3C-9DF1-63DE842BFCAD"
+}

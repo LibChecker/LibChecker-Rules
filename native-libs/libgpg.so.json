@@ -1,8 +1,29 @@
 {
-    "label": "Google Play Games plugin for Unity",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "使游戏开发人员能在使用 Unity® 编写的游戏中集成 Google Play Games API。",
-    "relativeUrl": "https://developers.google.com/games/services/integration"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Google Play Games plugin for Unity",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "使游戏开发人员能在使用 Unity® 编写的游戏中集成 Google Play Games API。",
+                "source_link": "https://developers.google.com/games/services/integration"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Play Games plugin for Unity",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "使游戏开发人员能在使用 Unity® 编写的游戏中集成 Google Play Games API。",
+                "source_link": "https://developers.google.com/games/services/integration"
+            }
+        }
+    ],
+    "uuid": "BD48F750-82F6-45D1-B5E3-6BF428DD4A65"
 }

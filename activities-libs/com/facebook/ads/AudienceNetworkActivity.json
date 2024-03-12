@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Audience Network SDK",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "The Audience Network allows you to monetize your Android apps with Facebook ads. An interstitial ad is a full screen ad that you can show in your app. Typically interstitial ads are shown when there is a transition in your app. For example -- after finishing a level in a game or after loading a story in a news app.",
+                "source_link": "https://developers.facebook.com/docs/audience-network/setting-up/ad-setup/android/interstitial/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Audience Network SDK",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "The Audience Network allows you to monetize your Android apps with Facebook ads. An interstitial ad is a full screen ad that you can show in your app. Typically interstitial ads are shown when there is a transition in your app. For example -- after finishing a level in a game or after loading a story in a news app.",
+                "source_link": "https://developers.facebook.com/docs/audience-network/setting-up/ad-setup/android/interstitial/"
+            }
+        }
+    ],
+    "uuid": "7A1FA075-C2BB-4ECE-BB66-392D016F86C5"
+}

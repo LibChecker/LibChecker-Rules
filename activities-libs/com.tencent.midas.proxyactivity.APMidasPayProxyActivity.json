@@ -1,8 +1,0 @@
-{
-    "label": "米大师",
-    "team": "Tencent",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "米大师（Midas）为腾讯官方唯一虚拟支付平台。原生支持 Q 币、微信支付、QQ 钱包、QQ 卡等支付渠道。",
-    "relativeUrl": "https://wiki.midas.qq.com/index/index/1/"
-}

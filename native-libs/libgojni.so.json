@@ -1,8 +1,29 @@
 {
-    "label": "Golang",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["YandexStudio"],
-    "description": "Go 是一种开源编程语言，可轻松构建简单，可靠和高效的软件。",
-    "relativeUrl": "https://github.com/golang/mobile"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Golang",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "YandexStudio"
+                ],
+                "description": "Go 是一种开源编程语言，可轻松构建简单，可靠和高效的软件。",
+                "source_link": "https://github.com/golang/mobile"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Golang",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "YandexStudio"
+                ],
+                "description": "Go 是一种开源编程语言，可轻松构建简单，可靠和高效的软件。",
+                "source_link": "https://github.com/golang/mobile"
+            }
+        }
+    ],
+    "uuid": "C50203D1-FEE4-430D-B944-C34E25CBDC28"
 }

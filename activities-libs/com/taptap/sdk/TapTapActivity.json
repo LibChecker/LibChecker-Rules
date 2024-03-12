@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TapTap 开发者服务",
+                "dev_team": "TapTap",
+                "rule_contributors": [
+                    "Xiao-0417"
+                ],
+                "description": "TapTap 开发者服务（TapTap Developer Services，简称 TDS 服务）旨在帮助开发者降低游戏研发、运营维护等阶段投入的精力和成本。TDS 整合了各项服务，让开发者能够聚焦在游戏核心乐趣的创造上，创作更优秀的游戏，进而促进游戏行业生态的良性循环，最终让开发者与玩家双双受益。",
+                "source_link": "https://developer.taptap.cn/docs/sdk/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TapTap 开发者服务",
+                "dev_team": "TapTap",
+                "rule_contributors": [
+                    "Xiao-0417"
+                ],
+                "description": "TapTap 开发者服务（TapTap Developer Services，简称 TDS 服务）旨在帮助开发者降低游戏研发、运营维护等阶段投入的精力和成本。TDS 整合了各项服务，让开发者能够聚焦在游戏核心乐趣的创造上，创作更优秀的游戏，进而促进游戏行业生态的良性循环，最终让开发者与玩家双双受益。",
+                "source_link": "https://developer.taptap.cn/docs/sdk/"
+            }
+        }
+    ],
+    "uuid": "8F9AC002-736C-498F-B8E8-D8A6ACC1E722"
+}

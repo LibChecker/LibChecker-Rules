@@ -1,8 +1,29 @@
 {
-    "label": "TagLib",
-    "team": "TagLib",
-    "iconUrl": "",
-    "contributors": ["MarkChan0225"],
-    "description": "TagLib 是一个用于读取和编辑多种流行音频格式的元数据的库。 目前，它支持 MP3 文件的 ID3v1 和 ID3v2，FLAC、MPC、Speex、WavPack、TrueAudio、WAV、AIFF、MP4 和 ASF 文件中的 Ogg Vorbis 注释和 ID3 标签和 Vorbis 注释。",
-    "relativeUrl": "https://taglib.org/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TagLib",
+                "dev_team": "TagLib",
+                "rule_contributors": [
+                    "MarkChan0225"
+                ],
+                "description": "TagLib 是一个用于读取和编辑多种流行音频格式的元数据的库。 目前，它支持 MP3 文件的 ID3v1 和 ID3v2，FLAC、MPC、Speex、WavPack、TrueAudio、WAV、AIFF、MP4 和 ASF 文件中的 Ogg Vorbis 注释和 ID3 标签和 Vorbis 注释。",
+                "source_link": "https://taglib.org/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TagLib",
+                "dev_team": "TagLib",
+                "rule_contributors": [
+                    "MarkChan0225"
+                ],
+                "description": "TagLib 是一个用于读取和编辑多种流行音频格式的元数据的库。 目前，它支持 MP3 文件的 ID3v1 和 ID3v2，FLAC、MPC、Speex、WavPack、TrueAudio、WAV、AIFF、MP4 和 ASF 文件中的 Ogg Vorbis 注释和 ID3 标签和 Vorbis 注释。",
+                "source_link": "https://taglib.org/"
+            }
+        }
+    ],
+    "uuid": "131D74BC-CCCA-47A2-AA6E-9B46E58AD38C"
 }

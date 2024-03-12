@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack Slice",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "在应用外显示模板化界面元素。",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/slice"
-}

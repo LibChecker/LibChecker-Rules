@@ -1,8 +1,29 @@
 {
-    "label": "React Native Skia",
-    "team": "Shopify",
-    "iconUrl": "",
-    "contributors": ["Anormi"],
-    "description": "High-performance 2d Graphics for React Native using Skia.",
-    "relativeUrl": "https://github.com/Shopify/react-native-skia"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "React Native Skia",
+                "dev_team": "Shopify",
+                "rule_contributors": [
+                    "Anormi"
+                ],
+                "description": "High-performance 2d Graphics for React Native using Skia.",
+                "source_link": "https://github.com/Shopify/react-native-skia"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "React Native Skia",
+                "dev_team": "Shopify",
+                "rule_contributors": [
+                    "Anormi"
+                ],
+                "description": "High-performance 2d Graphics for React Native using Skia.",
+                "source_link": "https://github.com/Shopify/react-native-skia"
+            }
+        }
+    ],
+    "uuid": "FEA06702-E5FF-404D-A1E8-7998AD8BA7F0"
 }

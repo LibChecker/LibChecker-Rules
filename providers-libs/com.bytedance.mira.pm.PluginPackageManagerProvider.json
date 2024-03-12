@@ -1,8 +1,0 @@
-{
-    "label": "Mira",
-    "team": "ByteDance",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "插件服务包括插件核心库、插件管理库、插件构建脚本、插件管理平台 4 个功能模块，是一套完整的插件闭环服务。具有功能全面、稳定性强、使用简单等特点，可以帮助您实现业务热更新、降低首包体积、节省流量、模块化开发。",
-    "relativeUrl": "https://www.volcengine.com/docs/6365/67052"
-}

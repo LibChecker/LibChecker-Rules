@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "ReToast",
+                "dev_team": "ryuunoakaihitomi",
+                "rule_contributors": [
+                    "ryuunoakaihitomi"
+                ],
+                "description": "这个 Android 库用于以最简单的方式修复 android.widget.Toastm的一些严重的 bug。",
+                "source_link": "https://github.com/ryuunoakaihitomi/ReToast"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ReToast",
+                "dev_team": "ryuunoakaihitomi",
+                "rule_contributors": [
+                    "ryuunoakaihitomi"
+                ],
+                "description": "这个 Android 库用于以最简单的方式修复 android.widget.Toastm的一些严重的 bug。",
+                "source_link": "https://github.com/ryuunoakaihitomi/ReToast"
+            }
+        }
+    ],
+    "uuid": "F2614AC3-328A-496D-B15A-948965F76E7C"
+}

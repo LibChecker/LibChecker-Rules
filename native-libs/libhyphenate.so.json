@@ -1,8 +1,31 @@
 {
-    "label": "环信 IM",
-    "team": "环信",
-    "iconUrl": "",
-    "contributors": ["YandexStudio", "ArthurCyy"],
-    "description": "环信即时通讯云为开发者提供基于移动互联网的即时通讯能力，如单聊、群聊、发语音、发图片、发位置、实时音频、实时视频等，让开发者摆脱繁重的移动 IM 通讯底层开发，24 小时即可让 App 拥有稳定健壮的内置 IM 能力。",
-    "relativeUrl": "http://docs-im.easemob.com/im/android/sdk/import"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "环信 IM",
+                "dev_team": "环信",
+                "rule_contributors": [
+                    "YandexStudio",
+                    "ArthurCyy"
+                ],
+                "description": "环信即时通讯云为开发者提供基于移动互联网的即时通讯能力，如单聊、群聊、发语音、发图片、发位置、实时音频、实时视频等，让开发者摆脱繁重的移动 IM 通讯底层开发，24 小时即可让 App 拥有稳定健壮的内置 IM 能力。",
+                "source_link": "http://docs-im.easemob.com/im/android/sdk/import"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "环信 IM",
+                "dev_team": "环信",
+                "rule_contributors": [
+                    "YandexStudio",
+                    "ArthurCyy"
+                ],
+                "description": "环信即时通讯云为开发者提供基于移动互联网的即时通讯能力，如单聊、群聊、发语音、发图片、发位置、实时音频、实时视频等，让开发者摆脱繁重的移动 IM 通讯底层开发，24 小时即可让 App 拥有稳定健壮的内置 IM 能力。",
+                "source_link": "http://docs-im.easemob.com/im/android/sdk/import"
+            }
+        }
+    ],
+    "uuid": "8B333B52-3E1E-4638-8223-5B2036031CAB"
 }

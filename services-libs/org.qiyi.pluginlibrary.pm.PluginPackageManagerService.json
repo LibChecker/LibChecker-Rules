@@ -1,8 +1,0 @@
-{
-    "label": "Neptune",
-    "team": "iQIYI",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
-    "relativeUrl": "https://github.com/iqiyi/Neptune"
-}

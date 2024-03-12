@@ -1,8 +1,37 @@
 {
-    "label": "Folly",
-    "team": "Facebook",
-    "iconUrl": "",
-    "contributors": ["su1216", "Absinthe", "ArthurCyy", "Anormi", "crrashh1542"],
-    "description": "An open-source C++ library developed and used at Facebook.",
-    "relativeUrl": "https://github.com/facebook/folly"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Folly",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "su1216",
+                    "Absinthe",
+                    "ArthurCyy",
+                    "Anormi",
+                    "crrashh1542"
+                ],
+                "description": "An open-source C++ library developed and used at Facebook.",
+                "source_link": "https://github.com/facebook/folly"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Folly",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "su1216",
+                    "Absinthe",
+                    "ArthurCyy",
+                    "Anormi",
+                    "crrashh1542"
+                ],
+                "description": "An open-source C++ library developed and used at Facebook.",
+                "source_link": "https://github.com/facebook/folly"
+            }
+        }
+    ],
+    "uuid": "8D914C0F-1A8B-439D-A889-98CFED32BF9C"
 }

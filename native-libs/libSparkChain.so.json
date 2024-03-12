@@ -1,8 +1,29 @@
 {
-    "label": "星火认知大模型",
-    "team": "科大讯飞",
-    "iconUrl": "",
-    "contributors": ["dtapps"],
-    "description": "新一代认知智能大模型，拥有跨领域知识和语言理解能力，能够基于自然对话方式理解与执行任务。",
-    "relativeUrl": "https://xinghuo.xfyun.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "星火认知大模型",
+                "dev_team": "科大讯飞",
+                "rule_contributors": [
+                    "dtapps"
+                ],
+                "description": "新一代认知智能大模型，拥有跨领域知识和语言理解能力，能够基于自然对话方式理解与执行任务。",
+                "source_link": "https://xinghuo.xfyun.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "星火认知大模型",
+                "dev_team": "科大讯飞",
+                "rule_contributors": [
+                    "dtapps"
+                ],
+                "description": "新一代认知智能大模型，拥有跨领域知识和语言理解能力，能够基于自然对话方式理解与执行任务。",
+                "source_link": "https://xinghuo.xfyun.cn/"
+            }
+        }
+    ],
+    "uuid": "F0185A7A-5565-42AB-9783-615FB3D4B26F"
 }

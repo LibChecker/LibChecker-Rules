@@ -1,8 +1,29 @@
 {
-    "label": "Quack",
-    "team": "koush",
-    "iconUrl": "",
-    "contributors": ["ag2s20150909"],
-    "description": "Quack provides Java (Android and desktop) bindings to JavaScript engines. Quack supports both the Duktape and QuickJS runtimes.",
-    "relativeUrl": "https://github.com/koush/quack"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Quack",
+                "dev_team": "koush",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "Quack provides Java (Android and desktop) bindings to JavaScript engines. Quack supports both the Duktape and QuickJS runtimes.",
+                "source_link": "https://github.com/koush/quack"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Quack",
+                "dev_team": "koush",
+                "rule_contributors": [
+                    "ag2s20150909"
+                ],
+                "description": "Quack provides Java (Android and desktop) bindings to JavaScript engines. Quack supports both the Duktape and QuickJS runtimes.",
+                "source_link": "https://github.com/koush/quack"
+            }
+        }
+    ],
+    "uuid": "D0778DEA-0123-4E29-AF44-B5E95BDDC786"
 }

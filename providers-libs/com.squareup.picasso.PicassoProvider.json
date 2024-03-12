@@ -1,8 +1,0 @@
-{
-    "label": "Picasso",
-    "team": "Square",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "一个强大的 Android 图片下载缓存库。",
-    "relativeUrl": "https://github.com/square/picasso/"
-}

@@ -1,8 +1,29 @@
 {
-    "label": "Un7zip",
-    "team": "hzy3774",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "A simple library with lzma sdk for 7z extraction.(使用 LZMA SDK 解压 7z 压缩包)",
-    "relativeUrl": "https://github.com/hzy3774/AndroidUn7zip"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Un7zip",
+                "dev_team": "hzy3774",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "A simple library with lzma sdk for 7z extraction.(使用 LZMA SDK 解压 7z 压缩包)",
+                "source_link": "https://github.com/hzy3774/AndroidUn7zip"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Un7zip",
+                "dev_team": "hzy3774",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "A simple library with lzma sdk for 7z extraction.(使用 LZMA SDK 解压 7z 压缩包)",
+                "source_link": "https://github.com/hzy3774/AndroidUn7zip"
+            }
+        }
+    ],
+    "uuid": "671C1791-490F-46E9-B7E6-25795AC91B80"
 }

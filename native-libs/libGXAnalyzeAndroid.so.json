@@ -1,8 +1,29 @@
 {
-    "label": "GaiaX",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "GaiaX 动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案。",
-    "relativeUrl": "https://github.com/alibaba/GaiaX"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "GaiaX",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "GaiaX 动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案。",
+                "source_link": "https://github.com/alibaba/GaiaX"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "GaiaX",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "GaiaX 动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案。",
+                "source_link": "https://github.com/alibaba/GaiaX"
+            }
+        }
+    ],
+    "uuid": "A557C181-6B4E-4528-BC3C-EC1263D03E91"
 }

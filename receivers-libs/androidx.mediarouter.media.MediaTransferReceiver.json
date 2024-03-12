@@ -1,8 +1,0 @@
-{
-    "label": "Jetpack MediaRouter",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Enable media display and playback on remote receiver devices using a common user interface.",
-    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/mediarouter"
-}

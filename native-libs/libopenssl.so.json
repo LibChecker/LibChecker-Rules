@@ -1,8 +1,29 @@
 {
-    "label": "OpenSSL",
-    "team": "OpenSSL",
-    "iconUrl": "",
-    "contributors": ["飘落的枫叶"],
-    "description": "OpenSSL 是用于传输层安全性（TLS）协议的健壮的，商业级，功能齐全的开源工具包。协议实现基于完整功能的通用密码库，该库也可以独立使用。",
-    "relativeUrl": "https://github.com/openssl/openssl"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "OpenSSL",
+                "dev_team": "OpenSSL",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "OpenSSL 是用于传输层安全性（TLS）协议的健壮的，商业级，功能齐全的开源工具包。协议实现基于完整功能的通用密码库，该库也可以独立使用。",
+                "source_link": "https://github.com/openssl/openssl"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OpenSSL",
+                "dev_team": "OpenSSL",
+                "rule_contributors": [
+                    "飘落的枫叶"
+                ],
+                "description": "OpenSSL 是用于传输层安全性（TLS）协议的健壮的，商业级，功能齐全的开源工具包。协议实现基于完整功能的通用密码库，该库也可以独立使用。",
+                "source_link": "https://github.com/openssl/openssl"
+            }
+        }
+    ],
+    "uuid": "900928FD-B86B-4C72-9FDE-372EDC299B00"
 }

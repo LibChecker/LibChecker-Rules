@@ -1,8 +1,29 @@
 {
-    "label": "zlib",
-    "team": "zlib",
-    "iconUrl": "",
-    "contributors": ["binx6"],
-    "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
-    "relativeUrl": "http://www.zlib.net/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "zlib",
+                "dev_team": "zlib",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
+                "source_link": "http://www.zlib.net/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "zlib",
+                "dev_team": "zlib",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
+                "source_link": "http://www.zlib.net/"
+            }
+        }
+    ],
+    "uuid": "16666484-E80F-4FDA-90AE-C30B56986B79"
 }

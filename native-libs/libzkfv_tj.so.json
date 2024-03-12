@@ -1,8 +1,29 @@
 {
-    "label": "金融级实人认证 SDK",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy"],
-    "description": "金融级实人认证服务搭载真人检测和人脸比对等生物识别技术，配合权威数据源验证，可快速校验自然人的真实身份。",
-    "relativeUrl": "https://help.aliyun.com/document_detail/160542.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "金融级实人认证 SDK",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "金融级实人认证服务搭载真人检测和人脸比对等生物识别技术，配合权威数据源验证，可快速校验自然人的真实身份。",
+                "source_link": "https://help.aliyun.com/document_detail/160542.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "金融级实人认证 SDK",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "金融级实人认证服务搭载真人检测和人脸比对等生物识别技术，配合权威数据源验证，可快速校验自然人的真实身份。",
+                "source_link": "https://help.aliyun.com/document_detail/160542.html"
+            }
+        }
+    ],
+    "uuid": "B0F28E7E-F328-47CF-8AF4-641766D944AE"
 }

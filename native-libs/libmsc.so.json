@@ -1,8 +1,29 @@
 {
-    "label": "讯飞 SDK",
-    "team": "科大讯飞",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "讯飞开放平台作为全球首个开放的智能交互技术服务平台，致力于为开发者打造一站式智能人机交互解决方案。",
-    "relativeUrl": "https://www.xfyun.cn/doc/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "讯飞 SDK",
+                "dev_team": "科大讯飞",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "讯飞开放平台作为全球首个开放的智能交互技术服务平台，致力于为开发者打造一站式智能人机交互解决方案。",
+                "source_link": "https://www.xfyun.cn/doc/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "讯飞 SDK",
+                "dev_team": "科大讯飞",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "讯飞开放平台作为全球首个开放的智能交互技术服务平台，致力于为开发者打造一站式智能人机交互解决方案。",
+                "source_link": "https://www.xfyun.cn/doc/"
+            }
+        }
+    ],
+    "uuid": "FD94D683-06BD-43D9-BD9F-01D8CE95C9D7"
 }

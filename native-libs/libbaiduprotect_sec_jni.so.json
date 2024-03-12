@@ -1,8 +1,31 @@
 {
-    "label": "百度应用加固",
-    "team": "Baidu",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy", "JimmyJLNU"],
-    "description": "百度应用加固能够为 Android、Linux 等智能终端平台上的应用程序提供代码加密、完整性校验、反注入、反调试、运行时数据加密等各种安全能力，可以有效帮助智能终端上的应用程序抵御各种安全威胁。",
-    "relativeUrl": "https://apkprotect.baidu.com"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "百度应用加固",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "JimmyJLNU"
+                ],
+                "description": "百度应用加固能够为 Android、Linux 等智能终端平台上的应用程序提供代码加密、完整性校验、反注入、反调试、运行时数据加密等各种安全能力，可以有效帮助智能终端上的应用程序抵御各种安全威胁。",
+                "source_link": "https://apkprotect.baidu.com"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "百度应用加固",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "JimmyJLNU"
+                ],
+                "description": "百度应用加固能够为 Android、Linux 等智能终端平台上的应用程序提供代码加密、完整性校验、反注入、反调试、运行时数据加密等各种安全能力，可以有效帮助智能终端上的应用程序抵御各种安全威胁。",
+                "source_link": "https://apkprotect.baidu.com"
+            }
+        }
+    ],
+    "uuid": "7494560B-FCCE-46D6-8210-8398CD284F82"
 }

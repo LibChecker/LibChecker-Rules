@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Nebula SDK",
+                "dev_team": "Alipay",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Nebula SDK（支付宝 WebView 定制内核）是移动端 Hybrid 解决方案 SDK，提供了良好的外部扩展功能，拥有功能插件化、事件机制、JSAPI 定制和 H5App 推送更新管理能力。",
+                "source_link": "https://nebulasdk.alipay.com/nebulasdk/index.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Nebula SDK",
+                "dev_team": "Alipay",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Nebula SDK（支付宝 WebView 定制内核）是移动端 Hybrid 解决方案 SDK，提供了良好的外部扩展功能，拥有功能插件化、事件机制、JSAPI 定制和 H5App 推送更新管理能力。",
+                "source_link": "https://nebulasdk.alipay.com/nebulasdk/index.html"
+            }
+        }
+    ],
+    "uuid": "48529F59-FCC1-4DDE-A579-01C50A41B8AB"
+}

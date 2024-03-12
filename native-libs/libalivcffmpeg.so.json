@@ -1,8 +1,29 @@
 {
-    "label": "阿里云短视频 SDK",
-    "team": "Alibaba",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "阿里云短视频 SDK 依赖的第三方库。",
-    "relativeUrl": "https://help.aliyun.com/document_detail/94451.html"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "阿里云短视频 SDK",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "阿里云短视频 SDK 依赖的第三方库。",
+                "source_link": "https://help.aliyun.com/document_detail/94451.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "阿里云短视频 SDK",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "阿里云短视频 SDK 依赖的第三方库。",
+                "source_link": "https://help.aliyun.com/document_detail/94451.html"
+            }
+        }
+    ],
+    "uuid": "C2D10BC6-8853-4253-B993-DB51861AC085"
 }

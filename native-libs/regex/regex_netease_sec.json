@@ -1,8 +1,33 @@
 {
-    "label": "网易易盾",
-    "team": "Netease",
-    "iconUrl": "",
-    "contributors": ["ArthurCyy", "yfdyh000", "JimmyJLNU"],
-    "description": "您身边的移动安全专家，为移动应用安全保驾护航。",
-    "relativeUrl": "https://dun.163.com/product/android-reinforce"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "网易易盾",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "yfdyh000",
+                    "JimmyJLNU"
+                ],
+                "description": "您身边的移动安全专家，为移动应用安全保驾护航。",
+                "source_link": "https://dun.163.com/product/android-reinforce"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "网易易盾",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "ArthurCyy",
+                    "yfdyh000",
+                    "JimmyJLNU"
+                ],
+                "description": "您身边的移动安全专家，为移动应用安全保驾护航。",
+                "source_link": "https://dun.163.com/product/android-reinforce"
+            }
+        }
+    ],
+    "uuid": "E25BFC4A-02F0-48D3-A311-6F893D664643"
 }

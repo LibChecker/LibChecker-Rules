@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Car",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Build navigation and point of interest apps for Android Auto and Android Automotive OS.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/car-app"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Car",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Build navigation and point of interest apps for Android Auto and Android Automotive OS.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/car-app"
+            }
+        }
+    ],
+    "uuid": "53E31EB8-9DB5-4B9A-ACE6-35C270EA9FB2"
+}

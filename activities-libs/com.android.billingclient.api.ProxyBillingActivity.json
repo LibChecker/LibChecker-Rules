@@ -1,8 +1,0 @@
-{
-    "label": "Google Play Billing",
-    "team": "Google",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "Google Play 结算服务可让您在 Android 上销售数字内容。本文档介绍了 Google Play 结算服务解决方案的基本构建基块。要决定如何实现特定的 Google Play 结算服务解决方案，您必须了解这些构建基块。",
-    "relativeUrl": "https://developer.android.com/google/play/billing/billing_overview/"
-}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Slice",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "在应用外显示模板化界面元素。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/slice"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Slice",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "在应用外显示模板化界面元素。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/slice"
+            }
+        }
+    ],
+    "uuid": "41534F7F-505B-4DFA-8298-0BE7DECAE255"
+}

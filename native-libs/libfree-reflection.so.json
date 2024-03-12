@@ -1,8 +1,29 @@
 {
-    "label": "FreeReflection",
-    "team": "tiann",
-    "iconUrl": "",
-    "contributors": ["yfdyh000"],
-    "description": "在 Android P 及以上版本中不受任何限制地使用反射。",
-    "relativeUrl": "https://github.com/tiann/FreeReflection"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "FreeReflection",
+                "dev_team": "tiann",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "在 Android P 及以上版本中不受任何限制地使用反射。",
+                "source_link": "https://github.com/tiann/FreeReflection"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "FreeReflection",
+                "dev_team": "tiann",
+                "rule_contributors": [
+                    "yfdyh000"
+                ],
+                "description": "在 Android P 及以上版本中不受任何限制地使用反射。",
+                "source_link": "https://github.com/tiann/FreeReflection"
+            }
+        }
+    ],
+    "uuid": "FBAFB2B5-3418-41F7-802E-E0BE8D746279"
 }

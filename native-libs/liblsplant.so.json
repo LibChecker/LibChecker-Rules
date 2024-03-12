@@ -1,8 +1,29 @@
 {
-    "label": "LSPlant",
-    "team": "LSPosed",
-    "iconUrl": "",
-    "contributors": ["Moriafly"],
-    "description": "Android 运行时 (ART) 的 Hook 框架。",
-    "relativeUrl": "https://github.com/LSPosed/LSPlant"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "LSPlant",
+                "dev_team": "LSPosed",
+                "rule_contributors": [
+                    "Moriafly"
+                ],
+                "description": "Android 运行时 (ART) 的 Hook 框架。",
+                "source_link": "https://github.com/LSPosed/LSPlant"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LSPlant",
+                "dev_team": "LSPosed",
+                "rule_contributors": [
+                    "Moriafly"
+                ],
+                "description": "Android 运行时 (ART) 的 Hook 框架。",
+                "source_link": "https://github.com/LSPosed/LSPlant"
+            }
+        }
+    ],
+    "uuid": "C8705221-684A-4444-8B66-4F2EFE48C1CE"
 }

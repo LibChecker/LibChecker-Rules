@@ -1,8 +1,29 @@
 {
-    "label": "Rclone",
-    "team": "Rclone",
-    "iconUrl": "",
-    "contributors": ["xyl23333"],
-    "description": "Rclone 是一个用于管理云文件的命令行程序。",
-    "relativeUrl": "https://github.com/rclone/rclone"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Rclone",
+                "dev_team": "Rclone",
+                "rule_contributors": [
+                    "xyl23333"
+                ],
+                "description": "Rclone 是一个用于管理云文件的命令行程序。",
+                "source_link": "https://github.com/rclone/rclone"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Rclone",
+                "dev_team": "Rclone",
+                "rule_contributors": [
+                    "xyl23333"
+                ],
+                "description": "Rclone 是一个用于管理云文件的命令行程序。",
+                "source_link": "https://github.com/rclone/rclone"
+            }
+        }
+    ],
+    "uuid": "E927365C-3C3C-4E81-A806-00A2C4DF1CC7"
 }

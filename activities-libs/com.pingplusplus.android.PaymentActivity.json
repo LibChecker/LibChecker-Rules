@@ -1,8 +1,0 @@
-{
-    "label": "Ping++ SDK",
-    "team": "Ping++",
-    "iconUrl": "",
-    "contributors": ["zxwpm", "Absinthe"],
-    "description": "Ping++ 是一种全新的移动支付接入方式。通过使用 Ping++ 提供的 SDK，你的产品可以同时支持目前主流的多种支付渠道。同时 Ping++ 还提供交易管理平台，方便你统一管理所有支付渠道中的交易，有效降低你的前期开发和后期管理成本。",
-    "relativeUrl": "https://github.com/PingPlusPlus/pingpp-android"
-}

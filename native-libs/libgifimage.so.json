@@ -1,8 +1,29 @@
 {
-    "label": "GIFLIB",
-    "team": "GIFLIB",
-    "iconUrl": "",
-    "contributors": ["Absinthe"],
-    "description": "The GIFLIB project maintains the giflib service library, which has been pulling images out of GIFs since 1989. It is deployed everywhere you can think of and some places you probably can't - graphics applications and web browsers on multiple operating systems, game consoles, smartphones, and likely your ATM too.",
-    "relativeUrl": "https://giflib.sourceforge.net/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "GIFLIB",
+                "dev_team": "GIFLIB",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "The GIFLIB project maintains the giflib service library, which has been pulling images out of GIFs since 1989. It is deployed everywhere you can think of and some places you probably can't - graphics applications and web browsers on multiple operating systems, game consoles, smartphones, and likely your ATM too.",
+                "source_link": "https://giflib.sourceforge.net/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "GIFLIB",
+                "dev_team": "GIFLIB",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "The GIFLIB project maintains the giflib service library, which has been pulling images out of GIFs since 1989. It is deployed everywhere you can think of and some places you probably can't - graphics applications and web browsers on multiple operating systems, game consoles, smartphones, and likely your ATM too.",
+                "source_link": "https://giflib.sourceforge.net/"
+            }
+        }
+    ],
+    "uuid": "B19118B2-31D3-4463-9811-2F8C71DDA373"
 }

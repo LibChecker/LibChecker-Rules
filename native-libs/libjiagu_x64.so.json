@@ -1,8 +1,31 @@
 {
-    "label": "360 加固",
-    "team": "360",
-    "iconUrl": "",
-    "contributors": ["Absinthe", "qhy040404"],
-    "description": "360 加固保是基于 360 核心加密技术，给安卓应用进行深度加密、加壳保护的安全技术产品，可保护应用远离恶意破解、反编译、二次打包，内存抓取等威胁。",
-    "relativeUrl": "https://jiagu.360.cn/"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "360 加固",
+                "dev_team": "360",
+                "rule_contributors": [
+                    "Absinthe",
+                    "qhy040404"
+                ],
+                "description": "360 加固保是基于 360 核心加密技术，给安卓应用进行深度加密、加壳保护的安全技术产品，可保护应用远离恶意破解、反编译、二次打包，内存抓取等威胁。",
+                "source_link": "https://jiagu.360.cn/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "360 加固",
+                "dev_team": "360",
+                "rule_contributors": [
+                    "Absinthe",
+                    "qhy040404"
+                ],
+                "description": "360 加固保是基于 360 核心加密技术，给安卓应用进行深度加密、加壳保护的安全技术产品，可保护应用远离恶意破解、反编译、二次打包，内存抓取等威胁。",
+                "source_link": "https://jiagu.360.cn/"
+            }
+        }
+    ],
+    "uuid": "9A0B036F-3B8E-454A-B488-3F9F7C4005A1"
 }

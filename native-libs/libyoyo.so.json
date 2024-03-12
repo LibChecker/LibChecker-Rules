@@ -1,8 +1,29 @@
 {
-    "label": "GameMaker Studio",
-    "team": "YoYo Games",
-    "iconUrl": "",
-    "contributors": ["Ahopness"],
-    "description": "The Ultimate 2D Game Development Environment",
-    "relativeUrl": "https://www.yoyogames.com/en/gamemaker"
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "GameMaker Studio",
+                "dev_team": "YoYo Games",
+                "rule_contributors": [
+                    "Ahopness"
+                ],
+                "description": "The Ultimate 2D Game Development Environment",
+                "source_link": "https://www.yoyogames.com/en/gamemaker"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "GameMaker Studio",
+                "dev_team": "YoYo Games",
+                "rule_contributors": [
+                    "Ahopness"
+                ],
+                "description": "The Ultimate 2D Game Development Environment",
+                "source_link": "https://www.yoyogames.com/en/gamemaker"
+            }
+        }
+    ],
+    "uuid": "CDD4693B-7BB1-42FD-B179-0561C7A0784B"
 }

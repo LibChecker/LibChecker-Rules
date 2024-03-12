@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Core",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Target the latest platform features and APIs while also supporting older devices.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/core"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Core",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "Target the latest platform features and APIs while also supporting older devices.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/core"
+            }
+        }
+    ],
+    "uuid": "B4610D43-D1A3-46C1-A55B-CDE665E18CEA"
+}
