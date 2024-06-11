@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack DataStore",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["ArcticFoxPro"],
+    "description": "Jetpack DataStore 是一种数据存储解决方案，允许您使用协议缓冲区存储键值对或类型化对象。DataStore 使用 Kotlin 协程和 Flow 以异步、一致的事务方式存储数据。",
+    "relativeUrl": "https://developer.android.com/topic/libraries/architecture/datastore"
+}

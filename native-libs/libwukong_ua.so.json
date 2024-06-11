@@ -1,0 +1,8 @@
+{
+    "label": "Wukong",
+    "team": "哈啰",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "悟空动态卡片 (Wukong) 最初是为哈啰出行投放系统定制的 Native 高性能渲染引擎，是一套完整的跨端原生局部卡片动态展示的技术解决方案，以业务赋能为中心，致力于解决UI定制化、逻辑动态化、缩短试错周期、提升人效以及减少包体积等相关问题，使得业务可以基于 Wukong 做到一次开发，随时上线，多端复用的效果。",
+    "relativeUrl": "https://github.com/hellof2e/Wukong"
+}

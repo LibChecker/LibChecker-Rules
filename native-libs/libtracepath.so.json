@@ -1,0 +1,8 @@
+{
+    "label": "tracepath",
+    "team": "Netease",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "利用 ping、tcp connect 和 traceroute 的原理，对指定域名（通常为后台 API 的提供域名）进行网络诊断，并收集诊断日志。",
+    "relativeUrl": "https://github.com/Lede-Inc/LDNetDiagnoService_Android"
+}

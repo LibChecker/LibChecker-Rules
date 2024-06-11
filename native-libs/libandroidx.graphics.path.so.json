@@ -1,0 +1,8 @@
+{
+    "label": "Jetpack Graphics",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "利用多个 Android 平台版本中的图形工具降低画面延迟。",
+    "relativeUrl": "https://developer.android.com/jetpack/androidx/releases/graphics"
+}

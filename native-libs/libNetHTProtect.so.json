@@ -1,0 +1,8 @@
+{
+    "label": "网易易盾智能反外挂",
+    "team": "Netease",
+    "iconUrl": "",
+    "contributors": ["TIAQI233"],
+    "description": "用于 Android 平台的手游智能反外挂系统。这个库是网易易盾提供的一部分，旨在帮助游戏开发者检测和防止外挂程序的使用。它提供了多种功能，包括初始化反外挂服务、设置玩家角色信息、查询设备信息（如是否为模拟器或 root 设备），以及获取反外挂版本号等。",
+    "relativeUrl": "https://support.dun.163.com/documents/368110571181232128?docId=456646710151434240"
+}

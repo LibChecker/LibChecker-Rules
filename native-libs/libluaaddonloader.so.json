@@ -1,0 +1,8 @@
+{
+    "label": "Fcitx 5 Lua",
+    "team": "Fcitx / Fcitx 5 for Android",
+    "iconUrl": "",
+    "contributors": ["WhiredPlanck"],
+    "description": "Lua support for fcitx. (addon loader module)",
+    "relativeUrl": "https://github.com/fcitx/fcitx5-lua"
+}

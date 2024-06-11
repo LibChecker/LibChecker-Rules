@@ -1,0 +1,8 @@
+{
+    "label": "protobuf",
+    "team": "Google",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.",
+    "relativeUrl": "https://github.com/protocolbuffers/protobuf"
+}

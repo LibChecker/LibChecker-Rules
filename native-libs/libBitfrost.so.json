@@ -1,0 +1,8 @@
+{
+    "label": "Bitfrost",
+    "team": "pmelsted",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "Highly parallel construction and indexing of colored and compacted de Bruijn graphs.",
+    "relativeUrl": "https://github.com/pmelsted/bifrost"
+}

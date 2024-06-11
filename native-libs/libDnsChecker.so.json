@@ -1,0 +1,8 @@
+{
+    "label": "DnsChecker",
+    "team": "olof ",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "DNSCheck is a DNS delegation quality checker written in Perl. There is a backend for performing the checks, and a web frontend written in PHP.",
+    "relativeUrl": "https://github.com/olof/dnscheck"
+}

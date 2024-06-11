@@ -1,0 +1,8 @@
+{
+    "label": "libIME",
+    "team": "Fcitx / Fcitx 5 for Android",
+    "iconUrl": "",
+    "contributors": ["WhiredPlanck"],
+    "description": "A library to support generic input method implementation. (core)",
+    "relativeUrl": "https://github.com/fcitx/libime"
+}

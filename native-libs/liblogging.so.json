@@ -1,0 +1,8 @@
+{
+    "label": "logging",
+    "team": "rsyslog",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "Liblogging is an easy to use library for logging. It offers an enhanced replacement for the syslog() call, but retains its ease of use.",
+    "relativeUrl": "https://github.com/rsyslog/liblogging"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "XNet",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "腾讯云物联网开发平台（Tencent IoT）是集智能生活、智能制造、智能人居等功能于一体的解决方案。如家庭生活类产品，智能门锁可通过 wifi 设备接入腾讯云 IoT 平台进行管理。 项目工程中包含三大块，App 体验模块、SDK Demo、SDK 模块。 用户可通过 App 体验产品功能，通过现有 App 快速搭建起属于自己的 IoT 应用。 也可通过 SDK 接入到自己的工程来完成与腾讯云物联网开发平台对接功能。",
+    "relativeUrl": "https://github.com/tencentyun/iot-link-android"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "DCloud",
+    "team": "数字天堂",
+    "iconUrl": "",
+    "contributors": ["ohyeah521"],
+    "description": "libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.",
+    "relativeUrl": "https://github.com/ebiggers/libdeflate"
+}
