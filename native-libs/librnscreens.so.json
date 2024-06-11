@@ -1,8 +1,8 @@
 {
     "label": "React Native Screens",
-    "team": "Software Mansion",
+    "team": "software-mansion",
     "iconUrl": "",
-    "contributors": ["crrashh1542"],
-    "description": "React Native Screens 旨在为 React Native 暴露原生的导航容器组件，它目前只能作为 React Navigation 的依赖库而无法独立使用。",
+    "contributors": ["crrashh1542", "Anormi"],
+    "description": "React Native Screens is the core library that provides native navigation components to most React Native apps.",
     "relativeUrl": "https://github.com/software-mansion/react-native-screens"
 }

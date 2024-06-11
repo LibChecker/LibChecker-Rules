@@ -1,0 +1,8 @@
+{
+    "label": "videodec",
+    "team": "Parrot-Developers",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "libvideo-decode is a C library to handle the decoding of H.264 video on various platforms with a common API.",
+    "relativeUrl": "https://github.com/Parrot-Developers/libvideo-decode"
+}

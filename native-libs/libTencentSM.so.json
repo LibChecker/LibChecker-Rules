@@ -1,0 +1,8 @@
+{
+    "label": "TencentSM",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "腾讯 Kona 国密套件是一组 Java 安全特性的 Provider 实现，主要服务于 Java 生态中的国密应用场景。",
+    "relativeUrl": "https://github.com/Tencent/TencentKonaSMSuite"
+}

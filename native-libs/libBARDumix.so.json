@@ -1,0 +1,8 @@
+{
+    "label": "BARDUmix",
+    "team": "Baidu",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "实时音视频 RTC（Real-Time Communication）是百度智能云提供的实时音视频通信 PaaS 平台，依托百度智能云强大的流媒体处理与传输能力、覆盖全球的低延时网络，提供稳定、超低延时、高质量的实时音视频通信服务。帮助您快速搭建多端的实时通信应用，应用于互动娱乐、在线教育、视频客服、视频会议、物联网视频通信等场景。",
+    "relativeUrl": "https://cloud.baidu.com/doc/RTC/index.html"
+}

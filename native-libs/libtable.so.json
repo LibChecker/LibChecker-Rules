@@ -1,0 +1,8 @@
+{
+    "label": "Fcitx 5 Chinese Addons",
+    "team": "Fcitx / Fcitx 5 for Android",
+    "iconUrl": "",
+    "contributors": ["WhiredPlanck"],
+    "description": "Fcitx 5 for Android addon. (table im module)",
+    "relativeUrl": "https://github.com/fcitx/fcitx5-chinese-addons"
+}

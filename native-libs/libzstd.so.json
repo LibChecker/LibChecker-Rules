@@ -1,0 +1,8 @@
+{
+    "label": "Zstandard",
+    "team": "Facebook",
+    "iconUrl": "",
+    "contributors": ["mineqwwe"],
+    "description": "Zstandard，缩写 zstd,是一种快速无损压缩算法，针对 zlib 级别的实时压缩场景以及更好的压缩比。",
+    "relativeUrl": "https://github.com/facebook/zstd"
+}

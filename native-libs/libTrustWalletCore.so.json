@@ -1,0 +1,8 @@
+{
+    "label": "Trust Wallet Core",
+    "team": "Trustwallet",
+    "iconUrl": "",
+    "contributors": ["huazhuangnan"],
+    "description": "Cross-platform, cross-blockchain wallet library.",
+    "relativeUrl": "https://github.com/trustwallet/wallet-core"
+}

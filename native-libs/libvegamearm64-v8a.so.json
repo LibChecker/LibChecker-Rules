@@ -1,0 +1,8 @@
+{
+    "label": "火山引擎云手机 SDK",
+    "team": "Bytedance",
+    "iconUrl": "",
+    "contributors": ["Joehaivo"],
+    "description": "火山引擎云手机是结合云计算和超低延迟音视频传输技术的跨终端虚拟云手机服务，在云端最大化地模拟真实手机的环境和性能。为客户提供稳定可靠的云机和安卓实例，以及高品质、低延迟的互动和串流技术，同时支持客户开发自定义业务逻辑的云服务。",
+    "relativeUrl": "https://www.volcengine.com/docs/6394"
+}

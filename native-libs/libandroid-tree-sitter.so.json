@@ -1,0 +1,8 @@
+{
+    "label": "android-tree-sitter",
+    "team": "AndroidIDEOfficial",
+    "iconUrl": "",
+    "contributors": ["binx6"],
+    "description": "Android Java bindings for tree-sitter. Currently used in AndroidIDE and sora-editor.",
+    "relativeUrl": "https://github.com/AndroidIDEOfficial/android-tree-sitter"
+}

@@ -1,0 +1,8 @@
+{
+    "label": "Fcitx 5 for Android",
+    "team": "Fcitx / Fcitx 5 for Android",
+    "iconUrl": "",
+    "contributors": ["WhiredPlanck"],
+    "description": "Fcitx 5 for Android addon. (keyboard)",
+    "relativeUrl": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+}

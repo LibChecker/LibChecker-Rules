@@ -1,0 +1,8 @@
+{
+    "label": "Fcitx 5",
+    "team": "Fcitx / Fcitx 5 for Android",
+    "iconUrl": "",
+    "contributors": ["WhiredPlanck"],
+    "description": "Fcitx 5 is a generic input method framework (clipboard module).",
+    "relativeUrl": "https://github.com/fcitx/fcitx5"
+}

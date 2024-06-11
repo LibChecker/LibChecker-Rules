@@ -1,0 +1,8 @@
+{
+    "label": "xnn",
+    "team": "aaalgo",
+    "iconUrl": "",
+    "contributors": ["WOLFRAZOR"],
+    "description": "A C++ Prediction API that Wraps Caffe, MXNET and Python",
+    "relativeUrl": "https://github.com/aaalgo/xnn"
+}

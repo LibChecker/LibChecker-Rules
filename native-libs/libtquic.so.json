@@ -1,0 +1,8 @@
+{
+    "label": "TQUIC",
+    "team": "Tencent",
+    "iconUrl": "",
+    "contributors": ["Absinthe"],
+    "description": "TQUIC 是 IETF QUIC 协议的实现。它是一个高性能、轻量级、跨平台的 QUIC 库。",
+    "relativeUrl": "https://github.com/Tencent/tquic"
+}

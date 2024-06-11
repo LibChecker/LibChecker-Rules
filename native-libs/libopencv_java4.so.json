@@ -2,7 +2,7 @@
     "label": "OpenCV",
     "team": "OpenCV",
     "iconUrl": "",
-    "contributors": ["Absinthe", "david082321", "GoFly233"],
+    "contributors": ["Absinthe", "david082321", "GoFly233", "WOLFRAZOR"],
     "description": "OpenCV 是一个跨平台的计算机视觉库，可用于开发实时的图像处理、计算机视觉以及模式识别程序。",
     "relativeUrl": "https://github.com/opencv/opencv/"
 }
