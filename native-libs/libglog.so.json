@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "glog 是一个 C++ 日志库，它提供 C++ 流式风格的 API。",
+                "description": "glog is a C++ logging library that provides a C++ stream-style API.",
                 "source_link": "https://github.com/google/glog/"
             }
         }

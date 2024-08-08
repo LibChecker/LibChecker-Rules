@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "腾讯客户端性能分析（QAPM）是一款全方位定位检测 APP 应用性能的 SDK，其简单易用、并能提供多维度检测及分析，您只需简单的调用几个接口，就能对您的 APP 做全方位的性能检测。",
+                "description": "Tencent Client Performance Analysis (QAPM) is an SDK for comprehensive detection of app performance, which is simple to use and provides multi-dimensional detection and analysis. You only need to call a few interfaces to perform comprehensive performance detection on your app.",
                 "source_link": "https://cloud.tencent.com/document/product/683"
             }
         }

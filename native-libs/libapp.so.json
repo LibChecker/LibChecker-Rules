@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建高质量的原生用户界面。",
+                "description": "Flutter is Google's mobile UI framework for quickly building high-quality native user interfaces on iOS and Android.",
                 "source_link": "https://flutter.dev/"
             }
         }

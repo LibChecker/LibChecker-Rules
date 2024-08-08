@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "MeowHCO3"
                 ],
-                "description": "Opus 是用于通过网络进行交互式语音和音频传输的编解码器。",
+                "description": "Opus is a codec for interactive voice and audio transmission over the internet.",
                 "source_link": "https://gitlab.xiph.org/xiph/opus"
             }
         }

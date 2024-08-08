@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "基于网易有道强大的深度学习技术，提供图片内文字的高精度定位、语种检测及识别服务。现已支持近百种语言的自动检测与识别，识别精度领先业界。",
+                "description": "Based on NetEase Youdao's powerful deep learning technology, it provides high-precision positioning, language detection, and recognition services for text within images. It now supports automatic detection and recognition of nearly a hundred languages, with industry-leading recognition accuracy.",
                 "source_link": "https://ai.youdao.com/product-ocr-print.s"
             }
         }

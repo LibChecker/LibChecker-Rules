@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "tsukiymk"
                 ],
-                "description": "Javet 是 V8 JavaScript 引擎的 Java 封装库。它是 Java 嵌入 Node.js 和 V8 的绝佳方案。",
+                "description": "Javet is a Java wrapper library for the V8 JavaScript engine. It is an excellent solution for embedding Node.js and V8 in Java.",
                 "source_link": "https://github.com/caoccao/Javet"
             }
         }

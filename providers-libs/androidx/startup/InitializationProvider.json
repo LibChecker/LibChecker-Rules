@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "App Startup 库提供了一种直接，高效的方法来在应用程序启动时初始化组件。库开发人员和应用程序开发人员都可以使用 App Startup 来简化启动顺序并显式设置初始化顺序。App Startup 允许您定义共享单个内容提供程序的组件初始化程序，而不必为需要初始化的每个组件定义单独的内容提供程序。这可以大大缩短应用启动时间。",
+                "description": "The App Startup library provides a straightforward and efficient way to initialize components at application startup. Both library developers and application developers can use App Startup to simplify startup sequences and explicitly set initialization order. App Startup allows you to define component initializers that share a single content provider, rather than defining a separate content provider for each component that needs initialization. This can significantly shorten app startup time.",
                 "source_link": "https://developer.android.com/topic/libraries/app-startup"
             }
         }

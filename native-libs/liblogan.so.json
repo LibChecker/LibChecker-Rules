@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Logan 是美团点评集团推出的大前端日志系统。名称是 Log 和 An 的组合，代表个体日志服务，同时也是金刚狼大叔的大名。",
+                "description": "Logan is a large-scale front-end logging system launched by Meituan Dianping Group. The name is a combination of Log and An, representing individual log services, and also the big name of Wolverine.",
                 "source_link": "https://github.com/Meituan-Dianping/Logan"
             }
         }

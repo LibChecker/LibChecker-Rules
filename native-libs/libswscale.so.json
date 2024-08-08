@@ -26,7 +26,7 @@
                     "lgc2333",
                     "Super12138"
                 ],
-                "description": "FFmpeg 是领先的多媒体框架，能够解码，编码，转码，MUX，DEMUX，流式，过滤和播放人类和机器创建的几乎所有内容。",
+                "description": "FFmpeg is a leading multimedia framework capable of decoding, encoding, transcoding, muxing, demuxing, streaming, filtering, and playing almost anything that humans and machines have created.",
                 "source_link": "http://www.ffmpeg.org/libavcodec.html"
             }
         }

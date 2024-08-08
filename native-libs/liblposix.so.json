@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "MGLSIDE"
                 ],
-                "description": "ZAndrolua+ 提供的访问操作系统 Posix API 的 luaC 库。",
+                "description": "ZAndrolua+ provides the luaC library for accessing the operating system Posix API.",
                 "source_link": "https://github.com/MGLSIDE/ZAndrolua"
             }
         }

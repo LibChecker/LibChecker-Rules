@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "广告服务（Ads Kit）依托华为终端平台与数据能力为您提供流量变现服务，帮助您解决流量变现的难题；同时为广告主提供广告服务，配合华为终端平台向用户提供个性化的营销活动或商业广告。",
+                "description": "Ads Kit relies on Huawei's terminal platform and data capabilities to provide you with traffic monetization services, helping you solve the problem of traffic monetization; at the same time, it provides advertising services for advertisers, cooperating with Huawei's terminal platform to offer personalized marketing activities or commercial advertisements to users.",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805"
             }
         }

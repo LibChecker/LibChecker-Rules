@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "xCrash 能为安卓 app 提供捕获 Java 崩溃，native 崩溃和 ANR 的能力。不需要 root 权限或任何系统权限。",
+                "description": "xCrash provides the ability to capture Java crashes, native crashes, and ANRs for Android apps. No root or system permissions are required.",
                 "source_link": "https://github.com/iqiyi/xCrash/"
             }
         }

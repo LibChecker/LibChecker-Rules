@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "在 Android P 及以上版本中不受任何限制地使用反射。",
+                "description": "Use reflection without any restrictions in Android P and above.",
                 "source_link": "https://github.com/tiann/FreeReflection"
             }
         }

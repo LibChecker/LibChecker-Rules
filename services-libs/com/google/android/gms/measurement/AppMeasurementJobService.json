@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Google Analytics（分析）是一款免费的应用衡量解决方案，可提供关于应用使用情况和用户互动度的分析数据。",
+                "description": "Google Analytics is a free app measurement solution that provides analytics data on app usage and user engagement.",
                 "source_link": "https://firebase.google.com/docs/analytics/"
             }
         }

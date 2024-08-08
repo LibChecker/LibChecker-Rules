@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ag2s20150909"
                 ],
-                "description": "cocos2d-cpp 是用 C++ 14 编写的 2D 便携式游戏引擎，适用于 Android，iOS，Linux，MacOS 和 Windows。",
+                "description": "cocos2d-cpp is a 2D portable game engine written in C++ 14, suitable for Android, iOS, Linux, macOS, and Windows.",
                 "source_link": "https://github.com/cocos2d-cpp/cocos2d-cpp"
             }
         }

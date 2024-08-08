@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "阿里云短视频 SDK 依赖的第三方库。",
+                "description": "Alibaba Cloud Short Video SDK relies on third-party libraries.",
                 "source_link": "https://help.aliyun.com/document_detail/94451.html"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "d1y"
                 ],
-                "description": "Android 应用增量更新。",
+                "description": "Android application incremental update.",
                 "source_link": "https://github.com/cundong/SmartAppUpdates"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "与其他应用共享媒体内容和控件。已被 media2 取代。",
+                "description": "Share media content and controls with other apps. Replaced by media2.",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
             }
         }

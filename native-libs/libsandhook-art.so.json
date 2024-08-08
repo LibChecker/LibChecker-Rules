@@ -22,7 +22,7 @@
                     "1976222027",
                     "yfdyh000"
                 ],
-                "description": "SandHook 是作用在 Android ART 虚拟机上的 Java 层 Hook 框架，作用于进程内是不需要 Root 的。",
+                "description": "SandHook is a Java layer Hook framework acting on the Android ART virtual machine, which does not require Root when acting within the process.",
                 "source_link": "https://github.com/asLody/SandHook"
             }
         }

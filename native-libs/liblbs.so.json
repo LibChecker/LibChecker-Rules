@@ -22,7 +22,7 @@
                     "Absinthe",
                     "yfdyh000"
                 ],
-                "description": "腾讯浏览服务，依托 X5 内核强大的能力，致力于提供优化移动端浏览体验的整套解决方案。",
+                "description": "Tencent Browser Service, relying on the powerful capabilities of the X5 kernel, is dedicated to providing a complete solution for optimizing mobile browsing experiences.",
                 "source_link": "https://x5.tencent.com/tbs/guide/sdkInit.html"
             }
         }

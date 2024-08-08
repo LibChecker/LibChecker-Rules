@@ -28,7 +28,7 @@
                     "Super12138",
                     "binx6"
                 ],
-                "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, Linux, macOS, tvOS, Flutter and React Native applications.",
+                "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, Linux, macOS, tvOS, Flutter, and React Native applications.",
                 "source_link": "https://github.com/arthenica/ffmpeg-kit"
             }
         }

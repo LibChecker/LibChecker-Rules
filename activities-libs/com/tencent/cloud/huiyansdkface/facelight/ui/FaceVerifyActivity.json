@@ -22,7 +22,7 @@
                     "ArthurCyy",
                     "Absinthe"
                 ],
-                "description": "腾讯云慧眼人脸核身（原金融级身份证认证升级版）是一组对用户身份信息真实性进行验证审核的服务套件，提供各类认证功能模块，包含证件 OCR 识别、活体检测、人脸 1:1 对比等能力，以解决行业内大量对用户身份信息核实的需求，广泛应用于金融、运营商、共享出行等领域。",
+                "description": "Tencent Cloud Huixin Face Verification (formerly Financial-grade ID Authentication Upgrade Version) is a suite of services for verifying the authenticity of user identity information, providing various authentication function modules, including document OCR recognition, liveness detection, and face 1:1 comparison capabilities, to meet the industry's demand for verifying user identity information, widely used in finance, operators, shared mobility, and other fields.",
                 "source_link": "https://cloud.tencent.com/document/product/1007"
             }
         }

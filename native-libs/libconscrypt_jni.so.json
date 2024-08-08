@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Conscrypt 是一个 Java 安全提供程序 (JSP)，它实现了部分 Java 加密扩展 (JCE) 和 Java 安全套接字扩展 (JSSE)。 它使用 BoringSSL 为 Android 和 OpenJDK 上的 Java 应用程序提供加密原语和传输层安全性 (TLS)。 有关所提供内容的详细信息，请参阅功能文档。",
+                "description": "Conscrypt is a Java Security Provider (JSP) that implements parts of the Java Cryptography Extension (JCE) and Java Secure Socket Extension (JSSE). It uses BoringSSL to provide cryptographic primitives and Transport Layer Security (TLS) for Java applications on Android and OpenJDK. For detailed information on what is provided, see the feature documentation.",
                 "source_link": "https://github.com/google/conscrypt"
             }
         }

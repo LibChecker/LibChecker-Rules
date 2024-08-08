@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Scanner Compat 库解决了在 Android 上扫描 BLE 设备的问题。",
+                "description": "The Scanner Compat library addresses the issue of scanning BLE devices on Android.",
                 "source_link": "https://github.com/NordicSemiconductor/Android-Scanner-Compat-Library"
             }
         }

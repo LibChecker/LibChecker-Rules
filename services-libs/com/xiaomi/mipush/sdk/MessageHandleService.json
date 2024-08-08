@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+                "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
                 "source_link": "https://dev.mi.com/console/appservice/push.html/"
             }
         }

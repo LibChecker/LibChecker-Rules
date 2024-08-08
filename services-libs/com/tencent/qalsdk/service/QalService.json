@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "腾讯云通信基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理能力，帮助您实现文字、图片、短语音、短视频等富媒体消息收发，全面满足通信需要。",
+                "description": "Tencent Cloud Communication, developed based on QQ's underlying IM capabilities, allows easy integration of chat, session, group, and data management capabilities by embedding the SDK, helping you achieve the sending and receiving of rich media messages like text, images, short voice, and short video, fully meeting communication needs.",
                 "source_link": "https://cloud.tencent.com/product/im/getting-started/"
             }
         }

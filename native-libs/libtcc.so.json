@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "Tiny C Compiler（简称 TCC, 或 Tiny CC）。可以编译所有 C99 标准的 ANSI C 程序 , 支持 CPU 包括：X86 32 或 64 位, ARM，支持 Windows, Linux, OSX.（跨平台跨系统的能力强）。",
+                "description": "Tiny C Compiler (TCC, or Tiny CC) can compile all ANSI C programs of the C99 standard, supporting CPUs including: X86 32 or 64 bit, ARM, supporting Windows, Linux, OSX. (Strong cross-platform and cross-system capabilities).",
                 "source_link": "https://bellard.org/tcc/tcc-doc.html"
             }
         }

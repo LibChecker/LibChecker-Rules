@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Shizuku 可以帮助普通应用借助一个由 app_process 启动的 Java 进程直接以 adb 或 root 特权使用系统 API。",
+                "description": "Shizuku allows ordinary apps to use system APIs directly with adb or root privileges via a Java process started by app_process.",
                 "source_link": "https://github.com/RikkaApps/Shizuku-API"
             }
         }

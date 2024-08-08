@@ -22,7 +22,7 @@
                     "飘落的枫叶",
                     "yfdyh000"
                 ],
-                "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
+                "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award-winning catalog and many Humble Bundle games.",
                 "source_link": "https://www.libsdl.org"
             }
         }

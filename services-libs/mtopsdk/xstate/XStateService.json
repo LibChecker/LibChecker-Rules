@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Mtop 是稳定的高性能无线 RPC 网关，网关本身包含了一套安全体系，包括加密传输、防攻击、防刷、防篡改、过载保护等安全策略，同时针对无线网络的特点，在连通性、网络加速、流量方面进行了针对性优化。",
+                "description": "Mtop is a stable and high-performance wireless RPC gateway. The gateway itself includes a set of security systems, including encrypted transmission, anti-attack, anti-sweeping, anti-tampering, overload protection, etc. At the same time, it has been optimized for connectivity, network acceleration, and traffic based on the characteristics of wireless networks.",
                 "source_link": "https://help.aliyun.com/document_detail/69785.html/"
             }
         }

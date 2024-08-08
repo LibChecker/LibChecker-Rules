@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "让库能够提前预填充要由 ART 读取的编译轨迹。",
+                "description": "Allow the library to pre-fill compilation traces to be read by ART.",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/profileinstaller"
             }
         }

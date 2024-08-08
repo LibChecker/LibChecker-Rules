@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ag2s20150909"
                 ],
-                "description": "Go 实现的 Trojan 代理，支持多路复用/路由功能/CDN 中转/Shadowsocks 混淆插件，多平台，无依赖。",
+                "description": "Trojan proxy implemented in Go, supporting multiplexing/routing functionality/CDN relay/Shadowsocks obfuscation plugin, multi-platform, no dependencies.",
                 "source_link": "https://github.com/p4gefau1t/trojan-go"
             }
         }

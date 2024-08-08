@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Android 实用程序库，用于在后台延迟运行作业。 根据 Android 版本的不同，将使用 JobScheduler，GcmNetworkManager 或 AlarmManager。",
+                "description": "Android utility library for running jobs in the background with delay. Depending on the Android version, JobScheduler, GcmNetworkManager, or AlarmManager will be used.",
                 "source_link": "https://github.com/evernote/android-job"
             }
         }

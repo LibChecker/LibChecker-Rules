@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Headog"
                 ],
-                "description": "一个使用 C++ 实现的 dex 高性能运行时解析库，用于查找被混淆的类、方法或者属性。",
+                "description": "A high-performance runtime parsing library implemented in C++ for dex, used to find obfuscated classes, methods, or properties.",
                 "source_link": "https://github.com/LuckyPray/DexKit"
             }
         }

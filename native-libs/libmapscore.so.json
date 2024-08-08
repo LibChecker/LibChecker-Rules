@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "cwxiaoshutong"
                 ],
-                "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGl ES 3.2) and iOS (10+)",
+                "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGL ES 3.2) and iOS (10+)",
                 "source_link": "https://github.com/openmobilemaps/maps-core"
             }
         }

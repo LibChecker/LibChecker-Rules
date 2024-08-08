@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "在 Android 应用中运行原生代码。",
+                "description": "Run native code in Android applications.",
                 "source_link": "https://developer.android.com/ndk/guides/cpp-support/"
             }
         }

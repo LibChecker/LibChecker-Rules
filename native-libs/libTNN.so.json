@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "TNN 是由腾讯优图实验室开源的高性能、轻量级神经网络推理框架，同时拥有跨平台、高性能、模型压缩、代码裁剪等众多突出优势。TNN 框架在原有 Rapidnet、ncnn 框架的基础上进一步加强了移动端设备的支持以及性能优化，同时借鉴了业界主流开源框架高性能和良好拓展性的特性，拓展了对于后台 X86, NV GPU 的支持。手机端 TNN 已经在众多应用中落地，服务端 TNN 作为腾讯云 AI 基础加速框架已为众多业务落地提供加速支持。",
+                "description": "TNN is an open-source high-performance, lightweight neural network inference framework by Tencent Youtu Lab, featuring cross-platform, high performance, model compression, code trimming, and many other outstanding advantages. TNN framework further enhances mobile device support and performance optimization on the basis of the original Rapidnet and ncnn frameworks, while drawing on the high performance and good extensibility characteristics of mainstream open-source frameworks in the industry, expanding support for backend X86, NV GPU. TNN on mobile devices has already been deployed in numerous applications, and TNN on the server side, as Tencent Cloud's AI base acceleration framework, has provided acceleration support for many business deployments.",
                 "source_link": "https://github.com/Tencent/TNN"
             }
         }

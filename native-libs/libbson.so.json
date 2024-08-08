@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "d1y"
                 ],
-                "description": "BSON 是一种计算机数据交换格式，主要被用作 MongoDB 数据库中的数据存储和网络传输格式。它是一种二进制表示形式，能用来表示简单数据结构、关联数组（MongoDB 中称为“对象”或“文档”）以及 MongoDB 中的各种数据类型。BSON 之名缘于 JSON，含义为 Binary JSON（二进制 JSON）。",
+                "description": "BSON is a computer data interchange format, primarily used as a data storage and network transmission format in MongoDB databases. It is a binary representation that can represent simple data structures, associative arrays (called \"objects\" or \"documents\" in MongoDB), and various data types in MongoDB. The name BSON is derived from JSON, meaning Binary JSON.",
                 "source_link": "https://github.com/mongodb/mongo/blob/master/src/mongo/bson/README"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "Leptonica is a pedagogically-oriented open source library containing software that is broadly useful for image processing and image analysis applications.",
+                "description": "Leptonica is a pedagogically-oriented open-source library containing software that is broadly useful for image processing and image analysis applications.",
                 "source_link": "https://github.com/DanBloomberg/leptonica"
             }
         }

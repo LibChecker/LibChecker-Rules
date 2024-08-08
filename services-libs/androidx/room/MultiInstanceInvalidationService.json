@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Room 持久性库在 SQLite 的基础上提供了一个抽象层，让用户能够在充分利用 SQLite 的强大功能的同时，获享更强健的数据库访问机制。",
+                "description": "Room persistence library provides an abstraction layer on top of SQLite, allowing users to leverage SQLite's powerful features while enjoying a more robust database access mechanism.",
                 "source_link": "https://developer.android.com/topic/libraries/architecture/room/"
             }
         }

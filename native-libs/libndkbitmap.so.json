@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "烈焰弹幕使是 Android 上开源的弹幕解析绘制引擎项目。",
+                "description": "Flame Danmaku Master is an open-source engine project for parsing and rendering danmaku on Android.",
                 "source_link": "https://github.com/bilibili/DanmakuFlameMaster/"
             }
         }

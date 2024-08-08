@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "使用 vivo 账号统一登录，支付，并提供统一的实名认证服务。",
+                "description": "Use vivo account for unified login, payment, and provide unified real-name authentication service.",
                 "source_link": "https://dev.vivo.com.cn/documentCenter/doc/8"
             }
         }

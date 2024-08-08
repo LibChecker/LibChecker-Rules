@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "GMP Push SDK 是 GMP 提供端触达能力的 SDK。",
+                "description": "GMP Push SDK is an SDK provided by GMP for endpoint reach capabilities.",
                 "source_link": "https://www.volcengine.com/docs/6315/164573"
             }
         }

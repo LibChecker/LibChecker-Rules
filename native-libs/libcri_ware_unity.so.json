@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "kotori2"
                 ],
-                "description": "Unity 中的可用于商业游戏开发的声音系统插件。可以从支持网站上下载专用工具来编辑声音，同时网站上还提供技术支持。",
+                "description": "A sound system plugin for commercial game development in Unity. Dedicated tools for editing sound can be downloaded from the support website, and technical support is also available on the website.",
                 "source_link": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
             }
         }

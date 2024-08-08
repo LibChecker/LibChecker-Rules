@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Weex 致力于使开发者能基于通用跨平台的 Web 开发语言和开发经验，来构建 Android、iOS 和 Web 应用。简单来说，在集成了 WeexSDK 之后，你可以使用 JavaScript 语言和前端开发经验来开发移动应用。",
+                "description": "Weex is committed to enabling developers to build Android, iOS, and Web applications based on common cross-platform web development languages and experiences. Simply put, after integrating WeexSDK, you can use JavaScript language and front-end development experience to develop mobile applications.",
                 "source_link": "https://weex.apache.org/"
             }
         }

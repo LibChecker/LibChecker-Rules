@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "kotori2"
                 ],
-                "description": "iconv 是一个计算机程序以及一套应用程序编程接口的名称。它的作用是在多种国际编码格式之间进行文本内码的转换。",
+                "description": "iconv is the name of a computer program and a set of application programming interfaces. Its function is to convert text internal codes between multiple international encoding formats.",
                 "source_link": "https://www.gnu.org/software/libiconv/"
             }
         }

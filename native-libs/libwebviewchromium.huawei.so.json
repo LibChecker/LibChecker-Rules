@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "homo1919810"
                 ],
-                "description": "WebView 提供在应用中集成 Web 页面的能力。",
+                "description": "WebView provides the ability to integrate web pages within applications.",
                 "source_link": "https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-java-component-webview-0000001092715158"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.",
+                "description": "Log4cpp is a library of C++ classes for flexible logging to files, syslog, IDSA, and other destinations.",
                 "source_link": "https://sourceforge.net/projects/log4cpp/"
             }
         }

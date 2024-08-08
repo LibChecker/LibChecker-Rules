@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "提供 aria2 的核心功能，包括对网络和下载的处理。",
+                "description": "Provides core functions of aria2, including handling network and downloads.",
                 "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
             }
         }

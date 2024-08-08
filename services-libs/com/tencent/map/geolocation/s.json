@@ -22,7 +22,7 @@
                     "Absinthe",
                     "HenryWu01"
                 ],
-                "description": "腾讯地图定位 SDK 是一套基于 Android 4.1 及以上版本设备的应用程序接口。通过该接口，您可以轻松使用腾讯地图定位服务，构建 LBS 应用程序。",
+                "description": "Tencent Map Location SDK is a set of application programming interfaces based on Android 4.1 and above devices. Through this interface, you can easily use Tencent map location services to build LBS applications.",
                 "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
             }
         }

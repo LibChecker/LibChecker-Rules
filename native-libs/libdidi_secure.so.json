@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "滴滴出行开放平台正式上线，三方应用与个人开发者接入 SDK 后，可将滴滴出行集成到自己的应用中，轻松构建打车服务，为您的用户提供一段美好旅程。",
+                "description": "Didi Chuxing Open Platform is officially launched, allowing third-party applications and individual developers to integrate Didi Chuxing into their own applications via SDK, easily building ride-hailing services and offering your users a pleasant journey.",
                 "source_link": "https://developer.xiaojukeji.com/doc/sdk/implementation.html"
             }
         }

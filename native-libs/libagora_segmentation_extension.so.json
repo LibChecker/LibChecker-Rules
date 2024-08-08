@@ -22,7 +22,7 @@
                     "Absinthe",
                     "ArthurCyy"
                 ],
-                "description": "视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。",
+                "description": "Video call SDK can achieve one-to-one single chat and multi-person group chat, with both pure voice call and video call functions.",
                 "source_link": "https://docs.agora.io/"
             }
         }

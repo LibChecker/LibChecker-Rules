@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "AppAuth for Android 是用于与 OAuth 2.0 和 OpenID Connect 提供程序进行通信的客户端 SDK。 它致力于直接映射那些规范的请求和响应，同时遵循实现语言的惯用风格。 除了映射原始协议流外，还有协助执行常见任务的便捷方法，例如执行刷新令牌操作。",
+                "description": "AppAuth for Android is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers. It strives to directly map those specifications to requests and responses, while following the idiomatic style of the implementation language. In addition to mapping the raw protocol flows, convenience methods are available to assist with performing common tasks such as performing a token refresh.",
                 "source_link": "https://github.com/openid/AppAuth-Android/"
             }
         }

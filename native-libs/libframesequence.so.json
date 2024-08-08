@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Android 系统中的帧序列封装库。",
+                "description": "Frame sequence encapsulation library in the Android system.",
                 "source_link": "https://android.googlesource.com/platform/frameworks/ex/"
             }
         }

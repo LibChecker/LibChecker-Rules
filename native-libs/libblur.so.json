@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "Android StackBlur 是一个库，可以根据渐变（梯度）或半径对位图执行模糊效果（处理），并返回结果。该库基于 Mario Klingemann 的代码，兼容 Android 版本 1.5（几乎与每台设备兼容）。",
+                "description": "Android StackBlur is a library that performs a blur effect on a bitmap based on gradient or radius and returns the result. The library is based on Mario Klingemann's code and is compatible with Android version 1.5 (almost compatible with every device).",
                 "source_link": "https://github.com/kikoso/android-stackblur"
             }
         }

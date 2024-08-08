@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "统一扫码服务（Scan Kit）提供便捷的条形码和二维码扫描、解析、生成能力，帮助您快速构建应用内的扫码功能。得益于华为在计算机视觉领域能力的积累，Scan Kit 可以实现远距离码或小型码的检测和自动放大，同时针对常见复杂扫码场景（如反光、暗光、污损、模糊、柱面）做了针对性识别优化，提升扫码成功率与用户体验。Scan Kit 支持 Android 和 iOS 系统集成。其中，Android 系统集成 Scan Kit 后支持横屏扫码能力。",
+                "description": "Unified Scan Service (Scan Kit) provides convenient barcode and QR code scanning, parsing, and generation capabilities, helping you quickly build in-app scanning functions. Thanks to Huawei's accumulated capabilities in computer vision, Scan Kit can detect and automatically magnify distant or small codes and has targeted recognition optimization for common complex scanning scenarios (such as reflective, low light, damaged, blurred, cylindrical), improving scan success rate and user experience. Scan Kit supports integration with Android and iOS systems. On Android, Scan Kit supports landscape scanning capabilities.",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/service-introduction-0000001050041994"
             }
         }

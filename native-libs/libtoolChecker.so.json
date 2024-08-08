@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... Has this device got root?",
+                "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age-old question... Has this device got root?",
                 "source_link": "https://github.com/scottyab/rootbeer"
             }
         }

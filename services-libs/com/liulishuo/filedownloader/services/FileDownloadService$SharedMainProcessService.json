@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Android 文件下载引擎，稳定、高效、灵活、简单易用。",
+                "description": "Android file download engine, stable, efficient, flexible, and easy to use.",
                 "source_link": "https://github.com/lingochamp/FileDownloader/"
             }
         }

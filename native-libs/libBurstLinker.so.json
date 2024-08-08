@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "一个 Android 平台上的简单的 GIF 编码器。",
+                "description": "A simple GIF encoder on the Android platform.",
                 "source_link": "https://github.com/bilibili/BurstLinker"
             }
         }

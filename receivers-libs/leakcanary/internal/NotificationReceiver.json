@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "LeakCanary 是适用于 Android 的内存泄漏检测库。",
+                "description": "LeakCanary is a memory leak detection library for Android.",
                 "source_link": "https://square.github.io/"
             }
         }

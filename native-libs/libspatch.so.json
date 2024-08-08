@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "lianglixin"
                 ],
-                "description": "一个用于动态更改 Android ART 运行时的库，可以用于方法动态代理、内存注入、Xposed 以及应用脱壳等。",
+                "description": "A library for dynamically changing the Android ART runtime, which can be used for method dynamic proxy, memory injection, Xposed, and application unpacking.",
                 "source_link": "https://github.com/lianglixin/SPatch"
             }
         }

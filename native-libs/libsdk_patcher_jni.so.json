@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "小米应用检查更新 SDK 帮助您的用户尽快获得最新版本的应用，轻松增加【应用检查更新】的功能，通过小米应用商店的 CDN 服务，快速的把最新版应用推送给用户。",
+                "description": "Xiaomi App Update Check SDK helps your users get the latest version of the app as soon as possible, easily adding the 'App Update Check' feature, and quickly pushing the latest version of the app to users through the Xiaomi App Store's CDN service.",
                 "source_link": "https://dev.mi.com/console/doc/detail?pId=4/"
             }
         }

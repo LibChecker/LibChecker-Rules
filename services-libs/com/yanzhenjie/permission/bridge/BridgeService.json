@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Android 平台上的权限管理器。",
+                "description": "Permission manager on the Android platform.",
                 "source_link": "https://github.com/yanzhenjie/AndPermission"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Nebula SDK（支付宝 WebView 定制内核）是移动端 Hybrid 解决方案 SDK，提供了良好的外部扩展功能，拥有功能插件化、事件机制、JSAPI 定制和 H5App 推送更新管理能力。",
+                "description": "Nebula SDK (Alipay WebView custom kernel) is a mobile hybrid solution SDK, providing good external extension capabilities, with features like pluginization, event mechanism, JSAPI customization, and H5App push update management.",
                 "source_link": "https://nebulasdk.alipay.com/nebulasdk/index.html"
             }
         }

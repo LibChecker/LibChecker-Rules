@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "PCDN 支持点播和直播的 P2P 加速服务，采用独立进程的方式运行，即使崩溃也不影响 App 主进程的使用。",
+                "description": "PCDN supports P2P acceleration services for on-demand and live streaming, running as an independent process so that even if it crashes, it does not affect the main process of the app.",
                 "source_link": "https://help.aliyun.com/document_detail/54295.html"
             }
         }

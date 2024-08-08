@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "百度语音开放平台。纯离线语音合成 SDK 可直接在设备终端进行语音合成，首次使用需要联网，其余时间均可以使用离线合成，为您提供稳定一致、流畅自然的合成体验。",
+                "description": "Baidu Voice Open Platform. The pure offline speech synthesis SDK can perform speech synthesis directly on the device terminal, requiring network connection only for the first use, with subsequent use all offline synthesis, providing you with a stable, consistent, smooth, and natural synthesis experience.",
                 "source_link": "https://cloud.baidu.com/doc/SPEECH/s/Qk4nwu25z"
             }
         }

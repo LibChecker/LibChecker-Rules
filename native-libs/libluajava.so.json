@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "AndroLua 是基于 LuaJava 开发的安卓平台轻量级脚本编程语言工具，既具有 Lua 简洁优雅的特质，又支持绝大部分安卓 API，可以使你在手机上快速编写小型应用。",
+                "description": "AndroLua is a lightweight scripting language tool for the Android platform developed based on LuaJava, featuring the simplicity and elegance of Lua while supporting most Android APIs, enabling you to quickly write small applications on your phone.",
                 "source_link": "https://github.com/mkottman/AndroLua/"
             }
         }

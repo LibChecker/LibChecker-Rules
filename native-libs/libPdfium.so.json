@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Super12138"
                 ],
-                "description": "PDFium 是 Chrome 的 PDF 渲染引擎，并且是开源的。",
+                "description": "PDFium is the PDF rendering engine for Chrome and is open-source.",
                 "source_link": "https://pdfium.googlesource.com/pdfium/"
             }
         }

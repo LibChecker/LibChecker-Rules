@@ -24,7 +24,7 @@
                     "kotori2",
                     "sebastien46"
                 ],
-                "description": "Firebase 云信息传递 (FCM) 是一种跨平台消息传递解决方案，可供您免费、可靠地传递消息。",
+                "description": "Firebase Cloud Messaging (FCM) is a cross-platform messaging solution that allows you to reliably deliver messages for free.",
                 "source_link": "https://firebase.google.com/docs/cloud-messaging/"
             }
         }

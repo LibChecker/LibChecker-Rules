@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Super12138"
                 ],
-                "description": "Tun2Socks 是一个网络通信库，它可以处理来自当前设备的任意应用的所有网络流量，并通过 HTTP/Socks4/Socks5/Shadowsocks 远程连接，支持 Windows、macOS 等多平台，并且支持 IPv6，可以提供最佳的性能。",
+                "description": "Tun2Socks is a network communication library that can handle all network traffic from any application on the current device and connect remotely via HTTP/Socks4/Socks5/Shadowsocks, supporting multiple platforms like Windows, macOS, and supporting IPv6, providing optimal performance.",
                 "source_link": "https://github.com/xjasonlyu/tun2socks"
             }
         }

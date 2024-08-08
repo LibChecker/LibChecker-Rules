@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "nullptr-leo"
                 ],
-                "description": "FreeType 是免费提供的用于渲染字体的软件库。 它用 C 语言编写，旨在小巧，高效，高度可定制和便携式，同时能够生成大多数矢量和位图字体格式的高质量输出（字形图像）。",
+                "description": "FreeType is a free software library for rendering fonts. It is written in C and aims to be small, efficient, highly customizable, and portable while being able to generate high-quality output (glyph images) for most vector and bitmap font formats.",
                 "source_link": "https://www.freetype.org/"
             }
         }

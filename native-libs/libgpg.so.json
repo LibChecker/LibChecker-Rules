@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "使游戏开发人员能在使用 Unity® 编写的游戏中集成 Google Play Games API。",
+                "description": "Enables game developers to integrate Google Play Games API into games written with Unity®.",
                 "source_link": "https://developers.google.com/games/services/integration"
             }
         }

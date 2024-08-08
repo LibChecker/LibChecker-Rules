@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "在 Android 中进行测试。",
+                "description": "Testing in Android.",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/test"
             }
         }

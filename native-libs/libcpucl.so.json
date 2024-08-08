@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "芯片能力开放，快速转化和迁移已有模型，借助异构调度和 NPU 加速，实现更佳性能、更低功耗。",
+                "description": "Open chip capabilities, quickly transform and migrate existing models, achieving better performance and lower power consumption through heterogeneous scheduling and NPU acceleration.",
                 "source_link": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
             }
         }

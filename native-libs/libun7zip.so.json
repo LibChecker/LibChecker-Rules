@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "A simple library with lzma sdk for 7z extraction.(使用 LZMA SDK 解压 7z 压缩包)",
+                "description": "A simple library with lzma sdk for 7z extraction. (Using LZMA SDK to extract 7z archives)",
                 "source_link": "https://github.com/hzy3774/AndroidUn7zip"
             }
         }

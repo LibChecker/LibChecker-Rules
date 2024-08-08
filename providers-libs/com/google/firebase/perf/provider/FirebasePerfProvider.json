@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Firebase 性能监控服务可帮助您深入了解您的 iOS 应用、Android 应用和网页应用的性能特点。",
+                "description": "Firebase Performance Monitoring Service helps you gain insights into the performance characteristics of your iOS, Android, and web applications.",
                 "source_link": "https://firebase.google.com/docs/perf-mon"
             }
         }

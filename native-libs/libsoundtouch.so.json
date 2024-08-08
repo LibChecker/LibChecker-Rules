@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "crrashh1542"
                 ],
-                "description": "SoundTouch 是开源音频处理库，用于更改音频流或音频文件的节奏、音调和播放速度，以及较准确地估计音轨的 BPM。",
+                "description": "SoundTouch is an open-source audio processing library used for changing the tempo, pitch, and playback speed of audio streams or audio files, and for accurately estimating the BPM of audio tracks.",
                 "source_link": "http://www.surina.net/soundtouch/README-SoundTouch-Android.html"
             }
         }

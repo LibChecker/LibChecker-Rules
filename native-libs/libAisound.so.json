@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "d1y"
                 ],
-                "description": "将文字信息转化为声音信息，让应用具备离线语音合成的能力。即让机器像人一样开口说话，给开发者的应用配上“嘴巴”。",
+                "description": "Converts text information into voice information, giving applications the ability for offline speech synthesis. That is, making machines speak like humans, equipping developers' applications with a 'mouth'.",
                 "source_link": "https://www.xfyun.cn/service/offline_tts"
             }
         }

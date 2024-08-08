@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "Mobile AI Compute Engine (MACE) 是一个专为移动端异构计算平台(支持 Android, iOS, Linux, Windows)优化的神经网络计算框架。",
+                "description": "Mobile AI Compute Engine (MACE) is a neural network computing framework optimized for mobile heterogeneous computing platforms (supporting Android, iOS, Linux, Windows).",
                 "source_link": "https://github.com/XiaoMi/mace"
             }
         }

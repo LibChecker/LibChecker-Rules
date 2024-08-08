@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "人脸离线识别 SDK，包含人脸采集、活体检测、人脸对比/识别、人脸库管理等能力，并全部离线化、本地化。",
+                "description": "Offline face recognition SDK, including capabilities like face collection, liveness detection, face comparison/recognition, and face database management, all offline and localized.",
                 "source_link": "https://cloud.baidu.com/doc/FACE/s/pk37c1mqu"
             }
         }

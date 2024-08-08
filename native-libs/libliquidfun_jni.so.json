@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "IveTian"
                 ],
-                "description": "LiquidFun 是 Box2D 的扩展。它为 Box2D 的刚体功能添加了基于粒子的流体和软体模拟。LiquidFun 可以为许多不同的系统构建，包括 Android，iOS，Windows，OS X，Linux 和 JavaScript。",
+                "description": "LiquidFun is an extension of Box2D. It adds particle-based fluid and soft-body simulation to Box2D's rigid body capabilities. LiquidFun can be built for many different systems, including Android, iOS, Windows, OS X, Linux, and JavaScript.",
                 "source_link": "https://github.com/google/liquidfun"
             }
         }

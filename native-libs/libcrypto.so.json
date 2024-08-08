@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "culat"
                 ],
-                "description": "OpenSSL 是用于传输层安全性协议（TLS）和安全套接字层（SSL）协议的功能强大的，商业级且功能齐全的工具包。",
+                "description": "OpenSSL is a robust, commercial-grade, full-featured open-source toolkit for the Transport Layer Security (TLS) protocol. The protocol implementation is based on a full-featured general-purpose cryptographic library, which can also be used independently.",
                 "source_link": "https://github.com/openssl/openssl"
             }
         }

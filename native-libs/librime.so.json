@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "WhiredPlanck"
                 ],
-                "description": "Rime 输入法引擎核心库。",
+                "description": "Rime input method engine core library.",
                 "source_link": "https://github.com/rime/librime"
             }
         }

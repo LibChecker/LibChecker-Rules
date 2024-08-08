@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "①任何投放都可直接唤醒手淘打开。当消费者无手淘时，默认引导手淘下载，但开发者可自行调整为退回到 H5 页面打开(请注意此时登录态不再支持透传)；\n②部分页面可支持在开发者APP内打开，可以默认不唤醒手淘。这部分页面，新版百川 SDK 将通过套件功能对外开放，在套件内会包含相应可被调用的页面。",
+                "description": "① Any placement can directly wake up Taobao to open. When consumers do not have Taobao, the default guide is to download Taobao, but developers can adjust it to return to the H5 page to open (please note that the login state is no longer supported for transparent transmission at this time); ② Some pages can be opened within the developer's APP without waking up Taobao by default. These pages, the new version of the Baichuan SDK will be opened to the public through the suite function, and the suite will contain corresponding callable pages.",
                 "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
             }
         }

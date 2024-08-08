@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "mrousavy"
                 ],
-                "description": "VisionCamera is a powerful Camera library React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
+                "description": "VisionCamera is a powerful Camera library for React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
                 "source_link": "https://github.com/mrousavy/react-native-vision-camera"
             }
         }

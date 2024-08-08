@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "提供使用 Google 登录的 API。",
+                "description": "Provide API for using Google Sign-In.",
                 "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
             }
         }

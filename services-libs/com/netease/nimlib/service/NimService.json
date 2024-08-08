@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "IM SDK 是网易云通信其他能力（实时语音视频、互动白板等）的基础，本节讲述 IM SDK 的集成步骤也将其他能力 SDK 的集成步骤融合起来，开发者可以根据实际业务需要选择接入的类库。",
+                "description": "IM SDK is the foundation for NetEase Cloud Communication's other capabilities (real-time voice and video, interactive whiteboard, etc.). This section describes the integration steps of the IM SDK, which also incorporate the integration steps of other capability SDKs, allowing developers to choose the libraries to access based on actual business needs.",
                 "source_link": "https://dev.yunxin.163.com/"
             }
         }

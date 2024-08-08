@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "nullptr-leo"
                 ],
-                "description": "GPUImage for Android 是一个开源项目，用于在 Android 上执行 GPU 加速的图像和视频处理。",
+                "description": "GPUImage for Android is an open-source project for performing GPU-accelerated image and video processing on Android.",
                 "source_link": "https://github.com/cats-oss/android-gpuimage"
             }
         }

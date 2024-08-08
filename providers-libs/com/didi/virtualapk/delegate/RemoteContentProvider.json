@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "一个强大且轻量的 Android 插件化框架。",
+                "description": "A powerful and lightweight Android plugin framework.",
                 "source_link": "https://github.com/didi/VirtualAPK/"
             }
         }

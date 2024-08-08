@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "小红书分享开放平台基于行业规则和开发者诉求，提供了基于客户端代码的分享 SDK。",
+                "description": "Xiaohongshu Sharing Open Platform provides a sharing SDK based on client code, following industry rules and developer demands.",
                 "source_link": "https://agora.xiaohongshu.com/doc/android"
             }
         }

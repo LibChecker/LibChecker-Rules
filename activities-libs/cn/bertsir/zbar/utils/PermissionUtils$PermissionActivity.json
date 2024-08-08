@@ -22,7 +22,7 @@
                     "culat",
                     "Absinthe"
                 ],
-                "description": "ZBar 是一个用于从各种来源读取条码的开源软件套件, 它支持许多流行的条码类型, 包括 EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, 交叉 2/5 码(Interleaved 2 of 5)和二维码(QR Code)",
+                "description": "ZBar is an open-source software suite for reading barcodes from various sources. It supports many popular barcode types, including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Interleaved 2 of 5, and QR Code.",
                 "source_link": "http://zbar.sourceforge.net/"
             }
         }

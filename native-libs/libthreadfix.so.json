@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Samuioto"
                 ],
-                "description": "ThreadFix 通过将测试和漏洞数据集中在一个地方，使安全团队能够花更少的时间手动关联结果，花更多的时间解决安全风险和漏洞。而且，由于您可以快速识别对组织最重要的风险领域，因此您可以将漏洞存在于应用程序中的时间减少多达 40%。",
+                "description": "ThreadFix centralizes test and vulnerability data in one place, allowing security teams to spend less time manually correlating results and more time addressing security risks and vulnerabilities. Moreover, by quickly identifying the most important risk areas to the organization, you can reduce the time vulnerabilities exist in applications by up to 40%.",
                 "source_link": "https://www.coalfire.com/solutions/threadfix"
             }
         }

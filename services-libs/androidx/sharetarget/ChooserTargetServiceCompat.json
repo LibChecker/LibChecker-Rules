@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "提供向后兼容性，可以将快捷方式用作直接共享目标。",
+                "description": "Provide backward compatibility, allowing shortcuts to be used as direct share targets.",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/sharetarget"
             }
         }

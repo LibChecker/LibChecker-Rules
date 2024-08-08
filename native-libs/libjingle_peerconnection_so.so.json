@@ -22,7 +22,7 @@
                     "Absinthe",
                     "baker7915"
                 ],
-                "description": "借助 WebRTC，您可以在基于开放标准的应用程序中添加实时通信功能。它支持在同级之间发送视频，语音和通用数据，从而使开发人员能够构建功能强大的语音和视频通信解决方案。该技术可在所有现代浏览器以及所有主要平台的本机客户端上使用。 WebRTC 背后的技术被实现为一个开放的 Web 标准，并在所有主要浏览器中均以常规 JavaScript API 的形式提供。",
+                "description": "With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard. It supports sending video, voice, and generic data between peers, enabling developers to build powerful voice- and video-communication solutions. The technology is available on all modern browsers as well as on native clients for all major platforms. The technology behind WebRTC is implemented as an open web standard and is available as regular JavaScript APIs in all major browsers.",
                 "source_link": "https://webrtc.org/"
             }
         }

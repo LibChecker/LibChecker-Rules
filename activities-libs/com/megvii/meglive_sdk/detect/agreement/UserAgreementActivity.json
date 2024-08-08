@@ -24,7 +24,7 @@
                     "yfdyh000",
                     "ArthurCyy"
                 ],
-                "description": "检测图片或视频流中的人脸，支持针对检测出的人脸进行属性分析。",
+                "description": "Detect faces in images or video streams and support attribute analysis for detected faces.",
                 "source_link": "https://www.faceplusplus.com.cn/face-detection/"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "百度语音开放平台 Android SDK，提供短语音识别、实时语音识别、离线自定义命令词识别、远场语音识别、语音唤醒、语义解析与对话管理等相关接口。SDK内部均为采用流式协议，即用户边说边处理。区别于 Restapi 需要上传整个录音文件。",
+                "description": "Baidu Voice Open Platform Android SDK provides interfaces for short voice recognition, real-time voice recognition, offline custom command word recognition, far-field voice recognition, voice wake-up, semantic parsing, and dialogue management. The SDK internally adopts a streaming protocol, meaning users can process while speaking, unlike Restapi which requires uploading the entire recording file.",
                 "source_link": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
             }
         }

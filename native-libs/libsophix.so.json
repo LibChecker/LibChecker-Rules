@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "dudukee"
                 ],
-                "description": "移动热修复（Mobile Hotfix）是面向Android、iOS 平台应用提供的在线热修复服务方案，产品基于阿里巴巴首创的 Hotpatch 技术，提供细粒度热修复能力，无需等待发版即可实时修复应用线上问题，用户全程无感知。",
+                "description": "Mobile Hotfix is an online hotfix service solution for Android and iOS platform applications, based on Alibaba's pioneering Hotpatch technology, providing fine-grained hotfix capabilities, allowing real-time application online issue fixes without waiting for version release, with users having no perception throughout.",
                 "source_link": "https://help.aliyun.com/document_detail/434525.html"
             }
         }

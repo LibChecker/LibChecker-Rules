@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "以智能手机的 SE 芯片作为 eID 的安全载体，除了具备国密资质的安全芯片提供的安全保障外，还有 TEE 加强了对用户授权的保护，更有 NFC 通道为传统 eID 打通线上线下功能。",
+                "description": "Using the SE chip of a smartphone as a secure carrier for eID, it not only provides security assurance with a security chip qualified for national encryption but also enhances user authorization protection with TEE, and further bridges the online and offline functions of traditional eID through the NFC channel.",
                 "source_link": "https://eid.cn/useeid/mobile.html"
             }
         }

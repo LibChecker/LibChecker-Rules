@@ -1,0 +1,2030 @@
+[
+{
+    "description": "Android BLE Scanner Compat library",
+    "uuid": "7EF986AF-4D68-4DCE-971F-11ABD7BA2810"
+},
+{
+    "description": "Jetpack MediaRouter",
+    "uuid": "C6E84B9F-A3BE-49D7-B1EC-4AB7D5DBF3F1"
+},
+{
+    "description": "Jetpack Tracing",
+    "uuid": "7C18D201-2C7B-47BB-AAB1-AD934AC1B253"
+},
+{
+    "description": "Jetpack Car",
+    "uuid": "53E31EB8-9DB5-4B9A-ACE6-35C270EA9FB2"
+},
+{
+    "description": "Jetpack ProfileInstaller",
+    "uuid": "0EA939B4-805A-4D08-9C68-47C745EB49E5"
+},
+{
+    "description": "Jetpack WorkManager",
+    "uuid": "42C6F59C-5ABB-442C-A5A1-4638A9BE329D"
+},
+{
+    "description": "Jetpack Remote Callback",
+    "uuid": "8DD8485C-8749-4A20-9862-1DEEC77EB80E"
+},
+{
+    "description": "Jetpack Glance",
+    "uuid": "744E2A7B-9603-4C80-B0FE-7B9ECC46704E"
+},
+{
+    "description": "Jetpack Media",
+    "uuid": "A71F8A7D-AFC4-46D6-BAFE-B17D5D129DFD"
+},
+{
+    "description": "极光联盟",
+    "uuid": "01DC5EBE-E044-4D3C-9DF1-63DE842BFCAD"
+},
+{
+    "description": "极光推送",
+    "uuid": "9D42B5B7-B14E-4ABB-91EE-9F3E2C602540"
+},
+{
+    "description": "Android Beacon Library",
+    "uuid": "CD33B7D3-71A4-45F9-89E5-619B033ACD16"
+},
+{
+    "description": "快应用",
+    "uuid": "FD6B295F-6973-4D71-96E2-4EE19545FE26"
+},
+{
+    "description": "阿里移动推送",
+    "uuid": "998F9398-BBD4-4941-8B1A-33694F024B9A"
+},
+{
+    "description": "ACRA",
+    "uuid": "686359AE-7C26-4D25-8706-C66EE1A9E400"
+},
+{
+    "description": "LeakCanary",
+    "uuid": "07BCD6B3-C777-4763-9D3F-8821DD843828"
+},
+{
+    "description": "融云 IM SDK",
+    "uuid": "1B6E2410-05BD-4B92-89FF-B05170BCD1AA"
+},
+{
+    "description": "Huawei Push",
+    "uuid": "10CA26F9-71FF-44D0-B7B3-BAF32A39448F"
+},
+{
+    "description": "HMS Analytics Kit",
+    "uuid": "6F8997BA-230E-4ADE-9656-0EC8D6102C9C"
+},
+{
+    "description": "百度人脸识别",
+    "uuid": "9D470D94-15E2-4B1C-B3CD-AC974CAC0FC1"
+},
+{
+    "description": "百度云推送",
+    "uuid": "49DAAC63-786C-434F-A4C4-3896FF4CDD1F"
+},
+{
+    "description": "友盟推送",
+    "uuid": "2DE0FA14-7F76-43EE-9EA0-72AA91298712"
+},
+{
+    "description": "乐播 SDK",
+    "uuid": "2045D4BB-3978-46C8-94AC-44038E5574E8"
+},
+{
+    "description": "Firebase",
+    "uuid": "E16F3713-3EC7-4943-8658-9F76240ED52C"
+},
+{
+    "description": "Google Play Service",
+    "uuid": "4B1BF101-0F4C-40BB-94CE-7CB875A2613B"
+},
+{
+    "description": "Firebase Analytics",
+    "uuid": "FA665B35-8580-4349-B941-DDE3EDC0EF6E"
+},
+{
+    "description": "Google Cast",
+    "uuid": "DB8527EC-15FD-4053-9703-48DEDCC137CB"
+},
+{
+    "description": "Google Analytics",
+    "uuid": "15B49681-431F-48B0-A947-13FD28E246C4"
+},
+{
+    "description": "快手广告 SDK",
+    "uuid": "E50EE803-C917-4491-BEEC-8B762D29A4AD"
+},
+{
+    "description": "App Center",
+    "uuid": "CF180D61-94F6-4E27-B397-FE869D45E822"
+},
+{
+    "description": "荣耀推送服务",
+    "uuid": "9E59DB84-1D8D-4011-988F-E2341A4D2E17"
+},
+{
+    "description": "mPaaS",
+    "uuid": "B9CAC057-3098-4840-8A14-2D18B7C92819"
+},
+{
+    "description": "Nebula SDK",
+    "uuid": "48529F59-FCC1-4DDE-A579-01C50A41B8AB"
+},
+{
+    "description": "百川电商 SDK - 授权",
+    "uuid": "76EBC737-8F52-41AF-A5D5-6F399EB75C7B"
+},
+{
+    "description": "个推",
+    "uuid": "D656C0C1-8EBD-4BE3-AFA2-492B89C2B690"
+},
+{
+    "description": "GMP Push SDK",
+    "uuid": "A42C82E8-79FB-4D79-BBDA-E0C4AC85D025"
+},
+{
+    "description": "Meizu Push",
+    "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B"
+},
+{
+    "description": "Pangle SDK",
+    "uuid": "EC2DA2D1-1725-48FD-84B7-BDE84269B870"
+},
+{
+    "description": "MiPush",
+    "uuid": "7F95A4F6-AFD2-451D-B835-1B969E7A53A4"
+},
+{
+    "description": "小米应用检查更新 SDK",
+    "uuid": "C138B97E-877F-48E2-921D-4162BF4AB818"
+},
+{
+    "description": "Facebook SDK",
+    "uuid": "FE88971C-0A92-4E23-BF51-09873298B5CE"
+},
+{
+    "description": "腾讯移动推送",
+    "uuid": "4737E81A-1002-4334-BFEB-F9402F8539C8"
+},
+{
+    "description": "Mars",
+    "uuid": "9BF5AA4B-551A-4CCC-B385-C88959734D80"
+},
+{
+    "description": "小米广告 SDK",
+    "uuid": "588664E5-1834-46A2-98BC-0250368B82C1"
+},
+{
+    "description": "Weex",
+    "uuid": "BE9EFE71-A992-48A3-B7B1-D0C514152B74"
+},
+{
+    "description": "DataFinder",
+    "uuid": "D876CF90-7507-41B2-BAC1-87AC7063E45C"
+},
+{
+    "description": "网易云通信 SDK",
+    "uuid": "442A032D-FA70-46EF-A55C-5AB6B9BF771C"
+},
+{
+    "description": "招商银行 SDK",
+    "uuid": "6CC802EB-9186-4CAD-8ED6-7420815FD495"
+},
+{
+    "description": "Jetpack Room",
+    "uuid": "8EE5A226-7511-42CD-985A-DA4418BB5355"
+},
+{
+    "description": "Jetpack Core",
+    "uuid": "B4610D43-D1A3-46C1-A55B-CDE665E18CEA"
+},
+{
+    "description": "Jetpack Camera",
+    "uuid": "B670C354-BD62-41EB-9FEF-D50E0208EC40"
+},
+{
+    "description": "Jetpack ShareTarget",
+    "uuid": "E345D252-9789-480A-8D3A-1316A09D142D"
+},
+{
+    "description": "Jetpack AppCompat",
+    "uuid": "D2A17366-5160-4179-BCEC-F88A566BA8DC"
+},
+{
+    "description": "nubia Push",
+    "uuid": "FC311A7B-E1A4-4572-8AD1-5F78F6731244"
+},
+{
+    "description": "Neptune",
+    "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+},
+{
+    "description": "VirtualAPK",
+    "uuid": "8E4023AE-94AE-4EFB-A23F-DAD3EA2E53E4"
+},
+{
+    "description": "RePlugin",
+    "uuid": "9D13D66F-BE96-46A6-9560-15213505320B"
+},
+{
+    "description": "智能小程序",
+    "uuid": "1DA090EF-5D34-40A8-B236-6173A544A2DD"
+},
+{
+    "description": "Mira",
+    "uuid": "61F10B5A-CE86-4A74-84FB-FBCA22C3A801"
+},
+{
+    "description": "IJKPlayer",
+    "uuid": "D598EB22-6E89-4FF8-A1C6-C4CCF3AD56DD"
+},
+{
+    "description": "VirtualApp",
+    "uuid": "9ABA41D7-B390-4463-8D67-6936469CE2FF"
+},
+{
+    "description": "FileDownloader",
+    "uuid": "151210C1-4C13-4F17-B997-DFECC0B60E1E"
+},
+{
+    "description": "美洽客服 SDK",
+    "uuid": "5D594020-2C91-44FD-9C47-5C898F430A7B"
+},
+{
+    "description": "HMS Audio Kit",
+    "uuid": "632FA09C-6AAB-40FB-AC62-4EE9710CC51A"
+},
+{
+    "description": "HMS Video Kit",
+    "uuid": "DBF958D8-E13F-43F8-8F6A-ED6E94A2FDF0"
+},
+{
+    "description": "AppGallery Connect",
+    "uuid": "D6334CD5-54FC-4E27-8E48-A228C094FBC9"
+},
+{
+    "description": "Sofire",
+    "uuid": "536B0B34-C4E8-4E27-8387-5CFBE4F9818D"
+},
+{
+    "description": "旷视 SDK",
+    "uuid": "7F37FA38-598E-4380-AB0B-9A4E71E266A8"
+},
+{
+    "description": "Android-Job",
+    "uuid": "CA6A8B37-6359-4E6B-AE7B-B4439579BAB4"
+},
+{
+    "description": "AppLovin",
+    "uuid": "F616A164-6FA7-4D84-A9BB-0431CB14AA31"
+},
+{
+    "description": "ML Kit",
+    "uuid": "6CC4D7E2-85A3-4D62-906E-365951864254"
+},
+{
+    "description": "Firebase Cloud Messaging",
+    "uuid": "90E071CD-011F-4338-9F9A-343BDE59DB11"
+},
+{
+    "description": "Google AdMob",
+    "uuid": "4CA775FF-C215-4140-B184-191E24CB9D4C"
+},
+{
+    "description": "Google Sign-In",
+    "uuid": "3875CCD5-A4CD-4F61-BDC2-FD7313957987"
+},
+{
+    "description": "Google Play Legacy Photo Picker",
+    "uuid": "F1C7CB28-7CA0-457A-90AB-23CC8C33DEEF"
+},
+{
+    "description": "支付宝 SDK",
+    "uuid": "B0053AEB-C673-49EF-BD71-A7C7B71A3932"
+},
+{
+    "description": "智齿客服 SDK",
+    "uuid": "41140436-280D-44FD-B75F-587CFCBB2606"
+},
+{
+    "description": "AndPermission",
+    "uuid": "CF7F80B8-7928-479C-8522-B44574755552"
+},
+{
+    "description": "PCDN SDK",
+    "uuid": "D98B4F90-5D1D-4732-AAA3-AE9FE070520C"
+},
+{
+    "description": "AndroidUtilCode",
+    "uuid": "4510E761-EE07-442D-BEB3-2AAAE12F26E0"
+},
+{
+    "description": "OPPO Push",
+    "uuid": "FB976598-FA59-4A97-B792-32405AD68505"
+},
+{
+    "description": "PayPal Android SDK",
+    "uuid": "A370F8D4-75E5-4731-9189-A0665FD411AF"
+},
+{
+    "description": "高德地图 SDK",
+    "uuid": "9B679884-4D19-408E-88DB-1F15B2EFF1D7"
+},
+{
+    "description": "Tinker",
+    "uuid": "2CE09116-1182-48A4-8E88-71BD7DFD0E2A"
+},
+{
+    "description": "腾讯浏览服务（TBS）",
+    "uuid": "C483A992-68A9-4E6A-B979-171B983E4391"
+},
+{
+    "description": "腾讯地图 SDK",
+    "uuid": "C42C6BCB-7E49-42D6-8C5B-092226AF8D00"
+},
+{
+    "description": "Bugly",
+    "uuid": "6E53BF19-A08F-48D0-98A8-74CF79E192CF"
+},
+{
+    "description": "Matrix",
+    "uuid": "0374FD67-A389-4EFC-991B-724E41496520"
+},
+{
+    "description": "腾讯云通信 SDK",
+    "uuid": "5C466086-DBB2-495D-8F82-58EE37130CC8"
+},
+{
+    "description": "KOOM",
+    "uuid": "18E020F8-BBAD-4598-A785-2C242B811AEE"
+},
+{
+    "description": "Mapbox Maps SDK",
+    "uuid": "ACFAD405-9457-45FC-AFFC-938202C497F8"
+},
+{
+    "description": "Qigsaw",
+    "uuid": "64925281-D4E0-4DF4-88E4-07BF3C8A3979"
+},
+{
+    "description": "BoostMultiDex",
+    "uuid": "E8CB8812-B1CB-49DF-BFE6-942F880DE2D6"
+},
+{
+    "description": "Instabug",
+    "uuid": "7960D630-78BD-491C-811D-70DE6471BEEE"
+},
+{
+    "description": "vivo Push",
+    "uuid": "5FB95D44-3E64-4674-9ABA-B2653814FE4A"
+},
+{
+    "description": "腾讯广告 SDK",
+    "uuid": "D10C56EE-7F64-46B6-A0D0-EAD6D26C896B"
+},
+{
+    "description": "Mtop SDK",
+    "uuid": "6F71830B-9FC3-42AC-AD25-63EA3CB0FAAF"
+},
+{
+    "description": "Trichrome",
+    "uuid": "84362B40-8621-448A-A975-73F0E69E91C6"
+},
+{
+    "description": "File Provider",
+    "uuid": "7B1DA564-ADCF-437B-891E-203CBFF847BE"
+},
+{
+    "description": "Jetpack Camera2",
+    "uuid": "79A51827-3838-43F5-8EF6-3BDB6496AC6D"
+},
+{
+    "description": "Jetpack Lifecycle",
+    "uuid": "1987147A-53F5-4C2B-8913-C56CF3C84BA6"
+},
+{
+    "description": "Jetpack App Startup",
+    "uuid": "64206E9E-3C56-4D79-BFBE-9E24C03A6544"
+},
+{
+    "description": "Bmob 后端云",
+    "uuid": "A9BA6EC0-0C38-4185-BD58-00F006506430"
+},
+{
+    "description": "ZBar",
+    "uuid": "12ABC8F8-E201-4CC0-AC84-EFE6EEC341E4"
+},
+{
+    "description": "Flutter",
+    "uuid": "AEF9680F-4A43-4EDC-A5B8-8119D23BCD21"
+},
+{
+    "description": "Sentry",
+    "uuid": "3489D3BA-EB43-4AF4-AFB7-18D7782E2A77"
+},
+{
+    "description": "Shizuku",
+    "uuid": "349AC6A4-7A3A-4FEF-96BC-F719A3E32DC4"
+},
+{
+    "description": "ReToast",
+    "uuid": "F2614AC3-328A-496D-B15A-948965F76E7C"
+},
+{
+    "description": "AndroidAutoSize",
+    "uuid": "F50B9838-9F52-46BF-AB88-FA6101B9D27F"
+},
+{
+    "description": "Picasso",
+    "uuid": "2A4CB04C-0710-4BFF-AA14-F9BEA71D3055"
+},
+{
+    "description": "七鱼 SDK",
+    "uuid": "C1D3CC0E-F98B-4454-97E6-EC2F5C02B6E7"
+},
+{
+    "description": "OkDownload",
+    "uuid": "E848DA37-070B-4C3C-B045-FA3532E96C95"
+},
+{
+    "description": "Crashlytics",
+    "uuid": "D1F309E4-8334-4A1D-BE05-1216D07AC420"
+},
+{
+    "description": "HMS Update",
+    "uuid": "90565FE6-999B-42E5-BDEE-A140F89497F6"
+},
+{
+    "description": "HMS Business Touch Kit",
+    "uuid": "1B848681-7168-40BE-BA7E-D81ED3314BA0"
+},
+{
+    "description": "HMS ML Kit",
+    "uuid": "8C79BA2A-76BD-4435-AADC-E7129E672674"
+},
+{
+    "description": "HMS Core",
+    "uuid": "E0C8FE87-E520-4AB5-BA6D-AD6BB65E529E"
+},
+{
+    "description": "HMS Core AAID",
+    "uuid": "51A3D61E-5A43-48A2-B4E3-4A4C2E36393F"
+},
+{
+    "description": "Huawei Ads SDK",
+    "uuid": "B3773373-FCFC-4083-ADCD-978C02A647EC"
+},
+{
+    "description": "移动应用推广 SDK",
+    "uuid": "CBF5BE97-7FB5-4DD7-87CB-B35C4DBF6C02"
+},
+{
+    "description": "Bilibili Oauth SDK",
+    "uuid": "18A5E6C3-71D4-4AF7-9A9F-48F0A07BAACE"
+},
+{
+    "description": "Xpref",
+    "uuid": "747FD7A4-6BBE-43F5-83ED-F4AA541C6601"
+},
+{
+    "description": "React Native",
+    "uuid": "D91D8716-4843-4BEE-B4A6-6BB0E7D2FB2D"
+},
+{
+    "description": "Firebase Performance",
+    "uuid": "BF018408-691C-4527-AA5D-7921038FF8CE"
+},
+{
+    "description": "AgentWeb",
+    "uuid": "15655B50-46D4-4A3A-9E3B-4BD8F17BBDD2"
+},
+{
+    "description": "Audience Network",
+    "uuid": "A275EB7F-4451-4E4D-A879-6F80511AD7F5"
+},
+{
+    "description": "DRouter",
+    "uuid": "FEA7C635-3676-44A4-9B56-E942EE4DE707"
+},
+{
+    "description": "神策分析 SDK",
+    "uuid": "DA771D36-4047-46ED-93D6-5F2794211BBF"
+},
+{
+    "description": "MMKV",
+    "uuid": "340BC3DF-C6B4-444C-B80B-0532C7AB8EB6"
+},
+{
+    "description": "腾讯移动分析",
+    "uuid": "346F3D3B-688D-4E5C-9A37-576CD70BDB0D"
+},
+{
+    "description": "PictureSelector",
+    "uuid": "3F275A1F-A5E0-48A6-83FF-9344FE5D612D"
+},
+{
+    "description": "CodeLocator",
+    "uuid": "FED839E5-84EE-48F1-9EE0-8ED7EBF5006F"
+},
+{
+    "description": "微博 SDK",
+    "uuid": "51F81121-A04D-4D17-B0AA-72BEA1C5C89D"
+},
+{
+    "description": "梆梆安全",
+    "uuid": "E240642F-78A6-4721-B9D6-9A4713811993"
+},
+{
+    "description": "号码认证服务",
+    "uuid": "37F5ED7F-46EE-456F-AE2D-7C02D1153566"
+},
+{
+    "description": "FreeType",
+    "uuid": "EBF98ACC-FCFD-48B7-8637-52066717CDE0"
+},
+{
+    "description": "爱加密",
+    "uuid": "4B263D0B-EF3E-4114-AE94-8AF5B9B94FEE"
+},
+{
+    "description": "Rime Core",
+    "uuid": "58F4089F-05A7-4ECE-B2BC-EC637C17B95C"
+},
+{
+    "description": "FMOD",
+    "uuid": "99488042-9BD2-4A71-845D-C56880285873"
+},
+{
+    "description": "手游安全 SDK",
+    "uuid": "E18C1369-E9BC-49F9-AE1F-B4163869DBEA"
+},
+{
+    "description": "BarHopper",
+    "uuid": "587512BA-F0D0-43FE-9A4A-3E57074A5201"
+},
+{
+    "description": "MNN",
+    "uuid": "B53DAF77-92C3-467B-BE30-27D22AFEAFA7"
+},
+{
+    "description": "React Native Skia",
+    "uuid": "FEA06702-E5FF-404D-A1E8-7998AD8BA7F0"
+},
+{
+    "description": "iApp",
+    "uuid": "AEDBB98B-B9F0-4A41-BB5C-35C04BFA2921"
+},
+{
+    "description": "离线语音合成 SDK",
+    "uuid": "D5186CD9-56C0-481A-A464-8C2B56ADAA22"
+},
+{
+    "description": "HiAI Foundation",
+    "uuid": "54F743D1-03D4-4CF6-A126-92A9C5ED8041"
+},
+{
+    "description": "腾讯优图 SDK",
+    "uuid": "A2D6A586-AF4E-44FB-83B0-095D137581E5"
+},
+{
+    "description": "OpenMobileMaps",
+    "uuid": "0539E6F0-60D8-4A21-8B93-777EFE950A9D"
+},
+{
+    "description": "mPaaS 社交分享",
+    "uuid": "A221BF76-BC77-4C57-8ADA-04ED24F079CA"
+},
+{
+    "description": "Lib_XUL",
+    "uuid": "D6A34166-22F2-4B4E-88C1-A6D65D4D9044"
+},
+{
+    "description": "Agora RTC SDK",
+    "uuid": "E0018805-1F10-4089-A249-DFA19BF24B83"
+},
+{
+    "description": "Hexagon DSP runtime library",
+    "uuid": "90BD63DC-D8A5-4160-B7D3-E50A60321661"
+},
+{
+    "description": "gocryptsfs",
+    "uuid": "DD630DAC-94A0-443C-AF7D-64004B698B49"
+},
+{
+    "description": "DuMix",
+    "uuid": "0D242852-2EAC-4C65-B912-D50B2C85EC6D"
+},
+{
+    "description": "iconv",
+    "uuid": "F02F9528-C4CD-4199-BB23-BFA960209D4D"
+},
+{
+    "description": "Vosk",
+    "uuid": "9A10FC06-0C22-47D2-A473-A6E8BC254952"
+},
+{
+    "description": "AVPro Video",
+    "uuid": "3A81F882-7FA6-44E0-ADAC-F7A7E4FF348D"
+},
+{
+    "description": "Tun2Socks",
+    "uuid": "ABCF87CA-4B77-4207-8B4C-EBE65548EA27"
+},
+{
+    "description": "Hermes JS Engine",
+    "uuid": "A228D644-0E73-4723-BBFA-5BBF905A49B7"
+},
+{
+    "description": "FFmpeg",
+    "uuid": "2733A862-D941-4D4E-BE95-67AA5A3F4093"
+},
+{
+    "description": "人像美化 SDK",
+    "uuid": "8DF8CDC3-51A1-4BDD-B2BB-14CD3C428BFC"
+},
+{
+    "description": "阿里聚安全",
+    "uuid": "21ABDBB7-CDC7-4D93-8043-FC5600D56D34"
+},
+{
+    "description": "RenderScript",
+    "uuid": "BFC29D0B-6C58-4A62-9EC4-2F716C3220D7"
+},
+{
+    "description": "小爱 SDK",
+    "uuid": "F8D5DBD2-FD89-4BD7-9D4E-CD38F1B12B74"
+},
+{
+    "description": "TagLib",
+    "uuid": "131D74BC-CCCA-47A2-AA6E-9B46E58AD38C"
+},
+{
+    "description": "xHook",
+    "uuid": "2625B5BA-5189-4386-9249-B037015BD402"
+},
+{
+    "description": "FFmpegKit",
+    "uuid": "B9B51F35-0313-4192-9C32-20BAFD83A9CB"
+},
+{
+    "description": "Xamarin",
+    "uuid": "2C146336-D9ED-480E-8459-5F2F4894F534"
+},
+{
+    "description": "AnyChat",
+    "uuid": "A4C176FF-1B68-4AB6-B840-05C1EAB85659"
+},
+{
+    "description": "Flutter Pty",
+    "uuid": "5C7BF303-FB3F-43D0-BD87-C2E5CD4C1193"
+},
+{
+    "description": "C++ 共享库",
+    "uuid": "3AF88EFC-244B-4F4B-B7E3-1799464DB267"
+},
+{
+    "description": "CFCA",
+    "uuid": "87D23FAD-B3D5-4D40-8D75-877CF45F4BB2"
+},
+{
+    "description": "RUpgrade",
+    "uuid": "F5DF29BC-2C9C-4AD2-BF1F-75D0B053BAFC"
+},
+{
+    "description": "OpenVPN",
+    "uuid": "A5C87088-862F-42F0-BE01-78D0E61861F6"
+},
+{
+    "description": "Mapbox GL Native",
+    "uuid": "DB3D7BC0-5A5F-481D-B29E-87B5F642855F"
+},
+{
+    "description": "Unity",
+    "uuid": "4622B49D-4ACA-42B3-9FCC-F82D2365B81B"
+},
+{
+    "description": "MSA SDK",
+    "uuid": "6CD3B14A-C75E-4451-8EAB-AC3BD931EF00"
+},
+{
+    "description": "Mediastreamer2",
+    "uuid": "D4705797-EBDB-4B3C-83B5-789C64E1205F"
+},
+{
+    "description": "阿里云短视频 SDK",
+    "uuid": "C2D10BC6-8853-4253-B993-DB51861AC085"
+},
+{
+    "description": "MSDK / MobileGame Software Development Kit",
+    "uuid": "BD752B15-8E42-41E1-8796-1073F88B4339"
+},
+{
+    "description": "网易云信",
+    "uuid": "9C3CF6AF-0121-4E22-AEC6-74CA75C0F78A"
+},
+{
+    "description": "libusb",
+    "uuid": "BD134228-E89E-4B74-A54B-654BCD18C9C1"
+},
+{
+    "description": "GME",
+    "uuid": "24CC86AC-C4FC-412C-BA85-244CB9F0C02D"
+},
+{
+    "description": "Cardboard SDK",
+    "uuid": "B9F72B04-D2FF-42C4-9B50-FBF16AC55AE1"
+},
+{
+    "description": "libzip",
+    "uuid": "F9E7B38F-D50F-41BC-A9AE-096158B40AAB"
+},
+{
+    "description": "Foxit PDF SDK",
+    "uuid": "321F7C3B-21A5-47AE-9D1E-20EFB840224B"
+},
+{
+    "description": "SHook",
+    "uuid": "4912BFFC-E3C2-4254-A113-0382789F15D2"
+},
+{
+    "description": "TDLib",
+    "uuid": "CDF259CF-68D3-4F94-97D7-509874DF268B"
+},
+{
+    "description": "OpenSSL",
+    "uuid": "900928FD-B86B-4C72-9FDE-372EDC299B00"
+},
+{
+    "description": "Clash Core",
+    "uuid": "D3A7DD55-A0CC-453F-8061-CADCCE16A9C3"
+},
+{
+    "description": "HMS Scan Kit",
+    "uuid": "E56E1718-0449-4028-A28C-9F912621B399"
+},
+{
+    "description": "VCAP",
+    "uuid": "4C2F3C58-23BA-4AB8-829E-ABE73365D06B"
+},
+{
+    "description": "腾讯客户端性能分析",
+    "uuid": "02F9D51A-248A-4B0F-8CE5-E3607441D63D"
+},
+{
+    "description": "xLua",
+    "uuid": "61B68276-3BFF-4F6E-B0E6-3C1E37F5BC37"
+},
+{
+    "description": "CV SDK",
+    "uuid": "47B06773-930B-407F-A0F0-BC4332682503"
+},
+{
+    "description": "语音识别 SDK",
+    "uuid": "A8805A8D-BE58-4411-87FA-613941D32558"
+},
+{
+    "description": "Pdfium",
+    "uuid": "66D2110B-94D1-413C-8C70-8D1DE223F178"
+},
+{
+    "description": "Leptonica",
+    "uuid": "80E008DF-1291-4AB1-A977-3C90A43D65C9"
+},
+{
+    "description": "React Native App Utils",
+    "uuid": "18B2C3E2-6045-4934-84A6-585162A72B81"
+},
+{
+    "description": "Paddle Lite",
+    "uuid": "90E6F74C-DC0E-4864-8C4E-73497BDB9465"
+},
+{
+    "description": "AntiFakerAndroidChecker",
+    "uuid": "F81DC466-2845-422B-AD4F-29ED68FF6B61"
+},
+{
+    "description": "Log for C++",
+    "uuid": "F04B2BAF-71ED-487F-8CC0-035B68F6412B"
+},
+{
+    "description": "ion",
+    "uuid": "156FAC36-D34E-4047-B446-11D17631E083"
+},
+{
+    "description": "极光认证 SDK",
+    "uuid": "6C892DAC-8F63-4FE8-8D7C-5849DBCBC135"
+},
+{
+    "description": "腾讯特效 SDK",
+    "uuid": "91FD576B-7C65-472D-A7A9-C80B3E1DCDF8"
+},
+{
+    "description": "LSPatch",
+    "uuid": "4992BA64-D546-4AF2-8FE5-DBB3EC8A8166"
+},
+{
+    "description": "APMInsight / 应用性能监控全链路版",
+    "uuid": "3E0441A8-7F7E-4A74-9FE2-32CA9053C9A3"
+},
+{
+    "description": "360 加固",
+    "uuid": "9A0B036F-3B8E-454A-B488-3F9F7C4005A1"
+},
+{
+    "description": "Bugsnag",
+    "uuid": "4EF1EB69-5CCC-401B-B910-D3648400724E"
+},
+{
+    "description": "React Native Reanimated",
+    "uuid": "7178CF3A-BFA0-4593-8D46-325A45904895"
+},
+{
+    "description": "libSDL",
+    "uuid": "72DDCF09-26D6-4549-B02C-0D83D7F3C2A1"
+},
+{
+    "description": "aria2",
+    "uuid": "EA41B40E-4DC4-458D-B679-7FC3CCBAE83E"
+},
+{
+    "description": "EasyProtector",
+    "uuid": "321E12B3-92AD-437A-8D83-22E3700106DD"
+},
+{
+    "description": "WireGuard",
+    "uuid": "B80A5E33-882B-479D-AAEA-F0E8C16B8B4E"
+},
+{
+    "description": "libavif",
+    "uuid": "195E06E2-6D1D-4322-8BA6-38D6E9522533"
+},
+{
+    "description": "阿里云游戏盾",
+    "uuid": "1AFA927D-8D38-43B2-A7A2-FEB16EC7E606"
+},
+{
+    "description": "HUAWEI WebView",
+    "uuid": "8F78B845-1C47-4154-A80B-3C3F8C436DF4"
+},
+{
+    "description": "StackBlur",
+    "uuid": "B0717AFB-AACD-43F6-856E-0BC3EFDC9349"
+},
+{
+    "description": "AR Engine",
+    "uuid": "A9267174-64DA-48A4-84A8-DA8E8A26FB56"
+},
+{
+    "description": "libyaml",
+    "uuid": "162BDF1E-65A4-4B7B-8795-9249A031A441"
+},
+{
+    "description": "RxFFmpeg",
+    "uuid": "95A8278F-D130-4490-A94F-2F3A44A98AB2"
+},
+{
+    "description": "LAME",
+    "uuid": "E5025ACF-ADEE-4BA9-98D7-FD4B3B22DBE5"
+},
+{
+    "description": "uCrop",
+    "uuid": "7B41A761-76E2-4C6E-B107-6F0DF0C9505A"
+},
+{
+    "description": "Trojan-Go",
+    "uuid": "6910F1C7-3FA3-4D00-8067-20640281226C"
+},
+{
+    "description": "Hippy",
+    "uuid": "F7EDEC1B-0583-40E8-87B2-0F36CF2FB2AE"
+},
+{
+    "description": "岳鹰全景监控",
+    "uuid": "81731C38-3E65-4B3F-A8C7-47083F62E928"
+},
+{
+    "description": "libp2p",
+    "uuid": "14B29CAB-B568-4B14-8D90-831D54776B25"
+},
+{
+    "description": "腾讯语音识别",
+    "uuid": "D52B0B40-FF1F-40FC-906D-3AA8E7732BB1"
+},
+{
+    "description": "小米 IoT SDK",
+    "uuid": "626512BE-E87D-4B7E-959D-1B074197D635"
+},
+{
+    "description": "Sandhook",
+    "uuid": "00B74EAB-D3F4-4768-A325-F01E2080D5CC"
+},
+{
+    "description": "金融级实人认证 SDK",
+    "uuid": "B0F28E7E-F328-47CF-8AF4-641766D944AE"
+},
+{
+    "description": "SoundTouch",
+    "uuid": "6384A38E-37B0-4E7A-9425-E85335723780"
+},
+{
+    "description": "zipw",
+    "uuid": "8597D3CF-C63E-42D4-ACAB-C74D68D33091"
+},
+{
+    "description": "TUTK SDK",
+    "uuid": "C0480A80-600A-4F7D-A475-C3F1A17B68C9"
+},
+{
+    "description": "AndFix",
+    "uuid": "34A26199-9F89-41C3-B9E4-5DFB03982A93"
+},
+{
+    "description": "Ping++ SDK",
+    "uuid": "94AAC0EA-B6B1-4147-845A-E34CB4E9E36B"
+},
+{
+    "description": "SmartAppUpdates",
+    "uuid": "679E7EE7-CFDC-4E65-BE77-2125683F4EEC"
+},
+{
+    "description": "Artemis Engine",
+    "uuid": "52626855-D3F8-466A-90E8-C640CAAAF0AA"
+},
+{
+    "description": "SNPE SDK",
+    "uuid": "CDCF8855-6475-4A08-8125-F764A69A05C4"
+},
+{
+    "description": "MuPDF",
+    "uuid": "D100E2DE-D729-4D97-A66E-8B51A090ED5B"
+},
+{
+    "description": "libdevinfo",
+    "uuid": "C3B1C90C-7A7F-4938-86DB-5680932EDDE5"
+},
+{
+    "description": "Rclone",
+    "uuid": "E927365C-3C3C-4E81-A806-00A2C4DF1CC7"
+},
+{
+    "description": "文字识别服务",
+    "uuid": "5C794C79-72AD-461D-8910-9BB40ACE75B8"
+},
+{
+    "description": "GL4ES",
+    "uuid": "2C4AD6CE-A131-4CC8-BCA1-CEB535225FF0"
+},
+{
+    "description": "Yoga",
+    "uuid": "F9D78474-DED0-42F4-9509-CE38E4C54A88"
+},
+{
+    "description": "LibVLC",
+    "uuid": "808EBEF8-FB5B-4AD5-B9C7-9B3F2556DDA8"
+},
+{
+    "description": "网易易盾",
+    "uuid": "E25BFC4A-02F0-48D3-A311-6F893D664643"
+},
+{
+    "description": "Brotli",
+    "uuid": "1F60DEDD-88A8-4DBD-8F57-21CEEB29355B"
+},
+{
+    "description": "ZAndrolua",
+    "uuid": "1220EEBB-9ED4-496A-9D16-7C0BA72CB683"
+},
+{
+    "description": "GPUImage",
+    "uuid": "386D137D-F390-4C51-AD6B-AA1ADC11970C"
+},
+{
+    "description": "Godot Engine",
+    "uuid": "EBE54595-4C08-4BC8-A7EA-B53C04115993"
+},
+{
+    "description": "百度 LBS",
+    "uuid": "79D61986-2C93-47F1-A8A0-882C553266DA"
+},
+{
+    "description": "腾讯云实时音视频",
+    "uuid": "442E0269-812F-41BC-A04F-C6809F215260"
+},
+{
+    "description": "腾讯游戏 MSDK",
+    "uuid": "51CC509E-7445-4D62-AAA4-36AC45C26A78"
+},
+{
+    "description": "Kraken",
+    "uuid": "B39C9540-A5FF-4835-A272-7FA1CFB5B3E2"
+},
+{
+    "description": "WebM VP8/VP9",
+    "uuid": "73B6B0AF-A961-40A7-AAE0-8F0CB218DD9A"
+},
+{
+    "description": "Google Ink (Sketchology)",
+    "uuid": "C21B6781-45B9-4DB9-BF12-C27479D7346E"
+},
+{
+    "description": "Symphony CPU runtime library",
+    "uuid": "A400F3F7-308C-4CC6-9F9C-3512F8ED0D69"
+},
+{
+    "description": "Qimei SDK",
+    "uuid": "456BC105-5F2A-4A7C-BB85-4E8C965F031A"
+},
+{
+    "description": "数美 SDK",
+    "uuid": "A1B20B90-5953-4D62-ABB9-98F4916B4E41"
+},
+{
+    "description": "AdColony",
+    "uuid": "853204BF-71F4-4AF6-A6DB-0394BAE2C515"
+},
+{
+    "description": "SQLite",
+    "uuid": "1C0C7127-15F6-4ABF-932F-0409CFA4B235"
+},
+{
+    "description": "PAG",
+    "uuid": "BB4F25C0-45FE-4F91-9F59-75212252D698"
+},
+{
+    "description": "HMS Video Kit HDR Vivid",
+    "uuid": "67C464F3-DD4F-40A6-B85C-3747E78812DD"
+},
+{
+    "description": "腾讯云 HTTPDNS",
+    "uuid": "03E0B89A-55F3-480E-9DDF-87EF69ADDA5C"
+},
+{
+    "description": "QuickJS",
+    "uuid": "1B64AF08-F355-4725-9A32-B2ADCFDABCA1"
+},
+{
+    "description": "Faceunity Nama SDK",
+    "uuid": "C4C2566A-FDCD-4B4A-A5DB-AE94EB7396D0"
+},
+{
+    "description": "LibJPEG",
+    "uuid": "5CF6CB35-3233-4D59-B4CE-DBC0CE104CBB"
+},
+{
+    "description": "OpenCV",
+    "uuid": "10BB59E5-7ECC-4A76-9614-CBEF644E635C"
+},
+{
+    "description": "Rust",
+    "uuid": "26FBEA10-B48A-406B-BF17-4428664F5D54"
+},
+{
+    "description": "PLDroidPlayer",
+    "uuid": "46F0DFDA-DBAA-45F5-838F-CFEC31D0C10A"
+},
+{
+    "description": "GIFLIB",
+    "uuid": "B19118B2-31D3-4463-9811-2F8C71DDA373"
+},
+{
+    "description": "Mozilla NSS",
+    "uuid": "F53F1DE9-6ACD-44F7-B71E-E9A8ED63F4A0"
+},
+{
+    "description": "腾讯云短视频 SDK",
+    "uuid": "9714D30D-7EAB-4DBA-BC89-6A03192A39A7"
+},
+{
+    "description": "百度应用加固",
+    "uuid": "7494560B-FCCE-46D6-8210-8398CD284F82"
+},
+{
+    "description": "Log4a",
+    "uuid": "96C62FC5-DBC7-4E41-B755-21790B6C3C4A"
+},
+{
+    "description": "Megazord",
+    "uuid": "B30AE591-CE42-491A-AC9D-11B8E43E2EE6"
+},
+{
+    "description": "QuickJS Binding",
+    "uuid": "6E8B57B1-5F50-4CAA-88FA-3CE51B27F421"
+},
+{
+    "description": "vivo 网游联运 SDK",
+    "uuid": "3B221A67-D50B-46A5-BD8C-FA01456C21DD"
+},
+{
+    "description": "正版曲库直通车",
+    "uuid": "CDF463E8-7225-4535-8A6F-F91C26DB3018"
+},
+{
+    "description": "FinClip",
+    "uuid": "345DD6BE-3748-4FF9-9016-29AD74963D6A"
+},
+{
+    "description": "金山云短视频编辑 SDK",
+    "uuid": "4C62DC31-0466-487C-8E2B-176C12F3CFC1"
+},
+{
+    "description": "Quack",
+    "uuid": "D0778DEA-0123-4E29-AF44-B5E95BDDC786"
+},
+{
+    "description": "LayaAir",
+    "uuid": "1C224B74-F0E6-46B2-9EDD-3DDA1576ECEB"
+},
+{
+    "description": "Virocore",
+    "uuid": "798832B0-8725-415C-BFCB-D89EBA5492CD"
+},
+{
+    "description": "BHook",
+    "uuid": "0DE42D03-A0FC-4314-913B-0782A2DA89F6"
+},
+{
+    "description": "Google WOFF2",
+    "uuid": "FE932D91-3B7A-4F6B-9EEF-EBC9A5607028"
+},
+{
+    "description": "WebP",
+    "uuid": "2DB234BA-EC81-4B8F-9D64-2FC5CF2C7330"
+},
+{
+    "description": "阿里移动热修复",
+    "uuid": "84AB15B9-561F-450F-B6A9-A83F0A3C032E"
+},
+{
+    "description": "nmmp",
+    "uuid": "C65BB325-CB06-46A4-BD26-C1E35AB48E03"
+},
+{
+    "description": "LibMpv",
+    "uuid": "3D48CEEF-8233-421E-85E9-6943B0CCB2EA"
+},
+{
+    "description": "ShadowHook",
+    "uuid": "412158E6-C860-43DA-839A-7F16BCB43965"
+},
+{
+    "description": "HDiffPatch",
+    "uuid": "68944C21-9EFA-4B69-9F56-023676BDF6CF"
+},
+{
+    "description": "腾讯云实时音视频 SDK",
+    "uuid": "CDC68B92-6B5D-440E-837A-2CF354D68471"
+},
+{
+    "description": "GlideWebpDecoder",
+    "uuid": "373C0B20-210C-4F42-9C66-0A3C13C7BB96"
+},
+{
+    "description": "米大师",
+    "uuid": "4FD31734-31F8-4FAB-B6DB-5B98ACB0ADD3"
+},
+{
+    "description": "Breakpad",
+    "uuid": "3E62B930-55DE-4D17-A948-A8D2D0ACD703"
+},
+{
+    "description": "Logan",
+    "uuid": "4C9B1408-8139-4BE2-AAD9-CAEA666E3E3B"
+},
+{
+    "description": "日志服务  SLS",
+    "uuid": "22E4673B-C518-4B19-9F50-1F337A07A873"
+},
+{
+    "description": "Fresco",
+    "uuid": "951BAD0E-83E5-44F7-83F2-7B3B6AF1C7BC"
+},
+{
+    "description": "腾讯云直播 SDK",
+    "uuid": "7DFB5A3D-6CC5-4325-8BA2-5457B36CB256"
+},
+{
+    "description": "Oboe",
+    "uuid": "084B58C5-B3E0-44EC-964C-0F12D2661DA8"
+},
+{
+    "description": "hsynz",
+    "uuid": "C0D6B04F-8DB8-4929-A4A3-3099169AF1DA"
+},
+{
+    "description": "网易云捕",
+    "uuid": "8B905AEB-A3C3-4B39-B2A1-C434E0125C61"
+},
+{
+    "description": "离线语音合成",
+    "uuid": "AD40CF2D-0585-477C-B774-97D9BB11283D"
+},
+{
+    "description": "WCDB",
+    "uuid": "A3D30556-15BA-4C00-92CB-06600F1C5909"
+},
+{
+    "description": "Unity Mono",
+    "uuid": "DEA72298-C9F0-444D-8AD1-53A5F2BDF006"
+},
+{
+    "description": "librtlsdr",
+    "uuid": "BF2E2488-27E3-43DA-B40C-D34207E9CC45"
+},
+{
+    "description": "AppGallery Connect APM",
+    "uuid": "807841F8-5FC8-4DBB-B526-30F640902436"
+},
+{
+    "description": "Ren'Py",
+    "uuid": "63BC7C87-1386-4F3B-ADC7-12C2B6E5218A"
+},
+{
+    "description": "libtcc",
+    "uuid": "9F019E8A-6716-43B6-AB82-70418B286C8C"
+},
+{
+    "description": "小米游戏 SDK",
+    "uuid": "C0FC76F7-D905-4BEE-A93D-BB69A6961760"
+},
+{
+    "description": "腾讯御安全",
+    "uuid": "9A3FA509-5843-4BDF-9811-20D641484267"
+},
+{
+    "description": "腾讯乐固",
+    "uuid": "3824E3D2-1B91-41EE-8E53-3B02B429140F"
+},
+{
+    "description": "libtnet",
+    "uuid": "0374D41D-B5DE-47C8-BBB0-745DAB68D173"
+},
+{
+    "description": "Firebase C++ SDK",
+    "uuid": "FA9F420B-AA1C-471E-A329-6848AFF9A7C0"
+},
+{
+    "description": "Qt5",
+    "uuid": "C8986862-DF6F-48B1-8CEE-D7440076934A"
+},
+{
+    "description": "libtorrent4j",
+    "uuid": "A677C5B5-5466-4446-9B69-969D5FA6DBF4"
+},
+{
+    "description": "Yandex SpeechKit",
+    "uuid": "E331500D-8703-4F27-9CE5-1E4224806036"
+},
+{
+    "description": "百度地图 SDK",
+    "uuid": "D8DFF9EA-7CC2-4BBA-8F5A-6D4C5B83DDA9"
+},
+{
+    "description": "Javet",
+    "uuid": "4CF2C811-245B-418C-AA1E-1C1B542274D2"
+},
+{
+    "description": "jlibtorrent",
+    "uuid": "93038F75-E442-45E5-A3B8-7F2B3A446EE5"
+},
+{
+    "description": "百川 SDK",
+    "uuid": "BA384E26-0BFE-4916-8640-A4AB198F4CEB"
+},
+{
+    "description": "Telegram APIs",
+    "uuid": "B2AD03C6-DC66-429F-A998-4ECD0E4E82C5"
+},
+{
+    "description": "Qt6",
+    "uuid": "154F93E4-BA48-4C0D-9DC1-172CA9A404CC"
+},
+{
+    "description": "python-for-android",
+    "uuid": "4C0FB7C4-89E5-4E12-9094-ABF1A8C4F352"
+},
+{
+    "description": "顶象无感验证 SDK",
+    "uuid": "00670C76-5F4A-45B2-8103-DA8611DD50A0"
+},
+{
+    "description": "Cronet",
+    "uuid": "105C339E-D88A-4059-A7D3-1EF735754F8A"
+},
+{
+    "description": "MediaInfoLib",
+    "uuid": "63691E6A-DCE7-40BF-8B19-681E03CDCA26"
+},
+{
+    "description": "游戏语音 GVoice",
+    "uuid": "4870FD6D-4E48-4A2F-ACBB-01BF3C1FDF45"
+},
+{
+    "description": "CRI ADX2 Unity 插件",
+    "uuid": "2223209B-1831-4C74-8318-C6F883B6508C"
+},
+{
+    "description": "思必驰",
+    "uuid": "89323A0E-4DE5-4460-9FF8-65EB9D76E662"
+},
+{
+    "description": "React Native Screens",
+    "uuid": "9B5C90D9-CAB3-4CAB-9409-141EE1AB46FF"
+},
+{
+    "description": "信鸽推送",
+    "uuid": "DAA626BA-CBC2-4265-B2C7-145D8527EBAA"
+},
+{
+    "description": "TanX",
+    "uuid": "6F757DB6-5C9A-48C1-B336-2231B91B860A"
+},
+{
+    "description": "Folly",
+    "uuid": "8D914C0F-1A8B-439D-A889-98CFED32BF9C"
+},
+{
+    "description": "Lofelt SDK",
+    "uuid": "179A242E-CEF9-4A6E-9AFB-053C8DD21E67"
+},
+{
+    "description": "Liblouis",
+    "uuid": "6C3F6178-153B-47D8-89B0-63B7A6A620DB"
+},
+{
+    "description": "libaria2",
+    "uuid": "E1F7D99B-94FA-402B-B688-438004629839"
+},
+{
+    "description": "HardCoder",
+    "uuid": "3C4F8E5B-3FD2-43C2-B546-26A20C6AE7FB"
+},
+{
+    "description": "Adjust SDK",
+    "uuid": "AA531A14-8838-4224-BA7E-5C89B324F765"
+},
+{
+    "description": "TensorFlow Lite",
+    "uuid": "8A32C25F-C130-4CAE-A840-49FD4D75E232"
+},
+{
+    "description": "opencore-amr",
+    "uuid": "7E830C8A-4C39-4B64-9326-E8C8F924EDC4"
+},
+{
+    "description": "cJSON",
+    "uuid": "F1CE2C68-4325-4C5D-BCF4-9BF4C96C3C50"
+},
+{
+    "description": "Realm",
+    "uuid": "46755353-DD24-4610-B52A-056D3514EE11"
+},
+{
+    "description": "游密",
+    "uuid": "2D095A00-45F7-4F0B-A519-618B52C3ABB0"
+},
+{
+    "description": "EasyAR",
+    "uuid": "3882968C-CA05-42C8-B7BE-315AF61BCDF4"
+},
+{
+    "description": "Android Game Development Kit Frame Pacing",
+    "uuid": "14CE8B11-CB8C-4E98-8618-6278028B08F8"
+},
+{
+    "description": "Live2D Cubism SDK",
+    "uuid": "8369CDF8-A953-4BEE-B16C-1C7660F20AA7"
+},
+{
+    "description": "腾讯云手游安全",
+    "uuid": "BDC68E02-AA8B-4833-8FA0-EA4F077170FC"
+},
+{
+    "description": "GameMaker Studio",
+    "uuid": "CDD4693B-7BB1-42FD-B179-0561C7A0784B"
+},
+{
+    "description": "UniRapidJson",
+    "uuid": "A01020C3-DC89-4A2D-BF16-4555010E57D7"
+},
+{
+    "description": "CWAC AndDown",
+    "uuid": "C69C9F73-9F4B-43CD-AE19-12406ECD76DF"
+},
+{
+    "description": "Filament",
+    "uuid": "121FA107-3AD6-4737-8395-537D28426859"
+},
+{
+    "description": "zlib",
+    "uuid": "16666484-E80F-4FDA-90AE-C30B56986B79"
+},
+{
+    "description": "ENet",
+    "uuid": "D7145350-1302-48E1-9E47-2097ED5818DB"
+},
+{
+    "description": "烈焰弹幕使",
+    "uuid": "B68DB390-F7D8-4CB9-9F4B-F08B1EDD674A"
+},
+{
+    "description": "SQLCipher",
+    "uuid": "2BE524AA-7BE2-48BB-B344-E8B4C10AAD1D"
+},
+{
+    "description": "Conscrypt",
+    "uuid": "9035FF55-F97D-4D9E-98C9-1800B7A4C9E8"
+},
+{
+    "description": "7-Zip",
+    "uuid": "4758E42D-12CA-4F33-B4E8-DE8D6E08F22F"
+},
+{
+    "description": "银联 SDK",
+    "uuid": "AFFDAB45-1BC3-47E2-B344-DE2B94EDD5A4"
+},
+{
+    "description": "实时音视频",
+    "uuid": "38199767-88A0-43AA-8157-D0BB35205906"
+},
+{
+    "description": "美摄 SDK",
+    "uuid": "89DDCEC0-08E6-4C9A-AB16-3ADAEF427726"
+},
+{
+    "description": "Epic",
+    "uuid": "0EC5EBE1-FAB6-44D2-8669-3CBB9AE952C9"
+},
+{
+    "description": "Wwise",
+    "uuid": "A7631C83-E878-4BC4-9A98-1610D2FD4929"
+},
+{
+    "description": "JusTalk Cloud",
+    "uuid": "7356B77B-73C3-42DF-BC76-08D1F9BE2342"
+},
+{
+    "description": "android-gif-drawable",
+    "uuid": "87EEFC4A-749B-4E72-9551-54F7B5908C9D"
+},
+{
+    "description": "libmonochrome",
+    "uuid": "1681548C-A280-472E-9303-159A5E75C278"
+},
+{
+    "description": "Threadfix",
+    "uuid": "EEC3C5FF-7C20-4BA9-9601-A43B855F79F6"
+},
+{
+    "description": "Android-TiffBitmapFactory",
+    "uuid": "E27178C2-CEB3-41FD-9074-497F80545C4B"
+},
+{
+    "description": "GCanvas",
+    "uuid": "047188A1-7E63-47CB-90FB-033180D89676"
+},
+{
+    "description": "MACE",
+    "uuid": "7472135B-CA2C-4ADE-985C-8EEE9972EAD7"
+},
+{
+    "description": "React Native Vision Camera",
+    "uuid": "53E1B4D6-5346-409E-B810-4742C3BC7FF6"
+},
+{
+    "description": "环信 IM",
+    "uuid": "8B333B52-3E1E-4638-8223-5B2036031CAB"
+},
+{
+    "description": "滴滴 SDK",
+    "uuid": "F2A2D33E-B485-4D8D-8D30-8F232F734FCC"
+},
+{
+    "description": "zipalign",
+    "uuid": "476393FE-F249-42F8-A8AE-5F57D91C3582"
+},
+{
+    "description": "wgs2gcj",
+    "uuid": "C2C6A45A-A85B-4C8D-9FED-1B7B84A6D97D"
+},
+{
+    "description": "PJSIP",
+    "uuid": "445F3A88-EFAD-459E-A9E2-8E9F492D6936"
+},
+{
+    "description": "WebP Codec",
+    "uuid": "D306D2C6-CBE3-4211-967B-C9430CD4A9CA"
+},
+{
+    "description": "PDFium",
+    "uuid": "A12D8557-3D31-4E33-8895-0591490E0B55"
+},
+{
+    "description": "实人认证 SDK",
+    "uuid": "6350ECA8-45AF-4E86-808C-134880E6C87C"
+},
+{
+    "description": "MongoDB",
+    "uuid": "13C1DDF8-77BA-420E-854E-6CDB6CE2ACD2"
+},
+{
+    "description": "Sonic",
+    "uuid": "43C175E5-D6D9-444E-BA1D-FD718EAD3F8C"
+},
+{
+    "description": "libhfyuv",
+    "uuid": "107614AB-92EE-4681-BF7E-EAF85EB5F45C"
+},
+{
+    "description": "U-Game 金融风控组件",
+    "uuid": "BAC4586F-EBD9-4C52-979E-804573C5E7C1"
+},
+{
+    "description": "移动统计分析",
+    "uuid": "541E93F2-94FD-410E-A01A-FC437D531CAE"
+},
+{
+    "description": "XQUIC",
+    "uuid": "921BF876-7F05-4749-819D-6E39C171F1B5"
+},
+{
+    "description": "FreeReflection",
+    "uuid": "FBAFB2B5-3418-41F7-802E-E0BE8D746279"
+},
+{
+    "description": "AIUI",
+    "uuid": "90BE8F04-7A27-49A5-A080-EBF046E0BB2B"
+},
+{
+    "description": "Gio",
+    "uuid": "6A182DF7-14B1-4AC9-8747-3DC02153EAE3"
+},
+{
+    "description": "FrameSequence",
+    "uuid": "C45F5E79-D24E-4778-9F6D-72B224B9FAFD"
+},
+{
+    "description": "ApngDrawable",
+    "uuid": "D599117F-8741-4044-8A08-F0E039E26CC9"
+},
+{
+    "description": "MobileIMSDK",
+    "uuid": "ADDF0B59-1355-4B43-AC19-109A80BAC28A"
+},
+{
+    "description": "MindSpore Lite",
+    "uuid": "FBBEA24A-9DC8-4B71-80A2-34203D59D4F8"
+},
+{
+    "description": "屹通 SDK",
+    "uuid": "5D0E9F9D-B1A1-41E1-AB81-5210D6A38A01"
+},
+{
+    "description": "cocos2d-x",
+    "uuid": "F53F4149-0DFA-4CD1-A5A0-6B6112332B63"
+},
+{
+    "description": "Stretch",
+    "uuid": "59A2F7BC-48B4-4499-992A-348400AFFDD3"
+},
+{
+    "description": "同盾设备指纹",
+    "uuid": "DE857982-E94B-40A5-BC41-BA87740B34E1"
+},
+{
+    "description": "Torrent library for java",
+    "uuid": "D8459B8A-96A2-43AA-930D-EF1EB61E9413"
+},
+{
+    "description": "LiquidFun",
+    "uuid": "86F918AF-D3F1-4A78-85C9-6C18242C84E7"
+},
+{
+    "description": "Opus",
+    "uuid": "6ED982AA-B4C2-4710-B0ED-97D9C627D6D7"
+},
+{
+    "description": "Google VR SDK",
+    "uuid": "7F02BB86-6A46-4602-A155-8470A821A9D1"
+},
+{
+    "description": "libYUV",
+    "uuid": "621584E6-9D95-4B4A-8443-B7B6E1E64572"
+},
+{
+    "description": "libGDX",
+    "uuid": "A88C9063-58CA-43EC-9603-7C297E792450"
+},
+{
+    "description": "Android Crazy Linker",
+    "uuid": "5D371535-E819-48FC-8E33-607F74C079CB"
+},
+{
+    "description": "Burst",
+    "uuid": "32B428B8-97F7-4D9D-9175-A07035F85337"
+},
+{
+    "description": "AndroLua",
+    "uuid": "52E43EAA-1603-443A-8DFC-2B8C35C69BC8"
+},
+{
+    "description": "DexKit",
+    "uuid": "0468116C-ED2F-4558-B6B6-C6BF6F3C1687"
+},
+{
+    "description": "PlayerSDK",
+    "uuid": "2227696E-A553-4496-BCAE-6CA8D07A9D28"
+},
+{
+    "description": "中国无线营销联盟通用 SDK",
+    "uuid": "125383A9-140E-4146-986F-8D3BD2FF2A73"
+},
+{
+    "description": "Easy Mobile",
+    "uuid": "9F8A3FAA-4C0A-4E82-A590-288AD525C796"
+},
+{
+    "description": "Isar Database",
+    "uuid": "990B401F-AD96-4AC8-B21B-FF5228BF3B06"
+},
+{
+    "description": "GaiaX",
+    "uuid": "A557C181-6B4E-4528-BC3C-EC1263D03E91"
+},
+{
+    "description": "xCrash",
+    "uuid": "0266FDBA-CE71-4987-A407-21EC0CDDF58B"
+},
+{
+    "description": "Unreal Engine",
+    "uuid": "C945AB38-89BC-4E60-ABFA-01DE57341A14"
+},
+{
+    "description": "RootBeer",
+    "uuid": "A908E94C-73FC-4CD8-9742-097C210C34A5"
+},
+{
+    "description": "闪验 SDK",
+    "uuid": "6B4B743C-CA84-4712-BEE8-2CA76907D17A"
+},
+{
+    "description": "星火认知大模型",
+    "uuid": "F0185A7A-5565-42AB-9783-615FB3D4B26F"
+},
+{
+    "description": "LibCurl",
+    "uuid": "85F5C7D6-D22A-4F3D-A02A-ED6D791ADAB3"
+},
+{
+    "description": "Node.js",
+    "uuid": "66E8AEBE-A783-48F6-B537-06E3225411CF"
+},
+{
+    "description": "cocos2d-cpp",
+    "uuid": "6E6DC0C8-E57A-417E-830B-242E597E2F7B"
+},
+{
+    "description": "腾讯流量联盟",
+    "uuid": "2A04354C-73FA-4718-8A52-2284C01043B7"
+},
+{
+    "description": "腾讯灯塔 SDK",
+    "uuid": "1272C69F-B7DB-4CEF-A509-827110BEB08E"
+},
+{
+    "description": "Speex",
+    "uuid": "32AE99F0-176D-4129-BFE8-00B28058ED2C"
+},
+{
+    "description": "Android NDK GIF",
+    "uuid": "1F5FAAD5-0BA2-4723-ACF2-4478BF1F02FE"
+},
+{
+    "description": "react-native-sqlite-storage",
+    "uuid": "7920F0B3-BA37-460B-BB47-60C5CD0D3890"
+},
+{
+    "description": "Google Play Games plugin for Unity",
+    "uuid": "BD48F750-82F6-45D1-B5E3-6BF428DD4A65"
+},
+{
+    "description": "Izuko",
+    "uuid": "C033018D-6D44-4A38-B502-2DEC3466E57D"
+},
+{
+    "description": "WebRTC",
+    "uuid": "F60B169A-3504-4DC4-B5BC-53AFABD7B613"
+},
+{
+    "description": "Minilzo",
+    "uuid": "366990BF-D467-4788-AB96-33B9FBEBBD2D"
+},
+{
+    "description": "AndroidPhotoFilters",
+    "uuid": "D8B1C164-EFEA-4BF3-A8AC-72AE696812C9"
+},
+{
+    "description": "讯飞 SDK",
+    "uuid": "FD94D683-06BD-43D9-BD9F-01D8CE95C9D7"
+},
+{
+    "description": "NativeAudio",
+    "uuid": "7FFE81B1-B407-4E2C-A596-0B61439C8F68"
+},
+{
+    "description": "LibRaw",
+    "uuid": "85A6B8E4-F6D1-4A5C-AB49-FE7264B13AED"
+},
+{
+    "description": "CRI Sofdec2 Unity 插件",
+    "uuid": "1057A9DD-4798-42E5-9269-FCB25C14F2B5"
+},
+{
+    "description": "TNN",
+    "uuid": "A1A3EEA4-18EE-4FC7-AA2D-B04005E480AB"
+},
+{
+    "description": "高德 SDK",
+    "uuid": "9DA11233-CD6B-4F63-9ABD-BA84A77749C8"
+},
+{
+    "description": "BurstLinker",
+    "uuid": "A6A77DDF-94A8-4B4D-8268-AFEFAE2F8883"
+},
+{
+    "description": "ARCore",
+    "uuid": "4AF52222-0752-4391-B899-EE2AEF52CEB4"
+},
+{
+    "description": "AndroidP7zip",
+    "uuid": "ACC7D227-058A-4272-BF1F-EA73E7A61D8F"
+},
+{
+    "description": "Cello",
+    "uuid": "E8E71511-DEAD-4F5D-9A31-1953E14B8FD5"
+},
+{
+    "description": "AliNNPython",
+    "uuid": "D1358FC0-C125-4F86-8AE2-D3ED66FEE26C"
+},
+{
+    "description": "libfuse",
+    "uuid": "40E38F03-A532-4DBA-8F79-BF30067A8B59"
+},
+{
+    "description": "Tesseract",
+    "uuid": "080918F0-FE0D-46B8-B7B2-5FADF9728617"
+},
+{
+    "description": "即构极速视频 SDK",
+    "uuid": "0EDE4C9F-9BB1-4DF5-9B27-DEAC5CCB447A"
+},
+{
+    "description": "quiche",
+    "uuid": "7744424D-1021-4FCD-B7A8-BCF355EF8176"
+},
+{
+    "description": "AndroidLame",
+    "uuid": "E8A37A2B-24E5-460D-9818-587FACC551E8"
+},
+{
+    "description": "glog",
+    "uuid": "A72EEE9E-22AD-4543-925B-9C2681D51C1A"
+},
+{
+    "description": "CZXing",
+    "uuid": "8DAB4AB6-D34E-49EB-BDF6-B81FA2305D72"
+},
+{
+    "description": "libchrome",
+    "uuid": "0039ABEC-E965-4359-A1B3-693DD9AE1805"
+},
+{
+    "description": "Sodium",
+    "uuid": "0F7FA946-08DC-400B-A880-C19C06591C81"
+},
+{
+    "description": "eID SDK",
+    "uuid": "61344149-BA7D-4021-A3F1-81A89CE11365"
+},
+{
+    "description": "bspatch",
+    "uuid": "FFA204C8-030B-4C4E-ABAA-5CC5376CF23D"
+},
+{
+    "description": "OpenAL",
+    "uuid": "83638A81-BA2C-49B3-8660-173D776BE3B1"
+},
+{
+    "description": "imebra",
+    "uuid": "B334257F-BB1F-4C47-86C4-E6DABD0DD94A"
+},
+{
+    "description": "Un7zip",
+    "uuid": "671C1791-490F-46E9-B7E6-25795AC91B80"
+},
+{
+    "description": "x264",
+    "uuid": "30346584-02AC-44BF-B3D4-75AAC9974F91"
+},
+{
+    "description": "BoringSSL",
+    "uuid": "FE3DFB64-17B0-4763-8F0D-518BC31EF2AF"
+},
+{
+    "description": "ZXing",
+    "uuid": "E9987D74-17B7-41BC-8048-8E5793A2A0B3"
+},
+{
+    "description": "Golang",
+    "uuid": "C50203D1-FEE4-430D-B944-C34E25CBDC28"
+},
+{
+    "description": "ncnn",
+    "uuid": "3B354D22-BE6D-4DB3-9956-EABC72AC7789"
+},
+{
+    "description": "LSPlant",
+    "uuid": "C8705221-684A-4444-8B66-4F2EFE48C1CE"
+},
+{
+    "description": "OpenCC",
+    "uuid": "5F8DC25F-CB00-4A98-9505-2E71DF93990B"
+},
+{
+    "description": "数字联盟可信 ID SDK",
+    "uuid": "006609E7-14D5-4D14-B703-8FCCE8ACDF90"
+},
+{
+    "description": "Vorbis",
+    "uuid": "6575B2B8-E7AF-4A25-9705-B27CB81014B2"
+},
+{
+    "description": "jsenv",
+    "uuid": "75F0D24D-BEFC-49ED-9121-A8D2C7B4C454"
+},
+{
+    "description": "阿里云语音服务 SDK（NLSClinet）",
+    "uuid": "D2ADC9EF-C5C8-4A2A-9A9C-44DBA38C1CA2"
+},
+{
+    "description": "AppAuth",
+    "uuid": "681FE79B-481E-4927-85F7-3EB21CFFDDF2"
+},
+{
+    "description": "Jetpack Test",
+    "uuid": "88269B1E-863C-45A3-892B-8D9BC8597589"
+},
+{
+    "description": "Jetpack Slice",
+    "uuid": "41534F7F-505B-4DFA-8298-0BE7DECAE255"
+},
+{
+    "description": "Jetpack Compose",
+    "uuid": "EFD95ADE-EADB-42FB-9F96-57D47F62FF4F"
+},
+{
+    "description": "ShareSDK",
+    "uuid": "22158F9A-6EBB-4576-8168-B43D45139665"
+},
+{
+    "description": "HUAWEI Ads Kit",
+    "uuid": "14A524DE-4B4E-47CF-BB77-37E9BCD5FAEA"
+},
+{
+    "description": "EasyPermissions",
+    "uuid": "07051EC8-DA7A-4835-8FC0-9DCDC023F995"
+},
+{
+    "description": "小红书分享 SDK",
+    "uuid": "12333A87-EEA8-41C6-9C05-659D5940955E"
+},
+{
+    "description": "HMS Health Kit",
+    "uuid": "97E1B16A-3E83-4B73-B83B-DBC5E4C18A4E"
+},
+{
+    "description": "华为帐号服务",
+    "uuid": "3406FD64-324C-4D40-B501-5FD47528ACFC"
+},
+{
+    "description": "Huawei DTM",
+    "uuid": "C342A1C6-F940-4F92-B9FB-B914BBCBC3F6"
+},
+{
+    "description": "HUAWEI CaaS Engine",
+    "uuid": "71666E6C-81C3-4F73-AD2B-8E16229BFE13"
+},
+{
+    "description": "开普勒 SDK",
+    "uuid": "CFBD87F5-E5BE-4759-B59E-8B8BEC1C06FF"
+},
+{
+    "description": "U-Share 社会化分享",
+    "uuid": "5D68FADA-9577-4DF6-BB72-8E4BCC72F0A4"
+},
+{
+    "description": "Open Source Notices",
+    "uuid": "3450E137-1017-479C-A718-425E3A781274"
+},
+{
+    "description": "Process Phoenix",
+    "uuid": "B182018B-F6AF-4D8A-9EA9-FCDCF2B5614D"
+},
+{
+    "description": "mPaaS 扫一扫",
+    "uuid": "8848C2EE-9A94-43DB-84FA-DBF80C6A57DB"
+},
+{
+    "description": "百川电商 SDK - 唤醒手淘",
+    "uuid": "9502AC06-29A5-464C-AAA1-A81A0A8825AA"
+},
+{
+    "description": "TapTap 开发者服务",
+    "uuid": "8F9AC002-736C-498F-B8E8-D8A6ACC1E722"
+},
+{
+    "description": "XPopup",
+    "uuid": "48EDA1EA-9320-4CEE-8E18-6E4258E565D0"
+},
+{
+    "description": "android-crop",
+    "uuid": "A0A12107-8560-49B9-A47E-8012BEFC71E1"
+},
+{
+    "description": "小米账号开放平台",
+    "uuid": "36606EE7-9765-46EB-B404-A6247BE84F37"
+},
+{
+    "description": "移动号码认证",
+    "uuid": "8DB2576B-2109-4C16-8065-A7CD7EE17A73"
+},
+{
+    "description": "Audience Network SDK",
+    "uuid": "7A1FA075-C2BB-4ECE-BB66-392D016F86C5"
+},
+{
+    "description": "Flipper",
+    "uuid": "5F5487B2-6B16-4C3A-A2BD-8FA9AD794CFF"
+},
+{
+    "description": "一键登录和本机号码校验",
+    "uuid": "ECB6258A-58F4-4760-92F9-BB6E155B4372"
+},
+{
+    "description": "Google Play Billing",
+    "uuid": "B65CC95E-D0B0-4B0C-9573-FB2E674FB395"
+},
+{
+    "description": "Dropbox Core SDK for Java",
+    "uuid": "E1784B0F-3AEA-4F4D-870C-52899393C09F"
+},
+{
+    "description": "ZXing Android Embedded",
+    "uuid": "9B662043-8617-46F1-A04E-4B647DA08D47"
+},
+{
+    "description": "防水墙",
+    "uuid": "73C8750C-42CB-4E42-A58E-B87C36F97E09"
+},
+{
+    "description": " 人脸核身 SDK",
+    "uuid": "13ED49B9-4B45-45F6-8ACC-8476DA0F1591"
+},
+{
+    "description": "腾讯开放平台",
+    "uuid": "00366AB5-CE1E-4647-BEB5-4B1F87D998DA"
+},
+{
+    "description": "Unity Ads",
+    "uuid": "E0112746-0E48-4149-83C2-BFBDE6669CAD"
+},
+{
+    "description": "快手开放平台",
+    "uuid": "F381AD7D-A1BF-4241-9AA6-2D9CE6504B14"
+},
+{
+    "description": "翼支付",
+    "uuid": "E43C0CDE-82F3-4A7A-BE14-0F71DBEC3D4E"
+},
+{
+    "description": "Dexter",
+    "uuid": "8B8A8971-8E8C-4BA8-9DCE-FADC7FE6C6D5"
+},
+{
+    "description": "抖音 SDK",
+    "uuid": "09D0DE2C-5866-4F23-B42D-5C66E876A3AD"
+},
+{
+    "description": "Sense",
+    "uuid": "FA5EF076-DB47-4EE8-B12B-14E84B24B92C"
+},
+{
+    "description": "Matisse",
+    "uuid": "EF139912-D54A-4C26-9031-62BB8786263F"
+},
+{
+    "description": "FlutterBoost",
+    "uuid": "BC4E048D-F5F3-43D0-9826-6F198312457F"
+},
+]

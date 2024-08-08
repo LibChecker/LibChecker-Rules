@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "MarkChan0225"
                 ],
-                "description": "Rust 的設計目標之一，是要使設計大型的網際網路客戶端和伺服器的任務變得更容易。因此更加強調安全性、記憶體組態、以及並行處理等方面的特性。",
+                "description": "One of Rust's design goals is to make the task of designing large-scale internet clients and servers easier. Therefore, it places more emphasis on features such as safety, memory configuration, and concurrency.",
                 "source_link": "https://www.rust-lang.org/"
             }
         }

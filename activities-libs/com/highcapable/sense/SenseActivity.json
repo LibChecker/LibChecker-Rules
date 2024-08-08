@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "fankes"
                 ],
-                "description": "为你的项目集成一个高效可复用的 Activity 实例片段。",
+                "description": "Integrate an efficient and reusable Activity instance fragment into your project.",
                 "source_link": "https://github.com/fankes/Sense"
             }
         }

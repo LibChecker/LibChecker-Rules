@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "小米帐号授权登录服务是小米公司向开发者提供的，基于 OAuth 2.0 标准协议的小米帐号快捷登录服务，用户可以方便快捷的使用小米帐号登录您的网站或者移动应用。",
+                "description": "Xiaomi Account Authorization Login Service is a quick login service based on the OAuth 2.0 standard protocol provided by Xiaomi for developers. Users can easily and quickly log in to your website or mobile application using their Xiaomi account.",
                 "source_link": "https://dev.mi.com/console/appservice/account.html"
             }
         }

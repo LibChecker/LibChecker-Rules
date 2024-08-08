@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "HDR Vivid视频处理服务提供HDR Vivid视频图像的OETF、Tonemapping、HDR2SDR等能力，助力您快速构建HDR Vivid视频的播放、分享特性，帮助您向用户提供HDR Vivid视频媒体体验。",
+                "description": "HDR Vivid video processing service provides capabilities such as OETF, Tonemapping, and HDR2SDR for HDR Vivid video images, helping you quickly build HDR Vivid video playback and sharing features, providing users with HDR Vivid video media experience.",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/c-intro-0000001333121797"
             }
         }

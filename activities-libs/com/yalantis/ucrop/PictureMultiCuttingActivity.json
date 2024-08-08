@@ -22,7 +22,7 @@
                     "su1216",
                     "Absinthe"
                 ],
-                "description": "Android 图片裁剪库。",
+                "description": "Android image cropping library.",
                 "source_link": "https://github.com/Yalantis/uCrop/"
             }
         }

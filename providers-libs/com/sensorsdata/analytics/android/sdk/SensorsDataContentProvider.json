@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "神策分析，是针对企业级客户推出的深度用户行为分析产品，支持私有化部署，客户端、服务器、业务数据、第三方数据的全端采集和建模，驱动营销渠道效果评估、用户精细化运营改进、产品功能及用户体验优化、老板看板辅助管理决策、产品个性化推荐改造、用户标签体系构建等应用场景。作为 PaaS 平台支持二次开发，可通过 BI、大数据平台、CRM、ERP 等内部 IT 系统，构建用户数据体系，让用户行为数据发挥深远的价值。",
+                "description": "Sensor Analytics is an in-depth user behavior analysis product launched for enterprise customers, supporting private deployment, full-end collection, and modeling of client, server, business data, and third-party data. It drives marketing channel effect evaluation, user refined operation improvement, product function and user experience optimization, boss dashboard auxiliary management decision-making, product personalized recommendation transformation, user tag system construction, and other application scenarios. As a PaaS platform, it supports secondary development and can construct a user data system through internal IT systems like BI, big data platforms, CRM, ERP, allowing user behavior data to play a far-reaching value.",
                 "source_link": "https://manual.sensorsdata.cn/sa/"
             }
         }

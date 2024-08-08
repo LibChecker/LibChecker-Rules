@@ -22,7 +22,7 @@
                     "yfdyh000",
                     "HenryWu01"
                 ],
-                "description": "Paddle Lite 是一个高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。当前 Paddle Lite 不仅在百度内部业务中得到全面应用，也成功支持了众多外部用户和企业的生产任务。",
+                "description": "Paddle Lite is a high-performance, lightweight, highly flexible, and easily extensible deep learning inference framework, positioned to support multiple hardware platforms including mobile, embedded, and edge devices. Currently, Paddle Lite is not only comprehensively applied in Baidu's internal business but also successfully supports numerous external users and enterprise production tasks.",
                 "source_link": "https://github.com/PaddlePaddle/Paddle-Lite"
             }
         }

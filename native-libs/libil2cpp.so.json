@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "kotori2"
                 ],
-                "description": "Unity 游戏使用 Il2Cpp 后端时产生的游戏代码。",
+                "description": "Unity is a cross-platform 2D/3D game engine developed by Unity Technologies, used for developing standalone games for Windows, macOS, and Linux platforms, video games for game consoles such as PlayStation, Xbox, Wii, 3DS, and Nintendo Switch, as well as games for mobile devices such as iOS and Android.",
                 "source_link": "https://docs.unity3d.com/Manual/IL2CPP.html"
             }
         }

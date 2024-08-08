@@ -22,7 +22,7 @@
                     "su1216",
                     "Absinthe"
                 ],
-                "description": "AndFix 是一种在线修复错误而无需重新分发 Android App 的解决方案。",
+                "description": "AndFix is a solution for fixing bugs online without redistributing the Android App.",
                 "source_link": "https://github.com/alibaba/AndFix"
             }
         }

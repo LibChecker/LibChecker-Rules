@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "快应用是一种新的应用形态，以往的手机端应用主要有两种方式：网页、原生应用；网页无需安装，却体验不是很好；原生应用体验流畅，却需要从应用商店下载安装，难以一步直达用户；快应用的出现，就是希望能够让用户无需下载安装，并且还能流畅的体验应用内容。",
+                "description": "Quick apps are a new form of application. Previously, mobile apps mainly had two forms: web and native apps; the web doesn't require installation but the experience isn't great; native apps have a smooth experience but need to be downloaded and installed from app stores, making it hard to reach users directly. The advent of quick apps aims to allow users to experience app content smoothly without downloading and installing.",
                 "source_link": "https://doc.quickapp.cn/"
             }
         }

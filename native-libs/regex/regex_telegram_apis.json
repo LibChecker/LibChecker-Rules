@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "飘落的枫叶"
                 ],
-                "description": "使用此 API，您可以构建自己的自定义 Telegram 客户端。它对所有希望在我们的平台上创建 Telegram 应用程序的开发人员都是 100％ 开放的。",
+                "description": "Using this API, you can build your own custom Telegram client. It is 100% open to all developers who wish to create Telegram applications on our platform.",
                 "source_link": "https://core.telegram.org/api"
             }
         }

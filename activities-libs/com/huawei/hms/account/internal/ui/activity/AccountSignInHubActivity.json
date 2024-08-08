@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "通过华为帐号开放服务，Android 应用可以方便、安全地实现快速登录授权、读取短信验证码等功能，凭借用户授权凭证，应用可快速访问调用华为提供的公开 API。",
+                "description": "Through Huawei Account Open Services, Android applications can easily and securely implement quick login authorization, read SMS verification codes, and other functions. With user authorization credentials, applications can quickly access and call the public APIs provided by Huawei.",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050048870"
             }
         }

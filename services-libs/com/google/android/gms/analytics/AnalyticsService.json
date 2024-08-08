@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "提供各种 API，可帮助您收集、配置和报告用户与您的在线内容进行互动的数据。",
+                "description": "Provide various APIs to help you collect, configure, and report data on user interactions with your online content.",
                 "source_link": "https://developers.google.com/analytics/"
             }
         }

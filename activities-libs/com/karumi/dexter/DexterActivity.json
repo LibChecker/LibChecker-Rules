@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Dexter 是一个 Android 库，它简化了运行时请求权限的过程。",
+                "description": "Dexter is an Android library that simplifies the process of requesting runtime permissions.",
                 "source_link": "https://github.com/Karumi/Dexter"
             }
         }

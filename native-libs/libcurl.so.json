@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "culat"
                 ],
-                "description": "libcurl 是一个免费且易于使用的客户端 URL 传输库。",
+                "description": "libcurl is a free and easy-to-use client URL transfer library.",
                 "source_link": "https://github.com/curl/curl"
             }
         }

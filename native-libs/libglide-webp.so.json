@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "GlideWebpDecoder 是一个 Glide 集成库，用于在 Android 平台上解码和显示 webp 图像。它基于 libwebp 项目，并以 Fresco 和 GlideWebpSupport 的一些实现作为参考。",
+                "description": "GlideWebpDecoder is a Glide integration library for decoding and displaying webp images on the Android platform. It is based on the libwebp project and refers to some implementations of Fresco and GlideWebpSupport.",
                 "source_link": "https://github.com/zjupure/GlideWebpDecoder"
             }
         }

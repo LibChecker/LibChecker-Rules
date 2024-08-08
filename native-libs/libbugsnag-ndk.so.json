@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "su1216"
                 ],
-                "description": "Bugsnag 的 Android 崩溃报告库会自动检测 Android 应用程序中的崩溃，收集诊断信息并立即通知您的开发团队，以帮助您尽快理解和解决问题。",
+                "description": "Bugsnag's Android crash reporting library automatically detects crashes in Android applications, collects diagnostic information, and immediately notifies your development team to help you understand and resolve issues as soon as possible.",
                 "source_link": "https://github.com/bugsnag/bugsnag-android"
             }
         }

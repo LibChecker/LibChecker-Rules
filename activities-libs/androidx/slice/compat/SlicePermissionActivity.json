@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "在应用外显示模板化界面元素。",
+                "description": "Display templated interface elements outside the application.",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/slice"
             }
         }

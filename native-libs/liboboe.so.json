@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "Oboe 是谷歌推出用于在 Android 上实现高性能音频应用的 C++ 库，支持 API16 以上 Android 版本。在 API27 以上使用 AAudio 实现，API27 以下使用 OpenSL ES 实现，以提供最好的音频能力。适用于低延迟、高互动的场景，比如耳返功能、高互动游戏等。",
+                "description": "Oboe is a C++ library launched by Google for implementing high-performance audio applications on Android, supporting Android versions above API16. It uses AAudio implementation above API27 and OpenSL ES implementation below API27 to provide the best audio capabilities. Suitable for low-latency, high-interaction scenarios, such as ear return function, high-interaction games, etc.",
                 "source_link": "https://github.com/google/oboe"
             }
         }

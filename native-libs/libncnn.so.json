@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArchieMeng"
                 ],
-                "description": "ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。",
+                "description": "ncnn is a high-performance neural network forward inference framework optimized for mobile devices.",
                 "source_link": "https://github.com/Tencent/ncnn"
             }
         }

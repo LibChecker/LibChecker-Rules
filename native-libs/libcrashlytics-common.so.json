@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Crashlytics 是 Firebase 的主要崩溃报告工具。将众多崩溃整理成一个方便管理的问题列表，从而缩短问题排查时间。在 Crashlytics 信息中心内查看问题对用户造成的影响，从而清楚合理地确定应当首先解决哪些问题。",
+                "description": "Crashlytics is Firebase's primary crash reporting tool. It organizes numerous crashes into a manageable list of issues, shortening troubleshooting time. Within the Crashlytics information center, view the impact of issues on users to clearly and reasonably determine which issues should be addressed first.",
                 "source_link": "https://firebase.google.com/docs/crashlytics/"
             }
         }

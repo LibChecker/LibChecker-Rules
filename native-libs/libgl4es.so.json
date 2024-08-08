@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "magisk666"
                 ],
-                "description": "GL4ES 是 OpenGL 2.1/1.5 到 GL ES 2.0/1.1 的翻译库，支持 Pandora、ODroid、OrangePI、CHIP、Raspberry PI、Android、Emscripten 和 AmigaOS4。",
+                "description": "GL4ES is an OpenGL 2.1/1.5 to GL ES 2.0/1.1 translation library, supporting Pandora, ODroid, OrangePI, CHIP, Raspberry PI, Android, Emscripten, and AmigaOS4.",
                 "source_link": "https://github.com/ptitSeb/gl4es"
             }
         }

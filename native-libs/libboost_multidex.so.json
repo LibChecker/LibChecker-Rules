@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "zxwpm"
                 ],
-                "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
+                "description": "BoostMultiDex is a solution for quickly loading multiple DEX files on low-version Android devices (4.X and below, SDK < 21).",
                 "source_link": "https://github.com/bytedance/BoostMultiDex"
             }
         }

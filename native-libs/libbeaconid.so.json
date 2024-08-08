@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "灯塔（beacon）SDK 由腾讯灯塔团队开发，用于移动应用统计分析。",
+                "description": "Beacon SDK, developed by Tencent Beacon team, is used for mobile application statistical analysis.",
                 "source_link": "https://beacon.tencent.com/"
             }
         }

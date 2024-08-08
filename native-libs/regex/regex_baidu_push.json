@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "zxwpm"
                 ],
-                "description": "百度云推送（Push）是一站式APP信息推送平台，为企业和开发者提供免费的消息推送服务，开发者可以通过云推送向用户精准推送通知和自定义消息以提升用户留存率和活跃度。",
+                "description": "Cloud Push is a message push service provided by Baidu Open Cloud to developers; it provides developers with a way to push real-time messages to client apps by establishing a stable and reliable long connection between the cloud and the client.",
                 "source_link": "http://push.baidu.com/doc/android/api"
             }
         }

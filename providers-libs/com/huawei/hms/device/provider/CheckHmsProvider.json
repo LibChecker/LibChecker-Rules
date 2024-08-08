@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "HMS Core 是华为终端云服务提供的端、云开放能力的合集，助您高效构建精品应用。",
+                "description": "HMS Core is a collection of terminal and cloud open capabilities provided by Huawei Terminal Cloud Services, helping you efficiently build quality applications.",
                 "source_link": "https://developer.huawei.com/consumer/cn/hms/"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "生命周期感知型组件可执行操作来响应另一个组件（如 Activity 和 Fragment）的生命周期状态的变化。这些组件有助于您写出更有条理且往往更精简的代码，这样的代码更易于维护。",
+                "description": "Lifecycle-aware components can perform actions in response to changes in the lifecycle state of another component (such as Activity and Fragment). These components help you write more organized and often more concise code, making it easier to maintain.",
                 "source_link": "https://developer.android.com/topic/libraries/architecture/lifecycle/"
             }
         }

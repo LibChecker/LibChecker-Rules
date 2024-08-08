@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "4ft35t"
                 ],
-                "description": "游戏盾是通过封装登录器隐藏真实 IP，需要修改业务IP换成游戏盾 IP，然后在后台添加源 IP 和转发业务端口，玩家通过下载封装好的登录器进入游戏。是采用多机房集群部署模式，节点切换无感知，加密所有连接，实现 CC 零误封，避免源 IP 泄漏，免疫 CC 与 DDOS 攻击。",
+                "description": "Game Shield hides the real IP by encapsulating the login program. You need to modify the business IP to the Game Shield IP, then add the source IP and forwarding business port in the background. Players enter the game by downloading the encapsulated login program. It adopts a multi-machine room cluster deployment mode, with seamless node switching, encrypting all connections, achieving CC zero false positives, avoiding source IP leakage, and immune to CC and DDOS attacks.",
                 "source_link": "https://help.aliyun.com/document_detail/141197.html"
             }
         }

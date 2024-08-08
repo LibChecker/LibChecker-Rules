@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "MSDK，全称 MobileGame Software Development Kit，是增值服务部为游戏（主要为手游）提供公共组件和服务库的平台，旨在加快游戏接入各公共组件和海外开放平台。",
+                "description": "MSDK, full name MobileGame Software Development Kit, is a platform provided by the Value-Added Services Department for games (mainly mobile games) to provide public components and service libraries, aiming to accelerate game access to public components and overseas open platforms.",
                 "source_link": "https://docs.msdk.qq.com/"
             }
         }

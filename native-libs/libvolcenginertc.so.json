@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "watashibeme"
                 ],
-                "description": "火山引擎实时音视频拥有亿级 DAU 产品验证打磨的音视频最佳实践，可以提供全球范围内高质量、低延时的实时音视频通信能力，帮助开发者快速构建语音通话、视频通话、互动直播、转推直播等丰富场景功能。",
+                "description": "Volcano Engine Real-Time Audio and Video offers best practices for audio and video validated by products with hundreds of millions of DAUs, providing high-quality, low-latency real-time audio and video communication capabilities globally. It helps developers quickly build rich scene functions such as voice calls, video calls, interactive live streaming, and relay live streaming.",
                 "source_link": "https://www.volcengine.com/product/veRTC"
             }
         }

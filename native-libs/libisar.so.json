@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Cierra-Runis"
                 ],
-                "description": "Isar 是一款专门为 Flutter 打造的支持全文检索、ACID 语义、类型静态的高可扩展性、异步多线程超高速、跨平台开源数据库。",
+                "description": "Isar is a highly scalable, asynchronous, multi-threaded, ultra-fast, cross-platform open-source database with full-text search, ACID semantics, and static typing, specifically built for Flutter.",
                 "source_link": "https://github.com/isar/isar"
             }
         }

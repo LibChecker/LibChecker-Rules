@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "飘落的枫叶"
                 ],
-                "description": "FrostWire 的制造商为 libtorrent 提供的 Swig Java 接口。享受用 Java 编写代码来开发基于 libtorrent 的应用程序。",
+                "description": "FrostWire's manufacturer provides the Swig Java interface for libtorrent. Enjoy writing code in Java to develop applications based on libtorrent.",
                 "source_link": "https://github.com/frostwire/frostwire-jlibtorrent"
             }
         }

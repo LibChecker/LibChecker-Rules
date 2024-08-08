@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "支付宝开放平台基于支付宝海量用户，将强大的支付、营销、数据能力，通过接口等形式开放给第三方合作伙伴，帮助第三方合作伙伴创建更具竞争力的应用。",
+                "description": "The Alipay Open Platform, based on Alipay's vast user base, opens powerful payment, marketing, and data capabilities to third-party partners through interfaces, helping them create more competitive applications.",
                 "source_link": "https://opendocs.alipay.com/open/200/"
             }
         }

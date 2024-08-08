@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Super12138"
                 ],
-                "description": "nmmp 是一个用于保护 Android 类的 dex 文件的库，它使用 dex-vm 技术将类和方法转换为字节码，从而防止反编译。",
+                "description": "nmmp is a library for protecting Android class dex files, using dex-vm technology to convert classes and methods into bytecode, preventing decompilation.",
                 "source_link": "https://github.com/maoabc/nmmp"
             }
         }

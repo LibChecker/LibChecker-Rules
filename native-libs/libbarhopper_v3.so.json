@@ -24,7 +24,7 @@
                     "sebastien46",
                     "crrashh1542"
                 ],
-                "description": "BarHopper 是一个 ML Kit 中的库，用于在 Android 设备上识别或解码条形码。",
+                "description": "BarHopper is a library in ML Kit for recognizing or decoding barcodes on Android devices.",
                 "source_link": "https://developers.google.com/ml-kit/vision/barcode-scanning/android"
             }
         }

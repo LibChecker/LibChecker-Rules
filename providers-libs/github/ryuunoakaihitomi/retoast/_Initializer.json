@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ryuunoakaihitomi"
                 ],
-                "description": "这个 Android 库用于以最简单的方式修复 android.widget.Toastm的一些严重的 bug。",
+                "description": "This Android library is used to fix some serious bugs in android.widget.Toastm in the simplest way.",
                 "source_link": "https://github.com/ryuunoakaihitomi/ReToast"
             }
         }

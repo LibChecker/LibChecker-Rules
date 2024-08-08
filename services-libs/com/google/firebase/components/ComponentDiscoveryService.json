@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Firebase 提供了分析、数据库、消息传递和崩溃报告等功能，可助您快速采取行动并专注于您的用户。",
+                "description": "Firebase provides analytics, databases, messaging, and crash reporting, helping you take action quickly and focus on your users.",
                 "source_link": "https://firebase.google.com/"
             }
         }

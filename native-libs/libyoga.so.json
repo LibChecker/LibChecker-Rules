@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Yoga 意在打造一个跨 iOS、Android、Windows 平台在内的布局引擎，兼容 Flexbox 布局方式，让界面布局更加简单。",
+                "description": "Yoga aims to create a layout engine across iOS, Android, and Windows platforms, compatible with the Flexbox layout method, making interface layout simpler.",
                 "source_link": "https://github.com/facebook/yoga/"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "利用数盟可信 ID 技术，可以有效发现行业中各类造假，对于虚拟机造假，数盟可信 ID 不同于 IMEI, MAC, 设备序列号，以及 IMSI 等各类设备信息，它不可被篡改，不随 Rom 或者软件的变化而改变。",
+                "description": "Using Shumeng Trusted ID technology, various types of fraud in the industry can be effectively detected. Unlike IMEI, MAC, device serial number, and IMSI, Shumeng Trusted ID cannot be tampered with and does not change with ROM or software updates.",
                 "source_link": "https://www.shuzilm.cn/"
             }
         }

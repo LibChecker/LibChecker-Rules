@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "快应用框架依赖的 JavaScript 运行环境。",
+                "description": "The JavaScript runtime environment relied upon by the Quick Application Framework.",
                 "source_link": "https://atomgit.com/hapjs/jsenv"
             }
         }

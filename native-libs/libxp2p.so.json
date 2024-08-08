@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "CreationWong"
                 ],
-                "description": "libp2p 是一个从 IPFS 项目中模块化出来的网络堆栈和库，并单独捆绑起来供其他工具使用的库。",
+                "description": "libp2p is a network stack and library modularized from the IPFS project and bundled separately for use by other tools.",
                 "source_link": "https://github.com/libp2p/libp2p"
             }
         }

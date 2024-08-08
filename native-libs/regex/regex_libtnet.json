@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "libtnet 是一个用 C++ 编写的高性能网络库，它在设计上面主要参考 Tornado，为服务端网络编程提供简洁而高效的接口，非常易于使用。",
+                "description": "libtnet is a high-performance network library written in C++, mainly referencing Tornado in its design, providing a simple and efficient interface for server-side network programming, very easy to use.",
                 "source_link": "https://github.com/siddontang/libtnet"
             }
         }

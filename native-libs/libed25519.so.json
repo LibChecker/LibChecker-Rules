@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "乐播投屏 SDK，已全面支持 iOS 和 Android 系统。接入后，能让您的 App 轻松拥有投屏与镜像能力，从而在满足用户需求的同时，也将您的内容分发上大屏。可广泛应用于通话，视频，音乐，直播，游戏，教育，办公等场景。",
+                "description": "LeBo Screen Mirroring SDK fully supports iOS and Android systems. After integration, your app can easily have screen mirroring and projection capabilities, meeting user needs while distributing your content on large screens. It can be widely used in scenarios like calls, videos, music, live broadcasts, games, education, and office work.",
                 "source_link": "https://cloud.hpplay.cn/"
             }
         }

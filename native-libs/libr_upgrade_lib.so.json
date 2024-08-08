@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "LollipopKit"
                 ],
-                "description": "Android 和 iOS 的升级应用插件。",
+                "description": "Upgrade application plugin for Android and iOS.",
                 "source_link": "https://github.com/rhymelph/r_upgrade"
             }
         }

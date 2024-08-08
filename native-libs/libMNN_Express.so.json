@@ -26,7 +26,7 @@
                     "yfdyh000",
                     "binx6"
                 ],
-                "description": "MNN 是一个高效、轻量的深度学习框架。它支持深度模型推理与训练，尤其在端侧的推理与训练性能在业界处于领先地位。",
+                "description": "MNN is an efficient, lightweight deep learning framework. It supports deep model inference and training, especially leading in inference and training performance on the end side.",
                 "source_link": "https://github.com/alibaba/MNN"
             }
         }

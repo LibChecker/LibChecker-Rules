@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "libusb is a C library that provides generic access to USB devices. It is intended to be used by developers to facilitate the production of applications that communicate with USB hardware.",
+                "description": "A cross-platform library to access USB devices.",
                 "source_link": "https://github.com/libusb/libusb"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "飘落的枫叶"
                 ],
-                "description": "libtorrent 的 Swig Java 接口。",
+                "description": "libtorrent's Swig Java interface.",
                 "source_link": "https://github.com/aldenml/libtorrent4j"
             }
         }

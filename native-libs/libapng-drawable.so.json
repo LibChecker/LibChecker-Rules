@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Anormi"
                 ],
-                "description": "ApngDrawable 是 Android 平台上的一个高效而轻量的 APNG 图像解码库。",
+                "description": "ApngDrawable is an efficient and lightweight APNG image decoding library on the Android platform.",
                 "source_link": "https://github.com/line/apng-drawable"
             }
         }

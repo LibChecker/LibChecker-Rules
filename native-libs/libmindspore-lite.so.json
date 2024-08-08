@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "virtual-panda"
                 ],
-                "description": "MindSpore Lite 是一个极速、极智、极简的 AI 引擎，使能全场景智能应用，为用户提供端到端的解决方案，帮助用户使能 AI 能力。",
+                "description": "MindSpore Lite is a fast, intelligent, and simple AI engine that enables full-scene intelligent applications, providing users with end-to-end solutions, helping them enable AI capabilities.",
                 "source_link": "https://www.mindspore.cn/lite"
             }
         }

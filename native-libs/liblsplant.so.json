@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Moriafly"
                 ],
-                "description": "Android 运行时 (ART) 的 Hook 框架。",
+                "description": "Hook framework for Android Runtime (ART).",
                 "source_link": "https://github.com/LSPosed/LSPlant"
             }
         }

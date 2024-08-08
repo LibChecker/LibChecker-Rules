@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Burst 是一个运用 LLVM 将 IL/.NET 字节码转换为高度优化的原生代码的编译器。",
+                "description": "Burst is a compiler that uses LLVM to translate IL/.NET bytecode into highly optimized native code.",
                 "source_link": "https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html"
             }
         }

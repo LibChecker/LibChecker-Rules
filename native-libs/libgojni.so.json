@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "YandexStudio"
                 ],
-                "description": "Go 是一种开源编程语言，可轻松构建简单，可靠和高效的软件。",
+                "description": "Go is an open-source programming language that makes it easy to build simple, reliable, and efficient software.",
                 "source_link": "https://github.com/golang/mobile"
             }
         }

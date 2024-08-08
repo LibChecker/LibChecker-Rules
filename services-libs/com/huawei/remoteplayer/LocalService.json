@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "视频服务（Video Kit）提供视频播放、HDR Vivid 视频处理服务，后续将提供视频编辑和视频托管服务，助力您快速构建视频特性，帮助您向用户提供视频媒体体验。",
+                "description": "Video Service (Video Kit) provides video playback and HDR Vivid video processing services. In the future, it will offer video editing and video hosting services, helping you quickly build video features and provide a video media experience to users.",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/introduction-0000001050439577"
             }
         }

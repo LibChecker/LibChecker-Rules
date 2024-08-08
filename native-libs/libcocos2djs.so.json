@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "09277632"
                 ],
-                "description": "Cocos2d-x 是 MIT 许可证下发布的一款功能强大的开源游戏引擎。允许开发人员使用 C++、Javascript 及 Lua 三种语言来进行游戏开发。 支持所有常见平台，包括 iOS、Android、Windows、macOS、Linux。",
+                "description": "Cocos2d-x is a domestic open-source mobile game development framework released under the MIT license. The engine core is written in C++, providing C++, Lua, and JavaScript programming language interfaces, supporting cross-platform for iOS, Android, and other smartphones, Windows, Mac desktop operating systems, and HTML5 browsers like Chrome, Safari, and IE. The Cocos2d-x engine is widely used for developing mobile games, children's educational software, network multimedia UI solutions, and other interactive graphical applications. Its main advantages are cross-platform, high performance, high compatibility, hot updates, customizability, and ease of use.",
                 "source_link": "https://github.com/cocos2d/cocos2d-x"
             }
         }

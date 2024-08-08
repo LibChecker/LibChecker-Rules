@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "bolucat"
                 ],
-                "description": "这个库为使用 XUL 语言和 Gecko 引擎的应用提供可调用的冻结 API。",
+                "description": "This library provides a callable frozen API for applications using the XUL language and Gecko engine.",
                 "source_link": "https://wiki.mozilla.org/XUL:Lib_XUL"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "xyl23333"
                 ],
-                "description": "Rclone 是一个用于管理云文件的命令行程序。",
+                "description": "Rclone is a command-line program for managing cloud files.",
                 "source_link": "https://github.com/rclone/rclone"
             }
         }

@@ -22,7 +22,7 @@
                     "Absinthe",
                     "peashooter2"
                 ],
-                "description": "xHook 是一个针对 Android 平台 ELF (可执行文件和动态库) 的 PLT (Procedure Linkage Table) hook 库。",
+                "description": "xHook is a PLT (Procedure Linkage Table) hook library for ELF (Executable and Linkable Format) files and dynamic libraries on the Android platform.",
                 "source_link": "https://github.com/iqiyi/xHook"
             }
         }

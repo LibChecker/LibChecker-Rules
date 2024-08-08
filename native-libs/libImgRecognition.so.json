@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "DuMix AR 平台是百度 AR 推出的 AR 技术产品化应用服务，帮助开发者快速集成 SDK，高效制作并分发 AR 内容。它包括 AR SDK、内容制作工具、云端内容平台和内容分发服务，组成了一站式 AR 开发集成解决方案。",
+                "description": "DuMix AR Platform is an AR technology productized application service launched by Baidu AR, helping developers quickly integrate SDKs, efficiently produce and distribute AR content. It includes AR SDK, content production tools, cloud content platform, and content distribution services, forming a one-stop AR development and integration solution.",
                 "source_link": "https://github.com/baidu/ar-sdk/"
             }
         }

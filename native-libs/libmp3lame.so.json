@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
+                "description": "LAME is a high-quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
                 "source_link": "https://lame.sourceforge.io/"
             }
         }

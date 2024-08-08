@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "MMKV 是基于 mmap 内存映射的 key-value 组件，底层序列化/反序列化使用 protobuf 实现，性能高，稳定性强。",
+                "description": "MMKV is a key-value component based on mmap memory mapping, with underlying serialization/deserialization implemented using protobuf, offering high performance and strong stability.",
                 "source_link": "https://github.com/Tencent/MMKV"
             }
         }

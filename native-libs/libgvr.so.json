@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ag2s20150909"
                 ],
-                "description": "Google VR for Android 支持 DayDream 和 Cardboard。",
+                "description": "Google VR for Android supports DayDream and Cardboard.",
                 "source_link": "https://github.com/googlevr/gvr-android-sdk"
             }
         }

@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "UniRapidJSON is RapidJSON wrapper for Unity.",
+                "description": "UniRapidJSON is a RapidJSON wrapper for Unity.",
                 "source_link": "https://github.com/takezoh/UniRapidJson"
             }
         }

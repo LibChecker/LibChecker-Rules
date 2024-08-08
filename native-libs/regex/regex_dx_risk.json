@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "culat"
                 ],
-                "description": "顶象无感验证结合了设备指纹、行为特征、访问频率、地理位置等多项技术，有效的拦截恶意登录、批量注册，阻断机器操作，拦截非正常用户。",
+                "description": "Dingxiang's frictionless verification combines multiple technologies such as device fingerprinting, behavior characteristics, access frequency, and geographic location to effectively intercept malicious logins, bulk registrations, block machine operations, and intercept abnormal users.",
                 "source_link": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
             }
         }

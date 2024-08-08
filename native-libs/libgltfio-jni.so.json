@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Filament 是一个基于物理的实时渲染引擎，适用于 Android、iOS、Linux、macOS、Windows 和 WebGL。它被设计为在 Android 上尽可能小且尽可能高效。",
+                "description": "Filament is a physically-based real-time rendering engine for Android, iOS, Linux, macOS, Windows, and WebGL. It is designed to be as small and efficient as possible on Android.",
                 "source_link": "https://github.com/google/filament"
             }
         }

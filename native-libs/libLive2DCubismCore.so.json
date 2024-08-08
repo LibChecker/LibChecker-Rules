@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "MeowHCO3"
                 ],
-                "description": "Cubism SDK 是在用户 APP 上使用通过 Live2D Cubism Editor 制作的模型所需的软件开发组套件。",
+                "description": "Cubism SDK is a software development kit required to use models created with the Live2D Cubism Editor in user applications.",
                 "source_link": "https://docs.live2d.com/cubism-sdk-manual/top/"
             }
         }

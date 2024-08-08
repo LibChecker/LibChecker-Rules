@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "xyl23333"
                 ],
-                "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).。",
+                "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).",
                 "source_link": "https://cloud.yandex.com/en-ru/docs/speechkit/"
             }
         }
