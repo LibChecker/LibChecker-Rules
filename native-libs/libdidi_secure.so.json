@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "滴滴 SDK",
+                "label": "Didi SDK",
                 "dev_team": "Didi",
                 "rule_contributors": [
                     "binx6"

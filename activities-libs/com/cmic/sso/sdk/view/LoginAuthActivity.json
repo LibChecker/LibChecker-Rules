@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "移动号码认证",
+                "label": "Mobile Number Authentication",
                 "dev_team": "中国移动",
                 "rule_contributors": [
                     "Absinthe"

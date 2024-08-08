@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "数字联盟可信 ID SDK",
+                "label": "Digital Alliance Trusted ID SDK",
                 "dev_team": "北京数字联盟网络科技有限公司",
                 "rule_contributors": [
                     "ArthurCyy"

@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "实时音视频",
+                "label": "Real-time Audio and Video",
                 "dev_team": "火山引擎",
                 "rule_contributors": [
                     "watashibeme"

@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "星火认知大模型",
+                "label": "Sparks Cognitive Large Model",
                 "dev_team": "科大讯飞",
                 "rule_contributors": [
                     "dtapps"

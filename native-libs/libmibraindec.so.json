@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "小爱 SDK",
+                "label": "Xiao Ai SDK",
                 "dev_team": "Xiaomi",
                 "rule_contributors": [
                     "Absinthe"

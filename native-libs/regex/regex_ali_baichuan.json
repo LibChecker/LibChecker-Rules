@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "百川 SDK",
+                "label": "Baichuan SDK",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "Absinthe"

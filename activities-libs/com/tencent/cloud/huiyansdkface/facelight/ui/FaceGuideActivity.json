@@ -16,7 +16,7 @@
         {
             "locale": "en",
             "data": {
-                "label": " 人脸核身 SDK",
+                "label": "Face Verification SDK",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "ArthurCyy",

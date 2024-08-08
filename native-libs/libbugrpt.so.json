@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "网易云捕",
+                "label": "NetEase Cloud Capture",
                 "dev_team": "Netease",
                 "rule_contributors": [
                     "Absinthe"

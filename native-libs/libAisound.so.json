@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "离线语音合成",
+                "label": "Offline Speech Synthesis",
                 "dev_team": "iFlyTek",
                 "rule_contributors": [
                     "d1y"

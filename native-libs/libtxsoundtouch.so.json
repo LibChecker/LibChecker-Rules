@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯云实时音视频 SDK",
+                "label": "Tencent Cloud Real-time Audio and Video SDK",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "ArthurCyy"

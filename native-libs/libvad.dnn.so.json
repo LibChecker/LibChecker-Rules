@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "语音识别 SDK",
+                "label": "Speech Recognition SDK",
                 "dev_team": "Baidu",
                 "rule_contributors": [
                     "yfdyh000"

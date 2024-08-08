@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "阿里移动推送",
+                "label": "Alibaba Mobile Push",
                 "dev_team": "Aliyun",
                 "rule_contributors": [
                     "Absinthe"

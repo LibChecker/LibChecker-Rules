@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "日志服务  SLS",
+                "label": "Log Service SLS",
                 "dev_team": "Aliyun",
                 "rule_contributors": [
                     "yfdyh000"

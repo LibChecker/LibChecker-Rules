@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "阿里云语音服务 SDK（NLSClinet）",
+                "label": "Alibaba Cloud Voice Service SDK (NLSClinet)",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "yfdyh000"

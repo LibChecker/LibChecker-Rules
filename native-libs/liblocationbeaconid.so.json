@@ -17,7 +17,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯地图 SDK",
+                "label": "Tencent Map SDK",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe",

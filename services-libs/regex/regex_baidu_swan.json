@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "智能小程序",
+                "label": "Smart Mini Program",
                 "dev_team": "Baidu",
                 "rule_contributors": [
                     "Absinthe"

@@ -17,7 +17,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "旷视 SDK",
+                "label": "Megvii SDK",
                 "dev_team": "旷视",
                 "rule_contributors": [
                     "Absinthe",

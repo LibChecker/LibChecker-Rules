@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯游戏 MSDK",
+                "label": "Tencent Game MSDK",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "makazeu"

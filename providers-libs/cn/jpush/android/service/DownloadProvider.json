@@ -18,7 +18,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "极光推送",
+                "label": "Aurora Push",
                 "dev_team": "极光",
                 "rule_contributors": [
                     "Absinthe",

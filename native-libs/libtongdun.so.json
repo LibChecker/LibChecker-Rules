@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "同盾设备指纹",
+                "label": "Tongdun Device Fingerprint",
                 "dev_team": "同盾科技有限公司",
                 "rule_contributors": [
                     "yfdyh000"

@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "开普勒 SDK",
+                "label": "Kepler SDK",
                 "dev_team": "JD",
                 "rule_contributors": [
                     "Absinthe"

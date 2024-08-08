@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "小米应用检查更新 SDK",
+                "label": "Xiaomi App Update Check SDK",
                 "dev_team": "Xiaomi",
                 "rule_contributors": [
                     "Absinthe"

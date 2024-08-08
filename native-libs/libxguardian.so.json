@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "信鸽推送",
+                "label": "Xinge Push",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe"

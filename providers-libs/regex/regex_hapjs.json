@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "快应用",
+                "label": "Quick Apps",
                 "dev_team": "快应用联盟",
                 "rule_contributors": [
                     "Absinthe"

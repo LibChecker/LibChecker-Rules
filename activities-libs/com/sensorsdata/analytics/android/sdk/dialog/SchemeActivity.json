@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "神策分析 SDK",
+                "label": "Sensors Analytics SDK",
                 "dev_team": "神策",
                 "rule_contributors": [
                     "Absinthe"

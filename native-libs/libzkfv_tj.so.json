@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "金融级实人认证 SDK",
+                "label": "Financial-grade Real-person Authentication SDK",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "ArthurCyy"

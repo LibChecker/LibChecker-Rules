@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "百川电商 SDK - 授权",
+                "label": "Baichuan E-commerce SDK - Authorization",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "Absinthe"

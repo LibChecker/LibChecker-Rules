@@ -16,7 +16,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "友盟推送",
+                "label": "Umeng Push",
                 "dev_team": "Umeng",
                 "rule_contributors": [
                     "Absinthe",

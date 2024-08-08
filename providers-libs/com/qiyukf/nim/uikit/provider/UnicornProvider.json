@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "七鱼 SDK",
+                "label": "Qiyu SDK",
                 "dev_team": "Netease",
                 "rule_contributors": [
                     "Absinthe"

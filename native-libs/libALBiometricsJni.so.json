@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "实人认证 SDK",
+                "label": "Real Person Authentication SDK",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "Absinthe"

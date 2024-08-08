@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "阿里移动热修复",
+                "label": "Alibaba Mobile Hotfix",
                 "dev_team": "Aliyun",
                 "rule_contributors": [
                     "dudukee"

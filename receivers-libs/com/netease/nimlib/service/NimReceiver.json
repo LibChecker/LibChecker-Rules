@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "网易云通信 SDK",
+                "label": "NetEase Cloud Communication SDK",
                 "dev_team": "Netease",
                 "rule_contributors": [
                     "Absinthe"

@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "高德 SDK",
+                "label": "Amap SDK",
                 "dev_team": "高德",
                 "rule_contributors": [
                     "Absinthe"

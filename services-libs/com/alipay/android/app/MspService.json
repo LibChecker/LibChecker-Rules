@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "支付宝 SDK",
+                "label": "Alipay SDK",
                 "dev_team": "Alipay",
                 "rule_contributors": [
                     "Absinthe"

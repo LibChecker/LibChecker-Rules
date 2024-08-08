@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "招商银行 SDK",
+                "label": "CMBC SDK",
                 "dev_team": "CMB",
                 "rule_contributors": [
                     "Absinthe"

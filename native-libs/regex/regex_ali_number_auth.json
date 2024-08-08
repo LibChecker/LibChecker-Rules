@@ -16,7 +16,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "号码认证服务",
+                "label": "Number Authentication Service",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "yfdyh000",

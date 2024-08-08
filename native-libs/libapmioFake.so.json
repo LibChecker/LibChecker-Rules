@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯客户端性能分析",
+                "label": "Tencent Client Performance Analysis",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe"

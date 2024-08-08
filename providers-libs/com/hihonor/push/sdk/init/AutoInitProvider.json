@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "荣耀推送服务",
+                "label": "Honor Push Service",
                 "dev_team": "HONOR",
                 "rule_contributors": [
                     "Absinthe"

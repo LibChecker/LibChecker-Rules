@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "Bmob 后端云",
+                "label": "Bmob Backend Cloud",
                 "dev_team": "Bmob",
                 "rule_contributors": [
                     "Absinthe"

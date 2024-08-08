@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "华为帐号服务",
+                "label": "Huawei Account Service",
                 "dev_team": "Huawei",
                 "rule_contributors": [
                     "Absinthe"

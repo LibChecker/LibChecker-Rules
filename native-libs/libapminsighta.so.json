@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "APMInsight / 应用性能监控全链路版",
+                "label": "APMInsight / Full-link Application Performance Monitoring",
                 "dev_team": "Volcengine (火山引擎)",
                 "rule_contributors": [
                     "yfdyh000"

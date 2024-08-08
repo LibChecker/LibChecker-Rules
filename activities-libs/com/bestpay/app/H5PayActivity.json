@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "翼支付",
+                "label": "YiPay",
                 "dev_team": "China Telecom",
                 "rule_contributors": [
                     "Absinthe"

@@ -16,7 +16,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "极光认证 SDK",
+                "label": "Aurora Authentication SDK",
                 "dev_team": "极光",
                 "rule_contributors": [
                     "Absinthe",

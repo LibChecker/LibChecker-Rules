@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "一键登录和本机号码校验",
+                "label": "One-click Login and Mobile Number Verification",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "Absinthe"

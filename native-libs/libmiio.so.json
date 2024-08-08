@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "小米 IoT SDK",
+                "label": "Xiaomi IoT SDK",
                 "dev_team": "Xiaomi",
                 "rule_contributors": [
                     "ArthurCyy"

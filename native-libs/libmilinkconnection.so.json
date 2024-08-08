@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "小米游戏 SDK",
+                "label": "Xiaomi Game SDK",
                 "dev_team": "Xiaomi",
                 "rule_contributors": [
                     "Absinthe"

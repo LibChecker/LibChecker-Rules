@@ -16,7 +16,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯浏览服务（TBS）",
+                "label": "Tencent Browser Service (TBS)",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe",

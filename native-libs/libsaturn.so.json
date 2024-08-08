@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯云直播 SDK",
+                "label": "Tencent Cloud Live Streaming SDK",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe"

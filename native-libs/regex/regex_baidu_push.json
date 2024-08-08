@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "百度云推送",
+                "label": "Baidu Cloud Push",
                 "dev_team": "Baidu",
                 "rule_contributors": [
                     "zxwpm"

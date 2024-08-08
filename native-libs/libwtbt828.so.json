@@ -16,7 +16,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "高德地图 SDK",
+                "label": "Amap SDK",
                 "dev_team": "Alibaba",
                 "rule_contributors": [
                     "Absinthe",

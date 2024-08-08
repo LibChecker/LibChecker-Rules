@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "人像美化 SDK",
+                "label": "Portrait Beautification SDK",
                 "dev_team": "旷视",
                 "rule_contributors": [
                     "yfdyh000"

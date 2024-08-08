@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "小红书分享 SDK",
+                "label": "Xiaohongshu Share SDK",
                 "dev_team": "Xiaohongshu",
                 "rule_contributors": [
                     "Absinthe"

@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "小米广告 SDK",
+                "label": "Xiaomi Ad SDK",
                 "dev_team": "Xiaomi",
                 "rule_contributors": [
                     "Absinthe"

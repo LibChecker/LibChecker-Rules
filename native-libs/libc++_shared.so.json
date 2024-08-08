@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "C++ 共享库",
+                "label": "C++ Shared Library",
                 "dev_team": "Android",
                 "rule_contributors": [
                     "Absinthe"

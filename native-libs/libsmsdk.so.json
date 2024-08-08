@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "数美 SDK",
+                "label": "Shumei SDK",
                 "dev_team": "数美",
                 "rule_contributors": [
                     "Absinthe"

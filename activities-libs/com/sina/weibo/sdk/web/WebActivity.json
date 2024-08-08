@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "微博 SDK",
+                "label": "Weibo SDK",
                 "dev_team": "Weibo",
                 "rule_contributors": [
                     "Absinthe"

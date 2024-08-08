@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "腾讯广告 SDK",
+                "label": "Tencent Ad SDK",
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe"

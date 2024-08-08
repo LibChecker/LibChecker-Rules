@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "银联 SDK",
+                "label": "UnionPay SDK",
                 "dev_team": "银联",
                 "rule_contributors": [
                     "Absinthe"

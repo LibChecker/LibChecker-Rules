@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "移动统计分析",
+                "label": "Mobile Statistics Analysis",
                 "dev_team": "Umeng",
                 "rule_contributors": [
                     "Absinthe"
