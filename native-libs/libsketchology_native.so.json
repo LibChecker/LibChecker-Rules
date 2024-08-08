@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "Ink is a software library enabling Google applications to let their users express themselves using freehand drawing and handwriting",
+                "description": "Ink 是一个软件库，使 Google 应用程序能够让用户通过手绘和手写表达自己。",
                 "source_link": "https://chromium.googlesource.com/chromium/src/+/refs/tags/73.0.3660.2/third_party/ink/sketchology"
             }
         },

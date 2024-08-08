@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Enable media display and playback on remote receiver devices using a common user interface.",
+                "description": "使用通用用户界面在远程接收设备上启用媒体显示和播放。",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/mediarouter"
             }
         },

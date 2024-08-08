@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "ag2s20150909"
                 ],
-                "description": "Quack provides Java (Android and desktop) bindings to JavaScript engines. Quack supports both the Duktape and QuickJS runtimes.",
+                "description": "Quack 提供 Java（Android 和桌面）到 JavaScript 引擎的绑定。Quack 支持 Duktape 和 QuickJS 运行时。",
                 "source_link": "https://github.com/koush/quack"
             }
         },

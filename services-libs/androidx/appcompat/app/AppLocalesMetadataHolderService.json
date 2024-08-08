@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Allows access to new APIs on older API versions of the platform (many using Material Design).",
+                "description": "允许在平台的旧 API 版本上访问新 API（许多使用 Material Design）。",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/appcompat"
             }
         },

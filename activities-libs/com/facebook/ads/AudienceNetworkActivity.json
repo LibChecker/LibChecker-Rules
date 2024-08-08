@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "The Audience Network allows you to monetize your Android apps with Facebook ads. An interstitial ad is a full screen ad that you can show in your app. Typically interstitial ads are shown when there is a transition in your app. For example -- after finishing a level in a game or after loading a story in a news app.",
+                "description": "Audience Network 允许您通过 Facebook 广告变现您的 Android 应用程序。插页式广告是您可以在应用程序中显示的全屏广告。通常在应用程序中发生转换时显示插页式广告。例如——在游戏中完成一个关卡后或在新闻应用中加载一个故事后。",
                 "source_link": "https://developers.facebook.com/docs/audience-network/setting-up/ad-setup/android/interstitial/"
             }
         },

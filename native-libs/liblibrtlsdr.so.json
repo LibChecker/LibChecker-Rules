@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "brooks-xzy"
                 ],
-                "description": "Software to turn the RTL2832U into an SDR.",
+                "description": "将 RTL2832U 转变为 SDR 的软件。",
                 "source_link": "https://github.com/steve-m/librtlsdr"
             }
         },

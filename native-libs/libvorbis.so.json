@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "watashibeme"
                 ],
-                "description": "Vorbis is a general purpose audio and music encoding format contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond MPEG audio layer 3.",
+                "description": "Vorbis 是一种通用音频和音乐编码格式，与 MPEG-4 的 AAC 和 TwinVQ 同时代，是 MPEG 音频层 3 的下一代。",
                 "source_link": "https://gitlab.xiph.org/xiph/vorbis"
             }
         },

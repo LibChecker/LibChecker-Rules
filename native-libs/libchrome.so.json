@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "飘落的枫叶"
                 ],
-                "description": "The Chromium project has an general utility library referred to as libbase. Because it is standalone and does not depend on any other parts of Chromium, it has been been picked up by other Google related projects so people don't have to reinvent these things. Along those lines, a package in Chromium OS is provided so that projects specific to us can share the code without having to bundle it multiple times over. Currently, there are over 20 such projects in Chromium OS. To keep people on their toes, the package is named libchrome as libbase by itself is too confusing. Granted, libchrome isn‘t exactly clear itself, but it’s a lose-lose situation, and we tried our best. Please still love us.",
+                "description": "Chromium 项目有一个通用实用程序库，称为 libbase。因为它是独立的，不依赖于 Chromium 的其他部分，所以已被其他与 Google 相关的项目采用，以便人们不必重新发明这些东西。沿着这些思路，Chromium OS 中提供了一个包，以便我们特定的项目可以共享代码，而无需多次打包。目前，Chromium OS 中有超过 20 个这样的项目。为了让人们保持警惕，该包被命名为 libchrome，因为 libbase 本身太混乱了。当然，libchrome 本身也不够清晰，但这是一个两难境地，我们尽力而为。请仍然爱我们。",
                 "source_link": "https://chromium.googlesource.com/chromiumos/docs/+/master/packages/libchrome.md"
             }
         },

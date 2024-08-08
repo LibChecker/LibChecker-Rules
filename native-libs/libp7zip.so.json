@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "An Android compress and extract library, P7Zip port for Android.",
+                "description": "一个 Android 压缩和提取库，P7Zip 的 Android 移植。",
                 "source_link": "https://github.com/hzy3774/AndroidP7zip"
             }
         },

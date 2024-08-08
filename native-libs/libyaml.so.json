@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "YAML is a human-friendly data serialization language for all programming languages and LibYAML is a YAML parser and emitter library.",
+                "description": "YAML 是一种对所有编程语言友好的数据序列化语言，LibYAML 是一个 YAML 解析器和发射器库。",
                 "source_link": "https://github.com/yaml/libyaml"
             }
         },

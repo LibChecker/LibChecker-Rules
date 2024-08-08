@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Mediastreamer2 is a powerful and lightweight streaming engine for voice/video telephony applications.",
+                "description": "Mediastreamer2 是一个功能强大且轻量级的流引擎，适用于语音/视频电话应用程序。",
                 "source_link": "https://github.com/BelledonneCommunications/mediastreamer2"
             }
         },

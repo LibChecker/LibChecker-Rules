@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "lgc2333"
                 ],
-                "description": "libnode is a C++ implementation of Node.js.",
+                "description": "libnode 是 Node.js 的 C++ 实现。",
                 "source_link": "https://github.com/plenluno/libnode"
             }
         },

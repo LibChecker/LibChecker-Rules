@@ -3,12 +3,12 @@
         {
             "locale": "zh-Hans",
             "data": {
-                "label": "Android Game Development Kit Frame Pacing",
+                "label": "Android 游戏开发工具包帧率调整",
                 "dev_team": "Google",
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Android Game Development Kit Frame Pacing library, also known as Swappy.",
+                "description": "Android 游戏开发工具包帧率调整库，也称为 Swappy。",
                 "source_link": "https://developer.android.com/games/sdk/reference/frame-pacing"
             }
         },

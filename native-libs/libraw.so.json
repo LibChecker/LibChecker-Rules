@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "watwhat"
                 ],
-                "description": "LibRaw is a library for reading RAW files from digital cameras.",
+                "description": "LibRaw 是一个用于读取数码相机 RAW 文件的库。",
                 "source_link": "https://github.com/LibRaw/LibRaw"
             }
         },

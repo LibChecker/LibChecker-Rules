@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Goooler"
                 ],
-                "description": "Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression.",
+                "description": "Brotli 是一种通用的无损压缩算法，通过结合现代变体的 LZ77 算法、霍夫曼编码和二阶上下文建模来压缩数据，其压缩比可与当前可用的最佳通用压缩方法相媲美。它的速度与 deflate 相似，但提供更高密度的压缩。",
                 "source_link": "https://github.com/google/brotli"
             }
         },

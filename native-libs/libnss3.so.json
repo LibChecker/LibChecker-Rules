@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "tomac4t"
                 ],
-                "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards.",
+                "description": "网络安全服务 (NSS) 是一组库，旨在支持跨平台开发支持安全的客户端和服务器应用程序。使用 NSS 构建的应用程序可以支持 SSL v3、TLS、PKCS #5、PKCS #7、PKCS #11、PKCS #12、S/MIME、X.509 v3 证书和其他安全标准。",
                 "source_link": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS"
             }
         },

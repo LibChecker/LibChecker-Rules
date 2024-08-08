@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "lgc2333"
                 ],
-                "description": "GIF library built with ndk and gradle in aar format for usage with android gradle build system.",
+                "description": "用 ndk 和 gradle 构建的 GIF 库，采用 aar 格式，用于与 Android gradle 构建系统一起使用。",
                 "source_link": "https://github.com/waynejo/android-ndk-gif"
             }
         },

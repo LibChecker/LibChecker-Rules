@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "cliuff"
                 ],
-                "description": "WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.",
+                "description": "WireGuard® 是一个极其简单但快速且现代的 VPN，利用最先进的加密技术。它旨在比 IPsec 更快、更简单、更精简、更有用，同时避免了大量的麻烦。它打算比 OpenVPN 更加高效。WireGuard 被设计为通用 VPN，可在嵌入式界面和超级计算机上运行，适用于多种不同情况。最初为 Linux 内核发布，现在是跨平台的（Windows、macOS、BSD、iOS、Android）并广泛部署。虽然目前正在积极开发中，但它已经可能被认为是行业中最安全、最易于使用和最简单的 VPN 解决方案。",
                 "source_link": "https://github.com/WireGuard/wireguard-android"
             }
         },

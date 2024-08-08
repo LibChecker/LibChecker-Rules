@@ -11,7 +11,7 @@
                     "ArthurCyy",
                     "tomekzaw"
                 ],
-                "description": "Reanimated is a React Native library that allows for creating smooth animations and interactions that run on the UI thread.",
+                "description": "Reanimated 是一个 React Native 库，允许在 UI 线程上创建流畅的动画和交互。",
                 "source_link": "https://github.com/software-mansion/react-native-reanimated"
             }
         },

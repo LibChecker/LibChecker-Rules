@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "The Mapbox Maps SDK for Android is a public library for displaying interactive, thoroughly customizable maps in native Android. It takes map styles that conform to the Mapbox Style Specification, applies them to vector tiles that conform to the Mapbox Vector Tile Specification, and renders them using OpenGL.",
+                "description": "Mapbox Maps SDK for Android 是一个用于在原生 Android 中显示交互式、完全可定制地图的公共库。它采用符合 Mapbox 样式规范的地图样式，将其应用于符合 Mapbox 矢量瓦片规范的矢量瓦片，并使用 OpenGL 渲染它们。",
                 "source_link": "https://github.com/mapbox/mapbox-maps-android"
             }
         },

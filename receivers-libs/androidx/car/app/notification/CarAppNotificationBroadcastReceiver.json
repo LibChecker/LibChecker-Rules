@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Build navigation and point of interest apps for Android Auto and Android Automotive OS.",
+                "description": "为 Android Auto 和 Android Automotive OS 构建导航和兴趣点应用。",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/car-app"
             }
         },

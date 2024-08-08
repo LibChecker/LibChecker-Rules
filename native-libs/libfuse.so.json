@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel. The FUSE project consists of two components: the fuse kernel module (maintained in the regular kernel repositories) and the libfuse userspace library (maintained in this repository). libfuse provides the reference implementation for communicating with the FUSE kernel module. A FUSE file system is typically implemented as a standalone application that links with libfuse. libfuse provides functions to mount the file system, unmount it, read requests from the kernel, and send responses back. libfuse offers two APIs: a \"high-level\", synchronous API, and a \"low-level\" asynchronous API.",
+                "description": "FUSE（用户空间文件系统）是一个接口，用于用户空间程序将文件系统导出到 Linux 内核。FUSE 项目由两个组件组成：fuse 内核模块（在常规内核存储库中维护）和 libfuse 用户空间库（在此存储库中维护）。libfuse 提供了与 FUSE 内核模块通信的参考实现。FUSE 文件系统通常实现为一个独立的应用程序，链接到 libfuse。libfuse 提供挂载文件系统、卸载、从内核读取请求并发送响应回去的功能。libfuse 提供两种 API：“高级”同步 API 和“低级”异步 API。",
                 "source_link": "https://github.com/libfuse/libfuse"
             }
         },

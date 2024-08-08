@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Process Phoenix facilitates restarting your application process.",
+                "description": "Process Phoenix 便于重新启动您的应用程序进程。",
                 "source_link": "https://github.com/JakeWharton/ProcessPhoenix"
             }
         },

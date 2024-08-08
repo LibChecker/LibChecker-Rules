@@ -9,7 +9,7 @@
                     "yfdyh000",
                     "HenryWu01"
                 ],
-                "description": "Library for encoding and decoding .avif files",
+                "description": "用于编码和解码 .avif 文件的库。",
                 "source_link": "https://github.com/AOMediaCodec/libavif"
             }
         },

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "The GIFLIB project maintains the giflib service library, which has been pulling images out of GIFs since 1989. It is deployed everywhere you can think of and some places you probably can't - graphics applications and web browsers on multiple operating systems, game consoles, smartphones, and likely your ATM too.",
+                "description": "GIFLIB 项目维护 giflib 服务库，自 1989 年以来一直从 GIF 中提取图像。它部署在您能想到的所有地方，以及一些您可能想不到的地方——多个操作系统、游戏机、智能手机上的图形应用程序和网络浏览器，甚至可能是您的 ATM。",
                 "source_link": "https://giflib.sourceforge.net/"
             }
         },

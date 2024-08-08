@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "UniRapidJSON is RapidJSON wrapper for Unity.",
+                "description": "UniRapidJSON 是 Unity 的 RapidJSON 包装器。",
                 "source_link": "https://github.com/takezoh/UniRapidJson"
             }
         },

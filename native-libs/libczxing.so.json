@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "C++ port of ZXing and ZBar for Android.",
+                "description": "适用于 Android 的 ZXing 和 ZBar 的 C++ 移植。",
                 "source_link": "https://github.com/devilsen/CZXing"
             }
         },

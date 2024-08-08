@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "watwhat"
                 ],
-                "description": "Encrypted overlay filesystem written in Go.",
+                "description": "用 Go 编写的加密覆盖文件系统。",
                 "source_link": "https://github.com/rfjakob/gocryptfs"
             }
         },

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Barcode scanning library for Android, using ZXing for decoding.",
+                "description": "适用于 Android 的条形码扫描库，使用 ZXing 进行解码。",
                 "source_link": "https://github.com/journeyapps/zxing-android-embedded"
             }
         },

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
+                "description": "zlib 设计为一个免费、通用、合法无拘束——即不受任何专利覆盖——的无损数据压缩库，几乎可以在任何计算机硬件和操作系统上使用。",
                 "source_link": "http://www.zlib.net/"
             }
         },

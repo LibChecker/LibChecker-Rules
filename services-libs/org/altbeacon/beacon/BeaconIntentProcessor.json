@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "An Android library providing APIs to interact with beacons.",
+                "description": "一个提供与信标交互的 API 的 Android 库。",
                 "source_link": "https://github.com/AltBeacon/android-beacon-library"
             }
         },

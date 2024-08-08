@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "Cello is a library that brings higher level programming to C. By acting as a modern, powerful runtime system Cello makes many things easy that were previously impractical or awkward in C.",
+                "description": "Cello 是一个将高级编程引入 C 的库。通过作为一个现代、强大的运行时系统，Cello 使许多以前在 C 中不切实际或尴尬的事情变得简单。",
                 "source_link": "https://github.com/orangeduck/Cello"
             }
         },

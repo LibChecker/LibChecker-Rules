@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Target the latest platform features and APIs while also supporting older devices.",
+                "description": "在支持旧设备的同时，针对最新的平台功能和 API。",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/core"
             }
         },

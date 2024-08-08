@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "lgc2333"
                 ],
-                "description": "QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt. It optionally supports mathematical extensions such as big decimal floating point numbers (BigDecimal), big binary floating point numbers (BigFloat) and operator overloading.",
+                "description": "QuickJS 是一个小型的可嵌入 JavaScript 引擎。它支持 ES2020 规范，包括模块、异步生成器、代理和 BigInt。它可选地支持数学扩展，如大十进制浮点数（BigDecimal）、大二进制浮点数（BigFloat）和运算符重载。",
                 "source_link": "https://github.com/bellard/quickjs"
             }
         },

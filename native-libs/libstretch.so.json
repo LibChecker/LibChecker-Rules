@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "Stretch is an implementation of high performance Flexbox written in Rust. The goal of stretch is to provide a solid foundation for layout across all platforms with a specific focus on mobile. Long term we want stretch to not only support flexbox but also many other layout algorithms such as grid layout. Stretch was made for and powers https://visly.app.",
+                "description": "Stretch 是一个用 Rust 编写的高性能 Flexbox 实现。Stretch 的目标是为所有平台提供一个坚实的布局基础，特别关注移动设备。长期来看，我们希望 Stretch 不仅支持 Flexbox，还支持许多其他布局算法，如网格布局。Stretch 是为并支持 https://visly.app 而制作的。",
                 "source_link": "https://github.com/vislyhq/stretch"
             }
         },

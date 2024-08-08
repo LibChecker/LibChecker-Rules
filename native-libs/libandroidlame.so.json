@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Android/Java wrapper around Lame mp3 encoder.",
+                "description": "Android/Java 包装器，围绕 Lame mp3 编码器。",
                 "source_link": "https://github.com/naman14/TAndroidLame"
             }
         },

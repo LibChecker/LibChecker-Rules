@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "watwhat"
                 ],
-                "description": "TiffBitmapFactory is an Android library that allows opening and saving images in *.tif format on Android devices.",
+                "description": "TiffBitmapFactory 是一个 Android 库，允许在 Android 设备上打开和保存 *.tif 格式的图像。",
                 "source_link": "https://github.com/Beyka/Android-TiffBitmapFactory"
             }
         },

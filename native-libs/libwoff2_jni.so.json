@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "WOFF2 compression / decompression algorithm library implemented in C++.",
+                "description": "WOFF2 压缩/解压缩算法库，用 C++ 实现。",
                 "source_link": "https://github.com/google/woff2"
             }
         },

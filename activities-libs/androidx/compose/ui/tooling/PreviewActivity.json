@@ -9,7 +9,7 @@
                     "Cook21"
                 ],
                 "description": "Jetpack Compose 是用于构建原生 Android 界面的新工具包。Jetpack Compose 使用更少的代码、强大的工具和直观的 Kotlin API 简化并加快了 Android 上的界面开发。",
-                "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose?hl=zh-cn"
+                "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose"
             }
         },
         {
@@ -21,7 +21,7 @@
                     "Cook21"
                 ],
                 "description": "Jetpack Compose is a new toolkit for building native Android interfaces. Jetpack Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.",
-                "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose?hl=zh-cn"
+                "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose"
             }
         }
     ],

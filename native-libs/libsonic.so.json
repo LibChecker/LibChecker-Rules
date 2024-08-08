@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "The Sonic library is a very simple ANSI C library that is designed to easily be integrated into streaming voice applications, like TTS back ends.",
+                "description": "Sonic 库是一个非常简单的 ANSI C 库，设计为易于集成到流式语音应用程序中，如 TTS 后端。",
                 "source_link": "https://github.com/waywardgeek/sonic"
             }
         },

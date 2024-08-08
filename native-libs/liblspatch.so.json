@@ -9,7 +9,7 @@
                     "duzhaokun123",
                     "zeng-py"
                 ],
-                "description": "LSPatch fork from Xpatch. LSPatch provides a way to insert dex and so into the target APK by repackaging.",
+                "description": "LSPatch 从 Xpatch 分支。LSPatch 提供了一种通过重新打包将 dex 和 so 插入目标 APK 的方法。",
                 "source_link": "https://github.com/LSPosed/LSPatch"
             }
         },

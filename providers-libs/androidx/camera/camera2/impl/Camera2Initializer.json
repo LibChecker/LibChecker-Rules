@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Camera2 is the latest low-level Android camera package and replaces the deprecated Camera class. Camera2 provides in-depth controls for complex use cases, but requires you to manage device-specific configurations.",
+                "description": "Camera2 是最新的低级 Android 相机包，取代了已弃用的 Camera 类。Camera2 为复杂的用例提供深入的控制，但需要您管理设备特定的配置。",
                 "source_link": "https://developer.android.com/training/camera2"
             }
         },

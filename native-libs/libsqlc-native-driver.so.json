@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "chengyuhui"
                 ],
-                "description": "SQLite3 Native Plugin for React Native",
+                "description": "适用于 React Native 的 SQLite3 本机插件。",
                 "source_link": "https://github.com/andpor/react-native-sqlite-storage"
             }
         },

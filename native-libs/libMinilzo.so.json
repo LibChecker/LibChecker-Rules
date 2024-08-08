@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "moten-07"
                 ],
-                "description": "miniLZO is a very lightweight subset of the LZO library intended for easy inclusion with your application.",
+                "description": "miniLZO 是一个非常轻量级的 LZO 库子集，旨在便于与您的应用程序集成。",
                 "source_link": "https://www.oberhumer.com/opensource/lzo/#minilzo"
             }
         },

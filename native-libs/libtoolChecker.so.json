@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... Has this device got root?",
+                "description": "一个美味的 root 检查库和示例应用程序。我们在互联网上搜罗了不同的方法来回答那个古老的问题……这个设备有 root 权限吗？",
                 "source_link": "https://github.com/scottyab/rootbeer"
             }
         },

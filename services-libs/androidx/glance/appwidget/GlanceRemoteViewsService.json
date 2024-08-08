@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Build layouts for remote surfaces using a Jetpack Compose-style API.",
+                "description": "使用 Jetpack Compose 风格的 API 为远程表面构建布局。",
                 "source_link": "https://developer.android.com/jetpack/androidx/releases/glance"
             }
         },

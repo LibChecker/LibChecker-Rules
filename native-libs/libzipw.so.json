@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "A shared library for Android, iOS*, OSX, Windows, Linux and webGL** to compress/decompress zip/gzip/tar/bz2 (.zip/.gz) files and buffers.",
+                "description": "一个共享库，适用于 Android、iOS*、OSX、Windows、Linux 和 webGL**，用于压缩/解压缩 zip/gzip/tar/bz2 (.zip/.gz) 文件和缓冲区。",
                 "source_link": "https://assetstore.unity.com/packages/tools/input-management/zip-gzip-multiplatform-native-plugin-39411"
             }
         },

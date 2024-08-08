@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "ENet's purpose is to provide a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol).The primary feature it provides is optional reliable, in-order delivery of packets.",
+                "description": "ENet 的目的是在 UDP（用户数据报协议）之上提供一个相对较薄、简单和稳健的网络通信层。它提供的主要功能是可选的可靠、有序的数据包传递。",
                 "source_link": "http://enet.bespin.org/"
             }
         },

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "WebP format support for Android < 4.0.",
+                "description": "WebP 格式支持 Android < 4.0。",
                 "source_link": "https://github.com/alexey-pelykh/webp-android-backport"
             }
         },

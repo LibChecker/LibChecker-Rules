@@ -3,12 +3,12 @@
         {
             "locale": "zh-Hans",
             "data": {
-                "label": "Torrent library for java",
+                "label": "Java 的 Torrent 库",
                 "dev_team": "Alden Torres",
                 "rule_contributors": [
                     "watwhat"
                 ],
-                "description": "libtorrent for java, a swig Java interface for libtorrent.",
+                "description": "libtorrent 的 Java 版本，libtorrent 的 swig Java 接口。",
                 "source_link": "https://github.com/aldenml/libtorrent4j"
             }
         },

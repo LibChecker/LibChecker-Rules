@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "This package contains C software to implement JPEG image encoding, decoding, and transcoding. JPEG is a standardized compression method for full-color and grayscale images.",
+                "description": "此包包含用于实现 JPEG 图像编码、解码和转码的 C 软件。JPEG 是一种标准化的全彩色和灰度图像压缩方法。",
                 "source_link": "https://ijg.org/files"
             }
         },

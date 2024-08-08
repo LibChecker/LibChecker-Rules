@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL.",
+                "description": "在原生 Android、iOS、macOS、Node.js 和 Qt 应用程序中显示交互式、完全可定制的地图，由矢量瓦片和 OpenGL 提供支持。",
                 "source_link": "https://github.com/mapbox/mapbox-gl-native"
             }
         },

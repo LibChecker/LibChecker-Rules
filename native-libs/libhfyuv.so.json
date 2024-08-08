@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "libyuv is an open source project that includes YUV scaling and conversion functionality.",
+                "description": "libyuv 是一个开源项目，包含 YUV 缩放和转换功能。",
                 "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
             }
         },

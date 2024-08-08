@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "The Liblouis software suite provides an open-source braille translator, back-translator and formatter for a large number of languages and braille codes. It is a set of libraries designed for use in any of a number of applications, both free and commercial. It is written in C so that it does not require a runtime environment and hence can be used in applications written in high-level languages such as Java and Python.",
+                "description": "Liblouis 软件套件提供了一个开源盲文翻译器、反翻译器和格式化器，适用于大量语言和盲文代码。它是一组库，设计用于许多应用程序，无论是免费还是商业的。它用 C 编写，因此不需要运行时环境，因此可以在用高级语言（如 Java 和 Python）编写的应用程序中使用。",
                 "source_link": "https://liblouis.io/"
             }
         },

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "brooks-xzy"
                 ],
-                "description": "A cross-platform library to access USB devices.",
+                "description": "一个跨平台库，用于访问 USB 设备。",
                 "source_link": "https://github.com/libusb/libusb"
             }
         },

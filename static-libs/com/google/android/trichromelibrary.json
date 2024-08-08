@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "YuukikazeMKII"
                 ],
-                "description": "Trichrome returns to separate apps for Chrome and Webview, but places shared resources in a third shared-library APK.",
+                "description": "Trichrome 返回到 Chrome 和 Webview 的单独应用程序，但将共享资源放在第三个共享库 APK 中。",
                 "source_link": "https://chromium.googlesource.com/chromium/src/+/master/docs/android_native_libraries.md#Trichrome"
             }
         },

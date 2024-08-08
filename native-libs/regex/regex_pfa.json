@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "python-for-android is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK or AAB along with your own code.",
+                "description": "python-for-android 是一个用于在 Android 上打包 Python 应用程序的工具。您可以创建自己的 Python 发行版，包括您想要的模块和依赖项，并将其与您的代码一起打包成 APK 或 AAB。",
                 "source_link": "https://github.com/kivy/python-for-android"
             }
         },

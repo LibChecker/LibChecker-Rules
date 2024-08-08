@@ -12,7 +12,7 @@
                     "Anormi",
                     "crrashh1542"
                 ],
-                "description": "An open-source C++ library developed and used at Facebook.",
+                "description": "一个在 Facebook 开发和使用的开源 C++ 库。",
                 "source_link": "https://github.com/facebook/folly"
             }
         },

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "watwhat"
                 ],
-                "description": "A modern, portable, easy to use crypto library.",
+                "description": "一个现代、便携、易于使用的加密库。",
                 "source_link": "https://github.com/jedisct1/libsodium"
             }
         },

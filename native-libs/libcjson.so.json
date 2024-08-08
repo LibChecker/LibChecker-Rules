@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "Ultralightweight JSON parser in ANSI C.",
+                "description": "ANSI C 中的超轻量级 JSON 解析器。",
                 "source_link": "https://github.com/DaveGamble/cJSON"
             }
         },

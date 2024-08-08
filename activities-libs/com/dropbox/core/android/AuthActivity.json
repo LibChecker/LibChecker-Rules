@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "A Java library to access Dropbox's HTTP-based Core API v2. This SDK also supports the older Core API v1, but that support will be removed at some point.",
+                "description": "一个 Java 库，用于访问 Dropbox 的基于 HTTP 的核心 API v2。此 SDK 还支持较旧的核心 API v1，但该支持将在某个时候被删除。",
                 "source_link": "https://github.com/dropbox/dropbox-sdk-java"
             }
         },

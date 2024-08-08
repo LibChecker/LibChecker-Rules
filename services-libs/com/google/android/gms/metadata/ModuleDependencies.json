@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "sebastien46"
                 ],
-                "description": "Older devices that run Android 4.4 (API level 19) through Android 10 (API level 29) and Android Go devices running Android 11 or 12 that support Google Play services can install a backported version of the photo picker.",
+                "description": "运行 Android 4.4（API 级别 19）到 Android 10（API 级别 29）的旧设备和运行 Android 11 或 12 的 Android Go 设备，支持 Google Play 服务，可以安装照片选择器的回移版本。",
                 "source_link": "https://developer.android.com/training/data-storage/shared/photopicker#device-availability"
             }
         },

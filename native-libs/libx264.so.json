@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "binx6"
                 ],
-                "description": "x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format, and is released under the terms of the GNU GPL.",
+                "description": "x264 是一个用于将视频流编码为 H.264/MPEG-4 AVC 压缩格式的自由软件库和应用程序，并根据 GNU GPL 条款发布。",
                 "source_link": "https://www.videolan.org/developers/x264.html"
             }
         },

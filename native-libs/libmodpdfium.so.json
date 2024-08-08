@@ -9,7 +9,7 @@
                     "yfdyh000",
                     "ArthurCyy"
                 ],
-                "description": "Pdfium Android binding.",
+                "description": "Pdfium Android 绑定。",
                 "source_link": "https://android.googlesource.com/platform/external/pdfium/"
             }
         },

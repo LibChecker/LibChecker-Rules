@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Software implementation of the OpenAL audio API",
+                "description": "OpenAL 音频 API 的软件实现。",
                 "source_link": "https://packages.ubuntu.com/kinetic/libopenal-dev"
             }
         },

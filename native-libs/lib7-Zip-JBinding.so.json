@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "lgc2333"
                 ],
-                "description": "7-Zip-JBinding is a free cross-platform java binding of 7-Zip free compress/decompress library.",
+                "description": "7-Zip-JBinding 是一个免费的跨平台 Java 绑定的 7-Zip 免费压缩/解压缩库。",
                 "source_link": "https://github.com/borisbrodski/sevenzipjbinding"
             }
         },
