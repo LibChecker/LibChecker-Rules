@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "Hexagon DSP runtime library",
                 "dev_team": "Qualcomm Snapdragon",

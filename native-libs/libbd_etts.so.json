@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "离线语音合成 SDK",
                 "dev_team": "Baidu",

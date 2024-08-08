@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "Android Crazy Linker",
                 "dev_team": "The Chromium Authors",

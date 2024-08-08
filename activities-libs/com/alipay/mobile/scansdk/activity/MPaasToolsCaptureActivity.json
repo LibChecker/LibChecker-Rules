@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "mPaaS 扫一扫",
                 "dev_team": "Alibaba",

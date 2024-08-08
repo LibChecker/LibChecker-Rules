@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "Log for C++",
                 "dev_team": "bastiaan, sanchouss_, waffel",

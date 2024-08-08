@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "APMInsight / 应用性能监控全链路版",
                 "dev_team": "Volcengine (火山引擎)",
