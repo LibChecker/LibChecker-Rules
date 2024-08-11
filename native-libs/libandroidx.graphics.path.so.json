@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Jetpack Graphics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "利用多个 Android 平台版本中的图形工具降低画面延迟。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/graphics"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Graphics",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Utilizes graphical tools across multiple Android platform versions to reduce screen latency.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/graphics"
+            }
+        }
+    ],
+    "uuid": "71464FA3-A55F-4FCE-A805-340482102A77"
+}

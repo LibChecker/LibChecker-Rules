@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "android-tree-sitter",
+                "dev_team": "AndroidIDEOfficial",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "用于 tree-sitter 的 Android Java 绑定。目前用于 AndroidIDE 和 sora-editor。",
+                "source_link": "https://github.com/AndroidIDEOfficial/android-tree-sitter"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "android-tree-sitter",
+                "dev_team": "AndroidIDEOfficial",
+                "rule_contributors": [
+                    "binx6"
+                ],
+                "description": "Android Java bindings for tree-sitter. Currently used in AndroidIDE and sora-editor.",
+                "source_link": "https://github.com/AndroidIDEOfficial/android-tree-sitter"
+            }
+        }
+    ],
+    "uuid": "A668BF64-C8D9-4CE6-A94E-CD1FF857C99E"
+}

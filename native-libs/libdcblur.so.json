@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "DCloud",
+                "dev_team": "数字天堂",
+                "rule_contributors": [
+                    "ohyeah521"
+                ],
+                "description": "libdeflate 是一个用于快速、全缓冲区的 DEFLATE 压缩和解压缩的库。",
+                "source_link": "https://github.com/ebiggers/libdeflate"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DCloud",
+                "dev_team": "数字天堂",
+                "rule_contributors": [
+                    "ohyeah521"
+                ],
+                "description": "libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.",
+                "source_link": "https://github.com/ebiggers/libdeflate"
+            }
+        }
+    ],
+    "uuid": "15ABBE99-3F06-4667-8F5F-785DB4AABCA3"
+}

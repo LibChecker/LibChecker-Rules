@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "protobuf",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Protocol Buffers（即 protobuf）是 Google 的语言中立、平台中立、可扩展的结构化数据序列化机制。",
+                "source_link": "https://github.com/protocolbuffers/protobuf"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "protobuf",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.",
+                "source_link": "https://github.com/protocolbuffers/protobuf"
+            }
+        }
+    ],
+    "uuid": "683A4EB1-24B4-4984-9773-65AF0C79F5F6"
+}

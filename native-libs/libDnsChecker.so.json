@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "DnsChecker",
+                "dev_team": "olof ",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "DNSCheck 是一个用 Perl 编写的 DNS 委派质量检查器。它有一个用于执行检查的后端和用 PHP 编写的网页前端。",
+                "source_link": "https://github.com/olof/dnscheck"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DnsChecker",
+                "dev_team": "olof ",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "DNSCheck is a DNS delegation quality checker written in Perl. There is a backend for performing the checks, and a web frontend written in PHP.",
+                "source_link": "https://github.com/olof/dnscheck"
+            }
+        }
+    ],
+    "uuid": "1B4F575D-9D83-42B7-8953-ED6721386F68"
+}

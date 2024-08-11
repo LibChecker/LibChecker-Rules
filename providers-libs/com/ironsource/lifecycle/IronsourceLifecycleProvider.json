@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "IronSource",
+                "dev_team": "ironSource Mobile",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "使用 ironSource 将您的应用程序转变为业务。通过一个强大的平台最大化您的广告收入，扩大用户基础并优化您的货币化策略。",
+                "source_link": "https://github.com/ironsource-mobile/android-sdk"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "IronSource",
+                "dev_team": "ironSource Mobile",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "Turn your app into a business with ironSource. Maximize your ad revenue, grow your user base and optimize your monetization strategy, all from one powerful platform.",
+                "source_link": "https://github.com/ironsource-mobile/android-sdk"
+            }
+        }
+    ],
+    "uuid": "5C60DF6E-5E9D-4BA3-A6AE-4A3ED4EBE63C"
+}

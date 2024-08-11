@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TencentSM",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "腾讯 Kona 国密套件是一组 Java 安全特性的 Provider 实现，主要服务于 Java 生态中的国密应用场景。",
+                "source_link": "https://github.com/Tencent/TencentKonaSMSuite"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TencentSM",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Tencent Kona National Encryption Suite is a set of Java security feature providers, mainly serving national encryption application scenarios within the Java ecosystem.",
+                "source_link": "https://github.com/Tencent/TencentKonaSMSuite"
+            }
+        }
+    ],
+    "uuid": "8909EB42-3C99-4182-9901-1F7BBB4438B1"
+}

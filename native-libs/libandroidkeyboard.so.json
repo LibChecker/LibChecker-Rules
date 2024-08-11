@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Fcitx 5 for Android",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Fcitx 5 的 Android 插件。（通知）",
+                "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Fcitx 5 for Android",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Fcitx 5 for Android addon. (keyboard)",
+                "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+            }
+        }
+    ],
+    "uuid": "4787CC13-BFB2-43C3-8FD4-2D8D930D4E52"
+}

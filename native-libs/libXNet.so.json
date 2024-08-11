@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "XNet",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "腾讯云物联网开发平台（Tencent IoT）是集智能生活、智能制造、智能人居等功能于一体的解决方案。如家庭生活类产品，智能门锁可通过 wifi 设备接入腾讯云 IoT 平台进行管理。 项目工程中包含三大块，App 体验模块、SDK Demo、SDK 模块。 用户可通过 App 体验产品功能，通过现有 App 快速搭建起属于自己的 IoT 应用。 也可通过 SDK 接入到自己的工程来完成与腾讯云物联网开发平台对接功能。",
+                "source_link": "https://github.com/tencentyun/iot-link-android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "XNet",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Tencent Cloud IoT Development Platform (Tencent IoT) is an integrated solution encompassing smart living, smart manufacturing, and smart habitation functionalities. For example, smart home products like smart locks can be managed through Wi-Fi devices connected to the Tencent Cloud IoT platform. The project engineering includes three main components: the App experience module, SDK Demo, and SDK module. Users can experience product features through the App and quickly build their own IoT applications using the existing App. Alternatively, they can integrate the SDK into their own projects to complete the interfacing with the Tencent Cloud IoT Development Platform.",
+                "source_link": "https://github.com/tencentyun/iot-link-android"
+            }
+        }
+    ],
+    "uuid": "CED7C7BB-83B4-4494-B3D9-E93A9A11A383"
+}

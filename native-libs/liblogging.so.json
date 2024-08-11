@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "logging",
+                "dev_team": "rsyslog",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Liblogging 是一个易于使用的日志记录库。它提供了一个增强的 syslog() 调用替代品，同时保留了其易用性。",
+                "source_link": "https://github.com/rsyslog/liblogging"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "logging",
+                "dev_team": "rsyslog",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Liblogging is an easy to use library for logging. It offers an enhanced replacement for the syslog() call, but retains its ease of use.",
+                "source_link": "https://github.com/rsyslog/liblogging"
+            }
+        }
+    ],
+    "uuid": "A7403BA4-6F94-49FB-B0EF-13E5AC6292D5"
+}

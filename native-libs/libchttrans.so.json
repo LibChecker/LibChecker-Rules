@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Fcitx 5 中文插件",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+                "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Fcitx 5 Chinese Addons",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Fcitx 5 for Android addon. (chttrans module)",
+                "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+            }
+        }
+    ],
+    "uuid": "23FFE549-FEED-45DF-BD74-C9F4CCA26FA3"
+}

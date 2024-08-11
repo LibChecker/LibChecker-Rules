@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Fcitx 5",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Fcitx 5 是一个通用输入法框架（快速短语模块）。",
+                "source_link": "https://github.com/fcitx/fcitx5"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Fcitx 5",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "Fcitx 5 is a generic input method framework (config lib module).",
+                "source_link": "https://github.com/fcitx/fcitx5"
+            }
+        }
+    ],
+    "uuid": "DCF7F224-974D-45FD-BBB4-3E91D1C112D1"
+}

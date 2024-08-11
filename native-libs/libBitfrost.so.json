@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Bitfrost",
+                "dev_team": "pmelsted",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "高度并行的彩色和压缩 de Bruijn 图的构建和索引。",
+                "source_link": "https://github.com/pmelsted/bifrost"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Bitfrost",
+                "dev_team": "pmelsted",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Highly parallel construction and indexing of colored and compacted de Bruijn graphs.",
+                "source_link": "https://github.com/pmelsted/bifrost"
+            }
+        }
+    ],
+    "uuid": "18FAEDE3-BFBD-4B7D-B432-570F7024B59E"
+}

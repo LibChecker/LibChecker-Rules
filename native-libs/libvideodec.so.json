@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "videodec",
+                "dev_team": "Parrot-Developers",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libvideo-decode 是一个 C 语言库，用于在各种平台上使用通用 API 处理 H.264 视频的解码。",
+                "source_link": "https://github.com/Parrot-Developers/libvideo-decode"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "videodec",
+                "dev_team": "Parrot-Developers",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libvideo-decode is a C library to handle the decoding of H.264 video on various platforms with a common API.",
+                "source_link": "https://github.com/Parrot-Developers/libvideo-decode"
+            }
+        }
+    ],
+    "uuid": "6C3A7724-3A83-401A-B00C-46CE22C0DE44"
+}

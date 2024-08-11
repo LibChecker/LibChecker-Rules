@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "libIME",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "一个支持通用输入法实现的库。（表格）",
+                "source_link": "https://github.com/fcitx/libime"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libIME",
+                "dev_team": "Fcitx / Fcitx 5 for Android",
+                "rule_contributors": [
+                    "WhiredPlanck"
+                ],
+                "description": "A library to support generic input method implementation. (table)",
+                "source_link": "https://github.com/fcitx/libime"
+            }
+        }
+    ],
+    "uuid": "5B152231-C449-45AC-8E62-7B6CBAC4A38A"
+}

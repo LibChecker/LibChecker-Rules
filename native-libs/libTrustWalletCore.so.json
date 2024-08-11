@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Trust Wallet Core",
+                "dev_team": "Trustwallet",
+                "rule_contributors": [
+                    "huazhuangnan"
+                ],
+                "description": "跨平台、跨区块链钱包库。",
+                "source_link": "https://github.com/trustwallet/wallet-core"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Trust Wallet Core",
+                "dev_team": "Trustwallet",
+                "rule_contributors": [
+                    "huazhuangnan"
+                ],
+                "description": "Cross-platform, cross-blockchain wallet library.",
+                "source_link": "https://github.com/trustwallet/wallet-core"
+            }
+        }
+    ],
+    "uuid": "DEDDFAC6-C824-4AF1-AF95-A835CA0DB8C1"
+}

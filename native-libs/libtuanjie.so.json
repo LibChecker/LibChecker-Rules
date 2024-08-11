@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "团结引擎",
+                "dev_team": "Unity 中国",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "团结引擎是 Unity 中国研发团队推出的 Unity 中国版引擎，它以 Unity 2022 LTS 为研发基础，推出了微信小游戏解决方案、团结引擎车机版，赋予小游戏和智能汽车领域的开发者，以更强劲的创作动能，是 Unity 中国加速本土化进程的里程碑。",
+                "source_link": "https://docs.unity.cn/cn/tuanjiemanual/Manual/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Unity Engine",
+                "dev_team": "Unity 中国",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "Unity Engine is the Chinese version of the Unity engine launched by the Unity China R&D team, based on Unity 2022 LTS. It introduces solutions for WeChat mini-games and the Unity Engine car version, providing developers in the mini-game and smart automotive fields with more robust creative momentum, marking a milestone in Unity China's acceleration of localization.",
+                "source_link": "https://docs.unity.cn/cn/tuanjiemanual/Manual/"
+            }
+        }
+    ],
+    "uuid": "7A5C672A-C54A-4699-A07C-62EDB5AE4CAA"
+}

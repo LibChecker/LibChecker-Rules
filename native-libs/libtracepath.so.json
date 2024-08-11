@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "tracepath",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "利用 ping、tcp connect 和 traceroute 的原理，对指定域名（通常为后台 API 的提供域名）进行网络诊断，并收集诊断日志。",
+                "source_link": "https://github.com/Lede-Inc/LDNetDiagnoService_Android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "tracepath",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Utilizes the principles of ping, TCP connect, and traceroute to perform network diagnostics on a specified domain name (usually the domain provided by a backend API) and collects diagnostic logs.",
+                "source_link": "https://github.com/Lede-Inc/LDNetDiagnoService_Android"
+            }
+        }
+    ],
+    "uuid": "0CC5126B-1719-4240-B541-821C7F62087A"
+}

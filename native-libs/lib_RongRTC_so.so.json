@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "融云 IM SDK",
+                "dev_team": "融云 RongCloud",
+                "rule_contributors": [
+                    "zxwpm",
+                    "ArthurCyy"
+                ],
+                "description": "IM 即时通讯 - SealTalk 支持应用内社交等场景，体验单群聊、聊天室、音视频通话、小视频、动态表情等通讯能力",
+                "source_link": "https://github.com/sealtalk/sealtalk-android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "RongCloud IM SDK",
+                "dev_team": "融云 RongCloud",
+                "rule_contributors": [
+                    "zxwpm",
+                    "ArthurCyy"
+                ],
+                "description": "IM Instant Messaging - SealTalk supports in-app social scenarios, providing experiences like single and group chat, chat rooms, audio and video calls, short videos, dynamic expressions, and more.",
+                "source_link": "https://github.com/sealtalk/sealtalk-android"
+            }
+        }
+    ],
+    "uuid": "1B6E2410-05BD-4B92-89FF-B05170BCD1AA"
+}

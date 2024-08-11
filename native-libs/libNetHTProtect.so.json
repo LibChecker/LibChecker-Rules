@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "网易易盾智能反外挂",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "TIAQI233"
+                ],
+                "description": "用于 Android 平台的手游智能反外挂系统。这个库是网易易盾提供的一部分，旨在帮助游戏开发者检测和防止外挂程序的使用。它提供了多种功能，包括初始化反外挂服务、设置玩家角色信息、查询设备信息（如是否为模拟器或 root 设备），以及获取反外挂版本号等。",
+                "source_link": "https://support.dun.163.com/documents/368110571181232128?docId=456646710151434240"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "NetEase Easy Shield Intelligent Anti-Cheat",
+                "dev_team": "Netease",
+                "rule_contributors": [
+                    "TIAQI233"
+                ],
+                "description": "An intelligent anti-cheat system for mobile games on the Android platform. This library is part of NetEase's Easy Shield, designed to help game developers detect and prevent the use of cheating programs. It offers various features, including initializing anti-cheat services, setting player role information, querying device information (such as whether it is an emulator or a rooted device), and obtaining the anti-cheat version number.",
+                "source_link": "https://support.dun.163.com/documents/368110571181232128?docId=456646710151434240"
+            }
+        }
+    ],
+    "uuid": "52C76B85-4E0A-4D49-BC8B-717B59F7ADD8"
+}

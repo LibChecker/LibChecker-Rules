@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "HWCPipe",
+                "dev_team": "ARM-software",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "HWCPipe 是一个实用工具，允许应用程序从 Arm® Immortalis™ 和 Arm Mali™ GPU 采样性能计数器。此信息使开发人员能够使用其现有的内部性能工具对应用程序工作负载进行分析和优化，并能够在应用程序用户界面中实时显示性能数据。",
+                "source_link": "https://github.com/ARM-software/HWCPipe"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HWCPipe",
+                "dev_team": "ARM-software",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "HWCPipe is a utility that allows applications to sample performance counters from Arm® Immortalis™ and Arm Mali™ GPUs. This information allows developers to profile and optimize their application workload using their existing in-house performance tooling, and gives the ability to display performance data live in the application user interface.",
+                "source_link": "https://github.com/ARM-software/HWCPipe"
+            }
+        }
+    ],
+    "uuid": "182A86D4-E423-40DA-A3C5-B4CBD36AF368"
+}

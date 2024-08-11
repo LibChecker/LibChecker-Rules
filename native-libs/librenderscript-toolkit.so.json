@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "RenderScript Intrinsics Replacement Toolkit",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "此工具包提供了一组高性能的图像处理功能，如模糊、混合和调整大小。它可以作为大多数已弃用的 RenderScript Intrinsics 函数的独立替代品使用。",
+                "source_link": "https://github.com/android/renderscript-intrinsics-replacement-toolkit"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "RenderScript Intrinsics Replacement Toolkit",
+                "dev_team": "Android",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "This Toolkit provides a collection of high-performance image manipulation functions like blur, blend, and resize. It can be used as a stand-alone replacement for most of the deprecated RenderScript Intrinsics functions.",
+                "source_link": "https://github.com/android/renderscript-intrinsics-replacement-toolkit"
+            }
+        }
+    ],
+    "uuid": "BA7BB8EE-5B00-4444-AEC3-3D011D7B6FD1"
+}

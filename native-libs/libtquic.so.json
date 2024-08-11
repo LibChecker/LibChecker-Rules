@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "TQUIC",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "TQUIC 是 IETF QUIC 协议的实现。它是一个高性能、轻量级、跨平台的 QUIC 库。",
+                "source_link": "https://github.com/Tencent/tquic"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TQUIC",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "Absinthe"
+                ],
+                "description": "TQUIC is an implementation of the IETF QUIC protocol. It is a high-performance, lightweight, cross-platform QUIC library.",
+                "source_link": "https://github.com/Tencent/tquic"
+            }
+        }
+    ],
+    "uuid": "CAB4AFB0-A0E9-4566-8793-8562CF43A755"
+}

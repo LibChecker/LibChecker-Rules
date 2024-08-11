@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-rCN",
+            "data": {
+                "label": "Zstandard",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "mineqwwe"
+                ],
+                "description": "Zstandard，缩写 zstd,是一种快速无损压缩算法，针对 zlib 级别的实时压缩场景以及更好的压缩比。",
+                "source_link": "https://github.com/facebook/zstd"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Zstandard",
+                "dev_team": "Facebook",
+                "rule_contributors": [
+                    "mineqwwe"
+                ],
+                "description": "Zstandard, abbreviated as zstd, is a fast lossless compression algorithm aimed at real-time compression scenarios at zlib level and offering better compression ratios.",
+                "source_link": "https://github.com/facebook/zstd"
+            }
+        }
+    ],
+    "uuid": "EC986391-3097-4EA1-9D97-996F8488D50B"
+}
