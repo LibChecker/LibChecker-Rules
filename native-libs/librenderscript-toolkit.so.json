@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "locale": "zh-rCN",
+            "locale": "zh-Hans",
             "data": {
                 "label": "RenderScript Intrinsics Replacement Toolkit",
                 "dev_team": "Android",
