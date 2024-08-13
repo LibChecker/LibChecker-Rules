@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "APKiD",
+                "dev_team": "rednaga",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "APKiD为您提供有关APK制作方式的信息。它识别许多编译器、打包器、混淆器和其他奇怪的东西。它是Android的PEiD。",
+                "source_link": "https://github.com/rednaga/APKiD"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "APKiD",
+                "dev_team": "rednaga",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "APKiD gives you information about how an APK was made. It identifies many compilers, packers, obfuscators, and other weird stuff. It's PEiD for Android.",
+                "source_link": "https://github.com/rednaga/APKiD"
+            }
+        }
+    ],
+    "uuid": "05DD0AC9-FFD8-4DFC-A357-D298C1A5E5AA"
+}

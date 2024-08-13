@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "brltty",
+                "dev_team": "Debian",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "brltty是一个后台进程（守护进程），为使用可刷新盲文显示器的盲人提供对控制台屏幕（文本模式下）的访问。它驱动盲文显示器，并提供完整的屏幕审阅功能。还集成了一些语音功能。",
+                "source_link": "https://manpages.debian.org/testing/brltty/brltty.1.en.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "brltty",
+                "dev_team": "Debian",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "brltty is a background process (daemon) which provides access to the console screen (when in text mode) for a blind person using a refreshable braille display. It drives the braille display, and provides complete screen review functionality. Some speech capability has also been incorporated.",
+                "source_link": "https://manpages.debian.org/testing/brltty/brltty.1.en.html"
+            }
+        }
+    ],
+    "uuid": "7B8E14F7-CD66-427B-BF09-11F878AFB53A"
+}

@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "onnxruntime",
+                "dev_team": "Microsoft",
+                "rule_contributors": [
+                    "WOLFRAZOR",
+                    "WOLFRAZOR"
+                ],
+                "description": "ONNX Runtime是一个跨平台的推理和训练机器学习加速器。",
+                "source_link": "https://github.com/microsoft/onnxruntime"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "onnxruntime",
+                "dev_team": "Microsoft",
+                "rule_contributors": [
+                    "WOLFRAZOR",
+                    "WOLFRAZOR"
+                ],
+                "description": "ONNX Runtime is a cross-platform inference and training machine-learning accelerator.",
+                "source_link": "https://github.com/microsoft/onnxruntime"
+            }
+        }
+    ],
+    "uuid": "1CBCEAC3-A5A3-4526-977C-E33C04449B42"
+}

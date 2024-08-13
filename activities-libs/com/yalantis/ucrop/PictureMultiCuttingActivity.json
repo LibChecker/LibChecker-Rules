@@ -7,7 +7,8 @@
                 "dev_team": "Yalantis",
                 "rule_contributors": [
                     "su1216",
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
                 "description": "Android 图片裁剪库。",
                 "source_link": "https://github.com/Yalantis/uCrop/"
@@ -20,7 +21,8 @@
                 "dev_team": "Yalantis",
                 "rule_contributors": [
                     "su1216",
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
                 "description": "Android image cropping library.",
                 "source_link": "https://github.com/Yalantis/uCrop/"

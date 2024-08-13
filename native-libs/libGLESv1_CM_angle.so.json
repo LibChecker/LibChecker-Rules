@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "angle",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ANGLE - 几乎原生的图形层引擎。",
+                "source_link": "https://github.com/google/angle"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "angle",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ANGLE - Almost Native Graphics Layer Engine.",
+                "source_link": "https://github.com/google/angle"
+            }
+        }
+    ],
+    "uuid": "1822F2DA-494B-4F5D-8651-13972DABAE35"
+}

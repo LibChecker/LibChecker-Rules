@@ -7,7 +7,8 @@
                 "dev_team": "SQLite",
                 "rule_contributors": [
                     "kotori2",
-                    "yfdyh000"
+                    "yfdyh000",
+                    "WOLFRAZOR"
                 ],
                 "description": "SQLite 是遵守 ACID 的关系数据库管理系统，它包含在一个相对小的 C 程序库中。与许多其它数据库管理系统不同， SQLite 不是一个客户端/服务器结构的数据库引擎，而是被集成在用户程序中。 SQLite 遵守 ACID ，实现了大多数 SQL 标准。它使用动态的、弱类型的 SQL 语法。",
                 "source_link": "https://www.sqlite.org/docs.html"
@@ -20,7 +21,8 @@
                 "dev_team": "SQLite",
                 "rule_contributors": [
                     "kotori2",
-                    "yfdyh000"
+                    "yfdyh000",
+                    "WOLFRAZOR"
                 ],
                 "description": "SQLite is an ACID-compliant relational database management system contained in a relatively small C library. Unlike many other database management systems, SQLite is not a client-server structure database engine but is embedded in the user program. SQLite complies with ACID and implements most of the SQL standard. It uses dynamic, weakly typed SQL syntax.",
                 "source_link": "https://www.sqlite.org/docs.html"

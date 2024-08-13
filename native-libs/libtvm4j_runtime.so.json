@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "TVM",
+                "dev_team": "Apache",
+                "rule_contributors": [
+                    "happyme531"
+                ],
+                "description": "Apache TVM是一个用于深度学习系统的编译器栈。它旨在弥合以生产力为中心的深度学习框架与以性能和效率为中心的硬件后端之间的差距。TVM与深度学习框架配合使用，提供到不同后端的端到端编译。",
+                "source_link": "https://github.com/apache/tvm"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "TVM",
+                "dev_team": "Apache",
+                "rule_contributors": [
+                    "happyme531"
+                ],
+                "description": "Apache TVM is a compiler stack for deep learning systems. It is designed to close the gap between the productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends. TVM works with deep learning frameworks to provide end to end compilation to different backends.",
+                "source_link": "https://github.com/apache/tvm"
+            }
+        }
+    ],
+    "uuid": "1BE3D863-E863-45EC-91F6-360F7D923376"
+}

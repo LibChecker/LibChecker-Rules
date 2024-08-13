@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "zxing-cpp",
+                "dev_team": "zxing-cpp",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ZXing-C++（“斑马线”）是一个开源的、多格式的线性/矩阵条码图像处理库，由C++实现。",
+                "source_link": "https://github.com/zxing-cpp/zxing-cpp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "zxing-cpp",
+                "dev_team": "zxing-cpp",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ZXing-C++ (\"zebra crossing\") is an open-source, multi-format linear/matrix barcode image processing library implemented in C++.",
+                "source_link": "https://github.com/zxing-cpp/zxing-cpp"
+            }
+        }
+    ],
+    "uuid": "2AD28C43-0C72-403C-AE25-6498058C4BA6"
+}

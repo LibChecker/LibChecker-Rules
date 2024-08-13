@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "dart2cpp",
+                "dev_team": "Brendan Duncan",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "dart2cpp是一个高度实验性的正在进行中的原型，旨在探索将Dart源代码转换为C++的转换器的可能性。",
+                "source_link": "https://bitbucket.org/brendan_duncan/dart2cpp/src/master/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "dart2cpp",
+                "dev_team": "Brendan Duncan",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "dart2cpp is a highly experimental work-in-progress prototype to investigate the possibilities of a transformer that can convert Dart source code into C++.",
+                "source_link": "https://bitbucket.org/brendan_duncan/dart2cpp/src/master/"
+            }
+        }
+    ],
+    "uuid": "9DE4399E-7B16-453E-8913-39849EE55FD1"
+}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Tianmu SDK",
+                "dev_team": "杭州艾狄墨搏信息服务有限公司",
+                "rule_contributors": [
+                    "bingo-chou"
+                ],
+                "description": "天目广告 SDK 是一款全面的 APP 广告变现解决方案，支持多种广告格式，包括横幅、插屏和视频广告。它具有精准和详细的数据分析功能，帮助开发者优化广告投放和提升收益。",
+                "source_link": "https://doc.admobile.top/ssp/pages/tmsdkand/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Tianmu SDK",
+                "dev_team": "杭州艾狄墨搏信息服务有限公司",
+                "rule_contributors": [
+                    "bingo-chou"
+                ],
+                "description": "Tianmu Advertising SDK is a comprehensive app monetization solution that supports various ad formats, including banners, interstitials, and video ads. It features precise and detailed data analytics capabilities to help developers optimize ad placements and enhance revenue.",
+                "source_link": "https://doc.admobile.top/ssp/pages/tmsdkand/"
+            }
+        }
+    ],
+    "uuid": "F6C05AEB-42E0-4583-A0D3-412E8A4114AE"
+}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "sing-box",
+                "dev_team": "SagerNet",
+                "rule_contributors": [
+                    "mochenya"
+                ],
+                "description": "The universal proxy platform.",
+                "source_link": "https://github.com/SagerNet/sing-box"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "sing-box",
+                "dev_team": "SagerNet",
+                "rule_contributors": [
+                    "mochenya"
+                ],
+                "description": "The universal proxy platform.",
+                "source_link": "https://github.com/SagerNet/sing-box"
+            }
+        }
+    ],
+    "uuid": "30BB7F40-1A7F-490E-B4F6-AF1492AF1C84"
+}

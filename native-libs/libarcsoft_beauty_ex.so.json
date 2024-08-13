@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Arcsoft",
+                "dev_team": "Arcsoft",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ArcSoft是计算机视觉人工智能行业的领先算法服务和软件解决方案提供商，提供基于英飞凌REAL3™ TOF成像器的定制软件解决方案。",
+                "source_link": "https://www.arcsoft.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Arcsoft",
+                "dev_team": "Arcsoft",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ArcSoft is a leading algorithm service and software solution provider in the computer vision artificial intelligence industry offering customized software solutions based on Infineon REAL3™ TOF imagers.",
+                "source_link": "https://www.arcsoft.com/"
+            }
+        }
+    ],
+    "uuid": "DC00C803-47A6-4384-8589-1AA372AF6500"
+}

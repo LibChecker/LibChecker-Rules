@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "AndroidUtils",
+                "dev_team": "zhengxiaopeng",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一些通用代码，包括代码和资源文件。",
+                "source_link": "https://github.com/zhengxiaopeng/AndroidUtils"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AndroidUtils",
+                "dev_team": "zhengxiaopeng",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Some general code, including code and resource files.",
+                "source_link": "https://github.com/zhengxiaopeng/AndroidUtils"
+            }
+        }
+    ],
+    "uuid": "3173988A-5F37-404F-AA3E-5F8F57D4F959"
+}

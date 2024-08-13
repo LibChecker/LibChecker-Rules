@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "V8",
+                "dev_team": "rubyjs",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一个用于分发v8运行时库和头文件的gem，以源代码和二进制形式提供。",
+                "source_link": "https://github.com/rubyjs/libv8"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "V8",
+                "dev_team": "rubyjs",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "A gem for distributing the v8 runtime libraries and headers in both source and binary form.",
+                "source_link": "https://github.com/rubyjs/libv8"
+            }
+        }
+    ],
+    "uuid": "5D4A2933-1F8F-499A-B6D8-64E997C22827"
+}

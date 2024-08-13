@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "perf",
+                "dev_team": "theonewolf",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libperf是一个围绕系统调用perf_event_open()的库。该库向用户空间代码公开内核性能计数器子系统。它可以与内核支持一起有效地跟踪代码的部分。",
+                "source_link": "https://github.com/theonewolf/libperf"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "perf",
+                "dev_team": "theonewolf",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libperf is a library that wraps around the syscall perf_event_open(). This library exposes the kernel performance counters subsystem to userspace code. It can be used to efficiently trace portions of code with kernel support.",
+                "source_link": "https://github.com/theonewolf/libperf"
+            }
+        }
+    ],
+    "uuid": "E663C8A8-8104-4104-ABA0-3EE7F680F43E"
+}

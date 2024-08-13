@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Sangfor",
+                "dev_team": "深信服",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "深信服移动端零信任SDK解决方案基于深信服在数据传输方面强大的安全能力与移动端安全扎实的技术积累，为移动端APP提供安全接入能力和双域隔离安全沙箱的能力，移动端APP通过集成轻量级SDK，即可实现APP双域隔离保护，对APP内数据进行加密和隔离，让移动APP安全接入内网业务系统，帮助用户在任何时间、任何地点，使用移动终端，安全、快速地开展移动办公业务。",
+                "source_link": "https://bbs.sangfor.com.cn/atrustdeveloper/appsdk/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Sangfor",
+                "dev_team": "深信服",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Sangfor's mobile zero-trust SDK solution leverages Sangfor's robust security capabilities in data transmission and solid technical expertise in mobile security to provide secure access and dual-domain isolation sandbox capabilities for mobile apps. By integrating the lightweight SDK, apps can achieve dual-domain isolation protection, encrypt and isolate in-app data, and securely access intranet business systems, enabling users to conduct mobile office work safely and swiftly from anywhere, at any time.",
+                "source_link": "https://bbs.sangfor.com.cn/atrustdeveloper/appsdk/"
+            }
+        }
+    ],
+    "uuid": "5959E9A4-C567-44EB-BA0B-9E8035564A3D"
+}

@@ -7,7 +7,8 @@
                 "dev_team": "Baidu",
                 "rule_contributors": [
                     "ArthurCyy",
-                    "JimmyJLNU"
+                    "JimmyJLNU",
+                    "WOLFRAZOR"
                 ],
                 "description": "百度应用加固能够为 Android、Linux 等智能终端平台上的应用程序提供代码加密、完整性校验、反注入、反调试、运行时数据加密等各种安全能力，可以有效帮助智能终端上的应用程序抵御各种安全威胁。",
                 "source_link": "https://apkprotect.baidu.com"
@@ -20,7 +21,8 @@
                 "dev_team": "Baidu",
                 "rule_contributors": [
                     "ArthurCyy",
-                    "JimmyJLNU"
+                    "JimmyJLNU",
+                    "WOLFRAZOR"
                 ],
                 "description": "Baidu Application Reinforcement can provide various security capabilities such as code encryption, integrity verification, anti-injection, anti-debugging, and runtime data encryption for applications on Android, Linux, and other smart terminal platforms, effectively helping applications on smart terminals resist various security threats.",
                 "source_link": "https://apkprotect.baidu.com"

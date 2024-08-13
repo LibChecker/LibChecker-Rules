@@ -6,9 +6,10 @@
                 "label": "OpenSSL",
                 "dev_team": "OpenSSL",
                 "rule_contributors": [
-                    "culat"
+                    "飘落的枫叶",
+                    "WOLFRAZOR"
                 ],
-                "description": "OpenSSL 是用于传输层安全性协议（TLS）和安全套接字层（SSL）协议的功能强大的，商业级且功能齐全的工具包。",
+                "description": "OpenSSL 是用于传输层安全性（TLS）协议的健壮的，商业级，功能齐全的开源工具包。协议实现基于完整功能的通用密码库，该库也可以独立使用。",
                 "source_link": "https://github.com/openssl/openssl"
             }
         },
@@ -18,7 +19,8 @@
                 "label": "OpenSSL",
                 "dev_team": "OpenSSL",
                 "rule_contributors": [
-                    "culat"
+                    "飘落的枫叶",
+                    "WOLFRAZOR"
                 ],
                 "description": "OpenSSL is a robust, commercial-grade, full-featured open-source toolkit for the Transport Layer Security (TLS) protocol. The protocol implementation is based on a full-featured general-purpose cryptographic library, which can also be used independently.",
                 "source_link": "https://github.com/openssl/openssl"

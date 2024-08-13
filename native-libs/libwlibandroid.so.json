@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Wlib",
+                "dev_team": "Windr07",
+                "rule_contributors": [
+                    "enKl03B"
+                ],
+                "description": "WLib 是一组对 C#、.NET 和 ArcGIS Engine 开发常用代码进行封装的基础库和控件库。",
+                "source_link": "https://github.com/Windr07/WLib"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Wlib",
+                "dev_team": "Windr07",
+                "rule_contributors": [
+                    "enKl03B"
+                ],
+                "description": "WLib is a foundational library and control library that encapsulates commonly used code for C#, .NET, and ArcGIS Engine development.",
+                "source_link": "https://github.com/Windr07/WLib"
+            }
+        }
+    ],
+    "uuid": "E72AC9BB-9047-4F7E-8672-FBFFB216EC39"
+}

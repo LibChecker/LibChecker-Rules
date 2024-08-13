@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "rlottie",
+                "dev_team": "Samsung",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "rlottie是一个独立于平台的C++库，用于实时渲染基于矢量的动画和艺术作品。",
+                "source_link": "https://github.com/Samsung/rlottie"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "rlottie",
+                "dev_team": "Samsung",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "rlottie is a platform independent standalone C++ library for rendering vector based animations and art in realtime.",
+                "source_link": "https://github.com/Samsung/rlottie"
+            }
+        }
+    ],
+    "uuid": "B00768EA-303C-41C8-8F9B-D5D5945B7A77"
+}

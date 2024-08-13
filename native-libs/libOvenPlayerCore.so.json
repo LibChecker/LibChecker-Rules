@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "OvenPlayer",
+                "dev_team": "AirenSoft",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "OvenPlayer是一个基于JavaScript的播放器，可以播放为OvenMediaEngine优化的低延迟HLS（LLHLS）和WebRTC流。它提供了各种API，使您可以更轻松地构建和操作您的媒体服务。",
+                "source_link": "https://github.com/AirenSoft/OvenPlayer"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OvenPlayer",
+                "dev_team": "AirenSoft",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "OvenPlayer is a JavaScript-based Player that can play Low Latency HLS (LLHLS) and WebRTC streams optimized for OvenMediaEngine. It provides various APIs, so you can build and operate your media service more easily.",
+                "source_link": "https://github.com/AirenSoft/OvenPlayer"
+            }
+        }
+    ],
+    "uuid": "37E2E329-1422-440C-8451-4A37E419177E"
+}

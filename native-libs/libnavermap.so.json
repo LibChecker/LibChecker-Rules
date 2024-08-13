@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Naver Map",
+                "dev_team": "LBSTECH",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "插件可以在Flutter项目中显示Naver地图，并支持Android和iOS平台。",
+                "source_link": "https://github.com/LBSTECH/naver_map_plugin"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Naver Map",
+                "dev_team": "LBSTECH",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Plug-in which shows naver map on flutter project support Android and iOS.",
+                "source_link": "https://github.com/LBSTECH/naver_map_plugin"
+            }
+        },
+        {
+            "locale": "ko",
+            "data": {
+                "label": "Naver Map",
+                "dev_team": "LBSTECH",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "네이버지도를 플러터에서 띄울 수 있는 플러그인입니다",
+                "source_link": "https://github.com/LBSTECH/naver_map_plugin"
+            }
+        }
+    ],
+    "uuid": "86B612B1-D702-405B-AEAC-8E6D5ABE528E"
+}
