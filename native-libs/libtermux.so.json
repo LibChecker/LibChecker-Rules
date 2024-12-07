@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "ArcticFoxPro"
                 ],
-                "description": "Termux is a terminal emulator for Android with a Linux-like environment. It can be used without root or additional setup.",
+                "description": "Termux 是一个适用于 Android 的终端模拟器，其环境类似于 Linux 环境。无需 Root 或设置即可使用。",
                 "source_link": "https://github.com/termux/termux-app/wiki/Termux-Libraries"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArcticFoxPro"
                 ],
-                "description": "Termux 是一个适用于 Android 的终端模拟器，其环境类似于 Linux 环境。无需 Root 或设置即可使用。",
+                "description": "Termux is a terminal emulator for Android with a Linux-like environment. It can be used without root or additional setup.",
                 "source_link": "https://github.com/termux/termux-app/wiki/Termux-Libraries"
             }
         }
