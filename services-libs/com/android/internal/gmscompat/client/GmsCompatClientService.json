@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "GrapheneOS Sandboxed Google Play",
+                "dev_team": "GrapheneOS",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "GrapheneOS 提供了一个兼容层，可以在标准应用程序沙箱中安装和使用 Google Play 的官方版本。与绕过沙箱并获得高度特权访问不同，Google Play 在 GrapheneOS 中没有任何特殊权限或特权。",
+                "source_link": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "GrapheneOS Sandboxed Google Play",
+                "dev_team": "GrapheneOS",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "GrapheneOS has a compatibility layer providing the option to install and use the official releases of Google Play in the standard app sandbox. Google Play receives absolutely no special access or privileges on GrapheneOS as opposed to bypassing the app sandbox and receiving a massive amount of highly privileged access.",
+                "source_link": "https://github.com/GrapheneOS/platform_packages_apps_GmsCompat"
+            }
+        }
+    ],
+    "uuid": "F8F4CEB9-4BEF-4486-AEA6-80E492AB4E4E"
+}

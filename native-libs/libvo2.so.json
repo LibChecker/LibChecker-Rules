@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libmpeg2",
+                "dev_team": "Sam Hocevar",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libmpeg2 是 MPEG 解码器的核心。",
+                "source_link": "https://code.videolan.org/videolan/libmpeg2/-/tree/livid-libvo2/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libmpeg2",
+                "dev_team": "Sam Hocevar",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libmpeg2 is the heart of the mpeg decoder.",
+                "source_link": "https://code.videolan.org/videolan/libmpeg2/-/tree/livid-libvo2/"
+            }
+        }
+    ],
+    "uuid": "BE74F172-C481-42AE-A493-7B781372B51E"
+}

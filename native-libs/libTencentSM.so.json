@@ -3,10 +3,11 @@
         {
             "locale": "zh-Hans",
             "data": {
-                "label": "TencentSM",
+                "label": "Kona 国密套件",
                 "dev_team": "Tencent",
                 "rule_contributors": [
-                    "WOLFRAZOR"
+                    "WOLFRAZOR",
+                    "ArcticFoxPro"
                 ],
                 "description": "腾讯 Kona 国密套件是一组 Java 安全特性的 Provider 实现，主要服务于 Java 生态中的国密应用场景。",
                 "source_link": "https://github.com/Tencent/TencentKonaSMSuite"
@@ -15,12 +16,13 @@
         {
             "locale": "en",
             "data": {
-                "label": "TencentSM",
+                "label": "Kona SM Suite",
                 "dev_team": "Tencent",
                 "rule_contributors": [
-                    "WOLFRAZOR"
+                    "WOLFRAZOR",
+                    "ArcticFoxPro"
                 ],
-                "description": "Tencent Kona National Encryption Suite is a set of Java security feature providers, mainly serving national encryption application scenarios within the Java ecosystem.",
+                "description": "Tencent Kona SM Suite is a set of Java security providers, which service the ShangMi applications in Java ecosystem. This suite contains four providers.",
                 "source_link": "https://github.com/Tencent/TencentKonaSMSuite"
             }
         }

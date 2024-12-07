@@ -15,12 +15,12 @@
         {
             "locale": "en",
             "data": {
-                "label": "Unity Engine",
-                "dev_team": "Unity 中国",
+                "label": "Tuanjie Engine",
+                "dev_team": "Unity China",
                 "rule_contributors": [
                     "ArcticFoxPro"
                 ],
-                "description": "Unity Engine is the Chinese version of the Unity engine launched by the Unity China R&D team, based on Unity 2022 LTS. It introduces solutions for WeChat mini-games and the Unity Engine car version, providing developers in the mini-game and smart automotive fields with more robust creative momentum, marking a milestone in Unity China's acceleration of localization.",
+                "description": "Tuanjie Engine is the Unity China version of the engine launched by the Unity China R&D team. Based on the Unity 2022 LTS as the R&D foundation, it has launched the Weixin MiniGame Solution and the Tuanjie Engine Car Edition, which empowers developers in the field of MiniGames and smart cars with stronger creative momentum, and is a milestone in accelerating the localization process of Unity China.",
                 "source_link": "https://docs.unity.cn/cn/tuanjiemanual/Manual/"
             }
         }

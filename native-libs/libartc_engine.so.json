@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "HashLips Art Engine",
+                "dev_team": "chachohee",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "通过使用 canvas API 和 Node.js 创建生成艺术。",
+                "source_link": "https://github.com/chachohee/art_engine"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HashLips Art Engine",
+                "dev_team": "chachohee",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Create generative art by using the canvas api and node js.",
+                "source_link": "https://github.com/chachohee/art_engine"
+            }
+        }
+    ],
+    "uuid": "AA4E0C41-A50C-48C3-B707-9FA8D2641592"
+}

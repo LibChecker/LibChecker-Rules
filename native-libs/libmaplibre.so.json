@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "MapLibre Native",
+                "dev_team": "The MapLibre Organization",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "MapLibre Native for Android 是一个用于在 Android 设备上嵌入具有可扩展、自定义矢量地图的交互式地图视图的库。",
+                "source_link": "https://github.com/maplibre/maplibre-native"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MapLibre Native",
+                "dev_team": "The MapLibre Organization",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "MapLibre Native for Android is a library for embedding interactive map views with scalable, customizable vector maps onto Android devices.",
+                "source_link": "https://github.com/maplibre/maplibre-native"
+            }
+        }
+    ],
+    "uuid": "5A230F18-8DA8-482B-B7FC-32697654F9ED"
+}

@@ -3,29 +3,31 @@
         {
             "locale": "zh-Hans",
             "data": {
-                "label": "TensorFlow Lite",
+                "label": "LiteRT",
                 "dev_team": "TensorFlow",
                 "rule_contributors": [
                     "Absinthe",
                     "ArthurCyy",
-                    "WOLFRAZOR"
+                    "WOLFRAZOR",
+                    "ArcticFoxPro"
                 ],
-                "description": "TensorFlow Lite 是一组工具，可帮助开发者在移动设备、嵌入式设备和 IoT 设备上运行 TensorFlow 模型。它支持设备端机器学习推断，延迟较低，并且二进制文件很小。",
-                "source_link": "https://www.tensorflow.org/lite"
+                "description": "LiteRT（简称自 Lite Runtime，以前称为 TensorFlow Lite）是 Google 面向设备端 AI 的高性能运行时。",
+                "source_link": "https://ai.google.dev/edge/litert"
             }
         },
         {
             "locale": "en",
             "data": {
-                "label": "TensorFlow Lite",
+                "label": "LiteRT",
                 "dev_team": "TensorFlow",
                 "rule_contributors": [
                     "Absinthe",
                     "ArthurCyy",
-                    "WOLFRAZOR"
+                    "WOLFRAZOR",
+                    "ArcticFoxPro"
                 ],
-                "description": "TensorFlow Lite is a set of tools to help developers run TensorFlow models on mobile, embedded, and IoT devices. It supports on-device machine learning inference with low latency and small binary size.",
-                "source_link": "https://www.tensorflow.org/lite"
+                "description": "LiteRT (short for Lite Runtime), formerly known as TensorFlow Lite, is Google's high-performance runtime for on-device AI.",
+                "source_link": "https://ai.google.dev/edge/litert"
             }
         }
     ],

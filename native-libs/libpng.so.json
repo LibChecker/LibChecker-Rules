@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libpng",
+                "dev_team": "Greg Roelofs",
+                "rule_contributors": [
+                    "WOLFRAZOR",
+                    "sebastien46"
+                ],
+                "description": "这是一个开源项目，用于开发和维护参考库，用于读取、创建和操作 PNG（便携式网络图形）光栅图像文件的应用程序。",
+                "source_link": "http://www.libpng.org/pub/png/libpng.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libpng",
+                "dev_team": "Greg Roelofs",
+                "rule_contributors": [
+                    "WOLFRAZOR",
+                    "sebastien46"
+                ],
+                "description": "This is an open source project to develop and maintain the reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files.",
+                "source_link": "http://www.libpng.org/pub/png/libpng.html"
+            }
+        }
+    ],
+    "uuid": "E4A2090D-4D0B-4785-B929-A9F7371C5C5F"
+}

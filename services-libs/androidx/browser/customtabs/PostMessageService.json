@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Jetpack Browser",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "在用户的默认浏览器中显示网页。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/browser"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Browser",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Display webpages in the user's default browser.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/browser"
+            }
+        }
+    ],
+    "uuid": "C13DA049-9065-40F2-8F53-CB67AE354AFB"
+}

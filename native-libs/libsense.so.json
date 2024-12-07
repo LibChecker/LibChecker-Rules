@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libsense",
+                "dev_team": "moshigottlieb",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Raspberry Pi 的 Sense HAT C/C++ API。",
+                "source_link": "https://github.com/moshegottlieb/libsense"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libsense",
+                "dev_team": "moshigottlieb",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Sense HAT for the Raspberry Pi C/C++ API.",
+                "source_link": "https://github.com/moshegottlieb/libsense"
+            }
+        }
+    ],
+    "uuid": "C0F457AF-CE75-406F-A7B0-10420B92B99C"
+}

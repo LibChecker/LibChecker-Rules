@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "OpenTok",
+                "dev_team": "TokBox",
+                "rule_contributors": [
+                    "enKl03B"
+                ],
+                "description": "OpenTok is a powerful cross-platform voice and video calling SDK offering high-quality real-time communication capabilities.",
+                "source_link": "https://github.com/opentok/opentok-android-sdk-samples"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "OpenTok",
+                "dev_team": "TokBox",
+                "rule_contributors": [
+                    "enKl03B"
+                ],
+                "description": "OpenTok 是一款非常强大的跨平台语音和视频通话SDK，提供了高质量的实时语音和视频通话功能。",
+                "source_link": "https://github.com/opentok/opentok-android-sdk-samples"
+            }
+        }
+    ],
+    "uuid": "A68EDEFD-2546-4786-AEE5-61C695D87AD0"
+}

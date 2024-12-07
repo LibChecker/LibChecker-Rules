@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Bugly",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "qhy040404",
+                    "Absinthe",
+                    "ArthurCyy",
+                    "JimmyJLNU",
+                    "WOLFRAZOR"
+                ],
+                "description": "腾讯 Bugly，为移动开发者提供专业的异常上报和运营统计，帮助开发者快速发现并解决异常，同时掌握产品运营动态，及时跟进用户反馈。",
+                "source_link": "https://bugly.qq.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Bugly",
+                "dev_team": "Tencent",
+                "rule_contributors": [
+                    "qhy040404",
+                    "Absinthe",
+                    "ArthurCyy",
+                    "JimmyJLNU",
+                    "WOLFRAZOR"
+                ],
+                "description": "Tencent Bugly provides mobile developers with professional exception reporting and operation statistics, helping developers quickly discover and solve exceptions while keeping track of product operation dynamics and timely following up on user feedback.",
+                "source_link": "https://bugly.qq.com/"
+            }
+        }
+    ],
+    "uuid": "6E53BF19-A08F-48D0-98A8-74CF79E192CF"
+}

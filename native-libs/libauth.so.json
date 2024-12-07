@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libauth",
+                "dev_team": "Bitauth",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一个超轻量的 JavaScript 库，用于 Bitcoin Cash、Bitcoin 和 Bitauth 应用程序。",
+                "source_link": "https://libauth.org/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libauth",
+                "dev_team": "Bitauth",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "An ultra-lightweight JavaScript library for Bitcoin Cash, Bitcoin, and Bitauth applications.",
+                "source_link": "https://libauth.org/"
+            }
+        }
+    ],
+    "uuid": "19EDD276-6123-4BDF-B64E-08241BA1EAA6"
+}

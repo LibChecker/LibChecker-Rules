@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libdrc",
+                "dev_team": "Mema Hacking",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libdrc 是一个基于 New BSD 协议发布的库，由开发者和逆向工程师社区共同开发。",
+                "source_link": "https://garyodernichts.github.io/libdrc/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libdrc",
+                "dev_team": "Mema Hacking",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libdrc is released under the New BSD License and developed by a community of developers and reverse engineers.",
+                "source_link": "https://garyodernichts.github.io/libdrc/"
+            }
+        }
+    ],
+    "uuid": "92C44EB7-8BC2-4693-AC66-22FAC6CA8279"
+}

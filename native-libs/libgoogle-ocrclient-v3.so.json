@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Google’s Drive API v3",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "使用 Google 的 Drive API v3 执行 OCR。",
+                "source_link": "https://google-drive-ocr.readthedocs.io/en/latest/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google’s Drive API v3",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Perform OCR using Google’s Drive API v3.",
+                "source_link": "https://google-drive-ocr.readthedocs.io/en/latest/"
+            }
+        }
+    ],
+    "uuid": "F5B2BAD9-203D-4FC1-BDE8-D16CB9EC16B0"
+}

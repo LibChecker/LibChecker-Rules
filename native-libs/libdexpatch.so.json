@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "DexPatch",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "DexPatch is a dynamic deployment solution focused solely on quickly resolving online issues.",
+                "source_link": "https://alibaba.github.io/atlas/update/dexpatch_use_guide.html"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DexPatch",
+                "dev_team": "Alibaba",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "DexPatch 是以动态部署技术方案为基础，以快速解决线上故障为唯一目的的动态化方案。",
+                "source_link": "https://alibaba.github.io/atlas/update/dexpatch_use_guide.html"
+            }
+        }
+    ],
+    "uuid": "33C2D734-5E73-4B89-9F1A-7F941133D2FC"
+}

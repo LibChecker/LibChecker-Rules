@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "xmCore",
+                "dev_team": "luxiaoming",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "An Android framework aimed at accelerating app development. It is based on Dagger2, RxJava, Retrofit, Material Design, and MVVM/MVP.",
+                "source_link": "https://github.com/luxiaoming/xmCore"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "xmCore",
+                "dev_team": "luxiaoming",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一个 android 架构，致力于快速开发 app。架构基于 Dagger2 + RxJava + Retrofit + Material Design + MVVM MVP。",
+                "source_link": "https://github.com/luxiaoming/xmCore"
+            }
+        }
+    ],
+    "uuid": "6E7DC595-3F06-43F9-AF52-4A1252E1900E"
+}

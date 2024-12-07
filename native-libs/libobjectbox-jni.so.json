@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "ObjectBox",
+                "dev_team": "ObjectBox",
+                "rule_contributors": [
+                    "ZhuJHua"
+                ],
+                "description": "ObjectBox 是一个超快的移动数据库/边缘数据库，用于在限制设备（如手机、汽车、机器或任何 IoT 设备）上持久化数据。",
+                "source_link": "https://github.com/objectbox"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ObjectBox",
+                "dev_team": "ObjectBox",
+                "rule_contributors": [
+                    "ZhuJHua"
+                ],
+                "description": "ObjectBox is a superfast Mobile Database / Edge Database persisting data locally on restricted devices, e.g. mobile phones, cars, machines, or any kind of IoT device.",
+                "source_link": "https://github.com/objectbox"
+            }
+        }
+    ],
+    "uuid": "2F51BB0C-D198-4E42-A842-7086CD9DA8DF"
+}

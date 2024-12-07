@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Java Native Access",
+                "dev_team": "Java Native Access",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "JNA 为 Java 程序提供了对本机共享库的轻松访问，无需编写任何 JNI 或本机代码，仅需 Java 代码。",
+                "source_link": "https://github.com/java-native-access/jna"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Java Native Access",
+                "dev_team": "Java Native Access",
+                "rule_contributors": [
+                    "sebastien46"
+                ],
+                "description": "JNA provides Java programs easy access to native shared libraries without writing anything but Java code - no JNI or native code is required.",
+                "source_link": "https://github.com/java-native-access/jna"
+            }
+        }
+    ],
+    "uuid": "12E2BBBB-864B-4973-AE44-F9DDC58C1662"
+}

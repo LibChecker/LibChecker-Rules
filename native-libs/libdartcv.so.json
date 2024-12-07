@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "DartCV",
+                "dev_team": "rainyl",
+                "rule_contributors": [
+                    "AdminHcat"
+                ],
+                "description": "Dart 语言和 Flutter 的 OpenCV 绑定。",
+                "source_link": "https://github.com/rainyl/opencv_dart"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DartCV",
+                "dev_team": "rainyl",
+                "rule_contributors": [
+                    "AdminHcat"
+                ],
+                "description": "OpenCV bindings for Dart language and Flutter.",
+                "source_link": "https://github.com/rainyl/opencv_dart"
+            }
+        }
+    ],
+    "uuid": "94300278-0654-48D9-B447-7419E6C6752B"
+}

@@ -6,9 +6,10 @@
                 "label": "Flutter",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "ArcticFoxPro"
                 ],
-                "description": "Flutter 是谷歌的移动 UI 框架，可以快速在 iOS 和 Android 上构建高质量的原生用户界面。",
+                "description": "Flutter 是一个开源的用户界面工具包，用于从单一代码库中为移动、网络、桌面和嵌入式设备构建美观的本地编译应用程序。",
                 "source_link": "https://flutter.dev/"
             }
         },
@@ -18,9 +19,10 @@
                 "label": "Flutter",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "ArcticFoxPro"
                 ],
-                "description": "Flutter is Google's mobile UI framework for quickly building high-quality native user interfaces on iOS and Android.",
+                "description": "Flutter is an open source UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.",
                 "source_link": "https://flutter.dev/"
             }
         }

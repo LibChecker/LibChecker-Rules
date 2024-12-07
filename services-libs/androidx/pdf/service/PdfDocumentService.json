@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Jetpack PDF",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一个用于在应用程序中添加 PDF 查看功能的库。",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/pdf"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack PDF",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "A library to add pdf viewing capabilities inside apps.",
+                "source_link": "https://developer.android.com/jetpack/androidx/releases/pdf"
+            }
+        }
+    ],
+    "uuid": "C41E9B74-F8B5-4F97-BCBB-875F610DD3F1"
+}

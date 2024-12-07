@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "WAJ",
+                "dev_team": "Rust",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Waj 是一种基于 jubako 容器格式的网站容器格式。",
+                "source_link": "https://docs.rs/libwaj/latest/libwaj/#"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "WAJ",
+                "dev_team": "Rust",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Waj is a website container format based on the jubako container format.",
+                "source_link": "https://docs.rs/libwaj/latest/libwaj/#"
+            }
+        }
+    ],
+    "uuid": "8DFA6B75-0DA8-4C03-924F-CD63B077E3D2"
+}

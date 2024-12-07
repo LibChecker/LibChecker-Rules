@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "liboctopus",
+                "dev_team": "opendesigndev",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "该库提供与 Octopus 格式（及 Octopus Manifest）完全对应的 C++ 数据结构，同时还包含用于简单转换为 JSON 字符串表示的解析器和序列化器。",
+                "source_link": "https://github.com/opendesigndev/liboctopus"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "liboctopus",
+                "dev_team": "opendesigndev",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "This library provides C++ data structures exactly corresponding to the Octopus format (and Octopus Manifest) and also contains parser and serializer classes for simple conversion to and from a JSON string representation.",
+                "source_link": "https://github.com/opendesigndev/liboctopus"
+            }
+        }
+    ],
+    "uuid": "2F03856E-38EB-4454-9B73-57208572CC83"
+}

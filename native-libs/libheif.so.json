@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libheif",
+                "dev_team": "struktur AG",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "libheif 是一种符合 ISO/IEC 23008-12:2017 标准的 HEIF 和 AVIF（AV1 图像文件格式）文件格式解码器和编码器。",
+                "source_link": "https://github.com/strukturag/libheif"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libheif",
+                "dev_team": "struktur AG",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Coverity Scan Build Status libheif is an ISO/IEC 23008-12:2017 HEIF and AVIF (AV1 Image File Format) file format decoder and encoder.",
+                "source_link": "https://github.com/strukturag/libheif"
+            }
+        }
+    ],
+    "uuid": "D2922464-3822-4B70-A806-B55793108D7C"
+}

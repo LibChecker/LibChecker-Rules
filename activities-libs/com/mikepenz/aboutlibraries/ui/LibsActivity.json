@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "AboutLibraries",
+                "dev_team": "Mike Penz",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "AboutLibraries 可在编译时收集包括许可证在内的所有依赖关系详细信息，并提供简单的应用程序接口，以便在应用程序中可视化这些信息。无运行时开销，强大的缓存功能，支持任何 Gradle 依赖关系。",
+                "source_link": "https://github.com/mikepenz/AboutLibraries"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "AboutLibraries",
+                "dev_team": "Mike Penz",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "AboutLibraries collects all dependency details including licenses at compile time, and offers simple APIs to visualize these in the app. No runtime overhead. Strong caching. Any gradle dependency is supported.",
+                "source_link": "https://github.com/mikepenz/AboutLibraries"
+            }
+        }
+    ],
+    "uuid": "4FE38981-D17E-470C-BDFD-6CE6D7D2CA3C"
+}

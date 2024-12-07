@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "dex2oat optimizer",
+                "dev_team": "iamlooper",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一个 ART 优化模块，用于加速应用程序启动并提升系统性能。",
+                "source_link": "https://github.com/iamlooper/dex2oat-optimizer"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "dex2oat optimizer",
+                "dev_team": "iamlooper",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "An ART optimization module to accelerate app launches and improve system performance.",
+                "source_link": "https://github.com/iamlooper/dex2oat-optimizer"
+            }
+        }
+    ],
+    "uuid": "45ECC9C6-C33B-4097-BBB2-BD308C51067C"
+}

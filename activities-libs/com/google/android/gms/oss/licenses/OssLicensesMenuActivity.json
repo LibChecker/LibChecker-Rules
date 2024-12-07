@@ -3,24 +3,26 @@
         {
             "locale": "zh-Hans",
             "data": {
-                "label": "Open Source Notices",
+                "label": "OSS Licenses Gradle Plugin",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "ArcticFoxPro"
                 ],
-                "description": "Google Play 服务提供了一套工具，旨在让开发者更轻松地表达其应用中所用库的开源软件通知。其中一个工具就是 Gradle 插件，按照 POM 文件中的声明从包含的库收集许可条款，并创建可用于显示这些条款的 activity。",
+                "description": "该 Gradle 插件会在编译时扫描项目的项目对象模型依赖关系。如果应用程序的直接依赖项存在 Maven 项目对象模型，插件就会处理该元素，并在最终应用程序 APK 的 Android 资产中嵌入每个许可证的链接和标题。",
                 "source_link": "https://developers.google.com/android/guides/opensource"
             }
         },
         {
             "locale": "en",
             "data": {
-                "label": "Open Source Notices",
+                "label": "OSS Licenses Gradle Plugin",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "ArcticFoxPro"
                 ],
-                "description": "Google Play services provides a set of tools designed to make it easier for developers to express the open-source software notices used in their applications. One of these tools is a Gradle plugin that collects license terms from the included libraries according to the declarations in the POM file and creates an activity that can be used to display these terms.",
+                "description": "This Gradle plugin scans the POM dependencies of a project at compile time. When a Maven POM exists for a direct dependency of the app, the plugin processes the element and embeds the link and title of each license in an Android asset in the final app APK.",
                 "source_link": "https://developers.google.com/android/guides/opensource"
             }
         }

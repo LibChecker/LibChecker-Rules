@@ -1,0 +1,38 @@
+name: Close Invalid Issues
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  close_invalid_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Issue Content
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const issueBody = context.payload.issue.body || '';
+          const validKeywords = ['Library filename / 库文件名', 'Library label / 库的文字标签'];
+          
+          if (!validKeywords.every(keyword => issueBody.includes(keyword))) {
+            const issueNumber = context.payload.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              body: 'This issue does not follow the template. Please update it accordingly.'
+            });
+
+            await github.rest.issues.update({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              state: 'closed'
+            });
+          }

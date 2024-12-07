@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "LibJS",
+                "dev_team": "linusg",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "SerenityOS的JavaScript引擎网站。",
+                "source_link": "https://github.com/linusg/libjs-website"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibJS",
+                "dev_team": "linusg",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Website for SerenityOS's JavaScript engine.",
+                "source_link": "https://github.com/linusg/libjs-website"
+            }
+        }
+    ],
+    "uuid": "25A7B970-2FAB-4818-A900-94BC2F5BE876"
+}

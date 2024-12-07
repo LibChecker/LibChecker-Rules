@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Tencent Beacon DataTalk",
+                "dev_team": "腾讯灯塔",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "Tencent Beacon DataTalk is a data visualization and augmented analytics platform supporting diverse data sources and open business scenarios. It enables users to quickly create PC reports, dashboards, and mobile reports while providing AI-enhanced analytics for data-driven insights through simple queries.",
+                "source_link": "https://beacon.qq.com/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "腾讯灯塔 DataTalk",
+                "dev_team": "腾讯灯塔",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "腾讯灯塔智能数据洞察（Tencent Beacon DataTalk）是一款面向不同用户角色、支持多种数据源、面向开放式业务场景的数据可视化与增强分析平台。 它可以帮助用户快速搭建 PC 报告、数据大屏和移动端报告；同时具备 AI 增强分析能力，让用户通过简单的提问方式，即可获取平台输出的数据洞察分析结果。",
+                "source_link": "https://beacon.qq.com/"
+            }
+        }
+    ],
+    "uuid": "C783F12C-0776-411A-B45D-0CAA39E620CD"
+}

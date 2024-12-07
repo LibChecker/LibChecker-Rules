@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "MediaPipe LLM Inference",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "借助 LLM Inference API，您可以完全在设备端运行大型语言模型 (LLM) 可用于执行各种任务、 例如生成文本、检索自然语言形式的信息，以及 汇总文档。任务为多个文本到文本大语言模型，以便在大语言模型中应用最新的生成式 AI 模型。",
+                "source_link": "https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference/android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MediaPipe LLM Inference",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "The LLM Inference API lets you run large language models (LLMs) completely on-device for Android applications, which you can use to perform a wide range of tasks, such as generating text, retrieving information in natural language form, and summarizing documents. The task provides built-in support for multiple text-to-text large language models, so you can apply the latest on-device generative AI models to your Android apps.",
+                "source_link": "https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference/android"
+            }
+        }
+    ],
+    "uuid": "9BCC2176-AB92-444B-A9A4-B3939D607362"
+}

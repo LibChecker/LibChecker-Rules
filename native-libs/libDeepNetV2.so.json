@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "DeepNet",
+                "dev_team": "jppbsi",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "LibDEEP 是一个使用 C 语言开发的深度学习库，用于开发基于人工智能的技术。",
+                "source_link": "https://github.com/jppbsi/LibDEEP"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "DeepNet",
+                "dev_team": "jppbsi",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "LibDEEP is a deep learning library developed in C language for the development of artificial intelligence-based techniques.",
+                "source_link": "https://github.com/jppbsi/LibDEEP"
+            }
+        }
+    ],
+    "uuid": "FDBD2AD1-DDCF-497E-8607-C9DCE92B6653"
+}

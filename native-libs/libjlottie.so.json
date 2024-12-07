@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "jLottie",
+                "dev_team": "LottieFiles",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "jLottie 是一个用 JavaScript 编写的 Lottie 播放器，其目标是尽可能减小文件大小。jLottie 适合作为通用 Lottie 播放器，但只实现了核心播放器功能的一个子集——这种方法不仅占用空间小，而且性能卓越。",
+                "source_link": "https://github.com/LottieFiles/jlottie"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "jLottie",
+                "dev_team": "LottieFiles",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "jLottie is a Lottie player written in javascript with an aim to have the smallest possible file size. jLottie is suitable as a general purpose lottie player, though implements a subset of the features in the core player - this approach leads to a tiny footprint and great performance.",
+                "source_link": "https://github.com/LottieFiles/jlottie"
+            }
+        }
+    ],
+    "uuid": "4DA6B46D-5F11-4012-8BA7-0528573B36DD"
+}

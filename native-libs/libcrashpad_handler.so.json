@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "crashpad",
+                "dev_team": "Chromium",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Crashpad 是一个崩溃报告系统。",
+                "source_link": "https://github.com/chromium/crashpad"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "crashpad",
+                "dev_team": "Chromium",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Crashpad is a crash-reporting system.",
+                "source_link": "https://github.com/chromium/crashpad"
+            }
+        }
+    ],
+    "uuid": "9197F912-C3F3-4672-AB8C-AA931F5D7EC7"
+}

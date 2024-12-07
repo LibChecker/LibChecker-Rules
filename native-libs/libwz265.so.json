@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Intelligent Video Encoding Engine",
+                "dev_team": "微帧/Visionular",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "The Intelligent Video Encoding Engine combines advanced encoding cores WZ264 (H.264), WZ265 (H.265), and Aurora-AV1 (AV1) with AI processing and CAE perceptual encoding. It delivers leading video compression and ultra-clear image quality for VOD, live streaming, and RTC applications.",
+                "source_link": "https://cn.visionular.com/WZ265/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "视频智能编码引擎",
+                "dev_team": "微帧/Visionular",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "视频智能编码引擎是基于微帧强大的编码内核 WZ264（H.264 标准）、WZ265（H.265 标准）、Aurora-AV1（AV1 标准），并结合AI处理、CAE 感知编码等技术，融合打造的一款业界领先的视频编码产品。其编码能力，遥遥领先于开源或同类编码器，已被广泛应用于视频点播、直播、实时 RTC 等各类场景，为用户提供极致的编码压缩体验和超清画质效果。",
+                "source_link": "https://cn.visionular.com/WZ265/"
+            }
+        }
+    ],
+    "uuid": "C22A7F22-1E61-4C4D-9556-EDD69285CBCB"
+}

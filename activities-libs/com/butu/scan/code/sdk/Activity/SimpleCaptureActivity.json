@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Butu QR SDK",
+                "dev_team": "钚兔团队",
+                "rule_contributors": [
+                    "Xixinink"
+                ],
+                "description": "Butu QR SDK is a scan integration solution developed by the Butu team. It enables high-quality scanning services with simple API calls.",
+                "source_link": "https://github.com/butuink/butuqrcode-SDK"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "钚兔扫一扫 SDK",
+                "dev_team": "钚兔团队",
+                "rule_contributors": [
+                    "Xixinink"
+                ],
+                "description": "钚兔扫一扫 SDK (Butu QR SDK) 是由钚兔团队开发的扫一扫集成 SDK。只需简单调用即可为用户提供优质的扫码服务。",
+                "source_link": "https://github.com/butuink/butuqrcode-SDK"
+            }
+        }
+    ],
+    "uuid": "DC0C8104-6FBA-47A4-A926-C3C4CBBFB2C3"
+}

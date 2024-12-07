@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Chaquopy",
+                "dev_team": "Chaquo Ltd",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "在 Android 应用中使用 Python 的最简单方式。",
+                "source_link": "https://chaquo.com/chaquopy/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Chaquopy",
+                "dev_team": "Chaquo Ltd",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "The easiest way to use Python in an Android app.",
+                "source_link": "https://chaquo.com/chaquopy/"
+            }
+        }
+    ],
+    "uuid": "607E600C-B3B2-4C55-BCDB-C827C02703C7"
+}

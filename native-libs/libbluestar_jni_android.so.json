@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Bluestar",
+                "dev_team": "sandy98",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "一个基于 Node.js 的小型实用工具，用于将图像转换为适合嵌入网页的 base64 编码字符串。",
+                "source_link": "https://github.com/sandy98/bluestar"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Bluestar",
+                "dev_team": "sandy98",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Tiny node.js based utility to convert images to base64 encoded string suitable to be embedded in web pages.",
+                "source_link": "https://github.com/sandy98/bluestar"
+            }
+        }
+    ],
+    "uuid": "733CFFBA-B703-4F89-8AE1-120393EFA72A"
+}

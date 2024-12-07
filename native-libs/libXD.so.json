@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "XD",
+                "dev_team": "benhardfritz",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Precessing，也被称为 p8g，是一个通用的 2D 图形库。",
+                "source_link": "https://github.com/bernhardfritz/p8g"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "XD",
+                "dev_team": "benhardfritz",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Precessing, also known as p8g, is a general-purpose 2D graphics library.",
+                "source_link": "https://github.com/bernhardfritz/p8g"
+            }
+        }
+    ],
+    "uuid": "D17AD2FF-2744-4638-B7E9-F9B339679760"
+}

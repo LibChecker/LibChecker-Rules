@@ -3,7 +3,7 @@
         {
             "locale": "zh-Hans",
             "data": {
-                "label": "Bitfrost",
+                "label": "Bifrost",
                 "dev_team": "pmelsted",
                 "rule_contributors": [
                     "WOLFRAZOR"
@@ -15,7 +15,7 @@
         {
             "locale": "en",
             "data": {
-                "label": "Bitfrost",
+                "label": "Bifrost",
                 "dev_team": "pmelsted",
                 "rule_contributors": [
                     "WOLFRAZOR"

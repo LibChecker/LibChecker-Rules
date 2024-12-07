@@ -7,7 +7,8 @@
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe",
-                    "crrashh1542"
+                    "crrashh1542",
+                    "WOLFRAZOR"
                 ],
                 "description": "Mars 是微信官方的跨平台跨业务的终端基础组件。",
                 "source_link": "https://github.com/Tencent/Mars/"
@@ -20,7 +21,8 @@
                 "dev_team": "Tencent",
                 "rule_contributors": [
                     "Absinthe",
-                    "crrashh1542"
+                    "crrashh1542",
+                    "WOLFRAZOR"
                 ],
                 "description": "Mars is the cross-platform cross-business terminal basic component officially developed by WeChat.",
                 "source_link": "https://github.com/Tencent/Mars/"

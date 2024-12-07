@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "TopSec Reinforcement",
+                "dev_team": "顶象科技",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "The TopSec Android Application Reinforcement provides a comprehensive defense system. It offers multi-dimensional protection for code security, resource files, data, and runtime environment security. Reinforcement strategies are customizable based on scenarios, achieving a perfect balance between security and performance.",
+                "source_link": "https://www.dingxiang-inc.com/docs/detail/android_protect"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "顶象加固",
+                "dev_team": "顶象科技",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "顶象Android应用加固保护是一套纵深防御体系，分别从代码安全、资源文件安全、数据安全和运行时环境安全维度提供安全保护,同时针对每个维度又进行了不同层次的划分，加固策略可依据实际场景进行定制化调配，安全和性能达到完美平衡。",
+                "source_link": "https://www.dingxiang-inc.com/docs/detail/android_protect"
+            }
+        }
+    ],
+    "uuid": "41C148C2-23C1-4872-BC90-8316B5B76966"
+}
