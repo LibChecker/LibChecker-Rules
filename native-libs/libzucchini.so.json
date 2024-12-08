@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Zucchini is a library for generating and applying patches, designed for efficient binary file updates.",
+                "description": "Zucchini 是一个用于生成和应用补丁的库，主要用于在更新二进制文件时高效地传输改动。",
                 "source_link": "https://android.googlesource.com/platform/external/zucchini/"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "yfdyh000"
                 ],
-                "description": "Zucchini 是一个用于生成和应用补丁的库，主要用于在更新二进制文件时高效地传输改动。",
+                "description": "Zucchini is a library for generating and applying patches, designed for efficient binary file updates.",
                 "source_link": "https://android.googlesource.com/platform/external/zucchini/"
             }
         }

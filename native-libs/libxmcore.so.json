@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "An Android framework aimed at accelerating app development. It is based on Dagger2, RxJava, Retrofit, Material Design, and MVVM/MVP.",
+                "description": "一个 android 架构，致力于快速开发 app。架构基于 Dagger2 + RxJava + Retrofit + Material Design + MVVM MVP。",
                 "source_link": "https://github.com/luxiaoming/xmCore"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "一个 android 架构，致力于快速开发 app。架构基于 Dagger2 + RxJava + Retrofit + Material Design + MVVM MVP。",
+                "description": "An Android framework aimed at accelerating app development. It is based on Dagger2, RxJava, Retrofit, Material Design, and MVVM/MVP.",
                 "source_link": "https://github.com/luxiaoming/xmCore"
             }
         }

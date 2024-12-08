@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "enKl03B"
                 ],
-                "description": "OpenTok is a powerful cross-platform voice and video calling SDK offering high-quality real-time communication capabilities.",
+                "description": "OpenTok 是一款非常强大的跨平台语音和视频通话SDK，提供了高质量的实时语音和视频通话功能。",
                 "source_link": "https://github.com/opentok/opentok-android-sdk-samples"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "enKl03B"
                 ],
-                "description": "OpenTok 是一款非常强大的跨平台语音和视频通话SDK，提供了高质量的实时语音和视频通话功能。",
+                "description": "OpenTok is a powerful cross-platform voice and video calling SDK offering high-quality real-time communication capabilities.",
                 "source_link": "https://github.com/opentok/opentok-android-sdk-samples"
             }
         }

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "The Naga Reinforcement Platform is a cloud-based security reinforcement solution that protects and manages files of different formats across various platforms. It integrates security techniques into application clients to address vulnerabilities without modifying client-side code, offering lifecycle security for app development, packaging, publishing, and runtime.",
+                "description": "娜迦信息构建的加固云平台，针对不同平台的不同格式的文件进行加固保护及策略管理。可以在不改变应用客户端代码的情况下，针对应用各种安全缺陷的保护技术集成到应用客户端内，为客户提供涵盖应用开发、打包、发布、运行全生命周期一体化安全保障服务。",
                 "source_link": "https://www.nagain.com/#/produCtenter/securityReinforce/android"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "娜迦信息构建的加固云平台，针对不同平台的不同格式的文件进行加固保护及策略管理。可以在不改变应用客户端代码的情况下，针对应用各种安全缺陷的保护技术集成到应用客户端内，为客户提供涵盖应用开发、打包、发布、运行全生命周期一体化安全保障服务。",
+                "description": "The Naga Reinforcement Platform is a cloud-based security reinforcement solution that protects and manages files of different formats across various platforms. It integrates security techniques into application clients to address vulnerabilities without modifying client-side code, offering lifecycle security for app development, packaging, publishing, and runtime.",
                 "source_link": "https://www.nagain.com/#/produCtenter/securityReinforce/android"
             }
         }

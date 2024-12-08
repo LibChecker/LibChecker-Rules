@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "The Polyv Live Web SDK provides efficient integration solutions for audio and video live streaming scenarios.",
+                "description": "Polyv 直播 web SDK 为您提供了高效的音视频直播场景集成方案。",
                 "source_link": "https://help.polyv.net/index.html#/live/js/"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "Polyv 直播 web SDK 为您提供了高效的音视频直播场景集成方案。",
+                "description": "The Polyv Live Web SDK provides efficient integration solutions for audio and video live streaming scenarios.",
                 "source_link": "https://help.polyv.net/index.html#/live/js/"
             }
         }
