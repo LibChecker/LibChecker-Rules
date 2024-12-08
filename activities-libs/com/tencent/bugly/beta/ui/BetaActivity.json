@@ -12,7 +12,7 @@
                     "JimmyJLNU",
                     "WOLFRAZOR"
                 ],
-                "description": "腾讯 Bugly，为移动开发者提供专业的异常上报和运营统计，帮助开发者快速发现并解决异常，同时掌握产品运营动态，及时跟进用户反馈。",
+                "description": "Bugly 是 TDS 腾讯端服务（Tencent Device-oriented Service）旗下的端质量监控平台，通过采集、监控、定位、告警等核心能力，提供专业的质量监控服务，帮助开发者及时发现并解决质量问题，打造高质量应用。",
                 "source_link": "https://bugly.qq.com/"
             }
         },
@@ -28,7 +28,7 @@
                     "JimmyJLNU",
                     "WOLFRAZOR"
                 ],
-                "description": "Tencent Bugly provides mobile developers with professional exception reporting and operation statistics, helping developers quickly discover and solve exceptions while keeping track of product operation dynamics and timely following up on user feedback.",
+                "description": "Bugly is an end quality monitoring platform under Tencent Device-oriented Service (TDS), which provides professional quality monitoring services through the core competencies of collection, monitoring, location, and alerts to help developers find and solve quality problems in time and build high-quality applications.",
                 "source_link": "https://bugly.qq.com/"
             }
         }

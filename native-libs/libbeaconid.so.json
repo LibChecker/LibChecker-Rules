@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "灯塔（beacon）SDK 由腾讯灯塔团队开发，用于移动应用统计分析。",
+                "description": "腾讯灯塔全场景大数据分析套件，是腾讯50+业务自2018年以来使用数据中台演化而成，支持每日数十亿条数据资产的全面管理，数千业务员工深度依赖的整体化工具套件。",
                 "source_link": "https://beacon.tencent.com/"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArthurCyy"
                 ],
-                "description": "Beacon SDK, developed by Tencent Beacon team, is used for mobile application statistical analysis.",
+                "description": "Tencent Beacon full-scene big data analytics suite is a holistic tool suite that Tencent's 50+ businesses have evolved since 2018 using a data middleware to support the comprehensive management of billions of data assets per day, which thousands of business employees rely on in depth.",
                 "source_link": "https://beacon.tencent.com/"
             }
         }
