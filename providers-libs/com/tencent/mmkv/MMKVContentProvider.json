@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "MMKV 是基于 mmap 内存映射的 key-value 组件，底层序列化/反序列化使用 protobuf 实现，性能高，稳定性强。",
+                "description": "MMKV 是微信中的一个高效、小巧、易用的移动的键值对存储框架，可在 Android、iOS/macOS、Windows、POSIX 和 HarmonyOS NEXT 上使用。",
                 "source_link": "https://github.com/Tencent/MMKV"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "MMKV is a key-value component based on mmap memory mapping, with underlying serialization/deserialization implemented using protobuf, offering high performance and strong stability.",
+                "description": "MMKV is an efficient, small, easy-to-use mobile key-value storage framework used in the WeChat application. It's currently available on Android, iOS/macOS, Windows, POSIX and HarmonyOS NEXT.",
                 "source_link": "https://github.com/Tencent/MMKV"
             }
         }
