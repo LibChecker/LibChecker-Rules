@@ -10,29 +10,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check Issue Content
-      uses: actions/github-script@v6
-      with:
-        script: |
-          const issueBody = context.payload.issue.body || '';
-          const validKeywords = ['Library filename / 库文件名', 'Library label / 库的文字标签'];
-          
-          if (!validKeywords.every(keyword => issueBody.includes(keyword))) {
-            const issueNumber = context.payload.issue.number;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
+      - name: Check Issue Content
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueBody = context.payload.issue.body || '';
+            const validKeywordsNewRules = ['Library filename / 库文件名', 'Library label / 库的文字标签'];
+            const validKeywordsBugReport = ['Current library filename / 现有库文件名', 'Library relative URL / 相关链接']
 
-            await github.rest.issues.createComment({
-              owner,
-              repo,
-              issue_number: issueNumber,
-              body: 'This issue does not follow the template. Please update it accordingly.'
-            });
+            if (!validKeywordsNewRules.every(keyword => issueBody.includes(keyword)) && !validKeywordsBugReport.every(keyword => issueBody.includes(keyword))) {
+              const issueNumber = context.payload.issue.number;
+              const owner = context.repo.owner;
+              const repo = context.repo.repo;
 
-            await github.rest.issues.update({
-              owner,
-              repo,
-              issue_number: issueNumber,
-              state: 'closed'
-            });
-          }
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: 'This issue does not follow the template. Please update it accordingly.'
+              });
+
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                state: 'closed'
+              });
+            }

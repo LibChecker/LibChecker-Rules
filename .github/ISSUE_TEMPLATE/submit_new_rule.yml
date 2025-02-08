@@ -56,7 +56,7 @@ body:
         如果有该库的 Logo 图标可以选择提供，**但必须为 SVG 格式**
     validations:
       required: false
-  - type: input
+  - type: textarea
     attributes:
       label: Library description / 库描述
       description: |

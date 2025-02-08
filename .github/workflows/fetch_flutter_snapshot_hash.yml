@@ -24,9 +24,9 @@ jobs:
 
       - name: Generate Files
         run: |
-            python flutter_hash/tools/fetcher.py
+          python flutter_hash/tools/fetcher.py
 
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
