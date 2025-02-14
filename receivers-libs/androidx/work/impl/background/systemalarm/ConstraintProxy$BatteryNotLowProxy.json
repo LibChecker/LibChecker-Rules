@@ -6,7 +6,8 @@
                 "label": "Jetpack WorkManager",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
                 "description": "使用 WorkManager API 可以轻松地调度即使在应用退出或设备重启时仍应运行的可延迟异步任务。",
                 "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
@@ -18,7 +19,8 @@
                 "label": "Jetpack WorkManager",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
                 "description": "Use the WorkManager API to easily schedule deferrable asynchronous tasks that should run even if the app exits or the device restarts.",
                 "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"

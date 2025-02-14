@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "HCL2",
+                "dev_team": "Nukosuke",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "C 语言的 HCL2 解析库。",
+                "source_link": "https://github.com/nukosuke/libhcl"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "HCL2",
+                "dev_team": "Nukosuke",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "HCL2 parser library for C.",
+                "source_link": "https://github.com/nukosuke/libhcl"
+            }
+        }
+    ],
+    "uuid": "FF0376C6-52F3-4CED-99BB-E801A8C0A82C"
+}

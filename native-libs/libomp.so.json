@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "LibOMP",
+                "dev_team": "OMPI-X",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "OpenMP 库。",
+                "source_link": "https://github.com/OMPI-X/libomp"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LibOMP",
+                "dev_team": "OMPI-X",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "OpenMP Library.",
+                "source_link": "https://github.com/OMPI-X/libomp"
+            }
+        }
+    ],
+    "uuid": "12EB7324-9094-4BB7-9134-048F16D7006E"
+}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "opus-jni",
+                "dev_team": "LabyMod",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "opus-jni 是一个非常简单且易于使用的 JNI 封装器，用于 Opus 编解码器，专为 LabyMod 创建。它可能缺少一些原始 Opus 编解码器规范中的功能，但对于大多数用例应该完全足够。",
+                "source_link": "https://github.com/LabyMod/opus-jni"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "opus-jni",
+                "dev_team": "LabyMod",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "opus-jni is a very simple and comfortable to use JNI wrapper for the Opus codec, created for LabyMod. It might lack a few functions of the original Opus codec specifications but should be perfectly fine for most usecases.",
+                "source_link": "https://github.com/LabyMod/opus-jni"
+            }
+        }
+    ],
+    "uuid": "217F616F-2643-44F9-8E28-75FCFD6B5944"
+}

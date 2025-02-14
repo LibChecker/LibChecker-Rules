@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Google Map SDK",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "构建应用内导航，使用用户喜爱的地图。",
+                "source_link": "https://mapsplatform.google.com/maps-products/navigation-sdk/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Map SDK",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Build in-app navigation with the maps users love.",
+                "source_link": "https://mapsplatform.google.com/maps-products/navigation-sdk/"
+            }
+        }
+    ],
+    "uuid": "400C21A4-F607-4714-BEAD-05E159BD07A8"
+}

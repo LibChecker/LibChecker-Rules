@@ -6,7 +6,8 @@
                 "label": "Google Sign-In",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
                 "description": "提供使用 Google 登录的 API。",
                 "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
@@ -18,7 +19,8 @@
                 "label": "Google Sign-In",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
                 "description": "Provide API for using Google Sign-In.",
                 "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"

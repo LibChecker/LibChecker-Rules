@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Google Play Core",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Google Play Core 库是您的应用与 Google Play 商店之间的运行时接口。",
+                "source_link": "https://developer.android.com/guide/playcore"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Google Play Core",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "The Google Play Core libraries are your app’s runtime interface with the Google Play Store.",
+                "source_link": "https://developer.android.com/guide/playcore"
+            }
+        }
+    ],
+    "uuid": "B0F41589-ADF6-4825-AB50-15AF27FB44B4"
+}

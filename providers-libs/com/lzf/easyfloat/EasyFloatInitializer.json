@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "EasyFloat",
+                "dev_team": "princekin-f",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Floating windows have never been this simple.",
+                "source_link": "https://github.com/princekin-f/EasyFloat"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "EasyFloat",
+                "dev_team": "princekin-f",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "浮窗从未如此简单。",
+                "source_link": "https://github.com/princekin-f/EasyFloat"
+            }
+        }
+    ],
+    "uuid": "928E709A-CF34-4072-A301-AA2B0E66983C"
+}

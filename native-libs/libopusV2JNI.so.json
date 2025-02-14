@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "ExoPlayer",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ExoPlayer 是一个面向 Android 的应用级媒体播放器。",
+                "source_link": "https://github.com/google/ExoPlayer"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "ExoPlayer",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "ExoPlayer is an application level media player for Android.",
+                "source_link": "https://github.com/google/ExoPlayer"
+            }
+        }
+    ],
+    "uuid": "3193AA06-E864-4E97-A694-F304F744E97C"
+}

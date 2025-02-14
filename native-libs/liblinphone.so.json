@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Linphone",
+                "dev_team": "Linphone",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "使用基于 Linphone 应用的 VoIP SDK 快速轻松地开发互联网通信应用！",
+                "source_link": "https://www.linphone.org/en/liblinphone-voip-sdk/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Linphone",
+                "dev_team": "Linphone",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "Easily and quickly develop your internet communication applications Using the VoIP SDK on which Linphone applications are based!",
+                "source_link": "https://www.linphone.org/en/liblinphone-voip-sdk/"
+            }
+        }
+    ],
+    "uuid": "E08F84EE-D944-4517-B6E6-04B0E6C5BE91"
+}

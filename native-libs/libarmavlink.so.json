@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "libARMavlink",
+                "dev_team": "Parrot",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "在源代码和二进制形式下进行再分发和使用，允许修改与否，前提是满足以下条件：源代码的再分发必须保留上述版权声明、条件列表和以下免责声明。二进制形式的再分发必须在文档和/或其他分发材料中复制上述版权声明、条件列表和免责声明。未经事先书面许可，不得使用 Parrot 或其贡献者的名称来支持或推广基于此软件的衍生产品。",
+                "source_link": "https://github.com/Parrot-Developers/libARMavlink"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "libARMavlink",
+                "dev_team": "Parrot",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Neither the name of Parrot nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.",
+                "source_link": "https://github.com/Parrot-Developers/libARMavlink"
+            }
+        }
+    ],
+    "uuid": "80788713-184B-4E23-9DEE-E69EF570BBDA"
+}

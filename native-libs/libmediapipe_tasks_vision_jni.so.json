@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "MediaPipe Tasks",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "MediaPipe Tasks provides a suite of core programming interface solutions for MediaPipe, including a set of libraries for deploying innovative machine learning solutions with minimal code.",
+                "source_link": "https://ai.google.dev/edge/mediapipe/solutions/tasks"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "MediaPipe Tasks",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "ArcticFoxPro"
+                ],
+                "description": "MediaPipe Tasks 提供了 MediaPipe 的核心编程接口解决方案套件，包括一组用于部署创新型机器学习的库构建解决方案，只需极少的代码即可。",
+                "source_link": "https://ai.google.dev/edge/mediapipe/solutions/tasks"
+            }
+        }
+    ],
+    "uuid": "9E5311E7-8F55-4988-BE84-6AFD18ED70FB"
+}

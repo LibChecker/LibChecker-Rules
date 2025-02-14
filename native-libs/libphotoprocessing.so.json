@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "PhotoProcessing",
+                "dev_team": "Lightbox",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "一个如何利用 NDK 处理照片的示例。",
+                "source_link": "https://github.com/lightbox/PhotoProcessing"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "PhotoProcessing",
+                "dev_team": "Lightbox",
+                "rule_contributors": [
+                    "EntertainmentOne"
+                ],
+                "description": "A demo of how you can process photos leveraging the ndk.",
+                "source_link": "https://github.com/lightbox/PhotoProcessing"
+            }
+        }
+    ],
+    "uuid": "D6E03529-9258-477A-837E-6F29B5591603"
+}

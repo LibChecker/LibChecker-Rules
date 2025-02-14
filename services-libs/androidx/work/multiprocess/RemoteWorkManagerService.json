@@ -6,9 +6,10 @@
                 "label": "Jetpack WorkManager",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
-                "description": "使用 WorkManager API 可以轻松地调度即使在应用退出或设备重启时仍应运行的可延迟异步任务。",
+                "description": "WorkManager 是适合用于持久性工作的推荐解决方案。如果工作始终要通过应用重启和系统重新启动来调度，便是持久性的工作。由于大多数后台处理操作都是通过持久性工作完成的，因此 WorkManager 是适用于后台处理操作的主要推荐 API。",
                 "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
             }
         },
@@ -18,9 +19,10 @@
                 "label": "Jetpack WorkManager",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "Absinthe"
+                    "Absinthe",
+                    "WOLFRAZOR"
                 ],
-                "description": "Use the WorkManager API to easily schedule deferrable asynchronous tasks that should run even if the app exits or the device restarts.",
+                "description": "WorkManager is the recommended solution for persistent work. Work is persistent when it remains scheduled through app restarts and system reboots. Because most background processing is best accomplished through persistent work, WorkManager is the primary recommended API for background processing.",
                 "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
             }
         }

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "H5P.Android",
+                "dev_team": "DCloud",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "Android 的 HTML5 Plus。",
+                "source_link": "https://github.com/dcloudio/H5P.Android"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "H5P.Android",
+                "dev_team": "DCloud",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "HTML5 Plus for Android.",
+                "source_link": "https://github.com/dcloudio/H5P.Android"
+            }
+        }
+    ],
+    "uuid": "8E4EE35F-2A5D-49B5-9ED5-979787F33260"
+}

@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Jetpack Media Session",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "媒体按钮接收器接收并帮助翻译硬件媒体播放按钮，例如在有线和无线耳机上找到的按钮，转化为应用中的相应回调。",
+                "source_link": "https://developer.android.com/reference/androidx/media/session/"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack Media Session",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "A media button receiver receives and helps translate hardware media playback buttons, such as those found on wired and wireless headsets, into the appropriate callbacks in your app.",
+                "source_link": "https://developer.android.com/reference/androidx/media/session/"
+            }
+        }
+    ],
+    "uuid": "1348B371-85CB-4CDB-9FF1-20734F48AA9E"
+}

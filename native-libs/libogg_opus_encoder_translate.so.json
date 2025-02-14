@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Opus",
+                "dev_team": "Xiph.Org",
+                "rule_contributors": [
+                    "MeowHCO3",
+                    "WOLFRAZOR"
+                ],
+                "description": "Opus 是用于通过网络进行交互式语音和音频传输的编解码器。",
+                "source_link": "https://gitlab.xiph.org/xiph/opus"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Opus",
+                "dev_team": "Xiph.Org",
+                "rule_contributors": [
+                    "MeowHCO3",
+                    "WOLFRAZOR"
+                ],
+                "description": "Opus is a codec for interactive voice and audio transmission over the internet.",
+                "source_link": "https://gitlab.xiph.org/xiph/opus"
+            }
+        }
+    ],
+    "uuid": "6ED982AA-B4C2-4710-B0ED-97D9C627D6D7"
+}

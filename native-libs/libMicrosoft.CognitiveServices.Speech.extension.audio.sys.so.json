@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Cognitive Services Speech SDK",
+                "dev_team": "Microsoft",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "语音 SDK（软件开发工具包）提供了许多语音服务功能，帮助您开发语音启用的应用。",
+                "source_link": "https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/speech-sdk"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Cognitive Services Speech SDK",
+                "dev_team": "Microsoft",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "The Speech SDK (software development kit) exposes many of the Speech service capabilities, so you can develop speech-enabled applications.",
+                "source_link": "https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/speech-sdk"
+            }
+        }
+    ],
+    "uuid": "D9FD1DFA-F704-4266-B9CA-1F82F5B880F9"
+}

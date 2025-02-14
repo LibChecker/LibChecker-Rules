@@ -6,7 +6,8 @@
                 "label": "Breakpad",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "crrashh1542"
+                    "crrashh1542",
+                    "WOLFRAZOR"
                 ],
                 "description": "Breakpad 是一组实现崩溃报告系统的客户端和服务器组件。",
                 "source_link": "https://github.com/google/breakpad"
@@ -18,7 +19,8 @@
                 "label": "Breakpad",
                 "dev_team": "Google",
                 "rule_contributors": [
-                    "crrashh1542"
+                    "crrashh1542",
+                    "WOLFRAZOR"
                 ],
                 "description": "Breakpad is a set of client and server components implementing a crash reporting system.",
                 "source_link": "https://github.com/google/breakpad"

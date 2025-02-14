@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "百度人脸识别",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "人脸离线识别 SDK，包含人脸采集、活体检测、人脸对比/识别、人脸库管理等能力，并全部离线化、本地化。",
+                "source_link": "https://cloud.baidu.com/doc/FACE/s/pk37c1mqu"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Baidu Face Recognition",
+                "dev_team": "Baidu",
+                "rule_contributors": [
+                    "ArthurCyy"
+                ],
+                "description": "Offline face recognition SDK, including capabilities like face collection, liveness detection, face comparison/recognition, and face database management, all offline and localized.",
+                "source_link": "https://cloud.baidu.com/doc/FACE/s/pk37c1mqu"
+            }
+        }
+    ],
+    "uuid": "9D470D94-15E2-4B1C-B3CD-AC974CAC0FC1"
+}

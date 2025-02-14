@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Jetpack WebKit",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "WebView 提供对 Android 拖放功能的部分支持，允许从 WebView 中拖动图像、文本和链接。",
+                "source_link": "https://developer.android.com/reference/kotlin/androidx/webkit/DropDataContentProvider"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Jetpack WebKit",
+                "dev_team": "Google",
+                "rule_contributors": [
+                    "WOLFRAZOR"
+                ],
+                "description": "WebView provides partial support for Android Drag and Drop allowing images, text and links to be dragged out of a WebView.",
+                "source_link": "https://developer.android.com/reference/kotlin/androidx/webkit/DropDataContentProvider"
+            }
+        }
+    ],
+    "uuid": "BDDF8BDA-550A-44DE-83EF-9111EF333690"
+}

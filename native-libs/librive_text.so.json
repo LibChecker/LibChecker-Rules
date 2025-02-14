@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "Rive",
+                "dev_team": "Rive",
+                "rule_contributors": [
+                    "ZhuJHua"
+                ],
+                "description": "Rive 是一种新的构建生产就绪 UI 和图形的方式——具有丰富的互动性和基于状态的动画。它消除了对硬编码图形的需求，使团队能够更快迭代，构建更好的产品。",
+                "source_link": "https://github.com/rive-app"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "Rive",
+                "dev_team": "Rive",
+                "rule_contributors": [
+                    "ZhuJHua"
+                ],
+                "description": "Rive is a new way to build production-ready UI and graphics — with rich interactivity and state-driven animation. It removes the need for hard-coded graphics, empowering teams to iterate faster and build better products.",
+                "source_link": "https://github.com/rive-app"
+            }
+        }
+    ],
+    "uuid": "9EF05C5D-5AB3-493B-AED6-E525239E200A"
+}

@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "LiteRT",
+                "dev_team": "TensorFlow",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy",
+                    "WOLFRAZOR",
+                    "ArcticFoxPro"
+                ],
+                "description": "LiteRT（简称自 Lite Runtime，以前称为 TensorFlow Lite）是 Google 面向设备端 AI 的高性能运行时。",
+                "source_link": "https://ai.google.dev/edge/litert"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "LiteRT",
+                "dev_team": "TensorFlow",
+                "rule_contributors": [
+                    "Absinthe",
+                    "ArthurCyy",
+                    "WOLFRAZOR",
+                    "ArcticFoxPro"
+                ],
+                "description": "LiteRT (short for Lite Runtime), formerly known as TensorFlow Lite, is Google's high-performance runtime for on-device AI.",
+                "source_link": "https://ai.google.dev/edge/litert"
+            }
+        }
+    ],
+    "uuid": "8A32C25F-C130-4CAE-A840-49FD4D75E232"
+}

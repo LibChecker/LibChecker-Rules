@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "locale": "zh-Hans",
+            "data": {
+                "label": "React Native MMKV",
+                "dev_team": "mrousavy",
+                "rule_contributors": [
+                    "Rexogamer"
+                ],
+                "description": "MMKV 是一个高效的小型移动键值存储框架，由微信开发。react-native-mmkv 是一个库，允许您通过快速和直接的 JS 绑定使用 MMKV，轻松在 React Native 应用中使用。",
+                "source_link": "https://github.com/mrousavy/react-native-mmkv"
+            }
+        },
+        {
+            "locale": "en",
+            "data": {
+                "label": "React Native MMKV",
+                "dev_team": "mrousavy",
+                "rule_contributors": [
+                    "Rexogamer"
+                ],
+                "description": "MMKV is an efficient, small mobile key-value storage framework developed by WeChat. react-native-mmkv is a library that allows you to easily use MMKV inside your React Native app through fast and direct JS bindings to the native C++ library.",
+                "source_link": "https://github.com/mrousavy/react-native-mmkv"
+            }
+        }
+    ],
+    "uuid": "00083EA7-A677-4B70-8BAC-9DAB6B02B14D"
+}
