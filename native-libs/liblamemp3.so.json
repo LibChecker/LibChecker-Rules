@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "For Unity3D, converts Wav audio to MP3, used for compressing voice recordings for upload, etc.",
+                "description": "适用于 Unity3D 把声音 Wav 转换为 MP3，用于录音时压缩语音上传等功能。",
                 "source_link": "https://github.com/3wz/Lame-For-Unity"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "WOLFRAZOR"
                 ],
-                "description": "适用于 Unity3D 把声音 Wav 转换为 MP3，用于录音时压缩语音上传等功能。",
+                "description": "For Unity3D, converts Wav audio to MP3, used for compressing voice recordings for upload, etc.",
                 "source_link": "https://github.com/3wz/Lame-For-Unity"
             }
         }

@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "ArcticFoxPro"
                 ],
-                "description": "ArkUI (Ark UI framework) provides a complete infrastructure for UI development in applications, including a simple UI syntax, rich UI features (components, layouts, animations, and interaction events), and a real-time interface preview tool, enabling developers to conduct visual interface development.\n\nArkUI-X further extends ArkUI to multiple OS platforms: currently supporting OpenHarmony, HarmonyOS, Android, and iOS, with plans to gradually add more platform support. Developers can build beautiful, high-performance applications for multiple platforms based on a single main codebase.",
+                "description": "ArkUI（方舟 UI 框架）为应用的 UI 开发提供了完整的基础设施，包括简洁的 UI 语法、丰富的 UI 功能（组件、布局、动画以及交互事件），以及实时界面预览工具等，可以支持开发者进行可视化界面开发。\n\nArkUI-X 进一步将 ArkUI 扩展到了多个 OS 平台：目前支持 OpenHarmony、HarmonyOS、Android、 iOS，后续会逐步增加更多平台支持。开发者基于一套主代码，就可以构建支持多平台的精美、高性能应用。",
                 "source_link": "https://gitcode.com/arkui-x/docs/"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "ArcticFoxPro"
                 ],
-                "description": "ArkUI（方舟 UI 框架）为应用的 UI 开发提供了完整的基础设施，包括简洁的 UI 语法、丰富的 UI 功能（组件、布局、动画以及交互事件），以及实时界面预览工具等，可以支持开发者进行可视化界面开发。\n\nArkUI-X 进一步将 ArkUI 扩展到了多个 OS 平台：目前支持 OpenHarmony、HarmonyOS、Android、 iOS，后续会逐步增加更多平台支持。开发者基于一套主代码，就可以构建支持多平台的精美、高性能应用。",
+                "description": "ArkUI (Ark UI framework) provides a complete infrastructure for UI development in applications, including a simple UI syntax, rich UI features (components, layouts, animations, and interaction events), and a real-time interface preview tool, enabling developers to conduct visual interface development.\n\nArkUI-X further extends ArkUI to multiple OS platforms: currently supporting OpenHarmony, HarmonyOS, Android, and iOS, with plans to gradually add more platform support. Developers can build beautiful, high-performance applications for multiple platforms based on a single main codebase.",
                 "source_link": "https://gitcode.com/arkui-x/docs/"
             }
         }
