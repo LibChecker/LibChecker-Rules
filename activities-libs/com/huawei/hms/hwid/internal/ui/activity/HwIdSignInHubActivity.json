@@ -8,7 +8,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "通过华为账号开放服务，Android 应用可以方便、安全地实现快速登录授权、读取短信验证码等功能，凭借用户授权凭证，应用可快速访问调用华为提供的公开 API。",
+                "description": "华为账号服务（HUAWEI Account Kit）为您提供了简单、安全的登录授权功能，方便用户快捷登录。用户不必输入账号、密码和繁琐验证，就可以通过“华为账号登录”快速登录，即刻使用您的App。",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050048870"
             }
         },
@@ -20,7 +20,7 @@
                 "rule_contributors": [
                     "Absinthe"
                 ],
-                "description": "Through Huawei Account Open Services, Android applications can easily and securely implement quick login authorization, read SMS verification codes, and other functions. With user authorization credentials, applications can quickly access and call the public APIs provided by Huawei.",
+                "description": "HUAWEI Account Kit provides you with simple, secure, and quick sign-in and authorization functions. Instead of entering accounts and passwords and waiting for authentication, users can just tap the Sign in with HUAWEI ID button to quickly and securely sign in to your app with their HUAWEI IDs.",
                 "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050048870"
             }
         }
