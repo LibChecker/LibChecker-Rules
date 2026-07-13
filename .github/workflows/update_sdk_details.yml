@@ -1,0 +1,66 @@
+name: Update SDK details
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      sdk:
+        description: "Optional SDK provider id; empty updates all providers"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sdk-details-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Test SDK details tooling
+        run: python sdk-details/tools/test.py
+
+      - name: Update generated SDK data
+        env:
+          REQUESTED_SDK: ${{ inputs.sdk }}
+        run: |
+          if [[ -n "$REQUESTED_SDK" ]]; then
+            python sdk-details/tools/update.py --sdk "$REQUESTED_SDK"
+          else
+            python sdk-details/tools/update.py --all
+          fi
+
+      - name: Validate generated SDK data
+        run: python sdk-details/tools/update.py --check
+
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain -- sdk-details)" ]]; then
+            echo "No SDK detail changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all -- sdk-details
+          git commit -m "Update SDK detail data"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

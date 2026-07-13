@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://libchecker.github.io/schemas/sdk-details/catalog-v1.schema.json",
+  "type": "object",
+  "required": ["schema_version", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 128,
+      "items": {
+        "type": "object",
+        "required": ["sdk_id", "library_uuids", "definition"],
+        "additionalProperties": false,
+        "properties": {
+          "sdk_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+          },
+          "library_uuids": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 32,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
+            }
+          },
+          "definition": {
+            "type": "string",
+            "pattern": "^sdk-details/sdks/[a-z0-9_-]+/definition\\.json$"
+          }
+        }
+      }
+    }
+  }
+}

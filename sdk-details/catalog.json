@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "sdk_id": "flutter",
+      "library_uuids": [
+        "AEF9680F-4A43-4EDC-A5B8-8119D23BCD21"
+      ],
+      "definition": "sdk-details/sdks/flutter/definition.json"
+    }
+  ]
+}
