@@ -1,0 +1,12 @@
+{
+  "engine": "4e54bc93ca9aaf2156fb06266c9fe509e8599a5f",
+  "releases": [
+    {
+      "flutter": "v1.3.9",
+      "dart": null,
+      "channel": "dev",
+      "framework": "f91df4abe1427fef8862c9e81b2e5af6fc05a67a",
+      "release_date": "2019-03-10T05:32:40.478710Z"
+    }
+  ]
+}

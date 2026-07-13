@@ -1,0 +1,12 @@
+{
+  "engine": "d7ec7e8064d93a8d8bdd418103ec48cfafbc4841",
+  "releases": [
+    {
+      "flutter": "3.38.0-0.2.pre",
+      "dart": "3.10.0 (build 3.10.0-290.1.beta)",
+      "channel": "beta",
+      "framework": "f16b4ff8921f452da733f17b243f627d08f1e378",
+      "release_date": "2025-10-29T16:09:32.123077Z"
+    }
+  ]
+}

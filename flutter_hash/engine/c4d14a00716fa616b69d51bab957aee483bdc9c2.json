@@ -1,0 +1,26 @@
+{
+  "engine": "c4d14a00716fa616b69d51bab957aee483bdc9c2",
+  "releases": [
+    {
+      "flutter": "v1.4.7",
+      "dart": null,
+      "channel": "dev",
+      "framework": "1bfa2f23114829513a9d2c0a7a27d743287acc2a",
+      "release_date": "2019-03-29T21:06:01.732208Z"
+    },
+    {
+      "flutter": "v1.4.6-hotfix.1",
+      "dart": null,
+      "channel": "dev",
+      "framework": "4ed13e022cae194aebdc9c5dfa6c2c3c62eeb8fb",
+      "release_date": "2019-03-29T20:29:43.258766Z"
+    },
+    {
+      "flutter": "v1.4.6",
+      "dart": null,
+      "channel": "dev",
+      "framework": "ec93c87c8902c63e5b0e71ff761f201d19dc4327",
+      "release_date": "2019-03-29T00:01:25.778849Z"
+    }
+  ]
+}

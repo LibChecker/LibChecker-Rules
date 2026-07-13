@@ -1,0 +1,33 @@
+{
+  "engine": "0d83a2ecd1bb78f8e1f0ed9719ff3751cdfdd064",
+  "releases": [
+    {
+      "flutter": "v1.4.4",
+      "dart": null,
+      "channel": "dev",
+      "framework": "3b3f6c7a041978505b310b5b50390c2f5ff7eaac",
+      "release_date": "2019-03-28T01:14:32.831108Z"
+    },
+    {
+      "flutter": "v1.4.3",
+      "dart": null,
+      "channel": "dev",
+      "framework": "64a28e3685bee310e697a91612d7e30d0426cda2",
+      "release_date": "2019-03-27T21:50:50.687336Z"
+    },
+    {
+      "flutter": "v1.4.2",
+      "dart": null,
+      "channel": "dev",
+      "framework": "141f87b32754267cc02bae03477c4b109b828324",
+      "release_date": "2019-03-27T16:39:20.541106Z"
+    },
+    {
+      "flutter": "v1.4.1",
+      "dart": null,
+      "channel": "dev",
+      "framework": "204eceea93694aa081e0132c8281b76d3b3d6b4a",
+      "release_date": "2019-03-27T01:13:10.675659Z"
+    }
+  ]
+}

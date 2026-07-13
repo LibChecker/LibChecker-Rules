@@ -1,0 +1,19 @@
+{
+  "engine": "2994f7e1e682039464cb25e31a78b86a3c59b695",
+  "releases": [
+    {
+      "flutter": "v1.12.13+hotfix.6",
+      "dart": null,
+      "channel": "beta",
+      "framework": "18cd7a3601bcffb36fdf2f679f763b5e827c2e8e",
+      "release_date": "2019-12-11T16:13:33.789898Z"
+    },
+    {
+      "flutter": "v1.12.13+hotfix.5",
+      "dart": null,
+      "channel": "stable",
+      "framework": "27321ebbad34b0a3fafe99fac037102196d655ff",
+      "release_date": "2019-12-11T15:48:44.133001Z"
+    }
+  ]
+}

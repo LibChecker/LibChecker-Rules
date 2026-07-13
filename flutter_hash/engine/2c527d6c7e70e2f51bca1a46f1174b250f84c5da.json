@@ -1,0 +1,26 @@
+{
+  "engine": "2c527d6c7e70e2f51bca1a46f1174b250f84c5da",
+  "releases": [
+    {
+      "flutter": "1.26.0-17.4.pre",
+      "dart": null,
+      "channel": "beta",
+      "framework": "48c9d3e0e19e8fec84f1d316ce0559f26ca7277d",
+      "release_date": "2021-02-10T21:37:57.044991Z"
+    },
+    {
+      "flutter": "1.26.0-17.3.pre",
+      "dart": null,
+      "channel": "beta",
+      "framework": "4b50ca7f7fbf56be72e54cd200825b760416a356",
+      "release_date": "2021-02-05T06:36:19.027982Z"
+    },
+    {
+      "flutter": "1.26.0-17.2.pre",
+      "dart": null,
+      "channel": "beta",
+      "framework": "79b49b9e1057f90ebf797725233c6b311722de69",
+      "release_date": "2021-02-04T19:52:38.978585Z"
+    }
+  ]
+}

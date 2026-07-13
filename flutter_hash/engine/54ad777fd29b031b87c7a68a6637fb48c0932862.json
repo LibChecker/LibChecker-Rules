@@ -1,0 +1,12 @@
+{
+  "engine": "54ad777fd29b031b87c7a68a6637fb48c0932862",
+  "releases": [
+    {
+      "flutter": "v1.7.8+hotfix.3",
+      "dart": null,
+      "channel": "stable",
+      "framework": "b712a172f9694745f50505c93340883493b505e5",
+      "release_date": "2019-07-09T21:26:14.141143Z"
+    }
+  ]
+}

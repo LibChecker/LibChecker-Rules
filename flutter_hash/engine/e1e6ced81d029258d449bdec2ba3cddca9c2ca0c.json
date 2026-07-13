@@ -1,0 +1,12 @@
+{
+  "engine": "e1e6ced81d029258d449bdec2ba3cddca9c2ca0c",
+  "releases": [
+    {
+      "flutter": "v1.12.13+hotfix.8",
+      "dart": null,
+      "channel": "stable",
+      "framework": "0b8abb4724aa590dd0f429683339b1e045a1594d",
+      "release_date": "2020-02-11T22:00:18.927951Z"
+    }
+  ]
+}
