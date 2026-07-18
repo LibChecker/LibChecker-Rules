@@ -1,0 +1,39 @@
+{
+    "id": "official.flutter",
+    "revision": 1,
+    "source": "official",
+    "title": {
+        "translations": {
+            "en": "Flutter",
+            "zh-Hans": "Flutter"
+        }
+    },
+    "icon": {
+        "asset": "icons/flutter.svg",
+        "renderMode": "original",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "predicate",
+        "predicate": {
+            "evidence": "native_library",
+            "operator": "contains",
+            "value": {
+                "string": "libflutter.so"
+            },
+            "matchedTitle": {
+                "translations": {
+                    "en": "Flutter apps",
+                    "zh-Hans": "Flutter 应用"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Other apps",
+                    "zh-Hans": "其他应用"
+                }
+            }
+        }
+    },
+    "fingerprint": "artifact"
+}
