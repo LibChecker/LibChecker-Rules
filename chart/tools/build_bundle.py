@@ -42,6 +42,7 @@ DEX_CLASS_DESCRIPTOR = re.compile(r"L[A-Za-z0-9_$/-]{1,158};")
 DEX_METHOD_NAME = re.compile(r"[A-Za-z0-9_$<>-]{1,80}")
 DEX_PARAMETER_TYPE = re.compile(r"\[*[ZBSCIJFD]|\[*L[A-Za-z0-9_$/-]{1,158};")
 MANIFEST_ACTION = re.compile(r"[A-Za-z0-9_.-]{1,160}")
+ARCHIVE_ENTRY_NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._+/-]{0,159}")
 FACET_ID = re.compile(r"[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*")
 LOCALE_TAG = re.compile(r"[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*")
 REQUIRED_LOCALES = {"en", "zh-Hans"}
@@ -261,6 +262,12 @@ def validate_evidence(evidence: str, operator: str, value: dict, rule_id: str) -
             raise ValueError(f"DEX class rule requires safe class queries: {rule_id}")
         for query in queries:
             validate_dex_class_query(query, rule_id)
+    elif evidence == "archive_entry":
+        entries = value.get("strings")
+        if operator != "contains_any":
+            raise ValueError(f"Archive entry rule must use contains_any: {rule_id}")
+        if set(value) != {"strings"} or not safe_archive_entries(entries):
+            raise ValueError(f"Archive entry rule requires safe entry names: {rule_id}")
     elif evidence == "manifest_receiver_action":
         actions = value.get("strings")
         if operator != "contains_any":
@@ -343,6 +350,13 @@ def safe_string_list(values: object, pattern: re.Pattern | None, maximum: int) -
             and (pattern is None or pattern.fullmatch(value) is not None)
             for value in values
         )
+    )
+
+
+def safe_archive_entries(values: object) -> bool:
+    return safe_string_list(values, ARCHIVE_ENTRY_NAME, MAX_STRING_VALUES) and all(
+        not value.endswith("/") and all(part not in {".", ".."} for part in value.split("/"))
+        for value in values
     )
 
 

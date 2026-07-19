@@ -35,6 +35,8 @@ LibChecker build.
 1. Fork the repository and create a topic branch.
 2. Choose the closest example in `rules/`:
    - [`flutter.json`](rules/flutter.json) for exact native-library detection.
+   - [`reactivex.json`](rules/reactivex.json) for exact APK entries with a DEX
+     fallback.
    - [`itgsa.json`](rules/itgsa.json) for facets, recursive conditions, DEX
      queries, and manifest receiver actions.
    - The [predicate example](#predicate-calculations) below for a numeric
@@ -357,7 +359,7 @@ directly in `predicate`:
 | --- | --- | --- | --- | --- |
 | `predicate.matchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Label for apps whose condition evaluates to true. |
 | `predicate.unmatchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Label for apps whose condition evaluates to false. |
-| `predicate.evidence` | String | Required for direct-leaf form | `target_sdk`, `native_library`, `dex_class`, `manifest_receiver_action` | Evidence provider used by the leaf. |
+| `predicate.evidence` | String | Required for direct-leaf form | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action` | Evidence provider used by the leaf. |
 | `predicate.operator` | String | Required for direct-leaf form | Depends on `evidence` | Comparison applied to the evidence. |
 | `predicate.value` | Object | Required for direct-leaf form | Exactly one value variant compatible with `evidence` | Expected value for the comparison. |
 | `predicate.condition` | Condition | Required for recursive form | One leaf, `all`, `any`, or `not` | Recursive condition used instead of the three direct-leaf fields. |
@@ -501,7 +503,7 @@ Additional properties are rejected.
 
 | Parameter | Type | Required | Possible values and limits | Meaning |
 | --- | --- | --- | --- | --- |
-| `evidence` | String | Required for a leaf | `target_sdk`, `native_library`, `dex_class`, `manifest_receiver_action` | Selects the app data to inspect. |
+| `evidence` | String | Required for a leaf | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action` | Selects the app data to inspect. |
 | `operator` | String | Required for a leaf | `equal`, `greater_than_or_equal`, `less_than_or_equal`, `contains`, `contains_any`; compatibility depends on `evidence` | Selects the comparison. |
 | `value` | Object | Required for a leaf | Exactly one of `integer`, `string`, `strings`, `dexClasses` | Supplies the expected value. |
 | `all` | Array of conditions | Required for an `all` node | 1 to 16 children | True when every child is true. |
@@ -518,7 +520,7 @@ Exactly one operation is allowed. A leaf must contain all of `evidence`,
 | --- | --- | --- | --- | --- |
 | `integer` | Integer | `target_sdk` | Any JSON integer | Numeric comparison target. |
 | `string` | String | `native_library` | 1 to 160 safe filename characters | Exact native-library filename. |
-| `strings` | Array of strings | `manifest_receiver_action` | 1 to 16 actions, each 1 to 160 safe action characters | Receiver actions; any listed action may match. |
+| `strings` | Array of strings | `archive_entry`, `manifest_receiver_action` | 1 to 16 values, each 1 to 160 safe characters for its evidence type | Exact archive entries or receiver actions; any listed value may match. |
 | `dexClasses` | Array of DEX class queries | `dex_class` | 1 to 16 queries | Class queries; any query may match. |
 
 One value object must contain exactly one of these parameters.
@@ -589,6 +591,7 @@ condition is not necessarily a more accurate condition.
 | --- | --- | --- | --- |
 | `target_sdk` | `equal`, `greater_than_or_equal`, `less_than_or_equal` | `{ "integer": <integer> }` | Compares the app's target SDK value. |
 | `native_library` | `contains` | `{ "string": "<library-name>" }` | Matches an exact native-library filename. |
+| `archive_entry` | `contains_any` | `{ "strings": ["<entry-name>", ...] }` | Matches when any exact entry exists in the base or split APKs. |
 | `dex_class` | `contains_any` | `{ "dexClasses": [<query>, ...] }` | Matches when any query matches one DEX class. |
 | `manifest_receiver_action` | `contains_any` | `{ "strings": ["<action>", ...] }` | Matches when any listed action is declared by a manifest receiver. |
 
@@ -628,6 +631,29 @@ LibChecker checks extracted libraries and libraries packaged in the APK.
 
 The string must be 1 to 160 characters and may contain ASCII letters, digits,
 periods, underscores, plus signs, and hyphens. Use `fingerprint: artifact`.
+
+### `archive_entry`
+
+This evidence checks exact ZIP entry names across the base and split APKs. It
+does not read file contents and does not support prefixes, globs, or regular
+expressions.
+
+```json
+{
+    "evidence": "archive_entry",
+    "operator": "contains_any",
+    "value": {
+        "strings": [
+            "META-INF/example.properties"
+        ]
+    }
+}
+```
+
+The list must contain 1 to 16 entry names. Each name must be 1 to 160
+characters, use only ASCII letters, digits, periods, underscores, plus signs,
+hyphens, and slashes, and must not end in a slash or contain `.` or `..` path
+segments. Use `fingerprint: artifact`.
 
 ### `manifest_receiver_action`
 
@@ -808,7 +834,7 @@ installed-app data changes. It does not grant access to additional evidence.
 | Value | Use |
 | --- | --- |
 | `standard` | Metadata-based rules such as `target_sdk`. This is the default. |
-| `artifact` | Rules that inspect native libraries, DEX, or manifest contents. |
+| `artifact` | Rules that inspect native libraries, archive entries, DEX, or manifest contents. |
 | `features` | Rules that depend on LibChecker's initialized feature data. No schema v1 online evidence currently needs it. |
 
 Choose the fingerprint that covers every evidence leaf in the rule. A rule
