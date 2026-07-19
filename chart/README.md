@@ -23,6 +23,8 @@ Every source rule contains:
 
 - `id`, `revision`, and `source: official`.
 - `title.translations` with at least `en` and `zh-Hans`.
+- `details.description.translations` with at least `en` and `zh-Hans`, plus
+  one HTTPS `details.referenceUrl` for the in-app introduction dialog.
 - `icon.asset`, plus an optional render mode and tint role.
 - `calculation`, using one of the calculation types below.
 - optional chart metadata such as `fingerprint`.
@@ -109,6 +111,18 @@ SVG files must:
 Use `renderMode: original` only when brand colors are meaningful. Otherwise use
 `monochrome` and let LibChecker apply its theme tint.
 
+## Details and references
+
+Every online rule provides a short, neutral introduction in
+`details.description`. Describe the technology or capability itself; do not
+claim that the current app matches because LibChecker appends the actual
+analysis result at runtime. Faceted rules automatically list the matched facet
+titles below the introduction.
+
+`details.referenceUrl` must use HTTPS and should point to the primary project,
+standards body, or platform documentation. Do not use tracking links, URL
+shorteners, affiliate links, or unreviewed third-party summaries.
+
 ## Validation and bundle generation
 
 Run from the repository root:
@@ -130,7 +144,8 @@ and committed together with `manifest.json`.
 
 ## Contribution checklist
 
-1. Add or update one source JSON and its SVG asset.
+1. Add or update one source JSON, its localized details and primary reference,
+   and its SVG asset.
 2. Use only supported evidence and the narrowest condition that avoids false
    positives.
 3. Add `en` and `zh-Hans` for every title and facet.

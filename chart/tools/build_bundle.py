@@ -6,6 +6,7 @@ import json
 import re
 import zipfile
 from pathlib import Path, PurePosixPath
+from urllib.parse import urlsplit
 
 
 MAX_RULES = 64
@@ -34,6 +35,8 @@ MAX_METHOD_REFERENCES = 16
 MAX_METHOD_PARAMETERS = 16
 MAX_FACETS = 8
 MAX_FACET_TITLE_LENGTH = 40
+MAX_DESCRIPTION_LENGTH = 1500
+MAX_REFERENCE_URL_LENGTH = 512
 DEX_CLASS_PATTERN = re.compile(r"L[A-Za-z0-9_$/-]{1,158};?")
 DEX_CLASS_DESCRIPTOR = re.compile(r"L[A-Za-z0-9_$/-]{1,158};")
 DEX_METHOD_NAME = re.compile(r"[A-Za-z0-9_$<>-]{1,80}")
@@ -67,6 +70,7 @@ def read_rules(chart_dir: Path, channel: str = "preview") -> list[dict]:
         if release_channel not in RELEASE_CHANNELS:
             raise ValueError(f"Invalid release channel for {rule_id}: {release_channel}")
         validate_translated_text(rule.get("title"), rule_id, "title", 80)
+        validate_details(rule.get("details"), rule_id)
         validate_calculation(rule, rule_id)
         icon_path = validate_relative_icon_path(rule, rule_id)
         validate_svg(chart_dir / icon_path)
@@ -158,6 +162,39 @@ def validate_translated_text(
         )
     ):
         raise ValueError(f"Rule has an invalid translated {field_name}: {rule_id}")
+
+
+def validate_details(details: object, rule_id: str) -> None:
+    if not isinstance(details, dict) or set(details) != {
+        "description",
+        "referenceUrl",
+    }:
+        raise ValueError(f"Rule has invalid details: {rule_id}")
+    validate_translated_text(
+        details["description"],
+        rule_id,
+        "description",
+        MAX_DESCRIPTION_LENGTH,
+    )
+    reference_url = details["referenceUrl"]
+    if (
+        not isinstance(reference_url, str)
+        or not 1 <= len(reference_url) <= MAX_REFERENCE_URL_LENGTH
+        or any(character.isspace() for character in reference_url)
+    ):
+        raise ValueError(f"Rule has an invalid reference URL: {rule_id}")
+    try:
+        parsed_url = urlsplit(reference_url)
+        has_safe_origin = (
+            parsed_url.scheme.lower() == "https"
+            and parsed_url.hostname is not None
+            and parsed_url.username is None
+            and parsed_url.password is None
+        )
+    except ValueError:
+        has_safe_origin = False
+    if not has_safe_origin:
+        raise ValueError(f"Rule has an invalid reference URL: {rule_id}")
 
 
 def validate_condition(condition: dict, rule_id: str, depth: int, state: dict) -> None:

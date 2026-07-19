@@ -5,7 +5,12 @@ import zipfile
 from copy import deepcopy
 from pathlib import Path
 
-from chart.tools.build_bundle import build_bundle, read_rules, validate_calculation
+from chart.tools.build_bundle import (
+    build_bundle,
+    read_rules,
+    validate_calculation,
+    validate_details,
+)
 
 
 class BuildChartBundleTest(unittest.TestCase):
@@ -77,12 +82,34 @@ class BuildChartBundleTest(unittest.TestCase):
         )
 
         self.assertEqual("original", flutter_rule["icon"]["renderMode"])
+        self.assertEqual("https://flutter.dev/", flutter_rule["details"]["referenceUrl"])
+
+    def test_every_rule_has_localized_details_and_an_https_reference(self) -> None:
+        for rule in read_rules(self.chart_dir):
+            details = rule["details"]
+            self.assertTrue(details["description"]["translations"]["en"])
+            self.assertTrue(details["description"]["translations"]["zh-Hans"])
+            self.assertTrue(details["referenceUrl"].startswith("https://"))
+
+    def test_rule_details_reject_unsafe_reference_urls(self) -> None:
+        details = {
+            "description": {
+                "translations": {"en": "Description", "zh-Hans": "介绍"}
+            },
+            "referenceUrl": "javascript:alert(1)",
+        }
+
+        with self.assertRaisesRegex(ValueError, "invalid reference URL"):
+            validate_details(details, "official.unsafe")
 
     def test_itgsa_rule_keeps_all_detection_data_in_ordered_facets(self) -> None:
         itgsa_rule = next(
             rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
         )
         facets = itgsa_rule["calculation"]["facets"]["items"]
+        self.assertEqual(
+            "https://www.itgsa.com/", itgsa_rule["details"]["referenceUrl"]
+        )
         self.assertEqual(
             ["voip-service-kit", "fair-runtime-memory", "security-paste-view"],
             [facet["id"] for facet in facets],

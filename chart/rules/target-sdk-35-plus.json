@@ -1,6 +1,6 @@
 {
     "id": "official.target-sdk-35-plus",
-    "revision": 1,
+    "revision": 2,
     "source": "official",
     "releaseChannel": "preview-only",
     "title": {
@@ -8,6 +8,15 @@
             "en": "Target SDK 35+",
             "zh-Hans": "Target SDK 35+"
         }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "The target SDK version declares the Android behavior changes an app has tested against. Newer target versions opt the app into newer platform protections and requirements.",
+                "zh-Hans": "Target SDK 版本表示应用已经针对哪些 Android 行为变更完成测试。使用较新的目标版本会让应用采用更新的平台保护措施和要求。"
+            }
+        },
+        "referenceUrl": "https://developer.android.com/google/play/requirements/target-sdk"
     },
     "icon": {
         "asset": "icons/android-15.svg",
