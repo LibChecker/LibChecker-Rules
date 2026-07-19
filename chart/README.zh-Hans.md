@@ -305,7 +305,7 @@ Predicate 必须包含 `matchedTitle`、`unmatchedTitle` 和一个完整条件�
 | --- | --- | --- | --- | --- |
 | `predicate.matchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 条件结果为真的应用分组名称。 |
 | `predicate.unmatchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 条件结果为假的应用分组名称。 |
-| `predicate.evidence` | 字符串 | 直接叶子写法必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action` | 叶子条件使用的证据。 |
+| `predicate.evidence` | 字符串 | 直接叶子写法必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action`、`manifest_attribute` | 叶子条件使用的证据。 |
 | `predicate.operator` | 字符串 | 直接叶子写法必填 | 取决于 `evidence` | 应用于证据的比较操作。 |
 | `predicate.value` | 对象 | 直接叶子写法必填 | 只能包含一种与 `evidence` 兼容的值 | 比较所需的目标值。 |
 | `predicate.condition` | Condition 对象 | 递归写法必填 | 一个证据叶子、`all`、`any` 或 `not` | 代替三个直接叶子字段的递归条件。 |
@@ -443,9 +443,9 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 
 | 参数 | 类型 | 是否必填 | 全部可选值与限制 | 含义 |
 | --- | --- | --- | --- | --- |
-| `evidence` | 字符串 | 叶子条件必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action` | 选择要检查的应用数据。 |
+| `evidence` | 字符串 | 叶子条件必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action`、`manifest_attribute` | 选择要检查的应用数据。 |
 | `operator` | 字符串 | 叶子条件必填 | `equal`、`greater_than_or_equal`、`less_than_or_equal`、`contains`、`contains_any`，具体兼容性取决于 `evidence` | 选择比较方式。 |
-| `value` | 对象 | 叶子条件必填 | 只能包含 `integer`、`string`、`strings`、`dexClasses` 中的一个 | 提供比较目标。 |
+| `value` | 对象 | 叶子条件必填 | 只能包含 `integer`、`string`、`strings`、`dexClasses`、`manifestAttribute` 中的一个 | 提供比较目标。 |
 | `all` | Condition 数组 | `all` 节点必填 | 1 至 16 个子条件 | 所有子条件都为真时匹配。 |
 | `any` | Condition 数组 | `any` 节点必填 | 1 至 16 个子条件 | 至少一个子条件为真时匹配。 |
 | `not` | Condition 对象 | `not` 节点必填 | 一个子条件 | 对子条件结果取反。 |
@@ -460,6 +460,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 | `string` | 字符串 | `native_library` | 1 至 160 个安全文件名字符 | 精确的原生库文件名。 |
 | `strings` | 字符串数组 | `archive_entry`、`manifest_receiver_action` | 1 至 16 项，每项 1 至 160 个符合对应证据限制的安全字符 | 精确 APK 条目或 Receiver Action 列表，任意一项可以匹配。 |
 | `dexClasses` | DEX Class Query 数组 | `dex_class` | 1 至 16 个查询 | 类查询列表，任意一个查询可以匹配。 |
+| `manifestAttribute` | Manifest 属性查询 | `manifest_attribute` | 一个 `application` 元素、一个安全的 `android:` 属性名和一个布尔值 | 精确的 Application Manifest 布尔属性及期望值。 |
 
 一个 `value` 对象只能包含上述参数中的一个。
 
@@ -513,6 +514,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 | `archive_entry` | `contains_any` | `{ "strings": ["<条目名称>", ...] }` | Base APK 或 Split APK 中存在任意一个精确条目时为真。 |
 | `dex_class` | `contains_any` | `{ "dexClasses": [<查询>, ...] }` | 任意查询匹配任意一个 DEX 类时为真。 |
 | `manifest_receiver_action` | `contains_any` | `{ "strings": ["<action>", ...] }` | Manifest Receiver 声明任意一个 Action 时为真。 |
+| `manifest_attribute` | `equal` | `{ "manifestAttribute": { "element": "application", "name": "android:<属性名>", "boolean": <布尔值> } }` | 匹配显式声明的 Application Manifest 布尔属性。 |
 
 ### `target_sdk`
 
@@ -604,6 +606,26 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
     }
 }
 ```
+
+### `manifest_attribute`
+
+该证据读取 APK 的 `application` Manifest 元素中显式声明的布尔属性。属性不存在时不会匹配，即使 Android 平台在运行时提供了相同的默认值。
+
+```json
+{
+    "evidence": "manifest_attribute",
+    "operator": "equal",
+    "value": {
+        "manifestAttribute": {
+            "element": "application",
+            "name": "android:enableOnBackInvokedCallback",
+            "boolean": true
+        }
+    }
+}
+```
+
+属性名必须使用 `android:` 命名空间，后接一个 ASCII 字母以及最多 79 个 ASCII 字母、数字或下划线。Schema v1 只支持 `application` 元素和布尔值；引用资源的布尔属性会在资源解析后参与比较。推荐使用 `fingerprint: artifact`。
 
 ### `dex_class`
 

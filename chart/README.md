@@ -359,7 +359,7 @@ directly in `predicate`:
 | --- | --- | --- | --- | --- |
 | `predicate.matchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Label for apps whose condition evaluates to true. |
 | `predicate.unmatchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Label for apps whose condition evaluates to false. |
-| `predicate.evidence` | String | Required for direct-leaf form | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action` | Evidence provider used by the leaf. |
+| `predicate.evidence` | String | Required for direct-leaf form | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action`, `manifest_attribute` | Evidence provider used by the leaf. |
 | `predicate.operator` | String | Required for direct-leaf form | Depends on `evidence` | Comparison applied to the evidence. |
 | `predicate.value` | Object | Required for direct-leaf form | Exactly one value variant compatible with `evidence` | Expected value for the comparison. |
 | `predicate.condition` | Condition | Required for recursive form | One leaf, `all`, `any`, or `not` | Recursive condition used instead of the three direct-leaf fields. |
@@ -503,9 +503,9 @@ Additional properties are rejected.
 
 | Parameter | Type | Required | Possible values and limits | Meaning |
 | --- | --- | --- | --- | --- |
-| `evidence` | String | Required for a leaf | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action` | Selects the app data to inspect. |
+| `evidence` | String | Required for a leaf | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action`, `manifest_attribute` | Selects the app data to inspect. |
 | `operator` | String | Required for a leaf | `equal`, `greater_than_or_equal`, `less_than_or_equal`, `contains`, `contains_any`; compatibility depends on `evidence` | Selects the comparison. |
-| `value` | Object | Required for a leaf | Exactly one of `integer`, `string`, `strings`, `dexClasses` | Supplies the expected value. |
+| `value` | Object | Required for a leaf | Exactly one of `integer`, `string`, `strings`, `dexClasses`, `manifestAttribute` | Supplies the expected value. |
 | `all` | Array of conditions | Required for an `all` node | 1 to 16 children | True when every child is true. |
 | `any` | Array of conditions | Required for an `any` node | 1 to 16 children | True when at least one child is true. |
 | `not` | Condition | Required for a `not` node | One child object | Inverts the child result. |
@@ -522,6 +522,7 @@ Exactly one operation is allowed. A leaf must contain all of `evidence`,
 | `string` | String | `native_library` | 1 to 160 safe filename characters | Exact native-library filename. |
 | `strings` | Array of strings | `archive_entry`, `manifest_receiver_action` | 1 to 16 values, each 1 to 160 safe characters for its evidence type | Exact archive entries or receiver actions; any listed value may match. |
 | `dexClasses` | Array of DEX class queries | `dex_class` | 1 to 16 queries | Class queries; any query may match. |
+| `manifestAttribute` | Manifest attribute query | `manifest_attribute` | One `application` element, one safe `android:` attribute name, and one Boolean | Exact application-manifest Boolean attribute and expected value. |
 
 One value object must contain exactly one of these parameters.
 
@@ -594,6 +595,7 @@ condition is not necessarily a more accurate condition.
 | `archive_entry` | `contains_any` | `{ "strings": ["<entry-name>", ...] }` | Matches when any exact entry exists in the base or split APKs. |
 | `dex_class` | `contains_any` | `{ "dexClasses": [<query>, ...] }` | Matches when any query matches one DEX class. |
 | `manifest_receiver_action` | `contains_any` | `{ "strings": ["<action>", ...] }` | Matches when any listed action is declared by a manifest receiver. |
+| `manifest_attribute` | `equal` | `{ "manifestAttribute": { "element": "application", "name": "android:<name>", "boolean": <Boolean> } }` | Matches an explicitly declared application-manifest Boolean attribute. |
 
 ### `target_sdk`
 
@@ -676,6 +678,31 @@ the base and split APKs. It matches when at least one supplied action is found.
 The list must contain 1 to 16 strings. Each action must be 1 to 160 characters
 and may contain ASCII letters, digits, underscores, periods, and hyphens. Use
 `fingerprint: artifact`.
+
+### `manifest_attribute`
+
+This evidence reads an explicitly declared Boolean attribute from the APK's
+`application` manifest element. A missing attribute does not match, even when
+the Android platform supplies the same value as a runtime default.
+
+```json
+{
+    "evidence": "manifest_attribute",
+    "operator": "equal",
+    "value": {
+        "manifestAttribute": {
+            "element": "application",
+            "name": "android:enableOnBackInvokedCallback",
+            "boolean": true
+        }
+    }
+}
+```
+
+The attribute name must use the `android:` namespace followed by an ASCII
+letter and up to 79 ASCII letters, digits, or underscores. Schema v1 supports
+only the `application` element and Boolean values. Resource-backed Boolean
+attributes are compared after resource resolution. Use `fingerprint: artifact`.
 
 ### `dex_class`
 
