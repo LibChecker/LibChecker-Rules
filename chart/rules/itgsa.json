@@ -1,0 +1,132 @@
+{
+    "id": "official.itgsa",
+    "revision": 2,
+    "source": "official",
+    "title": {
+        "translations": {
+            "en": "ITGSA Capabilities",
+            "zh-Hans": "金标联盟开放能力"
+        }
+    },
+    "icon": {
+        "asset": "icons/itgsa.svg",
+        "renderMode": "original",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "facets",
+        "facets": {
+            "matchedTitle": {
+                "translations": {
+                    "en": "ITGSA apps",
+                    "zh-Hans": "金标联盟开放能力"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Other apps",
+                    "zh-Hans": "其他应用"
+                }
+            },
+            "items": [
+                {
+                    "id": "voip-service-kit",
+                    "title": {
+                        "translations": {
+                            "en": "VoIP Service Kit",
+                            "zh-Hans": "VoIP 服务套件"
+                        }
+                    },
+                    "condition": {
+                        "evidence": "dex_class",
+                        "operator": "contains_any",
+                        "value": {
+                            "dexClasses": [
+                                {
+                                    "name": {
+                                        "operator": "starts_with",
+                                        "value": "Lcom/voip/service/"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fair-runtime-memory",
+                    "title": {
+                        "translations": {
+                            "en": "Fair Runtime Memory",
+                            "zh-Hans": "公平运存"
+                        }
+                    },
+                    "condition": {
+                        "any": [
+                            {
+                                "evidence": "dex_class",
+                                "operator": "contains_any",
+                                "value": {
+                                    "dexClasses": [
+                                        {
+                                            "stringConstants": [
+                                                "itgsa.intent.action.TRIM",
+                                                "itgsa.intent.action.KILL"
+                                            ],
+                                            "methodReferences": [
+                                                {
+                                                    "definingClass": "Landroid/content/IntentFilter;",
+                                                    "name": "<init>",
+                                                    "parameterTypes": [
+                                                        "Ljava/lang/String;"
+                                                    ]
+                                                },
+                                                {
+                                                    "definingClass": "Landroid/content/IntentFilter;",
+                                                    "name": "addAction"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "evidence": "manifest_receiver_action",
+                                "operator": "contains_any",
+                                "value": {
+                                    "strings": [
+                                        "itgsa.intent.action.TRIM",
+                                        "itgsa.intent.action.KILL"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "security-paste-view",
+                    "title": {
+                        "translations": {
+                            "en": "Security Paste View",
+                            "zh-Hans": "安全粘贴控件"
+                        }
+                    },
+                    "condition": {
+                        "evidence": "dex_class",
+                        "operator": "contains_any",
+                        "value": {
+                            "dexClasses": [
+                                {
+                                    "name": {
+                                        "operator": "equal",
+                                        "value": "Lcom/os/widget/SecurityPasteView;"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "fingerprint": "artifact"
+}
