@@ -307,6 +307,27 @@
                 }
             ]
         },
+        "manifestAttribute": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "element",
+                "name",
+                "boolean"
+            ],
+            "properties": {
+                "element": {
+                    "const": "application"
+                },
+                "name": {
+                    "type": "string",
+                    "pattern": "^android:[A-Za-z][A-Za-z0-9_]{0,79}$"
+                },
+                "boolean": {
+                    "type": "boolean"
+                }
+            }
+        },
         "value": {
             "type": "object",
             "additionalProperties": false,
@@ -336,6 +357,9 @@
                     "items": {
                         "$ref": "#/$defs/dexClassQuery"
                     }
+                },
+                "manifestAttribute": {
+                    "$ref": "#/$defs/manifestAttribute"
                 }
             },
             "oneOf": [
@@ -358,6 +382,11 @@
                     "required": [
                         "dexClasses"
                     ]
+                },
+                {
+                    "required": [
+                        "manifestAttribute"
+                    ]
                 }
             ]
         },
@@ -371,7 +400,8 @@
                         "native_library",
                         "dex_class",
                         "archive_entry",
-                        "manifest_receiver_action"
+                        "manifest_receiver_action",
+                        "manifest_attribute"
                     ]
                 },
                 "operator": {
@@ -570,6 +600,30 @@
                                         }
                                     }
                                 }
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "manifest_attribute"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "equal"
+                            },
+                            "value": {
+                                "required": [
+                                    "manifestAttribute"
+                                ]
                             }
                         }
                     }

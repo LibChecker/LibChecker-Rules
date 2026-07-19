@@ -42,6 +42,7 @@ DEX_CLASS_DESCRIPTOR = re.compile(r"L[A-Za-z0-9_$/-]{1,158};")
 DEX_METHOD_NAME = re.compile(r"[A-Za-z0-9_$<>-]{1,80}")
 DEX_PARAMETER_TYPE = re.compile(r"\[*[ZBSCIJFD]|\[*L[A-Za-z0-9_$/-]{1,158};")
 MANIFEST_ACTION = re.compile(r"[A-Za-z0-9_.-]{1,160}")
+MANIFEST_ATTRIBUTE = re.compile(r"android:[A-Za-z][A-Za-z0-9_]{0,79}")
 ARCHIVE_ENTRY_NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._+/-]{0,159}")
 FACET_ID = re.compile(r"[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*")
 LOCALE_TAG = re.compile(r"[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*")
@@ -276,6 +277,22 @@ def validate_evidence(evidence: str, operator: str, value: dict, rule_id: str) -
             actions, MANIFEST_ACTION, MAX_STRING_VALUES
         ):
             raise ValueError(f"Manifest receiver action rule requires safe actions: {rule_id}")
+    elif evidence == "manifest_attribute":
+        attribute = value.get("manifestAttribute")
+        if operator != "equal":
+            raise ValueError(f"Manifest attribute rule must use equal: {rule_id}")
+        if (
+            set(value) != {"manifestAttribute"}
+            or not isinstance(attribute, dict)
+            or set(attribute) != {"element", "name", "boolean"}
+            or attribute["element"] != "application"
+            or not isinstance(attribute["name"], str)
+            or MANIFEST_ATTRIBUTE.fullmatch(attribute["name"]) is None
+            or not isinstance(attribute["boolean"], bool)
+        ):
+            raise ValueError(
+                f"Manifest attribute rule requires one safe boolean attribute: {rule_id}"
+            )
     else:
         raise ValueError(f"Unsupported rule evidence: {rule_id}: {evidence}")
 

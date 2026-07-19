@@ -21,7 +21,12 @@ class BuildChartBundleTest(unittest.TestCase):
         rules = read_rules(self.chart_dir)
 
         self.assertEqual(
-            ["official.flutter", "official.itgsa", "official.reactivex"],
+            [
+                "official.flutter",
+                "official.itgsa",
+                "official.predictive-back-gesture",
+                "official.reactivex",
+            ],
             [rule["id"] for rule in rules],
         )
 
@@ -37,16 +42,33 @@ class BuildChartBundleTest(unittest.TestCase):
                         "catalog.json",
                         "icons/flutter.svg",
                         "icons/itgsa.svg",
+                        "icons/predictive-back-gesture.svg",
                         "icons/reactivex.svg",
                     ],
                     archive.namelist(),
                 )
                 catalog = json.loads(archive.read("catalog.json"))
             self.assertEqual(1, catalog["schemaVersion"])
-            self.assertEqual(3, len(catalog["definitions"]))
+            self.assertEqual(4, len(catalog["definitions"]))
             self.assertTrue(
                 all("releaseChannel" not in rule for rule in catalog["definitions"])
             )
+
+    def test_schema_declares_manifest_attribute_evidence(self) -> None:
+        schema = json.loads(
+            (self.chart_dir / "schema/v1/chart-rule.schema.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        condition = schema["$defs"]["condition"]
+        attribute = schema["$defs"]["manifestAttribute"]
+
+        self.assertIn("manifest_attribute", condition["properties"]["evidence"]["enum"])
+        self.assertEqual(
+            ["element", "name", "boolean"],
+            attribute["required"],
+        )
+        self.assertEqual("application", attribute["properties"]["element"]["const"])
 
     def test_stable_bundle_excludes_preview_only_rules(self) -> None:
         with tempfile.TemporaryDirectory() as output:
@@ -83,6 +105,47 @@ class BuildChartBundleTest(unittest.TestCase):
 
         self.assertEqual("original", flutter_rule["icon"]["renderMode"])
         self.assertEqual("https://flutter.dev/", flutter_rule["details"]["referenceUrl"])
+
+    def test_predictive_back_rule_requires_explicit_manifest_opt_in(self) -> None:
+        rule = next(
+            rule
+            for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.predictive-back-gesture"
+        )
+        predicate = rule["calculation"]["predicate"]
+
+        self.assertEqual("original", rule["icon"]["renderMode"])
+        self.assertEqual("artifact", rule["fingerprint"])
+        self.assertEqual("manifest_attribute", predicate["evidence"])
+        self.assertEqual("equal", predicate["operator"])
+        self.assertEqual(
+            {
+                "manifestAttribute": {
+                    "element": "application",
+                    "name": "android:enableOnBackInvokedCallback",
+                    "boolean": True,
+                }
+            },
+            predicate["value"],
+        )
+        self.assertEqual(
+            "https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture",
+            rule["details"]["referenceUrl"],
+        )
+
+    def test_manifest_attribute_rejects_unsafe_attribute_names(self) -> None:
+        rule = next(
+            rule
+            for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.predictive-back-gesture"
+        )
+        invalid_rule = deepcopy(rule)
+        invalid_rule["calculation"]["predicate"]["value"]["manifestAttribute"][
+            "name"
+        ] = "tools:replace"
+
+        with self.assertRaisesRegex(ValueError, "safe boolean attribute"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
 
     def test_every_rule_has_localized_details_and_an_https_reference(self) -> None:
         for rule in read_rules(self.chart_dir):
