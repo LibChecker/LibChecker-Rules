@@ -1,12 +1,21 @@
 {
     "id": "official.flutter",
-    "revision": 1,
+    "revision": 2,
     "source": "official",
     "title": {
         "translations": {
             "en": "Flutter",
             "zh-Hans": "Flutter"
         }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "Flutter is an open-source framework for building beautiful, natively compiled, multi-platform applications from a single codebase.",
+                "zh-Hans": "Flutter 是一个开源框架，可通过一套代码库构建美观、原生编译的多平台应用。"
+            }
+        },
+        "referenceUrl": "https://flutter.dev/"
     },
     "icon": {
         "asset": "icons/flutter.svg",

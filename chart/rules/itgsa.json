@@ -1,12 +1,21 @@
 {
     "id": "official.itgsa",
-    "revision": 2,
+    "revision": 3,
     "source": "official",
     "title": {
         "translations": {
             "en": "ITGSA Capabilities",
             "zh-Hans": "金标联盟开放能力"
         }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "The Intelligent Terminal Alliance (ITGSA) is an innovative industry organization guided by national industrial policies and driven by market demands. Centering on serving developers, the alliance explores innovative ecosystem models around the needs of member companies such as Xiaomi, OPPO, vivo, HONOR, and Lenovo.",
+                "zh-Hans": "移动智能终端生态专业委员会（金标联盟，ITGSA）是由国家产业政策引导、市场需求驱动的创新型行业组织。联盟以服务开发者为核心，围绕小米、OPPO、vivo、荣耀、联想等联盟成员的需求探索创新生态模式。"
+            }
+        },
+        "referenceUrl": "https://www.itgsa.com/"
     },
     "icon": {
         "asset": "icons/itgsa.svg",
