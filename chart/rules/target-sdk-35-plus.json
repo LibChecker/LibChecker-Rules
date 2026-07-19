@@ -1,0 +1,39 @@
+{
+    "id": "official.target-sdk-35-plus",
+    "revision": 1,
+    "source": "official",
+    "releaseChannel": "preview-only",
+    "title": {
+        "translations": {
+            "en": "Target SDK 35+",
+            "zh-Hans": "Target SDK 35+"
+        }
+    },
+    "icon": {
+        "asset": "icons/android-15.svg",
+        "renderMode": "monochrome",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "predicate",
+        "predicate": {
+            "evidence": "target_sdk",
+            "operator": "greater_than_or_equal",
+            "value": {
+                "integer": 35
+            },
+            "matchedTitle": {
+                "translations": {
+                    "en": "Target SDK 35 or newer",
+                    "zh-Hans": "Target SDK 35 及以上"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Target SDK 34 or older",
+                    "zh-Hans": "Target SDK 34 及以下"
+                }
+            }
+        }
+    }
+}
