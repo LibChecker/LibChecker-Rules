@@ -25,6 +25,7 @@ Schema v1 只能使用[证据类型参考](#证据类型参考)中列出的证�
 1. Fork 本仓库并创建独立分支。
 2. 从 `rules/` 中选择最接近的示例：
    - 精确匹配原生库参考 [`flutter.json`](rules/flutter.json)。
+   - 精确匹配 APK 条目并使用 DEX 作为后备证据，参考 [`reactivex.json`](rules/reactivex.json)。
    - Facet、递归条件、DEX 查询和 Manifest Receiver Action 参考 [`itgsa.json`](rules/itgsa.json)。
    - 数值比较参考下文的 [Predicate 示例](#predicate-计算)。
 3. 在 `rules/` 下新增一个 UTF-8 JSON 文件。使用四个空格缩进，文件名与规则 ID 的最后一段保持一致。
@@ -304,7 +305,7 @@ Predicate 必须包含 `matchedTitle`、`unmatchedTitle` 和一个完整条件�
 | --- | --- | --- | --- | --- |
 | `predicate.matchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 条件结果为真的应用分组名称。 |
 | `predicate.unmatchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 条件结果为假的应用分组名称。 |
-| `predicate.evidence` | 字符串 | 直接叶子写法必填 | `target_sdk`、`native_library`、`dex_class`、`manifest_receiver_action` | 叶子条件使用的证据。 |
+| `predicate.evidence` | 字符串 | 直接叶子写法必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action` | 叶子条件使用的证据。 |
 | `predicate.operator` | 字符串 | 直接叶子写法必填 | 取决于 `evidence` | 应用于证据的比较操作。 |
 | `predicate.value` | 对象 | 直接叶子写法必填 | 只能包含一种与 `evidence` 兼容的值 | 比较所需的目标值。 |
 | `predicate.condition` | Condition 对象 | 递归写法必填 | 一个证据叶子、`all`、`any` 或 `not` | 代替三个直接叶子字段的递归条件。 |
@@ -442,7 +443,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 
 | 参数 | 类型 | 是否必填 | 全部可选值与限制 | 含义 |
 | --- | --- | --- | --- | --- |
-| `evidence` | 字符串 | 叶子条件必填 | `target_sdk`、`native_library`、`dex_class`、`manifest_receiver_action` | 选择要检查的应用数据。 |
+| `evidence` | 字符串 | 叶子条件必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action` | 选择要检查的应用数据。 |
 | `operator` | 字符串 | 叶子条件必填 | `equal`、`greater_than_or_equal`、`less_than_or_equal`、`contains`、`contains_any`，具体兼容性取决于 `evidence` | 选择比较方式。 |
 | `value` | 对象 | 叶子条件必填 | 只能包含 `integer`、`string`、`strings`、`dexClasses` 中的一个 | 提供比较目标。 |
 | `all` | Condition 数组 | `all` 节点必填 | 1 至 16 个子条件 | 所有子条件都为真时匹配。 |
@@ -457,7 +458,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 | --- | --- | --- | --- | --- |
 | `integer` | 整数 | `target_sdk` | 任意 JSON 整数 | 数值比较目标。 |
 | `string` | 字符串 | `native_library` | 1 至 160 个安全文件名字符 | 精确的原生库文件名。 |
-| `strings` | 字符串数组 | `manifest_receiver_action` | 1 至 16 个 Action，每项 1 至 160 个安全字符 | Receiver Action 列表，任意一项可以匹配。 |
+| `strings` | 字符串数组 | `archive_entry`、`manifest_receiver_action` | 1 至 16 项，每项 1 至 160 个符合对应证据限制的安全字符 | 精确 APK 条目或 Receiver Action 列表，任意一项可以匹配。 |
 | `dexClasses` | DEX Class Query 数组 | `dex_class` | 1 至 16 个查询 | 类查询列表，任意一个查询可以匹配。 |
 
 一个 `value` 对象只能包含上述参数中的一个。
@@ -509,6 +510,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 | --- | --- | --- | --- |
 | `target_sdk` | `equal`、`greater_than_or_equal`、`less_than_or_equal` | `{ "integer": <整数> }` | 比较应用的 Target SDK。 |
 | `native_library` | `contains` | `{ "string": "<库文件名>" }` | 精确匹配原生库文件名。 |
+| `archive_entry` | `contains_any` | `{ "strings": ["<条目名称>", ...] }` | Base APK 或 Split APK 中存在任意一个精确条目时为真。 |
 | `dex_class` | `contains_any` | `{ "dexClasses": [<查询>, ...] }` | 任意查询匹配任意一个 DEX 类时为真。 |
 | `manifest_receiver_action` | `contains_any` | `{ "strings": ["<action>", ...] }` | Manifest Receiver 声明任意一个 Action 时为真。 |
 
@@ -553,6 +555,31 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
     }
 }
 ```
+
+### `archive_entry`
+
+| 参数 | 值 |
+| --- | --- |
+| `evidence` | `archive_entry` |
+| `operator` | 只能是 `contains_any` |
+| `value.strings` | 1 至 16 个精确 ZIP 条目名称，每项 1 至 160 个字符 |
+| 推荐 `fingerprint` | `artifact` |
+
+该证据检查 Base APK 和 Split APK 中的精确 ZIP 条目名称，不读取文件内容，也不支持前缀、Glob 或正则表达式。
+
+```json
+{
+    "evidence": "archive_entry",
+    "operator": "contains_any",
+    "value": {
+        "strings": [
+            "META-INF/example.properties"
+        ]
+    }
+}
+```
+
+条目名称只允许 ASCII 字母、数字、`.`、`_`、`+`、`-` 和 `/`，不能以 `/` 结尾，也不能包含 `.` 或 `..` 路径段。
 
 ### `manifest_receiver_action`
 
@@ -738,7 +765,7 @@ Fingerprint 决定已安装应用数据变化后，LibChecker 何时丢弃图表
 | 值 | 默认值 | 适用规则 | 含义 |
 | --- | --- | --- | --- |
 | `standard` | 是 | 只依赖 `target_sdk` 等标准元数据 | 使用不包含特征数据的完整应用信息指纹。 |
-| `artifact` | 否 | 检查原生库、DEX 或 Manifest 内容 | 使用包含应用版本和更新时间等制品变化信息的指纹。 |
+| `artifact` | 否 | 检查原生库、APK 条目、DEX 或 Manifest 内容 | 使用包含应用版本和更新时间等制品变化信息的指纹。 |
 | `features` | 否 | 依赖 LibChecker 已初始化特征数据的规则 | 将特征数据纳入缓存指纹，Schema v1 当前在线证据不需要此值。 |
 
 应选择能够覆盖规则中所有证据叶子的值。Target SDK 与 DEX 组合的规则应使用 `artifact`。

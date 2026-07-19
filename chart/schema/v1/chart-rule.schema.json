@@ -370,6 +370,7 @@
                         "target_sdk",
                         "native_library",
                         "dex_class",
+                        "archive_entry",
                         "manifest_receiver_action"
                     ]
                 },
@@ -507,6 +508,37 @@
                                 "required": [
                                     "dexClasses"
                                 ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "archive_entry"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains_any"
+                            },
+                            "value": {
+                                "required": [
+                                    "strings"
+                                ],
+                                "properties": {
+                                    "strings": {
+                                        "items": {
+                                            "pattern": "^[A-Za-z0-9][A-Za-z0-9._+/-]{0,159}$"
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

@@ -21,7 +21,7 @@ class BuildChartBundleTest(unittest.TestCase):
         rules = read_rules(self.chart_dir)
 
         self.assertEqual(
-            ["official.flutter", "official.itgsa"],
+            ["official.flutter", "official.itgsa", "official.reactivex"],
             [rule["id"] for rule in rules],
         )
 
@@ -37,12 +37,13 @@ class BuildChartBundleTest(unittest.TestCase):
                         "catalog.json",
                         "icons/flutter.svg",
                         "icons/itgsa.svg",
+                        "icons/reactivex.svg",
                     ],
                     archive.namelist(),
                 )
                 catalog = json.loads(archive.read("catalog.json"))
             self.assertEqual(1, catalog["schemaVersion"])
-            self.assertEqual(2, len(catalog["definitions"]))
+            self.assertEqual(3, len(catalog["definitions"]))
             self.assertTrue(
                 all("releaseChannel" not in rule for rule in catalog["definitions"])
             )
@@ -60,7 +61,7 @@ class BuildChartBundleTest(unittest.TestCase):
                 catalog = json.loads(archive.read("catalog.json"))
 
         self.assertEqual(
-            ["official.flutter", "official.itgsa"],
+            ["official.flutter", "official.itgsa", "official.reactivex"],
             [rule["id"] for rule in catalog["definitions"]],
         )
         self.assertEqual(123, manifest["minimumAppVersionCode"])
@@ -145,6 +146,45 @@ class BuildChartBundleTest(unittest.TestCase):
             "Lcom/os/widget/SecurityPasteView;",
             security_queries[0]["name"]["value"],
         )
+
+    def test_reactivex_rule_keeps_generic_archive_and_dex_detection_paths(self) -> None:
+        rule = next(
+            rule for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.reactivex"
+        )
+        facets = rule["calculation"]["facets"]["items"]
+
+        self.assertEqual("monochrome", rule["icon"]["renderMode"])
+        self.assertEqual(
+            ["rxjava", "rxkotlin", "rxandroid"],
+            [facet["id"] for facet in facets],
+        )
+        rxjava_conditions = facets[0]["condition"]["any"]
+        self.assertEqual(
+            {"archive_entry", "dex_class"},
+            {condition["evidence"] for condition in rxjava_conditions},
+        )
+        self.assertEqual(
+            ["META-INF/rxjava.properties"],
+            rxjava_conditions[0]["value"]["strings"],
+        )
+        self.assertEqual(
+            "Lio/reactivex/",
+            rxjava_conditions[1]["value"]["dexClasses"][1]["name"]["value"],
+        )
+
+    def test_archive_entry_rejects_traversal(self) -> None:
+        rule = next(
+            rule for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.reactivex"
+        )
+        invalid_rule = deepcopy(rule)
+        invalid_rule["calculation"]["facets"]["items"][0]["condition"]["any"][0][
+            "value"
+        ]["strings"] = ["../rxjava.properties"]
+
+        with self.assertRaisesRegex(ValueError, "safe entry names"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
 
     def test_unknown_evidence_is_rejected(self) -> None:
         itgsa_rule = next(
