@@ -43,7 +43,13 @@
                     "title": {
                         "translations": {
                             "en": "VoIP Service Kit",
-                            "zh-Hans": "VoIP 服务套件"
+                            "zh-Hans": "VoIP Service Kit"
+                        }
+                    },
+                    "shortTitle": {
+                        "translations": {
+                            "en": "VoIP",
+                            "zh-Hans": "VoIP"
                         }
                     },
                     "condition": {
@@ -66,7 +72,13 @@
                     "title": {
                         "translations": {
                             "en": "Fair Runtime Memory",
-                            "zh-Hans": "公平运存"
+                            "zh-Hans": "公平运行内存机制"
+                        },
+                        "shortTitle": {
+                            "translations": {
+                                "en": "Fair Memory",
+                                "zh-Hans": "公平运存机制"
+                            }
                         }
                     },
                     "condition": {
