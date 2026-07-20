@@ -731,6 +731,9 @@
                                     "title": {
                                         "$ref": "#/$defs/facetText"
                                     },
+                                    "shortTitle": {
+                                        "$ref": "#/$defs/facetText"
+                                    },
                                     "condition": {
                                         "$ref": "#/$defs/condition"
                                     }

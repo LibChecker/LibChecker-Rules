@@ -202,7 +202,7 @@ The builder rejects other values.
 ## Translated text
 
 `title`, `details.description`, predicate group titles, and facet titles use
-the same wrapper:
+the same wrapper. Optional facet short titles use it as well:
 
 ```json
 {
@@ -218,7 +218,7 @@ the same wrapper:
 | Parameter | Type | Required | Allowed values and limits | Meaning |
 | --- | --- | --- | --- | --- |
 | `translations` | Object | Yes | 2 to 16 locale entries; must include `en` and `zh-Hans` | Maps locale tags to the text shown by LibChecker. |
-| `translations.<locale>` | String | Yes for each declared locale | Non-empty; 80 characters for chart and group titles, 40 for facet titles, 1,500 for descriptions | Localized value for one BCP 47-style locale tag. |
+| `translations.<locale>` | String | Yes for each declared locale | Non-empty; 80 characters for chart and group titles, 40 for facet titles and short titles, 1,500 for descriptions | Localized value for one BCP 47-style locale tag. |
 
 | Locale key | Allowed | Meaning |
 | --- | --- | --- |
@@ -236,7 +236,7 @@ Rules for translations:
   `zh-Hans`, `pt-BR`, or `es-419`.
 - Each translation must be a non-empty string.
 - `title`, `matchedTitle`, and `unmatchedTitle` allow up to 80 characters.
-- A facet `title` allows up to 40 characters because it is displayed as a chip.
+- A facet `title` and `shortTitle` allow up to 40 characters.
 - `details.description` allows up to 1,500 characters.
 - Keep equivalent meaning across locales. Do not add claims to one language
   that are absent from another.
@@ -441,7 +441,8 @@ A facet calculation contains 1 to 8 ordered items:
 | `facets.unmatchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Chart label for apps matching no facets. |
 | `facets.items` | Array | Yes | 1 to 8 facet objects | Ordered capability definitions. |
 | `items[].id` | String | Yes | Lowercase rule-local ID matching the documented pattern; unique within the rule | Stable internal identity of a facet. |
-| `items[].title` | Translated text | Yes | 1 to 40 characters per locale | Chip shown for a matching app. |
+| `items[].title` | Translated text | Yes | 1 to 40 characters per locale | Full facet label used in detailed result surfaces and chart chips. |
+| `items[].shortTitle` | Translated text | No | 1 to 40 characters per locale | Compact label used in matched-facet summaries; falls back to `title` when omitted. |
 | `items[].condition` | Condition | Yes | One leaf, `all`, `any`, or `not` | Determines whether this facet matches an app. |
 
 ```json
@@ -469,6 +470,12 @@ A facet calculation contains 1 to 8 ordered items:
                         "zh-Hans": "服务套件"
                     }
                 },
+                "shortTitle": {
+                    "translations": {
+                        "en": "Kit",
+                        "zh-Hans": "套件"
+                    }
+                },
                 "condition": {
                     "evidence": "native_library",
                     "operator": "contains",
@@ -488,10 +495,13 @@ Each item requires:
   `^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$`;
 - a unique, stable ID within the rule;
 - a translated `title` of at most 40 characters per locale;
+- an optional translated `shortTitle` of at most 40 characters per locale;
 - exactly one `condition`.
 
 An app enters the matched chart group when at least one facet matches. All
 matching facet titles are shown as chips in the order declared by `items`.
+Compact matched-facet summaries use `shortTitle` when present and otherwise
+fall back to `title`.
 Do not duplicate facet conditions in a separate root `any` expression.
 
 ## Conditions

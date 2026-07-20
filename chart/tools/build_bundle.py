@@ -129,8 +129,13 @@ def validate_facets(calculation: dict, rule_id: str) -> None:
         raise ValueError(f"Facets calculation has an invalid item count: {rule_id}")
     facet_ids = set()
     condition_state = {"nodes": 0}
+    required_facet_fields = {"id", "title", "condition"}
+    allowed_facet_fields = required_facet_fields | {"shortTitle"}
     for facet in items:
-        if not isinstance(facet, dict) or set(facet) != {"id", "title", "condition"}:
+        if not isinstance(facet, dict):
+            raise ValueError(f"Facet has invalid fields: {rule_id}")
+        facet_fields = set(facet)
+        if not required_facet_fields <= facet_fields <= allowed_facet_fields:
             raise ValueError(f"Facet has invalid fields: {rule_id}")
         facet_id = facet["id"]
         if not isinstance(facet_id, str) or FACET_ID.fullmatch(facet_id) is None:
@@ -141,6 +146,13 @@ def validate_facets(calculation: dict, rule_id: str) -> None:
         validate_translated_text(
             facet["title"], rule_id, f"facet {facet_id} title", MAX_FACET_TITLE_LENGTH
         )
+        if "shortTitle" in facet:
+            validate_translated_text(
+                facet["shortTitle"],
+                rule_id,
+                f"facet {facet_id} shortTitle",
+                MAX_FACET_TITLE_LENGTH,
+            )
         validate_condition(facet["condition"], rule_id, depth=1, state=condition_state)
 
 

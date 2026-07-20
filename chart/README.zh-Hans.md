@@ -182,7 +182,7 @@ ID 应具体且不依赖容易变化的展示文案。规则发布后，不得�
 
 ## 多语言文本
 
-`title`、`details.description`、Predicate 分组标题和 Facet 标题使用同一种结构：
+`title`、`details.description`、Predicate 分组标题和 Facet 标题使用同一种结构。可选的 Facet 短标题也使用这一结构：
 
 ```json
 {
@@ -198,7 +198,7 @@ ID 应具体且不依赖容易变化的展示文案。规则发布后，不得�
 | 参数 | 类型 | 是否必填 | 全部可选值与限制 | 含义 |
 | --- | --- | --- | --- | --- |
 | `translations` | 对象 | 是 | 2 至 16 个语言项，必须包含 `en` 和 `zh-Hans` | 语言标签到显示文本的映射。 |
-| `translations.<locale>` | 字符串 | 每个已声明语言都必填 | 不能为空；图表和分组标题最多 80 个字符，Facet 标题最多 40 个字符，说明最多 1,500 个字符 | 指定语言的本地化文本。 |
+| `translations.<locale>` | 字符串 | 每个已声明语言都必填 | 不能为空；图表和分组标题最多 80 个字符，Facet 标题和短标题最多 40 个字符，说明最多 1,500 个字符 | 指定语言的本地化文本。 |
 
 | 语言标签 | 是否允许 | 含义 |
 | --- | --- | --- |
@@ -390,7 +390,8 @@ Facet 计算包含 1 至 8 个有顺序的条目。
 | `facets.unmatchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 没有匹配任何 Facet 的应用分组名称。 |
 | `facets.items` | 数组 | 是 | 1 至 8 个 Facet 对象 | 按界面展示顺序排列的能力定义。 |
 | `items[].id` | 字符串 | 是 | 符合规定格式的小写局部 ID，在规则内唯一 | Facet 的稳定内部标识。 |
-| `items[].title` | 多语言文本 | 是 | 每种语言 1 至 40 个字符 | 应用匹配后显示的 Chip 文案。 |
+| `items[].title` | 多语言文本 | 是 | 每种语言 1 至 40 个字符 | 在详细结果和图表 Chip 中使用的完整 Facet 名称。 |
+| `items[].shortTitle` | 多语言文本 | 否 | 每种语言 1 至 40 个字符 | 匹配项摘要使用的紧凑名称；省略时回退到 `title`。 |
 | `items[].condition` | Condition 对象 | 是 | 一个证据叶子、`all`、`any` 或 `not` | 判断当前 Facet 是否匹配。 |
 
 ```json
@@ -418,6 +419,12 @@ Facet 计算包含 1 至 8 个有顺序的条目。
                         "zh-Hans": "服务套件"
                     }
                 },
+                "shortTitle": {
+                    "translations": {
+                        "en": "Kit",
+                        "zh-Hans": "套件"
+                    }
+                },
                 "condition": {
                     "evidence": "native_library",
                     "operator": "contains",
@@ -431,9 +438,9 @@ Facet 计算包含 1 至 8 个有顺序的条目。
 }
 ```
 
-Facet ID 必须符合 `^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$`。ID 在当前规则中必须唯一，发布后应保持稳定。
+Facet ID 必须符合 `^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$`。ID 在当前规则中必须唯一，发布后应保持稳定。`title` 必填；`shortTitle` 可选，两者每种语言都不能超过 40 个字符。
 
-应用至少匹配一个 Facet 时会进入图表的匹配组。所有命中的 Facet 标题都会按照 `items` 中的声明顺序显示为 Chip。不要再用一个根 `any` 重复 Facet 条件，否则会产生两份判定来源。
+应用至少匹配一个 Facet 时会进入图表的匹配组。所有命中的 Facet 标题都会按照 `items` 中的声明顺序显示为 Chip；匹配项摘要优先使用 `shortTitle`，省略时回退到 `title`。不要再用一个根 `any` 重复 Facet 条件，否则会产生两份判定来源。
 
 ## Condition 条件
 

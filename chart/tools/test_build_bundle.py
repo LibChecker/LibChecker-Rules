@@ -70,6 +70,22 @@ class BuildChartBundleTest(unittest.TestCase):
         )
         self.assertEqual("application", attribute["properties"]["element"]["const"])
 
+    def test_schema_declares_optional_facet_short_titles(self) -> None:
+        schema = json.loads(
+            (self.chart_dir / "schema/v1/chart-rule.schema.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        facet = schema["$defs"]["facetsCalculation"]["properties"]["facets"][
+            "properties"
+        ]["items"]["items"]
+
+        self.assertNotIn("shortTitle", facet["required"])
+        self.assertEqual(
+            {"$ref": "#/$defs/facetText"},
+            facet["properties"]["shortTitle"],
+        )
+
     def test_stable_bundle_excludes_preview_only_rules(self) -> None:
         with tempfile.TemporaryDirectory() as output:
             manifest = build_bundle(
@@ -178,6 +194,7 @@ class BuildChartBundleTest(unittest.TestCase):
             rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
         )
         facets = itgsa_rule["calculation"]["facets"]["items"]
+        self.assertEqual(4, itgsa_rule["revision"])
         self.assertEqual(
             "https://www.itgsa.com/", itgsa_rule["details"]["referenceUrl"]
         )
@@ -185,6 +202,15 @@ class BuildChartBundleTest(unittest.TestCase):
             ["voip-service-kit", "fair-runtime-memory", "security-paste-view"],
             [facet["id"] for facet in facets],
         )
+        self.assertEqual(
+            {"en": "VoIP", "zh-Hans": "VoIP"},
+            facets[0]["shortTitle"]["translations"],
+        )
+        self.assertEqual(
+            {"en": "Fair Memory", "zh-Hans": "公平运存机制"},
+            facets[1]["shortTitle"]["translations"],
+        )
+        self.assertNotIn("shortTitle", facets[2])
 
         voip_queries = facets[0]["condition"]["value"]["dexClasses"]
         self.assertEqual("Lcom/voip/service/", voip_queries[0]["name"]["value"])
@@ -279,6 +305,18 @@ class BuildChartBundleTest(unittest.TestCase):
         )
 
         with self.assertRaisesRegex(ValueError, "Facet id is duplicated"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+    def test_facet_short_title_requires_complete_translations(self) -> None:
+        itgsa_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
+        )
+        invalid_rule = deepcopy(itgsa_rule)
+        del invalid_rule["calculation"]["facets"]["items"][0]["shortTitle"][
+            "translations"
+        ]["zh-Hans"]
+
+        with self.assertRaisesRegex(ValueError, "invalid translated facet.*shortTitle"):
             validate_calculation(invalid_rule, invalid_rule["id"])
 
 

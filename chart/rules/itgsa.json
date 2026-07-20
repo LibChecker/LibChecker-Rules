@@ -1,6 +1,6 @@
 {
     "id": "official.itgsa",
-    "revision": 3,
+    "revision": 4,
     "source": "official",
     "title": {
         "translations": {
@@ -73,12 +73,12 @@
                         "translations": {
                             "en": "Fair Runtime Memory",
                             "zh-Hans": "公平运行内存机制"
-                        },
-                        "shortTitle": {
-                            "translations": {
-                                "en": "Fair Memory",
-                                "zh-Hans": "公平运存机制"
-                            }
+                        }
+                    },
+                    "shortTitle": {
+                        "translations": {
+                            "en": "Fair Memory",
+                            "zh-Hans": "公平运存机制"
                         }
                     },
                     "condition": {
