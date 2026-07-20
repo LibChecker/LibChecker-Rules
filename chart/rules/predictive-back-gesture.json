@@ -1,6 +1,6 @@
 {
     "id": "official.predictive-back-gesture",
-    "revision": 1,
+    "revision": 2,
     "source": "official",
     "releaseChannel": "preview-only",
     "title": {
@@ -20,7 +20,8 @@
     },
     "icon": {
         "asset": "icons/predictive-back-gesture.svg",
-        "renderMode": "original"
+        "renderMode": "monochrome",
+        "tintRole": "on_surface"
     },
     "calculation": {
         "kind": "predicate",

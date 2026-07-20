@@ -106,7 +106,9 @@ class BuildChartBundleTest(unittest.TestCase):
         self.assertEqual("original", flutter_rule["icon"]["renderMode"])
         self.assertEqual("https://flutter.dev/", flutter_rule["details"]["referenceUrl"])
 
-    def test_predictive_back_rule_requires_explicit_manifest_opt_in(self) -> None:
+    def test_predictive_back_rule_uses_theme_aware_icon_and_explicit_manifest_opt_in(
+        self,
+    ) -> None:
         rule = next(
             rule
             for rule in read_rules(self.chart_dir)
@@ -114,7 +116,13 @@ class BuildChartBundleTest(unittest.TestCase):
         )
         predicate = rule["calculation"]["predicate"]
 
-        self.assertEqual("original", rule["icon"]["renderMode"])
+        self.assertEqual(2, rule["revision"])
+        self.assertEqual("monochrome", rule["icon"]["renderMode"])
+        self.assertEqual("on_surface", rule["icon"]["tintRole"])
+        icon = (self.chart_dir / rule["icon"]["asset"]).read_text(encoding="utf-8")
+        self.assertIn('stroke-width="72"', icon)
+        self.assertIn('stroke-linecap="round"', icon)
+        self.assertIn('stroke-linejoin="round"', icon)
         self.assertEqual("artifact", rule["fingerprint"])
         self.assertEqual("manifest_attribute", predicate["evidence"])
         self.assertEqual("equal", predicate["operator"])

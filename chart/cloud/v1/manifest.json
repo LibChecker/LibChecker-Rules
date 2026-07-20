@@ -1,7 +1,7 @@
 {
-    "bundleSha256": "1a2ae3680f9b409c3c40a015a61a4e102bd4421f76cbaadf7abe70f8ad650702",
-    "bundleSize": 5446,
-    "bundleVersion": 14,
+    "bundleSha256": "0935906fe8539fc1a0e3c223dbd75fba4f3f8aa6c17f13659fa0c95f47fc1d6f",
+    "bundleSize": 5434,
+    "bundleVersion": 15,
     "minimumAppVersionCode": 2729,
     "schemaVersion": 1
 }
