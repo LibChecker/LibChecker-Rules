@@ -1,7 +1,7 @@
 ---
 name: libchecker-chart-rules
 description: Writing and validating LibChecker chart statistics rules. Provides JSON schema reference, evidence types, condition syntax, and bundle generation workflow for declarative chart rules.
-author: LibChecker
+author: LibChecker, Absinthe
 license: Apache-2.0
 user-invocable: true
 ---

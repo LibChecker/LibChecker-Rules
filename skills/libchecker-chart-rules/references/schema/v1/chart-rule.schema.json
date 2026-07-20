@@ -1,0 +1,748 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/LibChecker/LibChecker-Rules/chart/schema/v1/chart-rule.schema.json",
+    "title": "LibChecker chart rule",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "id",
+        "revision",
+        "source",
+        "title",
+        "details",
+        "icon",
+        "calculation"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^official\\.[a-z0-9]+(?:[.-][a-z0-9]+)*$"
+        },
+        "revision": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "source": {
+            "const": "official"
+        },
+        "title": {
+            "$ref": "#/$defs/text"
+        },
+        "details": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "description",
+                "referenceUrl"
+            ],
+            "properties": {
+                "description": {
+                    "$ref": "#/$defs/descriptionText"
+                },
+                "referenceUrl": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://",
+                    "maxLength": 512
+                }
+            }
+        },
+        "icon": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "asset"
+            ],
+            "properties": {
+                "asset": {
+                    "type": "string",
+                    "pattern": "^icons/[a-z0-9][a-z0-9._-]*\\.svg$"
+                },
+                "renderMode": {
+                    "enum": [
+                        "monochrome",
+                        "original"
+                    ],
+                    "default": "monochrome"
+                },
+                "tintRole": {
+                    "enum": [
+                        "on_surface",
+                        "on_surface_variant",
+                        "primary",
+                        "secondary",
+                        "tertiary"
+                    ],
+                    "default": "on_surface"
+                }
+            }
+        },
+        "calculation": {
+            "oneOf": [
+                {
+                    "$ref": "#/$defs/predicateCalculation"
+                },
+                {
+                    "$ref": "#/$defs/facetsCalculation"
+                }
+            ]
+        },
+        "releaseChannel": {
+            "enum": [
+                "stable",
+                "preview-only"
+            ],
+            "default": "stable"
+        },
+        "availability": {
+            "enum": [
+                "always"
+            ],
+            "default": "always"
+        },
+        "requiresFeatureInitialization": {
+            "type": "boolean",
+            "default": false
+        },
+        "controls": {
+            "type": "array",
+            "maxItems": 0
+        },
+        "dashboard": {
+            "const": "none",
+            "default": "none"
+        },
+        "fingerprint": {
+            "enum": [
+                "standard",
+                "features",
+                "artifact"
+            ],
+            "default": "standard"
+        }
+    },
+    "$defs": {
+        "text": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "translations"
+            ],
+            "properties": {
+                "translations": {
+                    "type": "object",
+                    "required": [
+                        "en",
+                        "zh-Hans"
+                    ],
+                    "minProperties": 2,
+                    "maxProperties": 16,
+                    "propertyNames": {
+                        "pattern": "^(?!zh$|zh-CN$)[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+                    },
+                    "additionalProperties": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                    }
+                }
+            }
+        },
+        "facetText": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "translations"
+            ],
+            "properties": {
+                "translations": {
+                    "type": "object",
+                    "required": [
+                        "en",
+                        "zh-Hans"
+                    ],
+                    "minProperties": 2,
+                    "maxProperties": 16,
+                    "propertyNames": {
+                        "pattern": "^(?!zh$|zh-CN$)[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+                    },
+                    "additionalProperties": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 40
+                    }
+                }
+            }
+        },
+        "descriptionText": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "translations"
+            ],
+            "properties": {
+                "translations": {
+                    "type": "object",
+                    "required": [
+                        "en",
+                        "zh-Hans"
+                    ],
+                    "minProperties": 2,
+                    "maxProperties": 16,
+                    "propertyNames": {
+                        "pattern": "^(?!zh$|zh-CN$)[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+                    },
+                    "additionalProperties": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 1500
+                    }
+                }
+            }
+        },
+        "methodReference": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "definingClass",
+                "name"
+            ],
+            "properties": {
+                "definingClass": {
+                    "type": "string",
+                    "pattern": "^L[A-Za-z0-9_$/-]{1,158};$"
+                },
+                "name": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9_$<>-]{1,80}$"
+                },
+                "parameterTypes": {
+                    "type": "array",
+                    "maxItems": 16,
+                    "items": {
+                        "type": "string",
+                        "pattern": "^(?:\\[*[ZBSCIJFD]|\\[*L[A-Za-z0-9_$/-]{1,158};)$"
+                    }
+                }
+            }
+        },
+        "dexClassQuery": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "operator",
+                        "value"
+                    ],
+                    "properties": {
+                        "operator": {
+                            "enum": [
+                                "equal",
+                                "starts_with"
+                            ]
+                        },
+                        "value": {
+                            "type": "string",
+                            "pattern": "^L[A-Za-z0-9_$/-]{1,158};?$"
+                        }
+                    },
+                    "allOf": [
+                        {
+                            "if": {
+                                "required": [
+                                    "operator"
+                                ],
+                                "properties": {
+                                    "operator": {
+                                        "const": "equal"
+                                    }
+                                }
+                            },
+                            "then": {
+                                "properties": {
+                                    "value": {
+                                        "pattern": ";$"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "stringConstants": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 16,
+                    "items": {
+                        "type": "string",
+                        "pattern": "^[^\\u0000-\\u001F\\u007F]{1,160}$"
+                    }
+                },
+                "methodReferences": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 16,
+                    "items": {
+                        "$ref": "#/$defs/methodReference"
+                    }
+                }
+            },
+            "anyOf": [
+                {
+                    "required": [
+                        "name"
+                    ]
+                },
+                {
+                    "required": [
+                        "stringConstants"
+                    ]
+                },
+                {
+                    "required": [
+                        "methodReferences"
+                    ]
+                }
+            ]
+        },
+        "manifestAttribute": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "element",
+                "name",
+                "boolean"
+            ],
+            "properties": {
+                "element": {
+                    "const": "application"
+                },
+                "name": {
+                    "type": "string",
+                    "pattern": "^android:[A-Za-z][A-Za-z0-9_]{0,79}$"
+                },
+                "boolean": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "value": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "integer": {
+                    "type": "integer"
+                },
+                "string": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 160
+                },
+                "strings": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 16,
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 160
+                    }
+                },
+                "dexClasses": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 16,
+                    "items": {
+                        "$ref": "#/$defs/dexClassQuery"
+                    }
+                },
+                "manifestAttribute": {
+                    "$ref": "#/$defs/manifestAttribute"
+                }
+            },
+            "oneOf": [
+                {
+                    "required": [
+                        "integer"
+                    ]
+                },
+                {
+                    "required": [
+                        "string"
+                    ]
+                },
+                {
+                    "required": [
+                        "strings"
+                    ]
+                },
+                {
+                    "required": [
+                        "dexClasses"
+                    ]
+                },
+                {
+                    "required": [
+                        "manifestAttribute"
+                    ]
+                }
+            ]
+        },
+        "condition": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "evidence": {
+                    "enum": [
+                        "target_sdk",
+                        "native_library",
+                        "dex_class",
+                        "archive_entry",
+                        "manifest_receiver_action",
+                        "manifest_attribute"
+                    ]
+                },
+                "operator": {
+                    "enum": [
+                        "equal",
+                        "greater_than_or_equal",
+                        "less_than_or_equal",
+                        "contains",
+                        "contains_any"
+                    ]
+                },
+                "value": {
+                    "$ref": "#/$defs/value"
+                },
+                "all": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 16,
+                    "items": {
+                        "$ref": "#/$defs/condition"
+                    }
+                },
+                "any": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 16,
+                    "items": {
+                        "$ref": "#/$defs/condition"
+                    }
+                },
+                "not": {
+                    "$ref": "#/$defs/condition"
+                }
+            },
+            "oneOf": [
+                {
+                    "required": [
+                        "evidence",
+                        "operator",
+                        "value"
+                    ]
+                },
+                {
+                    "required": [
+                        "all"
+                    ]
+                },
+                {
+                    "required": [
+                        "any"
+                    ]
+                },
+                {
+                    "required": [
+                        "not"
+                    ]
+                }
+            ],
+            "allOf": [
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "target_sdk"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "enum": [
+                                    "equal",
+                                    "greater_than_or_equal",
+                                    "less_than_or_equal"
+                                ]
+                            },
+                            "value": {
+                                "required": [
+                                    "integer"
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "native_library"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains"
+                            },
+                            "value": {
+                                "required": [
+                                    "string"
+                                ],
+                                "properties": {
+                                    "string": {
+                                        "pattern": "^[A-Za-z0-9._+-]{1,160}$"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "dex_class"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains_any"
+                            },
+                            "value": {
+                                "required": [
+                                    "dexClasses"
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "archive_entry"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains_any"
+                            },
+                            "value": {
+                                "required": [
+                                    "strings"
+                                ],
+                                "properties": {
+                                    "strings": {
+                                        "items": {
+                                            "pattern": "^[A-Za-z0-9][A-Za-z0-9._+/-]{0,159}$"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "manifest_receiver_action"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains_any"
+                            },
+                            "value": {
+                                "required": [
+                                    "strings"
+                                ],
+                                "properties": {
+                                    "strings": {
+                                        "items": {
+                                            "pattern": "^[A-Za-z0-9_.-]{1,160}$"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "manifest_attribute"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "equal"
+                            },
+                            "value": {
+                                "required": [
+                                    "manifestAttribute"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "predicateCalculation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "kind",
+                "predicate"
+            ],
+            "properties": {
+                "kind": {
+                    "const": "predicate"
+                },
+                "predicate": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "matchedTitle",
+                        "unmatchedTitle"
+                    ],
+                    "properties": {
+                        "evidence": {
+                            "$ref": "#/$defs/condition/properties/evidence"
+                        },
+                        "operator": {
+                            "$ref": "#/$defs/condition/properties/operator"
+                        },
+                        "value": {
+                            "$ref": "#/$defs/value"
+                        },
+                        "condition": {
+                            "$ref": "#/$defs/condition"
+                        },
+                        "matchedTitle": {
+                            "$ref": "#/$defs/text"
+                        },
+                        "unmatchedTitle": {
+                            "$ref": "#/$defs/text"
+                        }
+                    },
+                    "oneOf": [
+                        {
+                            "required": [
+                                "evidence",
+                                "operator",
+                                "value"
+                            ]
+                        },
+                        {
+                            "required": [
+                                "condition"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "facetsCalculation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "kind",
+                "facets"
+            ],
+            "properties": {
+                "kind": {
+                    "const": "facets"
+                },
+                "facets": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "matchedTitle",
+                        "unmatchedTitle",
+                        "items"
+                    ],
+                    "properties": {
+                        "matchedTitle": {
+                            "$ref": "#/$defs/text"
+                        },
+                        "unmatchedTitle": {
+                            "$ref": "#/$defs/text"
+                        },
+                        "items": {
+                            "type": "array",
+                            "minItems": 1,
+                            "maxItems": 8,
+                            "items": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "required": [
+                                    "id",
+                                    "title",
+                                    "condition"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "string",
+                                        "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+                                    },
+                                    "title": {
+                                        "$ref": "#/$defs/facetText"
+                                    },
+                                    "shortTitle": {
+                                        "$ref": "#/$defs/facetText"
+                                    },
+                                    "condition": {
+                                        "$ref": "#/$defs/condition"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

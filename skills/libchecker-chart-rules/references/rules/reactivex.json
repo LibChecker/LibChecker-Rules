@@ -1,0 +1,176 @@
+{
+    "id": "official.reactivex",
+    "revision": 1,
+    "source": "official",
+    "title": {
+        "translations": {
+            "en": "ReactiveX",
+            "zh-Hans": "ReactiveX"
+        }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "ReactiveX is an API for asynchronous programming with observable streams. It combines ideas from the Observer pattern, the Iterator pattern, and functional programming.",
+                "zh-Hans": "ReactiveX 是一个使用可观察流进行异步编程的 API，结合了观察者模式、迭代器模式和函数式编程的思想。"
+            }
+        },
+        "referenceUrl": "https://reactivex.io/"
+    },
+    "icon": {
+        "asset": "icons/reactivex.svg",
+        "renderMode": "monochrome",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "facets",
+        "facets": {
+            "matchedTitle": {
+                "translations": {
+                    "en": "ReactiveX apps",
+                    "zh-Hans": "ReactiveX 应用"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Other apps",
+                    "zh-Hans": "其他应用"
+                }
+            },
+            "items": [
+                {
+                    "id": "rxjava",
+                    "title": {
+                        "translations": {
+                            "en": "RxJava",
+                            "zh-Hans": "RxJava"
+                        }
+                    },
+                    "condition": {
+                        "any": [
+                            {
+                                "evidence": "archive_entry",
+                                "operator": "contains_any",
+                                "value": {
+                                    "strings": [
+                                        "META-INF/rxjava.properties"
+                                    ]
+                                }
+                            },
+                            {
+                                "evidence": "dex_class",
+                                "operator": "contains_any",
+                                "value": {
+                                    "dexClasses": [
+                                        {
+                                            "name": {
+                                                "operator": "starts_with",
+                                                "value": "Lrx/schedulers/"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "operator": "starts_with",
+                                                "value": "Lio/reactivex/"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "operator": "starts_with",
+                                                "value": "Lio/reactivex/rxjava3/"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rxkotlin",
+                    "title": {
+                        "translations": {
+                            "en": "RxKotlin",
+                            "zh-Hans": "RxKotlin"
+                        }
+                    },
+                    "condition": {
+                        "any": [
+                            {
+                                "evidence": "archive_entry",
+                                "operator": "contains_any",
+                                "value": {
+                                    "strings": [
+                                        "META-INF/rxkotlin.properties"
+                                    ]
+                                }
+                            },
+                            {
+                                "evidence": "dex_class",
+                                "operator": "contains_any",
+                                "value": {
+                                    "dexClasses": [
+                                        {
+                                            "name": {
+                                                "operator": "starts_with",
+                                                "value": "Lio/reactivex/rxjava3/kotlin/"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "operator": "equal",
+                                                "value": "Lio/reactivex/rxkotlin;"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "operator": "equal",
+                                                "value": "Lrx/lang/kotlin;"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rxandroid",
+                    "title": {
+                        "translations": {
+                            "en": "RxAndroid",
+                            "zh-Hans": "RxAndroid"
+                        }
+                    },
+                    "condition": {
+                        "evidence": "dex_class",
+                        "operator": "contains_any",
+                        "value": {
+                            "dexClasses": [
+                                {
+                                    "name": {
+                                        "operator": "starts_with",
+                                        "value": "Lio/reactivex/rxjava3/android/"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "operator": "starts_with",
+                                        "value": "Lio/reactivex/android/"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "operator": "starts_with",
+                                        "value": "Lrx/android/"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "fingerprint": "artifact"
+}
