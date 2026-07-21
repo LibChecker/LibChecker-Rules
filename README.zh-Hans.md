@@ -10,40 +10,40 @@
 [![Static libraries](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.staticLibraries&label=Static%20libraries&color=57606a&style=flat&cacheSeconds=3600)](static-libs/)
 [![Chart rules](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLibChecker%2FLibChecker-Rules%2FHEAD%2Frule-counts.json&query=%24.chartRules&label=Chart%20rules&color=bf3989&style=flat&cacheSeconds=3600)](chart/rules/)
 
-English | [简体中文](README.zh-Hans.md)
+[English](README.md) | 简体中文
 
-This repository maintains the rules and metadata used by [LibChecker](https://github.com/LibChecker/LibChecker). It covers Android component and native library identification, Flutter engine version mappings, and declarative statistics for the chart page.
+本仓库维护 [LibChecker](https://github.com/LibChecker/LibChecker) 使用的规则与元数据，包括 Android 组件和原生库识别规则、Flutter 引擎版本映射，以及图表页面使用的声明式统计规则。
 
-## Repository contents
+## 仓库内容
 
-| Path | Contents |
+| 路径 | 内容 |
 | --- | --- |
-| `native-libs/`, `activities-libs/`, `services-libs/`, `receivers-libs/`, `providers-libs/`, `actions-libs/`, `static-libs/` | Identify libraries and SDKs from native libraries, Android components, and intent actions. |
-| [`flutter_hash/`](flutter_hash/README.md) | Maps engine revisions found in `libflutter.so` to possible Flutter releases. |
-| [`chart/`](chart/README.md) | Contains chart rules, SVG icons, JSON Schemas, tests, and generated bundles. |
-| `configuration/`, `cloud/` | Contains versioned configuration and rule data consumed by LibChecker. |
+| `native-libs/`、`activities-libs/`、`services-libs/`、`receivers-libs/`、`providers-libs/`、`actions-libs/`、`static-libs/` | 根据原生库、Android 组件和 Intent Action 识别应用使用的库与 SDK。 |
+| [`flutter_hash/`](flutter_hash/README.md) | 将 `libflutter.so` 中的引擎修订号映射到可能对应的 Flutter 发布版本。 |
+| [`chart/`](chart/README.zh-Hans.md) | 存放图表规则、SVG 图标、JSON Schema、测试和生成后的 Bundle。 |
+| `configuration/`、`cloud/` | 存放 LibChecker 读取的版本配置与规则数据。 |
 
-## Contributing
+## 参与贡献
 
-### Library identification rules
+### 库识别规则
 
-If a library identification rule is missing or incorrect, open the [issue chooser](https://github.com/LibChecker/LibChecker-Rules/issues/new/choose) and select **Submit new rule** or **Bug report**. Follow the template and provide the filename, library name, development team, description, and a primary source. Include the app name and version when a sample is available for verification. Icons must use the SVG format.
+发现缺失或错误的库识别规则时，请在 [Issue 选择页面](https://github.com/LibChecker/LibChecker-Rules/issues/new/choose)中选择 **Submit new rule** 或 **Bug report**，并按照模板填写文件名、库名称、开发团队、说明与一手资料链接。有可供验证的应用时，也请附上应用名称和版本。图标仅接受 SVG 格式。
 
-### Chart rules
+### 图表规则
 
-Chart rules have their own schema, tests, and release process. New rules normally start in the preview channel and move to the stable channel after verification. Read the complete contribution guide before submitting a rule:
+图表规则有独立的 Schema、测试和发布流程。新规则通常先进入预览渠道，验证通过后再发布到稳定渠道。提交前请阅读完整指南：
 
-- [English contribution guide](chart/README.md)
 - [简体中文贡献指南](chart/README.zh-Hans.md)
+- [English contribution guide](chart/README.md)
 
-If your AI agent supports Skills, install the chart rule Skill from this repository:
+如果使用支持 Skills 的 AI Agent，可以安装仓库内的图表规则 Skill：
 
 ```shell
 npx skills add LibChecker/LibChecker-Rules
 ```
 
-See the [chart rule Skill guide](skills/libchecker-chart-rules/README.md) for installation and usage details.
+安装与使用说明见[图表规则 Skill 指南](skills/libchecker-chart-rules/README.zh-Hans.md)。
 
-## License
+## 许可
 
-This repository is licensed under the [Apache License 2.0](LICENSE).
+本仓库基于 [Apache License 2.0](LICENSE) 发布。
