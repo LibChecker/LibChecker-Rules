@@ -55,21 +55,13 @@ body:
     attributes:
       label: Detection evidence / 检测依据
       description: |
-        Describe what data LibChecker should inspect. Supported evidence types:
-        - `target_sdk` — target API level of the app
-        - `native_library` — .so library filename
-        - `archive_entry` — APK ZIP entry name
-        - `dex_class` — DEX class query
+        Describe what data LibChecker should inspect / 描述 LibChecker 应检测哪些数据:
+        - `target_sdk` — target API level of the app / 应用的 target API 级别
+        - `native_library` — .so library filename / .so 库文件名
+        - `archive_entry` — APK ZIP entry name / APK ZIP 条目名
+        - `dex_class` — DEX class query / DEX 类查询
         - `manifest_receiver_action` — manifest receiver action
-        - `manifest_attribute` — manifest Boolean attribute
-
-        描述 LibChecker 应检测哪些数据。支持的检测类型：
-        - `target_sdk` — 应用的 target API 级别
-        - `native_library` — .so 库文件名
-        - `archive_entry` — APK ZIP 条目名
-        - `dex_class` — DEX 类查询
-        - `manifest_receiver_action` — manifest receiver action
-        - `manifest_attribute` — manifest 布尔属性
+        - `manifest_attribute` — manifest Boolean attribute / manifest 布尔属性
       placeholder: |
         evidence: native_library
         operator: contains
