@@ -1,0 +1,163 @@
+name: Submit new chart rule / 提交新的图表统计规则
+description: Create an issue and describe a chart statistic rule. / 创建一个 issue 并描述图表统计规则信息。
+labels: [New Chart Rule]
+title: "[New Chart Rule] (Rule title)"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        为了避免浪费彼此的时间，请认真填写以下信息。
+        In order to avoid wasting each other's time, please fill in the information carefully.
+
+        参考文档 / Reference: https://github.com/LibChecker/LibChecker-Rules/blob/v4/chart/README.md
+  - type: textarea
+    attributes:
+      label: Statistic title / 统计标题
+      description: |
+        Fill in the chart statistic title in English and Simplified Chinese, for example: **Flutter apps / Flutter 应用**
+        填写图表统计标题，需同时提供英文和简体中文，例如：**Flutter apps / Flutter 应用**
+      placeholder: |
+        en: Example SDK
+        zh-Hans: 示例 SDK
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Statistic description / 统计描述
+      description: |
+        Fill in a neutral introduction of the technology or capability measured by this statistic, for excerpting from the official document.
+        填写该技术或能力的中性介绍，最好在官方文档摘抄。
+      placeholder: |
+        en: Example SDK provides a documented capability for Android apps.
+        zh-Hans: 示例 SDK 为 Android 应用提供一项有公开文档的能力。
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Reference URL / 参考链接
+      description: |
+        Fill in the primary project, standards body, vendor, or platform HTTPS document here. **Must be HTTPS, not other third-party links.**
+        这里填写主要的项目、标准机构、厂商或平台的 HTTPS 文档链接。**必须是 HTTPS，不可以是其他第三方链接。**
+        例如：https://flutter.dev/docs
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Calculation type / 计算方式
+      description: |
+        Select the calculation type. Use **predicate** when every app belongs to one of two groups. Use **facets** when one app can match several named capabilities.
+        选择计算方式。**predicate** 适用于非此即彼的二分类。**facets** 适用于一个应用可能匹配多个命名能力的情况。
+      options:
+        - predicate (two groups / 两组分类)
+        - facets (multiple capabilities / 多种能力)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Detection evidence / 检测依据
+      description: |
+        Describe what data LibChecker should inspect. Supported evidence types:
+        - `target_sdk` — target API level of the app
+        - `native_library` — .so library filename
+        - `archive_entry` — APK ZIP entry name
+        - `dex_class` — DEX class query
+        - `manifest_receiver_action` — manifest receiver action
+        - `manifest_attribute` — manifest Boolean attribute
+
+        描述 LibChecker 应检测哪些数据。支持的检测类型：
+        - `target_sdk` — 应用的 target API 级别
+        - `native_library` — .so 库文件名
+        - `archive_entry` — APK ZIP 条目名
+        - `dex_class` — DEX 类查询
+        - `manifest_receiver_action` — manifest receiver action
+        - `manifest_attribute` — manifest 布尔属性
+      placeholder: |
+        evidence: native_library
+        operator: contains
+        value: libexample.so
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Matched & Unmatched titles / 匹配组 & 未匹配组标题
+      description: |
+        Fill in the labels for the two result groups (matched apps and other apps).
+        填写两个结果组的标签（匹配的应用和未匹配的应用）。
+      placeholder: |
+        matchedTitle:
+          en: Example SDK apps
+          zh-Hans: 示例 SDK 应用
+        unmatchedTitle:
+          en: Other apps
+          zh-Hans: 其他应用
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Facet items (if facets) / 分面项（如适用）
+      description: |
+        If you selected **facets**, fill in each facet item's ID, title, and detection condition here. Maximum 8 items.
+        如果选择了 **facets**，请在这里填写每个分面项的 ID、标题和检测条件。最多 8 项。
+      placeholder: |
+        id: service-kit
+        title:
+          en: Service Kit
+          zh-Hans: 服务套件
+        evidence: native_library, contains, libexample_service.so
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Rule ID / 规则 ID
+      description: |
+        Fill in the permanent rule ID. Must match `official.<lowercase-name>` pattern, for example: **official.example-sdk**
+        填写永久规则 ID，必须匹配 `official.<小写名称>` 模式，例如：**official.example-sdk**
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Icon / 图标
+      description: |
+        If there is a logo icon, you can choose to provide it, **but it must be in SVG format**. The SVG must use a `0 0 1024 1024` viewBox and keep artwork within a centered `800 x 800` area, under 64 KiB, with no scripts, styles, text, or external references.
+        如果有 Logo 图标可以选择提供，**但必须为 SVG 格式**。SVG 必须使用 `0 0 1024 1024` viewBox，图形保持在居中 `800 x 800` 区域内，小于 64 KiB，不含脚本、样式、文本或外部引用。
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Release channel / 发布渠道
+      description: |
+        New rules should normally start with **preview-only**. Move to **stable** after testing.
+        新规则通常应从 **preview-only** 开始，测试后再转为 **stable**。
+      options:
+        - preview-only
+        - stable
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Fingerprint / 指纹策略
+      description: |
+        Select when LibChecker should discard cached chart results after app data changes. Use **standard** for metadata-only rules, **artifact** for rules inspecting native libraries / archive entries / DEX / manifest.
+        选择应用数据变化后何时丢弃缓存的图表结果。纯元数据规则用 **standard**，涉及原生库/ZIP 条目/DEX/manifest 的规则用 **artifact**。
+      options:
+        - standard (default / 默认)
+        - artifact (for DEX / native / archive / manifest rules)
+        - features (for feature initialization rules)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Tested apps / 测试应用
+      description: |
+        Which applications were used to verify the matching and non-matching behavior? Provide app names and versions if necessary.
+        使用哪些应用验证了匹配和未匹配行为？如有必要请提供应用名称和版本号。
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional remarks / 其他备注
+      description: |
+        Fill in any additional information to help reviewers understand the rule.
+        填写其他有助于审核者理解该规则的信息。
+    validations:
+      required: false
