@@ -1,7 +1,7 @@
 name: (preview) Submit new chart rule /（预览）提交新的图表统计规则
 description: Create an issue and describe a chart statistic rule. / 创建一个 issue 并描述图表统计规则信息。
 labels: [New Chart Rule]
-title: "[New Chart Rule] (Chart Rule title)"
+title: "[New Chart Rule] (Chart rule title)"
 body:
   - type: markdown
     attributes:

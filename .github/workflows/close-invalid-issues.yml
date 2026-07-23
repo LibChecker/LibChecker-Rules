@@ -27,7 +27,7 @@ jobs:
             const defaultTitles = [
               '[New Rule] (Library label)',
               '[Bug] (Library label)',
-              '[New Chart Rule] (Chart Rule title)'
+              '[New Chart Rule] (Chart rule title)'
             ];
 
             if (!isMatch) {
