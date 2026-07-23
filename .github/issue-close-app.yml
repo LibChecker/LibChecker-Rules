@@ -1,10 +1,19 @@
 comment: "This issue is closed because it does not meet our issue template. Please read it."
 issueConfigs:
 - content:
-# bug report
+  # submit new rule
   - "Library filename"
   - "Library label"
   - "Library team"
   - "Library relative URL"
+- content:
+  # submit new chart rule
+  - "Statistic title"
+  - "Statistic description"
+  - "Reference URL"
+  - "Calculation type"
+  - "Detection evidence"
+  - "Matched & Unmatched titles"
+  - "Rule ID"
 caseInsensitive: false
 label: "closed by bot"

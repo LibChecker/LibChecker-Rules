@@ -11,14 +11,26 @@ jobs:
 
     steps:
       - name: Check Issue Content
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
           script: |
             const issueBody = context.payload.issue.body || '';
             const validKeywordsNewRules = ['Library filename / 库文件名', 'Library label / 库的文字标签'];
-            const validKeywordsBugReport = ['Current library filename / 现有库文件名', 'Library relative URL / 相关链接']
+            const validKeywordsBugReport = ['Current library filename / 现有库文件名', 'Library relative URL / 相关链接'];
+            const validKeywordsNewChartRules = ['Statistic title / 统计标题', 'Statistic description / 统计描述'];
 
-            if (!validKeywordsNewRules.every(keyword => issueBody.includes(keyword)) && !validKeywordsBugReport.every(keyword => issueBody.includes(keyword))) {
+            const isMatch = validKeywordsNewRules.every(keyword => issueBody.includes(keyword))
+              || validKeywordsBugReport.every(keyword => issueBody.includes(keyword))
+              || validKeywordsNewChartRules.every(keyword => issueBody.includes(keyword));
+
+            const issueTitle = context.payload.issue.title || '';
+            const defaultTitles = [
+              '[New Rule] (Library label)',
+              '[Bug] (Library label)',
+              '[New Chart Rule] (Chart rule title)'
+            ];
+
+            if (!isMatch) {
               const issueNumber = context.payload.issue.number;
               const owner = context.repo.owner;
               const repo = context.repo.repo;
@@ -27,7 +39,7 @@ jobs:
                 owner,
                 repo,
                 issue_number: issueNumber,
-                body: 'This issue does not follow the template. Please update it accordingly.'
+                body: 'This issue does not follow the template. Please update it accordingly.\n\n此 issue 未遵循模板格式，请按要求填写。'
               });
 
               await github.rest.issues.update({
@@ -35,5 +47,16 @@ jobs:
                 repo,
                 issue_number: issueNumber,
                 state: 'closed'
+              });
+            } else if (defaultTitles.some(title => issueTitle === title)) {
+              const issueNumber = context.payload.issue.number;
+              const owner = context.repo.owner;
+              const repo = context.repo.repo;
+
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: 'Please update the issue title to reflect the specific content of your submission, rather than keeping the default title.\n\n请修改 issue 标题以反映提交内容，不要使用默认标题。'
               });
             }
