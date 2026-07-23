@@ -140,7 +140,7 @@ body:
       options:
         - standard (default / 默认)
         - artifact (for DEX / native / archive / manifest rules)
-        - features (for feature initialization rules)
+        - features (for feature initialization rules / 依赖 LibChecker 已初始化特征数据的规则)
     validations:
       required: true
   - type: textarea
