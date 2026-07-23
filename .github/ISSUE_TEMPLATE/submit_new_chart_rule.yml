@@ -1,7 +1,7 @@
-name: Submit new chart rule / 提交新的图表统计规则
+name: (preview) Submit new chart rule /（预览）提交新的图表统计规则
 description: Create an issue and describe a chart statistic rule. / 创建一个 issue 并描述图表统计规则信息。
 labels: [New Chart Rule]
-title: "[New Chart Rule] (Rule title)"
+title: "[New Chart Rule] (Chart Rule title)"
 body:
   - type: markdown
     attributes:
@@ -9,7 +9,7 @@ body:
         为了避免浪费彼此的时间，请认真填写以下信息。
         In order to avoid wasting each other's time, please fill in the information carefully.
 
-        参考文档 / Reference: https://github.com/LibChecker/LibChecker-Rules/blob/v4/chart/README.md
+        请参考文档 / Please reference: https://github.com/LibChecker/LibChecker-Rules/blob/v4/chart/README.md
   - type: textarea
     attributes:
       label: Statistic title / 统计标题
@@ -36,9 +36,8 @@ body:
     attributes:
       label: Reference URL / 参考链接
       description: |
-        Fill in the primary project, standards body, vendor, or platform HTTPS document here. **Must be HTTPS, not other third-party links.**
-        这里填写主要的项目、标准机构、厂商或平台的 HTTPS 文档链接。**必须是 HTTPS，不可以是其他第三方链接。**
-        例如：https://flutter.dev/docs
+        Fill in the primary project, standards body, vendor, or platform document here. **Must be not other third-party links.**
+        这里填写主要的项目、标准机构、厂商或平台的文档链接。**不可以是其他第三方链接。**
     validations:
       required: true
   - type: dropdown
@@ -46,10 +45,10 @@ body:
       label: Calculation type / 计算方式
       description: |
         Select the calculation type. Use **predicate** when every app belongs to one of two groups. Use **facets** when one app can match several named capabilities.
-        选择计算方式。**predicate** 适用于非此即彼的二分类。**facets** 适用于一个应用可能匹配多个命名能力的情况。
+        选择计算方式。**predicate** 适用于非此即彼的二元分类。**facets** 适用于一个应用可能匹配多个命名能力的情况。
       options:
-        - predicate (two groups / 两组分类)
-        - facets (multiple capabilities / 多种能力)
+        - predicate (two groups / 二元分类)
+        - facets (multiple capabilities / 多能力分类)
     validations:
       required: true
   - type: textarea
@@ -110,16 +109,16 @@ body:
     attributes:
       label: Rule ID / 规则 ID
       description: |
-        Fill in the permanent rule ID. Must match `official.<lowercase-name>` pattern, for example: **official.example-sdk**
-        填写永久规则 ID，必须匹配 `official.<小写名称>` 模式，例如：**official.example-sdk**
+        Fill in the permanent rule ID. Must match `<lowercase-org-name>.<lowercase-rule-name>` pattern, for example: **official.example-sdk** / **absinthe.example-sdk**
+        填写永久规则 ID，必须匹配 `<组织小写名>.<规则小写名>` 模式，例如：**official.example-sdk** / **absinthe.example-sdk**
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: Icon / 图标
       description: |
-        If there is a logo icon, you can choose to provide it, **but it must be in SVG format**. The SVG must use a `0 0 1024 1024` viewBox and keep artwork within a centered `800 x 800` area, under 64 KiB, with no scripts, styles, text, or external references.
-        如果有 Logo 图标可以选择提供，**但必须为 SVG 格式**。SVG 必须使用 `0 0 1024 1024` viewBox，图形保持在居中 `800 x 800` 区域内，小于 64 KiB，不含脚本、样式、文本或外部引用。
+        If there is a logo icon, you can choose to provide it, **but it must be in SVG format**. The SVG must with no scripts, styles, text, or external references.
+        如果有 Logo 图标可以选择提供，**但必须为 SVG 格式**。SVG 不能包含脚本、样式、文本或外部引用。
     validations:
       required: false
   - type: dropdown
@@ -130,7 +129,6 @@ body:
         新规则通常应从 **preview-only** 开始，测试后再转为 **stable**。
       options:
         - preview-only
-        - stable
     validations:
       required: true
   - type: dropdown
