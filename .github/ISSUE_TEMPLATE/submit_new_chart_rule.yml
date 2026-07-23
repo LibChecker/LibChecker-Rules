@@ -9,7 +9,7 @@ body:
         为了避免浪费彼此的时间，请认真填写以下信息。
         In order to avoid wasting each other's time, please fill in the information carefully.
 
-        请参考文档 / Please reference: https://github.com/LibChecker/LibChecker-Rules/blob/v4/chart/README.md
+        请参考文档 / Please read reference: https://github.com/LibChecker/LibChecker-Rules/blob/v4/chart/README.md
   - type: textarea
     attributes:
       label: Statistic title / 统计标题
