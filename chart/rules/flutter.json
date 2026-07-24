@@ -1,0 +1,48 @@
+{
+    "id": "official.flutter",
+    "revision": 2,
+    "source": "official",
+    "title": {
+        "translations": {
+            "en": "Flutter",
+            "zh-Hans": "Flutter"
+        }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "Flutter is an open-source framework for building beautiful, natively compiled, multi-platform applications from a single codebase.",
+                "zh-Hans": "Flutter 是一个开源框架，可通过一套代码库构建美观、原生编译的多平台应用。"
+            }
+        },
+        "referenceUrl": "https://flutter.dev/"
+    },
+    "icon": {
+        "asset": "icons/flutter.svg",
+        "renderMode": "original",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "predicate",
+        "predicate": {
+            "evidence": "native_library",
+            "operator": "contains",
+            "value": {
+                "string": "libflutter.so"
+            },
+            "matchedTitle": {
+                "translations": {
+                    "en": "Flutter apps",
+                    "zh-Hans": "Flutter 应用"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Other apps",
+                    "zh-Hans": "其他应用"
+                }
+            }
+        }
+    },
+    "fingerprint": "artifact"
+}

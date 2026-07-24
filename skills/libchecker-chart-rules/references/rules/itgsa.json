@@ -1,0 +1,153 @@
+{
+    "id": "official.itgsa",
+    "revision": 4,
+    "source": "official",
+    "title": {
+        "translations": {
+            "en": "ITGSA Capabilities",
+            "zh-Hans": "金标联盟开放能力"
+        }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "The Intelligent Terminal Alliance (ITGSA) is an innovative industry organization guided by national industrial policies and driven by market demands. Centering on serving developers, the alliance explores innovative ecosystem models around the needs of member companies such as Xiaomi, OPPO, vivo, HONOR, and Lenovo.",
+                "zh-Hans": "移动智能终端生态专业委员会（金标联盟，ITGSA）是由国家产业政策引导、市场需求驱动的创新型行业组织。联盟以服务开发者为核心，围绕小米、OPPO、vivo、荣耀、联想等联盟成员的需求探索创新生态模式。"
+            }
+        },
+        "referenceUrl": "https://www.itgsa.com/"
+    },
+    "icon": {
+        "asset": "icons/itgsa.svg",
+        "renderMode": "original",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "facets",
+        "facets": {
+            "matchedTitle": {
+                "translations": {
+                    "en": "ITGSA apps",
+                    "zh-Hans": "金标联盟开放能力"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Other apps",
+                    "zh-Hans": "其他应用"
+                }
+            },
+            "items": [
+                {
+                    "id": "voip-service-kit",
+                    "title": {
+                        "translations": {
+                            "en": "VoIP Service Kit",
+                            "zh-Hans": "VoIP Service Kit"
+                        }
+                    },
+                    "shortTitle": {
+                        "translations": {
+                            "en": "VoIP",
+                            "zh-Hans": "VoIP"
+                        }
+                    },
+                    "condition": {
+                        "evidence": "dex_class",
+                        "operator": "contains_any",
+                        "value": {
+                            "dexClasses": [
+                                {
+                                    "name": {
+                                        "operator": "starts_with",
+                                        "value": "Lcom/voip/service/"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fair-runtime-memory",
+                    "title": {
+                        "translations": {
+                            "en": "Fair Runtime Memory",
+                            "zh-Hans": "公平运行内存机制"
+                        }
+                    },
+                    "shortTitle": {
+                        "translations": {
+                            "en": "Fair Memory",
+                            "zh-Hans": "公平运存机制"
+                        }
+                    },
+                    "condition": {
+                        "any": [
+                            {
+                                "evidence": "dex_class",
+                                "operator": "contains_any",
+                                "value": {
+                                    "dexClasses": [
+                                        {
+                                            "stringConstants": [
+                                                "itgsa.intent.action.TRIM",
+                                                "itgsa.intent.action.KILL"
+                                            ],
+                                            "methodReferences": [
+                                                {
+                                                    "definingClass": "Landroid/content/IntentFilter;",
+                                                    "name": "<init>",
+                                                    "parameterTypes": [
+                                                        "Ljava/lang/String;"
+                                                    ]
+                                                },
+                                                {
+                                                    "definingClass": "Landroid/content/IntentFilter;",
+                                                    "name": "addAction"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "evidence": "manifest_receiver_action",
+                                "operator": "contains_any",
+                                "value": {
+                                    "strings": [
+                                        "itgsa.intent.action.TRIM",
+                                        "itgsa.intent.action.KILL"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "security-paste-view",
+                    "title": {
+                        "translations": {
+                            "en": "Security Paste View",
+                            "zh-Hans": "安全粘贴控件"
+                        }
+                    },
+                    "condition": {
+                        "evidence": "dex_class",
+                        "operator": "contains_any",
+                        "value": {
+                            "dexClasses": [
+                                {
+                                    "name": {
+                                        "operator": "equal",
+                                        "value": "Lcom/os/widget/SecurityPasteView;"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "fingerprint": "artifact"
+}

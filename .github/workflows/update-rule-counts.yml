@@ -1,0 +1,81 @@
+name: Update Rule Counts
+
+on:
+  push:
+    paths:
+      - "native-libs/**"
+      - "activities-libs/**"
+      - "services-libs/**"
+      - "receivers-libs/**"
+      - "providers-libs/**"
+      - "actions-libs/**"
+      - "static-libs/**"
+      - "chart/rules/**"
+      - "cloud/md5/v*"
+      - ".github/workflows/update-rule-counts.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rule-counts-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate rule counts
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          count_rules() {
+            git ls-files -- "$1" | awk '/\.json$/ { count++ } END { print count + 0 }'
+          }
+
+          rules_metadata="cloud/md5/${GITHUB_REF_NAME}"
+          rules_version="$(jq -er '.version' "$rules_metadata")"
+
+          jq -n \
+            --argjson rulesVersion "$rules_version" \
+            --argjson nativeLibraries "$(count_rules native-libs)" \
+            --argjson activities "$(count_rules activities-libs)" \
+            --argjson services "$(count_rules services-libs)" \
+            --argjson receivers "$(count_rules receivers-libs)" \
+            --argjson providers "$(count_rules providers-libs)" \
+            --argjson intentActions "$(count_rules actions-libs)" \
+            --argjson staticLibraries "$(count_rules static-libs)" \
+            --argjson chartRules "$(count_rules chart/rules)" \
+            '{
+              rulesVersion: $rulesVersion,
+              nativeLibraries: $nativeLibraries,
+              activities: $activities,
+              services: $services,
+              receivers: $receivers,
+              providers: $providers,
+              intentActions: $intentActions,
+              staticLibraries: $staticLibraries,
+              chartRules: $chartRules
+            }' > rule-counts.json
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain -- rule-counts.json)" ]]; then
+            echo "Rule counts are already up to date"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- rule-counts.json
+          git commit -m "Update rule counts"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

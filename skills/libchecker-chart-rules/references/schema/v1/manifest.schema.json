@@ -1,0 +1,36 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/LibChecker/LibChecker-Rules/chart/schema/v1/manifest.schema.json",
+    "title": "LibChecker chart bundle manifest",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "schemaVersion",
+        "bundleVersion",
+        "bundleSha256",
+        "bundleSize",
+        "minimumAppVersionCode"
+    ],
+    "properties": {
+        "schemaVersion": {
+            "const": 1
+        },
+        "bundleVersion": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "bundleSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+        },
+        "bundleSize": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2097152
+        },
+        "minimumAppVersionCode": {
+            "type": "integer",
+            "minimum": 0
+        }
+    }
+}

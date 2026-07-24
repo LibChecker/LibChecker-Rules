@@ -1,0 +1,53 @@
+{
+    "id": "official.predictive-back-gesture",
+    "revision": 3,
+    "source": "official",
+    "releaseChannel": "preview-only",
+    "title": {
+        "translations": {
+            "en": "Predictive back gesture",
+            "zh-Hans": "预测性返回手势"
+        }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "Predictive back lets users preview where a back gesture will take them. Apps can explicitly enable predictive back system animations with the android:enableOnBackInvokedCallback application manifest attribute.",
+                "zh-Hans": "预测性返回可让用户在完成返回手势前预览目标界面。应用可通过 Application Manifest 的 android:enableOnBackInvokedCallback 属性显式启用预测性返回系统动画。"
+            }
+        },
+        "referenceUrl": "https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture"
+    },
+    "icon": {
+        "asset": "icons/predictive-back-gesture.svg",
+        "renderMode": "monochrome",
+        "tintRole": "on_surface"
+    },
+    "calculation": {
+        "kind": "predicate",
+        "predicate": {
+            "evidence": "manifest_attribute",
+            "operator": "equal",
+            "value": {
+                "manifestAttribute": {
+                    "element": "application",
+                    "name": "android:enableOnBackInvokedCallback",
+                    "boolean": true
+                }
+            },
+            "matchedTitle": {
+                "translations": {
+                    "en": "Explicitly enabled",
+                    "zh-Hans": "已显式启用"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Not explicitly enabled",
+                    "zh-Hans": "未显式启用"
+                }
+            }
+        }
+    },
+    "fingerprint": "artifact"
+}

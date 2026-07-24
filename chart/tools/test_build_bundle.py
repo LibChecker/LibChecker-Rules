@@ -1,0 +1,326 @@
+import json
+import tempfile
+import unittest
+import zipfile
+from copy import deepcopy
+from pathlib import Path
+
+from chart.tools.build_bundle import (
+    build_bundle,
+    read_rules,
+    validate_calculation,
+    validate_details,
+)
+
+
+class BuildChartBundleTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.chart_dir = Path(__file__).resolve().parents[1]
+
+    def test_source_rules_are_valid(self) -> None:
+        rules = read_rules(self.chart_dir)
+
+        self.assertEqual(
+            [
+                "official.flutter",
+                "official.itgsa",
+                "official.predictive-back-gesture",
+                "official.reactivex",
+            ],
+            [rule["id"] for rule in rules],
+        )
+
+    def test_bundle_is_deterministic_and_contains_only_expected_files(self) -> None:
+        with tempfile.TemporaryDirectory() as first, tempfile.TemporaryDirectory() as second:
+            first_manifest = build_bundle(self.chart_dir, Path(first), 1)
+            second_manifest = build_bundle(self.chart_dir, Path(second), 1)
+
+            self.assertEqual(first_manifest, second_manifest)
+            with zipfile.ZipFile(Path(first) / "chart.bundle") as archive:
+                self.assertEqual(
+                    [
+                        "catalog.json",
+                        "icons/flutter.svg",
+                        "icons/itgsa.svg",
+                        "icons/predictive-back-gesture.svg",
+                        "icons/reactivex.svg",
+                    ],
+                    archive.namelist(),
+                )
+                catalog = json.loads(archive.read("catalog.json"))
+            self.assertEqual(1, catalog["schemaVersion"])
+            self.assertEqual(4, len(catalog["definitions"]))
+            self.assertTrue(
+                all("releaseChannel" not in rule for rule in catalog["definitions"])
+            )
+
+    def test_schema_declares_manifest_attribute_evidence(self) -> None:
+        schema = json.loads(
+            (self.chart_dir / "schema/v1/chart-rule.schema.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        condition = schema["$defs"]["condition"]
+        attribute = schema["$defs"]["manifestAttribute"]
+
+        self.assertIn("manifest_attribute", condition["properties"]["evidence"]["enum"])
+        self.assertEqual(
+            ["element", "name", "boolean"],
+            attribute["required"],
+        )
+        self.assertEqual("application", attribute["properties"]["element"]["const"])
+
+    def test_schema_declares_optional_facet_short_titles(self) -> None:
+        schema = json.loads(
+            (self.chart_dir / "schema/v1/chart-rule.schema.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        facet = schema["$defs"]["facetsCalculation"]["properties"]["facets"][
+            "properties"
+        ]["items"]["items"]
+
+        self.assertNotIn("shortTitle", facet["required"])
+        self.assertEqual(
+            {"$ref": "#/$defs/facetText"},
+            facet["properties"]["shortTitle"],
+        )
+
+    def test_stable_bundle_excludes_preview_only_rules(self) -> None:
+        with tempfile.TemporaryDirectory() as output:
+            manifest = build_bundle(
+                self.chart_dir,
+                Path(output),
+                10,
+                channel="stable",
+                minimum_app_version_code=123,
+            )
+            with zipfile.ZipFile(Path(output) / "chart.bundle") as archive:
+                catalog = json.loads(archive.read("catalog.json"))
+
+        self.assertEqual(
+            ["official.flutter", "official.itgsa", "official.reactivex"],
+            [rule["id"] for rule in catalog["definitions"]],
+        )
+        self.assertEqual(123, manifest["minimumAppVersionCode"])
+
+    def test_native_library_rule_rejects_incompatible_operator(self) -> None:
+        flutter_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.flutter"
+        )
+        invalid_rule = deepcopy(flutter_rule)
+        invalid_rule["calculation"]["predicate"]["operator"] = "equal"
+
+        with self.assertRaisesRegex(ValueError, "must use contains"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+    def test_flutter_rule_preserves_brand_colors(self) -> None:
+        flutter_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.flutter"
+        )
+
+        self.assertEqual("original", flutter_rule["icon"]["renderMode"])
+        self.assertEqual("https://flutter.dev/", flutter_rule["details"]["referenceUrl"])
+
+    def test_predictive_back_rule_uses_theme_aware_icon_and_explicit_manifest_opt_in(
+        self,
+    ) -> None:
+        rule = next(
+            rule
+            for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.predictive-back-gesture"
+        )
+        predicate = rule["calculation"]["predicate"]
+
+        self.assertEqual(3, rule["revision"])
+        self.assertEqual("monochrome", rule["icon"]["renderMode"])
+        self.assertEqual("on_surface", rule["icon"]["tintRole"])
+        icon = (self.chart_dir / rule["icon"]["asset"]).read_text(encoding="utf-8")
+        self.assertIn('viewBox="0 0 1024 1024"', icon)
+        self.assertIn('scale(19.75308642)', icon)
+        self.assertIn('stroke-width="2"', icon)
+        self.assertIn('stroke-linecap="round"', icon)
+        self.assertIn('stroke-linejoin="round"', icon)
+        self.assertEqual("artifact", rule["fingerprint"])
+        self.assertEqual("manifest_attribute", predicate["evidence"])
+        self.assertEqual("equal", predicate["operator"])
+        self.assertEqual(
+            {
+                "manifestAttribute": {
+                    "element": "application",
+                    "name": "android:enableOnBackInvokedCallback",
+                    "boolean": True,
+                }
+            },
+            predicate["value"],
+        )
+        self.assertEqual(
+            "https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture",
+            rule["details"]["referenceUrl"],
+        )
+
+    def test_manifest_attribute_rejects_unsafe_attribute_names(self) -> None:
+        rule = next(
+            rule
+            for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.predictive-back-gesture"
+        )
+        invalid_rule = deepcopy(rule)
+        invalid_rule["calculation"]["predicate"]["value"]["manifestAttribute"][
+            "name"
+        ] = "tools:replace"
+
+        with self.assertRaisesRegex(ValueError, "safe boolean attribute"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+    def test_every_rule_has_localized_details_and_an_https_reference(self) -> None:
+        for rule in read_rules(self.chart_dir):
+            details = rule["details"]
+            self.assertTrue(details["description"]["translations"]["en"])
+            self.assertTrue(details["description"]["translations"]["zh-Hans"])
+            self.assertTrue(details["referenceUrl"].startswith("https://"))
+
+    def test_rule_details_reject_unsafe_reference_urls(self) -> None:
+        details = {
+            "description": {
+                "translations": {"en": "Description", "zh-Hans": "介绍"}
+            },
+            "referenceUrl": "javascript:alert(1)",
+        }
+
+        with self.assertRaisesRegex(ValueError, "invalid reference URL"):
+            validate_details(details, "official.unsafe")
+
+    def test_itgsa_rule_keeps_all_detection_data_in_ordered_facets(self) -> None:
+        itgsa_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
+        )
+        facets = itgsa_rule["calculation"]["facets"]["items"]
+        self.assertEqual(4, itgsa_rule["revision"])
+        self.assertEqual(
+            "https://www.itgsa.com/", itgsa_rule["details"]["referenceUrl"]
+        )
+        self.assertEqual(
+            ["voip-service-kit", "fair-runtime-memory", "security-paste-view"],
+            [facet["id"] for facet in facets],
+        )
+        self.assertEqual(
+            {"en": "VoIP", "zh-Hans": "VoIP"},
+            facets[0]["shortTitle"]["translations"],
+        )
+        self.assertEqual(
+            {"en": "Fair Memory", "zh-Hans": "公平运存机制"},
+            facets[1]["shortTitle"]["translations"],
+        )
+        self.assertNotIn("shortTitle", facets[2])
+
+        voip_queries = facets[0]["condition"]["value"]["dexClasses"]
+        self.assertEqual("Lcom/voip/service/", voip_queries[0]["name"]["value"])
+
+        fair_conditions = facets[1]["condition"]["any"]
+        self.assertEqual(
+            {"dex_class", "manifest_receiver_action"},
+            {condition["evidence"] for condition in fair_conditions},
+        )
+        fair_dex_condition = next(
+            condition
+            for condition in fair_conditions
+            if condition["evidence"] == "dex_class"
+        )
+        fair_queries = fair_dex_condition["value"]["dexClasses"]
+        self.assertEqual(
+            {"itgsa.intent.action.TRIM", "itgsa.intent.action.KILL"},
+            set(fair_queries[0]["stringConstants"]),
+        )
+        self.assertEqual(
+            {"<init>", "addAction"},
+            {
+                reference["name"]
+                for reference in fair_queries[0]["methodReferences"]
+            },
+        )
+
+        security_queries = facets[2]["condition"]["value"]["dexClasses"]
+        self.assertEqual(
+            "Lcom/os/widget/SecurityPasteView;",
+            security_queries[0]["name"]["value"],
+        )
+
+    def test_reactivex_rule_keeps_generic_archive_and_dex_detection_paths(self) -> None:
+        rule = next(
+            rule for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.reactivex"
+        )
+        facets = rule["calculation"]["facets"]["items"]
+
+        self.assertEqual("monochrome", rule["icon"]["renderMode"])
+        self.assertEqual(
+            ["rxjava", "rxkotlin", "rxandroid"],
+            [facet["id"] for facet in facets],
+        )
+        rxjava_conditions = facets[0]["condition"]["any"]
+        self.assertEqual(
+            {"archive_entry", "dex_class"},
+            {condition["evidence"] for condition in rxjava_conditions},
+        )
+        self.assertEqual(
+            ["META-INF/rxjava.properties"],
+            rxjava_conditions[0]["value"]["strings"],
+        )
+        self.assertEqual(
+            "Lio/reactivex/",
+            rxjava_conditions[1]["value"]["dexClasses"][1]["name"]["value"],
+        )
+
+    def test_archive_entry_rejects_traversal(self) -> None:
+        rule = next(
+            rule for rule in read_rules(self.chart_dir)
+            if rule["id"] == "official.reactivex"
+        )
+        invalid_rule = deepcopy(rule)
+        invalid_rule["calculation"]["facets"]["items"][0]["condition"]["any"][0][
+            "value"
+        ]["strings"] = ["../rxjava.properties"]
+
+        with self.assertRaisesRegex(ValueError, "safe entry names"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+    def test_unknown_evidence_is_rejected(self) -> None:
+        itgsa_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
+        )
+        invalid_rule = deepcopy(itgsa_rule)
+        invalid_rule["calculation"]["facets"]["items"][0]["condition"][
+            "evidence"
+        ] = "app_capability"
+
+        with self.assertRaisesRegex(ValueError, "Unsupported rule evidence"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+    def test_duplicate_facet_ids_are_rejected(self) -> None:
+        itgsa_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
+        )
+        invalid_rule = deepcopy(itgsa_rule)
+        invalid_rule["calculation"]["facets"]["items"][1]["id"] = (
+            "voip-service-kit"
+        )
+
+        with self.assertRaisesRegex(ValueError, "Facet id is duplicated"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+    def test_facet_short_title_requires_complete_translations(self) -> None:
+        itgsa_rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.itgsa"
+        )
+        invalid_rule = deepcopy(itgsa_rule)
+        del invalid_rule["calculation"]["facets"]["items"][0]["shortTitle"][
+            "translations"
+        ]["zh-Hans"]
+
+        with self.assertRaisesRegex(ValueError, "invalid translated facet.*shortTitle"):
+            validate_calculation(invalid_rule, invalid_rule["id"])
+
+
+if __name__ == "__main__":
+    unittest.main()
