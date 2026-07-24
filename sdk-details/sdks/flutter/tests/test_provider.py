@@ -1,9 +1,11 @@
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
-import fetcher
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import provider
 
 
 class FetcherTest(unittest.TestCase):
@@ -46,7 +48,7 @@ class FetcherTest(unittest.TestCase):
             calls.append(framework)
             return resolved[framework]
 
-        mappings = fetcher.build_mappings(
+        mappings = provider.build_mappings(
             official,
             existing,
             {framework_old: engine_a},
@@ -62,7 +64,7 @@ class FetcherTest(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
-            fetcher.write_mappings(mappings, output)
+            provider.write_mappings(mappings, output)
             written = json.loads((output / f"{engine_a}.json").read_text())
             self.assertEqual(engine_a, written["engine"])
             self.assertEqual(2, len(written["releases"]))
@@ -74,7 +76,7 @@ class FetcherTest(unittest.TestCase):
                 json.dumps({"engine": "b" * 40, "releases": []})
             )
             with self.assertRaises(ValueError):
-                fetcher.load_existing_mappings(engine_dir)
+                provider.load_existing_mappings(engine_dir)
 
     def test_preserves_historical_release_missing_from_official_index(self):
         engine = "a" * 40
@@ -95,7 +97,7 @@ class FetcherTest(unittest.TestCase):
             }
         }
 
-        mappings = fetcher.build_mappings(
+        mappings = provider.build_mappings(
             {current_framework: self.release(current_framework, "2.0.0", "3.0.0")},
             existing,
             {historical_framework: engine},
@@ -126,8 +128,8 @@ class FetcherTest(unittest.TestCase):
         }
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
-            self.assertEqual(1, fetcher.write_mappings(mappings, output))
-            self.assertEqual(0, fetcher.write_mappings(mappings, output))
+            self.assertEqual(1, provider.write_mappings(mappings, output))
+            self.assertEqual(0, provider.write_mappings(mappings, output))
 
     def test_rejects_duplicate_framework_across_engines(self):
         framework = "1" * 40
@@ -147,7 +149,7 @@ class FetcherTest(unittest.TestCase):
             for engine, version in (("a" * 40, "1.0.0"), ("b" * 40, "2.0.0"))
         }
         with self.assertRaises(ValueError):
-            fetcher.validate_mappings(mappings)
+            provider.validate_mappings(mappings)
 
     @staticmethod
     def release(framework, version, dart):

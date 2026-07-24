@@ -1,6 +1,6 @@
-# Flutter engine mappings
+# Flutter SDK details provider
 
-Files in `engine/` map an engine revision found in `libflutter.so` to official
+Files in `data/engine/` map an engine revision found in `libflutter.so` to official
 Flutter releases. A single engine can belong to multiple Flutter patch
 releases, so consumers must treat `releases` as a candidate list rather than an
 exact version.
@@ -15,15 +15,16 @@ not lost.
 Run the generator locally with:
 
 ```shell
-python -m unittest discover -s flutter_hash/tools -p 'test_*.py'
-python flutter_hash/tools/fetcher.py
-python flutter_hash/tools/fetcher.py --check
+python sdk-details/tools/test.py
+python sdk-details/tools/update.py --sdk flutter
+python sdk-details/tools/update.py --check
 ```
 
 The generator validates existing history before network access, resolves only
 previously unseen framework revisions, limits remote response sizes, writes
 changed files atomically, and leaves unchanged mappings untouched. The scheduled
-workflow serializes runs and commits only changes under `flutter_hash/`.
+generic SDK details workflow serializes runs and commits only generated data
+under `sdk-details/`.
 
 Each generated file uses this schema:
 

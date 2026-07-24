@@ -5,13 +5,9 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-
-
-FLUTTER_HASH_DIR = Path(__file__).resolve().parent.parent
-ENGINE_DIR = FLUTTER_HASH_DIR / "engine"
+SDK_DIR = Path(__file__).resolve().parent
+ENGINE_DIR = SDK_DIR / "data" / "engine"
+SDK_ID = "flutter"
 RELEASE_INDEX_URLS = (
     "https://storage.googleapis.com/flutter_infra_release/releases/releases_linux.json",
     "https://storage.googleapis.com/flutter_infra_release/releases/releases_macos.json",
@@ -29,6 +25,10 @@ _thread_local = threading.local()
 
 
 def create_session():
+    import requests
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+
     session = requests.Session()
     retry = Retry(
         total=4,
@@ -239,18 +239,17 @@ def parse_args():
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
-    if args.check:
-        mappings, _ = load_existing_mappings(ENGINE_DIR)
-        if not mappings:
-            raise ValueError(f"No engine mappings found in {ENGINE_DIR}")
-        print(
-            f"Validated {len(mappings)} engine mappings for "
-            f"{sum(len(item['releases']) for item in mappings.values())} releases"
-        )
-        return
+def validate():
+    mappings, _ = load_existing_mappings(ENGINE_DIR)
+    if not mappings:
+        raise ValueError(f"No engine mappings found in {ENGINE_DIR}")
+    print(
+        f"Validated {len(mappings)} engine mappings for "
+        f"{sum(len(item['releases']) for item in mappings.values())} releases"
+    )
 
+
+def update():
     session = create_session()
     official_releases = collect_official_releases(session)
     existing_mappings, framework_to_engine = load_existing_mappings(ENGINE_DIR)
@@ -262,6 +261,14 @@ def main():
         f"Updated {changed_engine_files} of {len(mappings)} engine mappings for "
         f"{sum(len(item['releases']) for item in mappings.values())} releases"
     )
+
+
+def main():
+    args = parse_args()
+    if args.check:
+        validate()
+    else:
+        update()
 
 
 if __name__ == "__main__":
