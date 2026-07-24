@@ -132,11 +132,13 @@ class BuildChartBundleTest(unittest.TestCase):
         )
         predicate = rule["calculation"]["predicate"]
 
-        self.assertEqual(2, rule["revision"])
+        self.assertEqual(3, rule["revision"])
         self.assertEqual("monochrome", rule["icon"]["renderMode"])
         self.assertEqual("on_surface", rule["icon"]["tintRole"])
         icon = (self.chart_dir / rule["icon"]["asset"]).read_text(encoding="utf-8")
-        self.assertIn('stroke-width="72"', icon)
+        self.assertIn('viewBox="0 0 1024 1024"', icon)
+        self.assertIn('scale(19.75308642)', icon)
+        self.assertIn('stroke-width="2"', icon)
         self.assertIn('stroke-linecap="round"', icon)
         self.assertIn('stroke-linejoin="round"', icon)
         self.assertEqual("artifact", rule["fingerprint"])
