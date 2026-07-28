@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_glance",
+  "target_uuids": [
+    "744E2A7B-9603-4C80-B0FE-7B9ECC46704E"
+  ],
+  "probes": [
+    {
+      "id": "glance_appwidget",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.glance_glance-appwidget.version",
+        "archive_paths": [
+          "META-INF/androidx.glance_glance-appwidget.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

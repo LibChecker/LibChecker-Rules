@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_pdf",
+  "target_uuids": [
+    "C41E9B74-F8B5-4F97-BCBB-875F610DD3F1"
+  ],
+  "probes": [
+    {
+      "id": "pdf_document_service",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.pdf_pdf-document-service.version",
+        "archive_paths": [
+          "META-INF/androidx.pdf_pdf-document-service.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "pdf_document_service_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "pdf_viewer",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.pdf_pdf-viewer.version",
+        "archive_paths": [
+          "META-INF/androidx.pdf_pdf-viewer.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "pdf_viewer_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ],
+    "details": [
+      {
+        "label": {
+          "default": "Document Service"
+        },
+        "source": "pdf_document_service_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "Viewer"
+        },
+        "source": "pdf_viewer_versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

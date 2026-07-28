@@ -1,0 +1,20 @@
+{
+  "sha256": "00ec61173e4df9fad2f9c91faa4ebc57b8b86a8b61219dfa0c33fd0bfdfd49fa",
+  "releases": [
+    {
+      "artifact": "core",
+      "version": "1.5.0",
+      "entry": "META-INF/androidx.test.core.kotlin_module"
+    },
+    {
+      "artifact": "core",
+      "version": "1.5.0-rc01",
+      "entry": "META-INF/androidx.test.core.kotlin_module"
+    },
+    {
+      "artifact": "core",
+      "version": "1.5.0-beta01",
+      "entry": "META-INF/androidx.test.core.kotlin_module"
+    }
+  ]
+}

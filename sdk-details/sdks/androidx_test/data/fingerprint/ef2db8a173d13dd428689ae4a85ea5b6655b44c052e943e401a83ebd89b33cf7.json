@@ -1,0 +1,25 @@
+{
+  "sha256": "ef2db8a173d13dd428689ae4a85ea5b6655b44c052e943e401a83ebd89b33cf7",
+  "releases": [
+    {
+      "artifact": "core",
+      "version": "1.7.0",
+      "entry": "META-INF/core_java_androidx_test_core-core_kt.kotlin_module"
+    },
+    {
+      "artifact": "core",
+      "version": "1.7.0-rc01",
+      "entry": "META-INF/core_java_androidx_test_core-core_kt.kotlin_module"
+    },
+    {
+      "artifact": "core",
+      "version": "1.7.0-beta01",
+      "entry": "META-INF/core_java_androidx_test_core-core_kt.kotlin_module"
+    },
+    {
+      "artifact": "core",
+      "version": "1.7.0-alpha03",
+      "entry": "META-INF/core_java_androidx_test_core-core_internal_kt.kotlin_module"
+    }
+  ]
+}

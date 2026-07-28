@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_car",
+  "target_uuids": [
+    "53E31EB8-9DB5-4B9A-ACE6-35C270EA9FB2"
+  ],
+  "probes": [
+    {
+      "id": "car_app",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.car.app_app.version",
+        "archive_paths": [
+          "META-INF/androidx.car.app_app.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

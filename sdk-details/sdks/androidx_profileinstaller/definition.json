@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_profileinstaller",
+  "target_uuids": [
+    "0EA939B4-805A-4D08-9C68-47C745EB49E5"
+  ],
+  "probes": [
+    {
+      "id": "profileinstaller",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.profileinstaller_profileinstaller.version",
+        "archive_paths": [
+          "META-INF/androidx.profileinstaller_profileinstaller.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

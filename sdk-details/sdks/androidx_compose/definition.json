@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_compose",
+  "target_uuids": [
+    "EFD95ADE-EADB-42FB-9F96-57D47F62FF4F"
+  ],
+  "probes": [
+    {
+      "id": "ui_tooling",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.compose.ui_ui-tooling.version",
+        "archive_paths": [
+          "META-INF/androidx.compose.ui_ui-tooling.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "ui_tooling_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "ui_tooling_preview",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.compose.ui_ui-tooling-preview.version",
+        "archive_paths": [
+          "META-INF/androidx.compose.ui_ui-tooling-preview.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "ui_tooling_preview_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "ui_tooling_data",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.compose.ui_ui-tooling-data.version",
+        "archive_paths": [
+          "META-INF/androidx.compose.ui_ui-tooling-data.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "ui_tooling_data_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ],
+    "details": [
+      {
+        "label": {
+          "default": "UI Tooling"
+        },
+        "source": "ui_tooling_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "UI Tooling Preview"
+        },
+        "source": "ui_tooling_preview_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "UI Tooling Data"
+        },
+        "source": "ui_tooling_data_versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

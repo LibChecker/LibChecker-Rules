@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_xr",
+  "target_uuids": [
+    "C0F66BB0-A2CF-45CD-9DB7-78801E49B9BC"
+  ],
+  "probes": [
+    {
+      "id": "xr_projected",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.xr.projected_projected.version",
+        "archive_paths": [
+          "META-INF/androidx.xr.projected_projected.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

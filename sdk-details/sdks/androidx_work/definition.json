@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_work",
+  "target_uuids": [
+    "42C6F59C-5ABB-442C-A5A1-4638A9BE329D"
+  ],
+  "probes": [
+    {
+      "id": "work_runtime",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.work_work-runtime.version",
+        "archive_paths": [
+          "META-INF/androidx.work_work-runtime.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "work_runtime_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "work_multiprocess",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.work_work-multiprocess.version",
+        "archive_paths": [
+          "META-INF/androidx.work_work-multiprocess.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "work_multiprocess_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "work_gcm",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.work_work-gcm.version",
+        "archive_paths": [
+          "META-INF/androidx.work_work-gcm.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "work_gcm_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ],
+    "details": [
+      {
+        "label": {
+          "default": "Runtime"
+        },
+        "source": "work_runtime_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "Multiprocess"
+        },
+        "source": "work_multiprocess_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "GCM"
+        },
+        "source": "work_gcm_versions",
+        "max_values": 8
+      }
+    ]
+  }
+}
