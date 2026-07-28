@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_slice",
+  "target_uuids": [
+    "41534F7F-505B-4DFA-8298-0BE7DECAE255"
+  ],
+  "probes": [
+    {
+      "id": "slice_core",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.slice_slice-core.version",
+        "archive_paths": [
+          "META-INF/androidx.slice_slice-core.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

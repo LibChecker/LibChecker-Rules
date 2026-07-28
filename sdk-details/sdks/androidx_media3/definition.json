@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_media3",
+  "target_uuids": [
+    "1348B371-85CB-4CDB-9FF1-20734F48AA9E",
+    "17C5D1C7-8A5A-412F-8F4D-C16EC303F663"
+  ],
+  "probes": [
+    {
+      "id": "media3",
+      "source": {
+        "operator": "package_file",
+        "file_name": "classes.dex",
+        "archive_paths": [
+          "classes.dex",
+          "classes2.dex",
+          "classes3.dex",
+          "classes4.dex",
+          "classes5.dex",
+          "classes6.dex",
+          "classes7.dex",
+          "classes8.dex",
+          "classes9.dex",
+          "classes10.dex",
+          "classes11.dex",
+          "classes12.dex",
+          "classes13.dex",
+          "classes14.dex",
+          "classes15.dex",
+          "classes16.dex"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 67108864,
+        "max_total_bytes": 134217728
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "prefixed_semver",
+          "max_results": 8,
+          "prefix": "AndroidXMedia3/"
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

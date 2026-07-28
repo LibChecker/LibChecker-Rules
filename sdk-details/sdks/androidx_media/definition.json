@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_media",
+  "target_uuids": [
+    "A71F8A7D-AFC4-46D6-BAFE-B17D5D129DFD"
+  ],
+  "probes": [
+    {
+      "id": "media",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.media_media.version",
+        "archive_paths": [
+          "META-INF/androidx.media_media.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

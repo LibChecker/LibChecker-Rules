@@ -1,0 +1,10 @@
+{
+  "sha256": "034e257ea3a6c5df1ed6e1bdad8d5eeddef724ce0c4ca3369257725f1a8c780c",
+  "releases": [
+    {
+      "artifact": "core",
+      "version": "1.7.0-alpha02",
+      "entry": "META-INF/core_java_androidx_test_core-core_internal_kt.kotlin_module"
+    }
+  ]
+}

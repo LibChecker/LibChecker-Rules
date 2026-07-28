@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_tracing",
+  "target_uuids": [
+    "7C18D201-2C7B-47BB-AAB1-AD934AC1B253"
+  ],
+  "probes": [
+    {
+      "id": "tracing_perfetto",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.tracing_tracing-perfetto.version",
+        "archive_paths": [
+          "META-INF/androidx.tracing_tracing-perfetto.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

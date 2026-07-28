@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_activity",
+  "target_uuids": [
+    "DF93DF56-63D0-4D3B-AF4B-39CA3C785A18"
+  ],
+  "probes": [
+    {
+      "id": "activity",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.activity_activity.version",
+        "archive_paths": [
+          "META-INF/androidx.activity_activity.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

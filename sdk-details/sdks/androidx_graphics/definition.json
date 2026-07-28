@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_graphics",
+  "target_uuids": [
+    "71464FA3-A55F-4FCE-A805-340482102A77"
+  ],
+  "probes": [
+    {
+      "id": "graphics_core",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.graphics_graphics-core.version",
+        "archive_paths": [
+          "META-INF/androidx.graphics_graphics-core.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "graphics_core_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "graphics_path",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.graphics_graphics-path.version",
+        "archive_paths": [
+          "META-INF/androidx.graphics_graphics-path.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "graphics_path_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ],
+    "details": [
+      {
+        "label": {
+          "default": "Graphics Core"
+        },
+        "source": "graphics_core_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "Graphics Path"
+        },
+        "source": "graphics_path_versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

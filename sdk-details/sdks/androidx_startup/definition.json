@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_startup",
+  "target_uuids": [
+    "64206E9E-3C56-4D79-BFBE-9E24C03A6544"
+  ],
+  "probes": [
+    {
+      "id": "startup_runtime",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.startup_startup-runtime.version",
+        "archive_paths": [
+          "META-INF/androidx.startup_startup-runtime.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

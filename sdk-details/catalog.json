@@ -2,6 +2,224 @@
   "schema_version": 1,
   "entries": [
     {
+      "sdk_id": "androidx_activity",
+      "library_uuids": [
+        "DF93DF56-63D0-4D3B-AF4B-39CA3C785A18"
+      ],
+      "definition": "sdk-details/sdks/androidx_activity/definition.json"
+    },
+    {
+      "sdk_id": "androidx_appcompat",
+      "library_uuids": [
+        "D2A17366-5160-4179-BCEC-F88A566BA8DC"
+      ],
+      "definition": "sdk-details/sdks/androidx_appcompat/definition.json"
+    },
+    {
+      "sdk_id": "androidx_appfunctions",
+      "library_uuids": [
+        "8620AC72-DADE-4C50-93F4-20088E23D1A2"
+      ],
+      "definition": "sdk-details/sdks/androidx_appfunctions/definition.json"
+    },
+    {
+      "sdk_id": "androidx_browser",
+      "library_uuids": [
+        "C13DA049-9065-40F2-8F53-CB67AE354AFB"
+      ],
+      "definition": "sdk-details/sdks/androidx_browser/definition.json"
+    },
+    {
+      "sdk_id": "androidx_camera",
+      "library_uuids": [
+        "B670C354-BD62-41EB-9FEF-D50E0208EC40"
+      ],
+      "definition": "sdk-details/sdks/androidx_camera/definition.json"
+    },
+    {
+      "sdk_id": "androidx_camera2",
+      "library_uuids": [
+        "79A51827-3838-43F5-8EF6-3BDB6496AC6D"
+      ],
+      "definition": "sdk-details/sdks/androidx_camera2/definition.json"
+    },
+    {
+      "sdk_id": "androidx_car",
+      "library_uuids": [
+        "53E31EB8-9DB5-4B9A-ACE6-35C270EA9FB2"
+      ],
+      "definition": "sdk-details/sdks/androidx_car/definition.json"
+    },
+    {
+      "sdk_id": "androidx_compose",
+      "library_uuids": [
+        "EFD95ADE-EADB-42FB-9F96-57D47F62FF4F"
+      ],
+      "definition": "sdk-details/sdks/androidx_compose/definition.json"
+    },
+    {
+      "sdk_id": "androidx_core",
+      "library_uuids": [
+        "B4610D43-D1A3-46C1-A55B-CDE665E18CEA"
+      ],
+      "definition": "sdk-details/sdks/androidx_core/definition.json"
+    },
+    {
+      "sdk_id": "androidx_credentials",
+      "library_uuids": [
+        "A062F89B-0339-484C-B688-BD0FB2B9D76B"
+      ],
+      "definition": "sdk-details/sdks/androidx_credentials/definition.json"
+    },
+    {
+      "sdk_id": "androidx_datastore",
+      "library_uuids": [
+        "17B3384C-87CB-4382-80BB-CE10CEA77E50"
+      ],
+      "definition": "sdk-details/sdks/androidx_datastore/definition.json"
+    },
+    {
+      "sdk_id": "androidx_fileprovider",
+      "library_uuids": [
+        "7B1DA564-ADCF-437B-891E-203CBFF847BE"
+      ],
+      "definition": "sdk-details/sdks/androidx_fileprovider/definition.json"
+    },
+    {
+      "sdk_id": "androidx_glance",
+      "library_uuids": [
+        "744E2A7B-9603-4C80-B0FE-7B9ECC46704E"
+      ],
+      "definition": "sdk-details/sdks/androidx_glance/definition.json"
+    },
+    {
+      "sdk_id": "androidx_graphics",
+      "library_uuids": [
+        "71464FA3-A55F-4FCE-A805-340482102A77"
+      ],
+      "definition": "sdk-details/sdks/androidx_graphics/definition.json"
+    },
+    {
+      "sdk_id": "androidx_lifecycle",
+      "library_uuids": [
+        "1987147A-53F5-4C2B-8913-C56CF3C84BA6"
+      ],
+      "definition": "sdk-details/sdks/androidx_lifecycle/definition.json"
+    },
+    {
+      "sdk_id": "androidx_media",
+      "library_uuids": [
+        "A71F8A7D-AFC4-46D6-BAFE-B17D5D129DFD"
+      ],
+      "definition": "sdk-details/sdks/androidx_media/definition.json"
+    },
+    {
+      "sdk_id": "androidx_media3",
+      "library_uuids": [
+        "1348B371-85CB-4CDB-9FF1-20734F48AA9E",
+        "17C5D1C7-8A5A-412F-8F4D-C16EC303F663"
+      ],
+      "definition": "sdk-details/sdks/androidx_media3/definition.json"
+    },
+    {
+      "sdk_id": "androidx_mediarouter",
+      "library_uuids": [
+        "C6E84B9F-A3BE-49D7-B1EC-4AB7D5DBF3F1"
+      ],
+      "definition": "sdk-details/sdks/androidx_mediarouter/definition.json"
+    },
+    {
+      "sdk_id": "androidx_pdf",
+      "library_uuids": [
+        "C41E9B74-F8B5-4F97-BCBB-875F610DD3F1"
+      ],
+      "definition": "sdk-details/sdks/androidx_pdf/definition.json"
+    },
+    {
+      "sdk_id": "androidx_profileinstaller",
+      "library_uuids": [
+        "0EA939B4-805A-4D08-9C68-47C745EB49E5"
+      ],
+      "definition": "sdk-details/sdks/androidx_profileinstaller/definition.json"
+    },
+    {
+      "sdk_id": "androidx_remotecallback",
+      "library_uuids": [
+        "8DD8485C-8749-4A20-9862-1DEEC77EB80E"
+      ],
+      "definition": "sdk-details/sdks/androidx_remotecallback/definition.json"
+    },
+    {
+      "sdk_id": "androidx_room",
+      "library_uuids": [
+        "8EE5A226-7511-42CD-985A-DA4418BB5355"
+      ],
+      "definition": "sdk-details/sdks/androidx_room/definition.json"
+    },
+    {
+      "sdk_id": "androidx_sharetarget",
+      "library_uuids": [
+        "E345D252-9789-480A-8D3A-1316A09D142D"
+      ],
+      "definition": "sdk-details/sdks/androidx_sharetarget/definition.json"
+    },
+    {
+      "sdk_id": "androidx_slice",
+      "library_uuids": [
+        "41534F7F-505B-4DFA-8298-0BE7DECAE255"
+      ],
+      "definition": "sdk-details/sdks/androidx_slice/definition.json"
+    },
+    {
+      "sdk_id": "androidx_sqlite",
+      "library_uuids": [
+        "84039219-839B-48EB-98C3-D48AE8BF8B17"
+      ],
+      "definition": "sdk-details/sdks/androidx_sqlite/definition.json"
+    },
+    {
+      "sdk_id": "androidx_startup",
+      "library_uuids": [
+        "64206E9E-3C56-4D79-BFBE-9E24C03A6544"
+      ],
+      "definition": "sdk-details/sdks/androidx_startup/definition.json"
+    },
+    {
+      "sdk_id": "androidx_test",
+      "library_uuids": [
+        "88269B1E-863C-45A3-892B-8D9BC8597589"
+      ],
+      "definition": "sdk-details/sdks/androidx_test/definition.json"
+    },
+    {
+      "sdk_id": "androidx_tracing",
+      "library_uuids": [
+        "7C18D201-2C7B-47BB-AAB1-AD934AC1B253"
+      ],
+      "definition": "sdk-details/sdks/androidx_tracing/definition.json"
+    },
+    {
+      "sdk_id": "androidx_webkit",
+      "library_uuids": [
+        "BDDF8BDA-550A-44DE-83EF-9111EF333690"
+      ],
+      "definition": "sdk-details/sdks/androidx_webkit/definition.json"
+    },
+    {
+      "sdk_id": "androidx_work",
+      "library_uuids": [
+        "42C6F59C-5ABB-442C-A5A1-4638A9BE329D"
+      ],
+      "definition": "sdk-details/sdks/androidx_work/definition.json"
+    },
+    {
+      "sdk_id": "androidx_xr",
+      "library_uuids": [
+        "C0F66BB0-A2CF-45CD-9DB7-78801E49B9BC"
+      ],
+      "definition": "sdk-details/sdks/androidx_xr/definition.json"
+    },
+    {
       "sdk_id": "flutter",
       "library_uuids": [
         "AEF9680F-4A43-4EDC-A5B8-8119D23BCD21"

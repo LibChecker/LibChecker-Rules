@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_appfunctions",
+  "target_uuids": [
+    "8620AC72-DADE-4C50-93F4-20088E23D1A2"
+  ],
+  "probes": [
+    {
+      "id": "appfunctions_service",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.appfunctions_appfunctions-service.version",
+        "archive_paths": [
+          "META-INF/androidx.appfunctions_appfunctions-service.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

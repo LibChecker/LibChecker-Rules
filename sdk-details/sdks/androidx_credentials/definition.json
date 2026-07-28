@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_credentials",
+  "target_uuids": [
+    "A062F89B-0339-484C-B688-BD0FB2B9D76B"
+  ],
+  "probes": [
+    {
+      "id": "credentials_auth",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.credentials_credentials-play-services-auth.version",
+        "archive_paths": [
+          "META-INF/androidx.credentials_credentials-play-services-auth.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "credentials_auth_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "provider_events",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.credentials.providerevents_providerevents-play-services.version",
+        "archive_paths": [
+          "META-INF/androidx.credentials.providerevents_providerevents-play-services.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "provider_events_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "registry_provider",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.credentials.registry_registry-provider-play-services.version",
+        "archive_paths": [
+          "META-INF/androidx.credentials.registry_registry-provider-play-services.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "registry_provider_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ],
+    "details": [
+      {
+        "label": {
+          "default": "Play Services Auth"
+        },
+        "source": "credentials_auth_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "Provider Events"
+        },
+        "source": "provider_events_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "Registry Provider"
+        },
+        "source": "registry_provider_versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_webkit",
+  "target_uuids": [
+    "BDDF8BDA-550A-44DE-83EF-9111EF333690"
+  ],
+  "probes": [
+    {
+      "id": "webkit",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.webkit_webkit.version",
+        "archive_paths": [
+          "META-INF/androidx.webkit_webkit.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ]
+  }
+}

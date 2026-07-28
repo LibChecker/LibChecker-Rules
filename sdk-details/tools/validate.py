@@ -3,6 +3,8 @@ import json
 import re
 from pathlib import Path, PurePosixPath
 
+import generate_androidx_definitions
+
 
 ROOT = Path(__file__).resolve().parents[2]
 SDK_DETAILS_DIR = ROOT / "sdk-details"
@@ -12,15 +14,26 @@ UUID_PATTERN = re.compile(
     r"^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
 )
 SDK_ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]{0,63}$")
+SUPPORTED_SCHEMA_VERSIONS = {1, 2}
 SUPPORTED_SOURCE_OPERATORS = {"package_file"}
-SUPPORTED_READER_OPERATORS = {"ascii_strings"}
-SUPPORTED_CAPTURE_TYPES = {"sha1", "semver_channel"}
+V1_READER_OPERATORS = {"ascii_strings"}
+V2_READER_OPERATORS = {"ascii_strings", "file_sha256"}
+V1_CAPTURE_TYPES = {"sha1", "semver_channel"}
+V2_ASCII_CAPTURE_TYPES = {
+    "sha1",
+    "semver_channel",
+    "semver",
+    "prefixed_semver",
+}
+V2_DIGEST_CAPTURE_TYPES = {"sha256"}
 MAX_TARGET_UUIDS = 32
 MAX_CATALOG_ENTRIES = 128
 MAX_FILE_NAME_LENGTH = 128
 MAX_ARCHIVE_PATH_LENGTH = 256
 MAX_LABELS = 16
 MAX_LABEL_LENGTH = 80
+MAX_CAPTURE_PREFIX_LENGTH = 80
+FILE_PROVIDER_UUID = "7B1DA564-ADCF-437B-891E-203CBFF847BE"
 
 
 def load_json(path):
@@ -42,7 +55,8 @@ def require_int(value, field, minimum, maximum):
 
 
 def validate_definition(path, data):
-    if data.get("schema_version") != 1:
+    schema_version = data.get("schema_version")
+    if schema_version not in SUPPORTED_SCHEMA_VERSIONS:
         raise ValueError(f"Unsupported schema_version in {path}")
     sdk_id = data.get("sdk_id")
     if not isinstance(sdk_id, str) or not SDK_ID_PATTERN.fullmatch(sdk_id):
@@ -75,7 +89,13 @@ def validate_definition(path, data):
         reader = probe.get("reader", {})
         if source.get("operator") not in SUPPORTED_SOURCE_OPERATORS:
             raise ValueError(f"Unsupported source operator in {path}")
-        if reader.get("operator") not in SUPPORTED_READER_OPERATORS:
+        reader_operator = reader.get("operator")
+        supported_readers = (
+            V1_READER_OPERATORS
+            if schema_version == 1
+            else V2_READER_OPERATORS
+        )
+        if reader_operator not in supported_readers:
             raise ValueError(f"Unsupported reader operator in {path}")
         file_name = source.get("file_name")
         if (
@@ -110,8 +130,26 @@ def validate_definition(path, data):
             output = capture.get("output")
             if not isinstance(output, str) or not SDK_ID_PATTERN.fullmatch(output):
                 raise ValueError(f"Invalid capture output in {path}")
-            if capture.get("type") not in SUPPORTED_CAPTURE_TYPES:
+            capture_type = capture.get("type")
+            if schema_version == 1:
+                supported_captures = V1_CAPTURE_TYPES
+            elif reader_operator == "file_sha256":
+                supported_captures = V2_DIGEST_CAPTURE_TYPES
+            else:
+                supported_captures = V2_ASCII_CAPTURE_TYPES
+            if capture_type not in supported_captures:
                 raise ValueError(f"Unsupported capture type in {path}")
+            prefix = capture.get("prefix")
+            if capture_type == "prefixed_semver":
+                if (
+                    not isinstance(prefix, str)
+                    or not prefix
+                    or len(prefix) > MAX_CAPTURE_PREFIX_LENGTH
+                    or any(not 0x20 <= ord(character) <= 0x7E for character in prefix)
+                ):
+                    raise ValueError(f"Invalid capture prefix in {path}")
+            elif prefix is not None:
+                raise ValueError(f"Unexpected capture prefix in {path}")
             require_int(capture.get("max_results"), "max_results", 1, 16)
             outputs.add(output)
 
@@ -180,6 +218,29 @@ def collect_rule_uuids():
     return uuids
 
 
+def collect_jetpack_rule_uuids():
+    uuids = set()
+    for path in ROOT.glob("*-libs/**/*.json"):
+        data = load_json(path)
+        if not isinstance(data, dict):
+            continue
+        value = data.get("uuid")
+        localized_data = data.get("data")
+        if not isinstance(value, str) or not isinstance(localized_data, list):
+            continue
+        labels = [
+            item.get("data", {}).get("label")
+            for item in localized_data
+            if isinstance(item, dict) and isinstance(item.get("data"), dict)
+        ]
+        if any(
+            isinstance(label, str) and label.startswith("Jetpack ")
+            for label in labels
+        ) or value == FILE_PROVIDER_UUID:
+            uuids.add(value)
+    return uuids
+
+
 def build_catalog():
     rule_uuids = collect_rule_uuids()
     uuid_owners = {}
@@ -206,6 +267,12 @@ def build_catalog():
         raise ValueError("No SDK detail definitions found")
     if len(entries) > MAX_CATALOG_ENTRIES:
         raise ValueError("Too many SDK detail definitions")
+    missing_jetpack_uuids = collect_jetpack_rule_uuids() - uuid_owners.keys()
+    if missing_jetpack_uuids:
+        raise ValueError(
+            "Jetpack rules missing SDK details: "
+            + ", ".join(sorted(missing_jetpack_uuids))
+        )
     return {"schema_version": 1, "entries": entries}
 
 
@@ -235,8 +302,10 @@ def main():
     parser.add_argument("--write", action="store_true", help="regenerate catalog.json")
     args = parser.parse_args()
     if args.write:
+        generate_androidx_definitions.write()
         changed = write_catalog()
         print("Updated SDK details catalog" if changed else "SDK details catalog is current")
+    generate_androidx_definitions.check()
     check_catalog()
 
 

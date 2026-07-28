@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "sdk_id": "androidx_sqlite",
+  "target_uuids": [
+    "84039219-839B-48EB-98C3-D48AE8BF8B17"
+  ],
+  "probes": [
+    {
+      "id": "sqlite",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.sqlite_sqlite.version",
+        "archive_paths": [
+          "META-INF/androidx.sqlite_sqlite.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "sqlite_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    },
+    {
+      "id": "sqlite_bundled",
+      "source": {
+        "operator": "package_file",
+        "file_name": "androidx.sqlite_sqlite-bundled.version",
+        "archive_paths": [
+          "META-INF/androidx.sqlite_sqlite-bundled.version"
+        ]
+      },
+      "reader": {
+        "operator": "ascii_strings",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 2048
+      },
+      "captures": [
+        {
+          "output": "versions",
+          "type": "semver",
+          "max_results": 8
+        },
+        {
+          "output": "sqlite_bundled_versions",
+          "type": "semver",
+          "max_results": 8
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Version",
+          "zh-Hans": "版本"
+        },
+        "source": "versions",
+        "max_values": 8
+      }
+    ],
+    "details": [
+      {
+        "label": {
+          "default": "SQLite"
+        },
+        "source": "sqlite_versions",
+        "max_values": 8
+      },
+      {
+        "label": {
+          "default": "SQLite Bundled"
+        },
+        "source": "sqlite_bundled_versions",
+        "max_values": 8
+      }
+    ]
+  }
+}
