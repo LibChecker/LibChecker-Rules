@@ -2,6 +2,13 @@
   "engine": "06a2e2a110089dff50fe635cffd2a61e1b24fbcd",
   "releases": [
     {
+      "flutter": "3.47.4",
+      "dart": "3.13.3",
+      "channel": "stable",
+      "framework": "9584c6713b324636289d067944a46fd6b49df14b",
+      "release_date": "2026-09-11T20:58:20.370514Z"
+    },
+    {
       "flutter": "3.47.3",
       "dart": "3.13.3",
       "channel": "stable",
