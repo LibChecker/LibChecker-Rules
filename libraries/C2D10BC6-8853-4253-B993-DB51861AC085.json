@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C2D10BC6-8853-4253-B993-DB51861AC085",
+  "iconId": "ic_lib_aliyun",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "阿里云短视频 SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "阿里云短视频 SDK 依赖的第三方库。",
+        "source_link": "https://help.aliyun.com/document_detail/94451.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Alibaba Cloud Short Video SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Alibaba Cloud Short Video SDK relies on third-party libraries.",
+        "source_link": "https://help.aliyun.com/document_detail/94451.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1224,
+      "type": 0,
+      "name": "libalivcffmpeg.so",
+      "mode": "exact",
+      "priority": 1224,
+      "label": "阿里云短视频 SDK",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalivcffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libalivcffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1225,
+      "type": 0,
+      "name": "libaliresample.so",
+      "mode": "exact",
+      "priority": 1225,
+      "label": "阿里云短视频 SDK",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaliresample.so.json",
+      "examples": {
+        "positive": [
+          "libaliresample.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

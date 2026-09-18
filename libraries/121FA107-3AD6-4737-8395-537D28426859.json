@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 5,
+  "uuid": "121FA107-3AD6-4737-8395-537D28426859",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Filament",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Filament 是一个基于物理的实时渲染引擎，适用于 Android、iOS、Linux、macOS、Windows 和 WebGL。它被设计为在 Android 上尽可能小且尽可能高效。",
+        "source_link": "https://github.com/google/filament"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Filament",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Filament is a physically-based real-time rendering engine for Android, iOS, Linux, macOS, Windows, and WebGL. It is designed to be as small and efficient as possible on Android.",
+        "source_link": "https://github.com/google/filament"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 905,
+      "type": 0,
+      "name": "libfilament-utils-jni.so",
+      "mode": "exact",
+      "priority": 905,
+      "label": "Filament",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfilament-utils-jni.so.json",
+      "examples": {
+        "positive": [
+          "libfilament-utils-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 906,
+      "type": 0,
+      "name": "libfilament-jni.so",
+      "mode": "exact",
+      "priority": 906,
+      "label": "Filament",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfilament-jni.so.json",
+      "examples": {
+        "positive": [
+          "libfilament-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 907,
+      "type": 0,
+      "name": "libgltfio-jni.so",
+      "mode": "exact",
+      "priority": 907,
+      "label": "Filament",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgltfio-jni.so.json",
+      "examples": {
+        "positive": [
+          "libgltfio-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2115,
+      "type": 0,
+      "name": "libfilament-texture-utils-jni.so",
+      "mode": "exact",
+      "priority": 2115,
+      "label": "Filament",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfilament-texture-utils-jni.so.json",
+      "examples": {
+        "positive": [
+          "libfilament-texture-utils-jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

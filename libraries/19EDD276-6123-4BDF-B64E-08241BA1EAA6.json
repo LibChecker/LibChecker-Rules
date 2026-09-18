@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "19EDD276-6123-4BDF-B64E-08241BA1EAA6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libauth",
+        "dev_team": "Bitauth",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "一个超轻量的 JavaScript 库，用于 Bitcoin Cash、Bitcoin 和 Bitauth 应用程序。",
+        "source_link": "https://libauth.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libauth",
+        "dev_team": "Bitauth",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "An ultra-lightweight JavaScript library for Bitcoin Cash, Bitcoin, and Bitauth applications.",
+        "source_link": "https://libauth.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1994,
+      "type": 0,
+      "name": "libauth.so",
+      "mode": "exact",
+      "priority": 1994,
+      "label": "libauth",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libauth.so.json",
+      "examples": {
+        "positive": [
+          "libauth.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

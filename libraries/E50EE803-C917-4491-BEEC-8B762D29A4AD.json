@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E50EE803-C917-4491-BEEC-8B762D29A4AD",
+  "iconId": "ic_lib_kuaishou",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "快手广告 SDK",
+        "dev_team": "快手",
+        "rule_contributors": [
+          "天秀宝宝"
+        ],
+        "description": "快手信息流广告，为您和用户搭建桥梁。",
+        "source_link": "https://ad.e.kuaishou.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Kuaishou Ad SDK",
+        "dev_team": "快手",
+        "rule_contributors": [
+          "天秀宝宝"
+        ],
+        "description": "Kuaishou information flow ads build a bridge between you and users.",
+        "source_link": "https://ad.e.kuaishou.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 207,
+      "type": 1,
+      "name": "com.ksad.download.service.DownloadService",
+      "mode": "exact",
+      "priority": 207,
+      "label": "快手广告 SDK",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ksad/download/service/DownloadService.json",
+      "examples": {
+        "positive": [
+          "com.ksad.download.service.DownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 291,
+      "type": 2,
+      "name": "com.kuaishou.commercial.downloader.center.AdDownloadCenterV2Activity",
+      "mode": "exact",
+      "priority": 291,
+      "label": "快手广告 SDK",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kuaishou/commercial/downloader/center/AdDownloadCenterV2Activity.json",
+      "examples": {
+        "positive": [
+          "com.kuaishou.commercial.downloader.center.AdDownloadCenterV2Activity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 416,
+      "type": 3,
+      "name": "com.ksad.download.DownloadReceiver",
+      "mode": "exact",
+      "priority": 416,
+      "label": "快手广告 SDK",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/ksad/download/DownloadReceiver.json",
+      "examples": {
+        "positive": [
+          "com.ksad.download.DownloadReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 939,
+      "type": 2,
+      "name": "com\\.kwad\\.sdk\\.api\\.proxy\\.(.*)",
+      "mode": "regex",
+      "priority": 939,
+      "label": "Kwai Ad SDK",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": "regex_kwai_ad_sdk",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_kwai_ad_sdk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 940,
+      "type": 1,
+      "name": "com\\.kwad\\.sdk\\.api\\.proxy\\.(.*)",
+      "mode": "regex",
+      "priority": 940,
+      "label": "Kwai Ad SDK",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": "regex_kwai_ad_sdk",
+      "hasDetail": true,
+      "legacyPath": "services-libs/regex/regex_kwai_ad_sdk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 941,
+      "type": 4,
+      "name": "com.kwad.sdk.api.proxy.app.AdSdkFileProvider",
+      "mode": "exact",
+      "priority": 941,
+      "label": "Kwai Ad SDK",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/kwad/sdk/api/proxy/app/AdSdkFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.kwad.sdk.api.proxy.app.AdSdkFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

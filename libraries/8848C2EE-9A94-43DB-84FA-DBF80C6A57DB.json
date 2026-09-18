@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8848C2EE-9A94-43DB-84FA-DBF80C6A57DB",
+  "iconId": "ic_lib_mpaas",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "mPaaS 扫一扫",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "扫一扫（Scan）是 mPaaS 提供的扫码组件，源于支付宝的扫码能力。该组件秉承了支付宝精准、快速的扫码能力，能够迅速识别出条形码并准确地获得条码中的信息。",
+        "source_link": "https://help.aliyun.com/document_detail/52599.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "mPaaS Scan",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Scan is a component provided by mPaaS for scanning codes, originating from Alipay's scanning capabilities. This component inherits Alipay's precise and fast scanning capabilities, quickly identifying barcodes and accurately obtaining information from the codes.",
+        "source_link": "https://help.aliyun.com/document_detail/52599.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1019,
+      "type": 2,
+      "name": "com.alipay.mobile.scansdk.activity.ToolsCaptureActivity",
+      "mode": "exact",
+      "priority": 1019,
+      "label": "mPaaS 扫一扫",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/scansdk/activity/ToolsCaptureActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.scansdk.activity.ToolsCaptureActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1020,
+      "type": 2,
+      "name": "com.alipay.mobile.scansdk.activity.MPaasToolsCaptureActivity",
+      "mode": "exact",
+      "priority": 1020,
+      "label": "mPaaS 扫一扫",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/scansdk/activity/MPaasToolsCaptureActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.scansdk.activity.MPaasToolsCaptureActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

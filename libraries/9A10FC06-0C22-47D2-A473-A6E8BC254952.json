@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9A10FC06-0C22-47D2-A473-A6E8BC254952",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Vosk",
+        "dev_team": "alphacephei",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "适用于 Android、iOS、Raspberry Pi 和服务器的离线语音识别 API，支持 Python、Java、C# 和 Node。",
+        "source_link": "https://github.com/alphacep/vosk-api"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Vosk",
+        "dev_team": "alphacephei",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Offline speech recognition API for Android, iOS, Raspberry Pi, and servers with Python, Java, C#, and Node.",
+        "source_link": "https://github.com/alphacep/vosk-api"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1622,
+      "type": 0,
+      "name": "libvosk.so",
+      "mode": "exact",
+      "priority": 1622,
+      "label": "Vosk",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvosk.so.json",
+      "examples": {
+        "positive": [
+          "libvosk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

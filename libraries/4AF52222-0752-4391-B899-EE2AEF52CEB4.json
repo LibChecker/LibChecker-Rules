@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4AF52222-0752-4391-B899-EE2AEF52CEB4",
+  "iconId": "ic_lib_google_arcore",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ARCore",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "ARCore 是 Google 的增强现实体验构建平台。 ARCore 利用不同的 API 让您的手机能够感知其环境、理解现实世界并与信息进行交互。 一些在 Android 和 iOS 上同时提供的 API 支持共享 AR 体验。",
+        "source_link": "https://developers.google.com/ar/discover/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ARCore",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "ARCore is Google's platform for building augmented reality experiences. ARCore uses different APIs to enable your phone to sense its environment, understand the world, and interact with information. Some of the APIs are available across Android and iOS to enable shared AR experiences.",
+        "source_link": "https://developers.google.com/ar/discover/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 55,
+      "type": 0,
+      "name": "libarcore_sdk_jni.so",
+      "mode": "exact",
+      "priority": 55,
+      "label": "ARCore",
+      "iconId": "ic_lib_google_arcore",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcore_sdk_jni.so.json",
+      "examples": {
+        "positive": [
+          "libarcore_sdk_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 318,
+      "type": 2,
+      "name": "com.google.ar.core.InstallActivity",
+      "mode": "exact",
+      "priority": 318,
+      "label": "ARCore",
+      "iconId": "ic_lib_google_arcore",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/ar/core/InstallActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.ar.core.InstallActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2106,
+      "type": 0,
+      "name": "libarcore_c.so",
+      "mode": "exact",
+      "priority": 2106,
+      "label": "ARCore",
+      "iconId": "ic_lib_google_arcore",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcore_c.so.json",
+      "examples": {
+        "positive": [
+          "libarcore_c.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 5,
+  "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9",
+  "iconId": "ic_lib_iqiyi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Neptune",
+        "dev_team": "iQIYI",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+        "source_link": "https://github.com/iqiyi/Neptune"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Neptune",
+        "dev_team": "iQIYI",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+        "source_link": "https://github.com/iqiyi/Neptune"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 880,
+      "type": 4,
+      "name": "org.qiyi.pluginlibrary.component.ContentProviderProxy1",
+      "mode": "exact",
+      "priority": 880,
+      "label": "Neptune",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/org/qiyi/pluginlibrary/component/ContentProviderProxy1.json",
+      "examples": {
+        "positive": [
+          "org.qiyi.pluginlibrary.component.ContentProviderProxy1"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 881,
+      "type": 4,
+      "name": "org.qiyi.pluginlibrary.pm.PluginPackageManagerProvider",
+      "mode": "exact",
+      "priority": 881,
+      "label": "Neptune",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/org/qiyi/pluginlibrary/pm/PluginPackageManagerProvider.json",
+      "examples": {
+        "positive": [
+          "org.qiyi.pluginlibrary.pm.PluginPackageManagerProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2348,
+      "type": 9,
+      "name": "com.qiyi.video.plugin.installed.service.INSTALL",
+      "mode": "exact",
+      "priority": 2348,
+      "label": "Neptune",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.qiyi.video.plugin.installed.service.INSTALL.json",
+      "examples": {
+        "positive": [
+          "com.qiyi.video.plugin.installed.service.INSTALL"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy0.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    },
+    {
+      "path": "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy1.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    },
+    {
+      "path": "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy2.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    },
+    {
+      "path": "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy3.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    },
+    {
+      "path": "services-libs/org/qiyi/pluginlibrary/install/PluginInstallerService.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    },
+    {
+      "path": "services-libs/org/qiyi/pluginlibrary/pm/PluginPackageManagerService.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    },
+    {
+      "path": "activities-libs/regex/regex_neptune.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune 是一套灵活，稳定，轻量级的插件化方案。它现在每天在数亿的设备上动态加载和运行插件，支撑着爱奇艺许多独立业务模块的需求和发展，如爱奇艺文学，电影票等。 Neptune 现在完全兼容 Android P 系统，可以在 Android P 设备上稳定且无缝地运行。框架只使用了少数几个浅灰名单中的 API。",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Neptune",
+              "dev_team": "iQIYI",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Neptune is a flexible, stable, lightweight plugin solution. It now dynamically loads and runs plugins on billions of devices daily, supporting the needs and development of many independent business modules of iQIYI, such as iQIYI Literature, Movie Tickets, etc. Neptune is now fully compatible with the Android P system and can run stably and seamlessly on Android P devices. The framework uses only a few APIs from the shallow graylist.",
+              "source_link": "https://github.com/iqiyi/Neptune"
+            }
+          }
+        ],
+        "uuid": "152C27BD-B16C-46CF-BB78-9061EB0DB0F9"
+      }
+    }
+  ]
+}

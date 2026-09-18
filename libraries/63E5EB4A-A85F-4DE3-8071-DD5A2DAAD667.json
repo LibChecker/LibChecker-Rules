@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "63E5EB4A-A85F-4DE3-8071-DD5A2DAAD667",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Eclipse Paho Android Service",
+        "dev_team": "eclipse-paho",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Paho Android Service 是一个为 Android 开发应用程序的 MQTT 客户端库，使用 Java 编写。",
+        "source_link": "https://github.com/eclipse-paho/paho.mqtt.android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Eclipse Paho Android Service",
+        "dev_team": "eclipse-paho",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "The Paho Android Service is an MQTT client library written in Java for developing applications on Android.",
+        "source_link": "https://github.com/eclipse-paho/paho.mqtt.android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2285,
+      "type": 1,
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "mode": "exact",
+      "priority": 2285,
+      "label": "Eclipse Paho Android Service",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/eclipse/paho/android/service/MqttService.json",
+      "examples": {
+        "positive": [
+          "org.eclipse.paho.android.service.MqttService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

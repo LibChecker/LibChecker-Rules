@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B0053AEB-C673-49EF-BD71-A7C7B71A3932",
+  "iconId": "ic_lib_alipay",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "支付宝 SDK",
+        "dev_team": "Alipay",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "支付宝开放平台基于支付宝海量用户，将强大的支付、营销、数据能力，通过接口等形式开放给第三方合作伙伴，帮助第三方合作伙伴创建更具竞争力的应用。",
+        "source_link": "https://opendocs.alipay.com/open/200/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Alipay SDK",
+        "dev_team": "Alipay",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "The Alipay Open Platform, based on Alipay's vast user base, opens powerful payment, marketing, and data capabilities to third-party partners through interfaces, helping them create more competitive applications.",
+        "source_link": "https://opendocs.alipay.com/open/200/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 247,
+      "type": 1,
+      "name": "com.alipay.android.app.MspService",
+      "mode": "exact",
+      "priority": 247,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/android/app/MspService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.app.MspService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 297,
+      "type": 2,
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "mode": "exact",
+      "priority": 297,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/app/H5PayActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.app.H5PayActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 305,
+      "type": 2,
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "mode": "exact",
+      "priority": 305,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/app/H5OpenAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.app.H5OpenAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 307,
+      "type": 2,
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "mode": "exact",
+      "priority": 307,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/app/AlipayResultActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.app.AlipayResultActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 329,
+      "type": 2,
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "mode": "exact",
+      "priority": 329,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/app/PayResultActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.app.PayResultActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 362,
+      "type": 2,
+      "name": "com.alipay.sdk.auth.AuthActivity",
+      "mode": "exact",
+      "priority": 362,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/auth/AuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.auth.AuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 366,
+      "type": 2,
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "mode": "exact",
+      "priority": 366,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/app/H5AuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.app.H5AuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 723,
+      "type": 2,
+      "name": "com.alipay.sdk.app.APayEntranceActivity",
+      "mode": "exact",
+      "priority": 723,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/sdk/app/APayEntranceActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.sdk.app.APayEntranceActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

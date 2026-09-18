@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5294F31F-63A8-4EF0-927F-687A07E958DB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Pine",
+        "dev_team": "canyie",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Pine 是一个在虚拟机层面、以Java方法为粒度的运行时动态 hook 框架，它可以拦截本进程内几乎所有的 java 方法调用。",
+        "source_link": "https://github.com/canyie/pine"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Pine",
+        "dev_team": "canyie",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Pine is a dynamic java method hook framework on ART runtime, which can intercept almost all java method calls in the current process.",
+        "source_link": "https://github.com/canyie/pine"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2242,
+      "type": 0,
+      "name": "libpine.so",
+      "mode": "exact",
+      "priority": 2242,
+      "label": "Pine",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpine.so.json",
+      "examples": {
+        "positive": [
+          "libpine.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DC9B307D-DAB5-5C91-8EF9-BBFD30B8F9DF",
+  "iconId": "ic_lib_iqiyi",
+  "data": [],
+  "matchers": [
+    {
+      "id": 855,
+      "type": 1,
+      "name": "org\\.qiyi\\.pluginlibrary\\.component\\.(.*)",
+      "mode": "regex",
+      "priority": 855,
+      "label": "Neptune",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": "regex_neptune",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

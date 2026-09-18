@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "45AC5ECF-6A6D-5371-8166-7EFBDED0D0CE",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 479,
+      "type": 5,
+      "name": "androidx.lifecycle",
+      "mode": "exact",
+      "priority": 479,
+      "label": "Jetpack Lifecycle",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.lifecycle"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

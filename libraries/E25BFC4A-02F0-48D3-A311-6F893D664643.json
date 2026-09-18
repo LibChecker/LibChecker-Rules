@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E25BFC4A-02F0-48D3-A311-6F893D664643",
+  "iconId": "ic_lib_netease_shield",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "网易易盾",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "ArthurCyy",
+          "yfdyh000",
+          "JimmyJLNU"
+        ],
+        "description": "您身边的移动安全专家，为移动应用安全保驾护航。",
+        "source_link": "https://dun.163.com/product/android-reinforce"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "NetEase Yidun",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "ArthurCyy",
+          "yfdyh000",
+          "JimmyJLNU"
+        ],
+        "description": "Your mobile security expert, safeguarding mobile application security.",
+        "source_link": "https://dun.163.com/product/android-reinforce"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1086,
+      "type": 0,
+      "name": "libnesec.so",
+      "mode": "exact",
+      "priority": 1086,
+      "label": "网易易盾",
+      "iconId": "ic_lib_netease_shield",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnesec.so.json",
+      "examples": {
+        "positive": [
+          "libnesec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1149,
+      "type": 0,
+      "name": "libnesec-x86.so",
+      "mode": "exact",
+      "priority": 1149,
+      "label": "网易易盾",
+      "iconId": "ic_lib_netease_shield",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnesec-x86.so.json",
+      "examples": {
+        "positive": [
+          "libnesec-x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1248,
+      "type": 0,
+      "name": "libnetsecsdk-(.*)\\.so",
+      "mode": "regex",
+      "priority": 1248,
+      "label": "网易易盾",
+      "iconId": "ic_lib_netease_shield",
+      "regexName": "regex_netease_sec",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_netease_sec.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1249,
+      "type": 0,
+      "name": "libnetmobsec-(.*)\\.so",
+      "mode": "regex",
+      "priority": 1249,
+      "label": "网易易盾",
+      "iconId": "ic_lib_netease_shield",
+      "regexName": "regex_netease_sec",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_netease_sec.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1470,
+      "type": 0,
+      "name": "libnesec_x86.so",
+      "mode": "exact",
+      "priority": 1470,
+      "label": "网易易盾",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnesec_x86.so.json",
+      "examples": {
+        "positive": [
+          "libnesec_x86.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

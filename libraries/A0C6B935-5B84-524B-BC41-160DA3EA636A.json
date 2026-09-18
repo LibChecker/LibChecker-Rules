@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A0C6B935-5B84-524B-BC41-160DA3EA636A",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 490,
+      "type": 5,
+      "name": "androidx.recyclerview",
+      "mode": "exact",
+      "priority": 490,
+      "label": "Jetpack RecyclerView",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.recyclerview"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

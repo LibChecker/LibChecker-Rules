@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CBF5BE97-7FB5-4DD7-87CB-B35C4DBF6C02",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "移动应用推广 SDK",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "百度移动推广 SDK(Android)是百度官方推出的移动推广 SDK 在 Android 平台上的版本",
+        "source_link": "https://ssp.baidu.com/home"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mobile Application Promotion SDK",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Baidu Mobile Promotion SDK (Android) is the Android platform version of the mobile promotion SDK officially launched by Baidu.",
+        "source_link": "https://ssp.baidu.com/home"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 340,
+      "type": 2,
+      "name": "com.baidu.mobads.AppActivity",
+      "mode": "exact",
+      "priority": 340,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/mobads/AppActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.AppActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 445,
+      "type": 4,
+      "name": "com.baidu.mobads.openad.FileProvider",
+      "mode": "exact",
+      "priority": 445,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/baidu/mobads/openad/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.openad.FileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 591,
+      "type": 2,
+      "name": "com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity",
+      "mode": "exact",
+      "priority": 591,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/mobads/production/rewardvideo/MobRewardVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1059,
+      "type": 4,
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "mode": "exact",
+      "priority": 1059,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/baidu/mobads/sdk/api/BdFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.sdk.api.BdFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1690,
+      "type": 2,
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "mode": "exact",
+      "priority": 1690,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/mobads/sdk/api/AppActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.sdk.api.AppActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1691,
+      "type": 2,
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "mode": "exact",
+      "priority": 1691,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/mobads/sdk/api/BdShellActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.sdk.api.BdShellActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1692,
+      "type": 2,
+      "name": "com.baidu.mobads.sdk.api.MobCPUDramaActivity",
+      "mode": "exact",
+      "priority": 1692,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/mobads/sdk/api/MobCPUDramaActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.sdk.api.MobCPUDramaActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1693,
+      "type": 2,
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "mode": "exact",
+      "priority": 1693,
+      "label": "移动应用推广 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/mobads/sdk/api/MobRewardVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.mobads.sdk.api.MobRewardVideoActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

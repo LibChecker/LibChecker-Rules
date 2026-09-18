@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "34A26199-9F89-41C3-B9E4-5DFB03982A93",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndFix",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe"
+        ],
+        "description": "AndFix 是一种在线修复错误而无需重新分发 Android App 的解决方案。",
+        "source_link": "https://github.com/alibaba/AndFix"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndFix",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe"
+        ],
+        "description": "AndFix is a solution for fixing bugs online without redistributing the Android App.",
+        "source_link": "https://github.com/alibaba/AndFix"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 13,
+      "type": 0,
+      "name": "libandfix.so",
+      "mode": "exact",
+      "priority": 13,
+      "label": "AndFix",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandfix.so.json",
+      "examples": {
+        "positive": [
+          "libandfix.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 159,
+      "type": 0,
+      "name": "libandfix_x86.so",
+      "mode": "exact",
+      "priority": 159,
+      "label": "AndFix",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandfix_x86.so.json",
+      "examples": {
+        "positive": [
+          "libandfix_x86.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

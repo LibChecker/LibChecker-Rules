@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CF7DC46E-7BA6-4AFE-BD84-FC38FB3971E6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LuaJIT",
+        "dev_team": "Mike Pall",
+        "rule_contributors": [
+          "aslua"
+        ],
+        "description": "LuaJIT 是 Lua 编程语言的即时编译器（JIT）。Lua 是一种强大、动态且轻量级的编程语言。它可以嵌入使用，也可以作为通用的独立语言使用。",
+        "source_link": "https://github.com/LuaJIT/LuaJIT"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LuaJIT",
+        "dev_team": "Mike Pall",
+        "rule_contributors": [
+          "aslua"
+        ],
+        "description": "LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may be embedded or used as a general-purpose, stand-alone language.",
+        "source_link": "https://github.com/LuaJIT/LuaJIT"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2822,
+      "type": 0,
+      "name": "libluajit.so",
+      "mode": "exact",
+      "priority": 2822,
+      "label": "LuaJIT",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libluajit.so.json",
+      "examples": {
+        "positive": [
+          "libluajit.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "45A4F845-E453-4BED-AEBD-5CAA4D8304D0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Nitro Modules",
+        "dev_team": "Margelo",
+        "rule_contributors": [
+          "coder-xiaomo"
+        ],
+        "description": "Nitro Modules 是高效的原生模块，具有静态编译到 JSI 的绑定层以及类型安全的 JS 绑定。",
+        "source_link": "https://github.com/mrousavy/nitro"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Nitro Modules",
+        "dev_team": "Margelo",
+        "rule_contributors": [
+          "coder-xiaomo"
+        ],
+        "description": "Nitro Modules are highly efficient native modules with a statically compiled binding layer to JSI, and typesafe JS bindings.",
+        "source_link": "https://github.com/mrousavy/nitro"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2768,
+      "type": 0,
+      "name": "libNitroModules.so",
+      "mode": "exact",
+      "priority": 2768,
+      "label": "Nitro Modules",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNitroModules.so.json",
+      "examples": {
+        "positive": [
+          "libNitroModules.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

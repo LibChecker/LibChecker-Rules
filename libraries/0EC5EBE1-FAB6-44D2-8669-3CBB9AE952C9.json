@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0EC5EBE1-FAB6-44D2-8669-3CBB9AE952C9",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Epic",
+        "dev_team": "weishu",
+        "rule_contributors": [
+          "Absinthe",
+          "d1y"
+        ],
+        "description": "Epic 是一个在虚拟机层面、以 Java Method 为粒度的 运行时 AOP Hook 框架。简单来说，Epic 就是 ART 上的 Dexposed（支持 Android 4.0 ~ 10.0）。它可以拦截本进程内部几乎任意的 Java 方法调用，可用于实现 AOP 编程、运行时插桩、性能分析、安全审计等。",
+        "source_link": "https://github.com/tiann/epic/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Epic",
+        "dev_team": "weishu",
+        "rule_contributors": [
+          "Absinthe",
+          "d1y"
+        ],
+        "description": "Epic is a runtime AOP Hook framework at the virtual machine level, with Java Method as the granularity. Simply put, Epic is Dexposed on ART (supports Android 4.0 ~ 10.0). It can intercept almost any Java method call within the process, and can be used to implement AOP programming, runtime instrumentation, performance analysis, security auditing, and more.",
+        "source_link": "https://github.com/tiann/epic/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 151,
+      "type": 0,
+      "name": "libepic.so",
+      "mode": "exact",
+      "priority": 151,
+      "label": "Epic",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libepic.so.json",
+      "examples": {
+        "positive": [
+          "libepic.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1132,
+      "type": 0,
+      "name": "libarmepic",
+      "mode": "exact",
+      "priority": 1132,
+      "label": "Epic",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarmepic.json",
+      "examples": {
+        "positive": [
+          "libarmepic"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

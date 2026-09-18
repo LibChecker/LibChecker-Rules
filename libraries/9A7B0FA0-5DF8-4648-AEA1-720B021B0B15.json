@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9A7B0FA0-5DF8-4648-AEA1-720B021B0B15",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "TBS",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "这是一个适用于 TBS 的服务类。",
+        "source_link": ""
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "TBS",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "This is a service class for TBS",
+        "source_link": ""
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2354,
+      "type": 9,
+      "name": "com.tencent.smtt.tbs.video.PLAY",
+      "mode": "exact",
+      "priority": 2354,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.smtt.tbs.video.PLAY.json",
+      "examples": {
+        "positive": [
+          "com.tencent.smtt.tbs.video.PLAY"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

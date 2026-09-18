@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "047188A1-7E63-47CB-90FB-033180D89676",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GCanvas",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "GCanvas 是一个跨平台的画布解决方案，它实现了图形 2D 和 WebGL API。GCanvas 使其用户能够直接访问 OpenGL ES API。GCanvas 旨在解决 JavaScript 开发人员的画布的性能问题和兼容性问题。",
+        "source_link": "https://alibaba.github.io/GCanvas/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GCanvas",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "GCanvas is a cross-platform canvas solution that implements graphics 2D and WebGL API. GCanvas enables its users to directly access the OpenGL ES API. GCanvas is designed to address performance and compatibility issues of canvas for JavaScript developers.",
+        "source_link": "https://alibaba.github.io/GCanvas/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 99,
+      "type": 0,
+      "name": "libgcanvas.so",
+      "mode": "exact",
+      "priority": 99,
+      "label": "GCanvas",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgcanvas.so.json",
+      "examples": {
+        "positive": [
+          "libgcanvas.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2206,
+      "type": 0,
+      "name": "libgcanvas_runtime.so",
+      "mode": "exact",
+      "priority": 2206,
+      "label": "GCanvas",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgcanvas_runtime.so.json",
+      "examples": {
+        "positive": [
+          "libgcanvas_runtime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2207,
+      "type": 0,
+      "name": "libgcanvas_runtime_jsi.so",
+      "mode": "exact",
+      "priority": 2207,
+      "label": "GCanvas",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgcanvas_runtime_jsi.so.json",
+      "examples": {
+        "positive": [
+          "libgcanvas_runtime_jsi.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

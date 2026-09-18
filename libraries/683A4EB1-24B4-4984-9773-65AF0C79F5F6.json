@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "683A4EB1-24B4-4984-9773-65AF0C79F5F6",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "protobuf",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Protocol Buffers（即 protobuf）是 Google 的语言中立、平台中立、可扩展的结构化数据序列化机制。",
+        "source_link": "https://github.com/protocolbuffers/protobuf"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "protobuf",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.",
+        "source_link": "https://github.com/protocolbuffers/protobuf"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1934,
+      "type": 0,
+      "name": "libprotobuf.so",
+      "mode": "exact",
+      "priority": 1934,
+      "label": "protobuf",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libprotobuf.so.json",
+      "examples": {
+        "positive": [
+          "libprotobuf.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1967,
+      "type": 0,
+      "name": "libprotobuf-lite.so",
+      "mode": "exact",
+      "priority": 1967,
+      "label": "protobuf",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libprotobuf-lite.so.json",
+      "examples": {
+        "positive": [
+          "libprotobuf-lite.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2104,
+      "type": 0,
+      "name": "libProtobufLite.so",
+      "mode": "exact",
+      "priority": 2104,
+      "label": "protobuf",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libProtobufLite.so.json",
+      "examples": {
+        "positive": [
+          "libProtobufLite.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

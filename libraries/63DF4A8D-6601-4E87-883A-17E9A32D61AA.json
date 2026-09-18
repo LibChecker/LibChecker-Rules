@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "63DF4A8D-6601-4E87-883A-17E9A32D61AA",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Ruffle",
+        "dev_team": "Ruffle",
+        "rule_contributors": [
+          "peashooter2"
+        ],
+        "description": "Ruffle 是一个使用 Rust 编程语言编写的 Adobe Flash Player 模拟器。",
+        "source_link": "https://github.com/ruffle-rs/ruffle-android/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Ruffle",
+        "dev_team": "Ruffle",
+        "rule_contributors": [
+          "peashooter2"
+        ],
+        "description": "Ruffle is an Adobe Flash Player emulator written in the Rust programming language.",
+        "source_link": "https://github.com/ruffle-rs/ruffle-android/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2836,
+      "type": 0,
+      "name": "libruffle_android.so",
+      "mode": "exact",
+      "priority": 2836,
+      "label": "Ruffle",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libruffle_android.so.json",
+      "examples": {
+        "positive": [
+          "libruffle_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

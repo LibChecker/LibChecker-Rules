@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9AC043A0-B53D-4EBB-AC77-56120965045E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "croppy",
+        "dev_team": "kekland",
+        "rule_contributors": [
+          "JamieYee"
+        ],
+        "description": "Croppy 是一个为 Flutter 应用提供直观图片裁剪功能的高性能图片裁剪组件。",
+        "source_link": "https://github.com/kekland/croppy"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "croppy",
+        "dev_team": "kekland",
+        "rule_contributors": [
+          "JamieYee"
+        ],
+        "description": "Croppy is a high-performance image cropping widget that provides intuitive image cropping functionality for Flutter applications.",
+        "source_link": "https://github.com/kekland/croppy"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2642,
+      "type": 0,
+      "name": "libcroppy.so",
+      "mode": "exact",
+      "priority": 2642,
+      "label": "croppy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcroppy.so.json",
+      "examples": {
+        "positive": [
+          "libcroppy.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

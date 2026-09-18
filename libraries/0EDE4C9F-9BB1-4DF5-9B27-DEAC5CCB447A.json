@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0EDE4C9F-9BB1-4DF5-9B27-DEAC5CCB447A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "即构极速视频 SDK",
+        "dev_team": "即构",
+        "rule_contributors": [
+          "KangYee",
+          "WOLFRAZOR"
+        ],
+        "description": "极速视频（Express Video）是一款实时的音视频互动服务产品，能够为开发者提供便捷接入、高可靠、多平台互通的音视频服务。通过低至 200 ms 的端到端平均时延，业内领先的保障弱网质量的 QoS 策略，并结合强大的 3A 处理能力，完美支持一对多、多对多的实时音视频通话、直播、会议等场景。",
+        "source_link": "https://doc-zh.zego.im/article/5611"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Zego Express Video SDK",
+        "dev_team": "即构",
+        "rule_contributors": [
+          "KangYee",
+          "WOLFRAZOR"
+        ],
+        "description": "Express Video is a real-time audio and video interactive service product that provides developers with convenient access, high reliability, and multi-platform interoperable audio and video services. With an end-to-end average delay as low as 200 ms, industry-leading QoS strategies for weak network quality assurance, and powerful 3A processing capabilities, it perfectly supports one-to-many, many-to-many real-time audio and video calls, live streaming, conferences, and other scenarios.",
+        "source_link": "https://doc-zh.zego.im/article/5611"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1657,
+      "type": 0,
+      "name": "libZegoExpressEngine.so",
+      "mode": "exact",
+      "priority": 1657,
+      "label": "即构极速视频 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libZegoExpressEngine.so.json",
+      "examples": {
+        "positive": [
+          "libZegoExpressEngine.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2203,
+      "type": 0,
+      "name": "libcolorpen.so",
+      "mode": "exact",
+      "priority": 2203,
+      "label": "即构极速视频 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcolorpen.so.json",
+      "examples": {
+        "positive": [
+          "libcolorpen.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2210,
+      "type": 0,
+      "name": "libhandwriting.so",
+      "mode": "exact",
+      "priority": 2210,
+      "label": "即构极速视频 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhandwriting.so.json",
+      "examples": {
+        "positive": [
+          "libhandwriting.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2275,
+      "type": 0,
+      "name": "libzegoliveroom.so",
+      "mode": "exact",
+      "priority": 2275,
+      "label": "即构极速视频 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzegoliveroom.so.json",
+      "examples": {
+        "positive": [
+          "libzegoliveroom.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2276,
+      "type": 0,
+      "name": "libzegoqueue.so",
+      "mode": "exact",
+      "priority": 2276,
+      "label": "即构极速视频 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzegoqueue.so.json",
+      "examples": {
+        "positive": [
+          "libzegoqueue.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BDDF8BDA-550A-44DE-83EF-9111EF333690",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack WebKit",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "WebView 提供对 Android 拖放功能的部分支持，允许从 WebView 中拖动图像、文本和链接。",
+        "source_link": "https://developer.android.com/reference/kotlin/androidx/webkit/DropDataContentProvider"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack WebKit",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "WebView provides partial support for Android Drag and Drop allowing images, text and links to be dragged out of a WebView.",
+        "source_link": "https://developer.android.com/reference/kotlin/androidx/webkit/DropDataContentProvider"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2164,
+      "type": 4,
+      "name": "androidx.webkit.DropDataContentProvider",
+      "mode": "exact",
+      "priority": 2164,
+      "label": "Jetpack WebKit",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/androidx/webkit/DropDataContentProvider.json",
+      "examples": {
+        "positive": [
+          "androidx.webkit.DropDataContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

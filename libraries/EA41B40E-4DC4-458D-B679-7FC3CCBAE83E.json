@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EA41B40E-4DC4-458D-B679-7FC3CCBAE83E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "aria2",
+        "dev_team": "aria2",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "提供 aria2 的核心功能，包括对网络和下载的处理。",
+        "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "aria2",
+        "dev_team": "aria2",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Provides core functions of aria2, including handling network and downloads.",
+        "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1175,
+      "type": 0,
+      "name": "libaria2.so",
+      "mode": "exact",
+      "priority": 1175,
+      "label": "aria2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaria2.so.json",
+      "examples": {
+        "positive": [
+          "libaria2.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

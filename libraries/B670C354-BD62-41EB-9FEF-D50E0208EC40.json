@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B670C354-BD62-41EB-9FEF-D50E0208EC40",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Camera",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "CameraX 是 Jetpack 的新增库。利用该库，可以更轻松地向应用添加相机功能。该库提供了很多兼容性修复程序和解决方法，有助于在众多设备上打造一致的开发者体验。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/camera"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Camera",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "CameraX is a new library in Jetpack. With this library, it's easier to add camera functionality to apps. The library provides many compatibility fixes and workarounds, helping to create a consistent developer experience across a wide range of devices.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/camera"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 972,
+      "type": 1,
+      "name": "androidx.camera.core.impl.MetadataHolderService",
+      "mode": "exact",
+      "priority": 972,
+      "label": "Jetpack CameraX",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/camera/core/impl/MetadataHolderService.json",
+      "examples": {
+        "positive": [
+          "androidx.camera.core.impl.MetadataHolderService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1565,
+      "type": 0,
+      "name": "libimage_processing_util_jni.so",
+      "mode": "exact",
+      "priority": 1565,
+      "label": "Jetpack Camera",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libimage_processing_util_jni.so.json",
+      "examples": {
+        "positive": [
+          "libimage_processing_util_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2259,
+      "type": 0,
+      "name": "libsurface_util_jni.so",
+      "mode": "exact",
+      "priority": 2259,
+      "label": "Jetpack Camera",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsurface_util_jni.so.json",
+      "examples": {
+        "positive": [
+          "libsurface_util_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

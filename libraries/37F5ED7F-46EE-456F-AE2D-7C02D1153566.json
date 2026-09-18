@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "37F5ED7F-46EE-456F-AE2D-7C02D1153566",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "号码认证服务",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "yfdyh000",
+          "ArthurCyy"
+        ],
+        "description": "号码认证服务（Phone Number Verification Service）整合三大运营商特有的网关认证能力，验证用户本机号码与输入号码或账号绑定号码的一致性，升级短信验证码体验，应用于用户注册、登录、安全校验等场景，实现无感知校验。",
+        "source_link": "https://help.aliyun.com/product/75010.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Number Authentication Service",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "yfdyh000",
+          "ArthurCyy"
+        ],
+        "description": "Phone Number Verification Service integrates the unique gateway authentication capabilities of the three major operators to verify the consistency of the user's local number with the input number or account-bound number, upgrading the SMS verification code experience, and applying to scenarios like user registration, login, and security verification, achieving perceptionless verification.",
+        "source_link": "https://help.aliyun.com/product/75010.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1201,
+      "type": 0,
+      "name": "libalicomphonenumberauthsdk-release_alijtca_plus.so",
+      "mode": "exact",
+      "priority": 1201,
+      "label": "号码认证服务",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalicomphonenumberauthsdk-release_alijtca_plus.so.json",
+      "examples": {
+        "positive": [
+          "libalicomphonenumberauthsdk-release_alijtca_plus.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1202,
+      "type": 0,
+      "name": "libalicomphonenumberauthsdk-log-release_alijtca_plus.so",
+      "mode": "exact",
+      "priority": 1202,
+      "label": "号码认证服务",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalicomphonenumberauthsdk-log-release_alijtca_plus.so.json",
+      "examples": {
+        "positive": [
+          "libalicomphonenumberauthsdk-log-release_alijtca_plus.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1203,
+      "type": 0,
+      "name": "libalicomphonenumberauthsdk-log-online-standard-release_alijtca_plus.so",
+      "mode": "exact",
+      "priority": 1203,
+      "label": "号码认证服务",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalicomphonenumberauthsdk-log-online-standard-release_alijtca_plus.so.json",
+      "examples": {
+        "positive": [
+          "libalicomphonenumberauthsdk-log-online-standard-release_alijtca_plus.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1401,
+      "type": 0,
+      "name": "libalicomphonenumberauthsdk_core.so",
+      "mode": "exact",
+      "priority": 1401,
+      "label": "阿里云号码认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalicomphonenumberauthsdk_core.so.json",
+      "examples": {
+        "positive": [
+          "libalicomphonenumberauthsdk_core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1544,
+      "type": 0,
+      "name": "libauth_number_product-(.*)\\.so",
+      "mode": "regex",
+      "priority": 1544,
+      "label": "阿里云号码认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": "regex_ali_number_auth",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_number_auth.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BD134228-E89E-4B74-A54B-654BCD18C9C1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libusb",
+        "dev_team": "libusb",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "一个跨平台库，用于访问 USB 设备。",
+        "source_link": "https://github.com/libusb/libusb"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libusb",
+        "dev_team": "libusb",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "A cross-platform library to access USB devices.",
+        "source_link": "https://github.com/libusb/libusb"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1123,
+      "type": 0,
+      "name": "libusb.so",
+      "mode": "exact",
+      "priority": 1123,
+      "label": "libusb",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libusb.so.json",
+      "examples": {
+        "positive": [
+          "libusb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1777,
+      "type": 0,
+      "name": "liblibusb.so",
+      "mode": "exact",
+      "priority": 1777,
+      "label": "libusb",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblibusb.so.json",
+      "examples": {
+        "positive": [
+          "liblibusb.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "libusb",
+            "dev_team": "libusb",
+            "rule_contributors": [
+              "brooks-xzy"
+            ],
+            "description": "一个跨平台库，用于访问 USB 设备。",
+            "source_link": "https://github.com/libusb/libusb"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "libusb",
+            "dev_team": "libusb",
+            "rule_contributors": [
+              "brooks-xzy"
+            ],
+            "description": "A cross-platform library to access USB devices.",
+            "source_link": "https://github.com/libusb/libusb"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

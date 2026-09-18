@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 5,
+  "uuid": "587512BA-F0D0-43FE-9A4A-3E57074A5201",
+  "iconId": "ic_lib_google_ml_kit",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BarHopper",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46",
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "BarHopper 是一个 ML Kit 中的库，用于在 Android 设备上识别或解码条形码。",
+        "source_link": "https://developers.google.com/ml-kit/vision/barcode-scanning/android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BarHopper",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46",
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "BarHopper is a library in ML Kit for recognizing or decoding barcodes on Android devices.",
+        "source_link": "https://developers.google.com/ml-kit/vision/barcode-scanning/android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1556,
+      "type": 0,
+      "name": "libbarhopper_v3.so",
+      "mode": "exact",
+      "priority": 1556,
+      "label": "BarHopper",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbarhopper_v3.so.json",
+      "examples": {
+        "positive": [
+          "libbarhopper_v3.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1658,
+      "type": 0,
+      "name": "libbarhopper.so",
+      "mode": "exact",
+      "priority": 1658,
+      "label": "BarHopper",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbarhopper.so.json",
+      "examples": {
+        "positive": [
+          "libbarhopper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1659,
+      "type": 0,
+      "name": "libbarhopper_v2.so",
+      "mode": "exact",
+      "priority": 1659,
+      "label": "BarHopper",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbarhopper_v2.so.json",
+      "examples": {
+        "positive": [
+          "libbarhopper_v2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1830,
+      "type": 0,
+      "name": "libbarhopper_qr_only_jni.so",
+      "mode": "exact",
+      "priority": 1830,
+      "label": "BarHopper",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbarhopper_qr_only_jni.so.json",
+      "examples": {
+        "positive": [
+          "libbarhopper_qr_only_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

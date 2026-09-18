@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "97E8ACDF-D6BB-439B-B9D4-DEA88888FE88",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Steam Audio",
+        "dev_team": "Valve Corporation",
+        "rule_contributors": [
+          "small18"
+        ],
+        "description": "通过 Steam Audio 提供一流的空间化音频体验。使用完备的空间音频，适应游戏几何形状的物理属性，结合准确的遮挡、反射、混响和 HRTF 效果，带来自然的沉浸感。",
+        "source_link": "https://github.com/ValveSoftware/steam-audio"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Steam Audio",
+        "dev_team": "Valve Corporation",
+        "rule_contributors": [
+          "small18"
+        ],
+        "description": "Deliver best-in-class spatialized audio experiences with Steam Audio.Use fully-featured spatial audio attuned to the physical attributes of your in-game geometry. Combine accurate occlusion, reflection, reverb and HRTF effects for natural sounding immersion.",
+        "source_link": "https://github.com/ValveSoftware/steam-audio"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2134,
+      "type": 0,
+      "name": "libphonon.so",
+      "mode": "exact",
+      "priority": 2134,
+      "label": "Steam Audio",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libphonon.so.json",
+      "examples": {
+        "positive": [
+          "libphonon.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2135,
+      "type": 0,
+      "name": "libphonon_fmod.so",
+      "mode": "exact",
+      "priority": 2135,
+      "label": "Steam Audio",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libphonon_fmod.so.json",
+      "examples": {
+        "positive": [
+          "libphonon_fmod.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,621 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D656C0C1-8EBD-4BE3-AFA2-492B89C2B690",
+  "iconId": "ic_lib_getui",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "个推",
+        "dev_team": "个推",
+        "rule_contributors": [
+          "Absinthe",
+          "culat",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "SDK 快速集成，免费注册使用。智能推送+场景推送，有效提升用户活跃度与粘性。",
+        "source_link": "https://www.getui.com/push/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Getui",
+        "dev_team": "个推",
+        "rule_contributors": [
+          "Absinthe",
+          "culat",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "Quick SDK integration, free registration and use. Smart push + scenario push effectively enhance user activity and stickiness.",
+        "source_link": "https://www.getui.com/push/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 84,
+      "type": 0,
+      "name": "libgetuiext3.so",
+      "mode": "exact",
+      "priority": 84,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgetuiext3.so.json",
+      "examples": {
+        "positive": [
+          "libgetuiext3.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 273,
+      "type": 1,
+      "name": "com.igexin.sdk.PushService",
+      "mode": "exact",
+      "priority": 273,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/PushService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 296,
+      "type": 2,
+      "name": "com.igexin.sdk.GActivity",
+      "mode": "exact",
+      "priority": 296,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/igexin/sdk/GActivity.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.GActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 333,
+      "type": 2,
+      "name": "com.igexin.sdk.PushActivity",
+      "mode": "exact",
+      "priority": 333,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/igexin/sdk/PushActivity.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.PushActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 374,
+      "type": 3,
+      "name": "com.igexin.sdk.FlymePushReceiver",
+      "mode": "exact",
+      "priority": 374,
+      "label": "Meizu Push(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/igexin/sdk/FlymePushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.FlymePushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 386,
+      "type": 3,
+      "name": "com.igexin.sdk.PushReceiver",
+      "mode": "exact",
+      "priority": 386,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/igexin/sdk/PushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.PushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 400,
+      "type": 3,
+      "name": "com.igexin.download.DownloadReceiver",
+      "mode": "exact",
+      "priority": 400,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/igexin/download/DownloadReceiver.json",
+      "examples": {
+        "positive": [
+          "com.igexin.download.DownloadReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 410,
+      "type": 3,
+      "name": "com.igexin.sdk.HmsPushSubReceiver",
+      "mode": "exact",
+      "priority": 410,
+      "label": "HUAWEI Push(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/igexin/sdk/HmsPushSubReceiver.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.HmsPushSubReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 423,
+      "type": 3,
+      "name": "com.igexin.sdk.MiuiPushReceiver",
+      "mode": "exact",
+      "priority": 423,
+      "label": "MiPush(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/igexin/sdk/MiuiPushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.MiuiPushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 457,
+      "type": 4,
+      "name": "com.igexin.download.DownloadProvider",
+      "mode": "exact",
+      "priority": 457,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/igexin/download/DownloadProvider.json",
+      "examples": {
+        "positive": [
+          "com.igexin.download.DownloadProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 761,
+      "type": 1,
+      "name": "com.igexin.sdk.OppoPushService",
+      "mode": "exact",
+      "priority": 761,
+      "label": "OPPO Push(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/OppoPushService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.OppoPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 762,
+      "type": 3,
+      "name": "com.igexin.sdk.VivoPushMessageReceiver",
+      "mode": "exact",
+      "priority": 762,
+      "label": "vivo Push(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/igexin/sdk/VivoPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.VivoPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 886,
+      "type": 1,
+      "name": "com.igexin.sdk.OppoAppPushService",
+      "mode": "exact",
+      "priority": 886,
+      "label": "OPPO Push(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/OppoAppPushService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.OppoAppPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 887,
+      "type": 1,
+      "name": "com.igexin.sdk.HmsPushMessageService",
+      "mode": "exact",
+      "priority": 887,
+      "label": "HUAWEI Push(GeTui Proxy)",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/HmsPushMessageService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.HmsPushMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 943,
+      "type": 4,
+      "name": "com.getui.gtc.base.GtcProvider",
+      "mode": "exact",
+      "priority": 943,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/getui/gtc/base/GtcProvider.json",
+      "examples": {
+        "positive": [
+          "com.getui.gtc.base.GtcProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1352,
+      "type": 1,
+      "name": "com.igexin.sdk.GService",
+      "mode": "exact",
+      "priority": 1352,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/GService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.GService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1403,
+      "type": 1,
+      "name": "com.igexin.download.DownloadService",
+      "mode": "exact",
+      "priority": 1403,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/download/DownloadService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.download.DownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1434,
+      "type": 2,
+      "name": "com.igexin.sdk.GetuiActivity",
+      "mode": "exact",
+      "priority": 1434,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/igexin/sdk/GetuiActivity.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.GetuiActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1435,
+      "type": 2,
+      "name": "com.igexin.sdk.MActivity",
+      "mode": "exact",
+      "priority": 1435,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/igexin/sdk/MActivity.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.MActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1489,
+      "type": 1,
+      "name": "com.igexin.assist.control.stp.StpService",
+      "mode": "exact",
+      "priority": 1489,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/assist/control/stp/StpService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.assist.control.stp.StpService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1490,
+      "type": 1,
+      "name": "com.igexin.sdk.GTIntentService",
+      "mode": "exact",
+      "priority": 1490,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/GTIntentService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.GTIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1491,
+      "type": 1,
+      "name": "com.igexin.sdk.HonorPushMessageService",
+      "mode": "exact",
+      "priority": 1491,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/sdk/HonorPushMessageService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.HonorPushMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2197,
+      "type": 2,
+      "name": "com.igexin.sdk.PopupActivity",
+      "mode": "exact",
+      "priority": 2197,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/igexin/sdk/PopupActivity.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.PopupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2208,
+      "type": 0,
+      "name": "libgetuiext2.so",
+      "mode": "exact",
+      "priority": 2208,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgetuiext2.so.json",
+      "examples": {
+        "positive": [
+          "libgetuiext2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2284,
+      "type": 1,
+      "name": "com.igexin.assist.control.GTRgeisterTokenService",
+      "mode": "exact",
+      "priority": 2284,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/igexin/assist/control/GTRgeisterTokenService.json",
+      "examples": {
+        "positive": [
+          "com.igexin.assist.control.GTRgeisterTokenService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2320,
+      "type": 9,
+      "name": "com.getui.gtc.sdk.service.action",
+      "mode": "exact",
+      "priority": 2320,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.getui.gtc.sdk.service.action.json",
+      "examples": {
+        "positive": [
+          "com.getui.gtc.sdk.service.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2321,
+      "type": 9,
+      "name": "com.getui.sdk.action",
+      "mode": "exact",
+      "priority": 2321,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.getui.sdk.action.json",
+      "examples": {
+        "positive": [
+          "com.getui.sdk.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2343,
+      "type": 9,
+      "name": "com.igexin.sdk.action.service.message",
+      "mode": "exact",
+      "priority": 2343,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.igexin.sdk.action.service.message.json",
+      "examples": {
+        "positive": [
+          "com.igexin.sdk.action.service.message"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "services-libs/com/getui/gtc/GtcService.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "个推",
+              "dev_team": "个推",
+              "rule_contributors": [
+                "Absinthe",
+                "culat",
+                "ArthurCyy",
+                "WOLFRAZOR"
+              ],
+              "description": "SDK 快速集成，免费注册使用。智能推送+场景推送，有效提升用户活跃度与粘性。",
+              "source_link": "https://www.getui.com/push/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Getui",
+              "dev_team": "个推",
+              "rule_contributors": [
+                "Absinthe",
+                "culat",
+                "ArthurCyy",
+                "WOLFRAZOR"
+              ],
+              "description": "Quick SDK integration, free registration and use. Smart push + scenario push effectively enhance user activity and stickiness.",
+              "source_link": "https://www.getui.com/push/"
+            }
+          }
+        ],
+        "uuid": "D656C0C1-8EBD-4BE3-AFA2-492B89C2B690"
+      }
+    },
+    {
+      "path": "actions-libs/com.getui.gtc.GtcService.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "个推",
+              "dev_team": "个推",
+              "rule_contributors": [
+                "Absinthe",
+                "culat",
+                "ArthurCyy",
+                "WOLFRAZOR"
+              ],
+              "description": "SDK 快速集成，免费注册使用。智能推送+场景推送，有效提升用户活跃度与粘性。",
+              "source_link": "https://www.getui.com/push/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Getui",
+              "dev_team": "个推",
+              "rule_contributors": [
+                "Absinthe",
+                "culat",
+                "ArthurCyy",
+                "WOLFRAZOR"
+              ],
+              "description": "Quick SDK integration, free registration and use. Smart push + scenario push effectively enhance user activity and stickiness.",
+              "source_link": "https://www.getui.com/push/"
+            }
+          }
+        ],
+        "uuid": "D656C0C1-8EBD-4BE3-AFA2-492B89C2B690"
+      }
+    }
+  ]
+}

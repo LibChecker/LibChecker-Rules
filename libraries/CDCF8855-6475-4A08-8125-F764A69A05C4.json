@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CDCF8855-6475-4A08-8125-F764A69A05C4",
+  "iconId": "ic_lib_snapdragon",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SNPE SDK",
+        "dev_team": "Qualcomm Snapdragon",
+        "rule_contributors": [
+          "binx6",
+          "WOLFRAZOR",
+          "Anormi"
+        ],
+        "description": "Snapdragon 神经处理引擎（SNPE）是一个 Qualcomm Snapdragon 软件加速运行时，用于执行深度神经网络。",
+        "source_link": "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/overview.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SNPE SDK",
+        "dev_team": "Qualcomm Snapdragon",
+        "rule_contributors": [
+          "binx6",
+          "WOLFRAZOR",
+          "Anormi"
+        ],
+        "description": "The Snapdragon Neural Processing Engine (SNPE) is a Qualcomm Snapdragon software-accelerated runtime for the execution of deep neural networks.",
+        "source_link": "https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-2/overview.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1595,
+      "type": 0,
+      "name": "libSNPE.so",
+      "mode": "exact",
+      "priority": 1595,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSNPE.so.json",
+      "examples": {
+        "positive": [
+          "libSNPE.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1604,
+      "type": 0,
+      "name": "libhta.so",
+      "mode": "exact",
+      "priority": 1604,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhta.so.json",
+      "examples": {
+        "positive": [
+          "libhta.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1614,
+      "type": 0,
+      "name": "libsnpe_dsp_domains_v2.so",
+      "mode": "exact",
+      "priority": 1614,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_domains_v2.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_domains_v2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1615,
+      "type": 0,
+      "name": "libsnpe_dsp_domains_v3.so",
+      "mode": "exact",
+      "priority": 1615,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_domains_v3.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_domains_v3.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1814,
+      "type": 0,
+      "name": "libSnpeCpu.so",
+      "mode": "exact",
+      "priority": 1814,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSnpeCpu.so.json",
+      "examples": {
+        "positive": [
+          "libSnpeCpu.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1815,
+      "type": 0,
+      "name": "libSnpeGpu.so",
+      "mode": "exact",
+      "priority": 1815,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSnpeGpu.so.json",
+      "examples": {
+        "positive": [
+          "libSnpeGpu.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1816,
+      "type": 0,
+      "name": "libSnpeHtpPrepare.so",
+      "mode": "exact",
+      "priority": 1816,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSnpeHtpPrepare.so.json",
+      "examples": {
+        "positive": [
+          "libSnpeHtpPrepare.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1838,
+      "type": 0,
+      "name": "libcalculator_domains_skel.so",
+      "mode": "exact",
+      "priority": 1838,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcalculator_domains_skel.so.json",
+      "examples": {
+        "positive": [
+          "libcalculator_domains_skel.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1839,
+      "type": 0,
+      "name": "libcalculator_skel.so",
+      "mode": "exact",
+      "priority": 1839,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcalculator_skel.so.json",
+      "examples": {
+        "positive": [
+          "libcalculator_skel.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1870,
+      "type": 0,
+      "name": "libsnpe-android.so",
+      "mode": "exact",
+      "priority": 1870,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe-android.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe-android.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1871,
+      "type": 0,
+      "name": "libsnpe_adsp.so",
+      "mode": "exact",
+      "priority": 1871,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_adsp.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_adsp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1872,
+      "type": 0,
+      "name": "libsnpe_dsp_domains.so",
+      "mode": "exact",
+      "priority": 1872,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_domains.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_domains.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1873,
+      "type": 0,
+      "name": "libsnpe_dsp_domains_skel.so",
+      "mode": "exact",
+      "priority": 1873,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_domains_skel.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_domains_skel.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1874,
+      "type": 0,
+      "name": "libsnpe_dsp_domains_system.so",
+      "mode": "exact",
+      "priority": 1874,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_domains_system.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_domains_system.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1875,
+      "type": 0,
+      "name": "libsnpe_dsp_domains_v2_system.so",
+      "mode": "exact",
+      "priority": 1875,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_domains_v2_system.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_domains_v2_system.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1876,
+      "type": 0,
+      "name": "libsnpe_dsp_skel.so",
+      "mode": "exact",
+      "priority": 1876,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_dsp_skel.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_dsp_skel.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1877,
+      "type": 0,
+      "name": "libsnpe_loader.so",
+      "mode": "exact",
+      "priority": 1877,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnpe_loader.so.json",
+      "examples": {
+        "positive": [
+          "libsnpe_loader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2576,
+      "type": 0,
+      "name": "libSnpeDspV\\d+(Calculator)?Stub\\.so",
+      "mode": "regex",
+      "priority": 2576,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": "regex_snpe_sdk",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_snpe_sdk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2577,
+      "type": 0,
+      "name": "libsnpe_dsp_v\\d{2}_domains_v\\d+_skel\\.so",
+      "mode": "regex",
+      "priority": 2577,
+      "label": "SNPE SDK",
+      "iconId": "ic_lib_snapdragon",
+      "regexName": "regex_snpe_sdk",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_snpe_sdk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

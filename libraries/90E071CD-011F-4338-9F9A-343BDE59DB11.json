@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 5,
+  "uuid": "90E071CD-011F-4338-9F9A-343BDE59DB11",
+  "iconId": "ic_lib_firebase",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Firebase Cloud Messaging",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "kotori2",
+          "sebastien46"
+        ],
+        "description": "Firebase 云信息传递 (FCM) 是一种跨平台消息传递解决方案，可供您免费、可靠地传递消息。",
+        "source_link": "https://firebase.google.com/docs/cloud-messaging/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Firebase Cloud Messaging",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "kotori2",
+          "sebastien46"
+        ],
+        "description": "Firebase Cloud Messaging (FCM) is a cross-platform messaging solution that allows you to reliably deliver messages for free.",
+        "source_link": "https://firebase.google.com/docs/cloud-messaging/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 214,
+      "type": 1,
+      "name": "com.google.firebase.messaging.FirebaseMessagingService",
+      "mode": "exact",
+      "priority": 214,
+      "label": "FCM",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/messaging/FirebaseMessagingService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.messaging.FirebaseMessagingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1551,
+      "type": 0,
+      "name": "libFirebaseCppMessaging.so",
+      "mode": "exact",
+      "priority": 1551,
+      "label": "Firebase Cloud Messaging",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libFirebaseCppMessaging.so.json",
+      "examples": {
+        "positive": [
+          "libFirebaseCppMessaging.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1583,
+      "type": 1,
+      "name": "com.google.firebase.messaging.MessageForwardingService",
+      "mode": "exact",
+      "priority": 1583,
+      "label": "Firebase Cloud Messaging",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/messaging/MessageForwardingService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.messaging.MessageForwardingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1584,
+      "type": 1,
+      "name": "com.google.firebase.messaging.cpp.ListenerService",
+      "mode": "exact",
+      "priority": 1584,
+      "label": "Firebase Cloud Messaging",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/messaging/cpp/ListenerService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.messaging.cpp.ListenerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1585,
+      "type": 1,
+      "name": "com.google.firebase.messaging.cpp.RegistrationIntentService",
+      "mode": "exact",
+      "priority": 1585,
+      "label": "Firebase Cloud Messaging",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/messaging/cpp/RegistrationIntentService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.messaging.cpp.RegistrationIntentService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

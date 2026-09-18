@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 5,
+  "uuid": "66D2110B-94D1-413C-8C70-8D1DE223F178",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Pdfium",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000",
+          "ArthurCyy",
+          "IsHacker003"
+        ],
+        "description": "Pdfium Android 绑定。",
+        "source_link": "https://android.googlesource.com/platform/external/pdfium/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Pdfium",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000",
+          "ArthurCyy",
+          "IsHacker003"
+        ],
+        "description": "Pdfium Android binding.",
+        "source_link": "https://android.googlesource.com/platform/external/pdfium/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1182,
+      "type": 0,
+      "name": "libjniPdfium.so",
+      "mode": "exact",
+      "priority": 1182,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjniPdfium.so.json",
+      "examples": {
+        "positive": [
+          "libjniPdfium.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1210,
+      "type": 0,
+      "name": "libmodft2.so",
+      "mode": "exact",
+      "priority": 1210,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmodft2.so.json",
+      "examples": {
+        "positive": [
+          "libmodft2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1211,
+      "type": 0,
+      "name": "libmodpdfium.so",
+      "mode": "exact",
+      "priority": 1211,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmodpdfium.so.json",
+      "examples": {
+        "positive": [
+          "libmodpdfium.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1376,
+      "type": 0,
+      "name": "libmodpng.so",
+      "mode": "exact",
+      "priority": 1376,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmodpng.so.json",
+      "examples": {
+        "positive": [
+          "libmodpng.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2830,
+      "type": 0,
+      "name": "libpdfium.cr.so",
+      "mode": "exact",
+      "priority": 2830,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpdfium.cr.so.json",
+      "examples": {
+        "positive": [
+          "libpdfium.cr.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2831,
+      "type": 0,
+      "name": "libpdfiumandroid.so",
+      "mode": "exact",
+      "priority": 2831,
+      "label": "Pdfium",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpdfiumandroid.so.json",
+      "examples": {
+        "positive": [
+          "libpdfiumandroid.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

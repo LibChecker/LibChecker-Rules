@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DD630DAC-94A0-443C-AF7D-64004B698B49",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "gocryptsfs",
+        "dev_team": "@rfjakob, etc.",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "用 Go 编写的加密覆盖文件系统。",
+        "source_link": "https://github.com/rfjakob/gocryptfs"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "gocryptsfs",
+        "dev_team": "@rfjakob, etc.",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "Encrypted overlay filesystem written in Go.",
+        "source_link": "https://github.com/rfjakob/gocryptfs"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 786,
+      "type": 0,
+      "name": "libgocryptfs.so",
+      "mode": "exact",
+      "priority": 786,
+      "label": "gocryptsfs",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgocryptfs.so.json",
+      "examples": {
+        "positive": [
+          "libgocryptfs.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1923,
+      "type": 0,
+      "name": "libgocryptfs_jni.so",
+      "mode": "exact",
+      "priority": 1923,
+      "label": "gocryptsfs",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgocryptfs_jni.so.json",
+      "examples": {
+        "positive": [
+          "libgocryptfs_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

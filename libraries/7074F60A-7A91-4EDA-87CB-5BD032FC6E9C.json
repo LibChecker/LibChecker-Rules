@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7074F60A-7A91-4EDA-87CB-5BD032FC6E9C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Broadcast SDK for Android",
+        "dev_team": "BytePlus",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "BytePlus MediaLive 基于先进的音视频处理和大规模内容分发技术，为各行业的企业和个人提供安全、稳定、专业的云端直播服务。凭借丰富的功能和增值服务，BytePlus MediaLive 让你只需几步就能搭建一个流媒体平台。",
+        "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-media-live/docs-product-overview"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Broadcast SDK for Android",
+        "dev_team": "BytePlus",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "BytePlus MediaLive, built on advanced audio and video processing and large-scale content distribution technologies, offers secure, stable, and professional cloud-based live-streaming services to enterprises and individuals across various industries.With a rich set of features and value-added services, BytePlus MediaLive enables you to build a streaming platform in just a few steps.",
+        "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-media-live/docs-product-overview"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2513,
+      "type": 0,
+      "name": "libByteVC1_dec.so",
+      "mode": "exact",
+      "priority": 2513,
+      "label": "Broadcast SDK for Android",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libByteVC1_dec.so.json",
+      "examples": {
+        "positive": [
+          "libByteVC1_dec.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

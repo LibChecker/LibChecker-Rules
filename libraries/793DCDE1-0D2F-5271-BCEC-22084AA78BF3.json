@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "793DCDE1-0D2F-5271-BCEC-22084AA78BF3",
+  "iconId": "ic_lib_alibaba",
+  "data": [],
+  "matchers": [
+    {
+      "id": 507,
+      "type": 5,
+      "name": "com.alibaba.fastjson",
+      "mode": "exact",
+      "priority": 507,
+      "label": "fastjson",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.alibaba.fastjson"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

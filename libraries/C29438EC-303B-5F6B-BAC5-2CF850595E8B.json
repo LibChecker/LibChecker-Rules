@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C29438EC-303B-5F6B-BAC5-2CF850595E8B",
+  "iconId": "ic_lib_appcenter",
+  "data": [],
+  "matchers": [
+    {
+      "id": 512,
+      "type": 5,
+      "name": "com.microsoft.appcenter",
+      "mode": "exact",
+      "priority": 512,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.microsoft.appcenter"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

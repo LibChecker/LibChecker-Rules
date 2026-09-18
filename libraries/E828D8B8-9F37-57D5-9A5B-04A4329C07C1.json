@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E828D8B8-9F37-57D5-9A5B-04A4329C07C1",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 524,
+      "type": 5,
+      "name": "androidx.annotation",
+      "mode": "exact",
+      "priority": 524,
+      "label": "Jetpack Annotation",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.annotation"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

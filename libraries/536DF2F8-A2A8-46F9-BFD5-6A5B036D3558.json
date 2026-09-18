@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "536DF2F8-A2A8-46F9-BFD5-6A5B036D3558",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HevSocks5Tunnel",
+        "dev_team": "heiher",
+        "rule_contributors": [
+          "250king"
+        ],
+        "description": "基于 Socks5 代理的隧道（tun2socks），适用于 Unix。",
+        "source_link": "https://github.com/heiher/hev-socks5-tunnel"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HevSocks5Tunnel",
+        "dev_team": "heiher",
+        "rule_contributors": [
+          "250king"
+        ],
+        "description": "A tunnel over Socks5 proxy (tun2socks) for Unix.",
+        "source_link": "https://github.com/heiher/hev-socks5-tunnel"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2426,
+      "type": 0,
+      "name": "libhev-socks5-tunnel.so",
+      "mode": "exact",
+      "priority": 2426,
+      "label": "HevSocks5Tunnel",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhev-socks5-tunnel.so.json",
+      "examples": {
+        "positive": [
+          "libhev-socks5-tunnel.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "81884FE4-41C1-5B61-9A3C-C785A67CCC85",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 504,
+      "type": 5,
+      "name": "androidx.asynclayoutinflater",
+      "mode": "exact",
+      "priority": 504,
+      "label": "Jetpack AsyncLayoutInflater",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.asynclayoutinflater"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

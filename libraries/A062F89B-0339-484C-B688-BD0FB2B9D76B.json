@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A062F89B-0339-484C-B688-BD0FB2B9D76B",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Credentials",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "该库提供对用户凭据的统一访问，包括密码、通行密钥和联合凭据。应使用此库提供无缝和安全的登录体验。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/credentials"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Credentials",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "This library provides unified access to a user's credentials. This can include passwords, passkeys and federated credentials. This library should be used to provide seamless and secure sign-in experiences.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/credentials"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2082,
+      "type": 1,
+      "name": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+      "mode": "exact",
+      "priority": 2082,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/credentials/playservices/CredentialProviderMetadataHolder.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.playservices.CredentialProviderMetadataHolder"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2088,
+      "type": 2,
+      "name": "androidx.credentials.playservices.HiddenActivity",
+      "mode": "exact",
+      "priority": 2088,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/credentials/playservices/HiddenActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.playservices.HiddenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2385,
+      "type": 2,
+      "name": "androidx.credentials.playservices.IdentityCredentialApiHiddenActivity",
+      "mode": "exact",
+      "priority": 2385,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/credentials/playservices/IdentityCredentialApiHiddenActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2464,
+      "type": 2,
+      "name": "androidx.credentials.playservices.controllers.identityauth.HiddenActivity",
+      "mode": "exact",
+      "priority": 2464,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/credentials/playservices/controllers/identityauth/HiddenActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.playservices.controllers.identityauth.HiddenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2465,
+      "type": 2,
+      "name": "androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity",
+      "mode": "exact",
+      "priority": 2465,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/credentials/playservices/controllers/identitycredentials/IdentityCredentialApiHiddenActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2689,
+      "type": 2,
+      "name": "androidx.credentials.providerevents.playservices.HiddenActivity",
+      "mode": "exact",
+      "priority": 2689,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/credentials/providerevents/playservices/HiddenActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.providerevents.playservices.HiddenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2846,
+      "type": 4,
+      "name": "androidx.credentials.providerevents.playservices.ImportExportFileProvider",
+      "mode": "exact",
+      "priority": 2846,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/androidx/credentials/providerevents/playservices/ImportExportFileProvider.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.providerevents.playservices.ImportExportFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2883,
+      "type": 1,
+      "name": "androidx.credentials.providerevents.playservices.ProviderEventsMetadataHolder",
+      "mode": "exact",
+      "priority": 2883,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/credentials/providerevents/playservices/ProviderEventsMetadataHolder.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.providerevents.playservices.ProviderEventsMetadataHolder"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2884,
+      "type": 1,
+      "name": "androidx.credentials.registry.provider.playservices.RegistryManagerProviderMetadataHolder",
+      "mode": "exact",
+      "priority": 2884,
+      "label": "Jetpack Credentials",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/credentials/registry/provider/playservices/RegistryManagerProviderMetadataHolder.json",
+      "examples": {
+        "positive": [
+          "androidx.credentials.registry.provider.playservices.RegistryManagerProviderMetadataHolder"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

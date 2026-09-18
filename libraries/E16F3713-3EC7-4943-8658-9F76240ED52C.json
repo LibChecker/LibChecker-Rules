@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E16F3713-3EC7-4943-8658-9F76240ED52C",
+  "iconId": "ic_lib_firebase",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Firebase",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Firebase 提供了分析、数据库、消息传递和崩溃报告等功能，可助您快速采取行动并专注于您的用户。",
+        "source_link": "https://firebase.google.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Firebase",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Firebase provides analytics, databases, messaging, and crash reporting, helping you take action quickly and focus on your users.",
+        "source_link": "https://firebase.google.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 197,
+      "type": 1,
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "mode": "exact",
+      "priority": 197,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/components/ComponentDiscoveryService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.components.ComponentDiscoveryService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 201,
+      "type": 1,
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+      "mode": "exact",
+      "priority": 201,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/datatransport/runtime/scheduling/jobscheduling/JobInfoSchedulerService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 208,
+      "type": 1,
+      "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "mode": "exact",
+      "priority": 208,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/datatransport/runtime/backends/TransportBackendDiscovery.json",
+      "examples": {
+        "positive": [
+          "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 260,
+      "type": 1,
+      "name": "com.google.firebase.iid.FirebaseInstanceIdService",
+      "mode": "exact",
+      "priority": 260,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/iid/FirebaseInstanceIdService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.iid.FirebaseInstanceIdService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 379,
+      "type": 3,
+      "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "mode": "exact",
+      "priority": 379,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/firebase/iid/FirebaseInstanceIdReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 409,
+      "type": 3,
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+      "mode": "exact",
+      "priority": 409,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/datatransport/runtime/scheduling/jobscheduling/AlarmManagerSchedulerBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 463,
+      "type": 4,
+      "name": "com.google.firebase.provider.FirebaseInitProvider",
+      "mode": "exact",
+      "priority": 463,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/google/firebase/provider/FirebaseInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.provider.FirebaseInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1708,
+      "type": 1,
+      "name": "com.google.firebase.sessions.SessionLifecycleService",
+      "mode": "exact",
+      "priority": 1708,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/firebase/sessions/SessionLifecycleService.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.sessions.SessionLifecycleService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2322,
+      "type": 9,
+      "name": "com.google.android.c2dm.intent.RECEIVE",
+      "mode": "exact",
+      "priority": 2322,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.google.android.c2dm.intent.RECEIVE.json",
+      "examples": {
+        "positive": [
+          "com.google.android.c2dm.intent.RECEIVE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2327,
+      "type": 9,
+      "name": "com.google.firebase.INSTANCE_ID_EVENT",
+      "mode": "exact",
+      "priority": 2327,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.google.firebase.INSTANCE_ID_EVENT.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.INSTANCE_ID_EVENT"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

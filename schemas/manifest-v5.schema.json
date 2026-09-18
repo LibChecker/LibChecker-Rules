@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "manifest-v5",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 5
+    },
+    "dataVersion": {
+      "type": "integer",
+      "minimum": 45,
+      "maximum": 2147483647
+    },
+    "sourceRevision": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "compilerRevision": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "contentSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "ruleCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2147483647
+    },
+    "minimumReader": {
+      "type": "object",
+      "properties": {
+        "android": {
+          "const": 5
+        },
+        "portable": {
+          "const": 5
+        }
+      },
+      "required": [
+        "android",
+        "portable"
+      ],
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type": "object",
+      "properties": {
+        "android": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^releases/[0-9]+/(android-v5|portable-v5|legacy-v4)\\.zip$"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "size": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "schemaVersion": {
+              "enum": [
+                4,
+                5
+              ]
+            },
+            "minimumReaderVersion": {
+              "enum": [
+                4,
+                5
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "sha256",
+            "size",
+            "schemaVersion",
+            "minimumReaderVersion"
+          ],
+          "additionalProperties": false
+        },
+        "portable": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^releases/[0-9]+/(android-v5|portable-v5|legacy-v4)\\.zip$"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "size": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "schemaVersion": {
+              "enum": [
+                4,
+                5
+              ]
+            },
+            "minimumReaderVersion": {
+              "enum": [
+                4,
+                5
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "sha256",
+            "size",
+            "schemaVersion",
+            "minimumReaderVersion"
+          ],
+          "additionalProperties": false
+        },
+        "legacy": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^releases/[0-9]+/(android-v5|portable-v5|legacy-v4)\\.zip$"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "size": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "schemaVersion": {
+              "enum": [
+                4,
+                5
+              ]
+            },
+            "minimumReaderVersion": {
+              "enum": [
+                4,
+                5
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "sha256",
+            "size",
+            "schemaVersion",
+            "minimumReaderVersion"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "android",
+        "portable",
+        "legacy"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "dataVersion",
+    "sourceRevision",
+    "compilerRevision",
+    "contentSha256",
+    "ruleCount",
+    "minimumReader",
+    "artifacts"
+  ],
+  "additionalProperties": false
+}

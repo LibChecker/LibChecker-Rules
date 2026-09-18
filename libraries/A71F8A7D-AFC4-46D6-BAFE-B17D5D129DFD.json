@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A71F8A7D-AFC4-46D6-BAFE-B17D5D129DFD",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Media",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "与其他应用共享媒体内容和控件。已被 media2 取代。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Media",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Share media content and controls with other apps. Replaced by media2.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 394,
+      "type": 3,
+      "name": "androidx.media.session.MediaButtonReceiver",
+      "mode": "exact",
+      "priority": 394,
+      "label": "Jetpack Media",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/media/session/MediaButtonReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.media.session.MediaButtonReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2205,
+      "type": 0,
+      "name": "libfilterframework_jni.so",
+      "mode": "exact",
+      "priority": 2205,
+      "label": "Jetpack Media",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfilterframework_jni.so.json",
+      "examples": {
+        "positive": [
+          "libfilterframework_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

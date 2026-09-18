@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 5,
+  "uuid": "96E0199D-A478-4494-BBBF-858A239B659B",
+  "iconId": "ic_lib_honor",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "荣耀广告 SDK",
+        "dev_team": "HONOR",
+        "rule_contributors": [
+          "Jian66666"
+        ],
+        "description": "面向泛生态合作伙伴提供的付费推广服务，帮助合作伙伴与荣耀终端用户建立沟通，向用户传递价值信息和服务。",
+        "source_link": "https://ads.honor.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Honor Ads SDK",
+        "dev_team": "HONOR",
+        "rule_contributors": [
+          "Jian66666"
+        ],
+        "description": "A paid promotion service for pan-ecosystem partners, helping them establish communication with Honor device users to deliver valuable information and services.",
+        "source_link": "https://ads.honor.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2596,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.dialog.DateFlowTipActivity",
+      "mode": "exact",
+      "priority": 2596,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/dialog/DateFlowTipActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.dialog.DateFlowTipActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2597,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.dialog.InstallNotifyActivity",
+      "mode": "exact",
+      "priority": 2597,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/dialog/InstallNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.dialog.InstallNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2598,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.download.marketdownload.OpenMarketPageActivity",
+      "mode": "exact",
+      "priority": 2598,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/download/marketdownload/OpenMarketPageActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.download.marketdownload.OpenMarketPageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2599,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.permission.PermissionActivity",
+      "mode": "exact",
+      "priority": 2599,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/permission/PermissionActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.permission.PermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2600,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.widget.web.WebCommonActivity",
+      "mode": "exact",
+      "priority": 2600,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/widget/web/WebCommonActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.widget.web.WebCommonActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2601,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.widget.web.WebPermissionsActivity",
+      "mode": "exact",
+      "priority": 2601,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/widget/web/WebPermissionsActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.widget.web.WebPermissionsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2602,
+      "type": 2,
+      "name": "com.hihonor.adsdk.base.widget.web.WebVideoActivity",
+      "mode": "exact",
+      "priority": 2602,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/base/widget/web/WebVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.base.widget.web.WebVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2603,
+      "type": 2,
+      "name": "com.hihonor.adsdk.interstitial.InterstitialActivity",
+      "mode": "exact",
+      "priority": 2603,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/interstitial/InterstitialActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.interstitial.InterstitialActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2604,
+      "type": 2,
+      "name": "com.hihonor.adsdk.reward.RewardActivity",
+      "mode": "exact",
+      "priority": 2604,
+      "label": "荣耀广告 SDK",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hihonor/adsdk/reward/RewardActivity.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.adsdk.reward.RewardActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

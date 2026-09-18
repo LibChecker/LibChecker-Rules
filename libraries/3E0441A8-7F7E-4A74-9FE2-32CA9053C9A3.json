@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3E0441A8-7F7E-4A74-9FE2-32CA9053C9A3",
+  "iconId": "ic_lib_volcengine",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "APMInsight / 应用性能监控全链路版",
+        "dev_team": "Volcengine (火山引擎)",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "应用性能监控全链路版是火山引擎提供的针对应用服务的品质、性能以及自定义埋点的 APM 服务。应用性能监控全链路版可帮助客户发现多类异常问题，并及时报警，做分配处理，同时平台提供了丰富的归因能力，包括且不限于堆栈分析、调度分析、维度分析、埋点分析、单点日志查询等，结合灵活的报表能力可了解各类指标的趋势变化。更多功能介绍，详见各子监控服务的功能模块说明。",
+        "source_link": "https://github.com/volcengine/APMInsight_Android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "APMInsight / Full-link Application Performance Monitoring",
+        "dev_team": "Volcengine (火山引擎)",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Application Performance Monitoring Full Link Edition is a quality, performance, and custom burying point APM service provided by Volcano Engine for application services. It helps customers discover multiple types of abnormal issues and timely alarms and allocate processing. The platform provides rich attribution capabilities, including but not limited to stack analysis, scheduling analysis, dimension analysis, burying point analysis, single-point log query, etc., combined with flexible report capabilities to understand various indicator trend changes. For more feature introductions, see the function module descriptions of each sub-monitoring service.",
+        "source_link": "https://github.com/volcengine/APMInsight_Android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1292,
+      "type": 0,
+      "name": "libapminsighta.so",
+      "mode": "exact",
+      "priority": 1292,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapminsighta.so.json",
+      "examples": {
+        "positive": [
+          "libapminsighta.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1293,
+      "type": 0,
+      "name": "libapminsightb.so",
+      "mode": "exact",
+      "priority": 1293,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapminsightb.so.json",
+      "examples": {
+        "positive": [
+          "libapminsightb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1801,
+      "type": 0,
+      "name": "libAPMDump.so",
+      "mode": "exact",
+      "priority": 1801,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAPMDump.so.json",
+      "examples": {
+        "positive": [
+          "libAPMDump.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1802,
+      "type": 0,
+      "name": "libAPMUOCPLIB.so",
+      "mode": "exact",
+      "priority": 1802,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAPMUOCPLIB.so.json",
+      "examples": {
+        "positive": [
+          "libAPMUOCPLIB.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1803,
+      "type": 0,
+      "name": "libAPMlog.so",
+      "mode": "exact",
+      "priority": 1803,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAPMlog.so.json",
+      "examples": {
+        "positive": [
+          "libAPMlog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1804,
+      "type": 0,
+      "name": "libASPEngineCore.so",
+      "mode": "exact",
+      "priority": 1804,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libASPEngineCore.so.json",
+      "examples": {
+        "positive": [
+          "libASPEngineCore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1805,
+      "type": 0,
+      "name": "libASPEngineN.so",
+      "mode": "exact",
+      "priority": 1805,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libASPEngineN.so.json",
+      "examples": {
+        "positive": [
+          "libASPEngineN.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1900,
+      "type": 4,
+      "name": "com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider",
+      "mode": "exact",
+      "priority": 1900,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/frameworks/core/apm/contentprovider/MonitorContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1901,
+      "type": 1,
+      "name": "com.bytedance.apm6.traffic.TrafficTransportService",
+      "mode": "exact",
+      "priority": 1901,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/apm6/traffic/TrafficTransportService.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.apm6.traffic.TrafficTransportService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1902,
+      "type": 1,
+      "name": "com.volcengine.onekit.componet.ComponentDiscoveryService",
+      "mode": "exact",
+      "priority": 1902,
+      "label": "APMInsight",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/volcengine/onekit/componet/ComponentDiscoveryService.json",
+      "examples": {
+        "positive": [
+          "com.volcengine.onekit.componet.ComponentDiscoveryService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2093,
+      "type": 0,
+      "name": "libAPMSignalOOM.so",
+      "mode": "exact",
+      "priority": 2093,
+      "label": "APMInsight / 应用性能监控全链路版",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAPMSignalOOM.so.json",
+      "examples": {
+        "positive": [
+          "libAPMSignalOOM.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2105,
+      "type": 0,
+      "name": "libapm_astrolabe.so",
+      "mode": "exact",
+      "priority": 2105,
+      "label": "APMInsight / 应用性能监控全链路版",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapm_astrolabe.so.json",
+      "examples": {
+        "positive": [
+          "libapm_astrolabe.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

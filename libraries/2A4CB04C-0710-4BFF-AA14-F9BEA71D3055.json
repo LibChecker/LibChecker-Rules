@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2A4CB04C-0710-4BFF-AA14-F9BEA71D3055",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Picasso",
+        "dev_team": "Square",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个强大的 Android 图片下载缓存库。",
+        "source_link": "https://github.com/square/picasso/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Picasso",
+        "dev_team": "Square",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "A powerful Android image download and cache library.",
+        "source_link": "https://github.com/square/picasso/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 431,
+      "type": 4,
+      "name": "com.squareup.picasso.PicassoProvider",
+      "mode": "exact",
+      "priority": 431,
+      "label": "Picasso",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/squareup/picasso/PicassoProvider.json",
+      "examples": {
+        "positive": [
+          "com.squareup.picasso.PicassoProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

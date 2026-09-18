@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E9987D74-17B7-41BC-8048-8E5793A2A0B3",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ZXing",
+        "dev_team": "ZXing",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "ZXing 是一个以 Java 实现的开源，多格式的 1D 和 2D 条形码映像处理库，其端口为其他语言。",
+        "source_link": "https://github.com/zxing/zxing"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ZXing",
+        "dev_team": "ZXing",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "ZXing is an open-source, multi-format 1D and 2D barcode image processing library implemented in Java, with ports to other languages.",
+        "source_link": "https://github.com/zxing/zxing"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1410,
+      "type": 0,
+      "name": "libzxing.so",
+      "mode": "exact",
+      "priority": 1410,
+      "label": "ZXing",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzxing.so.json",
+      "examples": {
+        "positive": [
+          "libzxing.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

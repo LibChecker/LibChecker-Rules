@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A8805A8D-BE58-4411-87FA-613941D32558",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "语音识别 SDK",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "百度语音开放平台 Android SDK，提供短语音识别、实时语音识别、离线自定义命令词识别、远场语音识别、语音唤醒、语义解析与对话管理等相关接口。SDK内部均为采用流式协议，即用户边说边处理。区别于 Restapi 需要上传整个录音文件。",
+        "source_link": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Speech Recognition SDK",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Baidu Voice Open Platform Android SDK provides interfaces for short voice recognition, real-time voice recognition, offline custom command word recognition, far-field voice recognition, voice wake-up, semantic parsing, and dialogue management. The SDK internally adopts a streaming protocol, meaning users can process while speaking, unlike Restapi which requires uploading the entire recording file.",
+        "source_link": "https://ai.baidu.com/ai-doc/SPEECH/Gk7h80eb4"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1238,
+      "type": 0,
+      "name": "libBaiduSpeechSDK.so",
+      "mode": "exact",
+      "priority": 1238,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBaiduSpeechSDK.so.json",
+      "examples": {
+        "positive": [
+          "libBaiduSpeechSDK.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1239,
+      "type": 0,
+      "name": "libbd_easr_s1_merge_normal_20151216.dat.so",
+      "mode": "exact",
+      "priority": 1239,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbd_easr_s1_merge_normal_20151216.dat.so.json",
+      "examples": {
+        "positive": [
+          "libbd_easr_s1_merge_normal_20151216.dat.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1240,
+      "type": 0,
+      "name": "libbdEASRAndroid.so",
+      "mode": "exact",
+      "priority": 1240,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbdEASRAndroid.so.json",
+      "examples": {
+        "positive": [
+          "libbdEASRAndroid.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1241,
+      "type": 0,
+      "name": "libbdSpilWakeup.so",
+      "mode": "exact",
+      "priority": 1241,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbdSpilWakeup.so.json",
+      "examples": {
+        "positive": [
+          "libbdSpilWakeup.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1242,
+      "type": 0,
+      "name": "libvad.dnn.so",
+      "mode": "exact",
+      "priority": 1242,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvad.dnn.so.json",
+      "examples": {
+        "positive": [
+          "libvad.dnn.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2511,
+      "type": 0,
+      "name": "libBaiduSpeechAEC.so",
+      "mode": "exact",
+      "priority": 2511,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBaiduSpeechAEC.so.json",
+      "examples": {
+        "positive": [
+          "libBaiduSpeechAEC.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2512,
+      "type": 0,
+      "name": "libBaiduSpeechAlgOTA.so",
+      "mode": "exact",
+      "priority": 2512,
+      "label": "语音识别 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBaiduSpeechAlgOTA.so.json",
+      "examples": {
+        "positive": [
+          "libBaiduSpeechAlgOTA.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 5,
+  "uuid": "288743EA-2FBB-41D1-9642-3E0C6E23A39B",
+  "iconId": "ic_lib_intercom",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Intercom",
+        "dev_team": "Intercom",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Intercom for Android，用于将 Intercom 集成到你的 Android 应用中。",
+        "source_link": "https://github.com/intercom/intercom-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Intercom",
+        "dev_team": "Intercom",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Intercom for Android, for integrating Intercom into your Android application.",
+        "source_link": "https://github.com/intercom/intercom-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2703,
+      "type": 2,
+      "name": "com.intercom.input.gallery.GalleryInputFullScreenActivity",
+      "mode": "exact",
+      "priority": 2703,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/intercom/input/gallery/GalleryInputFullScreenActivity.json",
+      "examples": {
+        "positive": [
+          "com.intercom.input.gallery.GalleryInputFullScreenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2704,
+      "type": 2,
+      "name": "com.intercom.input.gallery.GalleryLightBoxActivity",
+      "mode": "exact",
+      "priority": 2704,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/intercom/input/gallery/GalleryLightBoxActivity.json",
+      "examples": {
+        "positive": [
+          "com.intercom.input.gallery.GalleryLightBoxActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2735,
+      "type": 2,
+      "name": "io.intercom.android.sdk.activities.IntercomCarouselActivity",
+      "mode": "exact",
+      "priority": 2735,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/activities/IntercomCarouselActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.activities.IntercomCarouselActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2736,
+      "type": 2,
+      "name": "io.intercom.android.sdk.activities.IntercomConversationActivity",
+      "mode": "exact",
+      "priority": 2736,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/activities/IntercomConversationActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.activities.IntercomConversationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2737,
+      "type": 2,
+      "name": "io.intercom.android.sdk.activities.IntercomNoteActivity",
+      "mode": "exact",
+      "priority": 2737,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/activities/IntercomNoteActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.activities.IntercomNoteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2738,
+      "type": 2,
+      "name": "io.intercom.android.sdk.activities.IntercomPostActivity",
+      "mode": "exact",
+      "priority": 2738,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/activities/IntercomPostActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.activities.IntercomPostActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2739,
+      "type": 2,
+      "name": "io.intercom.android.sdk.activities.IntercomSheetActivity",
+      "mode": "exact",
+      "priority": 2739,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/activities/IntercomSheetActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.activities.IntercomSheetActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2740,
+      "type": 2,
+      "name": "io.intercom.android.sdk.activities.IntercomVideoActivity",
+      "mode": "exact",
+      "priority": 2740,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/activities/IntercomVideoActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.activities.IntercomVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2741,
+      "type": 2,
+      "name": "io.intercom.android.sdk.helpcenter.articles.ArticleActivity",
+      "mode": "exact",
+      "priority": 2741,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/helpcenter/articles/ArticleActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2742,
+      "type": 2,
+      "name": "io.intercom.android.sdk.helpcenter.articles.IntercomArticleActivity",
+      "mode": "exact",
+      "priority": 2742,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/helpcenter/articles/IntercomArticleActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.helpcenter.articles.IntercomArticleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2743,
+      "type": 2,
+      "name": "io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity",
+      "mode": "exact",
+      "priority": 2743,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/helpcenter/search/IntercomArticleSearchActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2744,
+      "type": 2,
+      "name": "io.intercom.android.sdk.lightbox.LightBoxActivity",
+      "mode": "exact",
+      "priority": 2744,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/lightbox/LightBoxActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.lightbox.LightBoxActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2745,
+      "type": 2,
+      "name": "io.intercom.android.sdk.m5.IntercomRootActivity",
+      "mode": "exact",
+      "priority": 2745,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/m5/IntercomRootActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.m5.IntercomRootActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2746,
+      "type": 2,
+      "name": "io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity",
+      "mode": "exact",
+      "priority": 2746,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/m5/bubble/IntercomBubbleActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2747,
+      "type": 2,
+      "name": "io.intercom.android.sdk.m5.conversation.GalleryPreviewActivity",
+      "mode": "exact",
+      "priority": 2747,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/m5/conversation/GalleryPreviewActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.m5.conversation.GalleryPreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2748,
+      "type": 2,
+      "name": "io.intercom.android.sdk.post.PostActivityV2",
+      "mode": "exact",
+      "priority": 2748,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/post/PostActivityV2.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.post.PostActivityV2"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2749,
+      "type": 2,
+      "name": "io.intercom.android.sdk.push.IntercomPushTrampolineActivity",
+      "mode": "exact",
+      "priority": 2749,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/push/IntercomPushTrampolineActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.push.IntercomPushTrampolineActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2750,
+      "type": 2,
+      "name": "io.intercom.android.sdk.survey.ui.IntercomSurveyActivity",
+      "mode": "exact",
+      "priority": 2750,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/survey/ui/IntercomSurveyActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.survey.ui.IntercomSurveyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2751,
+      "type": 2,
+      "name": "io.intercom.android.sdk.tickets.IntercomTicketActivity",
+      "mode": "exact",
+      "priority": 2751,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/tickets/IntercomTicketActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.tickets.IntercomTicketActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2752,
+      "type": 2,
+      "name": "io.intercom.android.sdk.tickets.create.ui.IntercomCreateTicketActivity",
+      "mode": "exact",
+      "priority": 2752,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/tickets/create/ui/IntercomCreateTicketActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.tickets.create.ui.IntercomCreateTicketActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2753,
+      "type": 2,
+      "name": "io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity",
+      "mode": "exact",
+      "priority": 2753,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/intercom/android/sdk/ui/preview/ui/IntercomPreviewActivity.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2854,
+      "type": 4,
+      "name": "io.intercom.android.sdk.IntercomFileProvider",
+      "mode": "exact",
+      "priority": 2854,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/intercom/android/sdk/IntercomFileProvider.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.IntercomFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2855,
+      "type": 4,
+      "name": "io.intercom.android.sdk.IntercomInitializeContentProvider",
+      "mode": "exact",
+      "priority": 2855,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/intercom/android/sdk/IntercomInitializeContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.IntercomInitializeContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2878,
+      "type": 3,
+      "name": "io.intercom.android.sdk.m5.push.ConversationReplyReceiver",
+      "mode": "exact",
+      "priority": 2878,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/io/intercom/android/sdk/m5/push/ConversationReplyReceiver.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.m5.push.ConversationReplyReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2879,
+      "type": 3,
+      "name": "io.intercom.android.sdk.push.IntercomPushBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2879,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/io/intercom/android/sdk/push/IntercomPushBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2913,
+      "type": 1,
+      "name": "io.intercom.android.sdk.fcm.IntercomFcmMessengerService",
+      "mode": "exact",
+      "priority": 2913,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io/intercom/android/sdk/fcm/IntercomFcmMessengerService.json",
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.fcm.IntercomFcmMessengerService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "actions-libs/io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Intercom",
+              "dev_team": "Intercom",
+              "rule_contributors": [
+                "sebastien46"
+              ],
+              "description": "Intercom for Android，用于将 Intercom 集成到你的 Android 应用中。",
+              "source_link": "https://github.com/intercom/intercom-android"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Intercom",
+              "dev_team": "Intercom",
+              "rule_contributors": [
+                "sebastien46"
+              ],
+              "description": "Intercom for Android, for integrating Intercom into your Android application.",
+              "source_link": "https://github.com/intercom/intercom-android"
+            }
+          }
+        ],
+        "uuid": "288743EA-2FBB-41D1-9642-3E0C6E23A39B"
+      }
+    }
+  ]
+}

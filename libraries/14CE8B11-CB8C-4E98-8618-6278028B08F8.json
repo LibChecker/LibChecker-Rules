@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "14CE8B11-CB8C-4E98-8618-6278028B08F8",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android 游戏开发工具包帧率调整",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Android 游戏开发工具包帧率调整库，也称为 Swappy。",
+        "source_link": "https://developer.android.com/games/sdk/reference/frame-pacing"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android Game Development Kit Frame Pacing",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Android Game Development Kit Frame Pacing library, also known as Swappy.",
+        "source_link": "https://developer.android.com/games/sdk/reference/frame-pacing"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1243,
+      "type": 0,
+      "name": "libswappy.so",
+      "mode": "exact",
+      "priority": 1243,
+      "label": "Frame Pacing",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libswappy.so.json",
+      "examples": {
+        "positive": [
+          "libswappy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1244,
+      "type": 0,
+      "name": "libswappyVk.so",
+      "mode": "exact",
+      "priority": 1244,
+      "label": "Frame Pacing",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libswappyVk.so.json",
+      "examples": {
+        "positive": [
+          "libswappyVk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

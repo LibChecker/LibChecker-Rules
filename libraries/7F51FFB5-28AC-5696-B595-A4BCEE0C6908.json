@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7F51FFB5-28AC-5696-B595-A4BCEE0C6908",
+  "iconId": "ic_lib_amap",
+  "data": [],
+  "matchers": [
+    {
+      "id": 530,
+      "type": 5,
+      "name": "com.amap.api",
+      "mode": "exact",
+      "priority": 530,
+      "label": "高德 SDK",
+      "iconId": "ic_lib_amap",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.amap.api"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

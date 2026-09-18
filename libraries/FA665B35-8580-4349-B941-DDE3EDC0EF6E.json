@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FA665B35-8580-4349-B941-DDE3EDC0EF6E",
+  "iconId": "ic_lib_firebase",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Firebase Analytics",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Google Analytics（分析）是一款免费的应用衡量解决方案，可提供关于应用使用情况和用户互动度的分析数据。",
+        "source_link": "https://firebase.google.com/docs/analytics/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Firebase Analytics",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Google Analytics is a free app measurement solution that provides analytics data on app usage and user engagement.",
+        "source_link": "https://firebase.google.com/docs/analytics/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 230,
+      "type": 1,
+      "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+      "mode": "exact",
+      "priority": 230,
+      "label": "Firebase Analytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/measurement/AppMeasurementJobService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.measurement.AppMeasurementJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 252,
+      "type": 1,
+      "name": "com.google.android.gms.measurement.AppMeasurementService",
+      "mode": "exact",
+      "priority": 252,
+      "label": "Firebase Analytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/measurement/AppMeasurementService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.measurement.AppMeasurementService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 382,
+      "type": 3,
+      "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+      "mode": "exact",
+      "priority": 382,
+      "label": "Firebase Analytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/gms/measurement/AppMeasurementReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.measurement.AppMeasurementReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 414,
+      "type": 3,
+      "name": "com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver",
+      "mode": "exact",
+      "priority": 414,
+      "label": "Firebase Analytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/gms/measurement/AppMeasurementInstallReferrerReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2307,
+      "type": 9,
+      "name": "com.android.vending.INSTALL_REFERRER",
+      "mode": "exact",
+      "priority": 2307,
+      "label": "Firebase Analytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.android.vending.INSTALL_REFERRER.json",
+      "examples": {
+        "positive": [
+          "com.android.vending.INSTALL_REFERRER"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

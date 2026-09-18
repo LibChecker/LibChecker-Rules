@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A47392F8-4983-5170-85DC-3CF4F9E70486",
+  "iconId": "ic_lib_kotlin",
+  "data": [],
+  "matchers": [
+    {
+      "id": 541,
+      "type": 5,
+      "name": "kotlin.sequences",
+      "mode": "exact",
+      "priority": 541,
+      "label": "Kotlin Sequences",
+      "iconId": "ic_lib_kotlin",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "kotlin.sequences"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

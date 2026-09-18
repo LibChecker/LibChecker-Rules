@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FA88A7E5-1131-43FD-9A3F-5BB4A3C7DE5B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-mmkv-storage",
+        "dev_team": "Ammar Ahmed",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "基于 React Native JSI 技术的移动端键值存储框架。",
+        "source_link": "https://github.com/ammarahm-ed/react-native-mmkv-storage"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-mmkv-storage",
+        "dev_team": "Ammar Ahmed",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "A mobile key-value storage library built on React Native JSI technology.",
+        "source_link": "https://github.com/ammarahm-ed/react-native-mmkv-storage"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2667,
+      "type": 0,
+      "name": "librnmmkv.so",
+      "mode": "exact",
+      "priority": 2667,
+      "label": "react-native-mmkv-storage",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnmmkv.so.json",
+      "examples": {
+        "positive": [
+          "librnmmkv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

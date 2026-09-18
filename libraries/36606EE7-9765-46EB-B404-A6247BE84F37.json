@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "36606EE7-9765-46EB-B404-A6247BE84F37",
+  "iconId": "ic_lib_xiaomi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小米账号开放平台",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "小米账号授权登录服务是小米公司向开发者提供的，基于 OAuth 2.0 标准协议的小米账号快捷登录服务，用户可以方便快捷的使用小米账号登录您的网站或者移动应用。",
+        "source_link": "https://dev.mi.com/console/appservice/account.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xiaomi Account Open Platform",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaomi Account Authorization Login Service is a quick login service based on the OAuth 2.0 standard protocol provided by Xiaomi for developers. Users can easily and quickly log in to your website or mobile application using their Xiaomi account.",
+        "source_link": "https://dev.mi.com/console/appservice/account.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 336,
+      "type": 2,
+      "name": "com.xiaomi.account.openauth.AuthorizeActivity",
+      "mode": "exact",
+      "priority": 336,
+      "label": "小米账号开放平台",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/xiaomi/account/openauth/AuthorizeActivity.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.account.openauth.AuthorizeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 833,
+      "type": 2,
+      "name": "com.xiaomi.accountsdk.diagnosis.ui.PassportDiagnosisActivity",
+      "mode": "exact",
+      "priority": 833,
+      "label": "小米账号开放平台",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/xiaomi/accountsdk/diagnosis/ui/PassportDiagnosisActivity.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.accountsdk.diagnosis.ui.PassportDiagnosisActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2368,
+      "type": 9,
+      "name": "com.xiaomi.account.openauth.action.AUTH",
+      "mode": "exact",
+      "priority": 2368,
+      "label": "小米账号开放平台",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.xiaomi.account.openauth.action.AUTH.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.account.openauth.action.AUTH"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

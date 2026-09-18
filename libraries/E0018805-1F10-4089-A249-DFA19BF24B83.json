@@ -1,0 +1,760 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E0018805-1F10-4089-A249-DFA19BF24B83",
+  "iconId": "ic_lib_agora",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Agora RTC SDK",
+        "dev_team": "Agora",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "crrashh1542"
+        ],
+        "description": "视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。",
+        "source_link": "https://docs.agora.io/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Agora RTC SDK",
+        "dev_team": "Agora",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "crrashh1542"
+        ],
+        "description": "Video call SDK can achieve one-to-one single chat and multi-person group chat, with both pure voice call and video call functions.",
+        "source_link": "https://docs.agora.io/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 161,
+      "type": 0,
+      "name": "libagora-rtc-sdk-jni.so",
+      "mode": "exact",
+      "priority": 161,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-rtc-sdk-jni.so.json",
+      "examples": {
+        "positive": [
+          "libagora-rtc-sdk-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 891,
+      "type": 0,
+      "name": "libagora_ai_denoise_extension.so",
+      "mode": "exact",
+      "priority": 891,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_ai_denoise_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_ai_denoise_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 892,
+      "type": 0,
+      "name": "libagora_ci_extension.so",
+      "mode": "exact",
+      "priority": 892,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_ci_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_ci_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 893,
+      "type": 0,
+      "name": "libagora_dav1d_extension.so",
+      "mode": "exact",
+      "priority": 893,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_dav1d_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_dav1d_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 894,
+      "type": 0,
+      "name": "libagora_fd_extension.so",
+      "mode": "exact",
+      "priority": 894,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_fd_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_fd_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 895,
+      "type": 0,
+      "name": "libagora_fdkaac.so",
+      "mode": "exact",
+      "priority": 895,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_fdkaac.so.json",
+      "examples": {
+        "positive": [
+          "libagora_fdkaac.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 896,
+      "type": 0,
+      "name": "libagora_jnd_extension.so",
+      "mode": "exact",
+      "priority": 896,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_jnd_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_jnd_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 897,
+      "type": 0,
+      "name": "libagora-mpg123.so",
+      "mode": "exact",
+      "priority": 897,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-mpg123.so.json",
+      "examples": {
+        "positive": [
+          "libagora-mpg123.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 898,
+      "type": 0,
+      "name": "libagora_segmentation_extension.so",
+      "mode": "exact",
+      "priority": 898,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_segmentation_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_segmentation_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 899,
+      "type": 0,
+      "name": "libagora_super_resolution_extension.so",
+      "mode": "exact",
+      "priority": 899,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_super_resolution_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_super_resolution_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 900,
+      "type": 0,
+      "name": "libagora_video_process_extension.so",
+      "mode": "exact",
+      "priority": 900,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_video_process_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_video_process_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 901,
+      "type": 0,
+      "name": "libagora-core.so",
+      "mode": "exact",
+      "priority": 901,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-core.so.json",
+      "examples": {
+        "positive": [
+          "libagora-core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 902,
+      "type": 0,
+      "name": "libagora-ffmpeg.so",
+      "mode": "exact",
+      "priority": 902,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-ffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libagora-ffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 903,
+      "type": 0,
+      "name": "libagora-rtc-sdk.so",
+      "mode": "exact",
+      "priority": 903,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-rtc-sdk.so.json",
+      "examples": {
+        "positive": [
+          "libagora-rtc-sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 904,
+      "type": 0,
+      "name": "libagora-soundtouch.so",
+      "mode": "exact",
+      "priority": 904,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-soundtouch.so.json",
+      "examples": {
+        "positive": [
+          "libagora-soundtouch.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 984,
+      "type": 0,
+      "name": "libAgoraMediaPlayer.so",
+      "mode": "exact",
+      "priority": 984,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAgoraMediaPlayer.so.json",
+      "examples": {
+        "positive": [
+          "libAgoraMediaPlayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 985,
+      "type": 0,
+      "name": "libagora-player-ffmpeg.so",
+      "mode": "exact",
+      "priority": 985,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-player-ffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libagora-player-ffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1151,
+      "type": 0,
+      "name": "libagora-crypto.so",
+      "mode": "exact",
+      "priority": 1151,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-crypto.so.json",
+      "examples": {
+        "positive": [
+          "libagora-crypto.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1152,
+      "type": 0,
+      "name": "libagora-fdkaac.so",
+      "mode": "exact",
+      "priority": 1152,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-fdkaac.so.json",
+      "examples": {
+        "positive": [
+          "libagora-fdkaac.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1153,
+      "type": 0,
+      "name": "libagora-rtm-sdk-jni.so",
+      "mode": "exact",
+      "priority": 1153,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-rtm-sdk-jni.so.json",
+      "examples": {
+        "positive": [
+          "libagora-rtm-sdk-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1154,
+      "type": 0,
+      "name": "libagora_spatial_audio_extension.so",
+      "mode": "exact",
+      "priority": 1154,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_spatial_audio_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_spatial_audio_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1155,
+      "type": 0,
+      "name": "libagora_full_audio_format_extension.so",
+      "mode": "exact",
+      "priority": 1155,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_full_audio_format_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_full_audio_format_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1718,
+      "type": 0,
+      "name": "libagora-chat-sdk.so",
+      "mode": "exact",
+      "priority": 1718,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora-chat-sdk.so.json",
+      "examples": {
+        "positive": [
+          "libagora-chat-sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1719,
+      "type": 0,
+      "name": "libagora_ai_echo_cancellation_extension.so",
+      "mode": "exact",
+      "priority": 1719,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_ai_echo_cancellation_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_ai_echo_cancellation_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1720,
+      "type": 0,
+      "name": "libagora_ai_noise_suppression_extension.so",
+      "mode": "exact",
+      "priority": 1720,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_ai_noise_suppression_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_ai_noise_suppression_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1721,
+      "type": 0,
+      "name": "libagora_audio_beauty_extension.so",
+      "mode": "exact",
+      "priority": 1721,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_audio_beauty_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_audio_beauty_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1722,
+      "type": 0,
+      "name": "libagora_clear_vision_extension.so",
+      "mode": "exact",
+      "priority": 1722,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_clear_vision_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_clear_vision_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1723,
+      "type": 0,
+      "name": "libagora_content_inspect_extension.so",
+      "mode": "exact",
+      "priority": 1723,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_content_inspect_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_content_inspect_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1724,
+      "type": 0,
+      "name": "libagora_drm_loader_extension.so",
+      "mode": "exact",
+      "priority": 1724,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_drm_loader_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_drm_loader_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1725,
+      "type": 0,
+      "name": "libagora_face_detection_extension.so",
+      "mode": "exact",
+      "priority": 1725,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_face_detection_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_face_detection_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1726,
+      "type": 0,
+      "name": "libagora_screen_capture_extension.so",
+      "mode": "exact",
+      "priority": 1726,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_screen_capture_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_screen_capture_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1729,
+      "type": 0,
+      "name": "libagora_udrm3_extension.so",
+      "mode": "exact",
+      "priority": 1729,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_udrm3_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_udrm3_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1730,
+      "type": 0,
+      "name": "libagora_video_decoder_extension.so",
+      "mode": "exact",
+      "priority": 1730,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_video_decoder_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_video_decoder_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1731,
+      "type": 0,
+      "name": "libagora_video_encoder_extension.so",
+      "mode": "exact",
+      "priority": 1731,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_video_encoder_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_video_encoder_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1732,
+      "type": 0,
+      "name": "libagora_video_quality_analyzer_extension.so",
+      "mode": "exact",
+      "priority": 1732,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_video_quality_analyzer_extension.so.json",
+      "examples": {
+        "positive": [
+          "libagora_video_quality_analyzer_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1734,
+      "type": 0,
+      "name": "libcipherdb.so",
+      "mode": "exact",
+      "priority": 1734,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcipherdb.so.json",
+      "examples": {
+        "positive": [
+          "libcipherdb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1735,
+      "type": 0,
+      "name": "libvideo_dec.so",
+      "mode": "exact",
+      "priority": 1735,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvideo_dec.so.json",
+      "examples": {
+        "positive": [
+          "libvideo_dec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1736,
+      "type": 0,
+      "name": "libvideo_enc.so",
+      "mode": "exact",
+      "priority": 1736,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvideo_enc.so.json",
+      "examples": {
+        "positive": [
+          "libvideo_enc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1818,
+      "type": 0,
+      "name": "libagora_mpg123.so",
+      "mode": "exact",
+      "priority": 1818,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_mpg123.so.json",
+      "examples": {
+        "positive": [
+          "libagora_mpg123.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2794,
+      "type": 0,
+      "name": "libagora_dav1d.so",
+      "mode": "exact",
+      "priority": 2794,
+      "label": "Agora RTC SDK",
+      "iconId": "ic_lib_agora",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libagora_dav1d.so.json",
+      "examples": {
+        "positive": [
+          "libagora_dav1d.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

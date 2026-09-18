@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "76EBC737-8F52-41AF-A5D5-6F399EB75C7B",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "百川电商 SDK - 授权",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "用户可将某些功能/能力同意给媒体使用，媒体可通过获取用户的授权，访问页面/API 等数据。",
+        "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Baichuan E-commerce SDK - Authorization",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Users can consent to certain features/capabilities for media use, allowing media to access page/API data through user authorization.",
+        "source_link": "https://developer.alibaba.com/docs/doc.htm?treeId=129&articleId=118101&docType=1"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 302,
+      "type": 2,
+      "name": "com.ali.auth.third.ui.LoginWebViewActivity",
+      "mode": "exact",
+      "priority": 302,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ali/auth/third/ui/LoginWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.ali.auth.third.ui.LoginWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 303,
+      "type": 2,
+      "name": "com.ali.auth.third.ui.LoginActivity",
+      "mode": "exact",
+      "priority": 303,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ali/auth/third/ui/LoginActivity.json",
+      "examples": {
+        "positive": [
+          "com.ali.auth.third.ui.LoginActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 320,
+      "type": 2,
+      "name": "com.ali.auth.third.ui.webview.BaseWebViewActivity",
+      "mode": "exact",
+      "priority": 320,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ali/auth/third/ui/webview/BaseWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.ali.auth.third.ui.webview.BaseWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1694,
+      "type": 2,
+      "name": "com.ali.auth.third.ui.QrLoginActivity",
+      "mode": "exact",
+      "priority": 1694,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ali/auth/third/ui/QrLoginActivity.json",
+      "examples": {
+        "positive": [
+          "com.ali.auth.third.ui.QrLoginActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1695,
+      "type": 2,
+      "name": "com.ali.auth.third.ui.QrLoginConfirmActivity",
+      "mode": "exact",
+      "priority": 1695,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ali/auth/third/ui/QrLoginConfirmActivity.json",
+      "examples": {
+        "positive": [
+          "com.ali.auth.third.ui.QrLoginConfirmActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1697,
+      "type": 2,
+      "name": "com.alibaba.baichuan.android.trade.ui.AlibcWebViewActivity",
+      "mode": "exact",
+      "priority": 1697,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/baichuan/android/trade/ui/AlibcWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.baichuan.android.trade.ui.AlibcWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1698,
+      "type": 2,
+      "name": "com.alibaba.baichuan.trade.biz.auth.AlibcAuthActivity",
+      "mode": "exact",
+      "priority": 1698,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/baichuan/trade/biz/auth/AlibcAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.baichuan.trade.biz.auth.AlibcAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1705,
+      "type": 3,
+      "name": "com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver",
+      "mode": "exact",
+      "priority": 1705,
+      "label": "百川电商 SDK - 授权",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/alibaba/baichuan/trade/biz/login/LoginBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

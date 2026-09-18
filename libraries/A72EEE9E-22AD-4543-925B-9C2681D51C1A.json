@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A72EEE9E-22AD-4543-925B-9C2681D51C1A",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "glog",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "glog 是一个 C++ 日志库，它提供 C++ 流式风格的 API。",
+        "source_link": "https://github.com/google/glog/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "glog",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "glog is a C++ logging library that provides a C++ stream-style API.",
+        "source_link": "https://github.com/google/glog/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 28,
+      "type": 0,
+      "name": "libglog.so",
+      "mode": "exact",
+      "priority": 28,
+      "label": "glog",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libglog.so.json",
+      "examples": {
+        "positive": [
+          "libglog.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

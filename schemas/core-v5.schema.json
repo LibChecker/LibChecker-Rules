@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "core-v5",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 5
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2147483647
+          },
+          "uuid": {
+            "type": "string",
+            "pattern": "^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "type": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9
+          },
+          "iconIndex": {
+            "type": "integer",
+            "minimum": -1
+          },
+          "iconId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "isSimpleColorIcon": {
+            "type": "boolean"
+          },
+          "isRegexRule": {
+            "type": "boolean"
+          },
+          "regexName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2147483647
+          },
+          "detailPath": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "uuid",
+          "name",
+          "label",
+          "type",
+          "iconIndex",
+          "iconId",
+          "isSimpleColorIcon",
+          "isRegexRule",
+          "regexName",
+          "priority",
+          "detailPath"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "rules"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A221BF76-BC77-4C57-8ADA-04ED24F079CA",
+  "iconId": "ic_lib_mpaas",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "mPaaS 社交分享",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "mPaaS 的社交分享组件提供微博、微信、支付宝、QQ、短信等渠道的分享功能，提供给开发者统一的接口，无须处理各 SDK 的接口差异性。",
+        "source_link": "https://help.aliyun.com/document_detail/68177.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "mPaaS Social Share",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "mPaaS's social sharing component provides sharing functions through channels like Weibo, WeChat, Alipay, QQ, SMS, etc., offering developers a unified interface without handling the interface differences of each SDK.",
+        "source_link": "https://help.aliyun.com/document_detail/68177.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1046,
+      "type": 2,
+      "name": "com.alipay.android.shareassist.ui.WeiboEditActivity",
+      "mode": "exact",
+      "priority": 1046,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/android/shareassist/ui/WeiboEditActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.shareassist.ui.WeiboEditActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1047,
+      "type": 2,
+      "name": "com.alipay.android.shareassist.ui.WeiboAuthActivity",
+      "mode": "exact",
+      "priority": 1047,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/android/shareassist/ui/WeiboAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.shareassist.ui.WeiboAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1048,
+      "type": 2,
+      "name": "com.alipay.auth.AuthWeiboActivity",
+      "mode": "exact",
+      "priority": 1048,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/auth/AuthWeiboActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.auth.AuthWeiboActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1049,
+      "type": 2,
+      "name": "com.alipay.android.shareassist.ui.WeiboFrindListActivity",
+      "mode": "exact",
+      "priority": 1049,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/android/shareassist/ui/WeiboFrindListActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.shareassist.ui.WeiboFrindListActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1050,
+      "type": 2,
+      "name": "com.alipay.android.shareassist.ui.WeiboCallbackActivity",
+      "mode": "exact",
+      "priority": 1050,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/android/shareassist/ui/WeiboCallbackActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.shareassist.ui.WeiboCallbackActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1051,
+      "type": 2,
+      "name": "com.alipay.android.shareassist.ui.QQCallbackActivity",
+      "mode": "exact",
+      "priority": 1051,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/android/shareassist/ui/QQCallbackActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.shareassist.ui.QQCallbackActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1909,
+      "type": 0,
+      "name": "libandroid-phone-wallet-scanexport.so",
+      "mode": "exact",
+      "priority": 1909,
+      "label": "mPaaS 社交分享",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroid-phone-wallet-scanexport.so.json",
+      "examples": {
+        "positive": [
+          "libandroid-phone-wallet-scanexport.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B182018B-F6AF-4D8A-9EA9-FCDCF2B5614D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Process Phoenix",
+        "dev_team": "JakeWharton",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Process Phoenix 便于重新启动您的应用程序进程。",
+        "source_link": "https://github.com/JakeWharton/ProcessPhoenix"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Process Phoenix",
+        "dev_team": "JakeWharton",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Process Phoenix facilitates restarting your application process.",
+        "source_link": "https://github.com/JakeWharton/ProcessPhoenix"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 822,
+      "type": 2,
+      "name": "com.jakewharton.processphoenix.ProcessPhoenix",
+      "mode": "exact",
+      "priority": 822,
+      "label": "ProcessPhoenix",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/jakewharton/processphoenix/ProcessPhoenix.json",
+      "examples": {
+        "positive": [
+          "com.jakewharton.processphoenix.ProcessPhoenix"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1905,
+      "type": 1,
+      "name": "com.jakewharton.processphoenix.PhoenixService",
+      "mode": "exact",
+      "priority": 1905,
+      "label": "Process Phoenix",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/jakewharton/processphoenix/PhoenixService.json",
+      "examples": {
+        "positive": [
+          "com.jakewharton.processphoenix.PhoenixService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1971,
+      "type": 2,
+      "name": "com.jakewharton.processphoenix.PhoenixActivity",
+      "mode": "exact",
+      "priority": 1971,
+      "label": "Process Phoenix",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/jakewharton/processphoenix/PhoenixActivity.json",
+      "examples": {
+        "positive": [
+          "com.jakewharton.processphoenix.PhoenixActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

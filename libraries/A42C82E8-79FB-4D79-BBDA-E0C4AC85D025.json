@@ -1,0 +1,538 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A42C82E8-79FB-4D79-BBDA-E0C4AC85D025",
+  "iconId": "ic_lib_volcengine",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GMP Push SDK",
+        "dev_team": "Volcengine",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "GMP Push SDK 是 GMP 提供端触达能力的 SDK。",
+        "source_link": "https://www.volcengine.com/docs/6315/164573"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GMP Push SDK",
+        "dev_team": "Volcengine",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "GMP Push SDK is an SDK provided by GMP for endpoint reach capabilities.",
+        "source_link": "https://www.volcengine.com/docs/6315/164573"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1497,
+      "type": 2,
+      "name": "com.bytedance.push.notification.PassThoughActivity",
+      "mode": "exact",
+      "priority": 1497,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/push/notification/PassThoughActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.push.notification.PassThoughActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1498,
+      "type": 2,
+      "name": "com.bytedance.push.notification.PushActivity",
+      "mode": "exact",
+      "priority": 1498,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/push/notification/PushActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.push.notification.PushActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1499,
+      "type": 2,
+      "name": "com.ss.android.message.sswo.SswoActivity",
+      "mode": "exact",
+      "priority": 1499,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/message/sswo/SswoActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.sswo.SswoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1512,
+      "type": 4,
+      "name": "com.bytedance.push.settings.storage.PushProvider",
+      "mode": "exact",
+      "priority": 1512,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/push/settings/storage/PushProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.push.settings.storage.PushProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1515,
+      "type": 4,
+      "name": "com.ss.android.push.PushFileProvider",
+      "mode": "exact",
+      "priority": 1515,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/ss/android/push/PushFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.push.PushFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1516,
+      "type": 4,
+      "name": "com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider",
+      "mode": "exact",
+      "priority": 1516,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/ss/android/pushmanager/setting/PushMultiProcessSharedProvider.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1520,
+      "type": 3,
+      "name": "com.meizu.message.MzMessageReceiver",
+      "mode": "exact",
+      "priority": 1520,
+      "label": "Meizu Push(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/meizu/message/MzMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.meizu.message.MzMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1521,
+      "type": 3,
+      "name": "com.ss.android.message.MessageReceiver",
+      "mode": "exact",
+      "priority": 1521,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/ss/android/message/MessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.MessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1522,
+      "type": 3,
+      "name": "com.ss.android.message.sswo.SswoReceiver",
+      "mode": "exact",
+      "priority": 1522,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/ss/android/message/sswo/SswoReceiver.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.sswo.SswoReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1523,
+      "type": 3,
+      "name": "com.ss.android.push.DefaultReceiver",
+      "mode": "exact",
+      "priority": 1523,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/ss/android/push/DefaultReceiver.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.push.DefaultReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1524,
+      "type": 3,
+      "name": "com.ss.android.push.daemon.PushReceiver",
+      "mode": "exact",
+      "priority": 1524,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/ss/android/push/daemon/PushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.push.daemon.PushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1525,
+      "type": 3,
+      "name": "com.vivo.VivoPushMessageReceiver",
+      "mode": "exact",
+      "priority": 1525,
+      "label": "vivo Push(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/vivo/VivoPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.vivo.VivoPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1526,
+      "type": 3,
+      "name": "com.xiaomi.push.service.receivers.MIPushMessageHandler",
+      "mode": "exact",
+      "priority": 1526,
+      "label": "MiPush(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/xiaomi/push/service/receivers/MIPushMessageHandler.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.push.service.receivers.MIPushMessageHandler"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1527,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.CloudPushIntentService",
+      "mode": "exact",
+      "priority": 1527,
+      "label": "阿里移动推送(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/CloudPushIntentService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.CloudPushIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1528,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.PushIntentService",
+      "mode": "exact",
+      "priority": 1528,
+      "label": "阿里移动推送(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/PushIntentService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.PushIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1529,
+      "type": 1,
+      "name": "com.bytedance.push.alive.ForegroundService",
+      "mode": "exact",
+      "priority": 1529,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/push/alive/ForegroundService.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.push.alive.ForegroundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1530,
+      "type": 1,
+      "name": "com.huawei.MessageService",
+      "mode": "exact",
+      "priority": 1530,
+      "label": "HUAWEI Push(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/huawei/MessageService.json",
+      "examples": {
+        "positive": [
+          "com.huawei.MessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1531,
+      "type": 1,
+      "name": "com.ss.android.message.NotifyIntentService",
+      "mode": "exact",
+      "priority": 1531,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/message/NotifyIntentService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.NotifyIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1532,
+      "type": 1,
+      "name": "com.ss.android.message.NotifyService",
+      "mode": "exact",
+      "priority": 1532,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/message/NotifyService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.NotifyService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1533,
+      "type": 1,
+      "name": "com.ss.android.message.PushJobService",
+      "mode": "exact",
+      "priority": 1533,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/message/PushJobService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.PushJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1534,
+      "type": 1,
+      "name": "com.ss.android.message.log.LogService",
+      "mode": "exact",
+      "priority": 1534,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/message/log/LogService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.message.log.LogService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1535,
+      "type": 1,
+      "name": "com.ss.android.newmedia.redbadge.RedBadgePushProcessService",
+      "mode": "exact",
+      "priority": 1535,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/newmedia/redbadge/RedBadgePushProcessService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.newmedia.redbadge.RedBadgePushProcessService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1536,
+      "type": 1,
+      "name": "com.ss.android.newmedia.redbadge.RedbadgeHandler",
+      "mode": "exact",
+      "priority": 1536,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/newmedia/redbadge/RedbadgeHandler.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.newmedia.redbadge.RedbadgeHandler"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1537,
+      "type": 1,
+      "name": "com.ss.android.push.DefaultService",
+      "mode": "exact",
+      "priority": 1537,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/push/DefaultService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.push.DefaultService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1538,
+      "type": 1,
+      "name": "com.ss.android.push.daemon.PushProcessService",
+      "mode": "exact",
+      "priority": 1538,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/push/daemon/PushProcessService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.push.daemon.PushProcessService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1539,
+      "type": 1,
+      "name": "com.ss.android.push.daemon.PushService",
+      "mode": "exact",
+      "priority": 1539,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/push/daemon/PushService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.push.daemon.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1540,
+      "type": 1,
+      "name": "com.umeng.UmengMessageHandler",
+      "mode": "exact",
+      "priority": 1540,
+      "label": "友盟推送(GMP Proxy)",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/UmengMessageHandler.json",
+      "examples": {
+        "positive": [
+          "com.umeng.UmengMessageHandler"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2345,
+      "type": 9,
+      "name": "com.luna.music.pushsdk.action",
+      "mode": "exact",
+      "priority": 2345,
+      "label": "GMP Push SDK",
+      "iconId": "ic_lib_volcengine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.luna.music.pushsdk.action.json",
+      "examples": {
+        "positive": [
+          "com.luna.music.pushsdk.action"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

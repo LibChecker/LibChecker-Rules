@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "22E4673B-C518-4B19-9F50-1F337A07A873",
+  "iconId": "ic_lib_aliyun",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "日志服务 SLS",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "日志服务 SLS 是云原生观测与分析平台，为 Log、Metric、Trace 等数据提供大规模、低成本、实时的平台化服务。日志服务一站式提供数据采集、加工、查询与分析、可视化、告警、消费与投递等功能，全面提升您在研发、运维、运营、安全等场景的数字化能力。",
+        "source_link": "https://help.aliyun.com/product/28958.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Log Service SLS",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Log Service SLS is a cloud-native observation and analysis platform that provides large-scale, low-cost, real-time platform services for Log, Metric, Trace, and other data. Log Service offers one-stop data collection, processing, querying and analysis, visualization, alerting, consumption, and delivery functions, comprehensively enhancing your digital capabilities in R&D, operations, security, and other scenarios.",
+        "source_link": "https://help.aliyun.com/product/28958.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1269,
+      "type": 0,
+      "name": "libsls_producer.so",
+      "mode": "exact",
+      "priority": 1269,
+      "label": "日志服务 SLS",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsls_producer.so.json",
+      "examples": {
+        "positive": [
+          "libsls_producer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1806,
+      "type": 0,
+      "name": "libAliHALogEngine.so",
+      "mode": "exact",
+      "priority": 1806,
+      "label": "日志服务 SLS",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAliHALogEngine.so.json",
+      "examples": {
+        "positive": [
+          "libAliHALogEngine.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

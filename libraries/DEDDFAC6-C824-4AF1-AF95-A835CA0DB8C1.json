@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DEDDFAC6-C824-4AF1-AF95-A835CA0DB8C1",
+  "iconId": "ic_lib_rust",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Trust Wallet Core",
+        "dev_team": "Trustwallet",
+        "rule_contributors": [
+          "huazhuangnan"
+        ],
+        "description": "跨平台、跨区块链钱包库。",
+        "source_link": "https://github.com/trustwallet/wallet-core"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Trust Wallet Core",
+        "dev_team": "Trustwallet",
+        "rule_contributors": [
+          "huazhuangnan"
+        ],
+        "description": "Cross-platform, cross-blockchain wallet library.",
+        "source_link": "https://github.com/trustwallet/wallet-core"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1953,
+      "type": 0,
+      "name": "libTrustWalletCore.so",
+      "mode": "exact",
+      "priority": 1953,
+      "label": "Trust Wallet Core",
+      "iconId": "ic_lib_rust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libTrustWalletCore.so.json",
+      "examples": {
+        "positive": [
+          "libTrustWalletCore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1954,
+      "type": 0,
+      "name": "libTrustUtils.so",
+      "mode": "exact",
+      "priority": 1954,
+      "label": "Trust Wallet Core",
+      "iconId": "ic_lib_rust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libTrustUtils.so.json",
+      "examples": {
+        "positive": [
+          "libTrustUtils.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

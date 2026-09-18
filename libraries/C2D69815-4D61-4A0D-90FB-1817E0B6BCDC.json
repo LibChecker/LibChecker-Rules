@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C2D69815-4D61-4A0D-90FB-1817E0B6BCDC",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LiTr",
+        "dev_team": "Linkedin",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "LiTr（发音为“lai-tr”）是一个轻量级视频/音频转换工具，支持带有可选帧修改功能的视频和音频轨道转码。",
+        "source_link": "https://github.com/linkedin/LiTr"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LiTr",
+        "dev_team": "Linkedin",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "LiTr (pronounced \"lai-tr\") is a lightweight video/audio transformation tool which supports transcoding video and audio tracks with optional frame modification.",
+        "source_link": "https://github.com/linkedin/LiTr"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2653,
+      "type": 0,
+      "name": "liblitr-jni.so",
+      "mode": "exact",
+      "priority": 2653,
+      "label": "LiTr",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblitr-jni.so.json",
+      "examples": {
+        "positive": [
+          "liblitr-jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

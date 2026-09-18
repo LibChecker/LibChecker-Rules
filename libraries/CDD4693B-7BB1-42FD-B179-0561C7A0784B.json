@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CDD4693B-7BB1-42FD-B179-0561C7A0784B",
+  "iconId": "ic_lib_gamemaker",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GameMaker Studio",
+        "dev_team": "YoYo Games",
+        "rule_contributors": [
+          "Ahopness"
+        ],
+        "description": "终极 2D 游戏开发环境。",
+        "source_link": "https://www.yoyogames.com/en/gamemaker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GameMaker Studio",
+        "dev_team": "YoYo Games",
+        "rule_contributors": [
+          "Ahopness"
+        ],
+        "description": "The Ultimate 2D Game Development Environment",
+        "source_link": "https://www.yoyogames.com/en/gamemaker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 959,
+      "type": 0,
+      "name": "libyoyo.so",
+      "mode": "exact",
+      "priority": 959,
+      "label": "GameMaker Studio",
+      "iconId": "ic_lib_gamemaker",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyoyo.so.json",
+      "examples": {
+        "positive": [
+          "libyoyo.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

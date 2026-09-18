@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7D5DB1D5-25C5-4DE1-92F2-369F8A6B61F9",
+  "iconId": "ic_lib_oppo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OPPO 安全检测 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "为应用提供安全可信的风险检测能力，包括：恶意 URL 检测能力、终端环境安全检测能力、日志防泄漏检测能力、移动应用加固服务、隐私安全检测服务、可信数字身份密钥服务，方便快速集成。",
+        "source_link": "https://open.oppomobile.com/documentation/page/info?id=11091"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OPPO 安全检测 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Provides secure and reliable risk detection capabilities for apps, including malicious URL detection, device environment security checks, log leak prevention, mobile app hardening services, privacy security detection, and trusted digital identity key services, making integration quick and easy.",
+        "source_link": "https://open.oppomobile.com/documentation/page/info?id=11091"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2430,
+      "type": 0,
+      "name": "libomesStdSco.so",
+      "mode": "exact",
+      "priority": 2430,
+      "label": "OPPO 安全检测 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libomesStdSco.so.json",
+      "examples": {
+        "positive": [
+          "libomesStdSco.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

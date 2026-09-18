@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 5,
+  "uuid": "07BCD6B3-C777-4763-9D3F-8821DD843828",
+  "iconId": "ic_lib_square",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LeakCanary",
+        "dev_team": "Square",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "LeakCanary 是适用于 Android 的内存泄漏检测库。",
+        "source_link": "https://square.github.io/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LeakCanary",
+        "dev_team": "Square",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "LeakCanary is a memory leak detection library for Android.",
+        "source_link": "https://square.github.io/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 633,
+      "type": 4,
+      "name": "leakcanary.internal.PlumberInstaller",
+      "mode": "exact",
+      "priority": 633,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/leakcanary/internal/PlumberInstaller.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.PlumberInstaller"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 634,
+      "type": 1,
+      "name": "leakcanary.internal.HeapAnalyzerService",
+      "mode": "exact",
+      "priority": 634,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/leakcanary/internal/HeapAnalyzerService.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.HeapAnalyzerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 635,
+      "type": 2,
+      "name": "leakcanary.internal.RequestStoragePermissionActivity",
+      "mode": "exact",
+      "priority": 635,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/leakcanary/internal/RequestStoragePermissionActivity.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.RequestStoragePermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 636,
+      "type": 2,
+      "name": "leakcanary.internal.activity.LeakLauncherActivity",
+      "mode": "exact",
+      "priority": 636,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/leakcanary/internal/activity/LeakLauncherActivity.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.activity.LeakLauncherActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 637,
+      "type": 2,
+      "name": "leakcanary.internal.activity.LeakActivity",
+      "mode": "exact",
+      "priority": 637,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/leakcanary/internal/activity/LeakActivity.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.activity.LeakActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 638,
+      "type": 3,
+      "name": "leakcanary.internal.NotificationReceiver",
+      "mode": "exact",
+      "priority": 638,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/leakcanary/internal/NotificationReceiver.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.NotificationReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 639,
+      "type": 4,
+      "name": "leakcanary.internal.LeakCanaryFileProvider",
+      "mode": "exact",
+      "priority": 639,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/leakcanary/internal/LeakCanaryFileProvider.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.LeakCanaryFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 640,
+      "type": 4,
+      "name": "leakcanary.internal.AppWatcherInstaller$MainProcess",
+      "mode": "exact",
+      "priority": 640,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/leakcanary/internal/AppWatcherInstaller$MainProcess.json",
+      "examples": {
+        "positive": [
+          "leakcanary.internal.AppWatcherInstaller$MainProcess"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1709,
+      "type": 1,
+      "name": "com.squareup.leakcanary.DisplayLeakService",
+      "mode": "exact",
+      "priority": 1709,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/squareup/leakcanary/DisplayLeakService.json",
+      "examples": {
+        "positive": [
+          "com.squareup.leakcanary.DisplayLeakService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1710,
+      "type": 1,
+      "name": "com.squareup.leakcanary.SaveLeakService",
+      "mode": "exact",
+      "priority": 1710,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/squareup/leakcanary/SaveLeakService.json",
+      "examples": {
+        "positive": [
+          "com.squareup.leakcanary.SaveLeakService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1711,
+      "type": 1,
+      "name": "com.squareup.leakcanary.internal.HeapAnalyzerService",
+      "mode": "exact",
+      "priority": 1711,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/squareup/leakcanary/internal/HeapAnalyzerService.json",
+      "examples": {
+        "positive": [
+          "com.squareup.leakcanary.internal.HeapAnalyzerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2372,
+      "type": 9,
+      "name": "leakcanary_dmt.ANALYSIS_ACTION",
+      "mode": "exact",
+      "priority": 2372,
+      "label": "LeakCanary",
+      "iconId": "ic_lib_square",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/leakcanary_dmt.ANALYSIS_ACTION.json",
+      "examples": {
+        "positive": [
+          "leakcanary_dmt.ANALYSIS_ACTION"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "01DC5EBE-E044-4D3C-9DF1-63DE842BFCAD",
+  "iconId": "ic_lib_jpush",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "极光联盟",
+        "dev_team": "Aurora 极光",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "极光联盟涵盖效果广告、智能触达、VaaS、互动广告、互动游戏等五大服务，助力开发者提高用户活跃时长、增加用户粘性，提升用户价值。为开发者提供优质的广告变现服务！",
+        "source_link": "https://docs.jiguang.cn/jad/guideline/intro"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Aurora Alliance",
+        "dev_team": "Aurora 极光",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Aurora Alliance covers five major services: performance advertising, smart reach, VaaS, interactive advertising, and interactive games, helping developers increase user engagement time, enhance user stickiness, and improve user value. Provides developers with premium ad monetization services!",
+        "source_link": "https://docs.jiguang.cn/jad/guideline/intro"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1099,
+      "type": 1,
+      "name": "cn.jiguang.ads.app.service.UserService",
+      "mode": "exact",
+      "priority": 1099,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jiguang/ads/app/service/UserService.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.ads.app.service.UserService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1100,
+      "type": 2,
+      "name": "cn.jiguang.ads.base.component.JAdActivity",
+      "mode": "exact",
+      "priority": 1100,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/jiguang/ads/base/component/JAdActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.ads.base.component.JAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1101,
+      "type": 2,
+      "name": "cn.jiguang.ads.base.component.JTransparentActivity",
+      "mode": "exact",
+      "priority": 1101,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/jiguang/ads/base/component/JTransparentActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.ads.base.component.JTransparentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1102,
+      "type": 4,
+      "name": "cn.jiguang.ads.base.component.JAdProvider",
+      "mode": "exact",
+      "priority": 1102,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jiguang/ads/base/component/JAdProvider.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.ads.base.component.JAdProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1103,
+      "type": 4,
+      "name": "cn.jiguang.ads.base.component.JAdFileProvider",
+      "mode": "exact",
+      "priority": 1103,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jiguang/ads/base/component/JAdFileProvider.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.ads.base.component.JAdFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1104,
+      "type": 3,
+      "name": "cn.jiguang.ads.base.component.JAdReceiver",
+      "mode": "exact",
+      "priority": 1104,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jiguang/ads/base/component/JAdReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.ads.base.component.JAdReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1105,
+      "type": 4,
+      "name": "cn.jiguang.union.ads.service.JAdFileProvider",
+      "mode": "exact",
+      "priority": 1105,
+      "label": "JAd SDK",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jiguang/union/ads/service/JAdFileProvider.json",
+      "examples": {
+        "positive": [
+          "cn.jiguang.union.ads.service.JAdFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

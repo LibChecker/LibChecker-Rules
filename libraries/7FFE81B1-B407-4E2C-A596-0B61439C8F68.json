@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7FFE81B1-B407-4E2C-A596-0B61439C8F68",
+  "iconId": "ic_lib_unity",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "NativeAudio",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "Hacker-yfs"
+        ],
+        "description": "此存储库托管官方 Unity 本机音频插件 SDK。它是一个标准的 Unity 项目，带有预构建的插件效果和自定义 GUI，适用于 OSX 和 Windows。提供所有插件效果的完整源代码，包括本机代码（NativeCode 文件夹中的 Xcode/VisualStudio C++ 项目代码）以及自定义 GUI（GUICode 文件夹中的 MonoDevelop 项目）。",
+        "source_link": "https://github.com/Unity-Technologies/NativeAudioPlugins"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "NativeAudio",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "Hacker-yfs"
+        ],
+        "description": "This repository hosts the official Unity Native Audio Plugin SDK. It is a standard Unity project that comes with prebuilt plugin effects and custom GUIs for OSX and Windows. Full source code for all plugin effects is provided, both for the native code (Xcode/VisualStudio C++ projects code in the NativeCode folder) as well as the custom GUIs (MonoDevelop project in the GUICode folder).",
+        "source_link": "https://github.com/Unity-Technologies/NativeAudioPlugins"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1506,
+      "type": 0,
+      "name": "libnativeaudioe7.so",
+      "mode": "exact",
+      "priority": 1506,
+      "label": "NativeAudio",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnativeaudioe7.so.json",
+      "examples": {
+        "positive": [
+          "libnativeaudioe7.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

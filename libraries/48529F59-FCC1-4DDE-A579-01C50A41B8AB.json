@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 5,
+  "uuid": "48529F59-FCC1-4DDE-A579-01C50A41B8AB",
+  "iconId": "ic_lib_alipay",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Nebula SDK",
+        "dev_team": "Alipay",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Nebula SDK（支付宝 WebView 定制内核）是移动端 Hybrid 解决方案 SDK，提供了良好的外部扩展功能，拥有功能插件化、事件机制、JSAPI 定制和 H5App 推送更新管理能力。",
+        "source_link": "https://nebulasdk.alipay.com/nebulasdk/index.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Nebula SDK",
+        "dev_team": "Alipay",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Nebula SDK (Alipay WebView custom kernel) is a mobile hybrid solution SDK, providing good external extension capabilities, with features like pluginization, event mechanism, JSAPI customization, and H5App push update management.",
+        "source_link": "https://nebulasdk.alipay.com/nebulasdk/index.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 993,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5Activity",
+      "mode": "exact",
+      "priority": 993,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5Activity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5Activity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 994,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity",
+      "mode": "exact",
+      "priority": 994,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 995,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5FileChooserActivity",
+      "mode": "exact",
+      "priority": 995,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5FileChooserActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5FileChooserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 996,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5NetworkCheckActivity",
+      "mode": "exact",
+      "priority": 996,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5NetworkCheckActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5NetworkCheckActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 997,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.wallet.H5DevAppActivity",
+      "mode": "exact",
+      "priority": 997,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/wallet/H5DevAppActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.wallet.H5DevAppActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 998,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.dev.ui.H5BugMeSettingsActivity",
+      "mode": "exact",
+      "priority": 998,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/dev/ui/H5BugMeSettingsActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.dev.ui.H5BugMeSettingsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 999,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5MainProcTinyActivity",
+      "mode": "exact",
+      "priority": 999,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5MainProcTinyActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5MainProcTinyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1000,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity1",
+      "mode": "exact",
+      "priority": 1000,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5Activity$H5Activity1.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity1"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1001,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity2",
+      "mode": "exact",
+      "priority": 1001,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5Activity$H5Activity2.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity2"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1002,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity3",
+      "mode": "exact",
+      "priority": 1002,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5Activity$H5Activity3.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity3"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1003,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity4",
+      "mode": "exact",
+      "priority": 1003,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5Activity$H5Activity4.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity4"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1004,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity5",
+      "mode": "exact",
+      "priority": 1004,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5Activity$H5Activity5.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity5"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1005,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity0",
+      "mode": "exact",
+      "priority": 1005,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity$H5TransActivity0.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity0"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1006,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity1",
+      "mode": "exact",
+      "priority": 1006,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity$H5TransActivity1.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity1"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1007,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity2",
+      "mode": "exact",
+      "priority": 1007,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity$H5TransActivity2.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity2"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1008,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity3",
+      "mode": "exact",
+      "priority": 1008,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity$H5TransActivity3.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity3"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1009,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity4",
+      "mode": "exact",
+      "priority": 1009,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity$H5TransActivity4.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity4"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1010,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity5",
+      "mode": "exact",
+      "priority": 1010,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransActivity$H5TransActivity5.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity5"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1011,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5NebulaAppActivity",
+      "mode": "exact",
+      "priority": 1011,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5NebulaAppActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5NebulaAppActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1012,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulacore.ui.H5TransLandscapeActivity",
+      "mode": "exact",
+      "priority": 1012,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulacore/ui/H5TransLandscapeActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulacore.ui.H5TransLandscapeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1013,
+      "type": 2,
+      "name": "com.alipay.mobile.nebula.appcenter.apphandler.loadingview.H5LoadingActivity",
+      "mode": "exact",
+      "priority": 1013,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebula/appcenter/apphandler/loadingview/H5LoadingActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebula.appcenter.apphandler.loadingview.H5LoadingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1014,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulaappproxy.activity.MiniProgramOpenSettingActivity",
+      "mode": "exact",
+      "priority": 1014,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulaappproxy/activity/MiniProgramOpenSettingActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulaappproxy.activity.MiniProgramOpenSettingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1015,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulaappproxy.ipc.H5ProcessTransActivity",
+      "mode": "exact",
+      "priority": 1015,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulaappproxy/ipc/H5ProcessTransActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulaappproxy.ipc.H5ProcessTransActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1016,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulaappproxy.inside.contact.H5ContactTransparentActivity",
+      "mode": "exact",
+      "priority": 1016,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulaappproxy/inside/contact/H5ContactTransparentActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulaappproxy.inside.contact.H5ContactTransparentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1017,
+      "type": 2,
+      "name": "com.alipay.mobile.nebulaappproxy.inside.account.AlipayMiniProgramAuthActivity",
+      "mode": "exact",
+      "priority": 1017,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/nebulaappproxy/inside/account/AlipayMiniProgramAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulaappproxy.inside.account.AlipayMiniProgramAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1018,
+      "type": 3,
+      "name": "com.alipay.mobile.nebulaappproxy.inside.account.MiniProgramAuthService",
+      "mode": "exact",
+      "priority": 1018,
+      "label": "Nebula SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/alipay/mobile/nebulaappproxy/inside/account/MiniProgramAuthService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.nebulaappproxy.inside.account.MiniProgramAuthService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

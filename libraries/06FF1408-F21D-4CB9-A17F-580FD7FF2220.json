@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 5,
+  "uuid": "06FF1408-F21D-4CB9-A17F-580FD7FF2220",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AnyThink SDK",
+        "dev_team": "TopOn",
+        "rule_contributors": [
+          "jyfyge",
+          "Absinthe"
+        ],
+        "description": "TopOn 是全球领先的移动广告聚合工具，专注于为全球移动开发者提供广告变现运营管理及优化服务，助力开发者实现广告收益最大化。",
+        "source_link": "https://github.com/toponteam/TopOn-Android-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AnyThink SDK",
+        "dev_team": "TopOn",
+        "rule_contributors": [
+          "jyfyge",
+          "Absinthe"
+        ],
+        "description": "TopOn is a leading global mobile ad mediation tool focused on providing ad monetization operation management and optimization services for developers worldwide, helping them maximize ad revenue.",
+        "source_link": "https://github.com/toponteam/TopOn-Android-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2386,
+      "type": 2,
+      "name": "com.anythink.basead.ui.ATLandscapeActivity",
+      "mode": "exact",
+      "priority": 2386,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/basead/ui/ATLandscapeActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.basead.ui.ATLandscapeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2387,
+      "type": 2,
+      "name": "com.anythink.basead.ui.ATLandscapeTranslucentActivity",
+      "mode": "exact",
+      "priority": 2387,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/basead/ui/ATLandscapeTranslucentActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.basead.ui.ATLandscapeTranslucentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2388,
+      "type": 2,
+      "name": "com.anythink.basead.ui.ATPortraitActivity",
+      "mode": "exact",
+      "priority": 2388,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/basead/ui/ATPortraitActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.basead.ui.ATPortraitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2389,
+      "type": 2,
+      "name": "com.anythink.basead.ui.ATPortraitTranslucentActivity",
+      "mode": "exact",
+      "priority": 2389,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/basead/ui/ATPortraitTranslucentActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.basead.ui.ATPortraitTranslucentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2390,
+      "type": 2,
+      "name": "com.anythink.basead.ui.RewardExitConfirmDialogActivity",
+      "mode": "exact",
+      "priority": 2390,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/basead/ui/RewardExitConfirmDialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.basead.ui.RewardExitConfirmDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2391,
+      "type": 2,
+      "name": "com.anythink.basead.ui.activity.ATMixSplashActivity",
+      "mode": "exact",
+      "priority": 2391,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/basead/ui/activity/ATMixSplashActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.basead.ui.activity.ATMixSplashActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2392,
+      "type": 2,
+      "name": "com.anythink.china.activity.TransparentActivity",
+      "mode": "exact",
+      "priority": 2392,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/china/activity/TransparentActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.china.activity.TransparentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2393,
+      "type": 2,
+      "name": "com.anythink.core.activity.AnyThinkGdprAuthActivity",
+      "mode": "exact",
+      "priority": 2393,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/core/activity/AnyThinkGdprAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.core.activity.AnyThinkGdprAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2394,
+      "type": 2,
+      "name": "com.anythink.core.basead.ui.web.WebLandPageActivity",
+      "mode": "exact",
+      "priority": 2394,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/core/basead/ui/web/WebLandPageActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.core.basead.ui.web.WebLandPageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2395,
+      "type": 2,
+      "name": "com.anythink.dlopt.activity.ApkConfirmDialogActivity",
+      "mode": "exact",
+      "priority": 2395,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/anythink/dlopt/activity/ApkConfirmDialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.anythink.dlopt.activity.ApkConfirmDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2567,
+      "type": 3,
+      "name": "com.anythink.dlopt.common.NotificationBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2567,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/anythink/dlopt/common/NotificationBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.anythink.dlopt.common.NotificationBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2571,
+      "type": 1,
+      "name": "com.anythink.dlopt.common.service.ApkDownloadService",
+      "mode": "exact",
+      "priority": 2571,
+      "label": "AnyThink SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/anythink/dlopt/common/service/ApkDownloadService.json",
+      "examples": {
+        "positive": [
+          "com.anythink.dlopt.common.service.ApkDownloadService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

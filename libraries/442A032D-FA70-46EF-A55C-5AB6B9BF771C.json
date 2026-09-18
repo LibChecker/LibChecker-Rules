@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "442A032D-FA70-46EF-A55C-5AB6B9BF771C",
+  "iconId": "ic_lib_netease",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "网易云通信 SDK",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "IM SDK 是网易云通信其他能力（实时语音视频、互动白板等）的基础，本节讲述 IM SDK 的集成步骤也将其他能力 SDK 的集成步骤融合起来，开发者可以根据实际业务需要选择接入的类库。",
+        "source_link": "https://dev.yunxin.163.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "NetEase Cloud Communication SDK",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "IM SDK is the foundation for NetEase Cloud Communication's other capabilities (real-time voice and video, interactive whiteboard, etc.). This section describes the integration steps of the IM SDK, which also incorporate the integration steps of other capability SDKs, allowing developers to choose the libraries to access based on actual business needs.",
+        "source_link": "https://dev.yunxin.163.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 224,
+      "type": 1,
+      "name": "com.netease.nimlib.job.NIMJobService",
+      "mode": "exact",
+      "priority": 224,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/netease/nimlib/job/NIMJobService.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.job.NIMJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 251,
+      "type": 1,
+      "name": "com.netease.nimlib.service.NimService$Aux",
+      "mode": "exact",
+      "priority": 251,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/netease/nimlib/service/NimService$Aux.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.service.NimService$Aux"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 255,
+      "type": 1,
+      "name": "com.netease.nimlib.service.ResponseService",
+      "mode": "exact",
+      "priority": 255,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/netease/nimlib/service/ResponseService.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.service.ResponseService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 264,
+      "type": 1,
+      "name": "com.netease.nimlib.service.NimService",
+      "mode": "exact",
+      "priority": 264,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/netease/nimlib/service/NimService.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.service.NimService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 404,
+      "type": 3,
+      "name": "com.netease.nimlib.service.NimReceiver",
+      "mode": "exact",
+      "priority": 404,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/netease/nimlib/service/NimReceiver.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.service.NimReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 417,
+      "type": 3,
+      "name": "com.netease.nimlib.service.ResponseReceiver",
+      "mode": "exact",
+      "priority": 417,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/netease/nimlib/service/ResponseReceiver.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.service.ResponseReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 458,
+      "type": 4,
+      "name": "com.netease.nimlib.ipc.NIMContentProvider",
+      "mode": "exact",
+      "priority": 458,
+      "label": "网易云通信 SDK",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/netease/nimlib/ipc/NIMContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.netease.nimlib.ipc.NIMContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

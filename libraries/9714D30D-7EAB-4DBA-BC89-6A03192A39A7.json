@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9714D30D-7EAB-4DBA-BC89-6A03192A39A7",
+  "iconId": "ic_lib_tencent_cloud",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯云短视频 SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "腾讯云点播推出了短视频一站式解决方案，覆盖了视频生成、上传、处理、分发和播放在内的各个环节，帮助用户以最快速度实现短视频应用的上线。",
+        "source_link": "https://cloud.tencent.com/document/product/584/9453"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Cloud Short Video SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tencent Cloud VOD has launched a one-stop solution for short videos, covering all aspects of video generation, upload, processing, distribution, and playback, helping users to launch short video applications as quickly as possible.",
+        "source_link": "https://cloud.tencent.com/document/product/584/9453"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 26,
+      "type": 0,
+      "name": "libtxplayer.so",
+      "mode": "exact",
+      "priority": 26,
+      "label": "腾讯云短视频 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtxplayer.so.json",
+      "examples": {
+        "positive": [
+          "libtxplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 39,
+      "type": 0,
+      "name": "libtxsdl.so",
+      "mode": "exact",
+      "priority": 39,
+      "label": "腾讯云短视频 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtxsdl.so.json",
+      "examples": {
+        "positive": [
+          "libtxsdl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 96,
+      "type": 0,
+      "name": "libliteavsdk.so",
+      "mode": "exact",
+      "priority": 96,
+      "label": "腾讯云短视频 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libliteavsdk.so.json",
+      "examples": {
+        "positive": [
+          "libliteavsdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 117,
+      "type": 0,
+      "name": "libtxffmpeg.so",
+      "mode": "exact",
+      "priority": 117,
+      "label": "腾讯云短视频 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtxffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libtxffmpeg.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

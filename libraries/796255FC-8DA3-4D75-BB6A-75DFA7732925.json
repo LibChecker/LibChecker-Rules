@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "796255FC-8DA3-4D75-BB6A-75DFA7732925",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Flutter InAppWebView Plugin",
+        "dev_team": "pichillilorenzo",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个 Flutter 插件，允许你添加内联 WebView、使用无界面 WebView，并打开应用内浏览器窗口。",
+        "source_link": "https://github.com/pichillilorenzo/flutter_inappwebview"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Flutter InAppWebView Plugin",
+        "dev_team": "pichillilorenzo",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "A Flutter plugin that allows you to add an inline webview, to use an headless webview, and to open an in-app browser window.",
+        "source_link": "https://github.com/pichillilorenzo/flutter_inappwebview"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2468,
+      "type": 2,
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity",
+      "mode": "exact",
+      "priority": 2468,
+      "label": "Flutter InAppWebView Plugin",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pichillilorenzo/flutter_inappwebview_android/chrome_custom_tabs/ChromeCustomTabsActivity.json",
+      "examples": {
+        "positive": [
+          "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2469,
+      "type": 2,
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance",
+      "mode": "exact",
+      "priority": 2469,
+      "label": "Flutter InAppWebView Plugin",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pichillilorenzo/flutter_inappwebview_android/chrome_custom_tabs/ChromeCustomTabsActivitySingleInstance.json",
+      "examples": {
+        "positive": [
+          "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2470,
+      "type": 2,
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity",
+      "mode": "exact",
+      "priority": 2470,
+      "label": "Flutter InAppWebView Plugin",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pichillilorenzo/flutter_inappwebview_android/chrome_custom_tabs/TrustedWebActivity.json",
+      "examples": {
+        "positive": [
+          "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2471,
+      "type": 2,
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance",
+      "mode": "exact",
+      "priority": 2471,
+      "label": "Flutter InAppWebView Plugin",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pichillilorenzo/flutter_inappwebview_android/chrome_custom_tabs/TrustedWebActivitySingleInstance.json",
+      "examples": {
+        "positive": [
+          "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2472,
+      "type": 2,
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity",
+      "mode": "exact",
+      "priority": 2472,
+      "label": "Flutter InAppWebView Plugin",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pichillilorenzo/flutter_inappwebview_android/in_app_browser/InAppBrowserActivity.json",
+      "examples": {
+        "positive": [
+          "com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2569,
+      "type": 3,
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2569,
+      "label": "Flutter InAppWebView Plugin",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/pichillilorenzo/flutter_inappwebview_android/chrome_custom_tabs/ActionBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

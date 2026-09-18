@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D7D418A4-4C2E-4C84-9A93-03309CE630A8",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-keyboard-controller",
+        "dev_team": "kirillzyusko",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "在 iOS 和 Android 上以相同方式工作的键盘管理器。",
+        "source_link": "https://github.com/kirillzyusko/react-native-keyboard-controller"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-keyboard-controller",
+        "dev_team": "kirillzyusko",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Keyboard manager which works in identical way on both iOS and Android.",
+        "source_link": "https://github.com/kirillzyusko/react-native-keyboard-controller"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2433,
+      "type": 0,
+      "name": "libreact_codegen_reactnativekeyboardcontroller.so",
+      "mode": "exact",
+      "priority": 2433,
+      "label": "react-native-keyboard-controller",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_reactnativekeyboardcontroller.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_reactnativekeyboardcontroller.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

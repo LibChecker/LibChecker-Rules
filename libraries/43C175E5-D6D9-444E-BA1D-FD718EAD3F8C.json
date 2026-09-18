@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "43C175E5-D6D9-444E-BA1D-FD718EAD3F8C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Sonic",
+        "dev_team": "waywardgeek",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "Sonic 库是一个非常简单的 ANSI C 库，设计为易于集成到流式语音应用程序中，如 TTS 后端。",
+        "source_link": "https://github.com/waywardgeek/sonic"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Sonic",
+        "dev_team": "waywardgeek",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "The Sonic library is a very simple ANSI C library that is designed to easily be integrated into streaming voice applications, like TTS back ends.",
+        "source_link": "https://github.com/waywardgeek/sonic"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1377,
+      "type": 0,
+      "name": "libsonic.so",
+      "mode": "exact",
+      "priority": 1377,
+      "label": "Sonic",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsonic.so.json",
+      "examples": {
+        "positive": [
+          "libsonic.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

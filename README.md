@@ -47,3 +47,21 @@ See the [chart rule Skill guide](skills/libchecker-chart-rules/README.md) for in
 ## License
 
 This repository is licensed under the [Apache License 2.0](LICENSE).
+
+## Canonical base rules (v5)
+
+Edit `libraries/<UUID>.json` and `icons/`; legacy per-name JSON and DB are compatibility
+outputs. The [v5 contract](docs/rules-v5-contract.md) documents editor fields,
+matching, SVG validation, manifests, migration audit and staged rollout.
+
+```sh
+python3 tools/rules.py check
+python3 -m unittest discover -s tests -v
+python3 tools/rules.py build --output /tmp/libchecker-rules
+```
+
+Python compilation uses only the standard library; cross-language tests also need
+Node.js and a JDK. `import-icon` validates an SVG and automatically appends its icon
+index. Generated artifacts share one source revision and dataVersion; normal source
+changes publish through the serialized own-repository workflow after merge to v4.
+SDK details and chart pipelines remain independent.

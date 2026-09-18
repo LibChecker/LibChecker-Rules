@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C8986862-DF6F-48B1-8CEE-D7440076934A",
+  "iconId": "ic_lib_qt",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Qt5",
+        "dev_team": "Qt",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "一个框架。一套代码库。任意平台部署。不仅能提供整个软件开发生命周期所需要的一切，更是打造领先于行业、为用户所钟爱软件的最快捷、最聪明的方法。",
+        "source_link": "https://www.qt.io/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Qt5",
+        "dev_team": "Qt",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "One framework. One codebase. Deploy to any platform. Not only can it provide everything needed for the entire software development lifecycle, but it is also the fastest and smartest way to create industry-leading software that users love.",
+        "source_link": "https://www.qt.io/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 691,
+      "type": 0,
+      "name": "libQt5(.*)\\.so",
+      "mode": "regex",
+      "priority": 691,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 692,
+      "type": 0,
+      "name": "libplugins_audio(.*)\\.so",
+      "mode": "regex",
+      "priority": 692,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 693,
+      "type": 0,
+      "name": "libplugins_bearer(.*)\\.so",
+      "mode": "regex",
+      "priority": 693,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 694,
+      "type": 0,
+      "name": "libplugins_gamepads(.*)\\.so",
+      "mode": "regex",
+      "priority": 694,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 695,
+      "type": 0,
+      "name": "libplugins_geometryloaders(.*)\\.so",
+      "mode": "regex",
+      "priority": 695,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 696,
+      "type": 0,
+      "name": "libplugins_geoservices(.*)\\.so",
+      "mode": "regex",
+      "priority": 696,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 697,
+      "type": 0,
+      "name": "libplugins_iconengines(.*)\\.so",
+      "mode": "regex",
+      "priority": 697,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 698,
+      "type": 0,
+      "name": "libplugins_mediaservice(.*)\\.so",
+      "mode": "regex",
+      "priority": 698,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 699,
+      "type": 0,
+      "name": "libplugins_platforms_android(.*)\\.so",
+      "mode": "regex",
+      "priority": 699,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 700,
+      "type": 0,
+      "name": "libplugins_playlistformats(.*)\\.so",
+      "mode": "regex",
+      "priority": 700,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 701,
+      "type": 0,
+      "name": "libplugins_position(.*)\\.so",
+      "mode": "regex",
+      "priority": 701,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 702,
+      "type": 0,
+      "name": "libplugins_qmltooling(.*)\\.so",
+      "mode": "regex",
+      "priority": 702,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 703,
+      "type": 0,
+      "name": "libplugins_renderplugins(.*)\\.so",
+      "mode": "regex",
+      "priority": 703,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 704,
+      "type": 0,
+      "name": "libplugins_sceneparsers(.*)\\.so",
+      "mode": "regex",
+      "priority": 704,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 705,
+      "type": 0,
+      "name": "libplugins_sensors_libqtsensors(.*)\\.so",
+      "mode": "regex",
+      "priority": 705,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 706,
+      "type": 0,
+      "name": "libplugins_sqldrivers(.*)\\.so",
+      "mode": "regex",
+      "priority": 706,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 707,
+      "type": 0,
+      "name": "libplugins_styles(.*)\\.so",
+      "mode": "regex",
+      "priority": 707,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 708,
+      "type": 0,
+      "name": "libplugins_texttospeech(.*)\\.so",
+      "mode": "regex",
+      "priority": 708,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 709,
+      "type": 0,
+      "name": "libplugins_video_videonode(.*)\\.so",
+      "mode": "regex",
+      "priority": 709,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 710,
+      "type": 0,
+      "name": "libplugins_webview(.*)\\.so",
+      "mode": "regex",
+      "priority": 710,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 711,
+      "type": 0,
+      "name": "libqml_Qt3D(.*)\\.so",
+      "mode": "regex",
+      "priority": 711,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 712,
+      "type": 0,
+      "name": "libqml_Qt(.*)\\.so",
+      "mode": "regex",
+      "priority": 712,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 715,
+      "type": 0,
+      "name": "libplugins_imageformats(.*)\\.so",
+      "mode": "regex",
+      "priority": 715,
+      "label": "Qt5",
+      "iconId": "ic_lib_qt",
+      "regexName": "regex_qt5",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qt5.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

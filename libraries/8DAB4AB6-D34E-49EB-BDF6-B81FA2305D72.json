@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8DAB4AB6-D34E-49EB-BDF6-B81FA2305D72",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CZXing",
+        "dev_team": "devilsen",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "适用于 Android 的 ZXing 和 ZBar 的 C++ 移植。",
+        "source_link": "https://github.com/devilsen/CZXing"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CZXing",
+        "dev_team": "devilsen",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "C++ port of ZXing and ZBar for Android.",
+        "source_link": "https://github.com/devilsen/CZXing"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1290,
+      "type": 0,
+      "name": "libczxing.so",
+      "mode": "exact",
+      "priority": 1290,
+      "label": "CZXing",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libczxing.so.json",
+      "examples": {
+        "positive": [
+          "libczxing.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

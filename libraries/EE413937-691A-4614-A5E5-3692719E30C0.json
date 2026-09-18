@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EE413937-691A-4614-A5E5-3692719E30C0",
+  "iconId": "ic_lib_stripe",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Stripe SDK",
+        "dev_team": "Stripe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Stripe Android SDK 让你能够在 Android 应用中快速、轻松地构建出色的支付体验。我们提供功能强大且可自定义的 UI 元素，可直接用于收集用户的支付信息。同时，我们也提供支持这些 UI 的底层 API，方便你构建完全自定义的支付体验。",
+        "source_link": "https://github.com/stripe/stripe-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Stripe SDK",
+        "dev_team": "Stripe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "The Stripe Android SDK makes it quick and easy to build an excellent payment experience in your Android app. We provide powerful and customizable UI elements that can be used out-of-the-box to collect your users' payment details. We also expose the low-level APIs that power those UIs so that you can build fully custom experiences.",
+        "source_link": "https://github.com/stripe/stripe-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2473,
+      "type": 2,
+      "name": "com.stripe.android.ExternalPaymentMethodProxyActivity",
+      "mode": "exact",
+      "priority": 2473,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/ExternalPaymentMethodProxyActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.ExternalPaymentMethodProxyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2474,
+      "type": 2,
+      "name": "com.stripe.android.FinancialConnectionsSheetActivity",
+      "mode": "exact",
+      "priority": 2474,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/FinancialConnectionsSheetActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.FinancialConnectionsSheetActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2475,
+      "type": 2,
+      "name": "com.stripe.android.FinancialConnectionsSheetLiteActivity",
+      "mode": "exact",
+      "priority": 2475,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/FinancialConnectionsSheetLiteActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.FinancialConnectionsSheetLiteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2476,
+      "type": 2,
+      "name": "com.stripe.android.FinancialConnectionsSheetLiteRedirectActivity",
+      "mode": "exact",
+      "priority": 2476,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/FinancialConnectionsSheetLiteRedirectActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.FinancialConnectionsSheetLiteRedirectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2477,
+      "type": 2,
+      "name": "com.stripe.android.FinancialConnectionsSheetRedirectActivity",
+      "mode": "exact",
+      "priority": 2477,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/FinancialConnectionsSheetRedirectActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.FinancialConnectionsSheetRedirectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2478,
+      "type": 2,
+      "name": "com.stripe.android.IdentityActivity",
+      "mode": "exact",
+      "priority": 2478,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/IdentityActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.IdentityActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2479,
+      "type": 2,
+      "name": "com.stripe.android.PaymentOptionsActivity",
+      "mode": "exact",
+      "priority": 2479,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/PaymentOptionsActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.PaymentOptionsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2480,
+      "type": 2,
+      "name": "com.stripe.android.PaymentSheetActivity",
+      "mode": "exact",
+      "priority": 2480,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/PaymentSheetActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.PaymentSheetActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2481,
+      "type": 2,
+      "name": "com.stripe.android.StripeConnectRedirectActivity",
+      "mode": "exact",
+      "priority": 2481,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/StripeConnectRedirectActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.StripeConnectRedirectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2482,
+      "type": 2,
+      "name": "com.stripe.android.WeChatPayAuthActivity",
+      "mode": "exact",
+      "priority": 2482,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/WeChatPayAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.WeChatPayAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2483,
+      "type": 2,
+      "name": "com.stripe.android.addresselement.AddressElementActivity",
+      "mode": "exact",
+      "priority": 2483,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/addresselement/AddressElementActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.addresselement.AddressElementActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2484,
+      "type": 2,
+      "name": "com.stripe.android.addresselement.AutocompleteActivity",
+      "mode": "exact",
+      "priority": 2484,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/addresselement/AutocompleteActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.addresselement.AutocompleteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2485,
+      "type": 2,
+      "name": "com.stripe.android.cardscan.CardScanActivity",
+      "mode": "exact",
+      "priority": 2485,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/cardscan/CardScanActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.cardscan.CardScanActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2486,
+      "type": 2,
+      "name": "com.stripe.android.challenge.PassiveChallengeActivity",
+      "mode": "exact",
+      "priority": 2486,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/challenge/PassiveChallengeActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.challenge.PassiveChallengeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2487,
+      "type": 2,
+      "name": "com.stripe.android.customersheet.CustomerSheetActivity",
+      "mode": "exact",
+      "priority": 2487,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/customersheet/CustomerSheetActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.customersheet.CustomerSheetActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2488,
+      "type": 2,
+      "name": "com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity",
+      "mode": "exact",
+      "priority": 2488,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/financialconnections/ui/FinancialConnectionsSheetNativeActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2489,
+      "type": 2,
+      "name": "com.stripe.android.googlepaylauncher.GooglePayLauncherActivity",
+      "mode": "exact",
+      "priority": 2489,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/googlepaylauncher/GooglePayLauncherActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2490,
+      "type": 2,
+      "name": "com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity",
+      "mode": "exact",
+      "priority": 2490,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/googlepaylauncher/GooglePayPaymentMethodLauncherActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2491,
+      "type": 2,
+      "name": "com.stripe.android.link.LinkActivity",
+      "mode": "exact",
+      "priority": 2491,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/link/LinkActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.link.LinkActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2492,
+      "type": 2,
+      "name": "com.stripe.android.link.LinkForegroundActivity",
+      "mode": "exact",
+      "priority": 2492,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/link/LinkForegroundActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.link.LinkForegroundActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2493,
+      "type": 2,
+      "name": "com.stripe.android.link.LinkRedirectHandlerActivity",
+      "mode": "exact",
+      "priority": 2493,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/link/LinkRedirectHandlerActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.link.LinkRedirectHandlerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2494,
+      "type": 2,
+      "name": "com.stripe.android.paymentdatacollection.bacs.BacsMandateConfirmationActivity",
+      "mode": "exact",
+      "priority": 2494,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/paymentdatacollection/bacs/BacsMandateConfirmationActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.paymentdatacollection.bacs.BacsMandateConfirmationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2495,
+      "type": 2,
+      "name": "com.stripe.android.paymentdatacollection.cvcrecollection.CvcRecollectionActivity",
+      "mode": "exact",
+      "priority": 2495,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/paymentdatacollection/cvcrecollection/CvcRecollectionActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.paymentdatacollection.cvcrecollection.CvcRecollectionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2496,
+      "type": 2,
+      "name": "com.stripe.android.paymentdatacollection.polling.PollingActivity",
+      "mode": "exact",
+      "priority": 2496,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/paymentdatacollection/polling/PollingActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.paymentdatacollection.polling.PollingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2497,
+      "type": 2,
+      "name": "com.stripe.android.paymentelement.confirmation.cpms.CustomPaymentMethodProxyActivity",
+      "mode": "exact",
+      "priority": 2497,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/paymentelement/confirmation/cpms/CustomPaymentMethodProxyActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.paymentelement.confirmation.cpms.CustomPaymentMethodProxyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2498,
+      "type": 2,
+      "name": "com.stripe.android.paymentelement.embedded.form.FormActivity",
+      "mode": "exact",
+      "priority": 2498,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/paymentelement/embedded/form/FormActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.paymentelement.embedded.form.FormActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2499,
+      "type": 2,
+      "name": "com.stripe.android.paymentelement.embedded.manage.ManageActivity",
+      "mode": "exact",
+      "priority": 2499,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/paymentelement/embedded/manage/ManageActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.paymentelement.embedded.manage.ManageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2500,
+      "type": 2,
+      "name": "com.stripe.android.payments.StripeBrowserLauncherActivity",
+      "mode": "exact",
+      "priority": 2500,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/payments/StripeBrowserLauncherActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.payments.StripeBrowserLauncherActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2501,
+      "type": 2,
+      "name": "com.stripe.android.payments.StripeBrowserProxyReturnActivity",
+      "mode": "exact",
+      "priority": 2501,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/payments/StripeBrowserProxyReturnActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2502,
+      "type": 2,
+      "name": "com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity",
+      "mode": "exact",
+      "priority": 2502,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/payments/bankaccount/ui/CollectBankAccountActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2503,
+      "type": 2,
+      "name": "com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity",
+      "mode": "exact",
+      "priority": 2503,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/payments/core/authentication/threeds2/Stripe3ds2TransactionActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2504,
+      "type": 2,
+      "name": "com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity",
+      "mode": "exact",
+      "priority": 2504,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/payments/paymentlauncher/PaymentLauncherConfirmationActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2505,
+      "type": 2,
+      "name": "com.stripe.android.shoppay.ShopPayActivity",
+      "mode": "exact",
+      "priority": 2505,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/shoppay/ShopPayActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.shoppay.ShopPayActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2506,
+      "type": 2,
+      "name": "com.stripe.android.stripe3ds2.views.ChallengeActivity",
+      "mode": "exact",
+      "priority": 2506,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/stripe3ds2/views/ChallengeActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.stripe3ds2.views.ChallengeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2507,
+      "type": 2,
+      "name": "com.stripe.android.ui.SepaMandateActivity",
+      "mode": "exact",
+      "priority": 2507,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/ui/SepaMandateActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.ui.SepaMandateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2508,
+      "type": 2,
+      "name": "com.stripe.android.view.PaymentAuthWebViewActivity",
+      "mode": "exact",
+      "priority": 2508,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/view/PaymentAuthWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.view.PaymentAuthWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2509,
+      "type": 2,
+      "name": "com.stripe.android.view.PaymentRelayActivity",
+      "mode": "exact",
+      "priority": 2509,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/stripe/android/view/PaymentRelayActivity.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.view.PaymentRelayActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2564,
+      "type": 4,
+      "name": "com.stripe.android.identity.IdentityFileProvider",
+      "mode": "exact",
+      "priority": 2564,
+      "label": "Stripe SDK",
+      "iconId": "ic_lib_stripe",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/stripe/android/identity/IdentityFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.stripe.android.identity.IdentityFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

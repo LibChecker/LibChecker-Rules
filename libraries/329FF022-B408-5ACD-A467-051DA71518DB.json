@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "329FF022-B408-5ACD-A467-051DA71518DB",
+  "iconId": "ic_lib_tencent",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2270,
+      "type": 0,
+      "name": "libxwebpluginxfilespdfreader.so.bak",
+      "mode": "exact",
+      "priority": 2270,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libxwebpluginxfilespdfreader.so.bak"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

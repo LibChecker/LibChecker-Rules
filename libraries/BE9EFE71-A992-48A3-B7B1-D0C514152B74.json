@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BE9EFE71-A992-48A3-B7B1-D0C514152B74",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Weex",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Weex 致力于使开发者能基于通用跨平台的 Web 开发语言和开发经验，来构建 Android、iOS 和 Web 应用。简单来说，在集成了 WeexSDK 之后，你可以使用 JavaScript 语言和前端开发经验来开发移动应用。",
+        "source_link": "https://weexapp.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Weex",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Weex is committed to enabling developers to build Android, iOS, and Web applications based on common cross-platform web development languages and experiences. Simply put, after integrating WeexSDK, you can use JavaScript language and front-end development experience to develop mobile applications.",
+        "source_link": "https://weexapp.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 4,
+      "type": 0,
+      "name": "libweexjss.so",
+      "mode": "exact",
+      "priority": 4,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweexjss.so.json",
+      "examples": {
+        "positive": [
+          "libweexjss.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 38,
+      "type": 0,
+      "name": "libweexcore.so",
+      "mode": "exact",
+      "priority": 38,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweexcore.so.json",
+      "examples": {
+        "positive": [
+          "libweexcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 45,
+      "type": 0,
+      "name": "libweexjsb.so",
+      "mode": "exact",
+      "priority": 45,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweexjsb.so.json",
+      "examples": {
+        "positive": [
+          "libweexjsb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 60,
+      "type": 0,
+      "name": "libweexjst.so",
+      "mode": "exact",
+      "priority": 60,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweexjst.so.json",
+      "examples": {
+        "positive": [
+          "libweexjst.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 93,
+      "type": 0,
+      "name": "libweexjssr.so",
+      "mode": "exact",
+      "priority": 93,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweexjssr.so.json",
+      "examples": {
+        "positive": [
+          "libweexjssr.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 105,
+      "type": 0,
+      "name": "libWTF.so",
+      "mode": "exact",
+      "priority": 105,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libWTF.so.json",
+      "examples": {
+        "positive": [
+          "libWTF.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 144,
+      "type": 0,
+      "name": "libWeexEagle.so",
+      "mode": "exact",
+      "priority": 144,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libWeexEagle.so.json",
+      "examples": {
+        "positive": [
+          "libWeexEagle.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 240,
+      "type": 1,
+      "name": "com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService",
+      "mode": "exact",
+      "priority": 240,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/android/bindingx/plugin/weex/WXBindingXModuleService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 306,
+      "type": 2,
+      "name": "com.taobao.weex.WXGlobalEventReceiver",
+      "mode": "exact",
+      "priority": 306,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/taobao/weex/WXGlobalEventReceiver.json",
+      "examples": {
+        "positive": [
+          "com.taobao.weex.WXGlobalEventReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1894,
+      "type": 0,
+      "name": "libweex_framework.so",
+      "mode": "exact",
+      "priority": 1894,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweex_framework.so.json",
+      "examples": {
+        "positive": [
+          "libweex_framework.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1895,
+      "type": 0,
+      "name": "libweexcoreqjs.so",
+      "mode": "exact",
+      "priority": 1895,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweexcoreqjs.so.json",
+      "examples": {
+        "positive": [
+          "libweexcoreqjs.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2158,
+      "type": 0,
+      "name": "libweex_xr_plugin.so",
+      "mode": "exact",
+      "priority": 2158,
+      "label": "Weex",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweex_xr_plugin.so.json",
+      "examples": {
+        "positive": [
+          "libweex_xr_plugin.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "receivers-libs/com/taobao/weex/WXGlobalEventReceiver.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Weex",
+              "dev_team": "Alibaba",
+              "rule_contributors": [
+                "Absinthe",
+                "WOLFRAZOR"
+              ],
+              "description": "Weex 致力于使开发者能基于通用跨平台的 Web 开发语言和开发经验，来构建 Android、iOS 和 Web 应用。简单来说，在集成了 WeexSDK 之后，你可以使用 JavaScript 语言和前端开发经验来开发移动应用。",
+              "source_link": "https://weexapp.com/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Weex",
+              "dev_team": "Alibaba",
+              "rule_contributors": [
+                "Absinthe",
+                "WOLFRAZOR"
+              ],
+              "description": "Weex is committed to enabling developers to build Android, iOS, and Web applications based on common cross-platform web development languages and experiences. Simply put, after integrating WeexSDK, you can use JavaScript language and front-end development experience to develop mobile applications.",
+              "source_link": "https://weexapp.com/"
+            }
+          }
+        ],
+        "uuid": "BE9EFE71-A992-48A3-B7B1-D0C514152B74"
+      }
+    }
+  ]
+}

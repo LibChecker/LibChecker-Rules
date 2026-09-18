@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5F5487B2-6B16-4C3A-A2BD-8FA9AD794CFF",
+  "iconId": "ic_lib_meta",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Flipper",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Flipper（前称 Sonar）是一个用于调试 iOS 和 Android 移动应用程序的平台，最近甚至可以在浏览器或 Node.js 中调试 JS 应用程序。通过简单的桌面界面可视化、检查和控制您的应用程序。使用 Flipper 原样或通过插件 API 扩展它。",
+        "source_link": "https://github.com/facebook/flipper"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Flipper",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Flipper (formerly Sonar) is a platform for debugging mobile apps on iOS and Android and, recently, even JS apps in your browser or in Node.js. Visualize, inspect, and control your apps from a simple desktop interface. Use Flipper as is or extend it using the plugin API.",
+        "source_link": "https://github.com/facebook/flipper"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1112,
+      "type": 2,
+      "name": "com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity",
+      "mode": "exact",
+      "priority": 1112,
+      "label": "Flipper ",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/facebook/flipper/android/diagnostics/FlipperDiagnosticActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "386D137D-F390-4C51-AD6B-AA1ADC11970C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GPUImage",
+        "dev_team": "CyberAgent",
+        "rule_contributors": [
+          "nullptr-leo"
+        ],
+        "description": "GPUImage for Android 是一个开源项目，用于在 Android 上执行 GPU 加速的图像和视频处理。",
+        "source_link": "https://github.com/cats-oss/android-gpuimage"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GPUImage",
+        "dev_team": "CyberAgent",
+        "rule_contributors": [
+          "nullptr-leo"
+        ],
+        "description": "GPUImage for Android is an open-source project for performing GPU-accelerated image and video processing on Android.",
+        "source_link": "https://github.com/cats-oss/android-gpuimage"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 18,
+      "type": 0,
+      "name": "libgpuimage-library.so",
+      "mode": "exact",
+      "priority": 18,
+      "label": "GPUImage",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgpuimage-library.so.json",
+      "examples": {
+        "positive": [
+          "libgpuimage-library.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "65F2F4FD-EB3C-4638-A2D8-53FC6EC7B0D9",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PerfGenius",
+        "dev_team": "HUAWEI",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "PerfGenius SDK 提供系统状态变化主动上报、显示帧率设置、关键线程设置等接口，为开发者提供一条与硬件直接沟通的通道。开发者借此能了解系统状态并适时调整部分参数，提升系统的性能功耗体验。",
+        "source_link": "https://developer.huawei.com/consumer/cn/codelab/HMSAccKit-PerfGenius/index.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PerfGenius",
+        "dev_team": "HUAWEI",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "The PerfGenius SDK offers interfaces for active system status reporting, frame rate configuration, and key thread settings, providing a direct communication channel with hardware. This allows developers to monitor system status and adjust parameters in real-time to optimize performance and power efficiency.",
+        "source_link": "https://developer.huawei.com/consumer/cn/codelab/HMSAccKit-PerfGenius/index.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2623,
+      "type": 0,
+      "name": "libPerfgeniusApi.so",
+      "mode": "exact",
+      "priority": 2623,
+      "label": "PerfGenius",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPerfgeniusApi.so.json",
+      "examples": {
+        "positive": [
+          "libPerfgeniusApi.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

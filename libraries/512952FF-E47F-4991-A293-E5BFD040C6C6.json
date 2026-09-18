@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "512952FF-E47F-4991-A293-E5BFD040C6C6",
+  "iconId": "ic_lib_wasmer",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Wasmer",
+        "dev_team": "Wasmer",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Wasmer 是一个极速且安全的 WebAssembly 运行时，可让极其轻量的容器在任何地方运行：从桌面到云端、边缘以及浏览器。",
+        "source_link": "https://github.com/wasmerio/wasmer"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Wasmer",
+        "dev_team": "Wasmer",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Wasmer is a blazing fast and secure WebAssembly runtime that enables incredibly lightweight containers to run anywhere: from Desktop to the Cloud, Edge and your browser.",
+        "source_link": "https://github.com/wasmerio/wasmer"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2842,
+      "type": 0,
+      "name": "libwasmer.so",
+      "mode": "exact",
+      "priority": 2842,
+      "label": "Wasmer",
+      "iconId": "ic_lib_wasmer",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwasmer.so.json",
+      "examples": {
+        "positive": [
+          "libwasmer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2843,
+      "type": 0,
+      "name": "libwasmer_jni.so",
+      "mode": "exact",
+      "priority": 2843,
+      "label": "Wasmer",
+      "iconId": "ic_lib_wasmer",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwasmer_jni.so.json",
+      "examples": {
+        "positive": [
+          "libwasmer_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

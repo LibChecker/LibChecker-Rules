@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E8A37A2B-24E5-460D-9818-587FACC551E8",
+  "iconId": "ic_lib_lame",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndroidLame",
+        "dev_team": "naman14",
+        "rule_contributors": [
+          "yfdyh000",
+          "sebastien46"
+        ],
+        "description": "Android/Java 包装器，围绕 Lame mp3 编码器。",
+        "source_link": "https://github.com/naman14/TAndroidLame"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndroidLame",
+        "dev_team": "naman14",
+        "rule_contributors": [
+          "yfdyh000",
+          "sebastien46"
+        ],
+        "description": "Android/Java wrapper around Lame mp3 encoder.",
+        "source_link": "https://github.com/naman14/TAndroidLame"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1170,
+      "type": 0,
+      "name": "libandroidlame.so",
+      "mode": "exact",
+      "priority": 1170,
+      "label": "AndroidLame",
+      "iconId": "ic_lib_lame",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroidlame.so.json",
+      "examples": {
+        "positive": [
+          "libandroidlame.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

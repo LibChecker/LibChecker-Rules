@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2214D8CD-63C5-52BD-9627-4721A3D317AF",
+  "iconId": "ic_lib_alipay",
+  "data": [],
+  "matchers": [
+    {
+      "id": 556,
+      "type": 5,
+      "name": "com\\.alipay\\.(.*)",
+      "mode": "regex",
+      "priority": 556,
+      "label": "支付宝 SDK",
+      "iconId": "ic_lib_alipay",
+      "regexName": "regex_alipay",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

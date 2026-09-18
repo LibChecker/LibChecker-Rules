@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3D48CEEF-8233-421E-85E9-6943B0CCB2EA",
+  "iconId": "ic_lib_mpv",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibMpv",
+        "dev_team": "Mpv",
+        "rule_contributors": [
+          "MarkChan0225"
+        ],
+        "description": "mpv 是一个免费的命令行媒体播放器。 它支持多种媒体文件格式、音频和视频编解码器以及字幕类型。",
+        "source_link": "https://mpv.io/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibMpv",
+        "dev_team": "Mpv",
+        "rule_contributors": [
+          "MarkChan0225"
+        ],
+        "description": "mpv is a free command-line media player. It supports various media file formats, audio and video codecs, and subtitle types.",
+        "source_link": "https://mpv.io/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1505,
+      "type": 0,
+      "name": "libmpv.so",
+      "mode": "exact",
+      "priority": 1505,
+      "label": "LibMpv",
+      "iconId": "ic_lib_mpv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpv.so.json",
+      "examples": {
+        "positive": [
+          "libmpv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

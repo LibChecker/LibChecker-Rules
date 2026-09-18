@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F81DC466-2845-422B-AD4F-29ED68FF6B61",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AntiFakerAndroidChecker",
+        "dev_team": "happylishang",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "Android 模拟器检测，检测 Android 模拟器，作为可信 DeviceID，应对防刷需求等。",
+        "source_link": "https://github.com/happylishang/AntiFakerAndroidChecker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AntiFakerAndroidChecker",
+        "dev_team": "happylishang",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "Android emulator detection, detecting Android emulators, serving as a trusted DeviceID, addressing anti-brushing needs, etc.",
+        "source_link": "https://github.com/happylishang/AntiFakerAndroidChecker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1338,
+      "type": 0,
+      "name": "libemulator_check.so",
+      "mode": "exact",
+      "priority": 1338,
+      "label": "AntiFakerAndroidChecker",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libemulator_check.so.json",
+      "examples": {
+        "positive": [
+          "libemulator_check.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1339,
+      "type": 0,
+      "name": "libproperty_get.so",
+      "mode": "exact",
+      "priority": 1339,
+      "label": "AntiFakerAndroidChecker",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libproperty_get.so.json",
+      "examples": {
+        "positive": [
+          "libproperty_get.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

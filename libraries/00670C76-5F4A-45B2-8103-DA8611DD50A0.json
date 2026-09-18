@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 5,
+  "uuid": "00670C76-5F4A-45B2-8103-DA8611DD50A0",
+  "iconId": "ic_lib_dx_risk",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "顶象无感验证 SDK",
+        "dev_team": "顶象",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "顶象无感验证结合了设备指纹、行为特征、访问频率、地理位置等多项技术，有效的拦截恶意登录、批量注册，阻断机器操作，拦截非正常用户。",
+        "source_link": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Dingxiang Seamless Verification SDK",
+        "dev_team": "顶象",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "Dingxiang's frictionless verification combines multiple technologies such as device fingerprinting, behavior characteristics, access frequency, and geographic location to effectively intercept malicious logins, bulk registrations, block machine operations, and intercept abnormal users.",
+        "source_link": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 803,
+      "type": 0,
+      "name": "libDXRisk(.*)\\.so",
+      "mode": "regex",
+      "priority": 803,
+      "label": "顶象无感验证 SDK",
+      "iconId": "ic_lib_dx_risk",
+      "regexName": "regex_dx_risk",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_dx_risk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 805,
+      "type": 0,
+      "name": "libDXRiskComm(.*)\\.so",
+      "mode": "regex",
+      "priority": 805,
+      "label": "顶象无感验证 SDK",
+      "iconId": "ic_lib_dx_risk",
+      "regexName": "regex_dx_risk",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_dx_risk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 806,
+      "type": 0,
+      "name": "libDXCaptcha(.*)\\.so",
+      "mode": "regex",
+      "priority": 806,
+      "label": "顶象无感验证 SDK",
+      "iconId": "ic_lib_dx_risk",
+      "regexName": "regex_dx_risk",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_dx_risk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

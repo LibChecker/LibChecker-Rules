@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "751A0411-C1DE-5E5C-82CC-03F76A8BEF33",
+  "iconId": "ic_lib_honor",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2453,
+      "type": 6,
+      "name": "com.hihonor.push.action.MESSAGING_EVENT",
+      "mode": "exact",
+      "priority": 2453,
+      "label": "HONOR Push",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.hihonor.push.action.MESSAGING_EVENT"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

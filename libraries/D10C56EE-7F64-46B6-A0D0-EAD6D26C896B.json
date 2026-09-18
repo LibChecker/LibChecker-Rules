@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D10C56EE-7F64-46B6-A0D0-EAD6D26C896B",
+  "iconId": "ic_lib_tencent_ad",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯广告 SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "腾讯广告汇聚腾讯公司全量的应用场景，拥有核心行业数据、营销技术与专业服务能力。",
+        "source_link": "https://developers.e.qq.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Ad SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tencent Advertising aggregates all application scenarios of Tencent, possessing core industry data, marketing technology, and professional service capabilities.",
+        "source_link": "https://developers.e.qq.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 206,
+      "type": 1,
+      "name": "com.qq.e.downloader.DownloadService",
+      "mode": "exact",
+      "priority": 206,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/qq/e/downloader/DownloadService.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.downloader.DownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 243,
+      "type": 1,
+      "name": "com.qq.e.comm.DownloadService",
+      "mode": "exact",
+      "priority": 243,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/qq/e/comm/DownloadService.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.comm.DownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 289,
+      "type": 2,
+      "name": "com.qq.e.ads.RewardvideoLandscapeADActivity",
+      "mode": "exact",
+      "priority": 289,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/ads/RewardvideoLandscapeADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.ads.RewardvideoLandscapeADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 293,
+      "type": 2,
+      "name": "com.qq.e.ads.PortraitADActivity",
+      "mode": "exact",
+      "priority": 293,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/ads/PortraitADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.ads.PortraitADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 295,
+      "type": 2,
+      "name": "com.qq.e.ads.LandscapeADActivity",
+      "mode": "exact",
+      "priority": 295,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/ads/LandscapeADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.ads.LandscapeADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 301,
+      "type": 2,
+      "name": "com.qq.e.ads.ADActivity",
+      "mode": "exact",
+      "priority": 301,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/ads/ADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.ads.ADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 323,
+      "type": 2,
+      "name": "com.qq.e.ads.RewardvideoPortraitADActivity",
+      "mode": "exact",
+      "priority": 323,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/ads/RewardvideoPortraitADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.ads.RewardvideoPortraitADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 669,
+      "type": 4,
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "mode": "exact",
+      "priority": 669,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/qq/e/comm/GDTFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.comm.GDTFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 834,
+      "type": 2,
+      "name": "com.qq.e.ads.DialogActivity",
+      "mode": "exact",
+      "priority": 834,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/ads/DialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.ads.DialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1089,
+      "type": 2,
+      "name": "com.qq.e.tg.TransPortraitADActivity",
+      "mode": "exact",
+      "priority": 1089,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/TransPortraitADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.TransPortraitADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1090,
+      "type": 2,
+      "name": "com.qq.e.tg.RewardvideoPortraitADActivity",
+      "mode": "exact",
+      "priority": 1090,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/RewardvideoPortraitADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.RewardvideoPortraitADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1091,
+      "type": 2,
+      "name": "com.qq.e.tg.RewardvideoLandscapeADActivity",
+      "mode": "exact",
+      "priority": 1091,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/RewardvideoLandscapeADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.RewardvideoLandscapeADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1094,
+      "type": 2,
+      "name": "com.qq.e.tg.LandscapeADActivity",
+      "mode": "exact",
+      "priority": 1094,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/LandscapeADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.LandscapeADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1095,
+      "type": 2,
+      "name": "com.qq.e.tg.ADActivity",
+      "mode": "exact",
+      "priority": 1095,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/ADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.ADActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1315,
+      "type": 2,
+      "name": "com.qq.e.tg.WebAdActivity",
+      "mode": "exact",
+      "priority": 1315,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/WebAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.WebAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1316,
+      "type": 2,
+      "name": "com.qq.e.tg.PortraitADActivity",
+      "mode": "exact",
+      "priority": 1316,
+      "label": "腾讯广告 SDK",
+      "iconId": "ic_lib_tencent_ad",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/qq/e/tg/PortraitADActivity.json",
+      "examples": {
+        "positive": [
+          "com.qq.e.tg.PortraitADActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

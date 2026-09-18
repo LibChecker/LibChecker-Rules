@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AA187D6F-BFCF-4C96-A860-407B07685140",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小鱼易联终端 SDK",
+        "dev_team": "小鱼易联",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "通过小鱼易连终端 SDK，开发者可以快速实现多人音视频通话业务场景。平台提供覆盖手机、桌面全平台的终端 SDK，同时终端用户可以在微信小程序、web 网页使用平台提供的音视频服务。",
+        "source_link": "https://openapi.xylink.com/common/meeting/doc/description?platform=android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "XYLink Terminal SDK",
+        "dev_team": "小鱼易联",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "With the XYLink Terminal SDK, developers can quickly implement multi-person audio and video calling scenarios. The platform offers terminal SDKs covering mobile and desktop platforms, while end users can access the audio and video services via WeChat mini-programs and web pages.",
+        "source_link": "https://openapi.xylink.com/common/meeting/doc/description?platform=android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2679,
+      "type": 0,
+      "name": "libxylinkAIEngine.so",
+      "mode": "exact",
+      "priority": 2679,
+      "label": "小鱼易联终端 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxylinkAIEngine.so.json",
+      "examples": {
+        "positive": [
+          "libxylinkAIEngine.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2680,
+      "type": 0,
+      "name": "libxylinkAIEngineImpOffVulkan.so",
+      "mode": "exact",
+      "priority": 2680,
+      "label": "小鱼易联终端 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxylinkAIEngineImpOffVulkan.so.json",
+      "examples": {
+        "positive": [
+          "libxylinkAIEngineImpOffVulkan.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2681,
+      "type": 0,
+      "name": "libxylinkAIEngineImpOnVulkan.so",
+      "mode": "exact",
+      "priority": 2681,
+      "label": "小鱼易联终端 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxylinkAIEngineImpOnVulkan.so.json",
+      "examples": {
+        "positive": [
+          "libxylinkAIEngineImpOnVulkan.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2682,
+      "type": 0,
+      "name": "libxyvodsdk.so",
+      "mode": "exact",
+      "priority": 2682,
+      "label": "小鱼易联终端 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxyvodsdk.so.json",
+      "examples": {
+        "positive": [
+          "libxyvodsdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2683,
+      "type": 0,
+      "name": "libxyvp.so",
+      "mode": "exact",
+      "priority": 2683,
+      "label": "小鱼易联终端 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxyvp.so.json",
+      "examples": {
+        "positive": [
+          "libxyvp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

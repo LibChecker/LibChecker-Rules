@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "356E5FB0-AD25-47E7-A528-CD75E06ACA6D",
+  "iconId": "ic_lib_flutter",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "share_plus",
+        "dev_team": "Flutter Community",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个 Flutter 插件，用于通过平台的共享对话框从你的 Flutter 应用中分享内容。",
+        "source_link": "https://github.com/fluttercommunity/plus_plugins/blob/main/packages/share_plus/share_plus/README.md"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "share_plus",
+        "dev_team": "Flutter Community",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "A Flutter plugin to share content from your Flutter app via the platform's share dialog.",
+        "source_link": "https://github.com/fluttercommunity/plus_plugins/blob/main/packages/share_plus/share_plus/README.md"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2277,
+      "type": 4,
+      "name": "dev.fluttercommunity.plus.share.ShareFileProvider",
+      "mode": "exact",
+      "priority": 2277,
+      "label": "share_plus",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/dev/fluttercommunity/plus/share/ShareFileProvider.json",
+      "examples": {
+        "positive": [
+          "dev.fluttercommunity.plus.share.ShareFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2279,
+      "type": 3,
+      "name": "dev.fluttercommunity.plus.share.SharePlusPendingIntent",
+      "mode": "exact",
+      "priority": 2279,
+      "label": "share_plus",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/dev/fluttercommunity/plus/share/SharePlusPendingIntent.json",
+      "examples": {
+        "positive": [
+          "dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

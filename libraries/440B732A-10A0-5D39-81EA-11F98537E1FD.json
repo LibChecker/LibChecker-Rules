@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "440B732A-10A0-5D39-81EA-11F98537E1FD",
+  "iconId": "ic_lib_tencent",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2460,
+      "type": 6,
+      "name": "com.tencent.kingcard.calibration",
+      "mode": "exact",
+      "priority": 2460,
+      "label": "王卡 SDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.kingcard.calibration"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

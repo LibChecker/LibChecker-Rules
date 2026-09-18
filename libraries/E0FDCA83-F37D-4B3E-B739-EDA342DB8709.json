@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E0FDCA83-F37D-4B3E-B739-EDA342DB8709",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PixUI",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "PixUI 是一个实现了 H5ES 标准的跨平台 UI 引擎，旨在将强大易用的 H5 技术和工作流引入游戏和原生 App 开发，让开发者快速开发出与游戏引擎原生效果一致的 UI 界面，并通过 GPU 实现毫秒级渲染。",
+        "source_link": "https://gamelet.qq.com/pixui/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PixUI",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "PixUI is a cross-platform UI engine implementing the H5ES standard, designed to bring powerful and user-friendly H5 technology and workflows to game and native app development. It allows developers to quickly create UIs matching native game engine effects, achieving millisecond-level rendering via the GPU.",
+        "source_link": "https://gamelet.qq.com/pixui/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2624,
+      "type": 0,
+      "name": "libPixFFmpeg.so",
+      "mode": "exact",
+      "priority": 2624,
+      "label": "PixUI",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPixFFmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libPixFFmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2625,
+      "type": 0,
+      "name": "libPixUI_PXPlugin.so",
+      "mode": "exact",
+      "priority": 2625,
+      "label": "PixUI",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPixUI_PXPlugin.so.json",
+      "examples": {
+        "positive": [
+          "libPixUI_PXPlugin.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2626,
+      "type": 0,
+      "name": "libPixUI_Unity.so",
+      "mode": "exact",
+      "priority": 2626,
+      "label": "PixUI",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPixUI_Unity.so.json",
+      "examples": {
+        "positive": [
+          "libPixUI_Unity.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2627,
+      "type": 0,
+      "name": "libPixVideo.so",
+      "mode": "exact",
+      "priority": 2627,
+      "label": "PixUI",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPixVideo.so.json",
+      "examples": {
+        "positive": [
+          "libPixVideo.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2628,
+      "type": 0,
+      "name": "libPixVideoCore.so",
+      "mode": "exact",
+      "priority": 2628,
+      "label": "PixUI",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPixVideoCore.so.json",
+      "examples": {
+        "positive": [
+          "libPixVideoCore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2656,
+      "type": 0,
+      "name": "libpixulCurl.so",
+      "mode": "exact",
+      "priority": 2656,
+      "label": "PixUI",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpixulCurl.so.json",
+      "examples": {
+        "positive": [
+          "libpixulCurl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

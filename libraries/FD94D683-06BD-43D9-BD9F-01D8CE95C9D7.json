@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FD94D683-06BD-43D9-BD9F-01D8CE95C9D7",
+  "iconId": "ic_lib_xunfei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "讯飞 SDK",
+        "dev_team": "科大讯飞",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "讯飞开放平台作为全球首个开放的智能交互技术服务平台，致力于为开发者打造一站式智能人机交互解决方案。",
+        "source_link": "https://www.xfyun.cn/doc/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "iFlytek SDK",
+        "dev_team": "科大讯飞",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "iFlytek Open Platform is the world's first open intelligent interactive technology service platform, dedicated to providing developers with one-stop intelligent human-computer interaction solutions.",
+        "source_link": "https://www.xfyun.cn/doc/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 154,
+      "type": 0,
+      "name": "libmsc.so",
+      "mode": "exact",
+      "priority": 154,
+      "label": "讯飞 SDK",
+      "iconId": "ic_lib_xunfei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmsc.so.json",
+      "examples": {
+        "positive": [
+          "libmsc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

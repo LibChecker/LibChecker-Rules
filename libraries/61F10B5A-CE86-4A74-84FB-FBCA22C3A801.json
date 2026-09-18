@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 5,
+  "uuid": "61F10B5A-CE86-4A74-84FB-FBCA22C3A801",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mira",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "插件服务包括插件核心库、插件管理库、插件构建脚本、插件管理平台 4 个功能模块，是一套完整的插件闭环服务。具有功能全面、稳定性强、使用简单等特点，可以帮助您实现业务热更新、降低首包体积、节省流量、模块化开发。",
+        "source_link": "https://www.volcengine.com/docs/6365/67052"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mira",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Plugin services include four functional modules: plugin core library, plugin management library, plugin build script, and plugin management platform, forming a complete plugin closed-loop service. It features comprehensive functionality, strong stability, and ease of use, helping you achieve business hot updates, reduce the first package size, save traffic, and modular development.",
+        "source_link": "https://www.volcengine.com/docs/6365/67052"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1358,
+      "type": 2,
+      "name": "com.bytedance.mira.MiraPluginListActivity",
+      "mode": "exact",
+      "priority": 1358,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/mira/MiraPluginListActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.MiraPluginListActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1359,
+      "type": 2,
+      "name": "com.bytedance.mira.MiraErrorBackupActivity",
+      "mode": "exact",
+      "priority": 1359,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/mira/MiraErrorBackupActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.MiraErrorBackupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1360,
+      "type": 2,
+      "name": "com.bytedance.mira.stub.RedirectActivity",
+      "mode": "exact",
+      "priority": 1360,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/mira/stub/RedirectActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.stub.RedirectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1361,
+      "type": 2,
+      "name": "com.bytedance.mira.stub.PluginLoaderActivity",
+      "mode": "exact",
+      "priority": 1361,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/mira/stub/PluginLoaderActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.stub.PluginLoaderActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1362,
+      "type": 2,
+      "name": "com\\.bytedance\\.mira\\.stub\\.p[0-9]*\\.StubTranslucentActivity",
+      "mode": "regex",
+      "priority": 1362,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_mira",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_mira.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1363,
+      "type": 2,
+      "name": "com\\.bytedance\\.mira\\.stub\\.p[0-9]*\\.StubStandardActivity[0-9]*$",
+      "mode": "regex",
+      "priority": 1363,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_mira",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_mira.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1364,
+      "type": 2,
+      "name": "com\\.bytedance\\.mira\\.stub\\.p[0-9]*\\.StubSingleTopActivity[0-9]*$",
+      "mode": "regex",
+      "priority": 1364,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_mira",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_mira.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1365,
+      "type": 2,
+      "name": "com\\.bytedance\\.mira\\.stub\\.p[0-9]*\\.StubSingleTaskActivity[0-9]*$",
+      "mode": "regex",
+      "priority": 1365,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_mira",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_mira.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1366,
+      "type": 2,
+      "name": "com\\.bytedance\\.mira\\.stub\\.p[0-9]*\\.StubSingleInstanceActivity[0-9]*$",
+      "mode": "regex",
+      "priority": 1366,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_mira",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_mira.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1367,
+      "type": 1,
+      "name": "com.bytedance.mira.stub.RedirectService",
+      "mode": "exact",
+      "priority": 1367,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/mira/stub/RedirectService.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.stub.RedirectService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1368,
+      "type": 1,
+      "name": "com.bytedance.mira.am.KeepAlive",
+      "mode": "exact",
+      "priority": 1368,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/mira/am/KeepAlive.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.am.KeepAlive"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1369,
+      "type": 1,
+      "name": "com.bytedance.mira.am.KeepAlive$InnerService",
+      "mode": "exact",
+      "priority": 1369,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/mira/am/KeepAlive$InnerService.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.am.KeepAlive$InnerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1370,
+      "type": 1,
+      "name": "com\\.bytedance\\.mira\\.stub\\.p[0-9]*\\.StubService[0-9]*$",
+      "mode": "regex",
+      "priority": 1370,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_mira",
+      "hasDetail": true,
+      "legacyPath": "services-libs/regex/regex_mira.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1371,
+      "type": 4,
+      "name": "com.bytedance.mira.pm.PluginPackageManagerProvider",
+      "mode": "exact",
+      "priority": 1371,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/mira/pm/PluginPackageManagerProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.pm.PluginPackageManagerProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1372,
+      "type": 4,
+      "name": "com.bytedance.mira.am.PluginActivityManagerProvider",
+      "mode": "exact",
+      "priority": 1372,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/mira/am/PluginActivityManagerProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.am.PluginActivityManagerProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1373,
+      "type": 4,
+      "name": "com.bytedance.mira.stub.p0.StubContentProvider",
+      "mode": "exact",
+      "priority": 1373,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/mira/stub/p0/StubContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.stub.p0.StubContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1374,
+      "type": 4,
+      "name": "com.bytedance.mira.stub.p1.StubContentProvider",
+      "mode": "exact",
+      "priority": 1374,
+      "label": "Mira",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/mira/stub/p1/StubContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mira.stub.p1.StubContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

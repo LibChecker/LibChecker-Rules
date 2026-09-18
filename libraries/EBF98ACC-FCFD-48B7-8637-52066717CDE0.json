@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EBF98ACC-FCFD-48B7-8637-52066717CDE0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FreeType",
+        "dev_team": "FreeType",
+        "rule_contributors": [
+          "nullptr-leo",
+          "WOLFRAZOR"
+        ],
+        "description": "FreeType 是免费提供的用于渲染字体的软件库。 它用 C 语言编写，旨在小巧，高效，高度可定制和便携式，同时能够生成大多数矢量和位图字体格式的高质量输出（字形图像）。",
+        "source_link": "https://www.freetype.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FreeType",
+        "dev_team": "FreeType",
+        "rule_contributors": [
+          "nullptr-leo",
+          "WOLFRAZOR"
+        ],
+        "description": "FreeType is a free software library for rendering fonts. It is written in C and aims to be small, efficient, highly customizable, and portable while being able to generate high-quality output (glyph images) for most vector and bitmap font formats.",
+        "source_link": "https://www.freetype.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 137,
+      "type": 0,
+      "name": "libfreetype.so",
+      "mode": "exact",
+      "priority": 137,
+      "label": "FreeType",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfreetype.so.json",
+      "examples": {
+        "positive": [
+          "libfreetype.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1846,
+      "type": 0,
+      "name": "libfreetype-jni.so",
+      "mode": "exact",
+      "priority": 1846,
+      "label": "FreeType",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfreetype-jni.so.json",
+      "examples": {
+        "positive": [
+          "libfreetype-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2116,
+      "type": 0,
+      "name": "libfreetypejni.so",
+      "mode": "exact",
+      "priority": 2116,
+      "label": "FreeType",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfreetypejni.so.json",
+      "examples": {
+        "positive": [
+          "libfreetypejni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

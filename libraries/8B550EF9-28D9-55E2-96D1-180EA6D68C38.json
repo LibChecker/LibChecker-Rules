@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8B550EF9-28D9-55E2-96D1-180EA6D68C38",
+  "iconId": "ic_lib_tencent_tds",
+  "data": [],
+  "matchers": [
+    {
+      "id": 536,
+      "type": 5,
+      "name": "com.tencent.bugly",
+      "mode": "exact",
+      "priority": 536,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.bugly"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

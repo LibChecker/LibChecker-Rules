@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E0112746-0E48-4149-83C2-BFBDE6669CAD",
+  "iconId": "ic_lib_unity",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Unity Ads",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "JerryHan3"
+        ],
+        "description": "Unity Ads SDK 由领先的移动游戏引擎创建，无论您是在 Unity、xCode 还是 Android Studio 中进行开发，都能为您的游戏提供全面的变现服务框架。",
+        "source_link": "https://docs.unity.cn/cn/2020.3/Manual/UnityAds.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Unity Ads",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "JerryHan3"
+        ],
+        "description": "Unity Ads SDK, created by the leading mobile game engine, provides a comprehensive monetization service framework for your game, whether you are developing in Unity, xCode, or Android Studio.",
+        "source_link": "https://docs.unity.cn/cn/2020.3/Manual/UnityAds.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1653,
+      "type": 2,
+      "name": "com.unity3d.services.ads.adunit.AdUnitActivity",
+      "mode": "exact",
+      "priority": 1653,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/services/ads/adunit/AdUnitActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.services.ads.adunit.AdUnitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1654,
+      "type": 2,
+      "name": "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+      "mode": "exact",
+      "priority": 1654,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/services/ads/adunit/AdUnitSoftwareActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1655,
+      "type": 2,
+      "name": "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+      "mode": "exact",
+      "priority": 1655,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/services/ads/adunit/AdUnitTransparentActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1656,
+      "type": 2,
+      "name": "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+      "mode": "exact",
+      "priority": 1656,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/services/ads/adunit/AdUnitTransparentSoftwareActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

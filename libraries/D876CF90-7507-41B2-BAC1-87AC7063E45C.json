@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D876CF90-7507-41B2-BAC1-87AC7063E45C",
+  "iconId": "ic_lib_dataranger",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "DataFinder",
+        "dev_team": "Volcengine",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "基于灵活高效的分析模型，发现用户行为数据的价值，进而转化为促进增长的行动。",
+        "source_link": "https://www.volcengine.com/product/datafinder"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "DataFinder",
+        "dev_team": "Volcengine",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "Discover the value of user behavior data based on a flexible and efficient analysis model, then translate it into actions that promote growth.",
+        "source_link": "https://www.volcengine.com/product/datafinder"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 724,
+      "type": 2,
+      "name": "com.bytedance.applog.util.SimulateLaunchActivity",
+      "mode": "exact",
+      "priority": 724,
+      "label": "DataFinder",
+      "iconId": "ic_lib_dataranger",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/applog/util/SimulateLaunchActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.applog.util.SimulateLaunchActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 725,
+      "type": 2,
+      "name": "com.bytedance.applog.migrate.MigrateDetectorActivity",
+      "mode": "exact",
+      "priority": 725,
+      "label": "DataFinder",
+      "iconId": "ic_lib_dataranger",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/applog/migrate/MigrateDetectorActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.applog.migrate.MigrateDetectorActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 726,
+      "type": 3,
+      "name": "com.bytedance.applog.collector.Collector",
+      "mode": "exact",
+      "priority": 726,
+      "label": "DataFinder",
+      "iconId": "ic_lib_dataranger",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/bytedance/applog/collector/Collector.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.applog.collector.Collector"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1484,
+      "type": 3,
+      "name": "com.bytedance.mapplog.collector.Collector",
+      "mode": "exact",
+      "priority": 1484,
+      "label": "DataFinder",
+      "iconId": "ic_lib_dataranger",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/bytedance/mapplog/collector/Collector.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.mapplog.collector.Collector"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

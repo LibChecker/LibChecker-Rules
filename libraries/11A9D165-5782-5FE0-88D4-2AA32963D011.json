@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "11A9D165-5782-5FE0-88D4-2AA32963D011",
+  "iconId": "ic_lib_jetpack_compose",
+  "data": [],
+  "matchers": [
+    {
+      "id": 992,
+      "type": 5,
+      "name": "androidx.compose",
+      "mode": "exact",
+      "priority": 992,
+      "label": "Jetpack Compose",
+      "iconId": "ic_lib_jetpack_compose",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.compose"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E927365C-3C3C-4E81-A806-00A2C4DF1CC7",
+  "iconId": "ic_lib_rclone",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Rclone",
+        "dev_team": "Rclone",
+        "rule_contributors": [
+          "xyl23333"
+        ],
+        "description": "Rclone 是一个用于管理云文件的命令行程序。",
+        "source_link": "https://github.com/rclone/rclone"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Rclone",
+        "dev_team": "Rclone",
+        "rule_contributors": [
+          "xyl23333"
+        ],
+        "description": "Rclone is a command-line program for managing cloud files.",
+        "source_link": "https://github.com/rclone/rclone"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 732,
+      "type": 0,
+      "name": "librclone.so",
+      "mode": "exact",
+      "priority": 732,
+      "label": "Rclone",
+      "iconId": "ic_lib_rclone",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librclone.so.json",
+      "examples": {
+        "positive": [
+          "librclone.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

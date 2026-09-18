@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CFBD87F5-E5BE-4759-B59E-8B8BEC1C06FF",
+  "iconId": "ic_lib_jd",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "开普勒 SDK",
+        "dev_team": "JD",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "京东开普勒提供标准化交易组件，合作伙伴以 SDK/H5 的方式集成，也可直接呼起京东 APP，打造完美的购物体验，轻松实现流量合作。",
+        "source_link": "https://k.jd.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Kepler SDK",
+        "dev_team": "JD",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "JD Kepler provides standardized trading components, allowing partners to integrate via SDK/H5 or directly invoke the JD APP, creating a perfect shopping experience and easily achieving traffic cooperation.",
+        "source_link": "https://k.jd.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 767,
+      "type": 2,
+      "name": "com.kepler.jd.login.AuthSuccessActivity",
+      "mode": "exact",
+      "priority": 767,
+      "label": "开普勒 SDK",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kepler/jd/login/AuthSuccessActivity.json",
+      "examples": {
+        "positive": [
+          "com.kepler.jd.login.AuthSuccessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 768,
+      "type": 2,
+      "name": "com.kepler.jd.sdk.KeplerMidActivity",
+      "mode": "exact",
+      "priority": 768,
+      "label": "开普勒 SDK",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kepler/jd/sdk/KeplerMidActivity.json",
+      "examples": {
+        "positive": [
+          "com.kepler.jd.sdk.KeplerMidActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 769,
+      "type": 2,
+      "name": "com.kepler.jd.sdk.WebViewActivity",
+      "mode": "exact",
+      "priority": 769,
+      "label": "开普勒 SDK",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kepler/jd/sdk/WebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.kepler.jd.sdk.WebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 770,
+      "type": 2,
+      "name": "com.kepler.jd.sdk.KeplerBackActivity",
+      "mode": "exact",
+      "priority": 770,
+      "label": "开普勒 SDK",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kepler/jd/sdk/KeplerBackActivity.json",
+      "examples": {
+        "positive": [
+          "com.kepler.jd.sdk.KeplerBackActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

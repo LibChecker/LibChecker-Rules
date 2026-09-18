@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A88C9063-58CA-43EC-9603-7C297E792450",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libGDX",
+        "dev_team": "libgdx",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "libGDX 是基于 OpenGL(ES) 的跨平台 Java 游戏开发框架，可在 Windows，Linux，Mac OS X，Android，iOS 和支持 WebGL 的浏览器上运行。它为快速原型设计和快速迭代提供了一个经过充分验证的健壮环境。LibGDX 不会在您身上强加特定的设计或编码风格，而是使您可以自由选择自己喜欢的方式来创建游戏。",
+        "source_link": "https://github.com/libgdx/libgdx"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libGDX",
+        "dev_team": "libgdx",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "libGDX is a cross-platform Java game development framework based on OpenGL(ES), capable of running on Windows, Linux, Mac OS X, Android, iOS, and WebGL-enabled browsers. It provides a well-proven robust environment for rapid prototyping and fast iteration. LibGDX does not impose any specific design or coding style on you, allowing you the freedom to create games in your preferred way.",
+        "source_link": "https://github.com/libgdx/libgdx"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 578,
+      "type": 0,
+      "name": "libgdx-box2d.so",
+      "mode": "exact",
+      "priority": 578,
+      "label": "libGDX",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgdx-box2d.so.json",
+      "examples": {
+        "positive": [
+          "libgdx-box2d.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 579,
+      "type": 0,
+      "name": "libgdx.so",
+      "mode": "exact",
+      "priority": 579,
+      "label": "libGDX",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgdx.so.json",
+      "examples": {
+        "positive": [
+          "libgdx.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 580,
+      "type": 0,
+      "name": "libgdx-freetype.so",
+      "mode": "exact",
+      "priority": 580,
+      "label": "libGDX",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgdx-freetype.so.json",
+      "examples": {
+        "positive": [
+          "libgdx-freetype.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

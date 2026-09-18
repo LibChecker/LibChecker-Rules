@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DB3D7BC0-5A5F-481D-B29E-87B5F642855F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mapbox GL Native",
+        "dev_team": "Mapbox",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "在原生 Android、iOS、macOS、Node.js 和 Qt 应用程序中显示交互式、完全可定制的地图，由矢量瓦片和 OpenGL 提供支持。",
+        "source_link": "https://github.com/mapbox/mapbox-gl-native"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mapbox GL Native",
+        "dev_team": "Mapbox",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL.",
+        "source_link": "https://github.com/mapbox/mapbox-gl-native"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 809,
+      "type": 0,
+      "name": "libmapbox-gl.so",
+      "mode": "exact",
+      "priority": 809,
+      "label": "Mapbox GL Native",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmapbox-gl.so.json",
+      "examples": {
+        "positive": [
+          "libmapbox-gl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F8D5DBD2-FD89-4BD7-9D4E-CD38F1B12B74",
+  "iconId": "ic_lib_xiaoai",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小爱 SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "⼩米⼩爱开放平台借助小米的硬件生态和海量数据，提供全球领先的语音识别、NLP 等多项人工智能技术，为开发者提供一站式的人工智能服务平台。小米小爱开放平台包括语音服务平台和技能开发平台两部分，为企业级用户和个人开发者打造更多更好的语⾳服务和技能。",
+        "source_link": "https://xiaoai.mi.com/documents/Home?type=/api/doc/render_markdown/Home/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xiao Ai SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaomi Xiaoai Open Platform leverages Xiaomi's hardware ecosystem and vast data to provide globally leading voice recognition, NLP, and other artificial intelligence technologies, offering developers a one-stop artificial intelligence service platform. Xiaomi Xiaoai Open Platform includes a voice service platform and a skill development platform, creating more and better voice services and skills for enterprise-level users and individual developers.",
+        "source_link": "https://xiaoai.mi.com/documents/Home?type=/api/doc/render_markdown/Home/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 48,
+      "type": 0,
+      "name": "libmibraindec.so",
+      "mode": "exact",
+      "priority": 48,
+      "label": "小爱 SDK",
+      "iconId": "ic_lib_xiaoai",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmibraindec.so.json",
+      "examples": {
+        "positive": [
+          "libmibraindec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 91,
+      "type": 0,
+      "name": "libmibrainjni.so",
+      "mode": "exact",
+      "priority": 91,
+      "label": "小爱 SDK",
+      "iconId": "ic_lib_xiaoai",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmibrainjni.so.json",
+      "examples": {
+        "positive": [
+          "libmibrainjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 113,
+      "type": 0,
+      "name": "libmibrainvad2.so",
+      "mode": "exact",
+      "priority": 113,
+      "label": "小爱 SDK",
+      "iconId": "ic_lib_xiaoai",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmibrainvad2.so.json",
+      "examples": {
+        "positive": [
+          "libmibrainvad2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 163,
+      "type": 0,
+      "name": "libmibrainsdk.so",
+      "mode": "exact",
+      "priority": 163,
+      "label": "小爱 SDK",
+      "iconId": "ic_lib_xiaoai",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmibrainsdk.so.json",
+      "examples": {
+        "positive": [
+          "libmibrainsdk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

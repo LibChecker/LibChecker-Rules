@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 5,
+  "uuid": "13F4EED9-85A3-458B-A207-455D7085C784",
+  "iconId": "ic_lib_microsoft_extra_id",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MSAL",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "适用于 Android 的 Microsoft Authentication Library (MSAL) 是一个库，可让 Android 应用通过 Microsoft 标识平台（前身为 Azure Active Directory）对用户进行身份验证，并使用 OAuth2 和 OpenID Connect 协议访问受保护的 Web API。MSAL Android 让开发者可以从 Microsoft 标识平台获取安全令牌，用于为基于 Android 的应用进行用户身份验证并访问安全的 Web API。",
+        "source_link": "https://github.com/AzureAD/microsoft-authentication-library-for-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MSAL",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "The Microsoft Authentication Library (MSAL) for Android is a library that enables Android applications to authenticate users with Microsoft identity platform (formerly Azure Active Directory) and access protected web APIs using OAuth2 and OpenID Connect protocols. MSAL Android enables developers to acquire security tokens from the Microsoft identity platform to authenticate users and access secure web APIs for their Android based applications.",
+        "source_link": "https://github.com/AzureAD/microsoft-authentication-library-for-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2707,
+      "type": 2,
+      "name": "com.microsoft.identity.client.AccountChooserActivity",
+      "mode": "exact",
+      "priority": 2707,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/client/AccountChooserActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.AccountChooserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2708,
+      "type": 2,
+      "name": "com.microsoft.identity.client.BrokerBrowserRedirectActivity",
+      "mode": "exact",
+      "priority": 2708,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/client/BrokerBrowserRedirectActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.BrokerBrowserRedirectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2709,
+      "type": 2,
+      "name": "com.microsoft.identity.client.BrowserTabActivity",
+      "mode": "exact",
+      "priority": 2709,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/client/BrowserTabActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.BrowserTabActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2710,
+      "type": 2,
+      "name": "com.microsoft.identity.client.CurrentTaskBrowserTabActivity",
+      "mode": "exact",
+      "priority": 2710,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/client/CurrentTaskBrowserTabActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.CurrentTaskBrowserTabActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2711,
+      "type": 2,
+      "name": "com.microsoft.identity.client.helper.BrokerHelperActivity",
+      "mode": "exact",
+      "priority": 2711,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/client/helper/BrokerHelperActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.helper.BrokerHelperActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2712,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.broker.BrokerActivity",
+      "mode": "exact",
+      "priority": 2712,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/broker/BrokerActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.broker.BrokerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2713,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.broker.InstallCertActivityLauncher",
+      "mode": "exact",
+      "priority": 2713,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/broker/InstallCertActivityLauncher.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.broker.InstallCertActivityLauncher"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2714,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.providers.oauth2.AuthorizationActivity",
+      "mode": "exact",
+      "priority": 2714,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/providers/oauth2/AuthorizationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.providers.oauth2.AuthorizationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2715,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.providers.oauth2.BrokerAuthorizationActivity",
+      "mode": "exact",
+      "priority": 2715,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/providers/oauth2/BrokerAuthorizationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.providers.oauth2.BrokerAuthorizationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2716,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity",
+      "mode": "exact",
+      "priority": 2716,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/providers/oauth2/CurrentTaskAuthorizationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2717,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.providers.oauth2.EdgeAuthorizationActivity",
+      "mode": "exact",
+      "priority": 2717,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/providers/oauth2/EdgeAuthorizationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.providers.oauth2.EdgeAuthorizationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2718,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.providers.oauth2.SilentAuthorizationActivity",
+      "mode": "exact",
+      "priority": 2718,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/providers/oauth2/SilentAuthorizationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.providers.oauth2.SilentAuthorizationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2719,
+      "type": 2,
+      "name": "com.microsoft.identity.common.internal.providers.oauth2.SwitchBrowserActivity",
+      "mode": "exact",
+      "priority": 2719,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/common/internal/providers/oauth2/SwitchBrowserActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.common.internal.providers.oauth2.SwitchBrowserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2720,
+      "type": 2,
+      "name": "com.microsoft.identity.internal.ui.BrowserTabActivity",
+      "mode": "exact",
+      "priority": 2720,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/identity/internal/ui/BrowserTabActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.internal.ui.BrowserTabActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2769,
+      "type": 0,
+      "name": "libOneAuth.so",
+      "mode": "exact",
+      "priority": 2769,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libOneAuth.so.json",
+      "examples": {
+        "positive": [
+          "libOneAuth.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2852,
+      "type": 4,
+      "name": "com.microsoft.identity.client.BrokerContentProvider",
+      "mode": "exact",
+      "priority": 2852,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/microsoft/identity/client/BrokerContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.BrokerContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2901,
+      "type": 1,
+      "name": "com.microsoft.identity.broker.accountmanager.AccountManagerServiceForPersonalAccounts",
+      "mode": "exact",
+      "priority": 2901,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/identity/broker/accountmanager/AccountManagerServiceForPersonalAccounts.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.broker.accountmanager.AccountManagerServiceForPersonalAccounts"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2902,
+      "type": 1,
+      "name": "com.microsoft.identity.broker.accountmanager.AccountManagerServiceForWorkAccounts",
+      "mode": "exact",
+      "priority": 2902,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/identity/broker/accountmanager/AccountManagerServiceForWorkAccounts.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.broker.accountmanager.AccountManagerServiceForWorkAccounts"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2903,
+      "type": 1,
+      "name": "com.microsoft.identity.broker.activebrokerselection.backupipc.service.AccountManagerIpcServiceForRequestsTargetingSpecificBrokerApp",
+      "mode": "exact",
+      "priority": 2903,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/identity/broker/activebrokerselection/backupipc/service/AccountManagerIpcServiceForRequestsTargetingSpecificBrokerApp.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.broker.activebrokerselection.backupipc.service.AccountManagerIpcServiceForRequestsTargetingSpecificBrokerApp"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2904,
+      "type": 1,
+      "name": "com.microsoft.identity.client.MicrosoftAuthService",
+      "mode": "exact",
+      "priority": 2904,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/identity/client/MicrosoftAuthService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.MicrosoftAuthService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "actions-libs/com.microsoft.identity.client.MicrosoftAuth.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "MSAL",
+              "dev_team": "Microsoft",
+              "rule_contributors": [
+                "sebastien46"
+              ],
+              "description": "适用于 Android 的 Microsoft Authentication Library (MSAL) 是一个库，可让 Android 应用通过 Microsoft 标识平台（前身为 Azure Active Directory）对用户进行身份验证，并使用 OAuth2 和 OpenID Connect 协议访问受保护的 Web API。MSAL Android 让开发者可以从 Microsoft 标识平台获取安全令牌，用于为基于 Android 的应用进行用户身份验证并访问安全的 Web API。",
+              "source_link": "https://github.com/AzureAD/microsoft-authentication-library-for-android"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "MSAL",
+              "dev_team": "Microsoft",
+              "rule_contributors": [
+                "sebastien46"
+              ],
+              "description": "The Microsoft Authentication Library (MSAL) for Android is a library that enables Android applications to authenticate users with Microsoft identity platform (formerly Azure Active Directory) and access protected web APIs using OAuth2 and OpenID Connect protocols. MSAL Android enables developers to acquire security tokens from the Microsoft identity platform to authenticate users and access secure web APIs for their Android based applications.",
+              "source_link": "https://github.com/AzureAD/microsoft-authentication-library-for-android"
+            }
+          }
+        ],
+        "uuid": "13F4EED9-85A3-458B-A207-455D7085C784"
+      }
+    }
+  ]
+}

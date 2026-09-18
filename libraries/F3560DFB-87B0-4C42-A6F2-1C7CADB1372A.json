@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F3560DFB-87B0-4C42-A6F2-1C7CADB1372A",
+  "iconId": "ic_lib_microsoft",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Open XML SDK",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Open XML SDK 是一个用于处理 Microsoft Office Word、Excel 和 PowerPoint 文档的框架。它包含与 OPC 包、Flat OPC 文件以及两种形式的 Open XML 标记（即强类型类和 LINQ to XML）相关的底层操作 API。它的设计目标是紧密遵循 Microsoft Office 对 ISO 29500 标准的实现，但并不旨在直接提供更高层级的抽象或生产力工具。",
+        "source_link": "https://github.com/dotnet/Open-XML-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Open XML SDK",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "The Open XML SDK is a framework for working with Microsoft Office Word, Excel, and PowerPoint documents. It includes APIs for low-level operations related to OPC packages, Flat OPC files, and Open XML markup in two forms (i.e., strongly-typed classes and LINQ to XML). It is designed to closely follow the Microsoft Office implementation of the ISO 29500 standard, but was not intended to directly provide higher-level abstractions or productivity tools.",
+        "source_link": "https://github.com/dotnet/Open-XML-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2824,
+      "type": 0,
+      "name": "libmsxml.so",
+      "mode": "exact",
+      "priority": 2824,
+      "label": "Open XML SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmsxml.so.json",
+      "examples": {
+        "positive": [
+          "libmsxml.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

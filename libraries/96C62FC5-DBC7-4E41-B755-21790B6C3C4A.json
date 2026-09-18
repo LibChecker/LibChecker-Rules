@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "96C62FC5-DBC7-4E41-B755-21790B6C3C4A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Log4a",
+        "dev_team": "pqpo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Log4a 是一个基于 mmap，高性能、高可用的 Android 日志收集框架。",
+        "source_link": "https://github.com/pqpo/Log4a"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Log4a",
+        "dev_team": "pqpo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Log4a is a high-performance, high-availability Android log collection framework based on mmap.",
+        "source_link": "https://github.com/pqpo/Log4a"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1676,
+      "type": 0,
+      "name": "liblog4a-lib.so",
+      "mode": "exact",
+      "priority": 1676,
+      "label": "Log4a",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblog4a-lib.so.json",
+      "examples": {
+        "positive": [
+          "liblog4a-lib.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

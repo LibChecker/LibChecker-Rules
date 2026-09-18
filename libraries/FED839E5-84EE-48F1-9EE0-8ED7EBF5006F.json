@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FED839E5-84EE-48F1-9EE0-8ED7EBF5006F",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CodeLocator",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "CodeLocator是一个包含Android SDK 与 Android Studio插件的Android工具集。",
+        "source_link": "https://github.com/bytedance/CodeLocator"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CodeLocator",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "CodeLocator is an Android toolkit containing Android SDK and Android Studio plugins.",
+        "source_link": "https://github.com/bytedance/CodeLocator"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 814,
+      "type": 4,
+      "name": "com.bytedance.tools.codelocator.CodeLocatorProvider",
+      "mode": "exact",
+      "priority": 814,
+      "label": "CodeLocator",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/tools/codelocator/CodeLocatorProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.tools.codelocator.CodeLocatorProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1B8043DD-D86F-4D07-A204-339AB905B25D",
+  "iconId": "ic_lib_microsoft_intune",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Intune App SDK",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "适用于 Android 的 Microsoft Intune App SDK 允许你将 Intune 应用保护策略集成到原生 Java/Kotlin Android 应用中。这些策略也称为 MAM 策略。由 Intune 管理的应用是指已集成 Intune App SDK 的应用。当 Intune 主动管理应用时，Intune 管理员可以轻松地将应用保护策略部署到你的 Intune 托管应用。",
+        "source_link": "https://github.com/microsoftconnect/ms-intune-app-sdk-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Intune App SDK",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "The Microsoft Intune App SDK for Android lets you incorporate Intune app protection policies into your native Java/Kotlin Android app. These policies are also known as MAM policies. An Intune-managed application is one that is integrated with the Intune App SDK. When Intune actively manages the app, Intune administrators can easily deploy app protection policies to your Intune-managed app.",
+        "source_link": "https://github.com/microsoftconnect/ms-intune-app-sdk-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2721,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.agent.WakeupActivity",
+      "mode": "exact",
+      "priority": 2721,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/agent/WakeupActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.agent.WakeupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2722,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.agent.knox.KnoxActivationActivity",
+      "mode": "exact",
+      "priority": 2722,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/agent/knox/KnoxActivationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.agent.knox.KnoxActivationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2723,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.agent.packagevisibility.AgentIntentHandleActivity",
+      "mode": "exact",
+      "priority": 2723,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/agent/packagevisibility/AgentIntentHandleActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.agent.packagevisibility.AgentIntentHandleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2724,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.offline.OfflineInstallCompanyPortalDialogActivity",
+      "mode": "exact",
+      "priority": 2724,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/offline/OfflineInstallCompanyPortalDialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.offline.OfflineInstallCompanyPortalDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2725,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.offline.OfflineNotifyWipeActivity",
+      "mode": "exact",
+      "priority": 2725,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/offline/OfflineNotifyWipeActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.offline.OfflineNotifyWipeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2726,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.offline.OfflineRestartRequiredActivity",
+      "mode": "exact",
+      "priority": 2726,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/offline/OfflineRestartRequiredActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.offline.OfflineRestartRequiredActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2727,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.offline.OfflineStartupBlockedActivity",
+      "mode": "exact",
+      "priority": 2727,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/offline/OfflineStartupBlockedActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.offline.OfflineStartupBlockedActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2728,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.resolver.MAMResolverActivity",
+      "mode": "exact",
+      "priority": 2728,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/resolver/MAMResolverActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.resolver.MAMResolverActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2729,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.startup.BiometricActivity",
+      "mode": "exact",
+      "priority": 2729,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/startup/BiometricActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.startup.BiometricActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2730,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.startup.GooglePlayServicesUserErrorHandlerActivity",
+      "mode": "exact",
+      "priority": 2730,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/startup/GooglePlayServicesUserErrorHandlerActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.startup.GooglePlayServicesUserErrorHandlerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2731,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.startup.MAMComplianceBlockActivity",
+      "mode": "exact",
+      "priority": 2731,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/startup/MAMComplianceBlockActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.startup.MAMComplianceBlockActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2732,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.startup.MAMStartupActivity",
+      "mode": "exact",
+      "priority": 2732,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/startup/MAMStartupActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.startup.MAMStartupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2733,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.client.app.startup.VerifyAppsActivity",
+      "mode": "exact",
+      "priority": 2733,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/client/app/startup/VerifyAppsActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.startup.VerifyAppsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2734,
+      "type": 2,
+      "name": "com.microsoft.intune.mam.knox.KnoxLicenseActivationActivity",
+      "mode": "exact",
+      "priority": 2734,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/intune/mam/knox/KnoxLicenseActivationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.knox.KnoxLicenseActivationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2873,
+      "type": 3,
+      "name": "com.microsoft.intune.diagnostics.logcollection.domain.DiagnosticStatusReceiver",
+      "mode": "exact",
+      "priority": 2873,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/intune/diagnostics/logcollection/domain/DiagnosticStatusReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.diagnostics.logcollection.domain.DiagnosticStatusReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2874,
+      "type": 3,
+      "name": "com.microsoft.intune.mam.client.service.MAMBackgroundReceiver",
+      "mode": "exact",
+      "priority": 2874,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/intune/mam/client/service/MAMBackgroundReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.service.MAMBackgroundReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2875,
+      "type": 3,
+      "name": "com.microsoft.intune.omadm.appconfig.broadcastcomponent.implementation.AppConfigChangedBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2875,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/intune/omadm/appconfig/broadcastcomponent/implementation/AppConfigChangedBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.omadm.appconfig.broadcastcomponent.implementation.AppConfigChangedBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2876,
+      "type": 3,
+      "name": "com.microsoft.intune.omadm.diagnostics.servicecomponent.implementation.DiagnosticReportingReceiver",
+      "mode": "exact",
+      "priority": 2876,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/intune/omadm/diagnostics/servicecomponent/implementation/DiagnosticReportingReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.omadm.diagnostics.servicecomponent.implementation.DiagnosticReportingReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2877,
+      "type": 3,
+      "name": "com.microsoft.intune.omadm.securityauditevents.SecurityAuditEventsBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2877,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/intune/omadm/securityauditevents/SecurityAuditEventsBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.omadm.securityauditevents.SecurityAuditEventsBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2905,
+      "type": 1,
+      "name": "com.microsoft.intune.mam.agent.foreground.ForegroundDelegateService",
+      "mode": "exact",
+      "priority": 2905,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/mam/agent/foreground/ForegroundDelegateService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.agent.foreground.ForegroundDelegateService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2906,
+      "type": 1,
+      "name": "com.microsoft.intune.mam.client.app.PendingIntentNotificationService",
+      "mode": "exact",
+      "priority": 2906,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/mam/client/app/PendingIntentNotificationService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.app.PendingIntentNotificationService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2907,
+      "type": 1,
+      "name": "com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService",
+      "mode": "exact",
+      "priority": 2907,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/mam/client/notification/MAMNotificationReceiverService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2908,
+      "type": 1,
+      "name": "com.microsoft.intune.mam.client.service.MAMBackgroundJobService",
+      "mode": "exact",
+      "priority": 2908,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/mam/client/service/MAMBackgroundJobService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.service.MAMBackgroundJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2909,
+      "type": 1,
+      "name": "com.microsoft.intune.mam.client.service.MAMBackgroundService",
+      "mode": "exact",
+      "priority": 2909,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/mam/client/service/MAMBackgroundService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.mam.client.service.MAMBackgroundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2910,
+      "type": 1,
+      "name": "com.microsoft.intune.omadm.byodmigration.androidapicomponent.implementation.DpcMigrationNotificationReceiverService",
+      "mode": "exact",
+      "priority": 2910,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/omadm/byodmigration/androidapicomponent/implementation/DpcMigrationNotificationReceiverService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.omadm.byodmigration.androidapicomponent.implementation.DpcMigrationNotificationReceiverService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2911,
+      "type": 1,
+      "name": "com.microsoft.intune.pushevents.PushEventService",
+      "mode": "exact",
+      "priority": 2911,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/pushevents/PushEventService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.pushevents.PushEventService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2912,
+      "type": 1,
+      "name": "com.microsoft.intune.tunnel.sdk.service.tunnelvpnstatus.MSTunnelVPNStatusService",
+      "mode": "exact",
+      "priority": 2912,
+      "label": "Intune App SDK",
+      "iconId": "ic_lib_microsoft_intune",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/intune/tunnel/sdk/service/tunnelvpnstatus/MSTunnelVPNStatusService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.intune.tunnel.sdk.service.tunnelvpnstatus.MSTunnelVPNStatusService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

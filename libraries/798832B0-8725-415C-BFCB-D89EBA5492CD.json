@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "798832B0-8725-415C-BFCB-D89EBA5492CD",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Virocore",
+        "dev_team": "Viro Media",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "借助 ViroCore，Android 开发者现在可以使用熟悉的语言和工具来构建沉浸式 AR/VR 应用。",
+        "source_link": "https://github.com/ViroCommunity/virocore"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Virocore",
+        "dev_team": "Viro Media",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "With ViroCore, Android developers can now use familiar languages and tools to build immersive AR/VR applications.",
+        "source_link": "https://github.com/ViroCommunity/virocore"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 63,
+      "type": 0,
+      "name": "libarcore_sdk_c.so",
+      "mode": "exact",
+      "priority": 63,
+      "label": "ViroCore",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcore_sdk_c.so.json",
+      "examples": {
+        "positive": [
+          "libarcore_sdk_c.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

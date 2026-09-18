@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "588664E5-1834-46A2-98BC-0250368B82C1",
+  "iconId": "ic_lib_xiaomi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小米广告 SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "小米广告 SDK 提供各种广告形式给客户端集成，应用既可以在 MIUI 系统上运行，也可以在非 MIUI 系统上运行。",
+        "source_link": "https://dev.mi.com/docs/gameentry/%E6%89%8B%E6%9C%BA&pad%E6%B8%B8%E6%88%8F%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3/%E5%B0%8F%E7%B1%B3%E5%B9%BF%E5%91%8ASDK%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/#sdk-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xiaomi Ad SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaomi Advertising SDK provides various ad forms for client integration, applications can run on both MIUI and non-MIUI systems.",
+        "source_link": "https://dev.mi.com/docs/gameentry/%E6%89%8B%E6%9C%BA&pad%E6%B8%B8%E6%88%8F%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3/%E5%B0%8F%E7%B1%B3%E5%B9%BF%E5%91%8ASDK%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/#sdk-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 383,
+      "type": 3,
+      "name": "com.market.sdk.DownloadCompleteReceiver",
+      "mode": "exact",
+      "priority": 383,
+      "label": "小米更新 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/market/sdk/DownloadCompleteReceiver.json",
+      "examples": {
+        "positive": [
+          "com.market.sdk.DownloadCompleteReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 574,
+      "type": 4,
+      "name": "com.market.sdk.LazyFileProvider",
+      "mode": "exact",
+      "priority": 574,
+      "label": "小米更新 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/market/sdk/LazyFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.market.sdk.LazyFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 967,
+      "type": 2,
+      "name": "com.miui.zeus.mimo.sdk.ad.reward.RewardVideoAdActivity",
+      "mode": "exact",
+      "priority": 967,
+      "label": "小米广告 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/miui/zeus/mimo/sdk/ad/reward/RewardVideoAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.miui.zeus.mimo.sdk.ad.reward.RewardVideoAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 968,
+      "type": 2,
+      "name": "com.miui.zeus.mimo.sdk.view.WebViewActivity",
+      "mode": "exact",
+      "priority": 968,
+      "label": "小米广告 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/miui/zeus/mimo/sdk/view/WebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.miui.zeus.mimo.sdk.view.WebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 971,
+      "type": 2,
+      "name": "com.miui.zeus.landingpage.sdk.activity.WebViewActivity",
+      "mode": "exact",
+      "priority": 971,
+      "label": "小米广告 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/miui/zeus/landingpage/sdk/activity/WebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.miui.zeus.landingpage.sdk.activity.WebViewActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

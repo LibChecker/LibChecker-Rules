@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6E8B57B1-5F50-4CAA-88FA-3CE51B27F421",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "QuickJS Binding",
+        "dev_team": "Harlon Wang",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Android 下的 QuickJS Binding 库。",
+        "source_link": "https://github.com/HarlonWang/quickjs-android-wrapper"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "QuickJS Binding",
+        "dev_team": "Harlon Wang",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "QuickJS Binding library for Android.",
+        "source_link": "https://github.com/HarlonWang/quickjs-android-wrapper"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1247,
+      "type": 0,
+      "name": "libquickjs-android.so",
+      "mode": "exact",
+      "priority": 1247,
+      "label": "QuickJS Binding",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libquickjs-android.so.json",
+      "examples": {
+        "positive": [
+          "libquickjs-android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

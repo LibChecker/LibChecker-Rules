@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2D095A00-45F7-4F0B-A519-618B52C3ABB0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "游密",
+        "dev_team": "Youme",
+        "rule_contributors": [
+          "Starduster-lin"
+        ],
+        "description": "游密科技（youme.im）创立于 2015 年，是一家专注于实时通讯云服务，为全球开发者和企业提供整体技术解决方案的领先科技公司。",
+        "source_link": "https://www.youme.im/doc/index.php"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Youmi",
+        "dev_team": "Youme",
+        "rule_contributors": [
+          "Starduster-lin"
+        ],
+        "description": "Youme.im, founded in 2015, is a leading technology company focused on real-time communication cloud services, providing comprehensive technical solutions to global developers and enterprises.",
+        "source_link": "https://www.youme.im/doc/index.php"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1936,
+      "type": 0,
+      "name": "libyoume_voice_engine.so",
+      "mode": "exact",
+      "priority": 1936,
+      "label": "游密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyoume_voice_engine.so.json",
+      "examples": {
+        "positive": [
+          "libyoume_voice_engine.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

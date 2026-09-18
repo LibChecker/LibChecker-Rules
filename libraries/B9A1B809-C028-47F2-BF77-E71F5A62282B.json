@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B9A1B809-C028-47F2-BF77-E71F5A62282B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Naga Reinforcement",
+        "dev_team": "娜迦科技",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "娜迦信息构建的加固云平台，针对不同平台的不同格式的文件进行加固保护及策略管理。可以在不改变应用客户端代码的情况下，针对应用各种安全缺陷的保护技术集成到应用客户端内，为客户提供涵盖应用开发、打包、发布、运行全生命周期一体化安全保障服务。",
+        "source_link": "https://www.nagain.com/#/produCtenter/securityReinforce/android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "娜迦加固",
+        "dev_team": "娜迦科技",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "The Naga Reinforcement Platform is a cloud-based security reinforcement solution that protects and manages files of different formats across various platforms. It integrates security techniques into application clients to address vulnerabilities without modifying client-side code, offering lifecycle security for app development, packaging, publishing, and runtime.",
+        "source_link": "https://www.nagain.com/#/produCtenter/securityReinforce/android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2005,
+      "type": 0,
+      "name": "libchaosvmp.so",
+      "mode": "exact",
+      "priority": 2005,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libchaosvmp.so.json",
+      "examples": {
+        "positive": [
+          "libchaosvmp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2011,
+      "type": 0,
+      "name": "libddog.so",
+      "mode": "exact",
+      "priority": 2011,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libddog.so.json",
+      "examples": {
+        "positive": [
+          "libddog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2016,
+      "type": 0,
+      "name": "libedog.so",
+      "mode": "exact",
+      "priority": 2016,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libedog.so.json",
+      "examples": {
+        "positive": [
+          "libedog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2018,
+      "type": 0,
+      "name": "libfdog.so",
+      "mode": "exact",
+      "priority": 2018,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfdog.so.json",
+      "examples": {
+        "positive": [
+          "libfdog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2022,
+      "type": 0,
+      "name": "libhdog.so",
+      "mode": "exact",
+      "priority": 2022,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhdog.so.json",
+      "examples": {
+        "positive": [
+          "libhdog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2070,
+      "type": 0,
+      "name": "libvdog-x86.so",
+      "mode": "exact",
+      "priority": 2070,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvdog-x86.so.json",
+      "examples": {
+        "positive": [
+          "libvdog-x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2071,
+      "type": 0,
+      "name": "libvdog.so",
+      "mode": "exact",
+      "priority": 2071,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvdog.so.json",
+      "examples": {
+        "positive": [
+          "libvdog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2075,
+      "type": 0,
+      "name": "libxloader.so",
+      "mode": "exact",
+      "priority": 2075,
+      "label": "娜迦加固",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxloader.so.json",
+      "examples": {
+        "positive": [
+          "libxloader.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

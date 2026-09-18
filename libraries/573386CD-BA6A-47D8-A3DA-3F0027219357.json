@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "573386CD-BA6A-47D8-A3DA-3F0027219357",
+  "iconId": "ic_lib_comscore",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Comscore",
+        "dev_team": "Comscore",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Comscore 是一家跨平台测量公司，可在各处精准衡量受众、品牌和消费者行为。",
+        "source_link": "https://github.com/comScore/ComScore-Android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Comscore",
+        "dev_team": "Comscore",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Comscore is the cross-platform measurement company that precisely measures audiences, brands and consumer behavior everywhere.",
+        "source_link": "https://github.com/comScore/ComScore-Android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2803,
+      "type": 0,
+      "name": "libcomScore.so",
+      "mode": "exact",
+      "priority": 2803,
+      "label": "Comscore",
+      "iconId": "ic_lib_comscore",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcomScore.so.json",
+      "examples": {
+        "positive": [
+          "libcomScore.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -159,9 +159,15 @@ def validate_definition(path, data):
     for lookup in lookups:
         if lookup.get("input") not in outputs:
             raise ValueError(f"Lookup input is not produced in {path}")
-        validate_remote_path(lookup.get("path_template"), "path_template")
-        if lookup["path_template"].count("{value}") != 1:
-            raise ValueError(f"path_template must contain one {{value}} in {path}")
+        if "index_path" in lookup:
+            validate_remote_path(lookup["index_path"], "index_path")
+            if ("{" in lookup["index_path"] or "}" in lookup["index_path"]
+                    or "path_template" in lookup or lookup.get("entries_field") != "entries"):
+                raise ValueError(f"Stable index must not interpolate captured values in {path}")
+        else:
+            validate_remote_path(lookup.get("path_template"), "path_template")
+            if lookup["path_template"].count("{value}") != 1:
+                raise ValueError(f"path_template must contain one {{value}} in {path}")
         require_int(lookup.get("max_requests"), "max_requests", 1, 4)
         require_int(lookup.get("max_items"), "max_items", 1, 50)
         for field_name in ("expected_field", "items_field"):

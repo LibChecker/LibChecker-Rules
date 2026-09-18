@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F1C7CB28-7CA0-457A-90AB-23CC8C33DEEF",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Play Legacy Photo Picker",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "运行 Android 4.4（API 级别 19）到 Android 10（API 级别 29）的旧设备和运行 Android 11 或 12 的 Android Go 设备，支持 Google Play 服务，可以安装照片选择器的回移版本。",
+        "source_link": "https://developer.android.com/training/data-storage/shared/photopicker#device-availability"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Play Legacy Photo Picker",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Older devices that run Android 4.4 (API level 19) through Android 10 (API level 29) and Android Go devices running Android 11 or 12 that support Google Play services can install a backported version of the photo picker.",
+        "source_link": "https://developer.android.com/training/data-storage/shared/photopicker#device-availability"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1688,
+      "type": 1,
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "mode": "exact",
+      "priority": 1688,
+      "label": "Legacy Photo Picker",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/metadata/ModuleDependencies.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.metadata.ModuleDependencies"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

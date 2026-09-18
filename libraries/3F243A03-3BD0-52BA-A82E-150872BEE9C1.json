@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3F243A03-3BD0-52BA-A82E-150872BEE9C1",
+  "iconId": "ic_lib_microsoft_extra_id",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2686,
+      "type": 6,
+      "name": "com.microsoft.identity.client.MicrosoftAuth",
+      "mode": "exact",
+      "priority": 2686,
+      "label": "MSAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.microsoft.identity.client.MicrosoftAuth"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

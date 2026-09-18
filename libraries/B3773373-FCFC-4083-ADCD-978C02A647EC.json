@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B3773373-FCFC-4083-ADCD-978C02A647EC",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Huawei Ads SDK",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "HUAWEI Ads 流量变现服务（HUAWEI Ads Publisher Service）是依托华为终端强大的平台与数据能力为开发者提供的 App 流量变现服务，开发者通过该服务可以在自己的 App 中获取并向用户展示精准的、精美的、高价值的广告内容，并从中获得广告收益。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ads-sdk-guide"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Huawei Ads SDK",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "HUAWEI Ads Publisher Service is an app traffic monetization service provided by Huawei, relying on Huawei's powerful platform and data capabilities. Developers can obtain and display precise, exquisite, and high-value ad content in their apps through this service, earning ad revenue.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ads-sdk-guide"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 473,
+      "type": 4,
+      "name": "com.huawei.openalliance.ad.download.DownloadFileProvider",
+      "mode": "exact",
+      "priority": 473,
+      "label": "HUAWEI Ads Kit",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/openalliance/ad/download/DownloadFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.openalliance.ad.download.DownloadFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1626,
+      "type": 4,
+      "name": "com.huawei.openalliance.ad.provider.PPSECProvider",
+      "mode": "exact",
+      "priority": 1626,
+      "label": "HUAWEI Ads Kit",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/openalliance/ad/provider/PPSECProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.openalliance.ad.provider.PPSECProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

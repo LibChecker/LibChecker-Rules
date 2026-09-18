@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "69469F13-CFCE-514F-B447-F0DA7DEE0808",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 505,
+      "type": 5,
+      "name": "androidx.preference",
+      "mode": "exact",
+      "priority": 505,
+      "label": "Jetpack Preference",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.preference"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8ABA39CA-89C9-427F-BAC1-B7DA834C95B1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "rhttp",
+        "dev_team": "tienisto.com",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "为 Flutter 开发者提供基于 Rust 的 HTTP 请求能力。",
+        "source_link": "https://pub.dev/packages/rhttp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "rhttp",
+        "dev_team": "tienisto.com",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Make HTTP requests using Rust for Flutter developers.",
+        "source_link": "https://pub.dev/packages/rhttp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2558,
+      "type": 0,
+      "name": "librhttp.so",
+      "mode": "exact",
+      "priority": 2558,
+      "label": "rhttp",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librhttp.so.json",
+      "examples": {
+        "positive": [
+          "librhttp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

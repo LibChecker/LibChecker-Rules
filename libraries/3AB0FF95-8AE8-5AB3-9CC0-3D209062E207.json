@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3AB0FF95-8AE8-5AB3-9CC0-3D209062E207",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 509,
+      "type": 5,
+      "name": "androidx.vectordrawable",
+      "mode": "exact",
+      "priority": 509,
+      "label": "Jetpack VectorDrawable",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.vectordrawable"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

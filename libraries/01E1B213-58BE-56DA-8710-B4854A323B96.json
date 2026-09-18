@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "01E1B213-58BE-56DA-8710-B4854A323B96",
+  "iconId": "ic_lib_aliyun",
+  "data": [],
+  "matchers": [
+    {
+      "id": 495,
+      "type": 5,
+      "name": "com.ta.utdid2",
+      "mode": "exact",
+      "priority": 495,
+      "label": "UTDID",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.ta.utdid2"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

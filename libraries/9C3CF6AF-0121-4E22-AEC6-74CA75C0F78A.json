@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9C3CF6AF-0121-4E22-AEC6-74CA75C0F78A",
+  "iconId": "ic_lib_netease_yunxin",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "网易云信",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "culat",
+          "MattFirefly",
+          "WOLFRAZOR",
+          "crrashh1542"
+        ],
+        "description": "网易云信致力于互联网络技术的开发与研究，使开发者通过简单集成客户端 SDK 和云端开放 API，快速实现强大的移动互联网 IM 和音视频功能。",
+        "source_link": "https://yunxin.163.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "网易云信",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "culat",
+          "MattFirefly",
+          "WOLFRAZOR",
+          "crrashh1542"
+        ],
+        "description": "NetEase Cloud Communication is dedicated to the development and research of internet technology, enabling developers to quickly implement powerful mobile internet IM and audio-video functions through simple integration of client SDK and cloud open API.",
+        "source_link": "https://yunxin.163.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 923,
+      "type": 0,
+      "name": "libne_audio.so",
+      "mode": "exact",
+      "priority": 923,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libne_audio.so.json",
+      "examples": {
+        "positive": [
+          "libne_audio.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 924,
+      "type": 0,
+      "name": "libhigh-available.so",
+      "mode": "exact",
+      "priority": 924,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhigh-available.so.json",
+      "examples": {
+        "positive": [
+          "libhigh-available.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 925,
+      "type": 0,
+      "name": "libnertc_sdk.so",
+      "mode": "exact",
+      "priority": 925,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnertc_sdk.so.json",
+      "examples": {
+        "positive": [
+          "libnertc_sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 926,
+      "type": 0,
+      "name": "libvideoeffect.so",
+      "mode": "exact",
+      "priority": 926,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvideoeffect.so.json",
+      "examples": {
+        "positive": [
+          "libvideoeffect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 927,
+      "type": 0,
+      "name": "liblivestreaming.so",
+      "mode": "exact",
+      "priority": 927,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblivestreaming.so.json",
+      "examples": {
+        "positive": [
+          "liblivestreaming.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 928,
+      "type": 0,
+      "name": "libnelprender.so",
+      "mode": "exact",
+      "priority": 928,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnelprender.so.json",
+      "examples": {
+        "positive": [
+          "libnelprender.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 929,
+      "type": 0,
+      "name": "libnelpengine.so",
+      "mode": "exact",
+      "priority": 929,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnelpengine.so.json",
+      "examples": {
+        "positive": [
+          "libnelpengine.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 930,
+      "type": 0,
+      "name": "libRtsSDK.so",
+      "mode": "exact",
+      "priority": 930,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libRtsSDK.so.json",
+      "examples": {
+        "positive": [
+          "libRtsSDK.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 931,
+      "type": 0,
+      "name": "libneliveplayer.so",
+      "mode": "exact",
+      "priority": 931,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libneliveplayer.so.json",
+      "examples": {
+        "positive": [
+          "libneliveplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1677,
+      "type": 0,
+      "name": "libnrtc_sdk.so",
+      "mode": "exact",
+      "priority": 1677,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnrtc_sdk.so.json",
+      "examples": {
+        "positive": [
+          "libnrtc_sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1922,
+      "type": 0,
+      "name": "libyxbase.so",
+      "mode": "exact",
+      "priority": 1922,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyxbase.so.json",
+      "examples": {
+        "positive": [
+          "libyxbase.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1952,
+      "type": 0,
+      "name": "libnesdk.so",
+      "mode": "exact",
+      "priority": 1952,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnesdk.so.json",
+      "examples": {
+        "positive": [
+          "libnesdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2274,
+      "type": 0,
+      "name": "libyx_alog.so",
+      "mode": "exact",
+      "priority": 2274,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyx_alog.so.json",
+      "examples": {
+        "positive": [
+          "libyx_alog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2757,
+      "type": 0,
+      "name": "libNERtcAiDenoise.so",
+      "mode": "exact",
+      "priority": 2757,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcAiDenoise.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcAiDenoise.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2758,
+      "type": 0,
+      "name": "libNERtcAiHowling.so",
+      "mode": "exact",
+      "priority": 2758,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcAiHowling.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcAiHowling.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2759,
+      "type": 0,
+      "name": "libNERtcAudio3D.so",
+      "mode": "exact",
+      "priority": 2759,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcAudio3D.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcAudio3D.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2760,
+      "type": 0,
+      "name": "libNERtcBeauty.so",
+      "mode": "exact",
+      "priority": 2760,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcBeauty.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcBeauty.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2761,
+      "type": 0,
+      "name": "libNERtcFaceDetect.so",
+      "mode": "exact",
+      "priority": 2761,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcFaceDetect.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcFaceDetect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2762,
+      "type": 0,
+      "name": "libNERtcFaceEnhance.so",
+      "mode": "exact",
+      "priority": 2762,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcFaceEnhance.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcFaceEnhance.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2763,
+      "type": 0,
+      "name": "libNERtcPersonSegment.so",
+      "mode": "exact",
+      "priority": 2763,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcPersonSegment.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcPersonSegment.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2764,
+      "type": 0,
+      "name": "libNERtcSuperResolution.so",
+      "mode": "exact",
+      "priority": 2764,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcSuperResolution.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcSuperResolution.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2765,
+      "type": 0,
+      "name": "libNERtcVideoDenoise.so",
+      "mode": "exact",
+      "priority": 2765,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcVideoDenoise.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcVideoDenoise.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2766,
+      "type": 0,
+      "name": "libNERtcnn.so",
+      "mode": "exact",
+      "priority": 2766,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNERtcnn.so.json",
+      "examples": {
+        "positive": [
+          "libNERtcnn.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2808,
+      "type": 0,
+      "name": "libhigh_available_android.so",
+      "mode": "exact",
+      "priority": 2808,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhigh_available_android.so.json",
+      "examples": {
+        "positive": [
+          "libhigh_available_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

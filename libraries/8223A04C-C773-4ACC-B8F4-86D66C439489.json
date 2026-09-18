@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8223A04C-C773-4ACC-B8F4-86D66C439489",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Krita",
+        "dev_team": "KDE",
+        "rule_contributors": [
+          "fldlqu"
+        ],
+        "description": "Krita Android Arm64 构建版本的私有库。",
+        "source_link": "https://github.com/KDE/krita"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Krita",
+        "dev_team": "KDE",
+        "rule_contributors": [
+          "fldlqu"
+        ],
+        "description": "Private Library of Krita Android Arm64 build.",
+        "source_link": "https://github.com/KDE/krita"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2924,
+      "type": 0,
+      "name": "kimg_(.*)_arm64-v8a\\.so",
+      "mode": "regex",
+      "priority": 2924,
+      "label": "Krita",
+      "iconId": null,
+      "regexName": "regex_krita",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_krita.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2925,
+      "type": 0,
+      "name": "lib_krita(.*)_arm64-v8a\\.so",
+      "mode": "regex",
+      "priority": 2925,
+      "label": "Krita",
+      "iconId": null,
+      "regexName": "regex_krita",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_krita.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

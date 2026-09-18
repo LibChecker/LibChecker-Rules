@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EBE54595-4C08-4BC8-A7EA-B53C04115993",
+  "iconId": "ic_lib_godot",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Godot Engine",
+        "dev_team": "Godot Developers",
+        "rule_contributors": [
+          "Ahopness"
+        ],
+        "description": "开源游戏引擎。",
+        "source_link": "https://godotengine.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Godot Engine",
+        "dev_team": "Godot Developers",
+        "rule_contributors": [
+          "Ahopness"
+        ],
+        "description": "Open source game engine.",
+        "source_link": "https://godotengine.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 958,
+      "type": 0,
+      "name": "libgodot_android.so",
+      "mode": "exact",
+      "priority": 958,
+      "label": "Godot Engine",
+      "iconId": "ic_lib_godot",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgodot_android.so.json",
+      "examples": {
+        "positive": [
+          "libgodot_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

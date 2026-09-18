@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F9D78474-DED0-42F4-9509-CE38E4C54A88",
+  "iconId": "ic_lib_meta",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Yoga",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Yoga 意在打造一个跨 iOS、Android、Windows 平台在内的布局引擎，兼容 Flexbox 布局方式，让界面布局更加简单。",
+        "source_link": "https://github.com/facebook/yoga/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Yoga",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Yoga aims to create a layout engine across iOS, Android, and Windows platforms, compatible with the Flexbox layout method, making interface layout simpler.",
+        "source_link": "https://github.com/facebook/yoga/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 10,
+      "type": 0,
+      "name": "liblib_fb_fbjni.so",
+      "mode": "exact",
+      "priority": 10,
+      "label": "Yoga",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblib_fb_fbjni.so.json",
+      "examples": {
+        "positive": [
+          "liblib_fb_fbjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 21,
+      "type": 0,
+      "name": "libyoga.so",
+      "mode": "exact",
+      "priority": 21,
+      "label": "Yoga",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyoga.so.json",
+      "examples": {
+        "positive": [
+          "libyoga.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 31,
+      "type": 0,
+      "name": "libyouga.so",
+      "mode": "exact",
+      "priority": 31,
+      "label": "Yoga",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyouga.so.json",
+      "examples": {
+        "positive": [
+          "libyouga.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

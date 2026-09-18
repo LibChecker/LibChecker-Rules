@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9C96A104-3E7A-4F93-AEC8-DD963B794489",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Pump",
+        "dev_team": "huxq17",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Pump 是一个快速，易用的 Android 下载库，支持多任务，多线程和断点下载，同时使用了 Http 缓存机制来避免不必要的下载，让下载更加智能。",
+        "source_link": "https://github.com/huxq17/Pump"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Pump",
+        "dev_team": "huxq17",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "A smart tool for android download,support BreakPoint、MultiTask and MultiThread.",
+        "source_link": "https://github.com/huxq17/Pump"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2080,
+      "type": 4,
+      "name": "com.huxq17.download.DownloadProvider",
+      "mode": "exact",
+      "priority": 2080,
+      "label": "Pump",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huxq17/download/DownloadProvider.json",
+      "examples": {
+        "positive": [
+          "com.huxq17.download.DownloadProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

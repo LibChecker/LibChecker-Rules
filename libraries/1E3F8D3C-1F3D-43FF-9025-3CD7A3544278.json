@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1E3F8D3C-1F3D-43FF-9025-3CD7A3544278",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Phira",
+        "dev_team": "TeamFlos",
+        "rule_contributors": [
+          "winloadefi"
+        ],
+        "description": "Phira是一款由TeamFlos参照Phigros玩法编写的、基于Rust和MacroQuad的音乐游戏。",
+        "source_link": "https://github.com/TeamFlos/phira"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Phira",
+        "dev_team": "TeamFlos",
+        "rule_contributors": [
+          "winloadefi"
+        ],
+        "description": "Phira is a music game developed by TeamFlos, inspired by Phigros gameplay and built with Rust and MacroQuad.",
+        "source_link": "https://github.com/TeamFlos/phira"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2832,
+      "type": 0,
+      "name": "libphira.so",
+      "mode": "exact",
+      "priority": 2832,
+      "label": "Phira",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libphira.so.json",
+      "examples": {
+        "positive": [
+          "libphira.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

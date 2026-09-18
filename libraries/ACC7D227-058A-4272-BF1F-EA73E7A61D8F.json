@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "ACC7D227-058A-4272-BF1F-EA73E7A61D8F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndroidP7zip",
+        "dev_team": "hzy3774",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个 Android 压缩和提取库，P7Zip 的 Android 移植。",
+        "source_link": "https://github.com/hzy3774/AndroidP7zip"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndroidP7zip",
+        "dev_team": "hzy3774",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "An Android compress and extract library, P7Zip port for Android.",
+        "source_link": "https://github.com/hzy3774/AndroidP7zip"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1098,
+      "type": 0,
+      "name": "libp7zip.so",
+      "mode": "exact",
+      "priority": 1098,
+      "label": "AndroidP7zip",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libp7zip.so.json",
+      "examples": {
+        "positive": [
+          "libp7zip.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

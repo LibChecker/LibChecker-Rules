@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6CC4D7E2-85A3-4D62-906E-365951864254",
+  "iconId": "ic_lib_google_ml_kit",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ML Kit",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46",
+          "WOLFRAZOR"
+        ],
+        "description": "ML Kit 以功能强大且易于使用的软件包将 Google 的机器学习专业知识带给移动开发人员。使用经过优化可在设备上运行的解决方案，让您的 iOS 和 Android 应用程序更具吸引力、个性化和有用。",
+        "source_link": "https://developers.google.com/ml-kit"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ML Kit",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46",
+          "WOLFRAZOR"
+        ],
+        "description": "ML Kit brings Google's machine learning expertise to mobile developers with powerful and easy-to-use packages. Use optimized solutions to run on-device, making your iOS and Android apps more engaging, personalized, and useful.",
+        "source_link": "https://developers.google.com/ml-kit"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 783,
+      "type": 4,
+      "name": "com.google.mlkit.common.internal.MlKitInitProvider",
+      "mode": "exact",
+      "priority": 783,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/google/mlkit/common/internal/MlKitInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.google.mlkit.common.internal.MlKitInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 784,
+      "type": 1,
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "mode": "exact",
+      "priority": 784,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/mlkit/common/internal/MlKitComponentDiscoveryService.json",
+      "examples": {
+        "positive": [
+          "com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1563,
+      "type": 0,
+      "name": "libface_detector_v2_jni.so",
+      "mode": "exact",
+      "priority": 1563,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libface_detector_v2_jni.so.json",
+      "examples": {
+        "positive": [
+          "libface_detector_v2_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2037,
+      "type": 0,
+      "name": "libmlkit_google_ocr_pipeline.so",
+      "mode": "exact",
+      "priority": 2037,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmlkit_google_ocr_pipeline.so.json",
+      "examples": {
+        "positive": [
+          "libmlkit_google_ocr_pipeline.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2192,
+      "type": 2,
+      "name": "com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity",
+      "mode": "exact",
+      "priority": 2192,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/mlkit/vision/codescanner/internal/GmsBarcodeScanningDelegateActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2230,
+      "type": 0,
+      "name": "libmlkitcommonpipeline.so",
+      "mode": "exact",
+      "priority": 2230,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmlkitcommonpipeline.so.json",
+      "examples": {
+        "positive": [
+          "libmlkitcommonpipeline.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2545,
+      "type": 0,
+      "name": "liblanguage_id_l2c_jni.so",
+      "mode": "exact",
+      "priority": 2545,
+      "label": "ML Kit",
+      "iconId": "ic_lib_google_ml_kit",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblanguage_id_l2c_jni.so.json",
+      "examples": {
+        "positive": [
+          "liblanguage_id_l2c_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7B41A761-76E2-4C6E-B107-6F0DF0C9505A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "uCrop",
+        "dev_team": "Yalantis",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Android 图片裁剪库。",
+        "source_link": "https://github.com/Yalantis/uCrop/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "uCrop",
+        "dev_team": "Yalantis",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Android image cropping library.",
+        "source_link": "https://github.com/Yalantis/uCrop/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 70,
+      "type": 0,
+      "name": "libucrop.so",
+      "mode": "exact",
+      "priority": 70,
+      "label": "uCrop",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libucrop.so.json",
+      "examples": {
+        "positive": [
+          "libucrop.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 349,
+      "type": 2,
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "mode": "exact",
+      "priority": 349,
+      "label": "uCrop",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/yalantis/ucrop/UCropActivity.json",
+      "examples": {
+        "positive": [
+          "com.yalantis.ucrop.UCropActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 365,
+      "type": 2,
+      "name": "com.yalantis.ucrop.PictureMultiCuttingActivity",
+      "mode": "exact",
+      "priority": 365,
+      "label": "uCrop",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/yalantis/ucrop/PictureMultiCuttingActivity.json",
+      "examples": {
+        "positive": [
+          "com.yalantis.ucrop.PictureMultiCuttingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1800,
+      "type": 2,
+      "name": "com.yalantis.ucrop.custom.CustomCircleUCropActivity",
+      "mode": "exact",
+      "priority": 1800,
+      "label": "uCrop",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/yalantis/ucrop/custom/CustomCircleUCropActivity.json",
+      "examples": {
+        "positive": [
+          "com.yalantis.ucrop.custom.CustomCircleUCropActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2414,
+      "type": 2,
+      "name": "com.yalantis.ucrop.UCropMultipleActivity",
+      "mode": "exact",
+      "priority": 2414,
+      "label": "uCrop",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/yalantis/ucrop/UCropMultipleActivity.json",
+      "examples": {
+        "positive": [
+          "com.yalantis.ucrop.UCropMultipleActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

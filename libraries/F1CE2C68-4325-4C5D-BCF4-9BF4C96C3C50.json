@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F1CE2C68-4325-4C5D-BCF4-9BF4C96C3C50",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "cJSON",
+        "dev_team": "cJSON",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "ANSI C 中的超轻量级 JSON 解析器。",
+        "source_link": "https://github.com/DaveGamble/cJSON"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "cJSON",
+        "dev_team": "cJSON",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Ultralightweight JSON parser in ANSI C.",
+        "source_link": "https://github.com/DaveGamble/cJSON"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1125,
+      "type": 0,
+      "name": "libcjson.so",
+      "mode": "exact",
+      "priority": 1125,
+      "label": "cJSON",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcjson.so.json",
+      "examples": {
+        "positive": [
+          "libcjson.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

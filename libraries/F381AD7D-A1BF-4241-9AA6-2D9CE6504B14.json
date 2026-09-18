@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F381AD7D-A1BF-4241-9AA6-2D9CE6504B14",
+  "iconId": "ic_lib_kuaishou",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "快手开放平台",
+        "dev_team": "快手",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "致力于将快手在短视频和直播领域积累的技术能力与资源开放给广大开发者们，以合作互惠的方式共建快手生态。",
+        "source_link": "https://open.kuaishou.com/platform/openApi?menu=11"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Kuaishou Open Platform",
+        "dev_team": "快手",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Dedicated to opening up Kuaishou's accumulated technical capabilities and resources in the short video and live streaming fields to a wide range of developers, jointly building the Kuaishou ecosystem through mutually beneficial cooperation.",
+        "source_link": "https://open.kuaishou.com/platform/openApi?menu=11"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 944,
+      "type": 2,
+      "name": "com.kwai.auth.login.kwailogin.h5login.KwaiH5LoginActivity",
+      "mode": "exact",
+      "priority": 944,
+      "label": "快手开放平台",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kwai/auth/login/kwailogin/h5login/KwaiH5LoginActivity.json",
+      "examples": {
+        "positive": [
+          "com.kwai.auth.login.kwailogin.h5login.KwaiH5LoginActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 945,
+      "type": 2,
+      "name": "com.kwai.auth.login.kwailogin.applogin.RouteHandlerActivity",
+      "mode": "exact",
+      "priority": 945,
+      "label": "快手开放平台",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kwai/auth/login/kwailogin/applogin/RouteHandlerActivity.json",
+      "examples": {
+        "positive": [
+          "com.kwai.auth.login.kwailogin.applogin.RouteHandlerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 946,
+      "type": 2,
+      "name": "com.kwai.opensdk.sdk.openapi.KwaiHandlerActivity",
+      "mode": "exact",
+      "priority": 946,
+      "label": "快手开放平台",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kwai/opensdk/sdk/openapi/KwaiHandlerActivity.json",
+      "examples": {
+        "positive": [
+          "com.kwai.opensdk.sdk.openapi.KwaiHandlerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 947,
+      "type": 2,
+      "name": "com.kwai.opensdk.sdk.openapi.KwaiRouterActivity",
+      "mode": "exact",
+      "priority": 947,
+      "label": "快手开放平台",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kwai/opensdk/sdk/openapi/KwaiRouterActivity.json",
+      "examples": {
+        "positive": [
+          "com.kwai.opensdk.sdk.openapi.KwaiRouterActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 948,
+      "type": 2,
+      "name": "com.kwai.opensdk.sdk.LoadingActivity",
+      "mode": "exact",
+      "priority": 948,
+      "label": "快手开放平台",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/kwai/opensdk/sdk/LoadingActivity.json",
+      "examples": {
+        "positive": [
+          "com.kwai.opensdk.sdk.LoadingActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

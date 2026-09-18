@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "846E2C52-B510-5B6C-9E22-FEF872A178DC",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 548,
+      "type": 5,
+      "name": "androidx.localbroadcastmanager",
+      "mode": "exact",
+      "priority": 548,
+      "label": "Jetpack LocalBroadcastManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.localbroadcastmanager"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

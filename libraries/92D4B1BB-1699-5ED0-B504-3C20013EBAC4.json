@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "92D4B1BB-1699-5ED0-B504-3C20013EBAC4",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 538,
+      "type": 5,
+      "name": "androidx.exifinterface",
+      "mode": "exact",
+      "priority": 538,
+      "label": "Jetpack ExifInterface",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.exifinterface"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

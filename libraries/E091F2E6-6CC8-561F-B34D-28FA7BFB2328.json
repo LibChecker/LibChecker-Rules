@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E091F2E6-6CC8-561F-B34D-28FA7BFB2328",
+  "iconId": "ic_lib_tencent",
+  "data": [],
+  "matchers": [
+    {
+      "id": 544,
+      "type": 5,
+      "name": "com.tencent.tbs",
+      "mode": "exact",
+      "priority": 544,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.tbs"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

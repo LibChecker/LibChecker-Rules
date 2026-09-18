@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E73004E8-5448-4A28-B0E3-1ED8627CF246",
+  "iconId": "ic_lib_jetbrain_kmp",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Compose Multiplatform",
+        "dev_team": "JetBrains",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "为 Android、iOS、桌面和 Web 构建美观的共享 UI，并在每个平台上都呈现自然的体验。",
+        "source_link": "https://kotlinlang.org/compose-multiplatform/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Compose Multiplatform",
+        "dev_team": "JetBrains",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Build beautiful shared UIs for Android, iOS, desktop, and web that feel natural on every platform.",
+        "source_link": "https://kotlinlang.org/compose-multiplatform/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2860,
+      "type": 4,
+      "name": "org.jetbrains.compose.resources.AndroidContextProvider",
+      "mode": "exact",
+      "priority": 2860,
+      "label": "Compose Multiplatform",
+      "iconId": "ic_lib_jetbrain_kmp",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/org/jetbrains/compose/resources/AndroidContextProvider.json",
+      "examples": {
+        "positive": [
+          "org.jetbrains.compose.resources.AndroidContextProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

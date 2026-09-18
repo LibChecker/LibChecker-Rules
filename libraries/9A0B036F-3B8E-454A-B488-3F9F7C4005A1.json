@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9A0B036F-3B8E-454A-B488-3F9F7C4005A1",
+  "iconId": "ic_lib_360",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "360 加固",
+        "dev_team": "360",
+        "rule_contributors": [
+          "Absinthe",
+          "qhy040404"
+        ],
+        "description": "360 加固保是基于 360 核心加密技术，给安卓应用进行深度加密、加壳保护的安全技术产品，可保护应用远离恶意破解、反编译、二次打包，内存抓取等威胁。",
+        "source_link": "https://jiagu.360.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "360 Reinforcement",
+        "dev_team": "360",
+        "rule_contributors": [
+          "Absinthe",
+          "qhy040404"
+        ],
+        "description": "360 Reinforcement is a security technology product based on 360 core encryption technology, providing deep encryption and shell protection for Android applications, protecting applications from malicious cracking, decompilation, repackaging, memory capture, and other threats.",
+        "source_link": "https://jiagu.360.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 116,
+      "type": 0,
+      "name": "libjiagu.so",
+      "mode": "exact",
+      "priority": 116,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjiagu.so.json",
+      "examples": {
+        "positive": [
+          "libjiagu.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 720,
+      "type": 0,
+      "name": "libjiagu_a64.so",
+      "mode": "exact",
+      "priority": 720,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjiagu_a64.so.json",
+      "examples": {
+        "positive": [
+          "libjiagu_a64.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 721,
+      "type": 0,
+      "name": "libjiagu_x64.so",
+      "mode": "exact",
+      "priority": 721,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjiagu_x64.so.json",
+      "examples": {
+        "positive": [
+          "libjiagu_x64.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 722,
+      "type": 0,
+      "name": "libjiagu_x86.so",
+      "mode": "exact",
+      "priority": 722,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjiagu_x86.so.json",
+      "examples": {
+        "positive": [
+          "libjiagu_x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 882,
+      "type": 0,
+      "name": "libX86Bridge.so",
+      "mode": "exact",
+      "priority": 882,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libX86Bridge.so.json",
+      "examples": {
+        "positive": [
+          "libX86Bridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1467,
+      "type": 0,
+      "name": "libjiagu_vip.so",
+      "mode": "exact",
+      "priority": 1467,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjiagu_vip.so.json",
+      "examples": {
+        "positive": [
+          "libjiagu_vip.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1468,
+      "type": 0,
+      "name": "libjiagu_vip_x64.so",
+      "mode": "exact",
+      "priority": 1468,
+      "label": "360 加固",
+      "iconId": "ic_lib_360",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjiagu_vip_x64.so.json",
+      "examples": {
+        "positive": [
+          "libjiagu_vip_x64.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

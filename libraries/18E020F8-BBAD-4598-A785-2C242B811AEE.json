@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 5,
+  "uuid": "18E020F8-BBAD-4598-A785-2C242B811AEE",
+  "iconId": "ic_lib_kuaishou",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "KOOM",
+        "dev_team": "KwaiAppTeam",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "binx6"
+        ],
+        "description": "KOOM(Kwai OOM, Kill OOM)是快手性能优化团队在处理移动端 OOM 问题的过程中沉淀出的一套完整解决方案。",
+        "source_link": "https://github.com/KwaiAppTeam/KOOM"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "KOOM",
+        "dev_team": "KwaiAppTeam",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "binx6"
+        ],
+        "description": "KOOM (Kwai OOM, Kill OOM) is a complete solution developed by the Kuaishou performance optimization team in the process of handling mobile OOM issues.",
+        "source_link": "https://github.com/KwaiAppTeam/KOOM"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 754,
+      "type": 0,
+      "name": "libkoom-java.so",
+      "mode": "exact",
+      "priority": 754,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkoom-java.so.json",
+      "examples": {
+        "positive": [
+          "libkoom-java.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 755,
+      "type": 0,
+      "name": "libkwai-linker.so",
+      "mode": "exact",
+      "priority": 755,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkwai-linker.so.json",
+      "examples": {
+        "positive": [
+          "libkwai-linker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 756,
+      "type": 1,
+      "name": "com.kwai.koom.javaoom.analysis.HeapAnalyzeService",
+      "mode": "exact",
+      "priority": 756,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/kwai/koom/javaoom/analysis/HeapAnalyzeService.json",
+      "examples": {
+        "positive": [
+          "com.kwai.koom.javaoom.analysis.HeapAnalyzeService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1402,
+      "type": 0,
+      "name": "libkwai-android-base.so",
+      "mode": "exact",
+      "priority": 1402,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkwai-android-base.so.json",
+      "examples": {
+        "positive": [
+          "libkwai-android-base.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1429,
+      "type": 1,
+      "name": "com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService",
+      "mode": "exact",
+      "priority": 1429,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/kwai/koom/javaoom/monitor/analysis/HeapAnalysisService.json",
+      "examples": {
+        "positive": [
+          "com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1643,
+      "type": 0,
+      "name": "libkoom-fast-dump.so",
+      "mode": "exact",
+      "priority": 1643,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkoom-fast-dump.so.json",
+      "examples": {
+        "positive": [
+          "libkoom-fast-dump.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1644,
+      "type": 0,
+      "name": "libkoom-native.so",
+      "mode": "exact",
+      "priority": 1644,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkoom-native.so.json",
+      "examples": {
+        "positive": [
+          "libkoom-native.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1645,
+      "type": 0,
+      "name": "libkoom-strip-dump.so",
+      "mode": "exact",
+      "priority": 1645,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkoom-strip-dump.so.json",
+      "examples": {
+        "positive": [
+          "libkoom-strip-dump.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1646,
+      "type": 0,
+      "name": "libkoom-thread.so",
+      "mode": "exact",
+      "priority": 1646,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkoom-thread.so.json",
+      "examples": {
+        "positive": [
+          "libkoom-thread.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1647,
+      "type": 0,
+      "name": "libkwai-unwind.so",
+      "mode": "exact",
+      "priority": 1647,
+      "label": "KOOM",
+      "iconId": "ic_lib_kuaishou",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkwai-unwind.so.json",
+      "examples": {
+        "positive": [
+          "libkwai-unwind.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

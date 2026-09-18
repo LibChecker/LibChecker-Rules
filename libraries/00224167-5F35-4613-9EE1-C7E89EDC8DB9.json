@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "00224167-5F35-4613-9EE1-C7E89EDC8DB9",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Limbo",
+        "dev_team": "limboemu",
+        "rule_contributors": [
+          "emofalling"
+        ],
+        "description": "Limbo 是一个基于 QEMU 的 Android 模拟器，支持以下架构的仿真：x86/x86_64 ARM/ARM64 PowerPC/PowerPC64 Sparc。",
+        "source_link": "https://github.com/limboemu/limbo"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Limbo",
+        "dev_team": "limboemu",
+        "rule_contributors": [
+          "emofalling"
+        ],
+        "description": "Limbo is a QEMU-based emulator for Android supports emulation for these architectures: x86/x86_64 ARM/ARM64 PowerPC/PowerPC64 Sparc",
+        "source_link": "https://github.com/limboemu/limbo"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2535,
+      "type": 0,
+      "name": "libcompat-limbo.so",
+      "mode": "exact",
+      "priority": 2535,
+      "label": "Limbo",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcompat-limbo.so.json",
+      "examples": {
+        "positive": [
+          "libcompat-limbo.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2546,
+      "type": 0,
+      "name": "liblimbo.so",
+      "mode": "exact",
+      "priority": 2546,
+      "label": "Limbo",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblimbo.so.json",
+      "examples": {
+        "positive": [
+          "liblimbo.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

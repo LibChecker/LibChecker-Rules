@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E0C8FE87-E520-4AB5-BA6D-AD6BB65E529E",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HMS Core",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "HMS Core 是华为终端云服务提供的端、云开放能力的合集，助您高效构建精品应用。",
+        "source_link": "https://developer.huawei.com/consumer/cn/hms/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HMS Core",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "HMS Core is a collection of terminal and cloud open capabilities provided by Huawei Terminal Cloud Services, helping you efficiently build quality applications.",
+        "source_link": "https://developer.huawei.com/consumer/cn/hms/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 308,
+      "type": 2,
+      "name": "com.huawei.hms.activity.EnableServiceActivity",
+      "mode": "exact",
+      "priority": 308,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/hms/activity/EnableServiceActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.activity.EnableServiceActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 315,
+      "type": 2,
+      "name": "com.huawei.android.hms.agent.hwid.HMSSignInAgentActivity",
+      "mode": "exact",
+      "priority": 315,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/android/hms/agent/hwid/HMSSignInAgentActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.hms.agent.hwid.HMSSignInAgentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 355,
+      "type": 2,
+      "name": "com.huawei.android.hms.agent.common.HMSAgentActivity",
+      "mode": "exact",
+      "priority": 355,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/android/hms/agent/common/HMSAgentActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.hms.agent.common.HMSAgentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 357,
+      "type": 2,
+      "name": "com.huawei.android.hms.agent.pay.HMSPayAgentActivity",
+      "mode": "exact",
+      "priority": 357,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/android/hms/agent/pay/HMSPayAgentActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.hms.agent.pay.HMSPayAgentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 361,
+      "type": 2,
+      "name": "com.huawei.hms.activity.BridgeActivity",
+      "mode": "exact",
+      "priority": 361,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/hms/activity/BridgeActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.activity.BridgeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 888,
+      "type": 4,
+      "name": "com.huawei.hms.device.provider.CheckHmsProvider",
+      "mode": "exact",
+      "priority": 888,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/hms/device/provider/CheckHmsProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.device.provider.CheckHmsProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2196,
+      "type": 2,
+      "name": "com.huawei.android.hms.agent.pay.HMSPMSPayAgentActivity",
+      "mode": "exact",
+      "priority": 2196,
+      "label": "HMS Core",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/android/hms/agent/pay/HMSPMSPayAgentActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.hms.agent.pay.HMSPMSPayAgentActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

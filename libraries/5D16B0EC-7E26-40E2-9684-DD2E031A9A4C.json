@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5D16B0EC-7E26-40E2-9684-DD2E031A9A4C",
+  "iconId": "ic_lib_lame",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Lame-For-Unity",
+        "dev_team": "3wz",
+        "rule_contributors": [
+          "WOLFRAZOR",
+          "sebastien46"
+        ],
+        "description": "适用于 Unity3D 把声音 Wav 转换为 MP3，用于录音时压缩语音上传等功能。",
+        "source_link": "https://github.com/3wz/Lame-For-Unity"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Lame-For-Unity",
+        "dev_team": "3wz",
+        "rule_contributors": [
+          "WOLFRAZOR",
+          "sebastien46"
+        ],
+        "description": "For Unity3D, converts Wav audio to MP3, used for compressing voice recordings for upload, etc.",
+        "source_link": "https://github.com/3wz/Lame-For-Unity"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2121,
+      "type": 0,
+      "name": "liblamemp3.so",
+      "mode": "exact",
+      "priority": 2121,
+      "label": "Lame-For-Unity",
+      "iconId": "ic_lib_lame",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblamemp3.so.json",
+      "examples": {
+        "positive": [
+          "liblamemp3.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

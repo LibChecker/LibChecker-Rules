@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1C61F52E-367F-4C70-A043-7C12249B1907",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HUAWEI Push",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "这是一个适用于华为推送的服务类。",
+        "source_link": ""
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HUAWEI Push",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "This is a service class for HUAWEI Push",
+        "source_link": ""
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2336,
+      "type": 9,
+      "name": "com.huawei.android.push.intent.RECEIVE",
+      "mode": "exact",
+      "priority": 2336,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.android.push.intent.RECEIVE.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.push.intent.RECEIVE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2337,
+      "type": 9,
+      "name": "com.huawei.android.push.intent.REGISTER",
+      "mode": "exact",
+      "priority": 2337,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.android.push.intent.REGISTER.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.push.intent.REGISTER"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2338,
+      "type": 9,
+      "name": "com.huawei.android.push.intent.REGISTRATION",
+      "mode": "exact",
+      "priority": 2338,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.android.push.intent.REGISTRATION.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.push.intent.REGISTRATION"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2339,
+      "type": 9,
+      "name": "com.huawei.intent.action.PUSH",
+      "mode": "exact",
+      "priority": 2339,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.intent.action.PUSH.json",
+      "examples": {
+        "positive": [
+          "com.huawei.intent.action.PUSH"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2340,
+      "type": 9,
+      "name": "com.huawei.intent.action.PUSH_DELAY_NOTIFY",
+      "mode": "exact",
+      "priority": 2340,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.intent.action.PUSH_DELAY_NOTIFY.json",
+      "examples": {
+        "positive": [
+          "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2341,
+      "type": 9,
+      "name": "com.huawei.push.msg.NOTIFY_MSG",
+      "mode": "exact",
+      "priority": 2341,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.push.msg.NOTIFY_MSG.json",
+      "examples": {
+        "positive": [
+          "com.huawei.push.msg.NOTIFY_MSG"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2342,
+      "type": 9,
+      "name": "com.huawei.push.msg.PASSBY_MSG",
+      "mode": "exact",
+      "priority": 2342,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.huawei.push.msg.PASSBY_MSG.json",
+      "examples": {
+        "positive": [
+          "com.huawei.push.msg.PASSBY_MSG"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "actions-libs/com.huawei.push.action.MESSAGING_EVENT.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "HUAWEI Push",
+              "dev_team": "Absinthe",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "这是一个适用于华为推送的服务类。",
+              "source_link": ""
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "HUAWEI Push",
+              "dev_team": "Absinthe",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "This is a service class for HUAWEI Push",
+              "source_link": ""
+            }
+          }
+        ],
+        "uuid": "1C61F52E-367F-4C70-A043-7C12249B1907"
+      }
+    }
+  ]
+}

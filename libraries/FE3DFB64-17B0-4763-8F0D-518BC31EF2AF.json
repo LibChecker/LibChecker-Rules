@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FE3DFB64-17B0-4763-8F0D-518BC31EF2AF",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BoringSSL",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "BoringSSL 是 Google 在 OpenSSL 基础上派生出的一个原生库，在很多 Google 产品（最值得注意的是 Google Chrome）中和 Conscrypt 代码（Java 代码和原生代码）一起用于加密和传输层安全协议 (TLS)。BoringSSL 没有正式版本（所有用户都需要从头构建），并且无法保证 API 或 ABI 的稳定性。",
+        "source_link": "https://boringssl.googlesource.com/boringssl/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BoringSSL",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "BoringSSL is a native library derived by Google from OpenSSL, used alongside Conscrypt code (Java code and native code) in many Google products (most notably Google Chrome) for encryption and transport layer security protocols (TLS). BoringSSL does not have official releases (all users need to build from scratch) and does not guarantee API or ABI stability.",
+        "source_link": "https://boringssl.googlesource.com/boringssl/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1212,
+      "type": 0,
+      "name": "libttboringssl.so",
+      "mode": "exact",
+      "priority": 1212,
+      "label": "BoringSSL",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libttboringssl.so.json",
+      "examples": {
+        "positive": [
+          "libttboringssl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

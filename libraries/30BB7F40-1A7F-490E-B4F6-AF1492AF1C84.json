@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "30BB7F40-1A7F-490E-B4F6-AF1492AF1C84",
+  "iconId": "ic_lib_singbox",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "sing-box",
+        "dev_team": "SagerNet",
+        "rule_contributors": [
+          "mochenya"
+        ],
+        "description": "通用代理平台。",
+        "source_link": "https://github.com/SagerNet/sing-box"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "sing-box",
+        "dev_team": "SagerNet",
+        "rule_contributors": [
+          "mochenya"
+        ],
+        "description": "The universal proxy platform.",
+        "source_link": "https://github.com/SagerNet/sing-box"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1831,
+      "type": 0,
+      "name": "libbox.so",
+      "mode": "exact",
+      "priority": 1831,
+      "label": "sing-box",
+      "iconId": "ic_lib_singbox",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbox.so.json",
+      "examples": {
+        "positive": [
+          "libbox.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

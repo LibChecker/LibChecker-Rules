@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B00768EA-303C-41C8-8F9B-D5D5945B7A77",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "rlottie",
+        "dev_team": "Samsung",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "rlottie是一个独立于平台的C++库，用于实时渲染基于矢量的动画和艺术作品。",
+        "source_link": "https://github.com/Samsung/rlottie"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "rlottie",
+        "dev_team": "Samsung",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "rlottie is a platform independent standalone C++ library for rendering vector based animations and art in realtime.",
+        "source_link": "https://github.com/Samsung/rlottie"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1865,
+      "type": 0,
+      "name": "librlottie-image-loader.so",
+      "mode": "exact",
+      "priority": 1865,
+      "label": "rlottie",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librlottie-image-loader.so.json",
+      "examples": {
+        "positive": [
+          "librlottie-image-loader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1866,
+      "type": 0,
+      "name": "librlottie.so",
+      "mode": "exact",
+      "priority": 1866,
+      "label": "rlottie",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librlottie.so.json",
+      "examples": {
+        "positive": [
+          "librlottie.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

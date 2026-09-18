@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E06CDDCC-35CA-55C1-8C77-BFF7D2D63183",
+  "iconId": "ic_lib_netease",
+  "data": [],
+  "matchers": [
+    {
+      "id": 766,
+      "type": 0,
+      "name": "libbugrpt.so",
+      "mode": "exact",
+      "priority": 766,
+      "label": "网易云捕",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libbugrpt.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

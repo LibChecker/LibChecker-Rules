@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5C60DF6E-5E9D-4BA3-A6AE-4A3ED4EBE63C",
+  "iconId": "ic_lib_ironsource",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "IronSource",
+        "dev_team": "ironSource Mobile",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "使用 ironSource 将您的应用程序转变为业务。通过一个强大的平台最大化您的广告收入，扩大用户基础并优化您的货币化策略。",
+        "source_link": "https://github.com/ironsource-mobile/android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "IronSource",
+        "dev_team": "ironSource Mobile",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Turn your app into a business with ironSource. Maximize your ad revenue, grow your user base and optimize your monetization strategy, all from one powerful platform.",
+        "source_link": "https://github.com/ironsource-mobile/android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1907,
+      "type": 4,
+      "name": "com.ironsource.lifecycle.IronsourceLifecycleProvider",
+      "mode": "exact",
+      "priority": 1907,
+      "label": "IronSource",
+      "iconId": "ic_lib_ironsource",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/ironsource/lifecycle/IronsourceLifecycleProvider.json",
+      "examples": {
+        "positive": [
+          "com.ironsource.lifecycle.IronsourceLifecycleProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1972,
+      "type": 2,
+      "name": "com.ironsource.mediationsdk.testSuite.TestSuiteActivity",
+      "mode": "exact",
+      "priority": 1972,
+      "label": "IronSource",
+      "iconId": "ic_lib_ironsource",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ironsource/mediationsdk/testSuite/TestSuiteActivity.json",
+      "examples": {
+        "positive": [
+          "com.ironsource.mediationsdk.testSuite.TestSuiteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1973,
+      "type": 2,
+      "name": "com.ironsource.sdk.controller.ControllerActivity",
+      "mode": "exact",
+      "priority": 1973,
+      "label": "IronSource",
+      "iconId": "ic_lib_ironsource",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ironsource/sdk/controller/ControllerActivity.json",
+      "examples": {
+        "positive": [
+          "com.ironsource.sdk.controller.ControllerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1974,
+      "type": 2,
+      "name": "com.ironsource.sdk.controller.OpenUrlActivity",
+      "mode": "exact",
+      "priority": 1974,
+      "label": "IronSource",
+      "iconId": "ic_lib_ironsource",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ironsource/sdk/controller/OpenUrlActivity.json",
+      "examples": {
+        "positive": [
+          "com.ironsource.sdk.controller.OpenUrlActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1975,
+      "type": 2,
+      "name": "com.ironsource.sdk.controller.InterstitialActivity",
+      "mode": "exact",
+      "priority": 1975,
+      "label": "IronSource",
+      "iconId": "ic_lib_ironsource",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ironsource/sdk/controller/InterstitialActivity.json",
+      "examples": {
+        "positive": [
+          "com.ironsource.sdk.controller.InterstitialActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

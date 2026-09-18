@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "44BE672B-2DBC-49ED-984C-A4091E9BCE05",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Share",
+        "dev_team": "React Native Community",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native Share 是一个用于与其他应用分享消息和文件的简单工具。",
+        "source_link": "https://github.com/react-native-share/react-native-share"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Share",
+        "dev_team": "React Native Community",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native Share, is a simple tool for sharing messages and files with other apps.",
+        "source_link": "https://github.com/react-native-share/react-native-share"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2847,
+      "type": 4,
+      "name": "cl.json.RNShareFileProvider",
+      "mode": "exact",
+      "priority": 2847,
+      "label": "React Native Share",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cl/json/RNShareFileProvider.json",
+      "examples": {
+        "positive": [
+          "cl.json.RNShareFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

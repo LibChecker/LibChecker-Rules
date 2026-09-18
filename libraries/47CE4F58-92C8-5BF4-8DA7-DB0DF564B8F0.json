@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "47CE4F58-92C8-5BF4-8DA7-DB0DF564B8F0",
+  "iconId": "ic_lib_xiaomi",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2463,
+      "type": 6,
+      "name": "com.xiaomi.mipush.RECEIVE_MESSAGE",
+      "mode": "exact",
+      "priority": 2463,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

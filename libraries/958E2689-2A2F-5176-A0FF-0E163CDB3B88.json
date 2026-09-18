@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "958E2689-2A2F-5176-A0FF-0E163CDB3B88",
+  "iconId": "ic_lib_kotlin",
+  "data": [],
+  "matchers": [
+    {
+      "id": 551,
+      "type": 5,
+      "name": "kotlinx\\.coroutines\\.(.*)",
+      "mode": "regex",
+      "priority": 551,
+      "label": "Kotlin Coroutines",
+      "iconId": "ic_lib_kotlin",
+      "regexName": "regex_kotlin_coroutines",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

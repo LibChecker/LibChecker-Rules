@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "90BE8F04-7A27-49A5-A080-EBF046E0BB2B",
+  "iconId": "ic_lib_xunfei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AIUI",
+        "dev_team": "iFlyTek",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "AIUI 为开发者提供了多种集成方式，帮助开发者开发出多样化的语音交互应用。",
+        "source_link": "https://doc.iflyos.cn/aiui/sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AIUI",
+        "dev_team": "iFlyTek",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "AIUI provides developers with various integration methods to help them develop diverse voice interaction applications.",
+        "source_link": "https://doc.iflyos.cn/aiui/sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1270,
+      "type": 0,
+      "name": "libaiui.so",
+      "mode": "exact",
+      "priority": 1270,
+      "label": "AIUI",
+      "iconId": "ic_lib_xunfei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaiui.so.json",
+      "examples": {
+        "positive": [
+          "libaiui.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

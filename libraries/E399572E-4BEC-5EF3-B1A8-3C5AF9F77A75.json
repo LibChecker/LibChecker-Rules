@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E399572E-4BEC-5EF3-B1A8-3C5AF9F77A75",
+  "iconId": "ic_lib_square",
+  "data": [],
+  "matchers": [
+    {
+      "id": 554,
+      "type": 5,
+      "name": "retrofit2\\.(.*)",
+      "mode": "regex",
+      "priority": 554,
+      "label": "Retrofit2",
+      "iconId": "ic_lib_square",
+      "regexName": "regex_retrofit2",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

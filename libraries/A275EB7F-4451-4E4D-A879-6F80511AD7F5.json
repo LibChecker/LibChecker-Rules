@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A275EB7F-4451-4E4D-A879-6F80511AD7F5",
+  "iconId": "ic_lib_meta",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Audience Network",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "通过 Facebook 广告使您通过移动媒体资源获利",
+        "source_link": "https://developers.facebook.com/products/audience-network/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Audience Network",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Monetize your mobile media resources through Facebook ads.",
+        "source_link": "https://developers.facebook.com/products/audience-network/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 442,
+      "type": 4,
+      "name": "com.facebook.ads.AudienceNetworkContentProvider",
+      "mode": "exact",
+      "priority": 442,
+      "label": "Audience Network",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/facebook/ads/AudienceNetworkContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.facebook.ads.AudienceNetworkContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A1290180-8606-58F2-A85A-B1EC3D81C34A",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 539,
+      "type": 5,
+      "name": "androidx.core",
+      "mode": "exact",
+      "priority": 539,
+      "label": "Jetpack Core",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.core"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

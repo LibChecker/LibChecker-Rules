@@ -3,6 +3,7 @@ import importlib.util
 from pathlib import Path
 
 import validate
+import build_indexes
 
 
 SDKS_DIR = Path(__file__).resolve().parents[1] / "sdks"
@@ -43,6 +44,7 @@ def main():
         for provider in providers.values():
             provider.validate()
         validate.check_catalog()
+        build_indexes.build(check=True)
         return
 
     selected = providers
@@ -59,6 +61,7 @@ def main():
         provider.update()
         provider.validate()
     validate.check_catalog()
+    build_indexes.build()
 
 
 if __name__ == "__main__":

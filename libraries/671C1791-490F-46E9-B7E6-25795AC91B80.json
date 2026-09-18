@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "671C1791-490F-46E9-B7E6-25795AC91B80",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Un7zip",
+        "dev_team": "hzy3774",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "A simple library with lzma sdk for 7z extraction.(使用 LZMA SDK 解压 7z 压缩包)",
+        "source_link": "https://github.com/hzy3774/AndroidUn7zip"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Un7zip",
+        "dev_team": "hzy3774",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "A simple library with lzma sdk for 7z extraction. (Using LZMA SDK to extract 7z archives)",
+        "source_link": "https://github.com/hzy3774/AndroidUn7zip"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1301,
+      "type": 0,
+      "name": "libun7zip.so",
+      "mode": "exact",
+      "priority": 1301,
+      "label": "Un7zip",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libun7zip.so.json",
+      "examples": {
+        "positive": [
+          "libun7zip.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "14B29CAB-B568-4B14-8D90-831D54776B25",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libp2p",
+        "dev_team": "Protocol Labs",
+        "rule_contributors": [
+          "CreationWong"
+        ],
+        "description": "libp2p 是一个从 IPFS 项目中模块化出来的网络堆栈和库，并单独捆绑起来供其他工具使用的库。",
+        "source_link": "https://github.com/libp2p/libp2p"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libp2p",
+        "dev_team": "Protocol Labs",
+        "rule_contributors": [
+          "CreationWong"
+        ],
+        "description": "libp2p is a network stack and library modularized from the IPFS project and bundled separately for use by other tools.",
+        "source_link": "https://github.com/libp2p/libp2p"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1169,
+      "type": 0,
+      "name": "libxp2p.so",
+      "mode": "exact",
+      "priority": 1169,
+      "label": "libp2p",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxp2p.so.json",
+      "examples": {
+        "positive": [
+          "libxp2p.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

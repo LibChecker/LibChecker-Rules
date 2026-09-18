@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9DA11233-CD6B-4F63-9ABD-BA84A77749C8",
+  "iconId": "ic_lib_amap",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "高德 SDK",
+        "dev_team": "高德",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "高德地图 Android SDK 是一套地图开发调用接口，开发者可以轻松地在自己的 Android 应用中加入地图相关的功能，包括：地图显示（含室内、室外地图）、与地图交互、在地图上绘制、兴趣点搜索、地理编码、离线地图等功能。",
+        "source_link": "https://lbs.amap.com/api/android-sdk/summary/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Amap SDK",
+        "dev_team": "高德",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Amap Android SDK is a set of map development interface that allows developers to easily integrate map-related functions into their Android applications, including map display (indoor and outdoor maps), map interaction, drawing on the map, point of interest search, geocoding, offline maps, and more.",
+        "source_link": "https://lbs.amap.com/api/android-sdk/summary/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 62,
+      "type": 0,
+      "name": "libapssdk.so",
+      "mode": "exact",
+      "priority": 62,
+      "label": "高德 SDK",
+      "iconId": "ic_lib_amap",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapssdk.so.json",
+      "examples": {
+        "positive": [
+          "libapssdk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B0F28E7E-F328-47CF-8AF4-641766D944AE",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "金融级实人认证 SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "金融级实人认证服务搭载真人检测和人脸比对等生物识别技术，配合权威数据源验证，可快速校验自然人的真实身份。",
+        "source_link": "https://help.aliyun.com/document_detail/160542.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Financial-grade Real-person Authentication SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "Financial-grade real-person authentication service equipped with biometric technologies such as live detection and face comparison, combined with authoritative data source verification, can quickly verify the true identity of natural persons.",
+        "source_link": "https://help.aliyun.com/document_detail/160542.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1375,
+      "type": 0,
+      "name": "libtoyger.so",
+      "mode": "exact",
+      "priority": 1375,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtoyger.so.json",
+      "examples": {
+        "positive": [
+          "libtoyger.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1760,
+      "type": 0,
+      "name": "libaliyunaf.so",
+      "mode": "exact",
+      "priority": 1760,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaliyunaf.so.json",
+      "examples": {
+        "positive": [
+          "libaliyunaf.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1761,
+      "type": 0,
+      "name": "libzkfv_tj.so",
+      "mode": "exact",
+      "priority": 1761,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzkfv_tj.so.json",
+      "examples": {
+        "positive": [
+          "libzkfv_tj.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1763,
+      "type": 0,
+      "name": "libsecuritydevice.so",
+      "mode": "exact",
+      "priority": 1763,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsecuritydevice.so.json",
+      "examples": {
+        "positive": [
+          "libsecuritydevice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1764,
+      "type": 0,
+      "name": "libAPSE_(.*)\\.so",
+      "mode": "regex",
+      "priority": 1764,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": "regex_ali_id_verify",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_id_verify.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2068,
+      "type": 0,
+      "name": "libtoyger_doc.so",
+      "mode": "exact",
+      "priority": 2068,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtoyger_doc.so.json",
+      "examples": {
+        "positive": [
+          "libtoyger_doc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2092,
+      "type": 0,
+      "name": "lbtoyger-release-alijtca_plus.so",
+      "mode": "exact",
+      "priority": 2092,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/lbtoyger-release-alijtca_plus.so.json",
+      "examples": {
+        "positive": [
+          "lbtoyger-release-alijtca_plus.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2113,
+      "type": 0,
+      "name": "libfacedevice.so",
+      "mode": "exact",
+      "priority": 2113,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfacedevice.so.json",
+      "examples": {
+        "positive": [
+          "libfacedevice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2402,
+      "type": 2,
+      "name": "com.dtf.face.ui.LandFaceLoadingActivity",
+      "mode": "exact",
+      "priority": 2402,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/dtf/face/ui/LandFaceLoadingActivity.json",
+      "examples": {
+        "positive": [
+          "com.dtf.face.ui.LandFaceLoadingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2403,
+      "type": 2,
+      "name": "com.dtf.face.ui.PortFaceLoadingActivity",
+      "mode": "exact",
+      "priority": 2403,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/dtf/face/ui/PortFaceLoadingActivity.json",
+      "examples": {
+        "positive": [
+          "com.dtf.face.ui.PortFaceLoadingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2404,
+      "type": 2,
+      "name": "com.dtf.face.ui.ToygerLandActivity",
+      "mode": "exact",
+      "priority": 2404,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/dtf/face/ui/ToygerLandActivity.json",
+      "examples": {
+        "positive": [
+          "com.dtf.face.ui.ToygerLandActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2405,
+      "type": 2,
+      "name": "com.dtf.face.ui.ToygerPortActivity",
+      "mode": "exact",
+      "priority": 2405,
+      "label": "金融级实人认证 SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/dtf/face/ui/ToygerPortActivity.json",
+      "examples": {
+        "positive": [
+          "com.dtf.face.ui.ToygerPortActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

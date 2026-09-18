@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "63BC7C87-1386-4F3B-ADC7-12C2B6E5218A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Ren'Py",
+        "dev_team": "renpy.org",
+        "rule_contributors": [
+          "huangguiniab"
+        ],
+        "description": "Ren'Py 是一种视觉小说引擎，被来自世界各地数以千计的创作者们使用，可帮助您使用文字、图像和声音在计算机和移动设备上运行交互式故事。",
+        "source_link": "https://github.com/renpy/renpy"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Ren'Py",
+        "dev_team": "renpy.org",
+        "rule_contributors": [
+          "huangguiniab"
+        ],
+        "description": "Ren'Py is a visual novel engine used by thousands of creators around the world, helping you run interactive stories on computers and mobile devices using text, images, and sound.",
+        "source_link": "https://github.com/renpy/renpy"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 736,
+      "type": 0,
+      "name": "librenpython.so",
+      "mode": "exact",
+      "priority": 736,
+      "label": "Ren'Py",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librenpython.so.json",
+      "examples": {
+        "positive": [
+          "librenpython.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

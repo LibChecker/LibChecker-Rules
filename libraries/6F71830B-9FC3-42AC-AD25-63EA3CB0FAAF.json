@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6F71830B-9FC3-42AC-AD25-63EA3CB0FAAF",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mtop SDK",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Mtop 是稳定的高性能无线 RPC 网关，网关本身包含了一套安全体系，包括加密传输、防攻击、防刷、防篡改、过载保护等安全策略，同时针对无线网络的特点，在连通性、网络加速、流量方面进行了针对性优化。",
+        "source_link": "https://help.aliyun.com/document_detail/69785.html/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mtop SDK",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Mtop is a stable and high-performance wireless RPC gateway. The gateway itself includes a set of security systems, including encrypted transmission, anti-attack, anti-sweeping, anti-tampering, overload protection, etc. At the same time, it has been optimized for connectivity, network acceleration, and traffic based on the characteristics of wireless networks.",
+        "source_link": "https://help.aliyun.com/document_detail/69785.html/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 191,
+      "type": 1,
+      "name": "mtopsdk.xstate.XStateService",
+      "mode": "exact",
+      "priority": 191,
+      "label": "Mtop SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/mtopsdk/xstate/XStateService.json",
+      "examples": {
+        "positive": [
+          "mtopsdk.xstate.XStateService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 592,
+      "type": 2,
+      "name": "mtopsdk.extra.antiattack.CheckCodeValidateActivity",
+      "mode": "exact",
+      "priority": 592,
+      "label": "Mtop SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/mtopsdk/extra/antiattack/CheckCodeValidateActivity.json",
+      "examples": {
+        "positive": [
+          "mtopsdk.extra.antiattack.CheckCodeValidateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2377,
+      "type": 9,
+      "name": "mtopsdk.mtop.antiattack.checkcode.validate.activity_action",
+      "mode": "exact",
+      "priority": 2377,
+      "label": "Mtop SDK",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/mtopsdk.mtop.antiattack.checkcode.validate.activity_action.json",
+      "examples": {
+        "positive": [
+          "mtopsdk.mtop.antiattack.checkcode.validate.activity_action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2378,
+      "type": 9,
+      "name": "mtopsdk.xstate.aidl.IXState",
+      "mode": "exact",
+      "priority": 2378,
+      "label": "Mtop SDK",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/mtopsdk.xstate.aidl.IXState.json",
+      "examples": {
+        "positive": [
+          "mtopsdk.xstate.aidl.IXState"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

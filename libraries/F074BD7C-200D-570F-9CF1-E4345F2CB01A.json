@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F074BD7C-200D-570F-9CF1-E4345F2CB01A",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 496,
+      "type": 5,
+      "name": "androidx.slidingpanelayout",
+      "mode": "exact",
+      "priority": 496,
+      "label": "Jetpack SlidingPaneLayout",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.slidingpanelayout"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

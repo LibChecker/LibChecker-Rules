@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4B1BF101-0F4C-40BB-94CE-7CB875A2613B",
+  "iconId": "ic_lib_play_store",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Play Services",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "借助 Google Play 服务，你的应用可以使用 Google 提供的最新功能，例如地图和 Google+，并通过 Google Play 商店以 APK 形式分发自动平台更新。这可以让用户更快地获得更新，也能更轻松地集成 Google 提供的最新信息。",
+        "source_link": "https://developers.google.com/android/guides/overview/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Play Services",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "With Google Play services, your app can take advantage of the latest features provided by Google, such as maps and Google+, and distribute automatic platform updates via the Google Play store in APK form. This allows your users to receive updates more quickly and integrates the latest information Google has to offer more easily.",
+        "source_link": "https://developers.google.com/android/guides/overview/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 337,
+      "type": 2,
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "mode": "exact",
+      "priority": 337,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/common/api/GoogleApiActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.common.api.GoogleApiActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 569,
+      "type": 2,
+      "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+      "mode": "exact",
+      "priority": 569,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/play/core/common/PlayCoreDialogWrapperActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 570,
+      "type": 2,
+      "name": "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+      "mode": "exact",
+      "priority": 570,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/play/core/missingsplits/PlayCoreMissingSplitsActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 571,
+      "type": 1,
+      "name": "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService",
+      "mode": "exact",
+      "priority": 571,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/libraries/phenotype/registration/PhenotypeMetadataHolderService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 572,
+      "type": 3,
+      "name": "com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver",
+      "mode": "exact",
+      "priority": 572,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/libraries/phenotype/client/stable/AccountRemovedBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 573,
+      "type": 3,
+      "name": "com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver",
+      "mode": "exact",
+      "priority": 573,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/libraries/phenotype/client/stable/PhenotypeUpdateBackgroundBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2325,
+      "type": 9,
+      "name": "com.google.android.gms.phenotype.UPDATE",
+      "mode": "exact",
+      "priority": 2325,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.google.android.gms.phenotype.UPDATE.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.phenotype.UPDATE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2326,
+      "type": 9,
+      "name": "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService",
+      "mode": "exact",
+      "priority": 2326,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2698,
+      "type": 2,
+      "name": "com.google.android.gms.appinvite.PreviewActivity",
+      "mode": "exact",
+      "priority": 2698,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/appinvite/PreviewActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.appinvite.PreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2699,
+      "type": 2,
+      "name": "com.google.android.gms.gmscompliance.ui.UncertifiedDeviceActivity",
+      "mode": "exact",
+      "priority": 2699,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/gmscompliance/ui/UncertifiedDeviceActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.gmscompliance.ui.UncertifiedDeviceActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2899,
+      "type": 1,
+      "name": "com.google.android.gms.tapandpay.issuer.GeneratePaymentCredentialsService",
+      "mode": "exact",
+      "priority": 2899,
+      "label": "Google Play Services",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/tapandpay/issuer/GeneratePaymentCredentialsService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.tapandpay.issuer.GeneratePaymentCredentialsService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A1B20B90-5953-4D62-ABB9-98F4916B4E41",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "数美 SDK",
+        "dev_team": "数美",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "设备风险保护，基于先进的人工智能技术，通过高稳定高兼容设备指纹反欺诈 SDK，全路径布控和全栈式实时防御营销活动作弊、撞库盗号、渠道推广作弊、支付交易风险、内容盗爬、刷榜刷单、用户裂变等欺诈行为，护航客户营销 ROI 增长。",
+        "source_link": "https://help.ishumei.com/docs/tw/sdk/overview"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Shumei SDK",
+        "dev_team": "数美",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Device risk protection, based on advanced artificial intelligence technology, through a high-stability high-compatibility device fingerprint anti-fraud SDK, full-path control, and full-stack real-time defense against marketing activity fraud, credential stuffing, channel promotion fraud, payment transaction risk, content scraping, ranking manipulation, user fission, and other fraudulent behaviors, safeguarding customer marketing ROI growth.",
+        "source_link": "https://help.ishumei.com/docs/tw/sdk/overview"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 589,
+      "type": 0,
+      "name": "libsmsdk.so",
+      "mode": "exact",
+      "priority": 589,
+      "label": "数美 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsmsdk.so.json",
+      "examples": {
+        "positive": [
+          "libsmsdk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

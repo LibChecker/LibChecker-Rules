@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C6D9A638-F0E6-5FB7-B94B-FDEB8C73E10E",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 488,
+      "type": 5,
+      "name": "androidx.appcompat",
+      "mode": "exact",
+      "priority": 488,
+      "label": "Jetpack AppCompat",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.appcompat"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

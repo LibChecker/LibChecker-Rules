@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A87B7EE0-4805-49A5-8F15-13EAE9D57E9B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "flutter_avif",
+        "dev_team": "yekeskin",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "一个用于查看和编码 AVIF 格式图像的 Flutter 插件。",
+        "source_link": "https://github.com/yekeskin/flutter_avif"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "flutter_avif",
+        "dev_team": "yekeskin",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "A Flutter plugin for viewing and encoding images in AVIF format.",
+        "source_link": "https://github.com/yekeskin/flutter_avif"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2648,
+      "type": 0,
+      "name": "libflutter_avif.so",
+      "mode": "exact",
+      "priority": 2648,
+      "label": "flutter_avif",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libflutter_avif.so.json",
+      "examples": {
+        "positive": [
+          "libflutter_avif.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

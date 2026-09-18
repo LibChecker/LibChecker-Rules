@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C3B1C90C-7A7F-4938-86DB-5680932EDDE5",
+  "iconId": "ic_lib_oracle",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libdevinfo",
+        "dev_team": "Oracle",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "libdevinfo 库提供用于访问所有公共设备配置数据的接口。",
+        "source_link": "https://docs.oracle.com/cd/E36784_01/html/E36873/libdevinfo-3lib.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libdevinfo",
+        "dev_team": "Oracle",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "libdevinfo library provides interfaces for accessing all public device configuration data.",
+        "source_link": "https://docs.oracle.com/cd/E36784_01/html/E36873/libdevinfo-3lib.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1598,
+      "type": 0,
+      "name": "libdevinfo.so",
+      "mode": "exact",
+      "priority": 1598,
+      "label": "libdevinfo",
+      "iconId": "ic_lib_oracle",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdevinfo.so.json",
+      "examples": {
+        "positive": [
+          "libdevinfo.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

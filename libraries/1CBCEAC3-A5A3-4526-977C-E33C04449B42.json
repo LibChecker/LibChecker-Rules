@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1CBCEAC3-A5A3-4526-977C-E33C04449B42",
+  "iconId": "ic_lib_microsoft",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "onnxruntime",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "WOLFRAZOR",
+          "binx6"
+        ],
+        "description": "ONNX Runtime是一个跨平台的推理和训练机器学习加速器。",
+        "source_link": "https://github.com/microsoft/onnxruntime"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "onnxruntime",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "WOLFRAZOR",
+          "binx6"
+        ],
+        "description": "ONNX Runtime is a cross-platform inference and training machine-learning accelerator.",
+        "source_link": "https://github.com/microsoft/onnxruntime"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1859,
+      "type": 0,
+      "name": "libonnxruntime.so",
+      "mode": "exact",
+      "priority": 1859,
+      "label": "onnxruntime",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libonnxruntime.so.json",
+      "examples": {
+        "positive": [
+          "libonnxruntime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2238,
+      "type": 0,
+      "name": "libonnxruntime4j_jni.so",
+      "mode": "exact",
+      "priority": 2238,
+      "label": "onnxruntime",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libonnxruntime4j_jni.so.json",
+      "examples": {
+        "positive": [
+          "libonnxruntime4j_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "340BC3DF-C6B4-444C-B80B-0532C7AB8EB6",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MMKV",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "作为腾讯端服务（Tencent Device-oriented Service，简称 TDS）产品联盟的重要成员，MMKV 是由微信团队开发并已在 GitHub 上开源的高性能 KV 组件，提供跨平台、高并发、零延迟的本地存储解决方案。通过内存映射（mmap）与 Protobuf 序列化的深度优化，性能可达传统方案的 300 倍，完美适配高频数据读写、多进程协作等严苛场景。",
+        "source_link": "https://github.com/Tencent/MMKV"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MMKV",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "As an important member of the Tencent Device-oriented Service (TDS) product alliance, MMKV is a high-performance key-value component developed by the WeChat team and open-sourced on GitHub. It provides a cross-platform, high-concurrency, zero-latency local storage solution. Through deep optimization of memory mapping (mmap) and Protobuf serialization, its performance can reach up to 300 times that of traditional solutions, making it well suited for demanding scenarios such as high-frequency data reads and writes and multi-process collaboration.",
+        "source_link": "https://github.com/Tencent/MMKV"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 92,
+      "type": 0,
+      "name": "libmmkv.so",
+      "mode": "exact",
+      "priority": 92,
+      "label": "MMKV",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmmkv.so.json",
+      "examples": {
+        "positive": [
+          "libmmkv.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 973,
+      "type": 4,
+      "name": "com.tencent.mmkv.MMKVContentProvider",
+      "mode": "exact",
+      "priority": 973,
+      "label": "MMKV",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/mmkv/MMKVContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.mmkv.MMKVContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

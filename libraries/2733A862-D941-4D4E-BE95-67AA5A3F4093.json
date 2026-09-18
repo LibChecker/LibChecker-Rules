@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2733A862-D941-4D4E-BE95-67AA5A3F4093",
+  "iconId": "ic_lib_ffmpeg",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FFmpeg",
+        "dev_team": "FFmpeg",
+        "rule_contributors": [
+          "飘落的枫叶",
+          "Absinthe",
+          "lgc2333",
+          "Super12138",
+          "WOLFRAZOR",
+          "sebastien46",
+          "ArcticFoxPro"
+        ],
+        "description": "FFmpeg 是领先的多媒体框架，能够解码，编码，转码，MUX，DEMUX，流式，过滤和播放人类和机器创建的几乎所有内容。",
+        "source_link": "http://www.ffmpeg.org/libavcodec.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FFmpeg",
+        "dev_team": "FFmpeg",
+        "rule_contributors": [
+          "飘落的枫叶",
+          "Absinthe",
+          "lgc2333",
+          "Super12138",
+          "WOLFRAZOR",
+          "sebastien46",
+          "ArcticFoxPro"
+        ],
+        "description": "FFmpeg is a leading multimedia framework capable of decoding, encoding, transcoding, muxing, demuxing, streaming, filtering, and playing almost anything that humans and machines have created.",
+        "source_link": "http://www.ffmpeg.org/libavcodec.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 627,
+      "type": 0,
+      "name": "libavcodec.so",
+      "mode": "exact",
+      "priority": 627,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavcodec.so.json",
+      "examples": {
+        "positive": [
+          "libavcodec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 628,
+      "type": 0,
+      "name": "libavfilter.so",
+      "mode": "exact",
+      "priority": 628,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavfilter.so.json",
+      "examples": {
+        "positive": [
+          "libavfilter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 629,
+      "type": 0,
+      "name": "libavformat.so",
+      "mode": "exact",
+      "priority": 629,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavformat.so.json",
+      "examples": {
+        "positive": [
+          "libavformat.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 630,
+      "type": 0,
+      "name": "libavutil.so",
+      "mode": "exact",
+      "priority": 630,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavutil.so.json",
+      "examples": {
+        "positive": [
+          "libavutil.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 659,
+      "type": 0,
+      "name": "libswscale.so",
+      "mode": "exact",
+      "priority": 659,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libswscale.so.json",
+      "examples": {
+        "positive": [
+          "libswscale.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 660,
+      "type": 0,
+      "name": "libswresample.so",
+      "mode": "exact",
+      "priority": 660,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libswresample.so.json",
+      "examples": {
+        "positive": [
+          "libswresample.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 661,
+      "type": 0,
+      "name": "libavdevice.so",
+      "mode": "exact",
+      "priority": 661,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavdevice.so.json",
+      "examples": {
+        "positive": [
+          "libavdevice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1066,
+      "type": 0,
+      "name": "libffmpeg.so",
+      "mode": "exact",
+      "priority": 1066,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1067,
+      "type": 0,
+      "name": "libmobileffmpeg.so",
+      "mode": "exact",
+      "priority": 1067,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmobileffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libmobileffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1808,
+      "type": 0,
+      "name": "libAudioProc.so",
+      "mode": "exact",
+      "priority": 1808,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAudioProc.so.json",
+      "examples": {
+        "positive": [
+          "libAudioProc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1845,
+      "type": 0,
+      "name": "libffmpegJNI.so",
+      "mode": "exact",
+      "priority": 1845,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libffmpegJNI.so.json",
+      "examples": {
+        "positive": [
+          "libffmpegJNI.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1987,
+      "type": 0,
+      "name": "libFFmpeg_video.so",
+      "mode": "exact",
+      "priority": 1987,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libFFmpeg_video.so.json",
+      "examples": {
+        "positive": [
+          "libFFmpeg_video.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2019,
+      "type": 0,
+      "name": "libffmpeg_resample.so",
+      "mode": "exact",
+      "priority": 2019,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libffmpeg_resample.so.json",
+      "examples": {
+        "positive": [
+          "libffmpeg_resample.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2020,
+      "type": 0,
+      "name": "libffmpegloader.so",
+      "mode": "exact",
+      "priority": 2020,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libffmpegloader.so.json",
+      "examples": {
+        "positive": [
+          "libffmpegloader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2204,
+      "type": 0,
+      "name": "libffmpeg_mediametadataretriever_jni.so",
+      "mode": "exact",
+      "priority": 2204,
+      "label": "FFmpeg",
+      "iconId": "ic_lib_ffmpeg",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libffmpeg_mediametadataretriever_jni.so.json",
+      "examples": {
+        "positive": [
+          "libffmpeg_mediametadataretriever_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

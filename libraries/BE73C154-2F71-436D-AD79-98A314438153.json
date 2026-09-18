@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BE73C154-2F71-436D-AD79-98A314438153",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Juicebox SDK",
+        "dev_team": "Juicebox Systems",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Juicebox 协议接口，提供基于简单 PIN 验证的分布式机密存储和恢复。",
+        "source_link": "https://github.com/juicebox-systems/juicebox-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Juicebox SDK",
+        "dev_team": "Juicebox Systems",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "An interface for the Juicebox Protocol which provides distributed storage and recovery of secrets using simple PIN authentication.",
+        "source_link": "https://github.com/juicebox-systems/juicebox-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2542,
+      "type": 0,
+      "name": "libjuicebox_sdk_jni.so",
+      "mode": "exact",
+      "priority": 2542,
+      "label": "Juicebox SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjuicebox_sdk_jni.so.json",
+      "examples": {
+        "positive": [
+          "libjuicebox_sdk_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

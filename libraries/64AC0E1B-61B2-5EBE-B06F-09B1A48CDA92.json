@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "64AC0E1B-61B2-5EBE-B06F-09B1A48CDA92",
+  "iconId": "ic_lib_fresco",
+  "data": [],
+  "matchers": [
+    {
+      "id": 528,
+      "type": 5,
+      "name": "com.facebook.fresco",
+      "mode": "exact",
+      "priority": 528,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.facebook.fresco"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

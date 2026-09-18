@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2C4AD6CE-A131-4CC8-BCA1-CEB535225FF0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GL4ES",
+        "dev_team": "ptitSeb",
+        "rule_contributors": [
+          "magisk666"
+        ],
+        "description": "GL4ES 是 OpenGL 2.1/1.5 到 GL ES 2.0/1.1 的翻译库，支持 Pandora、ODroid、OrangePI、CHIP、Raspberry PI、Android、Emscripten 和 AmigaOS4。",
+        "source_link": "https://github.com/ptitSeb/gl4es"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GL4ES",
+        "dev_team": "ptitSeb",
+        "rule_contributors": [
+          "magisk666"
+        ],
+        "description": "GL4ES is an OpenGL 2.1/1.5 to GL ES 2.0/1.1 translation library, supporting Pandora, ODroid, OrangePI, CHIP, Raspberry PI, Android, Emscripten, and AmigaOS4.",
+        "source_link": "https://github.com/ptitSeb/gl4es"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 953,
+      "type": 0,
+      "name": "libgl4es.so",
+      "mode": "exact",
+      "priority": 953,
+      "label": "GL4ES",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgl4es.so.json",
+      "examples": {
+        "positive": [
+          "libgl4es.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

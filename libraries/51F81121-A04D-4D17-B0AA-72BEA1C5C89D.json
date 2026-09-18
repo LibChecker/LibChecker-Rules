@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 5,
+  "uuid": "51F81121-A04D-4D17-B0AA-72BEA1C5C89D",
+  "iconId": "ic_lib_weibo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "微博 SDK",
+        "dev_team": "Weibo",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "微博 Android 平台 SDK 为第三方应用提供了简单易用的微博 API 调用服务，使第三方客户端无需了解复杂的验证机制即可进行授权登陆，并提供微博分享功能，可直接通过微博官方客户端分享微博。",
+        "source_link": "https://github.com/sinaweibosdk/weibo_android_sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Weibo SDK",
+        "dev_team": "Weibo",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Weibo Android Platform SDK provides third-party applications with simple and easy-to-use Weibo API call services, allowing third-party clients to authorize login without understanding complex authentication mechanisms, and providing Weibo sharing functions, enabling sharing through the official Weibo client.",
+        "source_link": "https://github.com/sinaweibosdk/weibo_android_sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 58,
+      "type": 0,
+      "name": "libweibosdkcore.so",
+      "mode": "exact",
+      "priority": 58,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libweibosdkcore.so.json",
+      "examples": {
+        "positive": [
+          "libweibosdkcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 69,
+      "type": 0,
+      "name": "libwind.so",
+      "mode": "exact",
+      "priority": 69,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwind.so.json",
+      "examples": {
+        "positive": [
+          "libwind.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 143,
+      "type": 0,
+      "name": "libutility.so",
+      "mode": "exact",
+      "priority": 143,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libutility.so.json",
+      "examples": {
+        "positive": [
+          "libutility.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 317,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.web.WeiboSdkWebActivity",
+      "mode": "exact",
+      "priority": 317,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/web/WeiboSdkWebActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 345,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.component.WeiboSdkBrowser",
+      "mode": "exact",
+      "priority": 345,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/component/WeiboSdkBrowser.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.component.WeiboSdkBrowser"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 346,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.WbShareToStoryActivity",
+      "mode": "exact",
+      "priority": 346,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/WbShareToStoryActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.WbShareToStoryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 352,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.WbShareResultActivity",
+      "mode": "exact",
+      "priority": 352,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/WbShareResultActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.WbShareResultActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 358,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.WbShareTransActivity",
+      "mode": "exact",
+      "priority": 358,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/WbShareTransActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.WbShareTransActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 584,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.web.WebActivity",
+      "mode": "exact",
+      "priority": 584,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/web/WebActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.web.WebActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 585,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.ShareChatActivity",
+      "mode": "exact",
+      "priority": 585,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/ShareChatActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.ShareChatActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 586,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.ShareTransActivity",
+      "mode": "exact",
+      "priority": 586,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/ShareTransActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.ShareTransActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 587,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.ShareStoryActivity",
+      "mode": "exact",
+      "priority": 587,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/ShareStoryActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.ShareStoryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 588,
+      "type": 2,
+      "name": "com.sina.weibo.sdk.share.ShareResultActivity",
+      "mode": "exact",
+      "priority": 588,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sina/weibo/sdk/share/ShareResultActivity.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.share.ShareResultActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 840,
+      "type": 0,
+      "name": "libsharewind.so",
+      "mode": "exact",
+      "priority": 840,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsharewind.so.json",
+      "examples": {
+        "positive": [
+          "libsharewind.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 843,
+      "type": 4,
+      "name": "com.sina.weibo.sdk.content.FileProvider",
+      "mode": "exact",
+      "priority": 843,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/sina/weibo/sdk/content/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.content.FileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2167,
+      "type": 4,
+      "name": "com.sina.weibo.sdk.content.FileProviderV2",
+      "mode": "exact",
+      "priority": 2167,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/sina/weibo/sdk/content/FileProviderV2.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.content.FileProviderV2"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2168,
+      "type": 4,
+      "name": "com.sina.weibo.sdk.content.WeiboSDKFileProvider",
+      "mode": "exact",
+      "priority": 2168,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/sina/weibo/sdk/content/WeiboSDKFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.content.WeiboSDKFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2349,
+      "type": 9,
+      "name": "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY",
+      "mode": "exact",
+      "priority": 2349,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2350,
+      "type": 9,
+      "name": "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY",
+      "mode": "exact",
+      "priority": 2350,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY.json",
+      "examples": {
+        "positive": [
+          "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

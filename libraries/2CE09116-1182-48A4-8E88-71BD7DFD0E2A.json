@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2CE09116-1182-48A4-8E88-71BD7DFD0E2A",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tinker",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tinker 是适用于 Android 的热更新程序库，它支持无需重新安装 apk 来更新 dex，库和资源。",
+        "source_link": "https://github.com/Tencent/tinker/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tinker",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tinker is a hot update library for Android, supporting updating dex, libraries, and resources without reinstalling the apk.",
+        "source_link": "https://github.com/Tencent/tinker/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 233,
+      "type": 1,
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService",
+      "mode": "exact",
+      "priority": 233,
+      "label": "Tinker",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/tinker/lib/service/TinkerPatchService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tinker.lib.service.TinkerPatchService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 248,
+      "type": 1,
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService",
+      "mode": "exact",
+      "priority": 248,
+      "label": "Tinker",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/tinker/lib/service/TinkerPatchService$IntentServiceRunner$InnerService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 254,
+      "type": 1,
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService$InnerService",
+      "mode": "exact",
+      "priority": 254,
+      "label": "Tinker",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/tinker/lib/service/TinkerPatchService$InnerService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tinker.lib.service.TinkerPatchService$InnerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 271,
+      "type": 1,
+      "name": "com.tencent.tinker.lib.service.TinkerPatchForeService",
+      "mode": "exact",
+      "priority": 271,
+      "label": "Tinker",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/tinker/lib/service/TinkerPatchForeService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tinker.lib.service.TinkerPatchForeService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 280,
+      "type": 1,
+      "name": "com.tencent.tinker.lib.service.DefaultTinkerResultService",
+      "mode": "exact",
+      "priority": 280,
+      "label": "Tinker",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/tinker/lib/service/DefaultTinkerResultService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tinker.lib.service.DefaultTinkerResultService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 368,
+      "type": 2,
+      "name": "com\\.tencent\\.tinker\\.loader\\.hotplug\\.ActivityStubs(.*)",
+      "mode": "regex",
+      "priority": 368,
+      "label": "Tinker",
+      "iconId": "ic_lib_tencent",
+      "regexName": "regex_tinker",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_tinker.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

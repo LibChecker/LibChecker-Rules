@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DFD495B3-032A-4EB8-881E-FAE6DD38AA61",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-picker",
+        "dev_team": "software-mansion",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Picker 是一个跨平台 UI 组件，用于从选项列表中选择一个项目。",
+        "source_link": "https://github.com/react-native-picker/picker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-picker",
+        "dev_team": "software-mansion",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "SVG library for React Native, React Native Web, and plain React web projects.",
+        "source_link": "https://github.com/react-native-picker/picker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2434,
+      "type": 0,
+      "name": "libreact_codegen_rnpicker.so",
+      "mode": "exact",
+      "priority": 2434,
+      "label": "react-native-picker",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_rnpicker.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_rnpicker.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

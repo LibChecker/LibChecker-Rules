@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BFDBC64D-B336-57F5-867C-78F91DBD618C",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 534,
+      "type": 5,
+      "name": "androidx.savedstate",
+      "mode": "exact",
+      "priority": 534,
+      "label": "Jetpack Savedstate",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.savedstate"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

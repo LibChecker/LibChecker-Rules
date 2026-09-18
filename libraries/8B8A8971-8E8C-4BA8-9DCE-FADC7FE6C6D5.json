@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8B8A8971-8E8C-4BA8-9DCE-FADC7FE6C6D5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Dexter",
+        "dev_team": "Karumi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Dexter 是一个 Android 库，它简化了运行时请求权限的过程。",
+        "source_link": "https://github.com/Karumi/Dexter"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Dexter",
+        "dev_team": "Karumi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Dexter is an Android library that simplifies the process of requesting runtime permissions.",
+        "source_link": "https://github.com/Karumi/Dexter"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 764,
+      "type": 2,
+      "name": "com.karumi.dexter.DexterActivity",
+      "mode": "exact",
+      "priority": 764,
+      "label": "Dexter",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/karumi/dexter/DexterActivity.json",
+      "examples": {
+        "positive": [
+          "com.karumi.dexter.DexterActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 5,
+  "uuid": "90E6F74C-DC0E-4864-8C4E-73497BDB9465",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Paddle Lite",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "yfdyh000",
+          "HenryWu01",
+          "WOLFRAZOR"
+        ],
+        "description": "Paddle Lite 是一个高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。当前 Paddle Lite 不仅在百度内部业务中得到全面应用，也成功支持了众多外部用户和企业的生产任务。",
+        "source_link": "https://github.com/PaddlePaddle/Paddle-Lite"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Paddle Lite",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "yfdyh000",
+          "HenryWu01",
+          "WOLFRAZOR"
+        ],
+        "description": "Paddle Lite is a high-performance, lightweight, highly flexible, and easily extensible deep learning inference framework, positioned to support multiple hardware platforms including mobile, embedded, and edge devices. Currently, Paddle Lite is not only comprehensively applied in Baidu's internal business but also successfully supports numerous external users and enterprise production tasks.",
+        "source_link": "https://github.com/PaddlePaddle/Paddle-Lite"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1252,
+      "type": 0,
+      "name": "libPaddle.so",
+      "mode": "exact",
+      "priority": 1252,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPaddle.so.json",
+      "examples": {
+        "positive": [
+          "libPaddle.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1253,
+      "type": 0,
+      "name": "libpaddle_light_api_shared.so",
+      "mode": "exact",
+      "priority": 1253,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpaddle_light_api_shared.so.json",
+      "examples": {
+        "positive": [
+          "libpaddle_light_api_shared.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1254,
+      "type": 0,
+      "name": "libpaddle_mobile_jni.so",
+      "mode": "exact",
+      "priority": 1254,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpaddle_mobile_jni.so.json",
+      "examples": {
+        "positive": [
+          "libpaddle_mobile_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1255,
+      "type": 0,
+      "name": "libpaddle-mobile.so",
+      "mode": "exact",
+      "priority": 1255,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpaddle-mobile.so.json",
+      "examples": {
+        "positive": [
+          "libpaddle-mobile.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1256,
+      "type": 0,
+      "name": "libpaddle_full_api_shared.so",
+      "mode": "exact",
+      "priority": 1256,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpaddle_full_api_shared.so.json",
+      "examples": {
+        "positive": [
+          "libpaddle_full_api_shared.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1257,
+      "type": 0,
+      "name": "liblite_pybind.so",
+      "mode": "exact",
+      "priority": 1257,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblite_pybind.so.json",
+      "examples": {
+        "positive": [
+          "liblite_pybind.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1507,
+      "type": 0,
+      "name": "libpaddle_lite_jni.so",
+      "mode": "exact",
+      "priority": 1507,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpaddle_lite_jni.so.json",
+      "examples": {
+        "positive": [
+          "libpaddle_lite_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1841,
+      "type": 0,
+      "name": "libcom.baidu.zeus.so",
+      "mode": "exact",
+      "priority": 1841,
+      "label": "Paddle Lite",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcom.baidu.zeus.so.json",
+      "examples": {
+        "positive": [
+          "libcom.baidu.zeus.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

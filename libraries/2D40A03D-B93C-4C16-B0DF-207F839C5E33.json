@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2D40A03D-B93C-4C16-B0DF-207F839C5E33",
+  "iconId": "ic_lib_play_store",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Play Asset Delivery",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Play Asset Delivery (PAD) 将应用包的优势带入游戏。它允许大于 200MB 的游戏通过发布一个包含游戏所需所有资源的单一工件来替代传统的扩展文件 (OBBs)。PAD 提供灵活的交付模式、自动更新、压缩和增量修补，并且免费使用。",
+        "source_link": "https://developer.android.com/guide/playcore/asset-delivery"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Play Asset Delivery",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Play Asset Delivery (PAD) brings the benefits of app bundles to games. It allows games larger than 200MB to replace legacy expansion files (OBBs) by publishing a single artifact to Play containing all the resources the game needs. PAD offers flexible delivery modes, auto-updates, compression, and delta patching, and is free to use.",
+        "source_link": "https://developer.android.com/guide/playcore/asset-delivery"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 590,
+      "type": 1,
+      "name": "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+      "mode": "exact",
+      "priority": 590,
+      "label": "Google Play Service",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/play/core/assetpacks/AssetPackExtractionService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.play.core.assetpacks.AssetPackExtractionService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 820,
+      "type": 1,
+      "name": "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+      "mode": "exact",
+      "priority": 820,
+      "label": "Google Play Service",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/play/core/assetpacks/ExtractionForegroundService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.play.core.assetpacks.ExtractionForegroundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2278,
+      "type": 3,
+      "name": "com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2278,
+      "label": "Play Asset Delivery",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/play/core/assetpacks/SessionStateBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

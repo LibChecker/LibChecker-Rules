@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B4D26E89-FFC4-5A5F-AF0D-CB9B19B3CEDD",
+  "iconId": "ic_lib_huawei",
+  "data": [],
+  "matchers": [
+    {
+      "id": 502,
+      "type": 5,
+      "name": "com.huawei.hianalytics",
+      "mode": "exact",
+      "priority": 502,
+      "label": "HMS Analytics Kit",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.huawei.hianalytics"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

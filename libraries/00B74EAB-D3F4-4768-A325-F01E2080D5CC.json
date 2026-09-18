@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 5,
+  "uuid": "00B74EAB-D3F4-4768-A325-F01E2080D5CC",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Sandhook",
+        "dev_team": "asLody",
+        "rule_contributors": [
+          "1976222027",
+          "yfdyh000"
+        ],
+        "description": "SandHook 是作用在 Android ART 虚拟机上的 Java 层 Hook 框架，作用于进程内是不需要 Root 的。",
+        "source_link": "https://github.com/asLody/SandHook"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Sandhook",
+        "dev_team": "asLody",
+        "rule_contributors": [
+          "1976222027",
+          "yfdyh000"
+        ],
+        "description": "SandHook is a Java layer Hook framework acting on the Android ART virtual machine, which does not require Root when acting within the process.",
+        "source_link": "https://github.com/asLody/SandHook"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1183,
+      "type": 0,
+      "name": "libsandhook.so",
+      "mode": "exact",
+      "priority": 1183,
+      "label": "SandHook",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsandhook.so.json",
+      "examples": {
+        "positive": [
+          "libsandhook.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1184,
+      "type": 0,
+      "name": "libsandhook-native.so",
+      "mode": "exact",
+      "priority": 1184,
+      "label": "SandHook",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsandhook-native.so.json",
+      "examples": {
+        "positive": [
+          "libsandhook-native.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1185,
+      "type": 0,
+      "name": "libsandhook-art.so",
+      "mode": "exact",
+      "priority": 1185,
+      "label": "SandHook",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsandhook-art.so.json",
+      "examples": {
+        "positive": [
+          "libsandhook-art.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1186,
+      "type": 0,
+      "name": "libsandhook64.so",
+      "mode": "exact",
+      "priority": 1186,
+      "label": "SandHook",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsandhook64.so.json",
+      "examples": {
+        "positive": [
+          "libsandhook64.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

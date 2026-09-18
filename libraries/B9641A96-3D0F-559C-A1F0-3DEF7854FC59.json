@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B9641A96-3D0F-559C-A1F0-3DEF7854FC59",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 532,
+      "type": 5,
+      "name": "androidx.cursoradapter",
+      "mode": "exact",
+      "priority": 532,
+      "label": "Jetpack CursorAdapter",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.cursoradapter"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

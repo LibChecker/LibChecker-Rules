@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9F8A3FAA-4C0A-4E82-A590-288AD525C796",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Easy Mobile",
+        "dev_team": "SgLib Games",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Easy Mobile 是一个多合一的 Unity 包，大大简化了移动游戏的标准功能的实现，包括广告、应用内购买、游戏服务、通知和本机移动功能。",
+        "source_link": "https://www.easymobile.sglibgames.com/docs/pro/chapters/getting-started/introduction.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Easy Mobile",
+        "dev_team": "SgLib Games",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Easy Mobile is an all-in-one Unity package that greatly simplifies the implementation of de facto standard features of mobile games including advertising, in-app purchasing, game service, notification, and native mobile functionalities.",
+        "source_link": "https://www.easymobile.sglibgames.com/docs/pro/chapters/getting-started/introduction.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1181,
+      "type": 0,
+      "name": "libeasymobile.so",
+      "mode": "exact",
+      "priority": 1181,
+      "label": "Easy Mobile",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libeasymobile.so.json",
+      "examples": {
+        "positive": [
+          "libeasymobile.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 5,
+  "uuid": "49DAAC63-786C-434F-A4C4-3896FF4CDD1F",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "百度云推送",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "zxwpm",
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "云推送（Push）是百度开放云向开发者提供的消息推送服务；通过利用云端与客户端之间建立稳定、可靠的长连接来为开发者提供向客户端应用推送实时消息的一种开发者服务。",
+        "source_link": "https://push.baidu.com/doc/android/api"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Baidu Cloud Push",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "zxwpm",
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "Cloud Push is a message push service provided by Baidu Open Cloud to developers; it provides developers with a way to push real-time messages to client apps by establishing a stable and reliable long connection between the cloud and the client.",
+        "source_link": "https://push.baidu.com/doc/android/api"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 171,
+      "type": 0,
+      "name": "libbdpush_V(.*)\\.so",
+      "mode": "regex",
+      "priority": 171,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": "regex_baidu_push",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_baidu_push.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 192,
+      "type": 1,
+      "name": "com.baidu.android.pushservice.HmsPushPatchMessageService",
+      "mode": "exact",
+      "priority": 192,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/android/pushservice/HmsPushPatchMessageService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.HmsPushPatchMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 229,
+      "type": 1,
+      "name": "com.baidu.android.pushservice.PushService",
+      "mode": "exact",
+      "priority": 229,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/android/pushservice/PushService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 249,
+      "type": 1,
+      "name": "com.baidu.android.pushservice.CommandService",
+      "mode": "exact",
+      "priority": 249,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/android/pushservice/CommandService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.CommandService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 270,
+      "type": 1,
+      "name": "com.baidu.android.pushservice.job.PushJobService",
+      "mode": "exact",
+      "priority": 270,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/android/pushservice/job/PushJobService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.job.PushJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 304,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.hwproxy.HwNotifyActivity",
+      "mode": "exact",
+      "priority": 304,
+      "label": "HUAWEI Push(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/hwproxy/HwNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.hwproxy.HwNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 403,
+      "type": 3,
+      "name": "com.baidu.android.pushservice.RegistrationReceiver",
+      "mode": "exact",
+      "priority": 403,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/baidu/android/pushservice/RegistrationReceiver.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.RegistrationReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 413,
+      "type": 3,
+      "name": "com.baidu.android.pushservice.PushServiceReceiver",
+      "mode": "exact",
+      "priority": 413,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/baidu/android/pushservice/PushServiceReceiver.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.PushServiceReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 471,
+      "type": 4,
+      "name": "com.baidu.android.pushservice.PushInfoProvider",
+      "mode": "exact",
+      "priority": 471,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/baidu/android/pushservice/PushInfoProvider.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.PushInfoProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2184,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.PushNotifyDispatchActivity",
+      "mode": "exact",
+      "priority": 2184,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/PushNotifyDispatchActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.PushNotifyDispatchActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2185,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.honorproxy.HonorProxyActivity",
+      "mode": "exact",
+      "priority": 2185,
+      "label": "Honor Push(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/honorproxy/HonorProxyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.honorproxy.HonorProxyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2186,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.mzproxy.MzNotifyActivity",
+      "mode": "exact",
+      "priority": 2186,
+      "label": "Meizu Push(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/mzproxy/MzNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.mzproxy.MzNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2187,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.opproxy.OpNotifyActivity",
+      "mode": "exact",
+      "priority": 2187,
+      "label": "OPPO Push(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/opproxy/OpNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.opproxy.OpNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2188,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.viproxy.ViNotifyActivity",
+      "mode": "exact",
+      "priority": 2188,
+      "label": "vivo Push(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/viproxy/ViNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.viproxy.ViNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2189,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.viproxy.VsubscribeNotifyActivity",
+      "mode": "exact",
+      "priority": 2189,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/viproxy/VsubscribeNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.viproxy.VsubscribeNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2190,
+      "type": 2,
+      "name": "com.baidu.android.pushservice.xmproxy.XmNotifyActivity",
+      "mode": "exact",
+      "priority": 2190,
+      "label": "MiPush(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/android/pushservice/xmproxy/XmNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.xmproxy.XmNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2281,
+      "type": 1,
+      "name": "com.baidu.android.pushservice.honorproxy.MyHonorMsgService",
+      "mode": "exact",
+      "priority": 2281,
+      "label": "Honor Push(Baidu Cloud Proxy)",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/android/pushservice/honorproxy/MyHonorMsgService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.honorproxy.MyHonorMsgService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2310,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.METHOD",
+      "mode": "exact",
+      "priority": 2310,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.METHOD.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.METHOD"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2311,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.PUSH_SERVICE",
+      "mode": "exact",
+      "priority": 2311,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.PUSH_SERVICE.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.PUSH_SERVICE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2312,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.adnotification.ADCLICK",
+      "mode": "exact",
+      "priority": 2312,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.adnotification.ADCLICK.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.adnotification.ADCLICK"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2313,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.adnotification.ADDELETE",
+      "mode": "exact",
+      "priority": 2313,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.adnotification.ADDELETE.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.adnotification.ADDELETE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2314,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.advertise.notification.SHOW",
+      "mode": "exact",
+      "priority": 2314,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.advertise.notification.SHOW.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.advertise.notification.SHOW"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2315,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.media.CLICK",
+      "mode": "exact",
+      "priority": 2315,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.media.CLICK.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.media.CLICK"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2316,
+      "type": 9,
+      "name": "com.baidu.android.pushservice.action.notification.SHOW",
+      "mode": "exact",
+      "priority": 2316,
+      "label": "百度云推送",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.android.pushservice.action.notification.SHOW.json",
+      "examples": {
+        "positive": [
+          "com.baidu.android.pushservice.action.notification.SHOW"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

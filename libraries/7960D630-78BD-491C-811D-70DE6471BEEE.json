@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7960D630-78BD-491C-811D-70DE6471BEEE",
+  "iconId": "ic_lib_instabug",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Instabug",
+        "dev_team": "Instabug",
+        "rule_contributors": [
+          "qhy040404"
+        ],
+        "description": "在整个移动应用开发生命周期中监控、优先排序和调试性能和稳定性问题。",
+        "source_link": "https://www.instabug.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Instabug",
+        "dev_team": "Instabug",
+        "rule_contributors": [
+          "qhy040404"
+        ],
+        "description": "Monitor, prioritize, and debug performance and stability issues throughout the entire mobile app development lifecycle.",
+        "source_link": "https://www.instabug.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1436,
+      "type": 2,
+      "name": "com.instabug.bug.view.reporting.ReportingContainerActivity",
+      "mode": "exact",
+      "priority": 1436,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/bug/view/reporting/ReportingContainerActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.bug.view.reporting.ReportingContainerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1437,
+      "type": 2,
+      "name": "com.instabug.chat.ui.ChatActivity",
+      "mode": "exact",
+      "priority": 1437,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/chat/ui/ChatActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.chat.ui.ChatActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1438,
+      "type": 2,
+      "name": "com.instabug.featuresrequest.ui.FeaturesRequestActivity",
+      "mode": "exact",
+      "priority": 1438,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/featuresrequest/ui/FeaturesRequestActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.featuresrequest.ui.FeaturesRequestActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1439,
+      "type": 2,
+      "name": "com.instabug.library.internal.video.RequestPermissionActivity",
+      "mode": "exact",
+      "priority": 1439,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/library/internal/video/RequestPermissionActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.library.internal.video.RequestPermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1440,
+      "type": 2,
+      "name": "com.instabug.library.invocation.invocationdialog.InstabugDialogActivity",
+      "mode": "exact",
+      "priority": 1440,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/library/invocation/invocationdialog/InstabugDialogActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.library.invocation.invocationdialog.InstabugDialogActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1441,
+      "type": 2,
+      "name": "com.instabug.library.ui.onboarding.OnboardingActivity",
+      "mode": "exact",
+      "priority": 1441,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/library/ui/onboarding/OnboardingActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.library.ui.onboarding.OnboardingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1442,
+      "type": 2,
+      "name": "com.instabug.survey.announcements.ui.activity.AnnouncementActivity",
+      "mode": "exact",
+      "priority": 1442,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/survey/announcements/ui/activity/AnnouncementActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.survey.announcements.ui.activity.AnnouncementActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1443,
+      "type": 2,
+      "name": "com.instabug.survey.ui.SurveyActivity",
+      "mode": "exact",
+      "priority": 1443,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/instabug/survey/ui/SurveyActivity.json",
+      "examples": {
+        "positive": [
+          "com.instabug.survey.ui.SurveyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1461,
+      "type": 0,
+      "name": "libibg-native.so",
+      "mode": "exact",
+      "priority": 1461,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libibg-native.so.json",
+      "examples": {
+        "positive": [
+          "libibg-native.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1475,
+      "type": 4,
+      "name": "com.instabug.apm.contentprovider.APMContentProvider",
+      "mode": "exact",
+      "priority": 1475,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/instabug/apm/contentprovider/APMContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.instabug.apm.contentprovider.APMContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1476,
+      "type": 4,
+      "name": "com.instabug.crash.CrashContentProvider",
+      "mode": "exact",
+      "priority": 1476,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/instabug/crash/CrashContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.instabug.crash.CrashContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1477,
+      "type": 4,
+      "name": "com.instabug.library.internal.contentprovider.InstabugContentProvider",
+      "mode": "exact",
+      "priority": 1477,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/instabug/library/internal/contentprovider/InstabugContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.instabug.library.internal.contentprovider.InstabugContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1492,
+      "type": 1,
+      "name": "com.instabug.library.internal.video.ScreenRecordingService",
+      "mode": "exact",
+      "priority": 1492,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/instabug/library/internal/video/ScreenRecordingService.json",
+      "examples": {
+        "positive": [
+          "com.instabug.library.internal.video.ScreenRecordingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1493,
+      "type": 1,
+      "name": "com.instabug.library.screenshot.ScreenshotCaptureService",
+      "mode": "exact",
+      "priority": 1493,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/instabug/library/screenshot/ScreenshotCaptureService.json",
+      "examples": {
+        "positive": [
+          "com.instabug.library.screenshot.ScreenshotCaptureService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1494,
+      "type": 1,
+      "name": "com.instabug.terminations.TerminationsDetectorService",
+      "mode": "exact",
+      "priority": 1494,
+      "label": "Instabug",
+      "iconId": "ic_lib_instabug",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/instabug/terminations/TerminationsDetectorService.json",
+      "examples": {
+        "positive": [
+          "com.instabug.terminations.TerminationsDetectorService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

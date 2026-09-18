@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CA6A8B37-6359-4E6B-AE7B-B4439579BAB4",
+  "iconId": "ic_lib_evernote",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android-Job",
+        "dev_team": "evernote",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Android 实用程序库，用于在后台延迟运行作业。 根据 Android 版本的不同，将使用 JobScheduler，GcmNetworkManager 或 AlarmManager。",
+        "source_link": "https://github.com/evernote/android-job"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android-Job",
+        "dev_team": "evernote",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Android utility library for running jobs in the background with delay. Depending on the Android version, JobScheduler, GcmNetworkManager, or AlarmManager will be used.",
+        "source_link": "https://github.com/evernote/android-job"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 200,
+      "type": 1,
+      "name": "com.evernote.android.job.JobRescheduleService",
+      "mode": "exact",
+      "priority": 200,
+      "label": "Android-Job",
+      "iconId": "ic_lib_evernote",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/evernote/android/job/JobRescheduleService.json",
+      "examples": {
+        "positive": [
+          "com.evernote.android.job.JobRescheduleService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 221,
+      "type": 1,
+      "name": "com.evernote.android.job.v14.PlatformAlarmService",
+      "mode": "exact",
+      "priority": 221,
+      "label": "Android-Job",
+      "iconId": "ic_lib_evernote",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/evernote/android/job/v14/PlatformAlarmService.json",
+      "examples": {
+        "positive": [
+          "com.evernote.android.job.v14.PlatformAlarmService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 222,
+      "type": 1,
+      "name": "com.evernote.android.job.v21.PlatformJobService",
+      "mode": "exact",
+      "priority": 222,
+      "label": "Android-Job",
+      "iconId": "ic_lib_evernote",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/evernote/android/job/v21/PlatformJobService.json",
+      "examples": {
+        "positive": [
+          "com.evernote.android.job.v21.PlatformJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 228,
+      "type": 1,
+      "name": "com.evernote.android.job.v14.PlatformAlarmServiceExact",
+      "mode": "exact",
+      "priority": 228,
+      "label": "Android-Job",
+      "iconId": "ic_lib_evernote",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/evernote/android/job/v14/PlatformAlarmServiceExact.json",
+      "examples": {
+        "positive": [
+          "com.evernote.android.job.v14.PlatformAlarmServiceExact"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 384,
+      "type": 3,
+      "name": "com.evernote.android.job.v14.PlatformAlarmReceiver",
+      "mode": "exact",
+      "priority": 384,
+      "label": "Android-Job",
+      "iconId": "ic_lib_evernote",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/evernote/android/job/v14/PlatformAlarmReceiver.json",
+      "examples": {
+        "positive": [
+          "com.evernote.android.job.v14.PlatformAlarmReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 389,
+      "type": 3,
+      "name": "com.evernote.android.job.JobBootReceiver",
+      "mode": "exact",
+      "priority": 389,
+      "label": "Android-Job",
+      "iconId": "ic_lib_evernote",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/evernote/android/job/JobBootReceiver.json",
+      "examples": {
+        "positive": [
+          "com.evernote.android.job.JobBootReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

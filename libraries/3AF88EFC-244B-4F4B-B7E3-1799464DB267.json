@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3AF88EFC-244B-4F4B-B7E3-1799464DB267",
+  "iconId": "ic_lib_cpp",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "C++ 共享库",
+        "dev_team": "Android",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "在 Android 应用中运行原生代码。",
+        "source_link": "https://developer.android.com/ndk/guides/cpp-support/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "C++ Shared Library",
+        "dev_team": "Android",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Run native code in Android applications.",
+        "source_link": "https://developer.android.com/ndk/guides/cpp-support/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 102,
+      "type": 0,
+      "name": "libgnustl_shared.so",
+      "mode": "exact",
+      "priority": 102,
+      "label": "C++ Shared",
+      "iconId": "ic_lib_cpp",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgnustl_shared.so.json",
+      "examples": {
+        "positive": [
+          "libgnustl_shared.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 104,
+      "type": 0,
+      "name": "libc++_shared.so",
+      "mode": "exact",
+      "priority": 104,
+      "label": "C++ Shared",
+      "iconId": "ic_lib_cpp",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libc++_shared.so.json",
+      "examples": {
+        "positive": [
+          "libc++_shared.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

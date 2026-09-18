@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DE857982-E94B-40A5-BC41-BA87740B34E1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "同盾设备指纹",
+        "dev_team": "同盾科技有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "设备指纹识别。",
+        "source_link": "https://www.tongdun.cn/platform/core#devicefingerp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tongdun Device Fingerprint",
+        "dev_team": "同盾科技有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Device fingerprint recognition.",
+        "source_link": "https://www.tongdun.cn/platform/core#devicefingerp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1226,
+      "type": 0,
+      "name": "libtongdun.so",
+      "mode": "exact",
+      "priority": 1226,
+      "label": "同盾设备指纹",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtongdun.so.json",
+      "examples": {
+        "positive": [
+          "libtongdun.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

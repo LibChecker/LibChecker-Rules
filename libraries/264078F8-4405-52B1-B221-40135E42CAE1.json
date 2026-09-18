@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "264078F8-4405-52B1-B221-40135E42CAE1",
+  "iconId": "ic_lib_baidu",
+  "data": [],
+  "matchers": [
+    {
+      "id": 964,
+      "type": 3,
+      "name": "com.baidu.swan.uuid.sync.SyncProvider",
+      "mode": "exact",
+      "priority": 964,
+      "label": "智能小程序",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.baidu.swan.uuid.sync.SyncProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

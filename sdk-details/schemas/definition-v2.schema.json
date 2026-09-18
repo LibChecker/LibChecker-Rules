@@ -225,9 +225,18 @@
     },
     "lookup": {
       "type": "object",
-      "required": ["input", "path_template", "max_requests", "max_items", "outputs"],
+      "required": ["input", "max_requests", "max_items", "outputs"],
       "additionalProperties": false,
+      "oneOf": [
+        {"required": ["path_template"], "not": {"required": ["index_path"]}},
+        {"required": ["index_path", "entries_field"], "not": {"required": ["path_template"]}}
+      ],
       "properties": {
+        "index_path": {
+          "type": "string",
+          "pattern": "^sdk-details/[^{}]+\\.json$"
+        },
+        "entries_field": {"const": "entries"},
         "input": {
           "$ref": "#/$defs/identifier"
         },

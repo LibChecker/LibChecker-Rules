@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 5,
+  "uuid": "42C6F59C-5ABB-442C-A5A1-4638A9BE329D",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack WorkManager",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "WorkManager 是适合用于持久性工作的推荐解决方案。如果工作始终要通过应用重启和系统重新启动来调度，便是持久性的工作。由于大多数后台处理操作都是通过持久性工作完成的，因此 WorkManager 是适用于后台处理操作的主要推荐 API。",
+        "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack WorkManager",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "WorkManager is the recommended solution for persistent work. Work is persistent when it remains scheduled through app restarts and system reboots. Because most background processing is best accomplished through persistent work, WorkManager is the primary recommended API for background processing.",
+        "source_link": "https://developer.android.com/topic/libraries/architecture/workmanager/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 226,
+      "type": 1,
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "mode": "exact",
+      "priority": 226,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/work/impl/background/systemjob/SystemJobService.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemjob.SystemJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 272,
+      "type": 1,
+      "name": "androidx.work.impl.foreground.SystemForegroundService",
+      "mode": "exact",
+      "priority": 272,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/work/impl/foreground/SystemForegroundService.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.foreground.SystemForegroundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 390,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "mode": "exact",
+      "priority": 390,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/RescheduleReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.RescheduleReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 405,
+      "type": 3,
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "mode": "exact",
+      "priority": 405,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/diagnostics/DiagnosticsReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.diagnostics.DiagnosticsReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 408,
+      "type": 3,
+      "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "mode": "exact",
+      "priority": 408,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/utils/ForceStopRunnable$BroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 427,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+      "mode": "exact",
+      "priority": 427,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/ConstraintProxyUpdateReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 436,
+      "type": 4,
+      "name": "androidx.work.impl.WorkManagerInitializer",
+      "mode": "exact",
+      "priority": 436,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/androidx/work/impl/WorkManagerInitializer.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.WorkManagerInitializer"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 565,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+      "mode": "exact",
+      "priority": 565,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/ConstraintProxy$NetworkStateProxy.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 566,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+      "mode": "exact",
+      "priority": 566,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/ConstraintProxy$StorageNotLowProxy.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 567,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+      "mode": "exact",
+      "priority": 567,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/ConstraintProxy$BatteryNotLowProxy.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 568,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+      "mode": "exact",
+      "priority": 568,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/ConstraintProxy$BatteryChargingProxy.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 583,
+      "type": 1,
+      "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+      "mode": "exact",
+      "priority": 583,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/work/impl/background/systemalarm/SystemAlarmService.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.SystemAlarmService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1581,
+      "type": 1,
+      "name": "androidx.work.multiprocess.RemoteWorkManagerService",
+      "mode": "exact",
+      "priority": 1581,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/work/multiprocess/RemoteWorkManagerService.json",
+      "examples": {
+        "positive": [
+          "androidx.work.multiprocess.RemoteWorkManagerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1707,
+      "type": 1,
+      "name": "androidx.work.impl.background.gcm.WorkManagerGcmService",
+      "mode": "exact",
+      "priority": 1707,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/work/impl/background/gcm/WorkManagerGcmService.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.gcm.WorkManagerGcmService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2173,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NullReceiver",
+      "mode": "exact",
+      "priority": 2173,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/ConstraintProxy$NullReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$NullReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2174,
+      "type": 3,
+      "name": "androidx.work.impl.background.systemalarm.NullReceiver",
+      "mode": "exact",
+      "priority": 2174,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/work/impl/background/systemalarm/NullReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.NullReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2290,
+      "type": 9,
+      "name": "androidx.work.diagnostics.REQUEST_DIAGNOSTICS",
+      "mode": "exact",
+      "priority": 2290,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/androidx.work.diagnostics.REQUEST_DIAGNOSTICS.json",
+      "examples": {
+        "positive": [
+          "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2291,
+      "type": 9,
+      "name": "androidx.work.impl.background.systemalarm.UpdateProxies",
+      "mode": "exact",
+      "priority": 2291,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/androidx.work.impl.background.systemalarm.UpdateProxies.json",
+      "examples": {
+        "positive": [
+          "androidx.work.impl.background.systemalarm.UpdateProxies"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

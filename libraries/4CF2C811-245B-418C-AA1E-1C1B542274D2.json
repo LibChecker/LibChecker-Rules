@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4CF2C811-245B-418C-AA1E-1C1B542274D2",
+  "iconId": "ic_lib_javet",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Javet",
+        "dev_team": "caoccao",
+        "rule_contributors": [
+          "tsukiymk",
+          "Super12138"
+        ],
+        "description": "Javet 是 V8 JavaScript 引擎的 Java 封装库。它是 Java 嵌入 Node.js 和 V8 的绝佳方案。",
+        "source_link": "https://github.com/caoccao/Javet"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Javet",
+        "dev_team": "caoccao",
+        "rule_contributors": [
+          "tsukiymk",
+          "Super12138"
+        ],
+        "description": "Javet is a Java wrapper library for the V8 JavaScript engine. It is an excellent solution for embedding Node.js and V8 in Java.",
+        "source_link": "https://github.com/caoccao/Javet"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1638,
+      "type": 0,
+      "name": "libjavet-v8-android(.*)\\.so",
+      "mode": "regex",
+      "priority": 1638,
+      "label": "Javet",
+      "iconId": "ic_lib_javet",
+      "regexName": "regex_javet",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_javet.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2916,
+      "type": 0,
+      "name": "libjavet-node-android(.*)\\.so",
+      "mode": "regex",
+      "priority": 2916,
+      "label": "Javet",
+      "iconId": "ic_lib_javet",
+      "regexName": "regex_javet",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_javet.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

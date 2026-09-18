@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0EA939B4-805A-4D08-9C68-47C745EB49E5",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack ProfileInstaller",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "让库能够提前预填充要由 ART 读取的编译轨迹。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/profileinstaller"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack ProfileInstaller",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Allow the library to pre-fill compilation traces to be read by ART.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/profileinstaller"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 815,
+      "type": 3,
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "mode": "exact",
+      "priority": 815,
+      "label": "Jetpack ProfileInstaller",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/profileinstaller/ProfileInstallReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.profileinstaller.ProfileInstallReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2286,
+      "type": 9,
+      "name": "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+      "mode": "exact",
+      "priority": 2286,
+      "label": "Jetpack ProfileInstaller",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/androidx.profileinstaller.action.BENCHMARK_OPERATION.json",
+      "examples": {
+        "positive": [
+          "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2287,
+      "type": 9,
+      "name": "androidx.profileinstaller.action.INSTALL_PROFILE",
+      "mode": "exact",
+      "priority": 2287,
+      "label": "Jetpack ProfileInstaller",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/androidx.profileinstaller.action.INSTALL_PROFILE.json",
+      "examples": {
+        "positive": [
+          "androidx.profileinstaller.action.INSTALL_PROFILE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2288,
+      "type": 9,
+      "name": "androidx.profileinstaller.action.SAVE_PROFILE",
+      "mode": "exact",
+      "priority": 2288,
+      "label": "Jetpack ProfileInstaller",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/androidx.profileinstaller.action.SAVE_PROFILE.json",
+      "examples": {
+        "positive": [
+          "androidx.profileinstaller.action.SAVE_PROFILE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2289,
+      "type": 9,
+      "name": "androidx.profileinstaller.action.SKIP_FILE",
+      "mode": "exact",
+      "priority": 2289,
+      "label": "Jetpack ProfileInstaller",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/androidx.profileinstaller.action.SKIP_FILE.json",
+      "examples": {
+        "positive": [
+          "androidx.profileinstaller.action.SKIP_FILE"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

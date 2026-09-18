@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F7EDEC1B-0583-40E8-87B2-0F36CF2FB2AE",
+  "iconId": "ic_lib_tencent_tds",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Hippy",
+        "dev_team": "TDS 腾讯端服务",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "ArcticFoxPro"
+        ],
+        "description": "Hippy 是 TDF 腾讯端框架（Tencent Device-oriented Framework）下的开源跨平台应用开发解决方案。Hippy 从底层做了大量工作，抹平了 iOS、Android、OpenHarmony 三端差异，提供了接近 Web 的开发体验，目前上层支持了 React 和 Vue 两套界面框架，前端开发人员可以通过它，将前端代码转换为终端的原生指令，进行原生终端 APP 的开发。同时，Hippy 从底层进行了大量优化，在启动速度、渲染性能、动画速度、内存占用、包体积等方面都提供了业内顶尖的性能表现。",
+        "source_link": "https://github.com/Tencent/Hippy"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Hippy",
+        "dev_team": "Tencent Device-oriented Service",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "ArcticFoxPro"
+        ],
+        "description": "Hippy is a cross-platform development framework, that aims to help developers write once, and run on multiple platforms(iOS, Android, Web, and so on). Hippy is quite friendly to Web developers, especially those who are familiar with React or Vue.",
+        "source_link": "https://github.com/Tencent/Hippy"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 162,
+      "type": 0,
+      "name": "libhippybridge.so",
+      "mode": "exact",
+      "priority": 162,
+      "label": "Hippy",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhippybridge.so.json",
+      "examples": {
+        "positive": [
+          "libhippybridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1342,
+      "type": 0,
+      "name": "libhippy.so",
+      "mode": "exact",
+      "priority": 1342,
+      "label": "Hippy",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhippy.so.json",
+      "examples": {
+        "positive": [
+          "libhippy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2026,
+      "type": 0,
+      "name": "libhippycanvas.so",
+      "mode": "exact",
+      "priority": 2026,
+      "label": "Hippy",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhippycanvas.so.json",
+      "examples": {
+        "positive": [
+          "libhippycanvas.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

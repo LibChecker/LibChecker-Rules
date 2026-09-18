@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7494560B-FCCE-46D6-8210-8398CD284F82",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "百度应用加固",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "ArthurCyy",
+          "JimmyJLNU",
+          "WOLFRAZOR"
+        ],
+        "description": "百度应用加固能够为 Android、Linux 等智能终端平台上的应用程序提供代码加密、完整性校验、反注入、反调试、运行时数据加密等各种安全能力，可以有效帮助智能终端上的应用程序抵御各种安全威胁。",
+        "source_link": "https://apkprotect.baidu.com"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Baidu App Reinforcement",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "ArthurCyy",
+          "JimmyJLNU",
+          "WOLFRAZOR"
+        ],
+        "description": "Baidu Application Reinforcement can provide various security capabilities such as code encryption, integrity verification, anti-injection, anti-debugging, and runtime data encryption for applications on Android, Linux, and other smart terminal platforms, effectively helping applications on smart terminals resist various security threats.",
+        "source_link": "https://apkprotect.baidu.com"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1321,
+      "type": 0,
+      "name": "libbaiduprotect.so",
+      "mode": "exact",
+      "priority": 1321,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1322,
+      "type": 0,
+      "name": "libbaiduprotect_x86.so",
+      "mode": "exact",
+      "priority": 1322,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect_x86.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect_x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1323,
+      "type": 0,
+      "name": "libbaiduprotect_art.so",
+      "mode": "exact",
+      "priority": 1323,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect_art.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect_art.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1449,
+      "type": 0,
+      "name": "libbaiduprotect_sec_jni.so",
+      "mode": "exact",
+      "priority": 1449,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect_sec_jni.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect_sec_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1828,
+      "type": 0,
+      "name": "libbaiduprotect_dump.so",
+      "mode": "exact",
+      "priority": 1828,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect_dump.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect_dump.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1829,
+      "type": 0,
+      "name": "libbaiduprotect_sec_jni_facect.so",
+      "mode": "exact",
+      "priority": 1829,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect_sec_jni_facect.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect_sec_jni_facect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1995,
+      "type": 0,
+      "name": "libbaiduprotect_sec_jni_v3_lite_face.so",
+      "mode": "exact",
+      "priority": 1995,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbaiduprotect_sec_jni_v3_lite_face.so.json",
+      "examples": {
+        "positive": [
+          "libbaiduprotect_sec_jni_v3_lite_face.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2087,
+      "type": 0,
+      "name": "libbaiduprotect_sdk_(.*)\\.so",
+      "mode": "regex",
+      "priority": 2087,
+      "label": "百度应用加固",
+      "iconId": "ic_lib_baidu",
+      "regexName": "regex_baidu_jiagu",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_baidu_jiagu.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

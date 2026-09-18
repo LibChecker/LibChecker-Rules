@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5D371535-E819-48FC-8E33-607F74C079CB",
+  "iconId": "ic_lib_chromium",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android Crazy Linker",
+        "dev_team": "The Chromium Authors",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "Android NDK crazy linker 的分支。",
+        "source_link": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android Crazy Linker",
+        "dev_team": "The Chromium Authors",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "Fork of the Android NDK crazy linker.",
+        "source_link": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 804,
+      "type": 0,
+      "name": "libchrome_android_linker.so",
+      "mode": "exact",
+      "priority": 804,
+      "label": "Android Crazy Linker",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libchrome_android_linker.so.json",
+      "examples": {
+        "positive": [
+          "libchrome_android_linker.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

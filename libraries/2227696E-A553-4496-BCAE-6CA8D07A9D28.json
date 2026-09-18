@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2227696E-A553-4496-BCAE-6CA8D07A9D28",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PlayerSDK",
+        "dev_team": "JeffMony",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "提供一个高效的播放器库。",
+        "source_link": "https://github.com/JeffMony/PlayerSDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PlayerSDK",
+        "dev_team": "JeffMony",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Provide an efficient player library.",
+        "source_link": "https://github.com/JeffMony/PlayerSDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1294,
+      "type": 0,
+      "name": "libjeffmony.so",
+      "mode": "exact",
+      "priority": 1294,
+      "label": "PlayerSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjeffmony.so.json",
+      "examples": {
+        "positive": [
+          "libjeffmony.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

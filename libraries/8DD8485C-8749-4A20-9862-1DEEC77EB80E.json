@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8DD8485C-8749-4A20-9862-1DEEC77EB80E",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Remote Callback",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "创建一个包装，使开发人员更容易地提供 PendingIntent。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Remote Callback",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Create a wrapper to make it easier for developers to provide PendingIntent.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/media/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 426,
+      "type": 3,
+      "name": "androidx.remotecallback.ProviderRelayReceiver",
+      "mode": "exact",
+      "priority": 426,
+      "label": "Jetpack Remote Callback",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/remotecallback/ProviderRelayReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.remotecallback.ProviderRelayReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

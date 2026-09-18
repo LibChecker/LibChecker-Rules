@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DAA626BA-CBC2-4265-B2C7-145D8527EBAA",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "信鸽推送",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "信鸽推送为开发者提供免费、快速、简单的推送服务。",
+        "source_link": "https://xg.qq.com/docs/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xinge Push",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xinge Push provides developers with free, fast, and simple push services.",
+        "source_link": "https://xg.qq.com/docs/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1,
+      "type": 0,
+      "name": "libxguardian.so",
+      "mode": "exact",
+      "priority": 1,
+      "label": "信鸽推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxguardian.so.json",
+      "examples": {
+        "positive": [
+          "libxguardian.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 128,
+      "type": 0,
+      "name": "libtpnsSecurity.so",
+      "mode": "exact",
+      "priority": 128,
+      "label": "信鸽推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtpnsSecurity.so.json",
+      "examples": {
+        "positive": [
+          "libtpnsSecurity.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

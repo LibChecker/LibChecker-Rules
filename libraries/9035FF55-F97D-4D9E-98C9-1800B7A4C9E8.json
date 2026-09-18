@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9035FF55-F97D-4D9E-98C9-1800B7A4C9E8",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Conscrypt",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Conscrypt 是一个 Java 安全提供程序 (JSP)，它实现了部分 Java 加密扩展 (JCE) 和 Java 安全套接字扩展 (JSSE)。 它使用 BoringSSL 为 Android 和 OpenJDK 上的 Java 应用程序提供加密原语和传输层安全性 (TLS)。 有关所提供内容的详细信息，请参阅功能文档。",
+        "source_link": "https://github.com/google/conscrypt"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Conscrypt",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Conscrypt is a Java Security Provider (JSP) that implements parts of the Java Cryptography Extension (JCE) and Java Secure Socket Extension (JSSE). It uses BoringSSL to provide cryptographic primitives and Transport Layer Security (TLS) for Java applications on Android and OpenJDK. For detailed information on what is provided, see the feature documentation.",
+        "source_link": "https://github.com/google/conscrypt"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 751,
+      "type": 0,
+      "name": "libconscrypt_jni.so",
+      "mode": "exact",
+      "priority": 751,
+      "label": "Conscrypt",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libconscrypt_jni.so.json",
+      "examples": {
+        "positive": [
+          "libconscrypt_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1842,
+      "type": 0,
+      "name": "libconscrypt_gmscore_jni.so",
+      "mode": "exact",
+      "priority": 1842,
+      "label": "Conscrypt",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libconscrypt_gmscore_jni.so.json",
+      "examples": {
+        "positive": [
+          "libconscrypt_gmscore_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

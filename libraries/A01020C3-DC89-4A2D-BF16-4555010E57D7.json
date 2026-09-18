@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A01020C3-DC89-4A2D-BF16-4555010E57D7",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "UniRapidJson",
+        "dev_team": "takezoh",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "UniRapidJSON 是 Unity 的 RapidJSON 包装器。",
+        "source_link": "https://github.com/takezoh/UniRapidJson"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "UniRapidJson",
+        "dev_team": "takezoh",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "UniRapidJSON is a RapidJSON wrapper for Unity.",
+        "source_link": "https://github.com/takezoh/UniRapidJson"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1554,
+      "type": 0,
+      "name": "libUniRapidJson.so",
+      "mode": "exact",
+      "priority": 1554,
+      "label": "UniRapidJson",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libUniRapidJson.so.json",
+      "examples": {
+        "positive": [
+          "libUniRapidJson.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

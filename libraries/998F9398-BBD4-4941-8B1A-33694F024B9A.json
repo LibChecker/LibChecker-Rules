@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 5,
+  "uuid": "998F9398-BBD4-4941-8B1A-33694F024B9A",
+  "iconId": "ic_lib_aliyun",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "阿里移动推送",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "阿里移动推送（Alibaba Cloud Mobile Push）是基于大数据的移动智能推送服务，帮助 App 快速集成移动推送的功能，在实现高效、精确、实时的移动推送的同时，极大地降低了开发成本。让开发者最有效地与用户保持连接，从而提高用户活跃度、提高应用的留存率。",
+        "source_link": "https://help.aliyun.com/product/30047.html/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Alibaba Mobile Push",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Alibaba Cloud Mobile Push is a mobile intelligent push service based on big data, helping apps quickly integrate mobile push functionality, achieving efficient, precise, real-time mobile push while significantly reducing development costs. It allows developers to effectively maintain connections with users, thereby increasing user activity and app retention rates.",
+        "source_link": "https://help.aliyun.com/product/30047.html/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 196,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.channel.KeepChannelService",
+      "mode": "exact",
+      "priority": 196,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/channel/KeepChannelService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.channel.KeepChannelService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 202,
+      "type": 1,
+      "name": "com.taobao.accs.data.MsgDistributeService",
+      "mode": "exact",
+      "priority": 202,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/taobao/accs/data/MsgDistributeService.json",
+      "examples": {
+        "positive": [
+          "com.taobao.accs.data.MsgDistributeService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 213,
+      "type": 1,
+      "name": "com.taobao.agoo.TaobaoMessageIntentReceiverService",
+      "mode": "exact",
+      "priority": 213,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/taobao/agoo/TaobaoMessageIntentReceiverService.json",
+      "examples": {
+        "positive": [
+          "com.taobao.agoo.TaobaoMessageIntentReceiverService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 220,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.channel.TaobaoRecvService",
+      "mode": "exact",
+      "priority": 220,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/channel/TaobaoRecvService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.channel.TaobaoRecvService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 223,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.channel.CheckService",
+      "mode": "exact",
+      "priority": 223,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/channel/CheckService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.channel.CheckService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 227,
+      "type": 1,
+      "name": "com.taobao.accs.internal.AccsJobService",
+      "mode": "exact",
+      "priority": 227,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/taobao/accs/internal/AccsJobService.json",
+      "examples": {
+        "positive": [
+          "com.taobao.accs.internal.AccsJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 231,
+      "type": 1,
+      "name": "com.taobao.accs.ChannelService",
+      "mode": "exact",
+      "priority": 231,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/taobao/accs/ChannelService.json",
+      "examples": {
+        "positive": [
+          "com.taobao.accs.ChannelService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 234,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.AliyunPushIntentService",
+      "mode": "exact",
+      "priority": 234,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/AliyunPushIntentService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.AliyunPushIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 239,
+      "type": 1,
+      "name": "com.alibaba.sdk.android.push.MsgService",
+      "mode": "exact",
+      "priority": 239,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alibaba/sdk/android/push/MsgService.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.MsgService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 268,
+      "type": 1,
+      "name": "com.taobao.accs.ChannelService$KernelService",
+      "mode": "exact",
+      "priority": 268,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/taobao/accs/ChannelService$KernelService.json",
+      "examples": {
+        "positive": [
+          "com.taobao.accs.ChannelService$KernelService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 281,
+      "type": 1,
+      "name": "org.android.agoo.accs.AgooService",
+      "mode": "exact",
+      "priority": 281,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/android/agoo/accs/AgooService.json",
+      "examples": {
+        "positive": [
+          "org.android.agoo.accs.AgooService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 344,
+      "type": 2,
+      "name": "com.alibaba.sdk.android.push.keeplive.PushExtActivity",
+      "mode": "exact",
+      "priority": 344,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/sdk/android/push/keeplive/PushExtActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.keeplive.PushExtActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 392,
+      "type": 3,
+      "name": "com.alibaba.sdk.android.push.SystemEventReceiver",
+      "mode": "exact",
+      "priority": 392,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/alibaba/sdk/android/push/SystemEventReceiver.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.sdk.android.push.SystemEventReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 393,
+      "type": 3,
+      "name": "com.taobao.accs.ServiceReceiver",
+      "mode": "exact",
+      "priority": 393,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/taobao/accs/ServiceReceiver.json",
+      "examples": {
+        "positive": [
+          "com.taobao.accs.ServiceReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 396,
+      "type": 3,
+      "name": "org.android.agoo.xiaomi.MiPushBroadcastReceiver",
+      "mode": "exact",
+      "priority": 396,
+      "label": "MiPush(Aliyun Proxy)",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/org/android/agoo/xiaomi/MiPushBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "org.android.agoo.xiaomi.MiPushBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 398,
+      "type": 3,
+      "name": "com.taobao.accs.EventReceiver",
+      "mode": "exact",
+      "priority": 398,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/taobao/accs/EventReceiver.json",
+      "examples": {
+        "positive": [
+          "com.taobao.accs.EventReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 401,
+      "type": 3,
+      "name": "org.android.agoo.vivo.PushMessageReceiverImpl",
+      "mode": "exact",
+      "priority": 401,
+      "label": "vivo Push(Aliyun Proxy)",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/org/android/agoo/vivo/PushMessageReceiverImpl.json",
+      "examples": {
+        "positive": [
+          "org.android.agoo.vivo.PushMessageReceiverImpl"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 412,
+      "type": 3,
+      "name": "org.android.agoo.huawei.HuaweiPushReceiver",
+      "mode": "exact",
+      "priority": 412,
+      "label": "HUAWEI Push(Aliyun Proxy)",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/org/android/agoo/huawei/HuaweiPushReceiver.json",
+      "examples": {
+        "positive": [
+          "org.android.agoo.huawei.HuaweiPushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 424,
+      "type": 3,
+      "name": "com.taobao.agoo.AgooCommondReceiver",
+      "mode": "exact",
+      "priority": 424,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/taobao/agoo/AgooCommondReceiver.json",
+      "examples": {
+        "positive": [
+          "com.taobao.agoo.AgooCommondReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 737,
+      "type": 1,
+      "name": "org.android.agoo.huawei.HuaweiPushMessageService",
+      "mode": "exact",
+      "priority": 737,
+      "label": "HUAWEI Push(Aliyun Proxy)",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/android/agoo/huawei/HuaweiPushMessageService.json",
+      "examples": {
+        "positive": [
+          "org.android.agoo.huawei.HuaweiPushMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1714,
+      "type": 1,
+      "name": "org.android.agoo.honor.HonorPushMessageService",
+      "mode": "exact",
+      "priority": 1714,
+      "label": "HONOR Push(Aliyun Proxy)",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/android/agoo/honor/HonorPushMessageService.json",
+      "examples": {
+        "positive": [
+          "org.android.agoo.honor.HonorPushMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2380,
+      "type": 9,
+      "name": "org.agoo.android.intent.action.PING_V4",
+      "mode": "exact",
+      "priority": 2380,
+      "label": "阿里移动推送",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.agoo.android.intent.action.PING_V4.json",
+      "examples": {
+        "positive": [
+          "org.agoo.android.intent.action.PING_V4"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

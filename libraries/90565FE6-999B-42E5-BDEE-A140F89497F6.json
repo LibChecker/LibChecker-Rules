@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 5,
+  "uuid": "90565FE6-999B-42E5-BDEE-A140F89497F6",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HMS Update",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "用于 HMS SDK 引导升级 Huawei Mobile Services(APK)，提供给系统安装器读取升级文件。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-2-Guides/hmssdk_huaweipush_devprepare_agent/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HMS Update",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Used for guiding the upgrade of Huawei Mobile Services (APK) in the HMS SDK, providing files for the system installer to read.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-2-Guides/hmssdk_huaweipush_devprepare_agent/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 294,
+      "type": 2,
+      "name": "com.huawei.updatesdk.service.otaupdate.AppUpdateActivity",
+      "mode": "exact",
+      "priority": 294,
+      "label": "HMS Update",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/updatesdk/service/otaupdate/AppUpdateActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 321,
+      "type": 2,
+      "name": "com.huawei.updatesdk.support.pm.PackageInstallerActivity",
+      "mode": "exact",
+      "priority": 321,
+      "label": "HMS Update",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/updatesdk/support/pm/PackageInstallerActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 447,
+      "type": 4,
+      "name": "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider",
+      "mode": "exact",
+      "priority": 447,
+      "label": "HMS Update",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/updatesdk/fileprovider/UpdateSdkFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "HMS Update",
+            "dev_team": "Huawei",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "用于应用自升级。",
+            "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-2-Guides/hmssdk_huaweipush_devprepare_agent/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "HMS Update",
+            "dev_team": "Huawei",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "Used for guiding the upgrade of Huawei Mobile Services (APK) in the HMS SDK, providing files for the system installer to read.",
+            "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-2-Guides/hmssdk_huaweipush_devprepare_agent/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "type": 4,
+      "name": "com.huawei.hms.update.provider.UpdateProvider",
+      "mode": "exact",
+      "priority": 455,
+      "label": "HMS Update",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/hms/update/provider/UpdateProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.update.provider.UpdateProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

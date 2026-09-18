@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "65C1F650-CDB8-564E-9D38-CD873BE16109",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 515,
+      "type": 5,
+      "name": "org.greenbot.eventbus",
+      "mode": "exact",
+      "priority": 515,
+      "label": "EventBus",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "org.greenbot.eventbus"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

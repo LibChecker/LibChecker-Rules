@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "651A410F-51C1-462D-81C3-503320C809C3",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "open-vcdiff",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "open-vcdiff 是 VCDIFF 格式的编码器和解码器，该格式见 RFC 3284：VCDIFF 通用差分和压缩数据格式。",
+        "source_link": "https://github.com/google/open-vcdiff"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "open-vcdiff",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "open-vcdiff is an encoder and decoder for the VCDIFF format, as described in RFC 3284: The VCDIFF Generic Differencing and Compression Data Format.",
+        "source_link": "https://github.com/google/open-vcdiff"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2841,
+      "type": 0,
+      "name": "libvcdiffjni.so",
+      "mode": "exact",
+      "priority": 2841,
+      "label": "open-vcdiff",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcdiffjni.so.json",
+      "examples": {
+        "positive": [
+          "libvcdiffjni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

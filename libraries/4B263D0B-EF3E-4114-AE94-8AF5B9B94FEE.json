@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4B263D0B-EF3E-4114-AE94-8AF5B9B94FEE",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "爱加密",
+        "dev_team": "北京智游网安科技有限公司",
+        "rule_contributors": [
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "Ray-mond-man"
+        ],
+        "description": "针对目前移动应用普遍存在的破解、篡改、劫持、盗版、数据窃取、钓鱼欺诈等各类安全风险，通过行业领先的第六代加固技术，爱加密为用户提供全面的移动应用加固加密技术和攻击防范服务。",
+        "source_link": "https://www.ijiami.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "爱加密",
+        "dev_team": "北京智游网安科技有限公司",
+        "rule_contributors": [
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "Ray-mond-man"
+        ],
+        "description": "Through the industry's leading sixth-generation reinforcement technology, IEncrypt provides users with comprehensive mobile application reinforcement encryption technology and attack prevention services, addressing various security risks commonly found in mobile applications, such as cracking, tampering, hijacking, piracy, data theft, and phishing fraud.",
+        "source_link": "https://www.ijiami.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1233,
+      "type": 0,
+      "name": "libexec.so",
+      "mode": "exact",
+      "priority": 1233,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexec.so.json",
+      "examples": {
+        "positive": [
+          "libexec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1234,
+      "type": 0,
+      "name": "libexecmain.so",
+      "mode": "exact",
+      "priority": 1234,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexecmain.so.json",
+      "examples": {
+        "positive": [
+          "libexecmain.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1235,
+      "type": 0,
+      "name": "libexecmain_x86.so",
+      "mode": "exact",
+      "priority": 1235,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexecmain_x86.so.json",
+      "examples": {
+        "positive": [
+          "libexecmain_x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1236,
+      "type": 0,
+      "name": "libexecoat.so",
+      "mode": "exact",
+      "priority": 1236,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexecoat.so.json",
+      "examples": {
+        "positive": [
+          "libexecoat.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1237,
+      "type": 0,
+      "name": "libexecoat_x86.so",
+      "mode": "exact",
+      "priority": 1237,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexecoat_x86.so.json",
+      "examples": {
+        "positive": [
+          "libexecoat_x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1462,
+      "type": 0,
+      "name": "libijm-emulator.so",
+      "mode": "exact",
+      "priority": 1462,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijm-emulator.so.json",
+      "examples": {
+        "positive": [
+          "libijm-emulator.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1463,
+      "type": 0,
+      "name": "libijmDataEncryption.so",
+      "mode": "exact",
+      "priority": 1463,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijmDataEncryption.so.json",
+      "examples": {
+        "positive": [
+          "libijmDataEncryption.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1464,
+      "type": 0,
+      "name": "libijmDataEncryption_arm64.so",
+      "mode": "exact",
+      "priority": 1464,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijmDataEncryption_arm64.so.json",
+      "examples": {
+        "positive": [
+          "libijmDataEncryption_arm64.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1465,
+      "type": 0,
+      "name": "libijmDataEncryption_x86.so",
+      "mode": "exact",
+      "priority": 1465,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijmDataEncryption_x86.so.json",
+      "examples": {
+        "positive": [
+          "libijmDataEncryption_x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1466,
+      "type": 0,
+      "name": "libijmDataEncryption_x86_64.so",
+      "mode": "exact",
+      "priority": 1466,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijmDataEncryption_x86_64.so.json",
+      "examples": {
+        "positive": [
+          "libijmDataEncryption_x86_64.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2112,
+      "type": 0,
+      "name": "libexec_x86.so",
+      "mode": "exact",
+      "priority": 2112,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexec_x86.so.json",
+      "examples": {
+        "positive": [
+          "libexec_x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2119,
+      "type": 0,
+      "name": "libijiami_ijm.so",
+      "mode": "exact",
+      "priority": 2119,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijiami_ijm.so.json",
+      "examples": {
+        "positive": [
+          "libijiami_ijm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2120,
+      "type": 0,
+      "name": "libijm_linker.so",
+      "mode": "exact",
+      "priority": 2120,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijm_linker.so.json",
+      "examples": {
+        "positive": [
+          "libijm_linker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2810,
+      "type": 0,
+      "name": "libijiami_release01.so",
+      "mode": "exact",
+      "priority": 2810,
+      "label": "爱加密",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijiami_release01.so.json",
+      "examples": {
+        "positive": [
+          "libijiami_release01.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

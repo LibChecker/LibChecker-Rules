@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6CD3B14A-C75E-4451-8EAB-AC3BD931EF00",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MSA SDK",
+        "dev_team": "移动安全联盟",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "yfdyh000"
+        ],
+        "description": "移动智能终端补充设备标识体系统一调用 SDK 由中国信息通信研究院泰尔终端实验室、移动安全联盟整合提供，知识产权归中国信息通信研究院所有。",
+        "source_link": "http://msa-alliance.cn"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MSA SDK",
+        "dev_team": "移动安全联盟",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "yfdyh000"
+        ],
+        "description": "Mobile Intelligent Terminal Supplementary Device Identification System Unified Call SDK is provided by the China Academy of Information and Communications Technology's Terminal Laboratory and the Mobile Security Alliance. The intellectual property rights belong to the China Academy of Information and Communications Technology.",
+        "source_link": "http://msa-alliance.cn"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 49,
+      "type": 0,
+      "name": "libA3AEECD8.so",
+      "mode": "exact",
+      "priority": 49,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libA3AEECD8.so.json",
+      "examples": {
+        "positive": [
+          "libA3AEECD8.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 52,
+      "type": 0,
+      "name": "lib39285EFA.so",
+      "mode": "exact",
+      "priority": 52,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/lib39285EFA.so.json",
+      "examples": {
+        "positive": [
+          "lib39285EFA.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 54,
+      "type": 0,
+      "name": "libsecsdk.so",
+      "mode": "exact",
+      "priority": 54,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsecsdk.so.json",
+      "examples": {
+        "positive": [
+          "libsecsdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 916,
+      "type": 0,
+      "name": "libmsaoaidauth.so",
+      "mode": "exact",
+      "priority": 916,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmsaoaidauth.so.json",
+      "examples": {
+        "positive": [
+          "libmsaoaidauth.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 917,
+      "type": 0,
+      "name": "libmsaoaidsec.so",
+      "mode": "exact",
+      "priority": 917,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmsaoaidsec.so.json",
+      "examples": {
+        "positive": [
+          "libmsaoaidsec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1231,
+      "type": 0,
+      "name": "libnllvm(.*)\\.so",
+      "mode": "regex",
+      "priority": 1231,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": "regex_msa",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_msa.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1798,
+      "type": 2,
+      "name": "com.bun.miitmdid.utilsforrequestpermission.PermissionTransparentActivity",
+      "mode": "exact",
+      "priority": 1798,
+      "label": "MSA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bun/miitmdid/utilsforrequestpermission/PermissionTransparentActivity.json",
+      "examples": {
+        "positive": [
+          "com.bun.miitmdid.utilsforrequestpermission.PermissionTransparentActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

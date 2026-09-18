@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D33239E4-E723-5CCB-A7FB-FB26AFBC6DA9",
+  "iconId": "ic_lib_intercom",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2687,
+      "type": 6,
+      "name": "io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED",
+      "mode": "exact",
+      "priority": 2687,
+      "label": "Intercom",
+      "iconId": "ic_lib_intercom",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

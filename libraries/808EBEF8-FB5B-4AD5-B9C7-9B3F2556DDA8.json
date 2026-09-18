@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "808EBEF8-FB5B-4AD5-B9C7-9B3F2556DDA8",
+  "iconId": "ic_lib_vlc",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibVLC",
+        "dev_team": "VideoLAN",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "VLC 是一款免费、自由、开源的跨平台多媒体播放器及框架，可播放大多数多媒体文件，以及各类流媒体协议。",
+        "source_link": "https://github.com/videolan/vlc-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibVLC",
+        "dev_team": "VideoLAN",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "VLC is a free, open-source, cross-platform multimedia player and framework that plays most multimedia files, as well as various streaming protocols.",
+        "source_link": "https://github.com/videolan/vlc-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 682,
+      "type": 0,
+      "name": "libmla.so",
+      "mode": "exact",
+      "priority": 682,
+      "label": "LibVLC",
+      "iconId": "ic_lib_vlc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmla.so.json",
+      "examples": {
+        "positive": [
+          "libmla.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 683,
+      "type": 0,
+      "name": "libvlc.so",
+      "mode": "exact",
+      "priority": 683,
+      "label": "LibVLC",
+      "iconId": "ic_lib_vlc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvlc.so.json",
+      "examples": {
+        "positive": [
+          "libvlc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 684,
+      "type": 0,
+      "name": "libvlcjni.so",
+      "mode": "exact",
+      "priority": 684,
+      "label": "LibVLC",
+      "iconId": "ic_lib_vlc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvlcjni.so.json",
+      "examples": {
+        "positive": [
+          "libvlcjni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

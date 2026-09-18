@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8D800353-205A-4A3A-8E48-588EF2C1725D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibSig",
+        "dev_team": "Qix",
+        "rule_contributors": [
+          "EntertainmentOne"
+        ],
+        "description": "libsig 是一个用于 C++ 的反应式计算库。",
+        "source_link": "https://github.com/Qix-/libsig"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibSig",
+        "dev_team": "Qix",
+        "rule_contributors": [
+          "EntertainmentOne"
+        ],
+        "description": "libsig is a reactive computation library for C++.",
+        "source_link": "https://github.com/Qix-/libsig"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2148,
+      "type": 0,
+      "name": "libsig_native.so",
+      "mode": "exact",
+      "priority": 2148,
+      "label": "LibSig",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsig_native.so.json",
+      "examples": {
+        "positive": [
+          "libsig_native.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

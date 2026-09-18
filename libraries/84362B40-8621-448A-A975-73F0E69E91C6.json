@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "84362B40-8621-448A-A975-73F0E69E91C6",
+  "iconId": "ic_lib_chromium",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Trichrome",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "YuukikazeMKII"
+        ],
+        "description": "Trichrome 返回到 Chrome 和 Webview 的单独应用程序，但将共享资源放在第三个共享库 APK 中。",
+        "source_link": "https://chromium.googlesource.com/chromium/src/+/master/docs/android_native_libraries.md#Trichrome"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Trichrome",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "YuukikazeMKII"
+        ],
+        "description": "Trichrome returns to separate apps for Chrome and Webview, but places shared resources in a third shared-library APK.",
+        "source_link": "https://chromium.googlesource.com/chromium/src/+/master/docs/android_native_libraries.md#Trichrome"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 771,
+      "type": 6,
+      "name": "com.google.android.trichromelibrary",
+      "mode": "exact",
+      "priority": 771,
+      "label": "Trichrome",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "static-libs/com/google/android/trichromelibrary.json",
+      "examples": {
+        "positive": [
+          "com.google.android.trichromelibrary"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

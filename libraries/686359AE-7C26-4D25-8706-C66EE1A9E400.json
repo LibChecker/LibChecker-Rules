@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "686359AE-7C26-4D25-8706-C66EE1A9E400",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ACRA",
+        "dev_team": "ACRA",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "ACRA 捕获异常，检索大量上下文数据并将其发送到您选择的后端。",
+        "source_link": "https://github.com/ACRA/acra"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ACRA",
+        "dev_team": "ACRA",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "ACRA catches exceptions, retrieves lots of context data and sends them to the backend of your choice.",
+        "source_link": "https://github.com/ACRA/acra"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1549,
+      "type": 2,
+      "name": "org.acra.dialog.CrashReportDialog",
+      "mode": "exact",
+      "priority": 1549,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/org/acra/dialog/CrashReportDialog.json",
+      "examples": {
+        "positive": [
+          "org.acra.dialog.CrashReportDialog"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1550,
+      "type": 2,
+      "name": "org.acra.receiver.NotificationActivity",
+      "mode": "exact",
+      "priority": 1550,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/org/acra/receiver/NotificationActivity.json",
+      "examples": {
+        "positive": [
+          "org.acra.receiver.NotificationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1555,
+      "type": 0,
+      "name": "libacra.so",
+      "mode": "exact",
+      "priority": 1555,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libacra.so.json",
+      "examples": {
+        "positive": [
+          "libacra.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1577,
+      "type": 4,
+      "name": "org.acra.attachment.AcraContentProvider",
+      "mode": "exact",
+      "priority": 1577,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/org/acra/attachment/AcraContentProvider.json",
+      "examples": {
+        "positive": [
+          "org.acra.attachment.AcraContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1579,
+      "type": 3,
+      "name": "org.acra.receiver.NotificationBroadcastReceiver",
+      "mode": "exact",
+      "priority": 1579,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/org/acra/receiver/NotificationBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "org.acra.receiver.NotificationBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1586,
+      "type": 1,
+      "name": "org.acra.scheduler.RestartingService",
+      "mode": "exact",
+      "priority": 1586,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/acra/scheduler/RestartingService.json",
+      "examples": {
+        "positive": [
+          "org.acra.scheduler.RestartingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1587,
+      "type": 1,
+      "name": "org.acra.sender.JobSenderService",
+      "mode": "exact",
+      "priority": 1587,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/acra/sender/JobSenderService.json",
+      "examples": {
+        "positive": [
+          "org.acra.sender.JobSenderService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1588,
+      "type": 1,
+      "name": "org.acra.sender.LegacySenderService",
+      "mode": "exact",
+      "priority": 1588,
+      "label": "ACRA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/acra/sender/LegacySenderService.json",
+      "examples": {
+        "positive": [
+          "org.acra.sender.LegacySenderService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FBBEA24A-9DC8-4B71-80A2-34203D59D4F8",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MindSpore Lite",
+        "dev_team": "Huawei, MindSpore Community",
+        "rule_contributors": [
+          "virtual-panda"
+        ],
+        "description": "MindSpore Lite 是一个极速、极智、极简的 AI 引擎，使能全场景智能应用，为用户提供端到端的解决方案，帮助用户使能 AI 能力。",
+        "source_link": "https://www.mindspore.cn/lite"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MindSpore Lite",
+        "dev_team": "Huawei, MindSpore Community",
+        "rule_contributors": [
+          "virtual-panda"
+        ],
+        "description": "MindSpore Lite is a fast, intelligent, and simple AI engine that enables full-scene intelligent applications, providing users with end-to-end solutions, helping them enable AI capabilities.",
+        "source_link": "https://www.mindspore.cn/lite"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1504,
+      "type": 0,
+      "name": "libmindspore-lite.so",
+      "mode": "exact",
+      "priority": 1504,
+      "label": "MindSpore Lite",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmindspore-lite.so.json",
+      "examples": {
+        "positive": [
+          "libmindspore-lite.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

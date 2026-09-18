@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "173EB821-67A2-49CE-A994-B1B2DC72AC1C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "TapSDK",
+        "dev_team": "TapTap",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "TapTap 开发者服务（TapTap Developer Services，简称 TDS 服务）旨在运用 TapTap 平台资源、技术积累、发行经验，帮助开发者降低游戏研发、运营成本，连接目标玩家，提升各项数据，最终取得游戏成功。",
+        "source_link": "https://developer.taptap.cn/docs/sdk/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "TapSDK",
+        "dev_team": "TapTap",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "TapTap Developer Services (TDS) aims to leverage TapTap’s platform resources, technical expertise, and publishing experience to help developers reduce game development and operation costs, connect with target players, improve key metrics, and ultimately achieve game success.",
+        "source_link": "https://developer.taptap.cn/docs/sdk/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2411,
+      "type": 2,
+      "name": "com.taptap.sdk.TapLoginHelperActivity",
+      "mode": "exact",
+      "priority": 2411,
+      "label": "TapSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/taptap/sdk/TapLoginHelperActivity.json",
+      "examples": {
+        "positive": [
+          "com.taptap.sdk.TapLoginHelperActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2412,
+      "type": 2,
+      "name": "com.taptap.sdk.ui.TapTapActivity",
+      "mode": "exact",
+      "priority": 2412,
+      "label": "TapSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/taptap/sdk/ui/TapTapActivity.json",
+      "examples": {
+        "positive": [
+          "com.taptap.sdk.ui.TapTapActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2413,
+      "type": 2,
+      "name": "com.tds.common.oauth.TapTapEntryActivity",
+      "mode": "exact",
+      "priority": 2413,
+      "label": "TapSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tds/common/oauth/TapTapEntryActivity.json",
+      "examples": {
+        "positive": [
+          "com.tds.common.oauth.TapTapEntryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2436,
+      "type": 0,
+      "name": "libtapsdkcore.so",
+      "mode": "exact",
+      "priority": 2436,
+      "label": "TapSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtapsdkcore.so.json",
+      "examples": {
+        "positive": [
+          "libtapsdkcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2444,
+      "type": 4,
+      "name": "com.taptap.sdk.internal.user.CurrentUserProvider",
+      "mode": "exact",
+      "priority": 2444,
+      "label": "TapSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/taptap/sdk/internal/user/CurrentUserProvider.json",
+      "examples": {
+        "positive": [
+          "com.taptap.sdk.internal.user.CurrentUserProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2445,
+      "type": 4,
+      "name": "com.tds.common.provider.CurrentConfigProvider",
+      "mode": "exact",
+      "priority": 2445,
+      "label": "TapSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tds/common/provider/CurrentConfigProvider.json",
+      "examples": {
+        "positive": [
+          "com.tds.common.provider.CurrentConfigProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

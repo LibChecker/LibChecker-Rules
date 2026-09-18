@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EFA57622-1833-4C51-8520-69B72A704A3E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Argon2",
+        "dev_team": "skynet-im",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "适用于 Android 的 Argon2 封装库。",
+        "source_link": "https://github.com/skynet-im/libargon2"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Argon2",
+        "dev_team": "skynet-im",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Argon2 wrapper for Android.",
+        "source_link": "https://github.com/skynet-im/libargon2"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2200,
+      "type": 0,
+      "name": "libargon2-wrapper-0.5.so",
+      "mode": "exact",
+      "priority": 2200,
+      "label": "Argon2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libargon2-wrapper-0.5.so.json",
+      "examples": {
+        "positive": [
+          "libargon2-wrapper-0.5.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

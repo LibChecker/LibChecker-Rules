@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9E59DB84-1D8D-4011-988F-E2341A4D2E17",
+  "iconId": "ic_lib_honor",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "荣耀推送服务",
+        "dev_team": "HONOR",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "荣耀推送服务（HONOR PUSH）是荣耀公司向开发者提供的消息推送服务，通过服务端与客户端建立一条稳定、可靠的长连接通道，向荣耀手机系统（Magic UI）上的 APP 应用客户端实时推送消息的服务。无论应用进程是否存在，均可正常收到消息。",
+        "source_link": "https://developer.hihonor.com/cn/doc/guides/100220"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Honor Push Service",
+        "dev_team": "HONOR",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "HONOR PUSH is a message push service provided by Honor to developers, establishing a stable and reliable long connection channel between the server and client, pushing messages to app clients on the Honor phone system (Magic UI) in real-time. Messages can be received normally regardless of whether the application process exists.",
+        "source_link": "https://developer.hihonor.com/cn/doc/guides/100220"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1313,
+      "type": 3,
+      "name": "com.hihonor.push.sdk.PushReceiver",
+      "mode": "exact",
+      "priority": 1313,
+      "label": "HONOR Push",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/hihonor/push/sdk/PushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.push.sdk.PushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1314,
+      "type": 4,
+      "name": "com.hihonor.push.sdk.init.AutoInitProvider",
+      "mode": "exact",
+      "priority": 1314,
+      "label": "HONOR Push",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/hihonor/push/sdk/init/AutoInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.push.sdk.init.AutoInitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

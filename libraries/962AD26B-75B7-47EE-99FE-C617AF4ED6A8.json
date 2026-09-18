@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "962AD26B-75B7-47EE-99FE-C617AF4ED6A8",
+  "iconId": "ic_lib_react",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-blob-util",
+        "dev_team": "Ron Radtke",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "一个致力于让 React Native 开发者更轻松、更高效地进行文件访问和数据传输的项目。",
+        "source_link": "https://github.com/RonRadtke/react-native-blob-util"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-blob-util",
+        "dev_team": "Ron Radtke",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "A project committed to making file access and data transfer easier, efficient for React Native developers.",
+        "source_link": "https://github.com/RonRadtke/react-native-blob-util"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2849,
+      "type": 4,
+      "name": "com.ReactNativeBlobUtil.Utils.FileProvider",
+      "mode": "exact",
+      "priority": 2849,
+      "label": "react-native-blob-util",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/ReactNativeBlobUtil/Utils/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.ReactNativeBlobUtil.Utils.FileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

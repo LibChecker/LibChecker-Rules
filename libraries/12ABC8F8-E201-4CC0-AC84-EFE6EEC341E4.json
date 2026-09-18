@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 5,
+  "uuid": "12ABC8F8-E201-4CC0-AC84-EFE6EEC341E4",
+  "iconId": "ic_lib_zbar",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ZBar",
+        "dev_team": "spadix",
+        "rule_contributors": [
+          "culat",
+          "Absinthe"
+        ],
+        "description": "ZBar 是一个用于从各种来源读取条码的开源软件套件, 它支持许多流行的条码类型, 包括 EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, 交叉 2/5 码(Interleaved 2 of 5)和二维码(QR Code)",
+        "source_link": "http://zbar.sourceforge.net/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ZBar",
+        "dev_team": "spadix",
+        "rule_contributors": [
+          "culat",
+          "Absinthe"
+        ],
+        "description": "ZBar is an open-source software suite for reading barcodes from various sources. It supports many popular barcode types, including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Interleaved 2 of 5, and QR Code.",
+        "source_link": "http://zbar.sourceforge.net/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 731,
+      "type": 0,
+      "name": "libzbar.so",
+      "mode": "exact",
+      "priority": 731,
+      "label": "ZBar",
+      "iconId": "ic_lib_zbar",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzbar.so.json",
+      "examples": {
+        "positive": [
+          "libzbar.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 743,
+      "type": 0,
+      "name": "libzbarjni.so",
+      "mode": "exact",
+      "priority": 743,
+      "label": "ZBar",
+      "iconId": "ic_lib_zbar",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzbarjni.so.json",
+      "examples": {
+        "positive": [
+          "libzbarjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 852,
+      "type": 4,
+      "name": "cn.bertsir.zbar.utils.QrFileProvider",
+      "mode": "exact",
+      "priority": 852,
+      "label": "ZBar",
+      "iconId": "ic_lib_zbar",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/bertsir/zbar/utils/QrFileProvider.json",
+      "examples": {
+        "positive": [
+          "cn.bertsir.zbar.utils.QrFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1118,
+      "type": 2,
+      "name": "cn.bertsir.zbar.QRActivity",
+      "mode": "exact",
+      "priority": 1118,
+      "label": "ZBar",
+      "iconId": "ic_lib_zbar",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/bertsir/zbar/QRActivity.json",
+      "examples": {
+        "positive": [
+          "cn.bertsir.zbar.QRActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1119,
+      "type": 2,
+      "name": "cn.bertsir.zbar.utils.PermissionUtils$PermissionActivity",
+      "mode": "exact",
+      "priority": 1119,
+      "label": "ZBar",
+      "iconId": "ic_lib_zbar",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/bertsir/zbar/utils/PermissionUtils$PermissionActivity.json",
+      "examples": {
+        "positive": [
+          "cn.bertsir.zbar.utils.PermissionUtils$PermissionActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

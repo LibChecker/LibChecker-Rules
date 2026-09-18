@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7F02BB86-6A46-4602-A155-8470A821A9D1",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google VR SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "Google VR for Android 支持 DayDream 和 Cardboard。",
+        "source_link": "https://github.com/googlevr/gvr-android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google VR SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "Google VR for Android supports DayDream and Cardboard.",
+        "source_link": "https://github.com/googlevr/gvr-android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 689,
+      "type": 0,
+      "name": "libgvr.so",
+      "mode": "exact",
+      "priority": 689,
+      "label": "Google VR SDK",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgvr.so.json",
+      "examples": {
+        "positive": [
+          "libgvr.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6705999F-C5AF-4C7C-8A85-F0902294A771",
+  "iconId": "ic_lib_matrix",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Matrix Rust SDK",
+        "dev_team": "Matrix.org",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "用 Rust 创建 Matrix 客户端的一体化工具包，覆盖从简单机器人到功能完整应用的开发。",
+        "source_link": "https://github.com/matrix-org/matrix-rust-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Matrix Rust SDK",
+        "dev_team": "Matrix.org",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Your all-in-one toolkit for creating Matrix clients with Rust, from simple bots to full-featured apps.",
+        "source_link": "https://github.com/matrix-org/matrix-rust-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2823,
+      "type": 0,
+      "name": "libmatrix_sdk_ffi.so",
+      "mode": "exact",
+      "priority": 2823,
+      "label": "Matrix Rust SDK",
+      "iconId": "ic_lib_matrix",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix_sdk_ffi.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix_sdk_ffi.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

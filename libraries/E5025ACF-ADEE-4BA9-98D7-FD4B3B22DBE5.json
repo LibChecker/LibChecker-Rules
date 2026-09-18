@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E5025ACF-ADEE-4BA9-98D7-FD4B3B22DBE5",
+  "iconId": "ic_lib_lame",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LAME",
+        "dev_team": "The LAME Project",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "LAME 是一个高质量的 MPEG 音频层 III (MP3) 编码器，采用 LGPL 许可。",
+        "source_link": "https://lame.sourceforge.io/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LAME",
+        "dev_team": "The LAME Project",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "LAME is a high-quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
+        "source_link": "https://lame.sourceforge.io/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 145,
+      "type": 0,
+      "name": "libmp3lame.so",
+      "mode": "exact",
+      "priority": 145,
+      "label": "LAME",
+      "iconId": "ic_lib_lame",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmp3lame.so.json",
+      "examples": {
+        "positive": [
+          "libmp3lame.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

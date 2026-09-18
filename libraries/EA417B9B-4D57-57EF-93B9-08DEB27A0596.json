@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EA417B9B-4D57-57EF-93B9-08DEB27A0596",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 827,
+      "type": 5,
+      "name": "org.lsposed.lspatch",
+      "mode": "exact",
+      "priority": 827,
+      "label": "LSPatch",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "org.lsposed.lspatch"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

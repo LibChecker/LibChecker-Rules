@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B6A4C29D-79EA-55F1-8C7D-426E1B2C693C",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 503,
+      "type": 5,
+      "name": "androidx.swiperefreshlayout",
+      "mode": "exact",
+      "priority": 503,
+      "label": "Jetpack SwipeRefreshLayout",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.swiperefreshlayout"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

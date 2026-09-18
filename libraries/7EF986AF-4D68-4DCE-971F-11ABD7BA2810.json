@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7EF986AF-4D68-4DCE-971F-11ABD7BA2810",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android BLE Scanner Compat library",
+        "dev_team": "NordicSemiconductor",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Scanner Compat 库解决了在 Android 上扫描 BLE 设备的问题。",
+        "source_link": "https://github.com/NordicSemiconductor/Android-Scanner-Compat-Library"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android BLE Scanner Compat library",
+        "dev_team": "NordicSemiconductor",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "The Scanner Compat library addresses the issue of scanning BLE devices on Android.",
+        "source_link": "https://github.com/NordicSemiconductor/Android-Scanner-Compat-Library"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 641,
+      "type": 3,
+      "name": "no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver",
+      "mode": "exact",
+      "priority": 641,
+      "label": "ABSCL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/no/nordicsemi/android/support/v18/scanner/PendingIntentReceiver.json",
+      "examples": {
+        "positive": [
+          "no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 642,
+      "type": 1,
+      "name": "no.nordicsemi.android.support.v18.scanner.ScannerService",
+      "mode": "exact",
+      "priority": 642,
+      "label": "ABSCL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/no/nordicsemi/android/support/v18/scanner/ScannerService.json",
+      "examples": {
+        "positive": [
+          "no.nordicsemi.android.support.v18.scanner.ScannerService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

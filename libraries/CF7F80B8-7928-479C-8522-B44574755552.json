@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CF7F80B8-7928-479C-8522-B44574755552",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndPermission",
+        "dev_team": "yanzhenjie",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Android 平台上的权限管理器。",
+        "source_link": "https://github.com/yanzhenjie/AndPermission"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndPermission",
+        "dev_team": "yanzhenjie",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Permission manager on the Android platform.",
+        "source_link": "https://github.com/yanzhenjie/AndPermission"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 275,
+      "type": 1,
+      "name": "com.yanzhenjie.permission.bridge.BridgeService",
+      "mode": "exact",
+      "priority": 275,
+      "label": "AndPermission",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/yanzhenjie/permission/bridge/BridgeService.json",
+      "examples": {
+        "positive": [
+          "com.yanzhenjie.permission.bridge.BridgeService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 314,
+      "type": 2,
+      "name": "com.yanzhenjie.permission.PermissionActivity",
+      "mode": "exact",
+      "priority": 314,
+      "label": "AndPermission",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/yanzhenjie/permission/PermissionActivity.json",
+      "examples": {
+        "positive": [
+          "com.yanzhenjie.permission.PermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 334,
+      "type": 2,
+      "name": "com.yanzhenjie.permission.bridge.BridgeActivity",
+      "mode": "exact",
+      "priority": 334,
+      "label": "AndPermission",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/yanzhenjie/permission/bridge/BridgeActivity.json",
+      "examples": {
+        "positive": [
+          "com.yanzhenjie.permission.bridge.BridgeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 456,
+      "type": 4,
+      "name": "com.yanzhenjie.permission.FileProvider",
+      "mode": "exact",
+      "priority": 456,
+      "label": "AndPermission",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/yanzhenjie/permission/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.yanzhenjie.permission.FileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

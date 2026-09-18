@@ -1,0 +1,49 @@
+name: Publish rules data
+on:
+  workflow_dispatch:
+    inputs:
+      bootstrap_source_revision:
+        description: 'First publication only: exact sourceRevision of the consumer-locked local bootstrap manifest'
+        required: false
+        type: string
+  push:
+    branches: [v4]
+    paths: ['libraries/**', 'icons/**', 'tools/**', 'tests/matching-fixtures.json']
+permissions:
+  contents: write
+concurrency:
+  group: publish-rules-data
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref_name == 'v4'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ inputs.bootstrap_source_revision || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - run: python tools/rules.py check
+      - run: python -m unittest discover -s tests -v
+      - name: Publish immutable files, v4 compatibility, then manifest
+        env:
+          REPOSITORY: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          BOOTSTRAP_SOURCE_REVISION: ${{ inputs.bootstrap_source_revision }}
+        run: |
+          git config --global credential.helper '!f() { echo username=x-access-token; echo "password=$GH_TOKEN"; }; f'
+          args=()
+          if [[ -n "$BOOTSTRAP_SOURCE_REVISION" ]]; then
+            args+=(--bootstrap-source-revision "$BOOTSTRAP_SOURCE_REVISION")
+          fi
+          python tools/publish_rules.py --remote "https://github.com/${REPOSITORY}.git" "${args[@]}"

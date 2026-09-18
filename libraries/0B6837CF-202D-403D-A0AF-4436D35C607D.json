@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0B6837CF-202D-403D-A0AF-4436D35C607D",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯游戏 GCloud",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Tencent GCloud 服务平台是腾讯游戏研发效能部打造的游戏中台，负责聚焦腾讯游戏技术预研和实现，通过提供产品化的服务来提升整体游戏研发效能。",
+        "source_link": "https://gcloud.tencent.com/pages/documents/index.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Games GCloud",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Tencent GCloud service platform is a game middleware developed by Tencent’s Game R&D Efficiency Department. It focuses on Tencent’s game technology research and implementation, providing productized services to improve overall game development efficiency.",
+        "source_link": "https://gcloud.tencent.com/pages/documents/index.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2537,
+      "type": 0,
+      "name": "libgcloud.so",
+      "mode": "exact",
+      "priority": 2537,
+      "label": "腾讯游戏 GCloud",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgcloud.so.json",
+      "examples": {
+        "positive": [
+          "libgcloud.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2538,
+      "type": 0,
+      "name": "libgloudcore.so",
+      "mode": "exact",
+      "priority": 2538,
+      "label": "腾讯游戏 GCloud",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgloudcore.so.json",
+      "examples": {
+        "positive": [
+          "libgloudcore.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

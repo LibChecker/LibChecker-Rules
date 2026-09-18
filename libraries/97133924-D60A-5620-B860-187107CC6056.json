@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "97133924-D60A-5620-B860-187107CC6056",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 529,
+      "type": 5,
+      "name": "androidx.fragment",
+      "mode": "exact",
+      "priority": 529,
+      "label": "Jetpack Fragment",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.fragment"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

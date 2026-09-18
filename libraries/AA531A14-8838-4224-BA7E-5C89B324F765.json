@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AA531A14-8838-4224-BA7E-5C89B324F765",
+  "iconId": "ic_lib_adjust",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Adjust SDK",
+        "dev_team": "Adjust",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "通过 Adjust 安卓 SDK，您可以在自己的安卓应用中跟踪归因、事件及更多数据。",
+        "source_link": "https://help.adjust.com/en/developer/android-sdk-documentation"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Adjust SDK",
+        "dev_team": "Adjust",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "With the Adjust Android SDK, you can track attribution, events, and more data within your Android app.",
+        "source_link": "https://help.adjust.com/en/developer/android-sdk-documentation"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1570,
+      "type": 0,
+      "name": "libsigner.so",
+      "mode": "exact",
+      "priority": 1570,
+      "label": "Adjust SDK",
+      "iconId": "ic_lib_adjust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsigner.so.json",
+      "examples": {
+        "positive": [
+          "libsigner.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2850,
+      "type": 4,
+      "name": "com.adjust.sdk.SystemLifecycleContentProvider",
+      "mode": "exact",
+      "priority": 2850,
+      "label": "Adjust SDK",
+      "iconId": "ic_lib_adjust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/adjust/sdk/SystemLifecycleContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.adjust.sdk.SystemLifecycleContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2865,
+      "type": 3,
+      "name": "com.adjust.sdk.AdjustReferrerReceiver",
+      "mode": "exact",
+      "priority": 2865,
+      "label": "Adjust SDK",
+      "iconId": "ic_lib_adjust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/adjust/sdk/AdjustReferrerReceiver.json",
+      "examples": {
+        "positive": [
+          "com.adjust.sdk.AdjustReferrerReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

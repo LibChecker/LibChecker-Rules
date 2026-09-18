@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 5,
+  "uuid": "125383A9-140E-4146-986F-8D3BD2FF2A73",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "中国无线营销联盟通用 SDK",
+        "dev_team": "中国无线营销联盟",
+        "rule_contributors": [
+          "ag2s20150909",
+          "ArthurCyy",
+          "yfdyh000"
+        ],
+        "description": "MMA(中国无线营销联盟)通用 SDK。以往，要监测 APP 中广告的曝光、点击等数据，需要加入第三方广告监测公司的 SDK，如果不同广告主使用了不同的第三方广告监测，需要加多个公司的监测 SDK，无疑增加了成本和风险。现在，只需添加一次 MMA(中国无线营销联盟)通用 SDK，即可满足所有 MMA 成员中所有第三方监测公司的监测需求，同时 SDK 内部的调用方法保持一致，也降低了开发成本。",
+        "source_link": "http://www.mmachina.cn/assets/mma_doc/index.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "China Wireless Marketing Alliance General SDK",
+        "dev_team": "中国无线营销联盟",
+        "rule_contributors": [
+          "ag2s20150909",
+          "ArthurCyy",
+          "yfdyh000"
+        ],
+        "description": "MMA (China Wireless Marketing Alliance) Universal SDK. Previously, to monitor ad exposure and clicks in an app, you needed to integrate SDKs from third-party ad monitoring companies. If different advertisers used different third-party ad monitoring, multiple monitoring SDKs needed to be added, undoubtedly increasing costs and risks. Now, by adding the MMA Universal SDK once, you can meet the monitoring needs of all third-party monitoring companies among all MMA members, while maintaining consistent internal SDK call methods, reducing development costs.",
+        "source_link": "http://www.mmachina.cn/assets/mma_doc/index.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 680,
+      "type": 0,
+      "name": "libMMANDKSignature.so",
+      "mode": "exact",
+      "priority": 680,
+      "label": "MMA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMMANDKSignature.so.json",
+      "examples": {
+        "positive": [
+          "libMMANDKSignature.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1156,
+      "type": 0,
+      "name": "libMMASignature.so",
+      "mode": "exact",
+      "priority": 1156,
+      "label": "MMA SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMMASignature.so.json",
+      "examples": {
+        "positive": [
+          "libMMASignature.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

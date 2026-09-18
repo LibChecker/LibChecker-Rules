@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4EF3288B-9AAE-4F61-9FF1-F9EAAD8AC4BF",
+  "iconId": "ic_lib_jd",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "京媒 SDK",
+        "dev_team": "京东",
+        "rule_contributors": [
+          "Jian66666"
+        ],
+        "description": "京媒平台依托京东海量电商广告主，京东为媒体提供最优质的商业化解决方案。可帮助媒体快速自助对接资源、高效率将京东广告主的广告投放在媒体资源位上，支持多种交易模式，灵活、自主、透明，最大化实现媒体资源价值变现。",
+        "source_link": "https://opendoc.jd.com/janGroup/help/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "JD Media SDK",
+        "dev_team": "京东",
+        "rule_contributors": [
+          "Jian66666"
+        ],
+        "description": "Relying on JD.com's massive e-commerce advertiser base, the JD Media platform provides media partners with high-quality commercialization solutions. It helps media quickly and autonomously access resources to efficiently display ads from JD advertisers, supporting various trading models that are flexible, independent, and transparent to maximize media resource monetization.",
+        "source_link": "https://opendoc.jd.com/janGroup/help/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2605,
+      "type": 2,
+      "name": "com.jd.ad.sdk.bl.adinteraction.deeplink.JADTransparentActivity",
+      "mode": "exact",
+      "priority": 2605,
+      "label": "京媒 SDK",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/jd/ad/sdk/bl/adinteraction/deeplink/JADTransparentActivity.json",
+      "examples": {
+        "positive": [
+          "com.jd.ad.sdk.bl.adinteraction.deeplink.JADTransparentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2606,
+      "type": 2,
+      "name": "com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity",
+      "mode": "exact",
+      "priority": 2606,
+      "label": "京媒 SDK",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/jd/ad/sdk/bl/adinteraction/deeplink/JADWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

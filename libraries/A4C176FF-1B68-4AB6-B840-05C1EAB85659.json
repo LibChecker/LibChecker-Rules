@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A4C176FF-1B68-4AB6-B840-05C1EAB85659",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AnyChat",
+        "dev_team": "广州佰锐网络科技有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "一站式音视频生态系统解决方案 / 跨平台音视频能力生态解决方案。",
+        "source_link": "http://anychat.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AnyChat",
+        "dev_team": "广州佰锐网络科技有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "A one-stop audio and video ecosystem solution / cross-platform audio and video capability ecosystem solution.",
+        "source_link": "http://anychat.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1306,
+      "type": 0,
+      "name": "libmediautil_v6.so",
+      "mode": "exact",
+      "priority": 1306,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediautil_v6.so.json",
+      "examples": {
+        "positive": [
+          "libmediautil_v6.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1307,
+      "type": 0,
+      "name": "libmediautil_v7.so",
+      "mode": "exact",
+      "priority": 1307,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediautil_v7.so.json",
+      "examples": {
+        "positive": [
+          "libmediautil_v7.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1308,
+      "type": 0,
+      "name": "libmediautil_v8.so",
+      "mode": "exact",
+      "priority": 1308,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediautil_v8.so.json",
+      "examples": {
+        "positive": [
+          "libmediautil_v8.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1309,
+      "type": 0,
+      "name": "libanychatcore.so",
+      "mode": "exact",
+      "priority": 1309,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libanychatcore.so.json",
+      "examples": {
+        "positive": [
+          "libanychatcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1310,
+      "type": 0,
+      "name": "libaudio_preprocessing.so",
+      "mode": "exact",
+      "priority": 1310,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaudio_preprocessing.so.json",
+      "examples": {
+        "positive": [
+          "libaudio_preprocessing.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1311,
+      "type": 0,
+      "name": "libmediacore.so",
+      "mode": "exact",
+      "priority": 1311,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediacore.so.json",
+      "examples": {
+        "positive": [
+          "libmediacore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1312,
+      "type": 0,
+      "name": "libmediashow.so",
+      "mode": "exact",
+      "priority": 1312,
+      "label": "AnyChat",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediashow.so.json",
+      "examples": {
+        "positive": [
+          "libmediashow.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

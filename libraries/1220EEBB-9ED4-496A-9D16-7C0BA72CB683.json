@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1220EEBB-9ED4-496A-9D16-7C0BA72CB683",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ZAndrolua",
+        "dev_team": "MGLSIDE",
+        "rule_contributors": [
+          "MGLSIDE"
+        ],
+        "description": "ZAndrolua+ 提供的访问操作系统 Posix API 的 luaC 库。",
+        "source_link": "https://github.com/MGLSIDE/ZAndrolua"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ZAndrolua",
+        "dev_team": "MGLSIDE",
+        "rule_contributors": [
+          "MGLSIDE"
+        ],
+        "description": "ZAndrolua+ provides the luaC library for accessing the operating system Posix API.",
+        "source_link": "https://github.com/MGLSIDE/ZAndrolua"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1408,
+      "type": 0,
+      "name": "liblposix.so",
+      "mode": "exact",
+      "priority": 1408,
+      "label": "ZAndrolua",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblposix.so.json",
+      "examples": {
+        "positive": [
+          "liblposix.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

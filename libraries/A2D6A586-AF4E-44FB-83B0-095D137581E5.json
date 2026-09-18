@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A2D6A586-AF4E-44FB-83B0-095D137581E5",
+  "iconId": "ic_lib_tencent_youtu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯优图 SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "ArthurCyy",
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "腾讯优图 AI 开放平台提供 AI + 互联网、金融、教育等多元化的人工智能服务和行业解决方案，包括人脸核身、人脸防伪、内容安全等领域的产品和案例。",
+        "source_link": "https://open.youtu.qq.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Youtu SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "ArthurCyy",
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Tencent Youtu AI Open Platform provides diversified artificial intelligence services and industry solutions, including products and cases in fields like face authentication, face anti-spoofing, content security, etc.",
+        "source_link": "https://open.youtu.qq.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1414,
+      "type": 0,
+      "name": "libYTPoseDetect.so",
+      "mode": "exact",
+      "priority": 1414,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTPoseDetect.so.json",
+      "examples": {
+        "positive": [
+          "libYTPoseDetect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1415,
+      "type": 0,
+      "name": "libYTAGReflectLiveCheck.so",
+      "mode": "exact",
+      "priority": 1415,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTAGReflectLiveCheck.so.json",
+      "examples": {
+        "positive": [
+          "libYTAGReflectLiveCheck.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1416,
+      "type": 0,
+      "name": "libYTFaceAlignment.so",
+      "mode": "exact",
+      "priority": 1416,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTFaceAlignment.so.json",
+      "examples": {
+        "positive": [
+          "libYTFaceAlignment.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1417,
+      "type": 0,
+      "name": "libYTLipReader.so",
+      "mode": "exact",
+      "priority": 1417,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTLipReader.so.json",
+      "examples": {
+        "positive": [
+          "libYTLipReader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1418,
+      "type": 0,
+      "name": "libYTFaceReflect.so",
+      "mode": "exact",
+      "priority": 1418,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTFaceReflect.so.json",
+      "examples": {
+        "positive": [
+          "libYTFaceReflect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1419,
+      "type": 0,
+      "name": "libYTFaceTracker.so",
+      "mode": "exact",
+      "priority": 1419,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTFaceTracker.so.json",
+      "examples": {
+        "positive": [
+          "libYTFaceTracker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1420,
+      "type": 0,
+      "name": "libYTFaceDetector.so",
+      "mode": "exact",
+      "priority": 1420,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTFaceDetector.so.json",
+      "examples": {
+        "positive": [
+          "libYTFaceDetector.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1421,
+      "type": 0,
+      "name": "libYTFaceTrackPro2.so",
+      "mode": "exact",
+      "priority": 1421,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTFaceTrackPro2.so.json",
+      "examples": {
+        "positive": [
+          "libYTFaceTrackPro2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1770,
+      "type": 0,
+      "name": "libYTCommon.so",
+      "mode": "exact",
+      "priority": 1770,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTCommon.so.json",
+      "examples": {
+        "positive": [
+          "libYTCommon.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1771,
+      "type": 0,
+      "name": "libYTCommonLiveness.so",
+      "mode": "exact",
+      "priority": 1771,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTCommonLiveness.so.json",
+      "examples": {
+        "positive": [
+          "libYTCommonLiveness.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1772,
+      "type": 0,
+      "name": "libYTLiveness.so",
+      "mode": "exact",
+      "priority": 1772,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTLiveness.so.json",
+      "examples": {
+        "positive": [
+          "libYTLiveness.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2531,
+      "type": 0,
+      "name": "libYTCommonXMagic.so",
+      "mode": "exact",
+      "priority": 2531,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTCommonXMagic.so.json",
+      "examples": {
+        "positive": [
+          "libYTCommonXMagic.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2532,
+      "type": 0,
+      "name": "libYTImageRefiner.so",
+      "mode": "exact",
+      "priority": 2532,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTImageRefiner.so.json",
+      "examples": {
+        "positive": [
+          "libYTImageRefiner.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2533,
+      "type": 0,
+      "name": "libYoutuOcrJniApi.so",
+      "mode": "exact",
+      "priority": 2533,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent_youtu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYoutuOcrJniApi.so.json",
+      "examples": {
+        "positive": [
+          "libYoutuOcrJniApi.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2632,
+      "type": 0,
+      "name": "libYTImageRefinerPub.so",
+      "mode": "exact",
+      "priority": 2632,
+      "label": "腾讯优图 SDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTImageRefinerPub.so.json",
+      "examples": {
+        "positive": [
+          "libYTImageRefinerPub.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

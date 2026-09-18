@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "53E1B4D6-5346-409E-B810-4742C3BC7FF6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Vision Camera",
+        "dev_team": "mrousavy",
+        "rule_contributors": [
+          "mrousavy"
+        ],
+        "description": "VisionCamera 是一个功能强大的 React Native 摄像头库，具有照片和视频捕捉、帧处理和二维码扫描功能。",
+        "source_link": "https://github.com/mrousavy/react-native-vision-camera"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Vision Camera",
+        "dev_team": "mrousavy",
+        "rule_contributors": [
+          "mrousavy"
+        ],
+        "description": "VisionCamera is a powerful Camera library for React Native featuring Photo and Video capture, as well as Frame Processing and QR Code scanning.",
+        "source_link": "https://github.com/mrousavy/react-native-vision-camera"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1944,
+      "type": 0,
+      "name": "libVisionCamera.so",
+      "mode": "exact",
+      "priority": 1944,
+      "label": "React Native Vision Camera",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libVisionCamera.so.json",
+      "examples": {
+        "positive": [
+          "libVisionCamera.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

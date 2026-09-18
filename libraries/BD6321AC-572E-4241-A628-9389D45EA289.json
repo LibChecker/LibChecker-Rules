@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BD6321AC-572E-4241-A628-9389D45EA289",
+  "iconId": "ic_lib_react",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Push Notifications",
+        "dev_team": "Jorge Trujillo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "适用于 iOS 和 Android 的 React Native 本地与远程通知。",
+        "source_link": "https://github.com/zo0r/react-native-push-notification"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Push Notifications",
+        "dev_team": "Jorge Trujillo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native Local and Remote Notifications for iOS and Android.",
+        "source_link": "https://github.com/zo0r/react-native-push-notification"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2868,
+      "type": 3,
+      "name": "com.dieam.reactnativepushnotification.modules.RNPushNotificationActions",
+      "mode": "exact",
+      "priority": 2868,
+      "label": "React Native Push Notifications",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/dieam/reactnativepushnotification/modules/RNPushNotificationActions.json",
+      "examples": {
+        "positive": [
+          "com.dieam.reactnativepushnotification.modules.RNPushNotificationActions"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2869,
+      "type": 3,
+      "name": "com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver",
+      "mode": "exact",
+      "priority": 2869,
+      "label": "React Native Push Notifications",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/dieam/reactnativepushnotification/modules/RNPushNotificationBootEventReceiver.json",
+      "examples": {
+        "positive": [
+          "com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2870,
+      "type": 3,
+      "name": "com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher",
+      "mode": "exact",
+      "priority": 2870,
+      "label": "React Native Push Notifications",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/dieam/reactnativepushnotification/modules/RNPushNotificationPublisher.json",
+      "examples": {
+        "positive": [
+          "com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2894,
+      "type": 1,
+      "name": "com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService",
+      "mode": "exact",
+      "priority": 2894,
+      "label": "React Native Push Notifications",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/dieam/reactnativepushnotification/modules/RNPushNotificationListenerService.json",
+      "examples": {
+        "positive": [
+          "com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2895,
+      "type": 1,
+      "name": "com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService",
+      "mode": "exact",
+      "priority": 2895,
+      "label": "React Native Push Notifications",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/dieam/reactnativepushnotification/modules/RNPushNotificationRegistrationService.json",
+      "examples": {
+        "positive": [
+          "com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

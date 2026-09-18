@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "68944C21-9EFA-4B69-9F56-023676BDF6CF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HDiffPatch",
+        "dev_team": "sisong",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "A C\\C++ library and command-line tools for Diff & Patch between binary files or directories(folder). 一个高效的 diff/patch 实现。",
+        "source_link": "https://github.com/sisong/HDiffPatch"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HDiffPatch",
+        "dev_team": "sisong",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "A C\\C++ library and command-line tools for Diff & Patch between binary files or directories (folder). An efficient diff/patch implementation.",
+        "source_link": "https://github.com/sisong/HDiffPatch"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1173,
+      "type": 0,
+      "name": "libhpatchz.so",
+      "mode": "exact",
+      "priority": 1173,
+      "label": "HDiffPatch",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhpatchz.so.json",
+      "examples": {
+        "positive": [
+          "libhpatchz.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2211,
+      "type": 0,
+      "name": "libhdiffpatch.so",
+      "mode": "exact",
+      "priority": 2211,
+      "label": "HDiffPatch",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhdiffpatch.so.json",
+      "examples": {
+        "positive": [
+          "libhdiffpatch.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

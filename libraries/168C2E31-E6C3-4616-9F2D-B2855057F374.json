@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "168C2E31-E6C3-4616-9F2D-B2855057F374",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Conceal",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "提供 Android API，实现数据的快速加密和身份验证。",
+        "source_link": "https://github.com/facebookarchive/conceal"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Conceal",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Provides Android APIs for fast data encryption and authentication.",
+        "source_link": "https://github.com/facebookarchive/conceal"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2641,
+      "type": 0,
+      "name": "libconceal.so",
+      "mode": "exact",
+      "priority": 2641,
+      "label": "Conceal",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libconceal.so.json",
+      "examples": {
+        "positive": [
+          "libconceal.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

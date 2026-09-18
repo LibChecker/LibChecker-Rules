@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8A32C25F-C130-4CAE-A840-49FD4D75E232",
+  "iconId": "ic_lib_litert",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LiteRT",
+        "dev_team": "TensorFlow",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "ArcticFoxPro",
+          "codebymikey"
+        ],
+        "description": "LiteRT（简称自 Lite Runtime，以前称为 TensorFlow Lite）是 Google 面向设备端 AI 的高性能运行时。",
+        "source_link": "https://ai.google.dev/edge/litert"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LiteRT",
+        "dev_team": "TensorFlow",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "ArcticFoxPro",
+          "codebymikey"
+        ],
+        "description": "LiteRT (short for Lite Runtime), formerly known as TensorFlow Lite, is Google's high-performance runtime for on-device AI.",
+        "source_link": "https://ai.google.dev/edge/litert"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 27,
+      "type": 0,
+      "name": "libtensorflowlite_jni.so",
+      "mode": "exact",
+      "priority": 27,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite_jni.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1146,
+      "type": 0,
+      "name": "libtensorflowlite_gpu_jni.so",
+      "mode": "exact",
+      "priority": 1146,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite_gpu_jni.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite_gpu_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1404,
+      "type": 0,
+      "name": "libtensorflowlite_flex_jni.so",
+      "mode": "exact",
+      "priority": 1404,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite_flex_jni.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite_flex_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1405,
+      "type": 0,
+      "name": "libtensorflowLite.so",
+      "mode": "exact",
+      "priority": 1405,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowLite.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1887,
+      "type": 0,
+      "name": "libtensorflow_inference.so",
+      "mode": "exact",
+      "priority": 1887,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflow_inference.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflow_inference.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1888,
+      "type": 0,
+      "name": "libtensorflowlite_jni_gms_client.so",
+      "mode": "exact",
+      "priority": 1888,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite_jni_gms_client.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite_jni_gms_client.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2065,
+      "type": 0,
+      "name": "libtensorflowlite_c.so",
+      "mode": "exact",
+      "priority": 2065,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite_c.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite_c.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2133,
+      "type": 0,
+      "name": "libpcs_tensorflow_jni.so",
+      "mode": "exact",
+      "priority": 2133,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpcs_tensorflow_jni.so.json",
+      "examples": {
+        "positive": [
+          "libpcs_tensorflow_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2151,
+      "type": 0,
+      "name": "libtensorflowlite_jni_stable.so",
+      "mode": "exact",
+      "priority": 2151,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite_jni_stable.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite_jni_stable.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2452,
+      "type": 0,
+      "name": "libtensorflowlite.so",
+      "mode": "exact",
+      "priority": 2452,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtensorflowlite.so.json",
+      "examples": {
+        "positive": [
+          "libtensorflowlite.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

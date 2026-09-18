@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "73C8750C-42CB-4E42-A58E-B87C36F97E09",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "防水墙",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "专注业务安全服务，用领先的人工智能技术解决业务欺诈、薅羊毛、刷单、爬虫、撞库等问题，让您的企业零投入也能有微信/QQ 级别的业务安全服务。",
+        "source_link": "https://007.qq.com/quick-start.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Waterproof Wall",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Focusing on business security services, using leading artificial intelligence technology to solve business fraud, coupon abuse, fake orders, web scraping, credential stuffing, and other issues, allowing your enterprise to have zero investment with WeChat/QQ-level business security services.",
+        "source_link": "https://007.qq.com/quick-start.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 360,
+      "type": 2,
+      "name": "com.tencent.captchasdk.TCaptchaPopupActivity",
+      "mode": "exact",
+      "priority": 360,
+      "label": "防水墙",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/captchasdk/TCaptchaPopupActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.captchasdk.TCaptchaPopupActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

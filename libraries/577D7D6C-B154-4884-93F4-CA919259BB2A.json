@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "577D7D6C-B154-4884-93F4-CA919259BB2A",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo SQLite",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "qgming"
+        ],
+        "description": "Expo框架提供的 SQLite数据库功能。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-sqlite"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo SQLite",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "qgming"
+        ],
+        "description": "The SQLite database functionality provided by the Expo framework.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-sqlite"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2424,
+      "type": 0,
+      "name": "libexpo-sqlite.so",
+      "mode": "exact",
+      "priority": 2424,
+      "label": "Expo SQLite",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-sqlite.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-sqlite.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

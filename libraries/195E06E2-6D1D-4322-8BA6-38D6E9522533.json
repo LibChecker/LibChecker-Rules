@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "195E06E2-6D1D-4322-8BA6-38D6E9522533",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libavif",
+        "dev_team": "Alliance for Open Media",
+        "rule_contributors": [
+          "yfdyh000",
+          "HenryWu01"
+        ],
+        "description": "用于编码和解码 .avif 文件的库。",
+        "source_link": "https://github.com/AOMediaCodec/libavif"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libavif",
+        "dev_team": "Alliance for Open Media",
+        "rule_contributors": [
+          "yfdyh000",
+          "HenryWu01"
+        ],
+        "description": "Library for encoding and decoding .avif files",
+        "source_link": "https://github.com/AOMediaCodec/libavif"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1275,
+      "type": 0,
+      "name": "libavif.so",
+      "mode": "exact",
+      "priority": 1275,
+      "label": "libavif",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavif.so.json",
+      "examples": {
+        "positive": [
+          "libavif.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1276,
+      "type": 0,
+      "name": "libavif-jni.so",
+      "mode": "exact",
+      "priority": 1276,
+      "label": "libavif",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavif-jni.so.json",
+      "examples": {
+        "positive": [
+          "libavif-jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1413,
+      "type": 0,
+      "name": "libavif_android.so",
+      "mode": "exact",
+      "priority": 1413,
+      "label": "LibAVIF",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libavif_android.so.json",
+      "examples": {
+        "positive": [
+          "libavif_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

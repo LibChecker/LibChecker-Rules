@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "224CC145-79ED-5804-9597-FF2C87B82213",
+  "iconId": "ic_lib_xiaomi",
+  "data": [],
+  "matchers": [
+    {
+      "id": 499,
+      "type": 5,
+      "name": "com.xiaomi.xmpush",
+      "mode": "exact",
+      "priority": 499,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.xiaomi.xmpush"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FA18CAE1-44C9-4D58-B9D6-C3F36E8BCA7D",
+  "iconId": "ic_lib_rn_gesture_handler",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Gesture Handler",
+        "dev_team": "software-mansion",
+        "rule_contributors": [
+          "Minori-ty",
+          "sebastien46"
+        ],
+        "description": "为 React Native 暴露平台原生触摸和手势系统的声明式 API。",
+        "source_link": "https://github.com/software-mansion/react-native-gesture-handler"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Gesture Handler",
+        "dev_team": "software-mansion",
+        "rule_contributors": [
+          "Minori-ty",
+          "sebastien46"
+        ],
+        "description": "Declarative API exposing platform native touch and gesture system to React Native.",
+        "source_link": "https://github.com/software-mansion/react-native-gesture-handler"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2143,
+      "type": 0,
+      "name": "libreact_codegen_rngesturehandler_codegen.so",
+      "mode": "exact",
+      "priority": 2143,
+      "label": "React Native Gesture Handler",
+      "iconId": "ic_lib_rn_gesture_handler",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_rngesturehandler_codegen.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_rngesturehandler_codegen.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2425,
+      "type": 0,
+      "name": "libgesturehandler.so",
+      "mode": "exact",
+      "priority": 2425,
+      "label": "React Native Gesture Handler",
+      "iconId": "ic_lib_rn_gesture_handler",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgesturehandler.so.json",
+      "examples": {
+        "positive": [
+          "libgesturehandler.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

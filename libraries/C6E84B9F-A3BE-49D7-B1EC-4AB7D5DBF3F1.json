@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C6E84B9F-A3BE-49D7-B1EC-4AB7D5DBF3F1",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack MediaRouter",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "使用通用用户界面在远程接收设备上启用媒体显示和播放。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/mediarouter"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack MediaRouter",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Enable media display and playback on remote receiver devices using a common user interface.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/mediarouter"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1629,
+      "type": 3,
+      "name": "androidx.mediarouter.media.MediaTransferReceiver",
+      "mode": "exact",
+      "priority": 1629,
+      "label": "Jetpack MediaRouter",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/mediarouter/media/MediaTransferReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.mediarouter.media.MediaTransferReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

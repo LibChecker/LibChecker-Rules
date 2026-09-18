@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 5,
+  "uuid": "900928FD-B86B-4C72-9FDE-372EDC299B00",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OpenSSL",
+        "dev_team": "OpenSSL",
+        "rule_contributors": [
+          "飘落的枫叶",
+          "WOLFRAZOR"
+        ],
+        "description": "OpenSSL 是用于传输层安全性（TLS）协议的健壮的，商业级，功能齐全的开源工具包。协议实现基于完整功能的通用密码库，该库也可以独立使用。",
+        "source_link": "https://github.com/openssl/openssl"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OpenSSL",
+        "dev_team": "OpenSSL",
+        "rule_contributors": [
+          "飘落的枫叶",
+          "WOLFRAZOR"
+        ],
+        "description": "OpenSSL is a robust, commercial-grade, full-featured open-source toolkit for the Transport Layer Security (TLS) protocol. The protocol implementation is based on a full-featured general-purpose cryptographic library, which can also be used independently.",
+        "source_link": "https://github.com/openssl/openssl"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 81,
+      "type": 0,
+      "name": "libopenssl.so",
+      "mode": "exact",
+      "priority": 81,
+      "label": "OpenSSL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopenssl.so.json",
+      "examples": {
+        "positive": [
+          "libopenssl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 713,
+      "type": 0,
+      "name": "libssl.so",
+      "mode": "exact",
+      "priority": 713,
+      "label": "OpenSSL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libssl.so.json",
+      "examples": {
+        "positive": [
+          "libssl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 714,
+      "type": 0,
+      "name": "libcrypto.so",
+      "mode": "exact",
+      "priority": 714,
+      "label": "OpenSSL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrypto.so.json",
+      "examples": {
+        "positive": [
+          "libcrypto.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2130,
+      "type": 0,
+      "name": "libopenssl_smime.so",
+      "mode": "exact",
+      "priority": 2130,
+      "label": "OpenSSL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopenssl_smime.so.json",
+      "examples": {
+        "positive": [
+          "libopenssl_smime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2239,
+      "type": 0,
+      "name": "libopenssl_init.so",
+      "mode": "exact",
+      "priority": 2239,
+      "label": "OpenSSL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopenssl_init.so.json",
+      "examples": {
+        "positive": [
+          "libopenssl_init.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "native-libs/regex/regex_openssl.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "OpenSSL",
+              "dev_team": "OpenSSL",
+              "rule_contributors": [
+                "飘落的枫叶",
+                "WOLFRAZOR"
+              ],
+              "description": "OpenSSL 是用于传输层安全性（TLS）协议的健壮的，商业级，功能齐全的开源工具包。协议实现基于完整功能的通用密码库，该库也可以独立使用。",
+              "source_link": "https://github.com/openssl/openssl"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "OpenSSL",
+              "dev_team": "OpenSSL",
+              "rule_contributors": [
+                "飘落的枫叶",
+                "WOLFRAZOR"
+              ],
+              "description": "OpenSSL is a robust, commercial-grade, full-featured open-source toolkit for the Transport Layer Security (TLS) protocol. The protocol implementation is based on a full-featured general-purpose cryptographic library, which can also be used independently.",
+              "source_link": "https://github.com/openssl/openssl"
+            }
+          }
+        ],
+        "uuid": "900928FD-B86B-4C72-9FDE-372EDC299B00"
+      }
+    }
+  ]
+}

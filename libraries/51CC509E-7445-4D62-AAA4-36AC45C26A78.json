@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 5,
+  "uuid": "51CC509E-7445-4D62-AAA4-36AC45C26A78",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯游戏 MSDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "makazeu",
+          "crrashh1542",
+          "yfdyh000"
+        ],
+        "description": "MSDK，全称 Multi-platform Game Software Development Kit 是腾讯游戏公共组件和服务库平台，由增值服务部&公共数据平台部开发。为腾讯研发、发行的海内外游戏产品（移动、PC、主机平台）提供包括账号服务、好友关系链等必要增值服务能力接入。",
+        "source_link": "https://docs.itop.qq.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Game MSDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "makazeu",
+          "crrashh1542"
+        ],
+        "description": "MSDK, short for Multi-platform Game Software Development Kit, is Tencent's public component and service library platform developed by the Value-Added Services Department & Public Data Platform Department. It provides necessary value-added service capabilities such as account services and friend relationship chains for Tencent's R&D and published game products (mobile, PC, console platforms) at home and abroad.",
+        "source_link": "https://docs.itop.qq.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1283,
+      "type": 0,
+      "name": "libMSDK.so",
+      "mode": "exact",
+      "priority": 1283,
+      "label": "腾讯游戏 MSDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMSDK.so.json",
+      "examples": {
+        "positive": [
+          "libMSDK.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1284,
+      "type": 0,
+      "name": "libMsdkAdapter.so",
+      "mode": "exact",
+      "priority": 1284,
+      "label": "腾讯游戏 MSDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMsdkAdapter.so.json",
+      "examples": {
+        "positive": [
+          "libMsdkAdapter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1285,
+      "type": 0,
+      "name": "libMSDKSystem.so",
+      "mode": "exact",
+      "priority": 1285,
+      "label": "腾讯游戏 MSDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMSDKSystem.so.json",
+      "examples": {
+        "positive": [
+          "libMSDKSystem.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1669,
+      "type": 0,
+      "name": "libMSDKCore.so",
+      "mode": "exact",
+      "priority": 1669,
+      "label": "腾讯游戏 MSDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMSDKCore.so.json",
+      "examples": {
+        "positive": [
+          "libMSDKCore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1672,
+      "type": 0,
+      "name": "libTDataMaster.so",
+      "mode": "exact",
+      "priority": 1672,
+      "label": "腾讯游戏 MSDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libTDataMaster.so.json",
+      "examples": {
+        "positive": [
+          "libTDataMaster.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2541,
+      "type": 0,
+      "name": "libitophttpdns.so",
+      "mode": "exact",
+      "priority": 2541,
+      "label": "腾讯游戏 MSDK",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libitophttpdns.so.json",
+      "examples": {
+        "positive": [
+          "libitophttpdns.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

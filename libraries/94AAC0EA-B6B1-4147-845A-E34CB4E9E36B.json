@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "94AAC0EA-B6B1-4147-845A-E34CB4E9E36B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Ping++ SDK",
+        "dev_team": "Ping++",
+        "rule_contributors": [
+          "zxwpm",
+          "Absinthe"
+        ],
+        "description": "Ping++ 是一种全新的移动支付接入方式。通过使用 Ping++ 提供的 SDK，你的产品可以同时支持目前主流的多种支付渠道。同时 Ping++ 还提供交易管理平台，方便你统一管理所有支付渠道中的交易，有效降低你的前期开发和后期管理成本。",
+        "source_link": "https://github.com/PingPlusPlus/pingpp-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Ping++ SDK",
+        "dev_team": "Ping++",
+        "rule_contributors": [
+          "zxwpm",
+          "Absinthe"
+        ],
+        "description": "Ping++ is a new mobile payment integration method. By using the SDK provided by Ping++, your product can simultaneously support various mainstream payment channels. Ping++ also provides a transaction management platform, allowing you to manage transactions across all payment channels effectively, reducing your upfront development and subsequent management costs.",
+        "source_link": "https://github.com/PingPlusPlus/pingpp-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 124,
+      "type": 0,
+      "name": "libpingpp.so",
+      "mode": "exact",
+      "priority": 124,
+      "label": "Ping++",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpingpp.so.json",
+      "examples": {
+        "positive": [
+          "libpingpp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 338,
+      "type": 2,
+      "name": "com.pingplusplus.android.PaymentActivity",
+      "mode": "exact",
+      "priority": 338,
+      "label": "Ping++",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pingplusplus/android/PaymentActivity.json",
+      "examples": {
+        "positive": [
+          "com.pingplusplus.android.PaymentActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BAC4586F-EBD9-4C52-979E-804573C5E7C1",
+  "iconId": "ic_lib_umeng",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "U-Game 金融风控组件",
+        "dev_team": "Umeng",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "金融风控组件（SecurityEnvSDK.framework）用来监控反作弊等行为。",
+        "source_link": "https://developer.umeng.com/docs/66632/detail/68757"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "U-Game Financial Risk Control Component",
+        "dev_team": "Umeng",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Financial risk control component (SecurityEnvSDK.framework) is used to monitor anti-cheating behaviors.",
+        "source_link": "https://developer.umeng.com/docs/66632/detail/68757"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1245,
+      "type": 0,
+      "name": "libsecurityenv.so",
+      "mode": "exact",
+      "priority": 1245,
+      "label": "U-Game 金融风控组件",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsecurityenv.so.json",
+      "examples": {
+        "positive": [
+          "libsecurityenv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8BE46F6C-DC22-4F00-BA16-85042D6709CF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Krypton Wrapper",
+        "dev_team": "BZLZHH",
+        "rule_contributors": [
+          "youfeng11"
+        ],
+        "description": "Krypton Wrapper（又名 NG-GL4ES）是 gl4es 和 gl4es-114-extra 的一个分支。",
+        "source_link": "https://github.com/BZLZHH/NG-GL4ES"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Krypton Wrapper",
+        "dev_team": "BZLZHH",
+        "rule_contributors": [
+          "youfeng11"
+        ],
+        "description": "Krypton Wrapper (aka NG-GL4ES) is a fork from gl4es and gl4es-114-extra.",
+        "source_link": "https://github.com/BZLZHH/NG-GL4ES"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2827,
+      "type": 0,
+      "name": "libng_gl4es.so",
+      "mode": "exact",
+      "priority": 2827,
+      "label": "Krypton Wrapper",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libng_gl4es.so.json",
+      "examples": {
+        "positive": [
+          "libng_gl4es.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

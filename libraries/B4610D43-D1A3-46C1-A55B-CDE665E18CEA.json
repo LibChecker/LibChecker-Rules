@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B4610D43-D1A3-46C1-A55B-CDE665E18CEA",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Core",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "在支持旧设备的同时，针对最新的平台功能和 API。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/core"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Core",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Target the latest platform features and APIs while also supporting older devices.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/core"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1632,
+      "type": 1,
+      "name": "androidx.core.widget.RemoteViewsCompatService",
+      "mode": "exact",
+      "priority": 1632,
+      "label": "Jetpack Core",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/core/widget/RemoteViewsCompatService.json",
+      "examples": {
+        "positive": [
+          "androidx.core.widget.RemoteViewsCompatService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2566,
+      "type": 3,
+      "name": "androidx.core.telecom.internal.MuteStateReceiver",
+      "mode": "exact",
+      "priority": 2566,
+      "label": "Jetpack Core",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/core/telecom/internal/MuteStateReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.core.telecom.internal.MuteStateReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2882,
+      "type": 1,
+      "name": "androidx.core.telecom.internal.JetpackConnectionService",
+      "mode": "exact",
+      "priority": 2882,
+      "label": "Jetpack Core",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/core/telecom/internal/JetpackConnectionService.json",
+      "examples": {
+        "positive": [
+          "androidx.core.telecom.internal.JetpackConnectionService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

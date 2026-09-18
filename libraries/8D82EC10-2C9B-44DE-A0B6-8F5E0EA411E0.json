@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8D82EC10-2C9B-44DE-A0B6-8F5E0EA411E0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "NativeScripts",
+        "dev_team": "OpenJS Foundation",
+        "rule_contributors": [
+          "laxandrea"
+        ],
+        "description": "NativeScript 是一个基于 JavaScript 的开源跨平台开发框架，用于开发 iOS、visionOS 和 Android 平台应用。它将平台 API 直接连接到 JavaScript 运行时（具有强类型），并将 CSS 和视图模板等熟悉的 Web 方法与通用平台语言（Swift、Kotlin、Objective-C、Java）相结合。",
+        "source_link": "https://github.com/NativeScript"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "NativeScripts",
+        "dev_team": "OpenJS Foundation",
+        "rule_contributors": [
+          "laxandrea"
+        ],
+        "description": "NativeScript is a JavaScript-based cross-platform open-source development framework to develop apps for iOS, visionOS and Android platforms. It connects platform APIs directly to the JavaScript runtime (with strong types). combining familiar Web approaches like CSS and view templating with common platform languages (Swift, Kotlin, Objective-C, Java).",
+        "source_link": "https://github.com/NativeScript"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2622,
+      "type": 0,
+      "name": "libNativeScript.so",
+      "mode": "exact",
+      "priority": 2622,
+      "label": "NativeScripts",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libNativeScript.so.json",
+      "examples": {
+        "positive": [
+          "libNativeScript.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

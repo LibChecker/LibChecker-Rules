@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A80F599E-A857-4517-82C3-17FBD5198394",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Legacy Photo Picker",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "这是一个适用于 Legacy Photo Picker 的服务类。",
+        "source_link": ""
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Legacy Photo Picker",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "This is a service class for Legacy Photo Picker",
+        "source_link": ""
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2324,
+      "type": 9,
+      "name": "com.google.android.gms.metadata.MODULE_DEPENDENCIES",
+      "mode": "exact",
+      "priority": 2324,
+      "label": "Legacy Photo Picker",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.google.android.gms.metadata.MODULE_DEPENDENCIES.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

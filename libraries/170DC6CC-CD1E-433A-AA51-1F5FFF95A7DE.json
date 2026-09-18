@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "170DC6CC-CD1E-433A-AA51-1F5FFF95A7DE",
+  "iconId": "ic_lib_qualcomm",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FastCV",
+        "dev_team": "Qualcomm",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "高通 FastCV SDK 提供了针对移动设备优化的计算机视觉（CV）库，专为提高所有基于 ARM 的处理器的效率而设计，包括多种移动设备均可用最常用的视觉处理功能，为开发者提供了最多用的计算密集型视觉处理 API。",
+        "source_link": "https://www.qualcomm.com/developer/software/qualcomm-fastcv-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FastCV",
+        "dev_team": "Qualcomm",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "The Qualcomm FastCV SDK offers a computer vision (CV) library optimized for mobile devices, designed to improve efficiency on all ARM-based processors. It includes common visual processing functions available across various mobile devices, providing developers with widely used APIs for computationally intensive visual processing.",
+        "source_link": "https://www.qualcomm.com/developer/software/qualcomm-fastcv-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2645,
+      "type": 0,
+      "name": "libfastcv.so",
+      "mode": "exact",
+      "priority": 2645,
+      "label": "FastCV",
+      "iconId": "ic_lib_qualcomm",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfastcv.so.json",
+      "examples": {
+        "positive": [
+          "libfastcv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D6334CD5-54FC-4E27-8E48-A228C094FBC9",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AppGallery Connect",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "为开发者提供移动应用全生命周期服务，覆盖全终端全场景，降低开发成本，提升运营效率，助力商业成功。",
+        "source_link": "https://developer.huawei.com/consumer/cn/agconnect/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AppGallery Connect",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Provide developers with mobile application lifecycle services, covering all terminals and scenarios, reducing development costs, improving operational efficiency, and assisting in commercial success.",
+        "source_link": "https://developer.huawei.com/consumer/cn/agconnect/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 198,
+      "type": 1,
+      "name": "com.huawei.agconnect.core.ServiceDiscovery",
+      "mode": "exact",
+      "priority": 198,
+      "label": "AppGallery Connect",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/huawei/agconnect/core/ServiceDiscovery.json",
+      "examples": {
+        "positive": [
+          "com.huawei.agconnect.core.ServiceDiscovery"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 469,
+      "type": 4,
+      "name": "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+      "mode": "exact",
+      "priority": 469,
+      "label": "AppGallery Connect",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/agconnect/core/provider/AGConnectInitializeProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

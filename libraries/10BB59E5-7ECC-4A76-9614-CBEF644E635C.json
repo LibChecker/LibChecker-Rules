@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 5,
+  "uuid": "10BB59E5-7ECC-4A76-9614-CBEF644E635C",
+  "iconId": "ic_lib_opencv",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OpenCV",
+        "dev_team": "OpenCV",
+        "rule_contributors": [
+          "Absinthe",
+          "david082321",
+          "GoFly233",
+          "WOLFRAZOR"
+        ],
+        "description": "OpenCV 是一个跨平台的计算机视觉库，可用于开发实时的图像处理、计算机视觉以及模式识别程序。",
+        "source_link": "https://github.com/opencv/opencv/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OpenCV",
+        "dev_team": "OpenCV",
+        "rule_contributors": [
+          "Absinthe",
+          "david082321",
+          "GoFly233",
+          "WOLFRAZOR"
+        ],
+        "description": "OpenCV is a cross-platform computer vision library that can be used for developing real-time image processing, computer vision, and pattern recognition programs.",
+        "source_link": "https://github.com/opencv/opencv/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 77,
+      "type": 0,
+      "name": "libopencv_java3.so",
+      "mode": "exact",
+      "priority": 77,
+      "label": "OpenCV",
+      "iconId": "ic_lib_opencv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencv_java3.so.json",
+      "examples": {
+        "positive": [
+          "libopencv_java3.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 685,
+      "type": 0,
+      "name": "libopencv_core.so",
+      "mode": "exact",
+      "priority": 685,
+      "label": "OpenCV",
+      "iconId": "ic_lib_opencv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencv_core.so.json",
+      "examples": {
+        "positive": [
+          "libopencv_core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 686,
+      "type": 0,
+      "name": "libopencv_imgproc.so",
+      "mode": "exact",
+      "priority": 686,
+      "label": "OpenCV",
+      "iconId": "ic_lib_opencv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencv_imgproc.so.json",
+      "examples": {
+        "positive": [
+          "libopencv_imgproc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 735,
+      "type": 0,
+      "name": "libopencv_java4.so",
+      "mode": "exact",
+      "priority": 735,
+      "label": "OpenCV",
+      "iconId": "ic_lib_opencv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencv_java4.so.json",
+      "examples": {
+        "positive": [
+          "libopencv_java4.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1860,
+      "type": 0,
+      "name": "libopencv_world.so",
+      "mode": "exact",
+      "priority": 1860,
+      "label": "OpenCV",
+      "iconId": "ic_lib_opencv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencv_world.so.json",
+      "examples": {
+        "positive": [
+          "libopencv_world.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1969,
+      "type": 0,
+      "name": "libopencv.so",
+      "mode": "exact",
+      "priority": 1969,
+      "label": "OpenCV",
+      "iconId": "ic_lib_opencv",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencv.so.json",
+      "examples": {
+        "positive": [
+          "libopencv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

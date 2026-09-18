@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4A683355-B81B-5F09-913A-4A3B2A27F8A2",
+  "iconId": "ic_lib_play_store",
+  "data": [],
+  "matchers": [
+    {
+      "id": 522,
+      "type": 5,
+      "name": "com.google.android.gms",
+      "mode": "exact",
+      "priority": 522,
+      "label": "Google Mobile Service",
+      "iconId": "ic_lib_play_store",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.android.gms"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

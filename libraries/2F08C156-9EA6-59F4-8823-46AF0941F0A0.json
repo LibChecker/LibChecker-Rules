@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2F08C156-9EA6-59F4-8823-46AF0941F0A0",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 1174,
+      "type": 4,
+      "name": "libpnc-crypto.so",
+      "mode": "exact",
+      "priority": 1174,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libpnc-crypto.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

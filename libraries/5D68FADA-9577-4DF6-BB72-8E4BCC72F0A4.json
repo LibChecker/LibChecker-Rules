@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5D68FADA-9577-4DF6-BB72-8E4BCC72F0A4",
+  "iconId": "ic_lib_umeng",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "U-Share 社会化分享",
+        "dev_team": "Umeng",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "帮助应用或游戏快速具备国内外多平台分享、第三方登录功能，SDK 包小，集成成本低，平台覆盖全。",
+        "source_link": "https://www.umeng.com/social"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "U-Share Social Sharing",
+        "dev_team": "Umeng",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Helps applications or games quickly have multi-platform sharing and third-party login functions domestically and internationally. The SDK package is small, integration costs are low, and platform coverage is complete.",
+        "source_link": "https://www.umeng.com/social"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 353,
+      "type": 2,
+      "name": "com.umeng.socialize.media.WBShareCallBackActivity",
+      "mode": "exact",
+      "priority": 353,
+      "label": "U-Share",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/umeng/socialize/media/WBShareCallBackActivity.json",
+      "examples": {
+        "positive": [
+          "com.umeng.socialize.media.WBShareCallBackActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1987147A-53F5-4C2B-8913-C56CF3C84BA6",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Lifecycle",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "生命周期感知型组件可执行操作来响应另一个组件（如 Activity 和 Fragment）的生命周期状态的变化。这些组件有助于您写出更有条理且往往更精简的代码，这样的代码更易于维护。",
+        "source_link": "https://developer.android.com/topic/libraries/architecture/lifecycle/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Lifecycle",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Lifecycle-aware components can perform actions in response to changes in the lifecycle state of another component (such as Activity and Fragment). These components help you write more organized and often more concise code, making it easier to maintain.",
+        "source_link": "https://developer.android.com/topic/libraries/architecture/lifecycle/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 439,
+      "type": 4,
+      "name": "androidx.lifecycle.ProcessLifecycleOwnerInitializer",
+      "mode": "exact",
+      "priority": 439,
+      "label": "Jetpack Lifecycle",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/androidx/lifecycle/ProcessLifecycleOwnerInitializer.json",
+      "examples": {
+        "positive": [
+          "androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 454,
+      "type": 4,
+      "name": "android.arch.lifecycle.ProcessLifecycleOwnerInitializer",
+      "mode": "exact",
+      "priority": 454,
+      "label": "Jetpack Lifecycle",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/android/arch/lifecycle/ProcessLifecycleOwnerInitializer.json",
+      "examples": {
+        "positive": [
+          "android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

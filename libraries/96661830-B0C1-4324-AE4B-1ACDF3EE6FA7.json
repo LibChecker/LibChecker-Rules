@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "96661830-B0C1-4324-AE4B-1ACDF3EE6FA7",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libuv",
+        "dev_team": "libuv",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "libuv 是一个多平台支持库，重点关注异步 I/O。它最初主要为 Node.js 使用而开发，但也被 Luvit、Julia、uvloop 等项目使用。",
+        "source_link": "https://github.com/libuv/libuv"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libuv",
+        "dev_team": "libuv",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "libuv is a multi-platform support library with a focus on asynchronous I/O. It was primarily developed for use by Node.js, but it's also used by Luvit, Julia, uvloop, and others.",
+        "source_link": "https://github.com/libuv/libuv"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2840,
+      "type": 0,
+      "name": "libuv.so",
+      "mode": "exact",
+      "priority": 2840,
+      "label": "libuv",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libuv.so.json",
+      "examples": {
+        "positive": [
+          "libuv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

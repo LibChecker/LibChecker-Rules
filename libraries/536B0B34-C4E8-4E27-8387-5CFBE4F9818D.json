@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 5,
+  "uuid": "536B0B34-C4E8-4E27-8387-5CFBE4F9818D",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Sofire",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "Janet-Baker",
+          "ArthurCyy",
+          "Absinthe"
+        ],
+        "description": "业务安全风控 AFD，是基于业务场景，结合 IP 画像、设备指纹、黑卡检测、威胁情报等多维度信息实时识别风险的专业防护产品。AFD 能够有效识别和解决渠道推广、账号安全、支付安全、营销活动等作弊问题，避免企业出现巨大的经济损失。Android 安全 SDK 又名——昊天 SDK，是一个基于海量威胁情报数据的智能分析平台， 打通了移动、云、PC 的全链条安全数据，利用深度学习人工智能平台从海量的安全事件中进行关联分析，能感知出潜在的互联网威胁以及 APT 事件，并能对攻击阵营的基础设施和技术手段进行分析识别，告别被动防御局面， 为用户提供更加安全的互联网体验。",
+        "source_link": "https://cloud.baidu.com/doc/AFD/s/Ijwvy4s7b"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Sofire",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "Janet-Baker",
+          "ArthurCyy",
+          "Absinthe"
+        ],
+        "description": "Business Security Risk Control AFD is a professional protection product that identifies risks in real-time based on business scenarios, combining IP portraits, device fingerprints, black card detection, threat intelligence, and other multidimensional information. AFD can effectively identify and solve cheating issues in channel promotion, account security, payment security, marketing activities, etc., preventing huge economic losses for enterprises. The Android Security SDK, also known as Haotian SDK, is an intelligent analysis platform based on massive threat intelligence data, connecting the full chain of mobile, cloud, and PC security data. It uses a deep learning artificial intelligence platform to perform correlation analysis from massive security events, perceiving potential internet threats and APT events, and analyzing and identifying the infrastructure and technical means of the attack camp, moving away from passive defense, providing users with a more secure internet experience.",
+        "source_link": "https://cloud.baidu.com/doc/AFD/s/Ijwvy4s7b"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 729,
+      "type": 0,
+      "name": "libfire.so",
+      "mode": "exact",
+      "priority": 729,
+      "label": "Sofire",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfire.so.json",
+      "examples": {
+        "positive": [
+          "libfire.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 730,
+      "type": 4,
+      "name": "com.baidu.sofire.MyProvider",
+      "mode": "exact",
+      "priority": 730,
+      "label": "Sofire",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/baidu/sofire/MyProvider.json",
+      "examples": {
+        "positive": [
+          "com.baidu.sofire.MyProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1400,
+      "type": 0,
+      "name": "libhs.so",
+      "mode": "exact",
+      "priority": 1400,
+      "label": "Sofire",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhs.so.json",
+      "examples": {
+        "positive": [
+          "libhs.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1715,
+      "type": 1,
+      "name": "com.baidu.sofire.MyService",
+      "mode": "exact",
+      "priority": 1715,
+      "label": "Sofire",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/sofire/MyService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.sofire.MyService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1746,
+      "type": 2,
+      "name": "com.baidu.sofire.MyActivity",
+      "mode": "exact",
+      "priority": 1746,
+      "label": "Sofire",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/sofire/MyActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.sofire.MyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2309,
+      "type": 9,
+      "name": "com.baidu.action.SOFIRE.VIEW",
+      "mode": "exact",
+      "priority": 2309,
+      "label": "Sofire",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.baidu.action.SOFIRE.VIEW.json",
+      "examples": {
+        "positive": [
+          "com.baidu.action.SOFIRE.VIEW"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

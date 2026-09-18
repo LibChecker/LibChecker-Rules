@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "675DB101-559F-4509-8D8D-C2C358B68E37",
+  "iconId": "ic_lib_microsoft_extra_id",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ADAL",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "ADAL for Android 让你能够为应用添加对工作帐户的支持。该 SDK 为你的应用提供 Microsoft Azure AD 的完整功能，包括对 OAuth2 等行业标准协议的支持、带用户级同意的 Web API 集成，以及双因素身份验证支持。最重要的是，它是 FOSS（自由及开放源代码软件），因此你可以在我们构建这些库的过程中参与开发。",
+        "source_link": "https://github.com/AzureAD/azure-activedirectory-library-for-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ADAL",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "ADAL for Android gives you the ability to add support for Work Accounts to your application. This SDK gives your application the full functionality of Microsoft Azure AD, including industry standard protocol support for OAuth2, Web API integration with user level consent, and two-factor authentication support. Best of all, it’s FOSS (Free and Open Source Software) so that you can participate in the development process as we build these libraries.",
+        "source_link": "https://github.com/AzureAD/azure-activedirectory-library-for-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2706,
+      "type": 2,
+      "name": "com.microsoft.aad.adal.AuthenticationActivity",
+      "mode": "exact",
+      "priority": 2706,
+      "label": "ADAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/aad/adal/AuthenticationActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.aad.adal.AuthenticationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2900,
+      "type": 1,
+      "name": "com.microsoft.aad.adal.BrokerAccountService",
+      "mode": "exact",
+      "priority": 2900,
+      "label": "ADAL",
+      "iconId": "ic_lib_microsoft_extra_id",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/aad/adal/BrokerAccountService.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.aad.adal.BrokerAccountService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

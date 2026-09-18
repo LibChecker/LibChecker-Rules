@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DBB259CF-76B5-55D3-BD8D-EA5467E51866",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 521,
+      "type": 5,
+      "name": "androidx.cardview",
+      "mode": "exact",
+      "priority": 521,
+      "label": "Jetpack CardView",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.cardview"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

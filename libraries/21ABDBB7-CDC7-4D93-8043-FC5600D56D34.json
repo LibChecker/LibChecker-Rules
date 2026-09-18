@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 5,
+  "uuid": "21ABDBB7-CDC7-4D93-8043-FC5600D56D34",
+  "iconId": "ic_lib_ali_security",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "阿里聚安全",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "阿里聚安全是面向开发者，以移动应用安全为核心的开放平台。",
+        "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Alibaba Ju Security",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "Alibaba Ju Security is an open platform focused on mobile application security for developers.",
+        "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 34,
+      "type": 0,
+      "name": "libsgmain.so",
+      "mode": "exact",
+      "priority": 34,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgmain.so.json",
+      "examples": {
+        "positive": [
+          "libsgmain.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 37,
+      "type": 0,
+      "name": "libsgavmp.so",
+      "mode": "exact",
+      "priority": 37,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgavmp.so.json",
+      "examples": {
+        "positive": [
+          "libsgavmp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 51,
+      "type": 0,
+      "name": "libsgsgmiddletier.so",
+      "mode": "exact",
+      "priority": 51,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgsgmiddletier.so.json",
+      "examples": {
+        "positive": [
+          "libsgsgmiddletier.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 107,
+      "type": 0,
+      "name": "libsgsecuritybody.so",
+      "mode": "exact",
+      "priority": 107,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgsecuritybody.so.json",
+      "examples": {
+        "positive": [
+          "libsgsecuritybody.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 174,
+      "type": 0,
+      "name": "libsgavmpso-(.*)\\.so",
+      "mode": "regex",
+      "priority": 174,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 175,
+      "type": 0,
+      "name": "libsgsecuritybodyso(.*)\\.so",
+      "mode": "regex",
+      "priority": 175,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 176,
+      "type": 0,
+      "name": "libsgsgmiddletierso-(.*)\\.so",
+      "mode": "regex",
+      "priority": 176,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 322,
+      "type": 2,
+      "name": "com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity",
+      "mode": "exact",
+      "priority": 322,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/wireless/security/open/middletier/fc/ui/ContainerActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 832,
+      "type": 0,
+      "name": "libsgmiddletier.so",
+      "mode": "exact",
+      "priority": 832,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgmiddletier.so.json",
+      "examples": {
+        "positive": [
+          "libsgmiddletier.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 915,
+      "type": 0,
+      "name": "libsgmainso(.*)\\.so",
+      "mode": "regex",
+      "priority": 915,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1157,
+      "type": 0,
+      "name": "libsgcore.so",
+      "mode": "exact",
+      "priority": 1157,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgcore.so.json",
+      "examples": {
+        "positive": [
+          "libsgcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1158,
+      "type": 0,
+      "name": "libsgnocaptcha.so",
+      "mode": "exact",
+      "priority": 1158,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgnocaptcha.so.json",
+      "examples": {
+        "positive": [
+          "libsgnocaptcha.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1159,
+      "type": 0,
+      "name": "libsgmisc.so",
+      "mode": "exact",
+      "priority": 1159,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgmisc.so.json",
+      "examples": {
+        "positive": [
+          "libsgmisc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1160,
+      "type": 0,
+      "name": "libsgnocaptchaso(.*)\\.so",
+      "mode": "regex",
+      "priority": 1160,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1319,
+      "type": 0,
+      "name": "libsgmiddletierso(.*)\\.so",
+      "mode": "regex",
+      "priority": 1319,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1320,
+      "type": 0,
+      "name": "libsgmiscso(.*)\\.so",
+      "mode": "regex",
+      "priority": 1320,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": "regex_ali_security",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_ali_security.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1431,
+      "type": 0,
+      "name": "libsgmainso.version.so",
+      "mode": "exact",
+      "priority": 1431,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgmainso.version.so.json",
+      "examples": {
+        "positive": [
+          "libsgmainso.version.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1432,
+      "type": 0,
+      "name": "libsgsecuritybodyso.version.so",
+      "mode": "exact",
+      "priority": 1432,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsgsecuritybodyso.version.so.json",
+      "examples": {
+        "positive": [
+          "libsgsecuritybodyso.version.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2304,
+      "type": 9,
+      "name": "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323",
+      "mode": "exact",
+      "priority": 2304,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2305,
+      "type": 9,
+      "name": "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323",
+      "mode": "exact",
+      "priority": 2305,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2306,
+      "type": 9,
+      "name": "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323",
+      "mode": "exact",
+      "priority": 2306,
+      "label": "阿里聚安全",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

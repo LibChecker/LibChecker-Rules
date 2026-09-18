@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3F275A1F-A5E0-48A6-83FF-9344FE5D612D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PictureSelector",
+        "dev_team": "LuckSiege",
+        "rule_contributors": [
+          "Absinthe",
+          "Super12138"
+        ],
+        "description": "一款针对 Android 平台下的图片选择器，支持从相册获取图片、视频、音频 & 拍照，支持裁剪(单图 or 多图裁剪)、压缩、主题自定义配置等功能，支持动态获取权限&适配 Android 5.0+ 系统的开源图片选择框架。",
+        "source_link": "https://github.com/LuckSiege/PictureSelector"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PictureSelector",
+        "dev_team": "LuckSiege",
+        "rule_contributors": [
+          "Absinthe",
+          "Super12138"
+        ],
+        "description": "An image picker for the Android platform, supporting image, video, and audio retrieval from the album & taking photos, supporting cropping (single or multiple image cropping), compression, theme customization configuration, and more, supporting dynamic permission acquisition & adapting to the Android 5.0+ system open-source image selection framework.",
+        "source_link": "https://github.com/LuckSiege/PictureSelector"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 648,
+      "type": 4,
+      "name": "com.luck.picture.lib.PictureFileProvider",
+      "mode": "exact",
+      "priority": 648,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/luck/picture/lib/PictureFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 649,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureSelectorActivity",
+      "mode": "exact",
+      "priority": 649,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureSelectorActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureSelectorActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 650,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureSelectorWeChatStyleActivity",
+      "mode": "exact",
+      "priority": 650,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureSelectorWeChatStyleActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 651,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureSelectorCameraEmptyActivity",
+      "mode": "exact",
+      "priority": 651,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureSelectorCameraEmptyActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 652,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureCustomCameraActivity",
+      "mode": "exact",
+      "priority": 652,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureCustomCameraActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureCustomCameraActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 653,
+      "type": 2,
+      "name": "com.luck.picture.lib.PicturePreviewActivity",
+      "mode": "exact",
+      "priority": 653,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PicturePreviewActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PicturePreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 654,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity",
+      "mode": "exact",
+      "priority": 654,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureSelectorPreviewWeChatStyleActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 655,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureVideoPlayActivity",
+      "mode": "exact",
+      "priority": 655,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureVideoPlayActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureVideoPlayActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 656,
+      "type": 2,
+      "name": "com.luck.picture.lib.PictureExternalPreviewActivity",
+      "mode": "exact",
+      "priority": 656,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PictureExternalPreviewActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PictureExternalPreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 657,
+      "type": 2,
+      "name": "com.luck.picture.lib.PicturePlayAudioActivity",
+      "mode": "exact",
+      "priority": 657,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/PicturePlayAudioActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.PicturePlayAudioActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1906,
+      "type": 4,
+      "name": "com.luck.picture.lib.basic.PictureFileProvider",
+      "mode": "exact",
+      "priority": 1906,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/luck/picture/lib/basic/PictureFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.basic.PictureFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2406,
+      "type": 2,
+      "name": "com.luck.picture.lib.basic.PictureSelectorSupporterActivity",
+      "mode": "exact",
+      "priority": 2406,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/basic/PictureSelectorSupporterActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2407,
+      "type": 2,
+      "name": "com.luck.picture.lib.basic.PictureSelectorTransparentActivity",
+      "mode": "exact",
+      "priority": 2407,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/luck/picture/lib/basic/PictureSelectorTransparentActivity.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2448,
+      "type": 1,
+      "name": "com.luck.picture.lib.service.ForegroundService",
+      "mode": "exact",
+      "priority": 2448,
+      "label": "PictureSelector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/luck/picture/lib/service/ForegroundService.json",
+      "examples": {
+        "positive": [
+          "com.luck.picture.lib.service.ForegroundService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

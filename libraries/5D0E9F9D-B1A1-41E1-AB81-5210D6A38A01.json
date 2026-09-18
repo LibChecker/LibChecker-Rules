@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5D0E9F9D-B1A1-41E1-AB81-5210D6A38A01",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "屹通 SDK",
+        "dev_team": "上海屹通信息科技发展有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "上海屹通是一家专注银行业应用软件研发、应用、咨询与服务的高新技术企业。",
+        "source_link": "http://www.yitong.com.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Yitong SDK",
+        "dev_team": "上海屹通信息科技发展有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Shanghai Yitong is a high-tech enterprise focusing on the development, application, consulting, and services of banking application software.",
+        "source_link": "http://www.yitong.com.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1333,
+      "type": 0,
+      "name": "libyt_safe.so",
+      "mode": "exact",
+      "priority": 1333,
+      "label": "屹通 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyt_safe.so.json",
+      "examples": {
+        "positive": [
+          "libyt_safe.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1334,
+      "type": 0,
+      "name": "libYTKeyboard.so",
+      "mode": "exact",
+      "priority": 1334,
+      "label": "屹通 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYTKeyboard.so.json",
+      "examples": {
+        "positive": [
+          "libYTKeyboard.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

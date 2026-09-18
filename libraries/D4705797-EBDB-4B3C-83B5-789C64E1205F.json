@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D4705797-EBDB-4B3C-83B5-789C64E1205F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mediastreamer2",
+        "dev_team": "Belledonne Communications",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Mediastreamer2 是一个功能强大且轻量级的流引擎，适用于语音/视频电话应用程序。",
+        "source_link": "https://github.com/BelledonneCommunications/mediastreamer2"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mediastreamer2",
+        "dev_team": "Belledonne Communications",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Mediastreamer2 is a powerful and lightweight streaming engine for voice/video telephony applications.",
+        "source_link": "https://github.com/BelledonneCommunications/mediastreamer2"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1221,
+      "type": 0,
+      "name": "libmediastreamer_base.so",
+      "mode": "exact",
+      "priority": 1221,
+      "label": "Mediastreamer2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediastreamer_base.so.json",
+      "examples": {
+        "positive": [
+          "libmediastreamer_base.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1222,
+      "type": 0,
+      "name": "libmediastreamer_voip.so",
+      "mode": "exact",
+      "priority": 1222,
+      "label": "Mediastreamer2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmediastreamer_voip.so.json",
+      "examples": {
+        "positive": [
+          "libmediastreamer_voip.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1223,
+      "type": 0,
+      "name": "libmsx264.so",
+      "mode": "exact",
+      "priority": 1223,
+      "label": "Mediastreamer2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmsx264.so.json",
+      "examples": {
+        "positive": [
+          "libmsx264.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

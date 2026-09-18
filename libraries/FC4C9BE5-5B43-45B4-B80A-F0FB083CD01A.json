@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FC4C9BE5-5B43-45B4-B80A-F0FB083CD01A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PdfViewPager",
+        "dev_team": "voghDev",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Android 小部件，可以渲染存储在 SD 卡上、作为资源链接或从远程 URL 下载的 PDF 文档。",
+        "source_link": "https://github.com/voghDev/PdfViewPager"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PdfViewPager",
+        "dev_team": "voghDev",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Android widget that can render PDF documents stored on SD card, linked as assets, or downloaded from a remote URL.",
+        "source_link": "https://github.com/voghDev/PdfViewPager"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2450,
+      "type": 1,
+      "name": "es.voghdev.pdfviewpager.library.service.CopyAssetService",
+      "mode": "exact",
+      "priority": 2450,
+      "label": "PdfViewPager",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/es/voghdev/pdfviewpager/library/service/CopyAssetService.json",
+      "examples": {
+        "positive": [
+          "es.voghdev.pdfviewpager.library.service.CopyAssetService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

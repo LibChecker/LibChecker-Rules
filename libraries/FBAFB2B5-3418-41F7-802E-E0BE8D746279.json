@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FBAFB2B5-3418-41F7-802E-E0BE8D746279",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FreeReflection",
+        "dev_team": "tiann",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "在 Android P 及以上版本中不受任何限制地使用反射。",
+        "source_link": "https://github.com/tiann/FreeReflection"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FreeReflection",
+        "dev_team": "tiann",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Use reflection without any restrictions in Android P and above.",
+        "source_link": "https://github.com/tiann/FreeReflection"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1176,
+      "type": 0,
+      "name": "libfree-reflection.so",
+      "mode": "exact",
+      "priority": 1176,
+      "label": "FreeReflection",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfree-reflection.so.json",
+      "examples": {
+        "positive": [
+          "libfree-reflection.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

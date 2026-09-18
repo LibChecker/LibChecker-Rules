@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "72DDCF09-26D6-4549-B02C-0D83D7F3C2A1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libSDL",
+        "dev_team": "libsdl.org",
+        "rule_contributors": [
+          "飘落的枫叶",
+          "yfdyh000"
+        ],
+        "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
+        "source_link": "https://www.libsdl.org"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libSDL",
+        "dev_team": "libsdl.org",
+        "rule_contributors": [
+          "飘落的枫叶",
+          "yfdyh000"
+        ],
+        "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award-winning catalog and many Humble Bundle games.",
+        "source_link": "https://www.libsdl.org"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 559,
+      "type": 0,
+      "name": "libSDL2.so",
+      "mode": "exact",
+      "priority": 559,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1279,
+      "type": 0,
+      "name": "libsdl.so",
+      "mode": "exact",
+      "priority": 1279,
+      "label": "SDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsdl.so.json",
+      "examples": {
+        "positive": [
+          "libsdl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1280,
+      "type": 0,
+      "name": "libsdl_(.*)\\.so",
+      "mode": "regex",
+      "priority": 1280,
+      "label": "SDL",
+      "iconId": null,
+      "regexName": "regex_sdl",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_sdl.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

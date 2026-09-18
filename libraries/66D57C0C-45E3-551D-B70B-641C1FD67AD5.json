@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "66D57C0C-45E3-551D-B70B-641C1FD67AD5",
+  "iconId": "ic_lib_bilibili",
+  "data": [],
+  "matchers": [
+    {
+      "id": 481,
+      "type": 5,
+      "name": "tv.danmaku.ijk",
+      "mode": "exact",
+      "priority": 481,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "tv.danmaku.ijk"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

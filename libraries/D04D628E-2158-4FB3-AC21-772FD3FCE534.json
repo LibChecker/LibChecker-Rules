@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D04D628E-2158-4FB3-AC21-772FD3FCE534",
+  "iconId": "ic_lib_rn_image_crop_picker",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-image-crop-picker",
+        "dev_team": "Ivan Pusic",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "适用于 iOS/Android 的图像选择器，支持相机、视频、可配置压缩、多图选择和裁剪。",
+        "source_link": "https://github.com/ivpusic/react-native-image-crop-picker"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-image-crop-picker",
+        "dev_team": "Ivan Pusic",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping.",
+        "source_link": "https://github.com/ivpusic/react-native-image-crop-picker"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2853,
+      "type": 4,
+      "name": "com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider",
+      "mode": "exact",
+      "priority": 2853,
+      "label": "react-native-image-crop-picker",
+      "iconId": "ic_lib_rn_image_crop_picker",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/reactnative/ivpusic/imagepicker/IvpusicImagePickerFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

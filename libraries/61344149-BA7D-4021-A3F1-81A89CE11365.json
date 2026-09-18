@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "61344149-BA7D-4021-A3F1-81A89CE11365",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "eID SDK",
+        "dev_team": "公安部第三研究所",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "以智能手机的 SE 芯片作为 eID 的安全载体，除了具备国密资质的安全芯片提供的安全保障外，还有 TEE 加强了对用户授权的保护，更有 NFC 通道为传统 eID 打通线上线下功能。",
+        "source_link": "https://eid.cn/useeid/mobile.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "eID SDK",
+        "dev_team": "公安部第三研究所",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "Using the SE chip of a smartphone as a secure carrier for eID, it not only provides security assurance with a security chip qualified for national encryption but also enhances user authorization protection with TEE, and further bridges the online and offline functions of traditional eID through the NFC channel.",
+        "source_link": "https://eid.cn/useeid/mobile.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1343,
+      "type": 0,
+      "name": "libeidjni.so",
+      "mode": "exact",
+      "priority": 1343,
+      "label": "eID SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libeidjni.so.json",
+      "examples": {
+        "positive": [
+          "libeidjni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

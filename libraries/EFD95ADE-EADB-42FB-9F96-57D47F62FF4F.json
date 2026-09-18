@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EFD95ADE-EADB-42FB-9F96-57D47F62FF4F",
+  "iconId": "ic_lib_jetpack_compose",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Compose",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Cook21"
+        ],
+        "description": "Jetpack Compose 是用于构建原生 Android 界面的新工具包。Jetpack Compose 使用更少的代码、强大的工具和直观的 Kotlin API 简化并加快了 Android 上的界面开发。",
+        "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Compose",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Cook21"
+        ],
+        "description": "Jetpack Compose is a new toolkit for building native Android interfaces. Jetpack Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.",
+        "source_link": "https://developer.android.google.cn/jetpack/androidx/releases/compose"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 811,
+      "type": 2,
+      "name": "androidx.compose.ui.tooling.PreviewActivity",
+      "mode": "exact",
+      "priority": 811,
+      "label": "Jetpack Compose",
+      "iconId": "ic_lib_jetpack_compose",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/compose/ui/tooling/PreviewActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.compose.ui.tooling.PreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 812,
+      "type": 2,
+      "name": "androidx.compose.ui.tooling.data.TestActivity",
+      "mode": "exact",
+      "priority": 812,
+      "label": "Jetpack Compose",
+      "iconId": "ic_lib_jetpack_compose",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/compose/ui/tooling/data/TestActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.compose.ui.tooling.data.TestActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 813,
+      "type": 2,
+      "name": "androidx.compose.ui.tooling.preview.PreviewActivity",
+      "mode": "exact",
+      "priority": 813,
+      "label": "Jetpack Compose",
+      "iconId": "ic_lib_jetpack_compose",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/compose/ui/tooling/preview/PreviewActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.compose.ui.tooling.preview.PreviewActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

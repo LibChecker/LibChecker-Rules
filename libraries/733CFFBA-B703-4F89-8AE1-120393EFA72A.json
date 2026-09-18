@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "733CFFBA-B703-4F89-8AE1-120393EFA72A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Bluestar",
+        "dev_team": "sandy98",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "一个基于 Node.js 的小型实用工具，用于将图像转换为适合嵌入网页的 base64 编码字符串。",
+        "source_link": "https://github.com/sandy98/bluestar"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Bluestar",
+        "dev_team": "sandy98",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Tiny node.js based utility to convert images to base64 encoded string suitable to be embedded in web pages.",
+        "source_link": "https://github.com/sandy98/bluestar"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1998,
+      "type": 0,
+      "name": "libbluestar_jni_android.so",
+      "mode": "exact",
+      "priority": 1998,
+      "label": "Bluestar",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbluestar_jni_android.so.json",
+      "examples": {
+        "positive": [
+          "libbluestar_jni_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

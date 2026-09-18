@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D9FD1DFA-F704-4266-B9CA-1F82F5B880F9",
+  "iconId": "ic_lib_microsoft",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Cognitive Services Speech SDK",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "语音 SDK（软件开发工具包）提供了许多语音服务功能，帮助您开发语音启用的应用。",
+        "source_link": "https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/speech-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Cognitive Services Speech SDK",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "The Speech SDK (software development kit) exposes many of the Speech service capabilities, so you can develop speech-enabled applications.",
+        "source_link": "https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/speech-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2096,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.core.so",
+      "mode": "exact",
+      "priority": 2096,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.core.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2097,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+      "mode": "exact",
+      "priority": 2097,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2098,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+      "mode": "exact",
+      "priority": 2098,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.extension.codec.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.extension.codec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2099,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+      "mode": "exact",
+      "priority": 2099,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2100,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+      "mode": "exact",
+      "priority": 2100,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.extension.kws.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.extension.kws.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2101,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+      "mode": "exact",
+      "priority": 2101,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.extension.lu.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.extension.lu.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2102,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.extension.silk_codec.so",
+      "mode": "exact",
+      "priority": 2102,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.extension.silk_codec.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.extension.silk_codec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2103,
+      "type": 0,
+      "name": "libMicrosoft.CognitiveServices.Speech.java.bindings.so",
+      "mode": "exact",
+      "priority": 2103,
+      "label": "Cognitive Services Speech SDK",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMicrosoft.CognitiveServices.Speech.java.bindings.so.json",
+      "examples": {
+        "positive": [
+          "libMicrosoft.CognitiveServices.Speech.java.bindings.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0539E6F0-60D8-4A21-8B93-777EFE950A9D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OpenMobileMaps",
+        "dev_team": "openmobilemaps.io",
+        "rule_contributors": [
+          "cwxiaoshutong"
+        ],
+        "description": "适用于 Android（8.0+，OpenGL ES 3.2）和 iOS（10+）的轻量级和现代地图 SDK。",
+        "source_link": "https://github.com/openmobilemaps/maps-core"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OpenMobileMaps",
+        "dev_team": "openmobilemaps.io",
+        "rule_contributors": [
+          "cwxiaoshutong"
+        ],
+        "description": "The lightweight and modern Map SDK for Android (8.0+, OpenGL ES 3.2) and iOS (10+)",
+        "source_link": "https://github.com/openmobilemaps/maps-core"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1567,
+      "type": 0,
+      "name": "libmapscore.so",
+      "mode": "exact",
+      "priority": 1567,
+      "label": "OpenMobileMaps",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmapscore.so.json",
+      "examples": {
+        "positive": [
+          "libmapscore.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

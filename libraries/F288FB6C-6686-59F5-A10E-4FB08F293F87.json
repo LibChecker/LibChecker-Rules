@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F288FB6C-6686-59F5-A10E-4FB08F293F87",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 535,
+      "type": 5,
+      "name": "androidx.sqlite",
+      "mode": "exact",
+      "priority": 535,
+      "label": "Jetpack SQLite",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.sqlite"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

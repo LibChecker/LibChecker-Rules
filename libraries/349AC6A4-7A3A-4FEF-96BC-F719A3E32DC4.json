@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "349AC6A4-7A3A-4FEF-96BC-F719A3E32DC4",
+  "iconId": "ic_lib_shizuku",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Shizuku",
+        "dev_team": "RikkaW",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Shizuku 可以帮助普通应用借助一个由 app_process 启动的 Java 进程直接以 adb 或 root 特权使用系统 API。",
+        "source_link": "https://github.com/RikkaApps/Shizuku-API"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Shizuku",
+        "dev_team": "RikkaW",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Shizuku allows ordinary apps to use system APIs directly with adb or root privileges via a Java process started by app_process.",
+        "source_link": "https://github.com/RikkaApps/Shizuku-API"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 448,
+      "type": 4,
+      "name": "moe.shizuku.api.ShizukuProvider",
+      "mode": "exact",
+      "priority": 448,
+      "label": "Shizuku",
+      "iconId": "ic_lib_shizuku",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/moe/shizuku/api/ShizukuProvider.json",
+      "examples": {
+        "positive": [
+          "moe.shizuku.api.ShizukuProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 662,
+      "type": 4,
+      "name": "rikka.shizuku.ShizukuProvider",
+      "mode": "exact",
+      "priority": 662,
+      "label": "Shizuku",
+      "iconId": "ic_lib_shizuku",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/rikka/shizuku/ShizukuProvider.json",
+      "examples": {
+        "positive": [
+          "rikka.shizuku.ShizukuProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

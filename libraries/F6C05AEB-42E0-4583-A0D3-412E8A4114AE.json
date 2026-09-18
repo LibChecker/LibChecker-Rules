@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F6C05AEB-42E0-4583-A0D3-412E8A4114AE",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tianmu SDK",
+        "dev_team": "杭州艾狄墨搏信息服务有限公司",
+        "rule_contributors": [
+          "bingo-chou"
+        ],
+        "description": "天目广告 SDK 是一款全面的 APP 广告变现解决方案，支持多种广告格式，包括横幅、插屏和视频广告。它具有精准和详细的数据分析功能，帮助开发者优化广告投放和提升收益。",
+        "source_link": "https://doc.admobile.top/ssp/pages/tmsdkand/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tianmu SDK",
+        "dev_team": "杭州艾狄墨搏信息服务有限公司",
+        "rule_contributors": [
+          "bingo-chou"
+        ],
+        "description": "Tianmu Advertising SDK is a comprehensive app monetization solution that supports various ad formats, including banners, interstitials, and video ads. It features precise and detailed data analytics capabilities to help developers optimize ad placements and enhance revenue.",
+        "source_link": "https://doc.admobile.top/ssp/pages/tmsdkand/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1855,
+      "type": 0,
+      "name": "libnative-tianmu-common.so",
+      "mode": "exact",
+      "priority": 1855,
+      "label": "Tianmu SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnative-tianmu-common.so.json",
+      "examples": {
+        "positive": [
+          "libnative-tianmu-common.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1856,
+      "type": 0,
+      "name": "libnative-tianmu-lib.so",
+      "mode": "exact",
+      "priority": 1856,
+      "label": "Tianmu SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnative-tianmu-lib.so.json",
+      "examples": {
+        "positive": [
+          "libnative-tianmu-lib.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1976,
+      "type": 2,
+      "name": "com\\.tianmu\\.biz\\.activity\\.(.*)",
+      "mode": "regex",
+      "priority": 1976,
+      "label": "Tianmu SDK",
+      "iconId": null,
+      "regexName": "regex_tianmu_sdk",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_tianmu_sdk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1977,
+      "type": 4,
+      "name": "com\\.tianmu\\.provider\\.(.*)",
+      "mode": "regex",
+      "priority": 1977,
+      "label": "Tianmu SDK",
+      "iconId": null,
+      "regexName": "regex_tianmu_sdk",
+      "hasDetail": true,
+      "legacyPath": "providers-libs/regex/regex_tianmu_sdk.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

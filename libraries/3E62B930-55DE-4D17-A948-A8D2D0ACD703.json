@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3E62B930-55DE-4D17-A948-A8D2D0ACD703",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Breakpad",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "Breakpad 是一组实现崩溃报告系统的客户端和服务器组件。",
+        "source_link": "https://github.com/google/breakpad"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Breakpad",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "Breakpad is a set of client and server components implementing a crash reporting system.",
+        "source_link": "https://github.com/google/breakpad"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1501,
+      "type": 0,
+      "name": "libbreakpad_client.so",
+      "mode": "exact",
+      "priority": 1501,
+      "label": "Breakpad",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbreakpad_client.so.json",
+      "examples": {
+        "positive": [
+          "libbreakpad_client.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1999,
+      "type": 0,
+      "name": "libbreakpad.so",
+      "mode": "exact",
+      "priority": 1999,
+      "label": "Breakpad",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbreakpad.so.json",
+      "examples": {
+        "positive": [
+          "libbreakpad.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2000,
+      "type": 0,
+      "name": "libbreakpad_cpp_helper.so",
+      "mode": "exact",
+      "priority": 2000,
+      "label": "Breakpad",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbreakpad_cpp_helper.so.json",
+      "examples": {
+        "positive": [
+          "libbreakpad_cpp_helper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2110,
+      "type": 0,
+      "name": "libbreakpad-core.so",
+      "mode": "exact",
+      "priority": 2110,
+      "label": "Breakpad",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbreakpad-core.so.json",
+      "examples": {
+        "positive": [
+          "libbreakpad-core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2609,
+      "type": 0,
+      "name": "libBreakpadLibrary.so",
+      "mode": "exact",
+      "priority": 2609,
+      "label": "Breakpad",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBreakpadLibrary.so.json",
+      "examples": {
+        "positive": [
+          "libBreakpadLibrary.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

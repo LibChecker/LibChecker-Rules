@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "75E4D4C9-FE4D-5443-93D6-5853E90723BC",
+  "iconId": "ic_lib_firebase",
+  "data": [],
+  "matchers": [
+    {
+      "id": 511,
+      "type": 5,
+      "name": "com.google.firebase",
+      "mode": "exact",
+      "priority": 511,
+      "label": "Firebase",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.firebase"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

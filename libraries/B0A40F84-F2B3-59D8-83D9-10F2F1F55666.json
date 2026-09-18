@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B0A40F84-F2B3-59D8-83D9-10F2F1F55666",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 540,
+      "type": 5,
+      "name": "androidx.work",
+      "mode": "exact",
+      "priority": 540,
+      "label": "Jetpack WorkManager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.work"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8F4843A8-6A9A-4BC3-9C59-D46805B1C67F",
+  "iconId": "ic_lib_rn_worklets",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Worklets",
+        "dev_team": "Software Mansion",
+        "rule_contributors": [
+          "sebastien46",
+          "yfdyh000"
+        ],
+        "description": "React Native Worklets 是一个允许您在多个线程和运行时上并行运行 JavaScript 代码的库。",
+        "source_link": "https://github.com/software-mansion/react-native-reanimated/tree/main/packages/react-native-worklets"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Worklets",
+        "dev_team": "Software Mansion",
+        "rule_contributors": [
+          "sebastien46",
+          "yfdyh000"
+        ],
+        "description": "React Native Worklets is a library that allows you to run JavaScript code in parallel on multiple threads and runtimes.",
+        "source_link": "https://github.com/software-mansion/react-native-reanimated/tree/main/packages/react-native-worklets"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2677,
+      "type": 0,
+      "name": "libworklets.so",
+      "mode": "exact",
+      "priority": 2677,
+      "label": "React Native Worklets",
+      "iconId": "ic_lib_rn_worklets",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libworklets.so.json",
+      "examples": {
+        "positive": [
+          "libworklets.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B2AD03C6-DC66-429F-A998-4ECD0E4E82C5",
+  "iconId": "ic_lib_telegram",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Telegram APIs",
+        "dev_team": "Telegram",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "使用此 API，您可以构建自己的自定义 Telegram 客户端。它对所有希望在我们的平台上创建 Telegram 应用程序的开发人员都是 100％ 开放的。",
+        "source_link": "https://core.telegram.org/api"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Telegram APIs",
+        "dev_team": "Telegram",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "Using this API, you can build your own custom Telegram client. It is 100% open to all developers who wish to create Telegram applications on our platform.",
+        "source_link": "https://core.telegram.org/api"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 560,
+      "type": 0,
+      "name": "libtmessages\\.(.*)\\.so",
+      "mode": "regex",
+      "priority": 560,
+      "label": "Telegram APIs",
+      "iconId": "ic_lib_telegram",
+      "regexName": "regex_telegram_apis",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_telegram_apis.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

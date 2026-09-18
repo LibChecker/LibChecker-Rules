@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FEA06702-E5FF-404D-A1E8-7998AD8BA7F0",
+  "iconId": "ic_lib_rn_skia",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Skia",
+        "dev_team": "Shopify",
+        "rule_contributors": [
+          "Anormi",
+          "sebastien46"
+        ],
+        "description": "使用 Skia 的高性能 2D 图形用于 React Native。",
+        "source_link": "https://github.com/Shopify/react-native-skia"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Skia",
+        "dev_team": "Shopify",
+        "rule_contributors": [
+          "Anormi",
+          "sebastien46"
+        ],
+        "description": "High-performance 2D graphics for React Native using Skia.",
+        "source_link": "https://github.com/Shopify/react-native-skia"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1508,
+      "type": 0,
+      "name": "librnskia.so",
+      "mode": "exact",
+      "priority": 1508,
+      "label": "React Native Skia",
+      "iconId": "ic_lib_rn_skia",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnskia.so.json",
+      "examples": {
+        "positive": [
+          "librnskia.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

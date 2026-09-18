@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C0FC76F7-D905-4BEE-A93D-BB69A6961760",
+  "iconId": "ic_lib_xiaomi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小米游戏 SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "小米游戏是小米手机、小米平板、小米电视的官方游戏下载平台，在这里我们为所有游戏开发者提供一站式的接入服务，并提供高质量分发与推广服务，为您的游戏助跑。",
+        "source_link": "https://dev.mi.com/console/app/gamecenter.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xiaomi Game SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaomi Games is the official game download platform for Xiaomi phones, Xiaomi tablets, and Xiaomi TVs. Here we provide one-stop access services for all game developers, as well as high-quality distribution and promotion services to give your game a boost.",
+        "source_link": "https://dev.mi.com/console/app/gamecenter.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 53,
+      "type": 0,
+      "name": "libconnectionbase.so",
+      "mode": "exact",
+      "priority": 53,
+      "label": "小米游戏 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libconnectionbase.so.json",
+      "examples": {
+        "positive": [
+          "libconnectionbase.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 103,
+      "type": 0,
+      "name": "libmilinkconnection.so",
+      "mode": "exact",
+      "priority": 103,
+      "label": "小米游戏 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmilinkconnection.so.json",
+      "examples": {
+        "positive": [
+          "libmilinkconnection.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

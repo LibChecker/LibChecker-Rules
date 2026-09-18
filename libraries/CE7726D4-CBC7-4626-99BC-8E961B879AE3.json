@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CE7726D4-CBC7-4626-99BC-8E961B879AE3",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Web Auth for Flutter",
+        "dev_team": "Linus U",
+        "rule_contributors": [
+          "wathika-eng"
+        ],
+        "description": "用于通过 Web 服务验证用户身份的 Flutter 插件。",
+        "source_link": "https://github.com/LinusU/flutter_web_auth"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Web Auth for Flutter",
+        "dev_team": "Linus U",
+        "rule_contributors": [
+          "wathika-eng"
+        ],
+        "description": "Flutter plugin for authenticating a user with a web service.",
+        "source_link": "https://github.com/LinusU/flutter_web_auth"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2705,
+      "type": 2,
+      "name": "com.linusu.flutter_web_auth.CallbackActivity",
+      "mode": "exact",
+      "priority": 2705,
+      "label": "Web Auth for Flutter",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/linusu/flutter_web_auth/CallbackActivity.json",
+      "examples": {
+        "positive": [
+          "com.linusu.flutter_web_auth.CallbackActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
