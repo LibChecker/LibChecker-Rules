@@ -21,7 +21,7 @@ LINE_ENDINGS = '\n\r\x85\u2028\u2029'
 TAGS = {'svg','g','path','defs','clipPath','linearGradient','radialGradient','stop'}
 ATTRS = {'width','height','viewBox','fill','fill-opacity','stroke','stroke-width','stroke-opacity','stroke-linecap','stroke-linejoin','stroke-miterlimit','fill-rule','clip-rule','d','transform','id','clip-path','x1','x2','y1','y2','cx','cy','r','fx','fy','gradientUnits','gradientTransform','spreadMethod','offset','stop-color','stop-opacity','opacity'}
 LEGACY_SQL = '''CREATE TABLE rules_table(_id INTEGER NOT NULL PRIMARY KEY, name TEXT NOT NULL, label TEXT NOT NULL, type INTEGER NOT NULL, iconIndex INTEGER NOT NULL, isRegexRule INTEGER NOT NULL, regexName TEXT)'''
-V5_SQL = LEGACY_SQL[:-1]+', priority INTEGER NOT NULL)'
+V5_SQL = LEGACY_SQL[:-1]+', priority INTEGER NOT NULL, labelEn TEXT)'
 
 def fail(condition, message):
     if not condition: raise ValueError(message)
@@ -202,7 +202,15 @@ def load_source(root=ROOT):
     common={**icons,**details,'icons/index.json':encoded(icon_index),'matching-fixtures.json':encoded(fixtures)}
     return rules,common,legacy,digest.hexdigest()
 
-def database(rules, v5):
+def english_label(rule, details):
+    path=rule['detailPath']
+    if path is None:return None
+    data=json.loads(details[path])['data']
+    label=next((item['data'].get('label') for item in data if item['locale']=='en'),None)
+    return label if isinstance(label,str) and label.strip() and label!=rule['label'] else None
+
+
+def database(rules, v5, details=None):
     with tempfile.TemporaryDirectory() as tmp:
         path=Path(tmp)/'rules.db'
         with closing(sqlite3.connect(path)) as db, db:
@@ -210,7 +218,7 @@ def database(rules, v5):
             if v5: db.execute('PRAGMA user_version=5')
             for r in sorted(rules,key=lambda r:r['id']):
                 row=[r['id'],r['name'],r['label'],r['type'],r['iconIndex'],int(r['isRegexRule']),r['regexName']]
-                if v5:row.append(r['priority'])
+                if v5:row += [r['priority'],english_label(r,details) if details is not None else None]
                 db.execute('INSERT INTO rules_table VALUES ('+','.join('?' for _ in row)+')',row)
         return path.read_bytes()
 
@@ -244,7 +252,7 @@ def build(root, output, version=None, previous=None, revision=None):
     fail(re.fullmatch('[0-9a-f]{40}',revision) is not None,'sourceRevision must be a full Git SHA')
     metadata=dict(schemaVersion=5,dataVersion=version,sourceRevision=revision,compilerRevision=compiler,contentSha256=content,ruleCount=len(rules),minimumReader=dict(android=5,portable=5))
     common['metadata.json']=encoded(metadata)
-    payloads={'android':{'metadata.json':encoded(metadata),'rules.db':database(rules,True)},'portable':{**common,'core.json':encoded(dict(schemaVersion=5,rules=rules))},'legacy':{**legacy,'cloud/rules/v4/rules.db':database(rules,False),'cloud/md5/v4':encoded(dict(version=version,count=len(rules)))}}
+    payloads={'android':{'metadata.json':encoded(metadata),'rules.db':database(rules,True,common)},'portable':{**common,'core.json':encoded(dict(schemaVersion=5,rules=rules))},'legacy':{**legacy,'cloud/rules/v4/rules.db':database(rules,False),'cloud/md5/v4':encoded(dict(version=version,count=len(rules)))}}
     manifest={**metadata,'artifacts':{}}
     outputs={}
     for kind,files in payloads.items():
