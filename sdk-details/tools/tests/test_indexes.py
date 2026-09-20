@@ -1,6 +1,8 @@
 import copy
 import json
 import re
+import tempfile
+from unittest.mock import patch
 from pathlib import Path
 import sys
 import unittest
@@ -31,3 +33,23 @@ class IndexTest(unittest.TestCase):
             self.assertIn('path_template',active['lookups'][0])
             bad=copy.deepcopy(definition);bad['lookups'][0]['index_path']='sdk-details/{value}.json'
             with self.assertRaises(ValueError):validate.validate_definition(candidate,bad)
+
+    def test_refresh_repairs_index_after_provider_data_changes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            sdk=root/'sdks/flutter';(sdk/'data/engine').mkdir(parents=True)
+            (sdk/'definition.json').write_text(json.dumps({'lookups':[]}))
+            (sdk/'data/engine/first.json').write_text(json.dumps({'engine':'first','releases':[]}))
+            original_outputs=build_indexes.outputs
+            with patch.object(build_indexes,'SOURCES',{'flutter':('engine','engine')}), patch.object(build_indexes,'outputs',lambda:original_outputs(root)):
+                build_indexes.build()
+                build_indexes.build(check=True)
+                (sdk/'data/engine/second.json').write_text(json.dumps({'engine':'second','releases':[]}))
+                with self.assertRaisesRegex(ValueError,'Stale SDK index'):
+                    build_indexes.build(check=True)
+                build_indexes.build()
+                build_indexes.build(check=True)
+                index=sdk/'data/index.json';before=index.read_bytes()
+                self.assertEqual(['first','second'],[entry['engine'] for entry in json.loads(before)['entries']])
+                build_indexes.build()
+                self.assertEqual(before,index.read_bytes())
