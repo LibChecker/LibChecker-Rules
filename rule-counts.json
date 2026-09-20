@@ -1,11 +1,1 @@
-{
-  "rulesVersion": 44,
-  "nativeLibraries": 1442,
-  "activities": 538,
-  "services": 294,
-  "receivers": 137,
-  "providers": 165,
-  "intentActions": 113,
-  "staticLibraries": 1,
-  "chartRules": 4
-}
+{"activities":538,"chartRules":4,"intentActions":113,"nativeLibraries":1440,"providers":165,"receivers":137,"rulesVersion":45,"services":293,"staticLibraries":1}
