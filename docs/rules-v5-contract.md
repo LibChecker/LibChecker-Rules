@@ -66,8 +66,17 @@ Portable additionally contains `core.json`:
 Android contains `rules.db` with `PRAGMA user_version=5` and
 `rules_table(_id INTEGER PRIMARY KEY, name TEXT NOT NULL, label TEXT NOT NULL,
 type INTEGER NOT NULL, iconIndex INTEGER NOT NULL, isRegexRule INTEGER NOT NULL,
-regexName TEXT, priority INTEGER NOT NULL)`.
-These are exactly the legacy seven columns plus `priority`, with 4096-byte pages.
+regexName TEXT, priority INTEGER NOT NULL, labelEn TEXT)`.
+These are the legacy seven columns plus `priority` and nullable `labelEn`, with
+4096-byte pages. `label` always preserves the original matcher label. `labelEn`
+comes only from the effective matcher detail locale `en` (whole `detailData`
+override if present, otherwise library `data`), and only when `hasDetail` is true.
+Missing/blank English or English identical to `label` is stored as NULL. No
+translation is invented, and an override without English never borrows the library
+English label. Readers show `label` for persisted Chinese detail language; all
+other languages use `labelEn` with fallback to `label`. Older eight-column
+databases remain readable by falling back to `label`. Canonical editing format,
+portable fields and legacy seven-column data stay unchanged.
 Rows retain their legacy integer IDs. Query regex rows with explicit
 `ORDER BY priority, _id`. The Android DB has no `uuid`, `iconId`, `detailPath`, or
 `isSimpleColorIcon` columns: these unused Android fields belong to canonical and
@@ -76,7 +85,7 @@ endpoints and the selected GitHub/GitLab root; SDK UUID comes from cloud detail 
 Android icons and their monochrome flags use Bundle drawable/IconResMap only.
 Independent chart SVG support is unchanged. This compact layout replaces the
 unpublished local 45 preview only; matching schema/user_version stays 5. Reader
-validation must require these eight columns before consuming the refreshed lock.
+validation accepts the original eight columns and this nine-column extension.
 
 Legacy ZIP contains `cloud/rules/v4/rules.db` (original seven columns),
 `cloud/md5/v4` (`{version,count}`), and legacy detail paths. Existing checked-in

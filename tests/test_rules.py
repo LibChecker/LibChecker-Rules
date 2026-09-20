@@ -62,14 +62,44 @@ class RulesTest(unittest.TestCase):
                 with contextlib.closing(sqlite3.connect(db_path)) as db:
                     self.assertEqual(5,db.execute('PRAGMA user_version').fetchone()[0])
                     columns=[row[1] for row in db.execute('PRAGMA table_info(rules_table)')]
-                    self.assertEqual(['_id','name','label','type','iconIndex','isRegexRule','regexName','priority'],columns)
+                    self.assertEqual(['_id','name','label','type','iconIndex','isRegexRule','regexName','priority','labelEn'],columns)
                     self.assertEqual(4096,db.execute('PRAGMA page_size').fetchone()[0])
-                    expected=[(r['id'],r['name'],r['label'],r['type'],r['iconIndex'],int(r['isRegexRule']),r['regexName'],r['priority']) for r in sorted(self.rows,key=lambda r:r['id'])]
+                    expected=[(r['id'],r['name'],r['label'],r['type'],r['iconIndex'],int(r['isRegexRule']),r['regexName'],r['priority'],rules.english_label(r,self.common)) for r in sorted(self.rows,key=lambda r:r['id'])]
                     self.assertEqual(expected,db.execute('select * from rules_table order by _id').fetchall())
                     self.assertEqual([r['id'] for r in self.rows],[r[0] for r in db.execute('select _id from rules_table order by priority,_id')])
                     self.assertEqual(self.rows,json.loads(portable.read('core.json'))['rules'])
                     self.assertEqual('ok',db.execute('PRAGMA integrity_check').fetchone()[0])
                     self.assertEqual(len(self.rows),db.execute('select count(*) from rules_table').fetchone()[0])
+
+    def test_english_labels_use_effective_matcher_details(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);shutil.copytree(ROOT/'libraries',root/'libraries');shutil.copytree(ROOT/'icons',root/'icons')
+            path=root/'libraries/AEF9680F-4A43-4EDC-A5B8-8119D23BCD21.json'
+            lib=rules.read(path)
+            def localized(label):return [{'locale':'en','data':{'label':label}}]
+            lib['data']=localized('Library English')
+            source=copy.deepcopy(lib['matchers'][0]);lib['matchers']=[]
+            scenarios=[('inherited',True,None,'Original','Library English'),
+                       ('override',True,localized('Specific English'),'Original','Specific English'),
+                       ('missing',True,[{'locale':'zh-Hans','data':{'label':'中文'}}],'Original',None),
+                       ('same',True,localized('Same'),'Same',None),
+                       ('blank',True,localized('  '),'Original',None),
+                       ('no-detail',False,None,'Original',None)]
+            expected={}
+            for offset,(name,has_detail,override,label,result) in enumerate(scenarios):
+                m=copy.deepcopy(source);m.update(id=100000+offset,name='test.'+name,label=label,hasDetail=has_detail,legacyPath=None,examples={'positive':[],'negative':[]})
+                m.pop('detailData',None)
+                if override is not None:m['detailData']=override
+                lib['matchers'].append(m);expected[m['id']]=result
+            path.write_bytes(rules.encoded(lib))
+            rows,details,_,_=rules.load_source(root)
+            db_path=root/'check.db';db_path.write_bytes(rules.database(rows,True,details))
+            with contextlib.closing(sqlite3.connect(db_path)) as db:
+                actual=dict(db.execute('select _id,labelEn from rules_table where _id>=100000'))
+                self.assertEqual(expected,actual)
+            db_path.write_bytes(rules.database(rows,False,details))
+            with contextlib.closing(sqlite3.connect(db_path)) as db:
+                self.assertEqual(7,len(db.execute('PRAGMA table_info(rules_table)').fetchall()))
 
     def test_compact_database_keeps_priority_independent_of_id(self):
         rows=copy.deepcopy(self.rows[:2])
