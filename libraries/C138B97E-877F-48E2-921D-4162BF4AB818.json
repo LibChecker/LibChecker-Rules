@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C138B97E-877F-48E2-921D-4162BF4AB818",
+  "iconId": "ic_lib_xiaomi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小米应用检查更新 SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "小米应用检查更新 SDK 帮助您的用户尽快获得最新版本的应用，轻松增加【应用检查更新】的功能，通过小米应用商店的 CDN 服务，快速的把最新版应用推送给用户。",
+        "source_link": "https://dev.mi.com/console/doc/detail?pId=4/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xiaomi App Update Check SDK",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaomi App Update Check SDK helps your users get the latest version of the app as soon as possible, easily adding the 'App Update Check' feature, and quickly pushing the latest version of the app to users through the Xiaomi App Store's CDN service.",
+        "source_link": "https://dev.mi.com/console/doc/detail?pId=4/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 7,
+      "type": 0,
+      "name": "libsdk_patcher_jni.so",
+      "mode": "exact",
+      "priority": 7,
+      "label": "小米更新 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsdk_patcher_jni.so.json",
+      "examples": {
+        "positive": [
+          "libsdk_patcher_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 575,
+      "type": 3,
+      "name": "com.xiaomi.market.sdk.DownloadCompleteReceiver",
+      "mode": "exact",
+      "priority": 575,
+      "label": "小米更新 SDK",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/xiaomi/market/sdk/DownloadCompleteReceiver.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.market.sdk.DownloadCompleteReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

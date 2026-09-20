@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 5,
+  "uuid": "23FFE549-FEED-45DF-BD74-C9F4CCA26FA3",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Fcitx 5 中文插件",
+        "dev_team": "Fcitx / Fcitx 5 for Android",
+        "rule_contributors": [
+          "WhiredPlanck"
+        ],
+        "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+        "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Fcitx 5 Chinese Addons",
+        "dev_team": "Fcitx / Fcitx 5 for Android",
+        "rule_contributors": [
+          "WhiredPlanck"
+        ],
+        "description": "Fcitx 5 for Android addon. (chttrans module)",
+        "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1908,
+      "type": 0,
+      "name": "libchttrans.so",
+      "mode": "exact",
+      "priority": 1908,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libchttrans.so.json",
+      "examples": {
+        "positive": [
+          "libchttrans.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1914,
+      "type": 0,
+      "name": "libscel2org5.so",
+      "mode": "exact",
+      "priority": 1914,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libscel2org5.so.json",
+      "examples": {
+        "positive": [
+          "libscel2org5.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 中文插件",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 Chinese Addons",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (scel2org5 tool)",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1918,
+      "type": 0,
+      "name": "libpinyin.so",
+      "mode": "exact",
+      "priority": 1918,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpinyin.so.json",
+      "examples": {
+        "positive": [
+          "libpinyin.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 中文插件",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 Chinese Addons",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (pinyin im module)",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1925,
+      "type": 0,
+      "name": "libpunctuation.so",
+      "mode": "exact",
+      "priority": 1925,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpunctuation.so.json",
+      "examples": {
+        "positive": [
+          "libpunctuation.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 中文插件",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 Chinese Addons",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (punctuation module)",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1937,
+      "type": 0,
+      "name": "libtable.so",
+      "mode": "exact",
+      "priority": 1937,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtable.so.json",
+      "examples": {
+        "positive": [
+          "libtable.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 中文插件",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 Chinese Addons",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (table im module)",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1949,
+      "type": 0,
+      "name": "libfullwidth.so",
+      "mode": "exact",
+      "priority": 1949,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfullwidth.so.json",
+      "examples": {
+        "positive": [
+          "libfullwidth.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 中文插件",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 Chinese Addons",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (fullwidth module)",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1968,
+      "type": 0,
+      "name": "libpinyinhelper.so",
+      "mode": "exact",
+      "priority": 1968,
+      "label": "Fcitx 5 中文插件",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpinyinhelper.so.json",
+      "examples": {
+        "positive": [
+          "libpinyinhelper.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 中文插件",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（chttrans 模块）",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 Chinese Addons",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (pinyinhelper module)",
+            "source_link": "https://github.com/fcitx/fcitx5-chinese-addons"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

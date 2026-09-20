@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8692B788-BDE7-4038-854D-E81F96EF763C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "lib-encrypt",
+        "dev_team": "bihe0832",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "AES加密，MD5计算，进制转化。",
+        "source_link": "https://android.bihe0832.com/doc/use/libs/noui/lib-encrypt.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "lib-encrypt",
+        "dev_team": "bihe0832",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "AES encryption, MD5 computation, and numeral system conversion.",
+        "source_link": "https://android.bihe0832.com/doc/use/libs/noui/lib-encrypt.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2017,
+      "type": 0,
+      "name": "libencrypt.so",
+      "mode": "exact",
+      "priority": 2017,
+      "label": "lib-encrypt",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libencrypt.so.json",
+      "examples": {
+        "positive": [
+          "libencrypt.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

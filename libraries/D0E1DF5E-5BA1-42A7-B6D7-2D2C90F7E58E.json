@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D0E1DF5E-5BA1-42A7-B6D7-2D2C90F7E58E",
+  "iconId": "ic_lib_aliyun",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "阿里云云解析 DNS",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "coder-xiaomo"
+        ],
+        "description": "阿里云云解析DNS深度融合公共云与IDC解析能力，实现全场景覆盖、全链路解析与一站式管理，为企业提供全面、易用、高效的平台化域名解析服务。无论多云、混合云架构，还是移动应用与物联网场景，均可灵活适配，助力企业降本增效，构建稳定可靠的网络环境。",
+        "source_link": "https://help.aliyun.com/zh/dns/httpdns-android-sdk-development-guide"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "阿里云云解析 DNS",
+        "dev_team": "Aliyun",
+        "rule_contributors": [
+          "coder-xiaomo"
+        ],
+        "description": "Alibaba Cloud DNS deeply integrates public cloud and IDC DNS resolution capabilities, enabling full-scenario coverage, end-to-end resolution, and one-stop management. It provides enterprises with a comprehensive, easy-to-use, and efficient platform-based domain name resolution service. Whether for multi-cloud and hybrid-cloud architectures, or for mobile applications and IoT scenarios, it can adapt flexibly, helping enterprises reduce costs, improve efficiency, and build a stable and reliable network environment.",
+        "source_link": "https://help.aliyun.com/zh/dns/httpdns-android-sdk-development-guide"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2795,
+      "type": 0,
+      "name": "libalipdns.so",
+      "mode": "exact",
+      "priority": 2795,
+      "label": "阿里云云解析 DNS",
+      "iconId": "ic_lib_aliyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalipdns.so.json",
+      "examples": {
+        "positive": [
+          "libalipdns.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

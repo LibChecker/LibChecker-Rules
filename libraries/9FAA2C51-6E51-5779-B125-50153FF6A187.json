@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9FAA2C51-6E51-5779-B125-50153FF6A187",
+  "iconId": "ic_lib_tencent_map",
+  "data": [],
+  "matchers": [
+    {
+      "id": 491,
+      "type": 5,
+      "name": "com.tencent.map",
+      "mode": "exact",
+      "priority": 491,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.map"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

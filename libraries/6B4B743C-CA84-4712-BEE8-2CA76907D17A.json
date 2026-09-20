@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6B4B743C-CA84-4712-BEE8-2CA76907D17A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "闪验 SDK",
+        "dev_team": "创蓝云智",
+        "rule_contributors": [
+          "xwhPanda",
+          "watwhat",
+          "Absinthe"
+        ],
+        "description": "闪验整合三大运营商，支持国内三网手机号段，Android/iOS 手机，可通过一键获取用户手机号的 SDK 产品，建立以手机号码作为去中心化的开放账号体系，提升注册转换效率的必备功能。",
+        "source_link": "https://shanyan.253.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Flash Verification SDK",
+        "dev_team": "创蓝云智",
+        "rule_contributors": [
+          "xwhPanda",
+          "watwhat",
+          "Absinthe"
+        ],
+        "description": "Flash Verification integrates the three major operators, supporting domestic three-network mobile number segments, Android/iOS phones, and provides an SDK product for one-click obtaining user phone numbers, establishing a decentralized open account system with mobile numbers as the basis, enhancing registration conversion efficiency.",
+        "source_link": "https://shanyan.253.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 802,
+      "type": 0,
+      "name": "libShanYCore.so",
+      "mode": "exact",
+      "priority": 802,
+      "label": "闪验 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libShanYCore.so.json",
+      "examples": {
+        "positive": [
+          "libShanYCore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 918,
+      "type": 2,
+      "name": "com.chuanglan.shanyan_sdk.view.ShanYanOneKeyActivity",
+      "mode": "exact",
+      "priority": 918,
+      "label": "闪验 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/chuanglan/shanyan_sdk/view/ShanYanOneKeyActivity.json",
+      "examples": {
+        "positive": [
+          "com.chuanglan.shanyan_sdk.view.ShanYanOneKeyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 919,
+      "type": 2,
+      "name": "com.chuanglan.shanyan_sdk.view.CmccLoginActivity",
+      "mode": "exact",
+      "priority": 919,
+      "label": "闪验 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/chuanglan/shanyan_sdk/view/CmccLoginActivity.json",
+      "examples": {
+        "positive": [
+          "com.chuanglan.shanyan_sdk.view.CmccLoginActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 920,
+      "type": 2,
+      "name": "com.chuanglan.shanyan_sdk.view.CTCCPrivacyProtocolActivity",
+      "mode": "exact",
+      "priority": 920,
+      "label": "闪验 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/chuanglan/shanyan_sdk/view/CTCCPrivacyProtocolActivity.json",
+      "examples": {
+        "positive": [
+          "com.chuanglan.shanyan_sdk.view.CTCCPrivacyProtocolActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2401,
+      "type": 2,
+      "name": "com.chuanglan.shanyan_sdk.view.CmccLoginAuthActivity",
+      "mode": "exact",
+      "priority": 2401,
+      "label": "闪验 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/chuanglan/shanyan_sdk/view/CmccLoginAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.chuanglan.shanyan_sdk.view.CmccLoginAuthActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

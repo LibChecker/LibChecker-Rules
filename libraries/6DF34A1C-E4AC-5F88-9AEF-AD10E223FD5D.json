@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6DF34A1C-E4AC-5F88-9AEF-AD10E223FD5D",
+  "iconId": "ic_lib_kotlin",
+  "data": [],
+  "matchers": [
+    {
+      "id": 542,
+      "type": 5,
+      "name": "kotlin.reflect",
+      "mode": "exact",
+      "priority": 542,
+      "label": "Kotlin Reflect",
+      "iconId": "ic_lib_kotlin",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "kotlin.reflect"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "568EA27D-832C-5026-9472-1C928FC3DF06",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 1208,
+      "type": 4,
+      "name": "libbangcle_crypto_tool.so",
+      "mode": "exact",
+      "priority": 1208,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libbangcle_crypto_tool.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4622B49D-4ACA-42B3-9FCC-F82D2365B81B",
+  "iconId": "ic_lib_unity",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Unity",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "Absinthe",
+          "enKl03B"
+        ],
+        "description": "Unity 是一款由 Unity Technologies 所研发的跨平台2D / 3D 游戏引擎，可用于开发 Windows、MacOS 及 Linux 平台的单机游戏，PlayStation、XBox、Wii、3DS 和 任天堂Switch 等游戏主机平台的视频游戏，以及 iOS、Android 等移动设备的游戏。",
+        "source_link": "https://docs.unity3d.com/Manual/index.html/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Unity",
+        "dev_team": "Unity Technologies",
+        "rule_contributors": [
+          "Absinthe",
+          "enKl03B"
+        ],
+        "description": "Unity is a cross-platform 2D/3D game engine developed by Unity Technologies, used for developing standalone games for Windows, macOS, and Linux platforms, video games for game consoles such as PlayStation, Xbox, Wii, 3DS, and Nintendo Switch, as well as games for mobile devices such as iOS and Android.",
+        "source_link": "https://docs.unity3d.com/Manual/index.html/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 36,
+      "type": 0,
+      "name": "libmain.so",
+      "mode": "exact",
+      "priority": 36,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmain.so.json",
+      "examples": {
+        "positive": [
+          "libmain.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 85,
+      "type": 0,
+      "name": "libunity.so",
+      "mode": "exact",
+      "priority": 85,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libunity.so.json",
+      "examples": {
+        "positive": [
+          "libunity.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 129,
+      "type": 0,
+      "name": "libmono.so",
+      "mode": "exact",
+      "priority": 129,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmono.so.json",
+      "examples": {
+        "positive": [
+          "libmono.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 364,
+      "type": 2,
+      "name": "com.unity3d.player.UnityPlayerActivity",
+      "mode": "exact",
+      "priority": 364,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/player/UnityPlayerActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.player.UnityPlayerActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unity",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "Absinthe",
+              "enKl03B"
+            ],
+            "description": "Unity 是一款由 Unity Technologies 所研发的跨平台2D / 3D 游戏引擎，可用于开发 Windows、MacOS 及 Linux 平台的单机游戏，PlayStation、XBox、Wii、3DS 和 任天堂Switch 等游戏主机平台的视频游戏，以及 iOS、Android 等移动设备的游戏。",
+            "source_link": "https://docs.unity3d.com/Manual/index.html"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unity",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "Absinthe",
+              "enKl03B"
+            ],
+            "description": "Unity is a cross-platform 2D/3D game engine developed by Unity Technologies, used for developing standalone games for Windows, macOS, and Linux platforms, video games for game consoles such as PlayStation, Xbox, Wii, 3DS, and Nintendo Switch, as well as games for mobile devices such as iOS and Android.",
+            "source_link": "https://docs.unity3d.com/Manual/index.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "type": 0,
+      "name": "libil2cpp.so",
+      "mode": "exact",
+      "priority": 677,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libil2cpp.so.json",
+      "examples": {
+        "positive": [
+          "libil2cpp.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unity",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "kotori2"
+            ],
+            "description": "Unity 游戏使用 Il2Cpp 后端时产生的游戏代码。",
+            "source_link": "https://docs.unity3d.com/Manual/IL2CPP.html"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unity",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "kotori2"
+            ],
+            "description": "Unity is a cross-platform 2D/3D game engine developed by Unity Technologies, used for developing standalone games for Windows, macOS, and Linux platforms, video games for game consoles such as PlayStation, Xbox, Wii, 3DS, and Nintendo Switch, as well as games for mobile devices such as iOS and Android.",
+            "source_link": "https://docs.unity3d.com/Manual/IL2CPP.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1990,
+      "type": 0,
+      "name": "libUnityPlugin.so",
+      "mode": "exact",
+      "priority": 1990,
+      "label": "Unity",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libUnityPlugin.so.json",
+      "examples": {
+        "positive": [
+          "libUnityPlugin.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

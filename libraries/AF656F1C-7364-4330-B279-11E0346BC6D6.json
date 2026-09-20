@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AF656F1C-7364-4330-B279-11E0346BC6D6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Xray Core",
+        "dev_team": "Project X Community",
+        "rule_contributors": [
+          "THR-hub"
+        ],
+        "description": "Xray，洞察一切。同时是最好的 v2ray-core。魔法发生的地方。一个用于多种用途的开放平台。",
+        "source_link": "https://github.com/XTLS/Xray-core"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xray Core",
+        "dev_team": "Project X Community",
+        "rule_contributors": [
+          "THR-hub"
+        ],
+        "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+        "source_link": "https://github.com/XTLS/Xray-core"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2440,
+      "type": 0,
+      "name": "libxray.so",
+      "mode": "exact",
+      "priority": 2440,
+      "label": "Xray Core",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxray.so.json",
+      "examples": {
+        "positive": [
+          "libxray.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

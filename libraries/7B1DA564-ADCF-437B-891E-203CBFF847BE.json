@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7B1DA564-ADCF-437B-891E-203CBFF847BE",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "File Provider",
+        "dev_team": "Android",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "FileProvider 是 ContentProvider 的特殊子类，它通过创建 content://Uri 代替 file:///Uri 以促进安全分享与应用程序关联的文件。",
+        "source_link": "https://developer.android.com/reference/androidx/core/content/FileProvider/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "File Provider",
+        "dev_team": "Android",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "FileProvider is a special subclass of ContentProvider that facilitates secure sharing of files associated with an application by creating content://Uri instead of file:///Uri.",
+        "source_link": "https://developer.android.com/reference/androidx/core/content/FileProvider/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 433,
+      "type": 4,
+      "name": "android.support.v4.content.FileProvider",
+      "mode": "exact",
+      "priority": 433,
+      "label": "File Provider",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/android/support/v4/content/FileProvider.json",
+      "examples": {
+        "positive": [
+          "android.support.v4.content.FileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 449,
+      "type": 4,
+      "name": "androidx.core.content.FileProvider",
+      "mode": "exact",
+      "priority": 449,
+      "label": "File Provider",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/androidx/core/content/FileProvider.json",
+      "examples": {
+        "positive": [
+          "androidx.core.content.FileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

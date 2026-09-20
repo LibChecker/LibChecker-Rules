@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D2A17366-5160-4179-BCEC-F88A566BA8DC",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack AppCompat",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "允许在平台的旧 API 版本上访问新 API（许多使用 Material Design）。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/appcompat"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack AppCompat",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Allows access to new APIs on older API versions of the platform (many using Material Design).",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/appcompat"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1631,
+      "type": 1,
+      "name": "androidx.appcompat.app.AppLocalesMetadataHolderService",
+      "mode": "exact",
+      "priority": 1631,
+      "label": "Jetpack AppCompat",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/appcompat/app/AppLocalesMetadataHolderService.json",
+      "examples": {
+        "positive": [
+          "androidx.appcompat.app.AppLocalesMetadataHolderService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2175,
+      "type": 1,
+      "name": "android.support.v7.app.AppLocalesMetadataHolderService",
+      "mode": "exact",
+      "priority": 2175,
+      "label": "Jetpack AppCompat",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/android/support/v7/app/AppLocalesMetadataHolderService.json",
+      "examples": {
+        "positive": [
+          "android.support.v7.app.AppLocalesMetadataHolderService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

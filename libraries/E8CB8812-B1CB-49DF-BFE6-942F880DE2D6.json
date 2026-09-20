@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E8CB8812-B1CB-49DF-BFE6-942F880DE2D6",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BoostMultiDex",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "zxwpm"
+        ],
+        "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
+        "source_link": "https://github.com/bytedance/BoostMultiDex"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BoostMultiDex",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "zxwpm"
+        ],
+        "description": "BoostMultiDex is a solution for quickly loading multiple DEX files on low-version Android devices (4.X and below, SDK < 21).",
+        "source_link": "https://github.com/bytedance/BoostMultiDex"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 78,
+      "type": 0,
+      "name": "libboost_multidex.so",
+      "mode": "exact",
+      "priority": 78,
+      "label": "BoostMultiDex",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libboost_multidex.so.json",
+      "examples": {
+        "positive": [
+          "libboost_multidex.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 199,
+      "type": 1,
+      "name": "com.bytedance.boost_multidex.OptimizeService",
+      "mode": "exact",
+      "priority": 199,
+      "label": "BoostMultiDex",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/boost_multidex/OptimizeService.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.boost_multidex.OptimizeService"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BoostMultiDex",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "BoostMultiDex是一个用于Android低版本设备（4.X及以下，SDK < 21）快速加载多DEX的解决方案。",
+            "source_link": "https://github.com/bytedance/BoostMultiDex"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BoostMultiDex",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "BoostMultiDex is a solution for quickly loading multiple DEX files on low-version Android devices (4.X and below, SDK < 21).",
+            "source_link": "https://github.com/bytedance/BoostMultiDex"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

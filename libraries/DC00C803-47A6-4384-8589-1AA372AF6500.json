@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DC00C803-47A6-4384-8589-1AA372AF6500",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Arcsoft",
+        "dev_team": "Arcsoft",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ArcSoft是计算机视觉人工智能行业的领先算法服务和软件解决方案提供商，提供基于英飞凌REAL3™ TOF成像器的定制软件解决方案。",
+        "source_link": "https://www.arcsoft.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Arcsoft",
+        "dev_team": "Arcsoft",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ArcSoft is a leading algorithm service and software solution provider in the computer vision artificial intelligence industry offering customized software solutions based on Infineon REAL3™ TOF imagers.",
+        "source_link": "https://www.arcsoft.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1819,
+      "type": 0,
+      "name": "libancbase_rt_bokeh.so",
+      "mode": "exact",
+      "priority": 1819,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libancbase_rt_bokeh.so.json",
+      "examples": {
+        "positive": [
+          "libancbase_rt_bokeh.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1821,
+      "type": 0,
+      "name": "libarcsoft_beauty_ex.so",
+      "mode": "exact",
+      "priority": 1821,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_beauty_ex.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_beauty_ex.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1822,
+      "type": 0,
+      "name": "libarcsoft_dualcam_refocus_gallery.so",
+      "mode": "exact",
+      "priority": 1822,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_dualcam_refocus_gallery.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_dualcam_refocus_gallery.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1823,
+      "type": 0,
+      "name": "libarcsoft_lensstaindetection.so",
+      "mode": "exact",
+      "priority": 1823,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_lensstaindetection.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_lensstaindetection.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1824,
+      "type": 0,
+      "name": "libarcsoft_panorama_burstcapture.so",
+      "mode": "exact",
+      "priority": 1824,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_panorama_burstcapture.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_panorama_burstcapture.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1825,
+      "type": 0,
+      "name": "libarcsoft_pet_detection.so",
+      "mode": "exact",
+      "priority": 1825,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_pet_detection.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_pet_detection.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1826,
+      "type": 0,
+      "name": "libarcsoft_pic_trace_video.so",
+      "mode": "exact",
+      "priority": 1826,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_pic_trace_video.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_pic_trace_video.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1827,
+      "type": 0,
+      "name": "libarcsoft_videoautozoom.so",
+      "mode": "exact",
+      "priority": 1827,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libarcsoft_videoautozoom.so.json",
+      "examples": {
+        "positive": [
+          "libarcsoft_videoautozoom.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1854,
+      "type": 0,
+      "name": "libmpbase.so",
+      "mode": "exact",
+      "priority": 1854,
+      "label": "Arcsoft",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpbase.so.json",
+      "examples": {
+        "positive": [
+          "libmpbase.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

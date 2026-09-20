@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3A81F882-7FA6-44E0-ADAC-F7A7E4FF348D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AVPro Video",
+        "dev_team": "RenderHeads",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "AVPro Video 是一个用于高级视频播放的多平台 Unity 插件",
+        "source_link": "https://renderheads.com/products/avpro-video/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AVPro Video",
+        "dev_team": "RenderHeads",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "AVPro Video is a multi-platform Unity plugin for advanced video playback.",
+        "source_link": "https://renderheads.com/products/avpro-video/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 576,
+      "type": 0,
+      "name": "libAVProLocal.so",
+      "mode": "exact",
+      "priority": 576,
+      "label": "AVPro Video",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAVProLocal.so.json",
+      "examples": {
+        "positive": [
+          "libAVProLocal.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1281,
+      "type": 0,
+      "name": "libaudio360.so",
+      "mode": "exact",
+      "priority": 1281,
+      "label": "AVPro Video",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaudio360.so.json",
+      "examples": {
+        "positive": [
+          "libaudio360.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "AVPro Video",
+            "dev_team": "RenderHeads Ltd",
+            "rule_contributors": [
+              "yfdyh000"
+            ],
+            "description": "AVPro Video 是一个用于高级视频播放的多平台 Unity 插件",
+            "source_link": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "AVPro Video",
+            "dev_team": "RenderHeads Ltd",
+            "rule_contributors": [
+              "yfdyh000"
+            ],
+            "description": "AVPro Video is a multi-platform Unity plugin for advanced video playback.",
+            "source_link": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1282,
+      "type": 0,
+      "name": "libaudio360-JNI.so",
+      "mode": "exact",
+      "priority": 1282,
+      "label": "AVPro Video",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaudio360-JNI.so.json",
+      "examples": {
+        "positive": [
+          "libaudio360-JNI.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "AVPro Video",
+            "dev_team": "RenderHeads Ltd",
+            "rule_contributors": [
+              "yfdyh000"
+            ],
+            "description": "AVPro Video 是一个用于高级视频播放的多平台 Unity 插件",
+            "source_link": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "AVPro Video",
+            "dev_team": "RenderHeads Ltd",
+            "rule_contributors": [
+              "yfdyh000"
+            ],
+            "description": "AVPro Video is a multi-platform Unity plugin for advanced video playback.",
+            "source_link": "https://github.com/RenderHeads/UnityPlugin-AVProVideo"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

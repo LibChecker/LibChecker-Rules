@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FB560233-B6F0-53F8-B764-8DA2E6BBC4DE",
+  "iconId": "ic_lib_material",
+  "data": [],
+  "matchers": [
+    {
+      "id": 478,
+      "type": 5,
+      "name": "com.google.android.material",
+      "mode": "exact",
+      "priority": 478,
+      "label": "Material Design Components",
+      "iconId": "ic_lib_material",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.android.material"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

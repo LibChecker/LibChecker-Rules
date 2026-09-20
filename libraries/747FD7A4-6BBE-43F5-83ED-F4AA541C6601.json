@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "747FD7A4-6BBE-43F5-83ED-F4AA541C6601",
+  "iconId": "ic_lib_bilibili",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Xpref",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个 SharedPreferences 的包装器，真正支持跨多进程共享数据。",
+        "source_link": "https://github.com/bilibili/xpref"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xpref",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "A wrapper for SharedPreferences that truly supports cross-process data sharing.",
+        "source_link": "https://github.com/bilibili/xpref"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 782,
+      "type": 4,
+      "name": "com.bilibili.xpref.XprefProvider",
+      "mode": "exact",
+      "priority": 782,
+      "label": "Xpref",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bilibili/xpref/XprefProvider.json",
+      "examples": {
+        "positive": [
+          "com.bilibili.xpref.XprefProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

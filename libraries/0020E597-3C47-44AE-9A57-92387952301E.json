@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0020E597-3C47-44AE-9A57-92387952301E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "python-for-android",
+        "dev_team": "kivy",
+        "rule_contributors": [
+          "yfdyh000",
+          "LuRen-Dmzm"
+        ],
+        "description": "python-for-android 是一个用于在 Android 上打包 Python 应用程序的工具。您可以创建自己的 Python 发行版，包括您想要的模块和依赖项，并将其与您的代码一起打包成 APK 或 AAB。",
+        "source_link": "https://github.com/kivy/python-for-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "python-for-android",
+        "dev_team": "kivy",
+        "rule_contributors": [
+          "yfdyh000",
+          "LuRen-Dmzm"
+        ],
+        "description": "python-for-android is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK or AAB along with your own code.",
+        "source_link": "https://github.com/kivy/python-for-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1277,
+      "type": 0,
+      "name": "libpymodules.so",
+      "mode": "exact",
+      "priority": 1277,
+      "label": "python-for-android",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpymodules.so.json",
+      "examples": {
+        "positive": [
+          "libpymodules.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1278,
+      "type": 0,
+      "name": "(libpython([1-9]\\d*\\.?\\d*)|(0\\.\\d*[1-9]))(m)?\\.so",
+      "mode": "regex",
+      "priority": 1278,
+      "label": "python-for-android",
+      "iconId": null,
+      "regexName": "regex_pfa",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_pfa.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2833,
+      "type": 0,
+      "name": "libpython.so",
+      "mode": "exact",
+      "priority": 2833,
+      "label": "python-for-android",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpython.so.json",
+      "examples": {
+        "positive": [
+          "libpython.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2834,
+      "type": 0,
+      "name": "libpython3.so",
+      "mode": "exact",
+      "priority": 2834,
+      "label": "python-for-android",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpython3.so.json",
+      "examples": {
+        "positive": [
+          "libpython3.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

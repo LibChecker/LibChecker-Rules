@@ -1,0 +1,1500 @@
+{
+  "legacyDbSha256": "f8db1db4abea81dc1b0bb0c8fab21b2d24a21b023b92dc26dba6eedc4f44842c",
+  "ruleCount": 2832,
+  "descriptionFileCount": 2687,
+  "libraryCount": 894,
+  "divergentDetailUUIDs": [
+    "23FFE549-FEED-45DF-BD74-C9F4CCA26FA3",
+    "2BE524AA-7BE2-48BB-B344-E8B4C10AAD1D",
+    "3A81F882-7FA6-44E0-ADAC-F7A7E4FF348D",
+    "456BC105-5F2A-4A7C-BB85-4E8C965F031A",
+    "4622B49D-4ACA-42B3-9FCC-F82D2365B81B",
+    "4787CC13-BFB2-43C3-8FD4-2D8D930D4E52",
+    "5B152231-C449-45AC-8E62-7B6CBAC4A38A",
+    "5FB95D44-3E64-4674-9ABA-B2653814FE4A",
+    "6350ECA8-45AF-4E86-808C-134880E6C87C",
+    "6E53BF19-A08F-48D0-98A8-74CF79E192CF",
+    "8909EB42-3C99-4182-9901-1F7BBB4438B1",
+    "90565FE6-999B-42E5-BDEE-A140F89497F6",
+    "BD134228-E89E-4B74-A54B-654BCD18C9C1",
+    "C42C6BCB-7E49-42D6-8C5B-092226AF8D00",
+    "DCF7F224-974D-45FD-BBB4-3E91D1C112D1",
+    "E8CB8812-B1CB-49DF-BFE6-942F880DE2D6",
+    "F53F4149-0DFA-4CD1-A5A0-6B6112332B63"
+  ],
+  "missingDescriptions": [
+    {
+      "id": 478,
+      "type": 5,
+      "name": "com.google.android.material",
+      "expectedPath": "dex-libs/com/google/android/material.json"
+    },
+    {
+      "id": 479,
+      "type": 5,
+      "name": "androidx.lifecycle",
+      "expectedPath": "dex-libs/androidx/lifecycle.json"
+    },
+    {
+      "id": 480,
+      "type": 5,
+      "name": "androidx.interpolator",
+      "expectedPath": "dex-libs/androidx/interpolator.json"
+    },
+    {
+      "id": 481,
+      "type": 5,
+      "name": "tv.danmaku.ijk",
+      "expectedPath": "dex-libs/tv/danmaku/ijk.json"
+    },
+    {
+      "id": 482,
+      "type": 5,
+      "name": "com.google.protobuf",
+      "expectedPath": "dex-libs/com/google/protobuf.json"
+    },
+    {
+      "id": 483,
+      "type": 5,
+      "name": "androidx.loader",
+      "expectedPath": "dex-libs/androidx/loader.json"
+    },
+    {
+      "id": 484,
+      "type": 5,
+      "name": "com.tencent.smtt",
+      "expectedPath": "dex-libs/com/tencent/smtt.json"
+    },
+    {
+      "id": 485,
+      "type": 5,
+      "name": "androidx.transition",
+      "expectedPath": "dex-libs/androidx/transition.json"
+    },
+    {
+      "id": 486,
+      "type": 5,
+      "name": "androidx.drawerlayout",
+      "expectedPath": "dex-libs/androidx/drawerlayout.json"
+    },
+    {
+      "id": 487,
+      "type": 5,
+      "name": "com.xiaomi.push",
+      "expectedPath": "dex-libs/com/xiaomi/push.json"
+    },
+    {
+      "id": 488,
+      "type": 5,
+      "name": "androidx.appcompat",
+      "expectedPath": "dex-libs/androidx/appcompat.json"
+    },
+    {
+      "id": 489,
+      "type": 5,
+      "name": "butterknife.internal",
+      "expectedPath": "dex-libs/butterknife/internal.json"
+    },
+    {
+      "id": 490,
+      "type": 5,
+      "name": "androidx.recyclerview",
+      "expectedPath": "dex-libs/androidx/recyclerview.json"
+    },
+    {
+      "id": 491,
+      "type": 5,
+      "name": "com.tencent.map",
+      "expectedPath": "dex-libs/com/tencent/map.json"
+    },
+    {
+      "id": 492,
+      "type": 5,
+      "name": "androidx.documentfile",
+      "expectedPath": "dex-libs/androidx/documentfile.json"
+    },
+    {
+      "id": 493,
+      "type": 5,
+      "name": "androidx.media",
+      "expectedPath": "dex-libs/androidx/media.json"
+    },
+    {
+      "id": 494,
+      "type": 5,
+      "name": "androidx.multidex",
+      "expectedPath": "dex-libs/androidx/multidex.json"
+    },
+    {
+      "id": 495,
+      "type": 5,
+      "name": "com.ta.utdid2",
+      "expectedPath": "dex-libs/com/ta/utdid2.json"
+    },
+    {
+      "id": 496,
+      "type": 5,
+      "name": "androidx.slidingpanelayout",
+      "expectedPath": "dex-libs/androidx/slidingpanelayout.json"
+    },
+    {
+      "id": 497,
+      "type": 5,
+      "name": "android.support.v4",
+      "expectedPath": "dex-libs/android/support/v4.json"
+    },
+    {
+      "id": 498,
+      "type": 5,
+      "name": "android.support.v7",
+      "expectedPath": "dex-libs/android/support/v7.json"
+    },
+    {
+      "id": 499,
+      "type": 5,
+      "name": "com.xiaomi.xmpush",
+      "expectedPath": "dex-libs/com/xiaomi/xmpush.json"
+    },
+    {
+      "id": 500,
+      "type": 5,
+      "name": "org.greenbot.greendao",
+      "expectedPath": "dex-libs/org/greenbot/greendao.json"
+    },
+    {
+      "id": 501,
+      "type": 5,
+      "name": "androidx.collection",
+      "expectedPath": "dex-libs/androidx/collection.json"
+    },
+    {
+      "id": 502,
+      "type": 5,
+      "name": "com.huawei.hianalytics",
+      "expectedPath": "dex-libs/com/huawei/hianalytics.json"
+    },
+    {
+      "id": 503,
+      "type": 5,
+      "name": "androidx.swiperefreshlayout",
+      "expectedPath": "dex-libs/androidx/swiperefreshlayout.json"
+    },
+    {
+      "id": 504,
+      "type": 5,
+      "name": "androidx.asynclayoutinflater",
+      "expectedPath": "dex-libs/androidx/asynclayoutinflater.json"
+    },
+    {
+      "id": 505,
+      "type": 5,
+      "name": "androidx.preference",
+      "expectedPath": "dex-libs/androidx/preference.json"
+    },
+    {
+      "id": 506,
+      "type": 5,
+      "name": "androidx.viewpager",
+      "expectedPath": "dex-libs/androidx/viewpager.json"
+    },
+    {
+      "id": 507,
+      "type": 5,
+      "name": "com.alibaba.fastjson",
+      "expectedPath": "dex-libs/com/alibaba/fastjson.json"
+    },
+    {
+      "id": 508,
+      "type": 5,
+      "name": "androidx.browser",
+      "expectedPath": "dex-libs/androidx/browser.json"
+    },
+    {
+      "id": 509,
+      "type": 5,
+      "name": "androidx.vectordrawable",
+      "expectedPath": "dex-libs/androidx/vectordrawable.json"
+    },
+    {
+      "id": 510,
+      "type": 5,
+      "name": "com.google.android.flexbox",
+      "expectedPath": "dex-libs/com/google/android/flexbox.json"
+    },
+    {
+      "id": 511,
+      "type": 5,
+      "name": "com.google.firebase",
+      "expectedPath": "dex-libs/com/google/firebase.json"
+    },
+    {
+      "id": 512,
+      "type": 5,
+      "name": "com.microsoft.appcenter",
+      "expectedPath": "dex-libs/com/microsoft/appcenter.json"
+    },
+    {
+      "id": 513,
+      "type": 5,
+      "name": "androidx.room",
+      "expectedPath": "dex-libs/androidx/room.json"
+    },
+    {
+      "id": 514,
+      "type": 5,
+      "name": "androidx.constraintlayout",
+      "expectedPath": "dex-libs/androidx/constraintlayout.json"
+    },
+    {
+      "id": 515,
+      "type": 5,
+      "name": "org.greenbot.eventbus",
+      "expectedPath": "dex-libs/org/greenbot/eventbus.json"
+    },
+    {
+      "id": 516,
+      "type": 5,
+      "name": "androidx.coordinatorlayout",
+      "expectedPath": "dex-libs/androidx/coordinatorlayout.json"
+    },
+    {
+      "id": 517,
+      "type": 5,
+      "name": "com.xiaomi.mipush",
+      "expectedPath": "dex-libs/com/xiaomi/mipush.json"
+    },
+    {
+      "id": 518,
+      "type": 5,
+      "name": "com.bumptech.glide",
+      "expectedPath": "dex-libs/com/bumptech/glide.json"
+    },
+    {
+      "id": 519,
+      "type": 5,
+      "name": "androidx.customview",
+      "expectedPath": "dex-libs/androidx/customview.json"
+    },
+    {
+      "id": 520,
+      "type": 5,
+      "name": "com.sina.weibo",
+      "expectedPath": "dex-libs/com/sina/weibo.json"
+    },
+    {
+      "id": 521,
+      "type": 5,
+      "name": "androidx.cardview",
+      "expectedPath": "dex-libs/androidx/cardview.json"
+    },
+    {
+      "id": 522,
+      "type": 5,
+      "name": "com.google.android.gms",
+      "expectedPath": "dex-libs/com/google/android/gms.json"
+    },
+    {
+      "id": 523,
+      "type": 5,
+      "name": "androidx.arch",
+      "expectedPath": "dex-libs/androidx/arch.json"
+    },
+    {
+      "id": 524,
+      "type": 5,
+      "name": "androidx.annotation",
+      "expectedPath": "dex-libs/androidx/annotation.json"
+    },
+    {
+      "id": 525,
+      "type": 5,
+      "name": "com.airbnb.lottie",
+      "expectedPath": "dex-libs/com/airbnb/lottie.json"
+    },
+    {
+      "id": 526,
+      "type": 5,
+      "name": "androidx.print",
+      "expectedPath": "dex-libs/androidx/print.json"
+    },
+    {
+      "id": 527,
+      "type": 5,
+      "name": "butterknife.runtime",
+      "expectedPath": "dex-libs/butterknife/runtime.json"
+    },
+    {
+      "id": 528,
+      "type": 5,
+      "name": "com.facebook.fresco",
+      "expectedPath": "dex-libs/com/facebook/fresco.json"
+    },
+    {
+      "id": 529,
+      "type": 5,
+      "name": "androidx.fragment",
+      "expectedPath": "dex-libs/androidx/fragment.json"
+    },
+    {
+      "id": 530,
+      "type": 5,
+      "name": "com.amap.api",
+      "expectedPath": "dex-libs/com/amap/api.json"
+    },
+    {
+      "id": 531,
+      "type": 5,
+      "name": "androidx.legacy",
+      "expectedPath": "dex-libs/androidx/legacy.json"
+    },
+    {
+      "id": 532,
+      "type": 5,
+      "name": "androidx.cursoradapter",
+      "expectedPath": "dex-libs/androidx/cursoradapter.json"
+    },
+    {
+      "id": 533,
+      "type": 5,
+      "name": "androidx.versionedparcelable",
+      "expectedPath": "dex-libs/androidx/versionedparcelable.json"
+    },
+    {
+      "id": 534,
+      "type": 5,
+      "name": "androidx.savedstate",
+      "expectedPath": "dex-libs/androidx/savedstate.json"
+    },
+    {
+      "id": 535,
+      "type": 5,
+      "name": "androidx.sqlite",
+      "expectedPath": "dex-libs/androidx/sqlite.json"
+    },
+    {
+      "id": 536,
+      "type": 5,
+      "name": "com.tencent.bugly",
+      "expectedPath": "dex-libs/com/tencent/bugly.json"
+    },
+    {
+      "id": 537,
+      "type": 5,
+      "name": "com.google.zxing",
+      "expectedPath": "dex-libs/com/google/zxing.json"
+    },
+    {
+      "id": 538,
+      "type": 5,
+      "name": "androidx.exifinterface",
+      "expectedPath": "dex-libs/androidx/exifinterface.json"
+    },
+    {
+      "id": 539,
+      "type": 5,
+      "name": "androidx.core",
+      "expectedPath": "dex-libs/androidx/core.json"
+    },
+    {
+      "id": 540,
+      "type": 5,
+      "name": "androidx.work",
+      "expectedPath": "dex-libs/androidx/work.json"
+    },
+    {
+      "id": 541,
+      "type": 5,
+      "name": "kotlin.sequences",
+      "expectedPath": "dex-libs/kotlin/sequences.json"
+    },
+    {
+      "id": 542,
+      "type": 5,
+      "name": "kotlin.reflect",
+      "expectedPath": "dex-libs/kotlin/reflect.json"
+    },
+    {
+      "id": 543,
+      "type": 5,
+      "name": "androidx.viewpager2",
+      "expectedPath": "dex-libs/androidx/viewpager2.json"
+    },
+    {
+      "id": 544,
+      "type": 5,
+      "name": "com.tencent.tbs",
+      "expectedPath": "dex-libs/com/tencent/tbs.json"
+    },
+    {
+      "id": 545,
+      "type": 5,
+      "name": "com.google.android.exoplayer2",
+      "expectedPath": "dex-libs/com/google/android/exoplayer2.json"
+    },
+    {
+      "id": 546,
+      "type": 5,
+      "name": "androidx.databinding",
+      "expectedPath": "dex-libs/androidx/databinding.json"
+    },
+    {
+      "id": 547,
+      "type": 5,
+      "name": "com.google.gson",
+      "expectedPath": "dex-libs/com/google/gson.json"
+    },
+    {
+      "id": 548,
+      "type": 5,
+      "name": "androidx.localbroadcastmanager",
+      "expectedPath": "dex-libs/androidx/localbroadcastmanager.json"
+    },
+    {
+      "id": 549,
+      "type": 5,
+      "name": "androidx.activity",
+      "expectedPath": "dex-libs/androidx/activity.json"
+    },
+    {
+      "id": 550,
+      "type": 5,
+      "name": "kotlin\\.coroutines\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_kotlin_coroutines.json"
+    },
+    {
+      "id": 551,
+      "type": 5,
+      "name": "kotlinx\\.coroutines\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_kotlin_coroutines.json"
+    },
+    {
+      "id": 552,
+      "type": 5,
+      "name": "kotlin\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_kotlin.json"
+    },
+    {
+      "id": 553,
+      "type": 5,
+      "name": "okhttp3\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_okhttp3.json"
+    },
+    {
+      "id": 554,
+      "type": 5,
+      "name": "retrofit2\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_retrofit2.json"
+    },
+    {
+      "id": 555,
+      "type": 5,
+      "name": "okio\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_okio.json"
+    },
+    {
+      "id": 556,
+      "type": 5,
+      "name": "com\\.alipay\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_alipay.json"
+    },
+    {
+      "id": 557,
+      "type": 5,
+      "name": "io\\.flutter\\.(.*)",
+      "expectedPath": "dex-libs/regex/regex_flutter.json"
+    },
+    {
+      "id": 766,
+      "type": 0,
+      "name": "libbugrpt.so",
+      "expectedPath": "native-libs/libbugrpt.so.json"
+    },
+    {
+      "id": 777,
+      "type": 0,
+      "name": "libYandexSpeechKitJni\\.(.*)\\.so",
+      "expectedPath": "native-libs/regex/regex_yandex_speechKit.json"
+    },
+    {
+      "id": 827,
+      "type": 5,
+      "name": "org.lsposed.lspatch",
+      "expectedPath": "dex-libs/org/lsposed/lspatch.json"
+    },
+    {
+      "id": 853,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.install.PluginInstallerService",
+      "expectedPath": "activities-libs/org/qiyi/pluginlibrary/install/PluginInstallerService.json"
+    },
+    {
+      "id": 854,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.pm.PluginPackageManagerService",
+      "expectedPath": "activities-libs/org/qiyi/pluginlibrary/pm/PluginPackageManagerService.json"
+    },
+    {
+      "id": 855,
+      "type": 1,
+      "name": "org\\.qiyi\\.pluginlibrary\\.component\\.(.*)",
+      "expectedPath": "services-libs/regex/regex_neptune.json"
+    },
+    {
+      "id": 876,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.component.ServiceProxy0",
+      "expectedPath": "activities-libs/org/qiyi/pluginlibrary/component/ServiceProxy0.json"
+    },
+    {
+      "id": 877,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.component.ServiceProxy1",
+      "expectedPath": "activities-libs/org/qiyi/pluginlibrary/component/ServiceProxy1.json"
+    },
+    {
+      "id": 878,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.component.ServiceProxy2",
+      "expectedPath": "activities-libs/org/qiyi/pluginlibrary/component/ServiceProxy2.json"
+    },
+    {
+      "id": 879,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.component.ServiceProxy3",
+      "expectedPath": "activities-libs/org/qiyi/pluginlibrary/component/ServiceProxy3.json"
+    },
+    {
+      "id": 885,
+      "type": 2,
+      "name": "com\\.didi\\.virtualapk\\.(.*)",
+      "expectedPath": "activities-libs/regex/regex_virtual_apk.json"
+    },
+    {
+      "id": 942,
+      "type": 2,
+      "name": "com.getui.gtc.GtcService",
+      "expectedPath": "activities-libs/com/getui/gtc/GtcService.json"
+    },
+    {
+      "id": 949,
+      "type": 2,
+      "name": "com\\.google\\.games\\.bridge\\.(.*)",
+      "expectedPath": "activities-libs/regex/regex_google_play_games_for_unity.json"
+    },
+    {
+      "id": 964,
+      "type": 3,
+      "name": "com.baidu.swan.uuid.sync.SyncProvider",
+      "expectedPath": "receivers-libs/com/baidu/swan/uuid/sync/SyncProvider.json"
+    },
+    {
+      "id": 992,
+      "type": 5,
+      "name": "androidx.compose",
+      "expectedPath": "dex-libs/androidx/compose.json"
+    },
+    {
+      "id": 1150,
+      "type": 4,
+      "name": "libDexHelper-x86_64.so",
+      "expectedPath": "providers-libs/libDexHelper-x86_64/so.json"
+    },
+    {
+      "id": 1174,
+      "type": 4,
+      "name": "libpnc-crypto.so",
+      "expectedPath": "providers-libs/libpnc-crypto/so.json"
+    },
+    {
+      "id": 1208,
+      "type": 4,
+      "name": "libbangcle_crypto_tool.so",
+      "expectedPath": "providers-libs/libbangcle_crypto_tool/so.json"
+    },
+    {
+      "id": 1209,
+      "type": 4,
+      "name": "libbangcle_risk.so",
+      "expectedPath": "providers-libs/libbangcle_risk/so.json"
+    },
+    {
+      "id": 1898,
+      "type": 0,
+      "name": "libxwebfullpack.so.bak",
+      "expectedPath": "native-libs/libxwebfullpack.so.bak.json"
+    },
+    {
+      "id": 2163,
+      "type": 0,
+      "name": "libxweb_linker.so.bak",
+      "expectedPath": "native-libs/libxweb_linker.so.bak.json"
+    },
+    {
+      "id": 2268,
+      "type": 0,
+      "name": "libxweb_hpatchz.so.bak",
+      "expectedPath": "native-libs/libxweb_hpatchz.so.bak.json"
+    },
+    {
+      "id": 2269,
+      "type": 0,
+      "name": "libxwebpluginxfilesofficereader.so.bak",
+      "expectedPath": "native-libs/libxwebpluginxfilesofficereader.so.bak.json"
+    },
+    {
+      "id": 2270,
+      "type": 0,
+      "name": "libxwebpluginxfilespdfreader.so.bak",
+      "expectedPath": "native-libs/libxwebpluginxfilespdfreader.so.bak.json"
+    },
+    {
+      "id": 2271,
+      "type": 0,
+      "name": "libxwebpluginxfilestxtreader.so.bak",
+      "expectedPath": "native-libs/libxwebpluginxfilestxtreader.so.bak.json"
+    },
+    {
+      "id": 2453,
+      "type": 6,
+      "name": "com.hihonor.push.action.MESSAGING_EVENT",
+      "expectedPath": "static-libs/com/hihonor/push/action/MESSAGING_EVENT.json"
+    },
+    {
+      "id": 2454,
+      "type": 6,
+      "name": "com.huawei.push.action.MESSAGING_EVENT",
+      "expectedPath": "static-libs/com/huawei/push/action/MESSAGING_EVENT.json"
+    },
+    {
+      "id": 2455,
+      "type": 6,
+      "name": "com.meizu.c2dm.intent.RECEIVE",
+      "expectedPath": "static-libs/com/meizu/c2dm/intent/RECEIVE.json"
+    },
+    {
+      "id": 2456,
+      "type": 6,
+      "name": "com.meizu.c2dm.intent.REGISTRATION",
+      "expectedPath": "static-libs/com/meizu/c2dm/intent/REGISTRATION.json"
+    },
+    {
+      "id": 2457,
+      "type": 6,
+      "name": "com.meizu.flyme.push.intent.MESSAGE",
+      "expectedPath": "static-libs/com/meizu/flyme/push/intent/MESSAGE.json"
+    },
+    {
+      "id": 2458,
+      "type": 6,
+      "name": "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+      "expectedPath": "static-libs/com/meizu/flyme/push/intent/REGISTER/FEEDBACK.json"
+    },
+    {
+      "id": 2459,
+      "type": 6,
+      "name": "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK",
+      "expectedPath": "static-libs/com/meizu/flyme/push/intent/UNREGISTER/FEEDBACK.json"
+    },
+    {
+      "id": 2460,
+      "type": 6,
+      "name": "com.tencent.kingcard.calibration",
+      "expectedPath": "static-libs/com/tencent/kingcard/calibration.json"
+    },
+    {
+      "id": 2461,
+      "type": 6,
+      "name": "com.xiaomi.mipush.ERROR",
+      "expectedPath": "static-libs/com/xiaomi/mipush/ERROR.json"
+    },
+    {
+      "id": 2462,
+      "type": 6,
+      "name": "com.xiaomi.mipush.MESSAGE_ARRIVED",
+      "expectedPath": "static-libs/com/xiaomi/mipush/MESSAGE_ARRIVED.json"
+    },
+    {
+      "id": 2463,
+      "type": 6,
+      "name": "com.xiaomi.mipush.RECEIVE_MESSAGE",
+      "expectedPath": "static-libs/com/xiaomi/mipush/RECEIVE_MESSAGE.json"
+    },
+    {
+      "id": 2570,
+      "type": 1,
+      "name": "androidx.core.telecom.internal.JetpackConnenctionService",
+      "expectedPath": "services-libs/androidx/core/telecom/internal/JetpackConnenctionService.json"
+    },
+    {
+      "id": 2686,
+      "type": 6,
+      "name": "com.microsoft.identity.client.MicrosoftAuth",
+      "expectedPath": "static-libs/com/microsoft/identity/client/MicrosoftAuth.json"
+    },
+    {
+      "id": 2687,
+      "type": 6,
+      "name": "io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED",
+      "expectedPath": "static-libs/io/intercom/android/sdk/INTERCOM_PUSH_DISMISSED.json"
+    }
+  ],
+  "unreferencedDescriptions": [
+    "actions-libs/com.getui.gtc.GtcService.json",
+    "actions-libs/com.hihonor.push.action.MESSAGING_EVENT.json",
+    "actions-libs/com.huawei.push.action.MESSAGING_EVENT.json",
+    "actions-libs/com.meizu.c2dm.intent.RECEIVE.json",
+    "actions-libs/com.meizu.c2dm.intent.REGISTRATION.json",
+    "actions-libs/com.meizu.flyme.push.intent.MESSAGE.json",
+    "actions-libs/com.meizu.flyme.push.intent.REGISTER.FEEDBACK.json",
+    "actions-libs/com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK.json",
+    "actions-libs/com.microsoft.identity.client.MicrosoftAuth.json",
+    "actions-libs/com.tencent.kingcard.calibration.json",
+    "actions-libs/com.xiaomi.mipush.ERROR.json",
+    "actions-libs/com.xiaomi.mipush.MESSAGE_ARRIVED.json",
+    "actions-libs/com.xiaomi.mipush.RECEIVE_MESSAGE.json",
+    "actions-libs/io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED.json",
+    "activities-libs/regex/regex_neptune.json",
+    "native-libs/libDexHelper-x86_64.so.json",
+    "native-libs/libbangcle_crypto_tool.so.json",
+    "native-libs/libbangcle_risk.so.json",
+    "native-libs/libpnc-crypto.so.json",
+    "native-libs/regex/regex_openssl.json",
+    "native-libs/regex/regex_yandex_speech.json",
+    "providers-libs/com/baidu/swan/uuid/sync/SyncProvider.json",
+    "providers-libs/regex/regex_virtual_app.json",
+    "receivers-libs/com/taobao/weex/WXGlobalEventReceiver.json",
+    "services-libs/com/getui/gtc/GtcService.json",
+    "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy0.json",
+    "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy1.json",
+    "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy2.json",
+    "services-libs/org/qiyi/pluginlibrary/component/ServiceProxy3.json",
+    "services-libs/org/qiyi/pluginlibrary/install/PluginInstallerService.json",
+    "services-libs/org/qiyi/pluginlibrary/pm/PluginPackageManagerService.json",
+    "services-libs/regex/regex_virtual_apk.json"
+  ],
+  "iconCount": 174,
+  "caseAliases": [
+    {
+      "expectedPath": "native-libs/libYUV.so.json",
+      "sourcePath": "native-libs/libyuv.so.json"
+    },
+    {
+      "expectedPath": "native-libs/libtensorflowLite.so.json",
+      "sourcePath": "native-libs/libtensorflowlite.so.json"
+    },
+    {
+      "expectedPath": "native-libs/libWCDB.so.json",
+      "sourcePath": "native-libs/libwcdb.so.json"
+    },
+    {
+      "expectedPath": "services-libs/android/net/http/MetaDataHolder.json",
+      "sourcePath": "services-libs/android/net/http/MetadataHolder.json"
+    },
+    {
+      "expectedPath": "native-libs/libUnreal.so.json",
+      "sourcePath": "native-libs/libunreal.so.json"
+    }
+  ],
+  "legacyIconIndex": {
+    "0": {
+      "iconId": "ic_lib_360",
+      "isSimpleColorIcon": false
+    },
+    "1": {
+      "iconId": "ic_lib_airbnb",
+      "isSimpleColorIcon": false
+    },
+    "2": {
+      "iconId": "ic_lib_ali_security",
+      "isSimpleColorIcon": true
+    },
+    "3": {
+      "iconId": "ic_lib_alibaba",
+      "isSimpleColorIcon": true
+    },
+    "4": {
+      "iconId": "ic_lib_alipay",
+      "isSimpleColorIcon": false
+    },
+    "5": {
+      "iconId": "ic_lib_aliyun",
+      "isSimpleColorIcon": true
+    },
+    "6": {
+      "iconId": "ic_lib_amap",
+      "isSimpleColorIcon": true
+    },
+    "7": {
+      "iconId": "ic_lib_android",
+      "isSimpleColorIcon": false
+    },
+    "8": {
+      "iconId": "ic_lib_appauth",
+      "isSimpleColorIcon": false
+    },
+    "9": {
+      "iconId": "ic_lib_baidu",
+      "isSimpleColorIcon": true
+    },
+    "10": {
+      "iconId": "ic_lib_bilibili",
+      "isSimpleColorIcon": true
+    },
+    "11": {
+      "iconId": "ic_lib_huawei_cann",
+      "isSimpleColorIcon": true
+    },
+    "12": {
+      "iconId": "ic_lib_bytedance",
+      "isSimpleColorIcon": false
+    },
+    "13": {
+      "iconId": "ic_lib_chromium",
+      "isSimpleColorIcon": true
+    },
+    "14": {
+      "iconId": "ic_lib_cmb",
+      "isSimpleColorIcon": true
+    },
+    "15": {
+      "iconId": "ic_lib_cpp",
+      "isSimpleColorIcon": true
+    },
+    "16": {
+      "iconId": "ic_lib_didi",
+      "isSimpleColorIcon": true
+    },
+    "17": {
+      "iconId": "ic_lib_evernote",
+      "isSimpleColorIcon": true
+    },
+    "18": {
+      "iconId": "ic_lib_meta",
+      "isSimpleColorIcon": false
+    },
+    "19": {
+      "iconId": "ic_lib_firebase",
+      "isSimpleColorIcon": false
+    },
+    "20": {
+      "iconId": "ic_lib_flutter",
+      "isSimpleColorIcon": false
+    },
+    "21": {
+      "iconId": "ic_lib_golang",
+      "isSimpleColorIcon": false
+    },
+    "22": {
+      "iconId": "ic_lib_google",
+      "isSimpleColorIcon": false
+    },
+    "23": {
+      "iconId": "ic_lib_google_analytics",
+      "isSimpleColorIcon": false
+    },
+    "24": {
+      "iconId": "ic_lib_google_arcore",
+      "isSimpleColorIcon": false
+    },
+    "25": {
+      "iconId": "ic_lib_hapjs",
+      "isSimpleColorIcon": true
+    },
+    "26": {
+      "iconId": "ic_lib_huawei",
+      "isSimpleColorIcon": false
+    },
+    "27": {
+      "iconId": "ic_lib_iqiyi",
+      "isSimpleColorIcon": true
+    },
+    "28": {
+      "iconId": "ic_lib_jetpack",
+      "isSimpleColorIcon": false
+    },
+    "29": {
+      "iconId": "ic_lib_jpush",
+      "isSimpleColorIcon": false
+    },
+    "30": {
+      "iconId": "ic_lib_jverification",
+      "isSimpleColorIcon": true
+    },
+    "31": {
+      "iconId": "ic_lib_kuaishou",
+      "isSimpleColorIcon": true
+    },
+    "32": {
+      "iconId": "ic_lib_lua",
+      "isSimpleColorIcon": false
+    },
+    "33": {
+      "iconId": "ic_lib_material",
+      "isSimpleColorIcon": false
+    },
+    "34": {
+      "iconId": "ic_lib_meizu",
+      "isSimpleColorIcon": false
+    },
+    "35": {
+      "iconId": "ic_lib_microsoft",
+      "isSimpleColorIcon": false
+    },
+    "36": {
+      "iconId": "ic_lib_netease",
+      "isSimpleColorIcon": false
+    },
+    "37": {
+      "iconId": "ic_lib_opencv",
+      "isSimpleColorIcon": false
+    },
+    "38": {
+      "iconId": "ic_lib_oppo",
+      "isSimpleColorIcon": true
+    },
+    "39": {
+      "iconId": "ic_lib_play_store",
+      "isSimpleColorIcon": false
+    },
+    "40": {
+      "iconId": "ic_lib_qiniu",
+      "isSimpleColorIcon": true
+    },
+    "41": {
+      "iconId": "ic_lib_react",
+      "isSimpleColorIcon": false
+    },
+    "42": {
+      "iconId": "ic_lib_realm",
+      "isSimpleColorIcon": false
+    },
+    "43": {
+      "iconId": "ic_lib_rongyun",
+      "isSimpleColorIcon": true
+    },
+    "44": {
+      "iconId": "ic_lib_sensors",
+      "isSimpleColorIcon": true
+    },
+    "45": {
+      "iconId": "ic_lib_shizuku",
+      "isSimpleColorIcon": false
+    },
+    "46": {
+      "iconId": "ic_lib_sqlite",
+      "isSimpleColorIcon": false
+    },
+    "47": {
+      "iconId": "ic_lib_square",
+      "isSimpleColorIcon": true
+    },
+    "48": {
+      "iconId": "ic_lib_tencent",
+      "isSimpleColorIcon": true
+    },
+    "49": {
+      "iconId": "ic_lib_tencent_ad",
+      "isSimpleColorIcon": false
+    },
+    "50": {
+      "iconId": "ic_lib_tencent_cloud",
+      "isSimpleColorIcon": false
+    },
+    "51": {
+      "iconId": "ic_lib_tencent_map",
+      "isSimpleColorIcon": true
+    },
+    "52": {
+      "iconId": "ic_lib_litert",
+      "isSimpleColorIcon": false
+    },
+    "53": {
+      "iconId": "ic_lib_umeng",
+      "isSimpleColorIcon": true
+    },
+    "54": {
+      "iconId": "ic_lib_unionpay",
+      "isSimpleColorIcon": false
+    },
+    "55": {
+      "iconId": "ic_lib_unity",
+      "isSimpleColorIcon": false
+    },
+    "56": {
+      "iconId": "ic_lib_unreal_engine",
+      "isSimpleColorIcon": true
+    },
+    "57": {
+      "iconId": "ic_lib_vivo",
+      "isSimpleColorIcon": false
+    },
+    "58": {
+      "iconId": "ic_lib_webrtc",
+      "isSimpleColorIcon": false
+    },
+    "59": {
+      "iconId": "ic_lib_weibo",
+      "isSimpleColorIcon": true
+    },
+    "60": {
+      "iconId": "ic_lib_xamarin",
+      "isSimpleColorIcon": false
+    },
+    "61": {
+      "iconId": "ic_lib_xiaoai",
+      "isSimpleColorIcon": true
+    },
+    "62": {
+      "iconId": "ic_lib_xiaomi",
+      "isSimpleColorIcon": false
+    },
+    "63": {
+      "iconId": "ic_lib_xunfei",
+      "isSimpleColorIcon": true
+    },
+    "64": {
+      "iconId": "ic_lib_zhihu",
+      "isSimpleColorIcon": true
+    },
+    "65": {
+      "iconId": "ic_lib_kotlin",
+      "isSimpleColorIcon": false
+    },
+    "66": {
+      "iconId": "ic_lib_telegram",
+      "isSimpleColorIcon": true
+    },
+    "67": {
+      "iconId": "ic_lib_ffmpeg",
+      "isSimpleColorIcon": false
+    },
+    "68": {
+      "iconId": "ic_lib_vlc",
+      "isSimpleColorIcon": false
+    },
+    "69": {
+      "iconId": "ic_lib_paypal",
+      "isSimpleColorIcon": false
+    },
+    "70": {
+      "iconId": "ic_lib_qt",
+      "isSimpleColorIcon": false
+    },
+    "71": {
+      "iconId": "ic_lib_dataranger",
+      "isSimpleColorIcon": false
+    },
+    "72": {
+      "iconId": "ic_lib_rclone",
+      "isSimpleColorIcon": false
+    },
+    "73": {
+      "iconId": "ic_lib_sentry",
+      "isSimpleColorIcon": false
+    },
+    "74": {
+      "iconId": "ic_lib_jd",
+      "isSimpleColorIcon": true
+    },
+    "75": {
+      "iconId": "ic_lib_curl",
+      "isSimpleColorIcon": false
+    },
+    "76": {
+      "iconId": "ic_lib_opencc",
+      "isSimpleColorIcon": true
+    },
+    "77": {
+      "iconId": "ic_lib_zbar",
+      "isSimpleColorIcon": false
+    },
+    "78": {
+      "iconId": "ic_lib_opus",
+      "isSimpleColorIcon": false
+    },
+    "79": {
+      "iconId": "ic_lib_live2d",
+      "isSimpleColorIcon": false
+    },
+    "80": {
+      "iconId": "ic_lib_google_ml_kit",
+      "isSimpleColorIcon": false
+    },
+    "81": {
+      "iconId": "ic_lib_yandex_speech_kit",
+      "isSimpleColorIcon": true
+    },
+    "82": {
+      "iconId": "ic_lib_getui",
+      "isSimpleColorIcon": true
+    },
+    "83": {
+      "iconId": "ic_lib_dx_risk",
+      "isSimpleColorIcon": true
+    },
+    "84": {
+      "iconId": "ic_lib_clash",
+      "isSimpleColorIcon": true
+    },
+    "85": {
+      "iconId": "ic_lib_jetpack_compose",
+      "isSimpleColorIcon": false
+    },
+    "86": {
+      "iconId": "ic_lib_douyin",
+      "isSimpleColorIcon": false
+    },
+    "87": {
+      "iconId": "ic_lib_agora",
+      "isSimpleColorIcon": false
+    },
+    "88": {
+      "iconId": "ic_lib_hermes",
+      "isSimpleColorIcon": false
+    },
+    "89": {
+      "iconId": "ic_lib_netease_yunxin",
+      "isSimpleColorIcon": false
+    },
+    "90": {
+      "iconId": "ic_lib_applovin",
+      "isSimpleColorIcon": false
+    },
+    "91": {
+      "iconId": "ic_lib_godot",
+      "isSimpleColorIcon": false
+    },
+    "92": {
+      "iconId": "ic_lib_gamemaker",
+      "isSimpleColorIcon": false
+    },
+    "93": {
+      "iconId": "ic_lib_cmcc",
+      "isSimpleColorIcon": true
+    },
+    "94": {
+      "iconId": "ic_lib_mpaas",
+      "isSimpleColorIcon": false
+    },
+    "95": {
+      "iconId": "ic_lib_node_js",
+      "isSimpleColorIcon": false
+    },
+    "96": {
+      "iconId": "ic_lib_fresco",
+      "isSimpleColorIcon": false
+    },
+    "97": {
+      "iconId": "ic_lib_meituan",
+      "isSimpleColorIcon": true
+    },
+    "98": {
+      "iconId": "ic_lib_netease_shield",
+      "isSimpleColorIcon": false
+    },
+    "99": {
+      "iconId": "ic_lib_vorbis",
+      "isSimpleColorIcon": false
+    },
+    "100": {
+      "iconId": "ic_lib_mapbox",
+      "isSimpleColorIcon": true
+    },
+    "101": {
+      "iconId": "ic_lib_google_cardboard",
+      "isSimpleColorIcon": true
+    },
+    "102": {
+      "iconId": "ic_lib_ncnn",
+      "isSimpleColorIcon": false
+    },
+    "103": {
+      "iconId": "ic_lib_youdao",
+      "isSimpleColorIcon": true
+    },
+    "104": {
+      "iconId": "ic_lib_honor",
+      "isSimpleColorIcon": true
+    },
+    "105": {
+      "iconId": "ic_lib_rn_reanimated",
+      "isSimpleColorIcon": false
+    },
+    "106": {
+      "iconId": "ic_lib_meiqia",
+      "isSimpleColorIcon": false
+    },
+    "107": {
+      "iconId": "ic_lib_instabug",
+      "isSimpleColorIcon": false
+    },
+    "108": {
+      "iconId": "ic_lib_rust",
+      "isSimpleColorIcon": true
+    },
+    "109": {
+      "iconId": "ic_lib_volcengine",
+      "isSimpleColorIcon": false
+    },
+    "110": {
+      "iconId": "ic_lib_wwise",
+      "isSimpleColorIcon": true
+    },
+    "111": {
+      "iconId": "ic_lib_gio",
+      "isSimpleColorIcon": true
+    },
+    "112": {
+      "iconId": "ic_lib_mpv",
+      "isSimpleColorIcon": false
+    },
+    "113": {
+      "iconId": "ic_lib_isar",
+      "isSimpleColorIcon": false
+    },
+    "114": {
+      "iconId": "ic_lib_snapdragon",
+      "isSimpleColorIcon": false
+    },
+    "115": {
+      "iconId": "ic_lib_oracle",
+      "isSimpleColorIcon": false
+    },
+    "116": {
+      "iconId": "ic_lib_javet",
+      "isSimpleColorIcon": false
+    },
+    "117": {
+      "iconId": "ic_lib_openvpn",
+      "isSimpleColorIcon": false
+    },
+    "118": {
+      "iconId": "ic_lib_wireguard",
+      "isSimpleColorIcon": false
+    },
+    "119": {
+      "iconId": "ic_lib_rootbeer",
+      "isSimpleColorIcon": false
+    },
+    "120": {
+      "iconId": "ic_lib_xiaohongshu",
+      "isSimpleColorIcon": false
+    },
+    "121": {
+      "iconId": "ic_lib_megvii",
+      "isSimpleColorIcon": false
+    },
+    "122": {
+      "iconId": "ic_lib_folly",
+      "isSimpleColorIcon": false
+    },
+    "123": {
+      "iconId": "ic_lib_ironsource",
+      "isSimpleColorIcon": false
+    },
+    "124": {
+      "iconId": "ic_lib_android_ide",
+      "isSimpleColorIcon": true
+    },
+    "125": {
+      "iconId": "ic_lib_rnscreen",
+      "isSimpleColorIcon": false
+    },
+    "126": {
+      "iconId": "ic_lib_fcitx",
+      "isSimpleColorIcon": false
+    },
+    "127": {
+      "iconId": "ic_lib_tuanjie",
+      "isSimpleColorIcon": false
+    },
+    "128": {
+      "iconId": "ic_lib_tvm",
+      "isSimpleColorIcon": false
+    },
+    "129": {
+      "iconId": "ic_lib_singbox",
+      "isSimpleColorIcon": false
+    },
+    "130": {
+      "iconId": "ic_lib_google_mediapipe",
+      "isSimpleColorIcon": false
+    },
+    "131": {
+      "iconId": "ic_lib_tencent_tds",
+      "isSimpleColorIcon": false
+    },
+    "132": {
+      "iconId": "ic_lib_tencent_beacon",
+      "isSimpleColorIcon": false
+    },
+    "133": {
+      "iconId": "ic_lib_tencent_youtu",
+      "isSimpleColorIcon": false
+    },
+    "134": {
+      "iconId": "ic_lib_jna",
+      "isSimpleColorIcon": false
+    },
+    "135": {
+      "iconId": "ic_lib_maplibre_native",
+      "isSimpleColorIcon": false
+    },
+    "136": {
+      "iconId": "ic_lib_graphene_os",
+      "isSimpleColorIcon": true
+    },
+    "137": {
+      "iconId": "ic_lib_termux",
+      "isSimpleColorIcon": false
+    },
+    "138": {
+      "iconId": "ic_lib_rive",
+      "isSimpleColorIcon": true
+    },
+    "139": {
+      "iconId": "ic_lib_lynx",
+      "isSimpleColorIcon": true
+    },
+    "140": {
+      "iconId": "ic_lib_expo",
+      "isSimpleColorIcon": true
+    },
+    "141": {
+      "iconId": "ic_lib_cordova",
+      "isSimpleColorIcon": false
+    },
+    "142": {
+      "iconId": "ic_lib_donut",
+      "isSimpleColorIcon": false
+    },
+    "143": {
+      "iconId": "ic_lib_stripe",
+      "isSimpleColorIcon": false
+    },
+    "144": {
+      "iconId": "ic_lib_rn_worklets",
+      "isSimpleColorIcon": false
+    },
+    "145": {
+      "iconId": "ic_lib_rn_svg",
+      "isSimpleColorIcon": false
+    },
+    "146": {
+      "iconId": "ic_lib_qualcomm",
+      "isSimpleColorIcon": false
+    },
+    "147": {
+      "iconId": "ic_lib_akamai",
+      "isSimpleColorIcon": false
+    },
+    "148": {
+      "iconId": "ic_lib_appcenter",
+      "isSimpleColorIcon": false
+    },
+    "149": {
+      "iconId": "ic_lib_callstack_media_kit",
+      "isSimpleColorIcon": true
+    },
+    "150": {
+      "iconId": "ic_lib_expo_av",
+      "isSimpleColorIcon": false
+    },
+    "151": {
+      "iconId": "ic_lib_datadog",
+      "isSimpleColorIcon": false
+    },
+    "152": {
+      "iconId": "ic_lib_rn_firebase",
+      "isSimpleColorIcon": false
+    },
+    "153": {
+      "iconId": "ic_lib_baseflow",
+      "isSimpleColorIcon": true
+    },
+    "154": {
+      "iconId": "ic_lib_jetbrain_kmp",
+      "isSimpleColorIcon": false
+    },
+    "155": {
+      "iconId": "ic_lib_comscore",
+      "isSimpleColorIcon": false
+    },
+    "156": {
+      "iconId": "ic_lib_adjust",
+      "isSimpleColorIcon": false
+    },
+    "157": {
+      "iconId": "ic_lib_microsoft_intune",
+      "isSimpleColorIcon": false
+    },
+    "158": {
+      "iconId": "ic_lib_microsoft_extra_id",
+      "isSimpleColorIcon": false
+    },
+    "159": {
+      "iconId": "ic_lib_microsoft_skiasharp",
+      "isSimpleColorIcon": false
+    },
+    "160": {
+      "iconId": "ic_lib_rn_skia",
+      "isSimpleColorIcon": false
+    },
+    "161": {
+      "iconId": "ic_lib_rn_gesture_handler",
+      "isSimpleColorIcon": false
+    },
+    "162": {
+      "iconId": "ic_lib_rn_image_crop_picker",
+      "isSimpleColorIcon": false
+    },
+    "163": {
+      "iconId": "ic_lib_jolt",
+      "isSimpleColorIcon": false
+    },
+    "164": {
+      "iconId": "ic_lib_lame",
+      "isSimpleColorIcon": false
+    },
+    "165": {
+      "iconId": "ic_lib_intercom",
+      "isSimpleColorIcon": true
+    },
+    "166": {
+      "iconId": "ic_lib_batch",
+      "isSimpleColorIcon": false
+    },
+    "167": {
+      "iconId": "ic_lib_notifee",
+      "isSimpleColorIcon": false
+    },
+    "168": {
+      "iconId": "ic_lib_wasmer",
+      "isSimpleColorIcon": false
+    },
+    "169": {
+      "iconId": "ic_lib_tds_wcdb",
+      "isSimpleColorIcon": false
+    },
+    "170": {
+      "iconId": "ic_lib_google_tag_manager",
+      "isSimpleColorIcon": false
+    },
+    "171": {
+      "iconId": "ic_lib_matrix",
+      "isSimpleColorIcon": false
+    },
+    "172": {
+      "iconId": "ic_lib_skip",
+      "isSimpleColorIcon": false
+    },
+    "173": {
+      "iconId": "ic_lib_liftoff",
+      "isSimpleColorIcon": true
+    },
+    "-1": {
+      "iconId": null,
+      "isSimpleColorIcon": true
+    }
+  }
+}

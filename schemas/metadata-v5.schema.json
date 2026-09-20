@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "metadata-v5",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 5
+    },
+    "dataVersion": {
+      "type": "integer",
+      "minimum": 45,
+      "maximum": 2147483647
+    },
+    "sourceRevision": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "compilerRevision": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "contentSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "ruleCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2147483647
+    },
+    "minimumReader": {
+      "type": "object",
+      "properties": {
+        "android": {
+          "const": 5
+        },
+        "portable": {
+          "const": 5
+        }
+      },
+      "required": [
+        "android",
+        "portable"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "dataVersion",
+    "sourceRevision",
+    "compilerRevision",
+    "contentSha256",
+    "ruleCount",
+    "minimumReader"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "73B6B0AF-A961-40A7-AAE0-8F0CB218DD9A",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "WebM VP8/VP9",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "libvpx 是 Google 和开放媒体联盟 (AOMedia) 的一个免费软件视频编解码库。它作为 VP8 和 VP9 视频编码格式的参考软件实现，而对于 AV1，则有一个名为 libaom 的特殊分支，剥离了向后兼容性。",
+        "source_link": "https://chromium.googlesource.com/webm/libvpx"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "WebM VP8/VP9",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "libvpx is a free software video codec library from Google and the Alliance for Open Media (AOMedia). It serves as the reference software implementation for the VP8 and VP9 video coding formats, and for AV1 a special fork named libaom that was stripped of backward compatibility.",
+        "source_link": "https://chromium.googlesource.com/webm/libvpx"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1683,
+      "type": 0,
+      "name": "libvpx.so",
+      "mode": "exact",
+      "priority": 1683,
+      "label": "WebM VP8/VP9",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvpx.so.json",
+      "examples": {
+        "positive": [
+          "libvpx.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1684,
+      "type": 0,
+      "name": "libvpxV2JNI.so",
+      "mode": "exact",
+      "priority": 1684,
+      "label": "WebM VP8/VP9",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvpxV2JNI.so.json",
+      "examples": {
+        "positive": [
+          "libvpxV2JNI.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

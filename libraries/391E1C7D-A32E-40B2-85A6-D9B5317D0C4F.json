@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "391E1C7D-A32E-40B2-85A6-D9B5317D0C4F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SQlite JDBC",
+        "dev_team": "xerial",
+        "rule_contributors": [
+          "peashooter2"
+        ],
+        "description": "SQLite JDBC 是一个用于在 Java 中访问和创建 SQLite 数据库文件的库。",
+        "source_link": "https://github.com/xerial/sqlite-jdbc"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SQlite JDBC",
+        "dev_team": "xerial",
+        "rule_contributors": [
+          "peashooter2"
+        ],
+        "description": "SQLite JDBC is a library for accessing and creating SQLite database files in Java.",
+        "source_link": "https://github.com/xerial/sqlite-jdbc"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2672,
+      "type": 0,
+      "name": "libsqlitejdbc.so",
+      "mode": "exact",
+      "priority": 2672,
+      "label": "SQlite JDBC",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsqlitejdbc.so.json",
+      "examples": {
+        "positive": [
+          "libsqlitejdbc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

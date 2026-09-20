@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "97C16666-FE7E-5B3D-9B19-F08FC160B908",
+  "iconId": "ic_lib_google",
+  "data": [],
+  "matchers": [
+    {
+      "id": 482,
+      "type": 5,
+      "name": "com.google.protobuf",
+      "mode": "exact",
+      "priority": 482,
+      "label": "Protocol Buffer",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.protobuf"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

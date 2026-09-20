@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BBEC9EFF-0FE0-49BB-9FB5-E49C2B70F4C3",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "multidex",
+        "dev_team": "Android",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Android 应用（APK）文件包含以 Dalvik 可执行文件（DEX）形式存在的可执行字节码文件，其中包含用于运行应用的编译代码。",
+        "source_link": "https://developer.android.com/build/multidex"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "multidex",
+        "dev_team": "Android",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Android app (APK) files contain executable bytecode files in the form of Dalvik Executable (DEX) files, which contain the compiled code used to run your app.",
+        "source_link": "https://developer.android.com/build/multidex"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2170,
+      "type": 3,
+      "name": "android.support.multidex.MultiDexPreloadReceiver",
+      "mode": "exact",
+      "priority": 2170,
+      "label": "multidex",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/android/support/multidex/MultiDexPreloadReceiver.json",
+      "examples": {
+        "positive": [
+          "android.support.multidex.MultiDexPreloadReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7E7FF5CF-71A6-5567-8CE4-F448767118E4",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 483,
+      "type": 5,
+      "name": "androidx.loader",
+      "mode": "exact",
+      "priority": 483,
+      "label": "Jetpack Loader",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.loader"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

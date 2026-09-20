@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CABC8CF5-6827-407D-90BC-E416A749F7BF",
+  "iconId": "ic_lib_batch",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Batch",
+        "dev_team": "Batch",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Batch Android SDK 允许你通过高度个性化的推送通知和应用内消息，在 Android 应用中构建有意义的沟通体验。",
+        "source_link": "https://github.com/BatchLabs/Batch-Android-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Batch",
+        "dev_team": "Batch",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "The Batch Android SDK allows you to build meaningful communication experience in your Android app through highly personalized push notifications & In-App messages.",
+        "source_link": "https://github.com/BatchLabs/Batch-Android-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2694,
+      "type": 2,
+      "name": "com.batch.android.BatchActionActivity",
+      "mode": "exact",
+      "priority": 2694,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/batch/android/BatchActionActivity.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchActionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2695,
+      "type": 2,
+      "name": "com.batch.android.BatchPermissionActivity",
+      "mode": "exact",
+      "priority": 2695,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/batch/android/BatchPermissionActivity.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchPermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2696,
+      "type": 2,
+      "name": "com.batch.android.MessagingActivity",
+      "mode": "exact",
+      "priority": 2696,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/batch/android/MessagingActivity.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.MessagingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2697,
+      "type": 2,
+      "name": "com.batch.android.debug.BatchDebugActivity",
+      "mode": "exact",
+      "priority": 2697,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/batch/android/debug/BatchDebugActivity.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.debug.BatchDebugActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2866,
+      "type": 3,
+      "name": "com.batch.android.BatchPushMessageDismissReceiver",
+      "mode": "exact",
+      "priority": 2866,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/batch/android/BatchPushMessageDismissReceiver.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchPushMessageDismissReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2867,
+      "type": 3,
+      "name": "com.batch.android.BatchPushMessageReceiver",
+      "mode": "exact",
+      "priority": 2867,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/batch/android/BatchPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2888,
+      "type": 1,
+      "name": "com.batch.android.BatchActionService",
+      "mode": "exact",
+      "priority": 2888,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/batch/android/BatchActionService.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchActionService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2889,
+      "type": 1,
+      "name": "com.batch.android.BatchDisplayReceiptJobService",
+      "mode": "exact",
+      "priority": 2889,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/batch/android/BatchDisplayReceiptJobService.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchDisplayReceiptJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2890,
+      "type": 1,
+      "name": "com.batch.android.BatchPushJobService",
+      "mode": "exact",
+      "priority": 2890,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/batch/android/BatchPushJobService.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchPushJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2891,
+      "type": 1,
+      "name": "com.batch.android.BatchPushService",
+      "mode": "exact",
+      "priority": 2891,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/batch/android/BatchPushService.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.BatchPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2892,
+      "type": 1,
+      "name": "com.batch.android.eventdispatcher.DispatcherDiscoveryService",
+      "mode": "exact",
+      "priority": 2892,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/batch/android/eventdispatcher/DispatcherDiscoveryService.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.eventdispatcher.DispatcherDiscoveryService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2893,
+      "type": 1,
+      "name": "com.batch.android.push.PushRegistrationDiscoveryService",
+      "mode": "exact",
+      "priority": 2893,
+      "label": "Batch",
+      "iconId": "ic_lib_batch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/batch/android/push/PushRegistrationDiscoveryService.json",
+      "examples": {
+        "positive": [
+          "com.batch.android.push.PushRegistrationDiscoveryService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

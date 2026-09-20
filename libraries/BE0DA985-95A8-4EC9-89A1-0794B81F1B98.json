@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BE0DA985-95A8-4EC9-89A1-0794B81F1B98",
+  "iconId": "ic_lib_notifee",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Notifee",
+        "dev_team": "Invertase",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "一个面向 React Native 的功能丰富的 Android 与 iOS 通知库。",
+        "source_link": "https://github.com/invertase/notifee"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Notifee",
+        "dev_team": "Invertase",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "A feature rich Android & iOS notifications library for React Native.",
+        "source_link": "https://github.com/invertase/notifee"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2693,
+      "type": 2,
+      "name": "app.notifee.core.NotificationReceiverActivity",
+      "mode": "exact",
+      "priority": 2693,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/app/notifee/core/NotificationReceiverActivity.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.NotificationReceiverActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2859,
+      "type": 4,
+      "name": "io.invertase.notifee.NotifeeInitProvider",
+      "mode": "exact",
+      "priority": 2859,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/invertase/notifee/NotifeeInitProvider.json",
+      "examples": {
+        "positive": [
+          "io.invertase.notifee.NotifeeInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2861,
+      "type": 3,
+      "name": "app.notifee.core.AlarmPermissionBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2861,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/app/notifee/core/AlarmPermissionBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.AlarmPermissionBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2862,
+      "type": 3,
+      "name": "app.notifee.core.BlockStateBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2862,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/app/notifee/core/BlockStateBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.BlockStateBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2863,
+      "type": 3,
+      "name": "app.notifee.core.NotificationAlarmReceiver",
+      "mode": "exact",
+      "priority": 2863,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/app/notifee/core/NotificationAlarmReceiver.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.NotificationAlarmReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2864,
+      "type": 3,
+      "name": "app.notifee.core.RebootBroadcastReceiver",
+      "mode": "exact",
+      "priority": 2864,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/app/notifee/core/RebootBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.RebootBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2885,
+      "type": 1,
+      "name": "app.notifee.core.ForegroundService",
+      "mode": "exact",
+      "priority": 2885,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/app/notifee/core/ForegroundService.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.ForegroundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2886,
+      "type": 1,
+      "name": "app.notifee.core.ReceiverService",
+      "mode": "exact",
+      "priority": 2886,
+      "label": "Notifee",
+      "iconId": "ic_lib_notifee",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/app/notifee/core/ReceiverService.json",
+      "examples": {
+        "positive": [
+          "app.notifee.core.ReceiverService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

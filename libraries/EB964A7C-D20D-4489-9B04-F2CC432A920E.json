@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EB964A7C-D20D-4489-9B04-F2CC432A920E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "unrar-android",
+        "dev_team": "maoabc",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Unrar 库的 Android 移植版本，提供 Java 绑定。",
+        "source_link": "https://github.com/maoabc/unrar-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "unrar-android",
+        "dev_team": "maoabc",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Unrar library ported to Android, java binding.",
+        "source_link": "https://github.com/maoabc/unrar-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2264,
+      "type": 0,
+      "name": "libunrar-jni.so",
+      "mode": "exact",
+      "priority": 2264,
+      "label": "unrar-android",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libunrar-jni.so.json",
+      "examples": {
+        "positive": [
+          "libunrar-jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

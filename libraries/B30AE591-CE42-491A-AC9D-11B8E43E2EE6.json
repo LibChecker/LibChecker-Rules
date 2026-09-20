@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B30AE591-CE42-491A-AC9D-11B8E43E2EE6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Megazord",
+        "dev_team": "Mozilla",
+        "rule_contributors": [
+          "bolucat"
+        ],
+        "description": "Megazord 将多个 Rust 组件打包为单一的 .so 文件，以减少代码体积并增加易用性。",
+        "source_link": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Megazord",
+        "dev_team": "Mozilla",
+        "rule_contributors": [
+          "bolucat"
+        ],
+        "description": "Megazord packages multiple Rust components into a single .so file to reduce code size and increase usability.",
+        "source_link": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 778,
+      "type": 0,
+      "name": "libmegazord.so",
+      "mode": "exact",
+      "priority": 778,
+      "label": "Megazord",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmegazord.so.json",
+      "examples": {
+        "positive": [
+          "libmegazord.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

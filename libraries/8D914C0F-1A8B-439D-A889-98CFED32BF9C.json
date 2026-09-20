@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8D914C0F-1A8B-439D-A889-98CFED32BF9C",
+  "iconId": "ic_lib_folly",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Folly",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "ArthurCyy",
+          "Anormi",
+          "crrashh1542"
+        ],
+        "description": "一个在 Facebook 开发和使用的开源 C++ 库。",
+        "source_link": "https://github.com/facebook/folly"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Folly",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "ArthurCyy",
+          "Anormi",
+          "crrashh1542"
+        ],
+        "description": "An open-source C++ library developed and used at Facebook.",
+        "source_link": "https://github.com/facebook/folly"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 142,
+      "type": 0,
+      "name": "libfolly_json.so",
+      "mode": "exact",
+      "priority": 142,
+      "label": "Folly",
+      "iconId": "ic_lib_folly",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfolly_json.so.json",
+      "examples": {
+        "positive": [
+          "libfolly_json.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 631,
+      "type": 0,
+      "name": "libfolly_futures.so",
+      "mode": "exact",
+      "priority": 631,
+      "label": "Folly",
+      "iconId": "ic_lib_folly",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfolly_futures.so.json",
+      "examples": {
+        "positive": [
+          "libfolly_futures.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1564,
+      "type": 0,
+      "name": "libfolly_runtime.so",
+      "mode": "exact",
+      "priority": 1564,
+      "label": "Folly",
+      "iconId": "ic_lib_folly",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfolly_runtime.so.json",
+      "examples": {
+        "positive": [
+          "libfolly_runtime.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

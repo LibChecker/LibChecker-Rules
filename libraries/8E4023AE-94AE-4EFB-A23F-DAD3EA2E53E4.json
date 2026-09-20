@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8E4023AE-94AE-4EFB-A23F-DAD3EA2E53E4",
+  "iconId": "ic_lib_didi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "VirtualAPK",
+        "dev_team": "Didi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个强大且轻量的 Android 插件化框架。",
+        "source_link": "https://github.com/didi/VirtualAPK/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "VirtualAPK",
+        "dev_team": "Didi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "A powerful and lightweight Android plugin framework.",
+        "source_link": "https://github.com/didi/VirtualAPK/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 210,
+      "type": 1,
+      "name": "com.didi.virtualapk.delegate.RemoteService",
+      "mode": "exact",
+      "priority": 210,
+      "label": "VirtualAPK",
+      "iconId": "ic_lib_didi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/didi/virtualapk/delegate/RemoteService.json",
+      "examples": {
+        "positive": [
+          "com.didi.virtualapk.delegate.RemoteService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 263,
+      "type": 1,
+      "name": "com.didi.virtualapk.delegate.LocalService",
+      "mode": "exact",
+      "priority": 263,
+      "label": "VirtualAPK",
+      "iconId": "ic_lib_didi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/didi/virtualapk/delegate/LocalService.json",
+      "examples": {
+        "positive": [
+          "com.didi.virtualapk.delegate.LocalService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 884,
+      "type": 4,
+      "name": "com.didi.virtualapk.delegate.RemoteContentProvider",
+      "mode": "exact",
+      "priority": 884,
+      "label": "VirtualAPK",
+      "iconId": "ic_lib_didi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/didi/virtualapk/delegate/RemoteContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.didi.virtualapk.delegate.RemoteContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "services-libs/regex/regex_virtual_apk.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "VirtualAPK",
+              "dev_team": "Didi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "一个强大且轻量的 Android 插件化框架。",
+              "source_link": "https://github.com/didi/VirtualAPK/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "VirtualAPK",
+              "dev_team": "Didi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "A powerful and lightweight Android plugin framework.",
+              "source_link": "https://github.com/didi/VirtualAPK/"
+            }
+          }
+        ],
+        "uuid": "8E4023AE-94AE-4EFB-A23F-DAD3EA2E53E4"
+      }
+    }
+  ]
+}

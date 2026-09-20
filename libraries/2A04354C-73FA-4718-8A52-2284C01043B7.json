@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2A04354C-73FA-4718-8A52-2284C01043B7",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯流量联盟",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "腾讯移动开放平台是为广大移动端应用开发者提供的平台。",
+        "source_link": "https://wiki.open.qq.com/wiki/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Traffic Alliance",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tencent Mobile Open Platform is a platform provided for mobile application developers.",
+        "source_link": "https://wiki.open.qq.com/wiki/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 87,
+      "type": 0,
+      "name": "libBeacon.so",
+      "mode": "exact",
+      "priority": 87,
+      "label": "腾讯流量联盟",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBeacon.so.json",
+      "examples": {
+        "positive": [
+          "libBeacon.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

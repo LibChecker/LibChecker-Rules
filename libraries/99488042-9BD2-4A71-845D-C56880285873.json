@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "99488042-9BD2-4A71-845D-C56880285873",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FMOD",
+        "dev_team": "Firelight",
+        "rule_contributors": [
+          "lgc2333",
+          "d1y"
+        ],
+        "description": "FMOD 是自适应音频的解决方案。",
+        "source_link": "https://www.fmod.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FMOD",
+        "dev_team": "Firelight",
+        "rule_contributors": [
+          "lgc2333",
+          "d1y"
+        ],
+        "description": "FMOD is the solution for adaptive audio.",
+        "source_link": "https://www.fmod.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 991,
+      "type": 0,
+      "name": "libfmod.so",
+      "mode": "exact",
+      "priority": 991,
+      "label": "FMOD",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfmod.so.json",
+      "examples": {
+        "positive": [
+          "libfmod.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1136,
+      "type": 0,
+      "name": "libfmodL.so",
+      "mode": "exact",
+      "priority": 1136,
+      "label": "FMOD",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfmodL.so.json",
+      "examples": {
+        "positive": [
+          "libfmodL.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

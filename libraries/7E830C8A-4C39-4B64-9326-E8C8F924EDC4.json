@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7E830C8A-4C39-4B64-9326-E8C8F924EDC4",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "opencore-amr",
+        "dev_team": "mstorsjo",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Fraunhofer FDK AAC 代码来自 Android。",
+        "source_link": "https://github.com/mstorsjo/fdk-aac"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "opencore-amr",
+        "dev_team": "mstorsjo",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Fraunhofer FDK AAC code from Android.",
+        "source_link": "https://github.com/mstorsjo/fdk-aac"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1305,
+      "type": 0,
+      "name": "libfdk-aac.so",
+      "mode": "exact",
+      "priority": 1305,
+      "label": "opencore-amr",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfdk-aac.so.json",
+      "examples": {
+        "positive": [
+          "libfdk-aac.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

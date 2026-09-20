@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D1F309E4-8334-4A1D-BE05-1216D07AC420",
+  "iconId": "ic_lib_firebase",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Crashlytics",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Crashlytics 是 Firebase 的主要崩溃报告工具。将众多崩溃整理成一个方便管理的问题列表，从而缩短问题排查时间。在 Crashlytics 信息中心内查看问题对用户造成的影响，从而清楚合理地确定应当首先解决哪些问题。",
+        "source_link": "https://firebase.google.com/docs/crashlytics/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Crashlytics",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Crashlytics is Firebase's primary crash reporting tool. It organizes numerous crashes into a manageable list of issues, shortening troubleshooting time. Within the Crashlytics information center, view the impact of issues on users to clearly and reasonably determine which issues should be addressed first.",
+        "source_link": "https://firebase.google.com/docs/crashlytics/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 147,
+      "type": 0,
+      "name": "libcrashlytics.so",
+      "mode": "exact",
+      "priority": 147,
+      "label": "Crashlytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrashlytics.so.json",
+      "examples": {
+        "positive": [
+          "libcrashlytics.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 460,
+      "type": 4,
+      "name": "com.crashlytics.android.CrashlyticsInitProvider",
+      "mode": "exact",
+      "priority": 460,
+      "label": "Crashlytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/crashlytics/android/CrashlyticsInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.crashlytics.android.CrashlyticsInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 717,
+      "type": 0,
+      "name": "libcrashlytics-common.so",
+      "mode": "exact",
+      "priority": 717,
+      "label": "Crashlytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrashlytics-common.so.json",
+      "examples": {
+        "positive": [
+          "libcrashlytics-common.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 718,
+      "type": 0,
+      "name": "libcrashlytics-handler.so",
+      "mode": "exact",
+      "priority": 718,
+      "label": "Crashlytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrashlytics-handler.so.json",
+      "examples": {
+        "positive": [
+          "libcrashlytics-handler.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 719,
+      "type": 0,
+      "name": "libcrashlytics-trampoline.so",
+      "mode": "exact",
+      "priority": 719,
+      "label": "Crashlytics",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrashlytics-trampoline.so.json",
+      "examples": {
+        "positive": [
+          "libcrashlytics-trampoline.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

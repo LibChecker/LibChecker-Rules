@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "46F0DFDA-DBAA-45F5-838F-CFEC31D0C10A",
+  "iconId": "ic_lib_qiniu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PLDroidPlayer",
+        "dev_team": "七牛云",
+        "rule_contributors": [
+          "zxwpm"
+        ],
+        "description": "PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。",
+        "source_link": "https://github.com/pili-engineering/PLDroidPlayer"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PLDroidPlayer",
+        "dev_team": "七牛云",
+        "rule_contributors": [
+          "zxwpm"
+        ],
+        "description": "PLDroidPlayer is a free player SDK for the Android platform launched by Qiniu, adopting a self-developed cross-platform playback kernel, with rich functions and excellent performance, highly customizable and suitable for secondary development.",
+        "source_link": "https://github.com/pili-engineering/PLDroidPlayer"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 106,
+      "type": 0,
+      "name": "libQPlayer.so",
+      "mode": "exact",
+      "priority": 106,
+      "label": "PLDroidPlayer",
+      "iconId": "ic_lib_qiniu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libQPlayer.so.json",
+      "examples": {
+        "positive": [
+          "libQPlayer.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

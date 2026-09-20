@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4CA775FF-C215-4140-B184-191E24CB9D4C",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google AdMob",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Google AdMob 是一个助您通过应用实现创收的移动广告平台。",
+        "source_link": "https://developers.google.com/admob/android/sdk/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google AdMob",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Google AdMob is a mobile advertising platform that helps you monetize your app.",
+        "source_link": "https://developers.google.com/admob/android/sdk/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 311,
+      "type": 2,
+      "name": "com.google.android.gms.ads.AdActivity",
+      "mode": "exact",
+      "priority": 311,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/ads/AdActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.ads.AdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 468,
+      "type": 4,
+      "name": "com.google.android.gms.ads.MobileAdsInitProvider",
+      "mode": "exact",
+      "priority": 468,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/google/android/gms/ads/MobileAdsInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.ads.MobileAdsInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 765,
+      "type": 1,
+      "name": "com.google.android.gms.ads.AdService",
+      "mode": "exact",
+      "priority": 765,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/ads/AdService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.ads.AdService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1197,
+      "type": 0,
+      "name": "libadmob.so",
+      "mode": "exact",
+      "priority": 1197,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libadmob.so.json",
+      "examples": {
+        "positive": [
+          "libadmob.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1198,
+      "type": 0,
+      "name": "libadmob-google.so",
+      "mode": "exact",
+      "priority": 1198,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libadmob-google.so.json",
+      "examples": {
+        "positive": [
+          "libadmob-google.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1428,
+      "type": 2,
+      "name": "com.google.android.gms.ads.OutOfContextTestingActivity",
+      "mode": "exact",
+      "priority": 1428,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/ads/OutOfContextTestingActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.ads.OutOfContextTestingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2191,
+      "type": 2,
+      "name": "com.google.android.gms.ads.NotificationHandlerActivity",
+      "mode": "exact",
+      "priority": 2191,
+      "label": "Google AdMob",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/ads/NotificationHandlerActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.ads.NotificationHandlerActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

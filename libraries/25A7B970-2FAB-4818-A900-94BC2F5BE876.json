@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "25A7B970-2FAB-4818-A900-94BC2F5BE876",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibJS",
+        "dev_team": "linusg",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "SerenityOS的JavaScript引擎网站。",
+        "source_link": "https://github.com/linusg/libjs-website"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibJS",
+        "dev_team": "linusg",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Website for SerenityOS's JavaScript engine.",
+        "source_link": "https://github.com/linusg/libjs-website"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1849,
+      "type": 0,
+      "name": "libjsengine-platform.so",
+      "mode": "exact",
+      "priority": 1849,
+      "label": "LibJS",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsengine-platform.so.json",
+      "examples": {
+        "positive": [
+          "libjsengine-platform.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2030,
+      "type": 0,
+      "name": "libjsengine-api.so",
+      "mode": "exact",
+      "priority": 2030,
+      "label": "LibJS",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsengine-api.so.json",
+      "examples": {
+        "positive": [
+          "libjsengine-api.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2031,
+      "type": 0,
+      "name": "libjsengine-loadso.so",
+      "mode": "exact",
+      "priority": 2031,
+      "label": "LibJS",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsengine-loadso.so.json",
+      "examples": {
+        "positive": [
+          "libjsengine-loadso.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2032,
+      "type": 0,
+      "name": "libjsiutil.so",
+      "mode": "exact",
+      "priority": 2032,
+      "label": "LibJS",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsiutil.so.json",
+      "examples": {
+        "positive": [
+          "libjsiutil.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

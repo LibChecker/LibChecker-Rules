@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "85F5C7D6-D22A-4F3D-A02A-ED6D791ADAB3",
+  "iconId": "ic_lib_curl",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibCurl",
+        "dev_team": "curl",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "libcurl 是一个免费且易于使用的客户端 URL 传输库。",
+        "source_link": "https://github.com/curl/curl"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibCurl",
+        "dev_team": "curl",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "libcurl is a free and easy-to-use client URL transfer library.",
+        "source_link": "https://github.com/curl/curl"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 772,
+      "type": 0,
+      "name": "libcurl.so",
+      "mode": "exact",
+      "priority": 772,
+      "label": "LibCurl",
+      "iconId": "ic_lib_curl",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcurl.so.json",
+      "examples": {
+        "positive": [
+          "libcurl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

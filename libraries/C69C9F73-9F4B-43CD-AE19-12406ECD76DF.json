@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C69C9F73-9F4B-43CD-AE19-12406ECD76DF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CWAC AndDown",
+        "dev_team": "commonsware",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Markdown 实用程序库。",
+        "source_link": "https://github.com/commonsguy/cwac-anddown"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CWAC AndDown",
+        "dev_team": "commonsware",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Markdown Utility Library.",
+        "source_link": "https://github.com/commonsguy/cwac-anddown"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1597,
+      "type": 0,
+      "name": "libanddown.so",
+      "mode": "exact",
+      "priority": 1597,
+      "label": "CWAC AndDown",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libanddown.so.json",
+      "examples": {
+        "positive": [
+          "libanddown.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

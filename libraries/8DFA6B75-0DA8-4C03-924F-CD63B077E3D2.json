@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8DFA6B75-0DA8-4C03-924F-CD63B077E3D2",
+  "iconId": "ic_lib_rust",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "WAJ",
+        "dev_team": "Rust",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Waj 是一种基于 jubako 容器格式的网站容器格式。",
+        "source_link": "https://docs.rs/libwaj/latest/libwaj/#"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "WAJ",
+        "dev_team": "Rust",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Waj is a website container format based on the jubako container format.",
+        "source_link": "https://docs.rs/libwaj/latest/libwaj/#"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1991,
+      "type": 0,
+      "name": "libWAJ.so",
+      "mode": "exact",
+      "priority": 1991,
+      "label": "WAJ",
+      "iconId": "ic_lib_rust",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libWAJ.so.json",
+      "examples": {
+        "positive": [
+          "libWAJ.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

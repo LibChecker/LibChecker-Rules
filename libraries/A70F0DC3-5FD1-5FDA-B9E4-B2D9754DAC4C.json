@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A70F0DC3-5FD1-5FDA-B9E4-B2D9754DAC4C",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 527,
+      "type": 5,
+      "name": "butterknife.runtime",
+      "mode": "exact",
+      "priority": 527,
+      "label": "Butter Knife",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "butterknife.runtime"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

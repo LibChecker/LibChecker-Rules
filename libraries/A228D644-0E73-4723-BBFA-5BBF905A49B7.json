@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A228D644-0E73-4723-BBFA-5BBF905A49B7",
+  "iconId": "ic_lib_hermes",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Hermes JS Engine",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "xyl23333",
+          "ArthurCyy",
+          "HenryWu01",
+          "WOLFRAZOR",
+          "sebastien46",
+          "yfdyh000",
+          "coder-xiaomo"
+        ],
+        "description": "Hermes 是一个为 React Native 应用程序的快速启动而优化的 JavaScript 引擎。它具有提前静态优化和紧凑的字节码。",
+        "source_link": "https://github.com/facebook/hermes"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Hermes JS Engine",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "xyl23333",
+          "ArthurCyy",
+          "HenryWu01",
+          "WOLFRAZOR",
+          "sebastien46",
+          "yfdyh000",
+          "coder-xiaomo"
+        ],
+        "description": "Hermes is a JavaScript engine optimized for fast startup of React Native applications. It features ahead-of-time static optimization and compact bytecode.",
+        "source_link": "https://github.com/facebook/hermes"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 911,
+      "type": 0,
+      "name": "libhermes-executor-debug.so",
+      "mode": "exact",
+      "priority": 911,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes-executor-debug.so.json",
+      "examples": {
+        "positive": [
+          "libhermes-executor-debug.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 912,
+      "type": 0,
+      "name": "libhermes-executor-release.so",
+      "mode": "exact",
+      "priority": 912,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes-executor-release.so.json",
+      "examples": {
+        "positive": [
+          "libhermes-executor-release.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 913,
+      "type": 0,
+      "name": "libhermes-inspector.so",
+      "mode": "exact",
+      "priority": 913,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes-inspector.so.json",
+      "examples": {
+        "positive": [
+          "libhermes-inspector.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 914,
+      "type": 0,
+      "name": "libhermes.so",
+      "mode": "exact",
+      "priority": 914,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes.so.json",
+      "examples": {
+        "positive": [
+          "libhermes.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1147,
+      "type": 0,
+      "name": "libhermes-executor-common-debug.so",
+      "mode": "exact",
+      "priority": 1147,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes-executor-common-debug.so.json",
+      "examples": {
+        "positive": [
+          "libhermes-executor-common-debug.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1148,
+      "type": 0,
+      "name": "libhermes-executor-common-release.so",
+      "mode": "exact",
+      "priority": 1148,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes-executor-common-release.so.json",
+      "examples": {
+        "positive": [
+          "libhermes-executor-common-release.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1765,
+      "type": 0,
+      "name": "libhermes_executor.so",
+      "mode": "exact",
+      "priority": 1765,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes_executor.so.json",
+      "examples": {
+        "positive": [
+          "libhermes_executor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1779,
+      "type": 0,
+      "name": "libhermesinstancejni.so",
+      "mode": "exact",
+      "priority": 1779,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermesinstancejni.so.json",
+      "examples": {
+        "positive": [
+          "libhermesinstancejni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2024,
+      "type": 0,
+      "name": "libhermes-compile.so",
+      "mode": "exact",
+      "priority": 2024,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermes-compile.so.json",
+      "examples": {
+        "positive": [
+          "libhermes-compile.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2649,
+      "type": 0,
+      "name": "libhermestooling.so",
+      "mode": "exact",
+      "priority": 2649,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermestooling.so.json",
+      "examples": {
+        "positive": [
+          "libhermestooling.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2807,
+      "type": 0,
+      "name": "libhermesvm.so",
+      "mode": "exact",
+      "priority": 2807,
+      "label": "Hermes JS Engine",
+      "iconId": "ic_lib_hermes",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhermesvm.so.json",
+      "examples": {
+        "positive": [
+          "libhermesvm.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

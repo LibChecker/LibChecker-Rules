@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DEA72298-C9F0-444D-8AD1-53A5F2BDF006",
+  "iconId": "ic_lib_unity",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Unity Mono",
+        "dev_team": "Unity",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Mono 脚本后端，使用 JIT 技术在运行时按需编译代码。",
+        "source_link": "https://docs.unity3d.com/cn/current/Manual/Mono.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Unity Mono",
+        "dev_team": "Unity",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Mono script backend, using JIT technology to compile code on demand at runtime.",
+        "source_link": "https://docs.unity3d.com/cn/current/Manual/Mono.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1171,
+      "type": 0,
+      "name": "libmonobdwgc-2.0.so",
+      "mode": "exact",
+      "priority": 1171,
+      "label": "Unity Mono",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmonobdwgc-2.0.so.json",
+      "examples": {
+        "positive": [
+          "libmonobdwgc-2.0.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1172,
+      "type": 0,
+      "name": "libMonoPosixHelper.so",
+      "mode": "exact",
+      "priority": 1172,
+      "label": "Unity Mono",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMonoPosixHelper.so.json",
+      "examples": {
+        "positive": [
+          "libMonoPosixHelper.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

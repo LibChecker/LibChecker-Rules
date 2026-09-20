@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "87D23FAD-B3D5-4D40-8D75-877CF45F4BB2",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CFCA",
+        "dev_team": "中国金融认证中心 (CFCA)",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "中国金融认证中心（CFCA）安全输入控件。",
+        "source_link": "https://www.cfca.com.cn/20210224/100004551.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CFCA",
+        "dev_team": "中国金融认证中心 (CFCA)",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "China Financial Certification Authority (CFCA) secure input control.",
+        "source_link": "https://www.cfca.com.cn/20210224/100004551.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1213,
+      "type": 0,
+      "name": "libSipCryptor.so",
+      "mode": "exact",
+      "priority": 1213,
+      "label": "CFCA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSipCryptor.so.json",
+      "examples": {
+        "positive": [
+          "libSipCryptor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1214,
+      "type": 0,
+      "name": "libcfcaMLog.so",
+      "mode": "exact",
+      "priority": 1214,
+      "label": "CFCA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcfcaMLog.so.json",
+      "examples": {
+        "positive": [
+          "libcfcaMLog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1215,
+      "type": 0,
+      "name": "libcfcamkit.so",
+      "mode": "exact",
+      "priority": 1215,
+      "label": "CFCA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcfcamkit.so.json",
+      "examples": {
+        "positive": [
+          "libcfcamkit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1216,
+      "type": 0,
+      "name": "libHKESipCryptor.so",
+      "mode": "exact",
+      "priority": 1216,
+      "label": "CFCA",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libHKESipCryptor.so.json",
+      "examples": {
+        "positive": [
+          "libHKESipCryptor.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

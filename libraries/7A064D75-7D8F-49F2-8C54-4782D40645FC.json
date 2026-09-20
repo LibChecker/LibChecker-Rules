@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7A064D75-7D8F-49F2-8C54-4782D40645FC",
+  "iconId": "ic_lib_jd",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Taro",
+        "dev_team": "京东",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/QQ/飞书/快手小程序、H5、React Native 等应用。",
+        "source_link": "https://taro.zone/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Taro",
+        "dev_team": "京东",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Taro is an open cross-platform, cross-framework solution that supports using React/Vue/Nerv to develop WeChat/JD/Baidu/Alipay/Bytedance/QQ/Feishu/Kuaishou mini programs, H5, React Native, and other applications.",
+        "source_link": "https://taro.zone/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2437,
+      "type": 0,
+      "name": "libtaro_native_bridge.so",
+      "mode": "exact",
+      "priority": 2437,
+      "label": "Taro",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtaro_native_bridge.so.json",
+      "examples": {
+        "positive": [
+          "libtaro_native_bridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2438,
+      "type": 0,
+      "name": "libtaro_native_core.so",
+      "mode": "exact",
+      "priority": 2438,
+      "label": "Taro",
+      "iconId": "ic_lib_jd",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtaro_native_core.so.json",
+      "examples": {
+        "positive": [
+          "libtaro_native_core.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

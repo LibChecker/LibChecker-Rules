@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E0D88AA1-9060-4DA1-AA21-8D788CD02FB1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BlackBox",
+        "dev_team": "FBlackBox",
+        "rule_contributors": [
+          "CatZiTan0"
+        ],
+        "description": "BlackBox 是一个虚拟引擎，可以在 Android 上克隆并运行虚拟应用，用户无需安装 APK 文件即可在设备上运行应用。BlackBox 控制所有虚拟应用，因此您可以通过 BlackBox 随心所欲地进行操作。",
+        "source_link": "https://github.com/FBlackBox/BlackBox"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BlackBox",
+        "dev_team": "FBlackBox",
+        "rule_contributors": [
+          "CatZiTan0"
+        ],
+        "description": "BlackBox is a virtual engine, it can clone and run virtual application on Android, users don't have to install APK file to run the application on devices. BlackBox control all virtual applications, so you can do anything you want by using BlackBox.",
+        "source_link": "https://github.com/FBlackBox/BlackBox"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2636,
+      "type": 0,
+      "name": "libblackbox.so",
+      "mode": "exact",
+      "priority": 2636,
+      "label": "BlackBox",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libblackbox.so.json",
+      "examples": {
+        "positive": [
+          "libblackbox.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

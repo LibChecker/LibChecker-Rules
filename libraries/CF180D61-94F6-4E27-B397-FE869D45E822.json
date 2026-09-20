@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CF180D61-94F6-4E27-B397-FE869D45E822",
+  "iconId": "ic_lib_appcenter",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "App Center",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "Visual Studio App Center 将多个通用服务整合到 DevOps 云解决方案中。开发人员使用 App Center 来构建，测试和分发应用程序。部署应用程序后，开发人员可以使用 Analytics 和 Diagnostics 服务监视应用程序的状态和使用情况。",
+        "source_link": "https://docs.microsoft.com/appcenter/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "App Center",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "Visual Studio App Center integrates multiple common services into a DevOps cloud solution. Developers use App Center to build, test, and distribute applications. After deployment, developers can use Analytics and Diagnostics services to monitor application status and usage.",
+        "source_link": "https://docs.microsoft.com/appcenter/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 381,
+      "type": 3,
+      "name": "com.microsoft.appcenter.distribute.DownloadManagerReceiver",
+      "mode": "exact",
+      "priority": 381,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/appcenter/distribute/DownloadManagerReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.appcenter.distribute.DownloadManagerReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1106,
+      "type": 2,
+      "name": "com.microsoft.appcenter.distribute.DeepLinkActivity",
+      "mode": "exact",
+      "priority": 1106,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/appcenter/distribute/DeepLinkActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.appcenter.distribute.DeepLinkActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1107,
+      "type": 3,
+      "name": "com.microsoft.appcenter.distribute.AppCenterPackageInstallerReceiver",
+      "mode": "exact",
+      "priority": 1107,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/microsoft/appcenter/distribute/AppCenterPackageInstallerReceiver.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.appcenter.distribute.AppCenterPackageInstallerReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2593,
+      "type": 2,
+      "name": "net.hockeyapp.android.FeedbackActivity",
+      "mode": "exact",
+      "priority": 2593,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/net/hockeyapp/android/FeedbackActivity.json",
+      "examples": {
+        "positive": [
+          "net.hockeyapp.android.FeedbackActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2594,
+      "type": 2,
+      "name": "net.hockeyapp.android.UpdateActivity",
+      "mode": "exact",
+      "priority": 2594,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/net/hockeyapp/android/UpdateActivity.json",
+      "examples": {
+        "positive": [
+          "net.hockeyapp.android.UpdateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2607,
+      "type": 2,
+      "name": "com.microsoft.office.hockeyapp.activities.HockeyWebViewActivity",
+      "mode": "exact",
+      "priority": 2607,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/microsoft/office/hockeyapp/activities/HockeyWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.office.hockeyapp.activities.HockeyWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2650,
+      "type": 0,
+      "name": "libhockey_exception_handler.so",
+      "mode": "exact",
+      "priority": 2650,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhockey_exception_handler.so.json",
+      "examples": {
+        "positive": [
+          "libhockey_exception_handler.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2685,
+      "type": 4,
+      "name": "com.microsoft.appcenter.loader.AppCenterLoader",
+      "mode": "exact",
+      "priority": 2685,
+      "label": "App Center",
+      "iconId": "ic_lib_appcenter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/microsoft/appcenter/loader/AppCenterLoader.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.appcenter.loader.AppCenterLoader"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

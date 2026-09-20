@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A50546C8-9CF4-51A7-BEED-7A344895D7D7",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 549,
+      "type": 5,
+      "name": "androidx.activity",
+      "mode": "exact",
+      "priority": 549,
+      "label": "Jetpack Activity",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.activity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

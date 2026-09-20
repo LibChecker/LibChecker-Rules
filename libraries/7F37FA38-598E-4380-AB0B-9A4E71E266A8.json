@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7F37FA38-598E-4380-AB0B-9A4E71E266A8",
+  "iconId": "ic_lib_megvii",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "旷视 SDK",
+        "dev_team": "旷视",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "检测图片或视频流中的人脸，支持针对检测出的人脸进行属性分析。",
+        "source_link": "https://www.faceplusplus.com.cn/face-detection/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Megvii SDK",
+        "dev_team": "旷视",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "Detect faces in images or video streams and support attribute analysis for detected faces.",
+        "source_link": "https://www.faceplusplus.com.cn/face-detection/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1022,
+      "type": 2,
+      "name": "com.megvii.meglive_sdk.detect.fmp.FmpLivenessActivity",
+      "mode": "exact",
+      "priority": 1022,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/meglive_sdk/detect/fmp/FmpLivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.meglive_sdk.detect.fmp.FmpLivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1023,
+      "type": 2,
+      "name": "com.megvii.meglive_sdk.detect.action.ActionLivenessActivity",
+      "mode": "exact",
+      "priority": 1023,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/meglive_sdk/detect/action/ActionLivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.meglive_sdk.detect.action.ActionLivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1024,
+      "type": 2,
+      "name": "com.megvii.meglive_sdk.detect.color.FmpColorfulActivity",
+      "mode": "exact",
+      "priority": 1024,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/meglive_sdk/detect/color/FmpColorfulActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.meglive_sdk.detect.color.FmpColorfulActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1025,
+      "type": 2,
+      "name": "com.megvii.meglive_sdk.detect.guide.GrantActivity",
+      "mode": "exact",
+      "priority": 1025,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/meglive_sdk/detect/guide/GrantActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.meglive_sdk.detect.guide.GrantActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1026,
+      "type": 2,
+      "name": "com.megvii.meglive_sdk.detect.agreement.UserAgreementActivity",
+      "mode": "exact",
+      "priority": 1026,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/meglive_sdk/detect/agreement/UserAgreementActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.meglive_sdk.detect.agreement.UserAgreementActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1074,
+      "type": 0,
+      "name": "libMegActionFmpJni.so",
+      "mode": "exact",
+      "priority": 1074,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMegActionFmpJni.so.json",
+      "examples": {
+        "positive": [
+          "libMegActionFmpJni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1075,
+      "type": 0,
+      "name": "libMegviiInnerUtils-(.*)\\.so",
+      "mode": "regex",
+      "priority": 1075,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": "regex_megvii",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_megvii.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1076,
+      "type": 0,
+      "name": "libbucket2-new.so",
+      "mode": "exact",
+      "priority": 1076,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbucket2-new.so.json",
+      "examples": {
+        "positive": [
+          "libbucket2-new.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1271,
+      "type": 0,
+      "name": "libmegface.so",
+      "mode": "exact",
+      "priority": 1271,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmegface.so.json",
+      "examples": {
+        "positive": [
+          "libmegface.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1396,
+      "type": 0,
+      "name": "libMegviiIDCardQuality(.*)\\.so",
+      "mode": "regex",
+      "priority": 1396,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": "regex_megvii",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_megvii.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1397,
+      "type": 0,
+      "name": "liblivenessdetection(.*)\\.so",
+      "mode": "regex",
+      "priority": 1397,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": "regex_megvii",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_megvii.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1398,
+      "type": 0,
+      "name": "libbankcard(.*)\\.so",
+      "mode": "regex",
+      "priority": 1398,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": "regex_megvii",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_megvii.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1749,
+      "type": 0,
+      "name": "libmegface_faceid.so",
+      "mode": "exact",
+      "priority": 1749,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmegface_faceid.so.json",
+      "examples": {
+        "positive": [
+          "libmegface_faceid.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1750,
+      "type": 1,
+      "name": "com.megvii.lv5.sdk.screen.service.MediaProjectionService",
+      "mode": "exact",
+      "priority": 1750,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/megvii/lv5/sdk/screen/service/MediaProjectionService.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.screen.service.MediaProjectionService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1751,
+      "type": 2,
+      "name": "com.megvii.livenesslib.LivenessActivity",
+      "mode": "exact",
+      "priority": 1751,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/livenesslib/LivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.livenesslib.LivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1752,
+      "type": 2,
+      "name": "com.megvii.livenesslib.LoginFaceLivenessActivity",
+      "mode": "exact",
+      "priority": 1752,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/livenesslib/LoginFaceLivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.livenesslib.LoginFaceLivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1753,
+      "type": 2,
+      "name": "com.megvii.lv5.nfc.guild.NFCDetectActivity",
+      "mode": "exact",
+      "priority": 1753,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/nfc/guild/NFCDetectActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.nfc.guild.NFCDetectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1754,
+      "type": 2,
+      "name": "com.megvii.lv5.sdk.detect.action.ActionLivenessActivity",
+      "mode": "exact",
+      "priority": 1754,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/sdk/detect/action/ActionLivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.detect.action.ActionLivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1755,
+      "type": 2,
+      "name": "com.megvii.lv5.sdk.detect.actionflash.ActionFlashLivenessActivity",
+      "mode": "exact",
+      "priority": 1755,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/sdk/detect/actionflash/ActionFlashLivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.detect.actionflash.ActionFlashLivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1756,
+      "type": 2,
+      "name": "com.megvii.lv5.sdk.detect.color.FlashLivenessActivity",
+      "mode": "exact",
+      "priority": 1756,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/sdk/detect/color/FlashLivenessActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.detect.color.FlashLivenessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1757,
+      "type": 2,
+      "name": "com.megvii.lv5.sdk.detect.distance.DistanceFlashDetectActivity",
+      "mode": "exact",
+      "priority": 1757,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/sdk/detect/distance/DistanceFlashDetectActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.detect.distance.DistanceFlashDetectActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1758,
+      "type": 2,
+      "name": "com.megvii.lv5.sdk.detect.guide.GrantActivity",
+      "mode": "exact",
+      "priority": 1758,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/sdk/detect/guide/GrantActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.detect.guide.GrantActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1759,
+      "type": 2,
+      "name": "com.megvii.lv5.sdk.detect.guide.UserAgreementActivity",
+      "mode": "exact",
+      "priority": 1759,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/megvii/lv5/sdk/detect/guide/UserAgreementActivity.json",
+      "examples": {
+        "positive": [
+          "com.megvii.lv5.sdk.detect.guide.UserAgreementActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1852,
+      "type": 0,
+      "name": "libmegface.ocr.identify.so",
+      "mode": "exact",
+      "priority": 1852,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmegface.ocr.identify.so.json",
+      "examples": {
+        "positive": [
+          "libmegface.ocr.identify.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2086,
+      "type": 0,
+      "name": "libMegviiLicenseManager-(.*)\\.so",
+      "mode": "regex",
+      "priority": 2086,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": "regex_megvii",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_megvii.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2114,
+      "type": 0,
+      "name": "libfaceidlivenessv5.so",
+      "mode": "exact",
+      "priority": 2114,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfaceidlivenessv5.so.json",
+      "examples": {
+        "positive": [
+          "libfaceidlivenessv5.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2126,
+      "type": 0,
+      "name": "libmegface_v5.so",
+      "mode": "exact",
+      "priority": 2126,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmegface_v5.so.json",
+      "examples": {
+        "positive": [
+          "libmegface_v5.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2550,
+      "type": 0,
+      "name": "libmegface.ocr.identify_v(.*)\\.so",
+      "mode": "regex",
+      "priority": 2550,
+      "label": "旷视 SDK",
+      "iconId": "ic_lib_megvii",
+      "regexName": "regex_megvii",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_megvii.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

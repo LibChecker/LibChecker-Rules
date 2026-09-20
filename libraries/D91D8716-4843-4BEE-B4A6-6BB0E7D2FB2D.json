@@ -1,0 +1,1192 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D91D8716-4843-4BEE-B4A6-6BB0E7D2FB2D",
+  "iconId": "ic_lib_react",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "ArthurCyy",
+          "binx6",
+          "sebastien46",
+          "WOLFRAZOR"
+        ],
+        "description": "React Native 使你只使用 JavaScript 也能编写原生移动应用。 它在设计原理上和 React 一致，通过声明式的组件机制来搭建丰富多彩的用户界面。",
+        "source_link": "https://reactnative.dev/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "su1216",
+          "Absinthe",
+          "ArthurCyy",
+          "binx6",
+          "sebastien46",
+          "WOLFRAZOR"
+        ],
+        "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in design principles, building rich user interfaces through a declarative component mechanism.",
+        "source_link": "https://reactnative.dev/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 12,
+      "type": 0,
+      "name": "libreactnativejnifb.so",
+      "mode": "exact",
+      "priority": 12,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactnativejnifb.so.json",
+      "examples": {
+        "positive": [
+          "libreactnativejnifb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 20,
+      "type": 0,
+      "name": "libjsinspector.so",
+      "mode": "exact",
+      "priority": 20,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsinspector.so.json",
+      "examples": {
+        "positive": [
+          "libjsinspector.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 42,
+      "type": 0,
+      "name": "libreactnativeblob.so",
+      "mode": "exact",
+      "priority": 42,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactnativeblob.so.json",
+      "examples": {
+        "positive": [
+          "libreactnativeblob.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 56,
+      "type": 0,
+      "name": "libreactnative.so",
+      "mode": "exact",
+      "priority": 56,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactnative.so.json",
+      "examples": {
+        "positive": [
+          "libreactnative.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 68,
+      "type": 0,
+      "name": "libJavaScriptCore.so",
+      "mode": "exact",
+      "priority": 68,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libJavaScriptCore.so.json",
+      "examples": {
+        "positive": [
+          "libJavaScriptCore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 80,
+      "type": 0,
+      "name": "libglog_init.so",
+      "mode": "exact",
+      "priority": 80,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libglog_init.so.json",
+      "examples": {
+        "positive": [
+          "libglog_init.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 89,
+      "type": 0,
+      "name": "libjsc.so",
+      "mode": "exact",
+      "priority": 89,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsc.so.json",
+      "examples": {
+        "positive": [
+          "libjsc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 111,
+      "type": 0,
+      "name": "libreactnativejni.so",
+      "mode": "exact",
+      "priority": 111,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactnativejni.so.json",
+      "examples": {
+        "positive": [
+          "libreactnativejni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 112,
+      "type": 0,
+      "name": "libjscexecutor.so",
+      "mode": "exact",
+      "priority": 112,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjscexecutor.so.json",
+      "examples": {
+        "positive": [
+          "libjscexecutor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 332,
+      "type": 2,
+      "name": "com.facebook.react.devsupport.DevSettingsActivity",
+      "mode": "exact",
+      "priority": 332,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/facebook/react/devsupport/DevSettingsActivity.json",
+      "examples": {
+        "positive": [
+          "com.facebook.react.devsupport.DevSettingsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 738,
+      "type": 4,
+      "name": "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+      "mode": "exact",
+      "priority": 738,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/reactnativecommunity/webview/RNCWebViewFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.reactnativecommunity.webview.RNCWebViewFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1379,
+      "type": 0,
+      "name": "libfabricjni.so",
+      "mode": "exact",
+      "priority": 1379,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfabricjni.so.json",
+      "examples": {
+        "positive": [
+          "libfabricjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1380,
+      "type": 0,
+      "name": "libjsi.so",
+      "mode": "exact",
+      "priority": 1380,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsi.so.json",
+      "examples": {
+        "positive": [
+          "libjsi.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1381,
+      "type": 0,
+      "name": "libjsijniprofiler.so",
+      "mode": "exact",
+      "priority": 1381,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsijniprofiler.so.json",
+      "examples": {
+        "positive": [
+          "libjsijniprofiler.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1382,
+      "type": 0,
+      "name": "liblogger.so",
+      "mode": "exact",
+      "priority": 1382,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblogger.so.json",
+      "examples": {
+        "positive": [
+          "liblogger.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1383,
+      "type": 0,
+      "name": "libmapbufferjni.so",
+      "mode": "exact",
+      "priority": 1383,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmapbufferjni.so.json",
+      "examples": {
+        "positive": [
+          "libmapbufferjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1384,
+      "type": 0,
+      "name": "libreact_codegen_rncore.so",
+      "mode": "exact",
+      "priority": 1384,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_rncore.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_rncore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1385,
+      "type": 0,
+      "name": "libreact_codegen_reactandroidspec",
+      "mode": "exact",
+      "priority": 1385,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_reactandroidspec.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_reactandroidspec"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1386,
+      "type": 0,
+      "name": "libreact_config.so",
+      "mode": "exact",
+      "priority": 1386,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_config.so.json",
+      "examples": {
+        "positive": [
+          "libreact_config.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1387,
+      "type": 0,
+      "name": "libreact_debug.so",
+      "mode": "exact",
+      "priority": 1387,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_debug.so.json",
+      "examples": {
+        "positive": [
+          "libreact_debug.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1389,
+      "type": 0,
+      "name": "libreact_render_(.*)\\.so",
+      "mode": "regex",
+      "priority": 1389,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": "regex_react_native",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_react_native.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1390,
+      "type": 0,
+      "name": "libreact_utils.so",
+      "mode": "exact",
+      "priority": 1390,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_utils.so.json",
+      "examples": {
+        "positive": [
+          "libreact_utils.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1391,
+      "type": 0,
+      "name": "libreactconfig.so",
+      "mode": "exact",
+      "priority": 1391,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactconfig.so.json",
+      "examples": {
+        "positive": [
+          "libreactconfig.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1393,
+      "type": 0,
+      "name": "libreactperfloggerjni.so",
+      "mode": "exact",
+      "priority": 1393,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactperfloggerjni.so.json",
+      "examples": {
+        "positive": [
+          "libreactperfloggerjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1394,
+      "type": 0,
+      "name": "libturbomodulejsijni.so",
+      "mode": "exact",
+      "priority": 1394,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libturbomodulejsijni.so.json",
+      "examples": {
+        "positive": [
+          "libturbomodulejsijni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1395,
+      "type": 0,
+      "name": "librrc_(.*)\\.so",
+      "mode": "regex",
+      "priority": 1395,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": "regex_react_native",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_react_native.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1612,
+      "type": 0,
+      "name": "libreact_codegen_reactandroidspec.so",
+      "mode": "exact",
+      "priority": 1612,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_reactandroidspec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_reactandroidspec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1613,
+      "type": 0,
+      "name": "libreact_newarchdefaults.so",
+      "mode": "exact",
+      "priority": 1613,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_newarchdefaults.so.json",
+      "examples": {
+        "positive": [
+          "libreact_newarchdefaults.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1678,
+      "type": 0,
+      "name": "libreactjscexecutor.so",
+      "mode": "exact",
+      "priority": 1678,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactjscexecutor.so.json",
+      "examples": {
+        "positive": [
+          "libreactjscexecutor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1679,
+      "type": 0,
+      "name": "libreactjsexecutor.so",
+      "mode": "exact",
+      "priority": 1679,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactjsexecutor.so.json",
+      "examples": {
+        "positive": [
+          "libreactjsexecutor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1680,
+      "type": 0,
+      "name": "libruntimeexecutor.so",
+      "mode": "exact",
+      "priority": 1680,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libruntimeexecutor.so.json",
+      "examples": {
+        "positive": [
+          "libruntimeexecutor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1848,
+      "type": 0,
+      "name": "libjscinstance.so",
+      "mode": "exact",
+      "priority": 1848,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjscinstance.so.json",
+      "examples": {
+        "positive": [
+          "libjscinstance.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1850,
+      "type": 0,
+      "name": "libjserrorhandler.so",
+      "mode": "exact",
+      "priority": 1850,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjserrorhandler.so.json",
+      "examples": {
+        "positive": [
+          "libjserrorhandler.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2047,
+      "type": 0,
+      "name": "libreact-package-registry.so",
+      "mode": "exact",
+      "priority": 2047,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact-package-registry.so.json",
+      "examples": {
+        "positive": [
+          "libreact-package-registry.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2048,
+      "type": 0,
+      "name": "libreact_codegen_ReactEntrySpec.so",
+      "mode": "exact",
+      "priority": 2048,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactEntrySpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactEntrySpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2049,
+      "type": 0,
+      "name": "libreact_codegen_ReactNativeLinerGradientSpec.so",
+      "mode": "exact",
+      "priority": 2049,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactNativeLinerGradientSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactNativeLinerGradientSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2050,
+      "type": 0,
+      "name": "libreact_codegen_ReactNativeSvgSpec.so",
+      "mode": "exact",
+      "priority": 2050,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactNativeSvgSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactNativeSvgSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2051,
+      "type": 0,
+      "name": "libreact_codegen_ReactNativeVideoSpec.so",
+      "mode": "exact",
+      "priority": 2051,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactNativeVideoSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactNativeVideoSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2052,
+      "type": 0,
+      "name": "libreact_codegen_ReactNativeWidgetSpec.so",
+      "mode": "exact",
+      "priority": 2052,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactNativeWidgetSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactNativeWidgetSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2138,
+      "type": 0,
+      "name": "libreact_codegen_BCLimearGradientSpec.so",
+      "mode": "exact",
+      "priority": 2138,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_BCLimearGradientSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_BCLimearGradientSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2139,
+      "type": 0,
+      "name": "libreact_codegen_RNCViewPager.so",
+      "mode": "exact",
+      "priority": 2139,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_RNCViewPager.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_RNCViewPager.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2140,
+      "type": 0,
+      "name": "libreact_codegen_RNCWebViewSpec.so",
+      "mode": "exact",
+      "priority": 2140,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_RNCWebViewSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_RNCWebViewSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2141,
+      "type": 0,
+      "name": "libreact_codegen_ReactSlider.so",
+      "mode": "exact",
+      "priority": 2141,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactSlider.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactSlider.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2142,
+      "type": 0,
+      "name": "libreact_codegen_rnasyncstorage.so",
+      "mode": "exact",
+      "priority": 2142,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_rnasyncstorage.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_rnasyncstorage.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2145,
+      "type": 0,
+      "name": "libreact_codegen_safeareacontext.so",
+      "mode": "exact",
+      "priority": 2145,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_safeareacontext.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_safeareacontext.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2243,
+      "type": 0,
+      "name": "libreact_codegen_BVLinearGradientSpec.so",
+      "mode": "exact",
+      "priority": 2243,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_BVLinearGradientSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_BVLinearGradientSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2244,
+      "type": 0,
+      "name": "libreact_codegen_FileAccessSpec.so",
+      "mode": "exact",
+      "priority": 2244,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_FileAccessSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_FileAccessSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2245,
+      "type": 0,
+      "name": "libreact_codegen_KmReactEntrySpec.so",
+      "mode": "exact",
+      "priority": 2245,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_KmReactEntrySpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_KmReactEntrySpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2246,
+      "type": 0,
+      "name": "libreact_codegen_PagerView.so",
+      "mode": "exact",
+      "priority": 2246,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_PagerView.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_PagerView.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2247,
+      "type": 0,
+      "name": "libreact_codegen_PrnkitSpec.so",
+      "mode": "exact",
+      "priority": 2247,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_PrnkitSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_PrnkitSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2248,
+      "type": 0,
+      "name": "libreact_codegen_RNMmkvSpec.so",
+      "mode": "exact",
+      "priority": 2248,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_RNMmkvSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_RNMmkvSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2249,
+      "type": 0,
+      "name": "libreact_codegen_ReactNativeLinearGradientSpec.so",
+      "mode": "exact",
+      "priority": 2249,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactNativeLinearGradientSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactNativeLinearGradientSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2250,
+      "type": 0,
+      "name": "libreact_codegen_ReactNativeWebviewSpec.so",
+      "mode": "exact",
+      "priority": 2250,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_ReactNativeWebviewSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_ReactNativeWebviewSpec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2251,
+      "type": 0,
+      "name": "libreact_codegen_Spec.so",
+      "mode": "exact",
+      "priority": 2251,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_Spec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_Spec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2252,
+      "type": 0,
+      "name": "libreact_codegen_qrn_adr.so",
+      "mode": "exact",
+      "priority": 2252,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_qrn_adr.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_qrn_adr.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2253,
+      "type": 0,
+      "name": "libreact_codegen_yrncore.so",
+      "mode": "exact",
+      "priority": 2253,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_yrncore.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_yrncore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2634,
+      "type": 0,
+      "name": "libappmodules.so",
+      "mode": "exact",
+      "priority": 2634,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libappmodules.so.json",
+      "examples": {
+        "positive": [
+          "libappmodules.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2661,
+      "type": 0,
+      "name": "libreact_cxxreactpackage.so",
+      "mode": "exact",
+      "priority": 2661,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_cxxreactpackage.so.json",
+      "examples": {
+        "positive": [
+          "libreact_cxxreactpackage.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2662,
+      "type": 0,
+      "name": "libreact_devsupportjni.so",
+      "mode": "exact",
+      "priority": 2662,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_devsupportjni.so.json",
+      "examples": {
+        "positive": [
+          "libreact_devsupportjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2663,
+      "type": 0,
+      "name": "libreact_featureflags.so",
+      "mode": "exact",
+      "priority": 2663,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_featureflags.so.json",
+      "examples": {
+        "positive": [
+          "libreact_featureflags.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2664,
+      "type": 0,
+      "name": "libreact_featureflagsjni.so",
+      "mode": "exact",
+      "priority": 2664,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_featureflagsjni.so.json",
+      "examples": {
+        "positive": [
+          "libreact_featureflagsjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2665,
+      "type": 0,
+      "name": "libreact_utilities.so",
+      "mode": "exact",
+      "priority": 2665,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_utilities.so.json",
+      "examples": {
+        "positive": [
+          "libreact_utilities.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2666,
+      "type": 0,
+      "name": "librninstance.so",
+      "mode": "exact",
+      "priority": 2666,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librninstance.so.json",
+      "examples": {
+        "positive": [
+          "librninstance.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2675,
+      "type": 0,
+      "name": "libuimanagerjni.so",
+      "mode": "exact",
+      "priority": 2675,
+      "label": "React Native",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libuimanagerjni.so.json",
+      "examples": {
+        "positive": [
+          "libuimanagerjni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8620AC72-DADE-4C50-93F4-20088E23D1A2",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack AppFunctions",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "AppFunctions 是一个 Android 平台 API，并配套提供 Jetpack 库，用于简化 Android MCP 集成。它使你的应用能够像设备端 MCP 服务器一样运行，贡献可作为工具使用的函数，供主动功能以及代理和助手（如 Google Gemini）使用。截至 2026 年 5 月，AppFunctions 与 Gemini 的集成正在面向受信任测试者进行私有预览。你现在可以开始准备应用，以使用 AppFunctions 和相关开发工具。",
+        "source_link": "https://developer.android.com/ai/appfunctions"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack AppFunctions",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "AppFunctions is an Android platform API with an accompanying Jetpack library to simplify Android MCP integration. It empowers your apps to behave like on device MCP servers, contributing functions that act as tools for use by proactive features along with agents and assistants, like Google Gemini. As of May 2026, AppFunctions integration with Gemini is in a private preview with trusted testers. You can begin preparing your apps now to use AppFunctions and development tools.",
+        "source_link": "https://developer.android.com/ai/appfunctions"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2754,
+      "type": 0,
+      "name": "androidx.appfunctions.service.ExtensionAppFunctionService",
+      "mode": "exact",
+      "priority": 2754,
+      "label": "Jetpack AppFunctions",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/androidx.appfunctions.service.ExtensionAppFunctionService.json",
+      "examples": {
+        "positive": [
+          "androidx.appfunctions.service.ExtensionAppFunctionService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2881,
+      "type": 1,
+      "name": "androidx.appfunctions.service.PlatformAppFunctionService",
+      "mode": "exact",
+      "priority": 2881,
+      "label": "Jetpack AppFunctions",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/appfunctions/service/PlatformAppFunctionService.json",
+      "examples": {
+        "positive": [
+          "androidx.appfunctions.service.PlatformAppFunctionService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

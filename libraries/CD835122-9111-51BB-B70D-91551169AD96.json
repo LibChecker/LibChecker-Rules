@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CD835122-9111-51BB-B70D-91551169AD96",
+  "iconId": "ic_lib_square",
+  "data": [],
+  "matchers": [
+    {
+      "id": 553,
+      "type": 5,
+      "name": "okhttp3\\.(.*)",
+      "mode": "regex",
+      "priority": 553,
+      "label": "OkHttp3",
+      "iconId": "ic_lib_square",
+      "regexName": "regex_okhttp3",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

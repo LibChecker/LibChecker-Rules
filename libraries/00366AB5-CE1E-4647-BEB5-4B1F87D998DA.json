@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "00366AB5-CE1E-4647-BEB5-4B1F87D998DA",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯开放平台",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "腾讯核心内部服务，二十年技术沉淀，助你成就更高梦想。",
+        "source_link": "https://open.tencent.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Open Platform",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tencent core internal services, twenty years of technical accumulation, help you achieve higher dreams.",
+        "source_link": "https://open.tencent.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 288,
+      "type": 2,
+      "name": "com.tencent.connect.common.AssistActivity",
+      "mode": "exact",
+      "priority": 288,
+      "label": "腾讯开放平台",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/connect/common/AssistActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.connect.common.AssistActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 290,
+      "type": 2,
+      "name": "com.tencent.tauth.AuthActivity",
+      "mode": "exact",
+      "priority": 290,
+      "label": "腾讯开放平台",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/tauth/AuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tauth.AuthActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

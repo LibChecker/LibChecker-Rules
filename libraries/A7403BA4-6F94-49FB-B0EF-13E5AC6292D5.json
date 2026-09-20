@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A7403BA4-6F94-49FB-B0EF-13E5AC6292D5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "logging",
+        "dev_team": "rsyslog",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Liblogging 是一个易于使用的日志记录库。它提供了一个增强的 syslog() 调用替代品，同时保留了其易用性。",
+        "source_link": "https://github.com/rsyslog/liblogging"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "logging",
+        "dev_team": "rsyslog",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Liblogging is an easy to use library for logging. It offers an enhanced replacement for the syslog() call, but retains its ease of use.",
+        "source_link": "https://github.com/rsyslog/liblogging"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1913,
+      "type": 0,
+      "name": "liblogging.so",
+      "mode": "exact",
+      "priority": 1913,
+      "label": "logging",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblogging.so.json",
+      "examples": {
+        "positive": [
+          "liblogging.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

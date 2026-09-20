@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "69750F31-D779-437E-B248-916C3EA5D7F0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "speechEngine",
+        "dev_team": "Audiokinetic Inc.",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "为 Wwise 项目提供文本转语音支持。",
+        "source_link": "https://www.audiokinetic.com/en/public-library/2024.1.7_8863/?source=Help&id=readspeaker_tts_android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "speechEngine",
+        "dev_team": "Audiokinetic Inc.",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Provides text-to-speech support for Wwise projects.",
+        "source_link": "https://www.audiokinetic.com/en/public-library/2024.1.7_8863/?source=Help&id=readspeaker_tts_android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2670,
+      "type": 0,
+      "name": "libspeechengine.so",
+      "mode": "exact",
+      "priority": 2670,
+      "label": "speechEngine",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspeechengine.so.json",
+      "examples": {
+        "positive": [
+          "libspeechengine.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

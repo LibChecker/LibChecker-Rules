@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2DE0FA14-7F76-43EE-9EA0-72AA91298712",
+  "iconId": "ic_lib_umeng",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "友盟推送",
+        "dev_team": "Umeng",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "基于友盟+全域数据建立精准的消息推送平台，为开发者提供更灵活、更智能、更有效的消息推送方案，有效提升用户粘性，提高 App 活跃度。",
+        "source_link": "https://developer.umeng.com/docs/67966/cate/67966/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Umeng Push",
+        "dev_team": "Umeng",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "Based on Umeng+ global data, establish a precise message push platform, providing developers with more flexible, intelligent, and effective message push solutions to effectively enhance user stickiness and increase app activity.",
+        "source_link": "https://developer.umeng.com/docs/67966/cate/67966/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 188,
+      "type": 1,
+      "name": "com.umeng.message.UmengService",
+      "mode": "exact",
+      "priority": 188,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/UmengService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UmengService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 211,
+      "type": 1,
+      "name": "com.umeng.message.UmengMessageCallbackHandlerService",
+      "mode": "exact",
+      "priority": 211,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/UmengMessageCallbackHandlerService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UmengMessageCallbackHandlerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 215,
+      "type": 1,
+      "name": "com.umeng.update.net.DownloadingService",
+      "mode": "exact",
+      "priority": 215,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/update/net/DownloadingService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.update.net.DownloadingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 219,
+      "type": 1,
+      "name": "com.umeng.message.XiaomiIntentService",
+      "mode": "exact",
+      "priority": 219,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/XiaomiIntentService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.XiaomiIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 246,
+      "type": 1,
+      "name": "com.umeng.message.UmengDownloadResourceService",
+      "mode": "exact",
+      "priority": 246,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/UmengDownloadResourceService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UmengDownloadResourceService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 266,
+      "type": 1,
+      "name": "com.umeng.message.UmengIntentService",
+      "mode": "exact",
+      "priority": 266,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/UmengIntentService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UmengIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 282,
+      "type": 1,
+      "name": "com.umeng.message.UmengMessageIntentReceiverService",
+      "mode": "exact",
+      "priority": 282,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/UmengMessageIntentReceiverService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UmengMessageIntentReceiverService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 399,
+      "type": 3,
+      "name": "com.umeng.message.NotificationProxyBroadcastReceiver",
+      "mode": "exact",
+      "priority": 399,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/umeng/message/NotificationProxyBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.NotificationProxyBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 459,
+      "type": 4,
+      "name": "com.umeng.message.provider.MessageProvider",
+      "mode": "exact",
+      "priority": 459,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/umeng/message/provider/MessageProvider.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.provider.MessageProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 844,
+      "type": 2,
+      "name": "com.umeng.message.notify.UPushMessageNotifyActivity",
+      "mode": "exact",
+      "priority": 844,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/umeng/message/notify/UPushMessageNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.notify.UPushMessageNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 845,
+      "type": 2,
+      "name": "com.umeng.message.UPushBoardActivity",
+      "mode": "exact",
+      "priority": 845,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/umeng/message/UPushBoardActivity.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UPushBoardActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 846,
+      "type": 2,
+      "name": "com.umeng.message.UMessageNotifyActivity",
+      "mode": "exact",
+      "priority": 846,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/umeng/message/UMessageNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UMessageNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1096,
+      "type": 3,
+      "name": "com.umeng.message.UmengNotificationReceiver",
+      "mode": "exact",
+      "priority": 1096,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/umeng/message/UmengNotificationReceiver.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.UmengNotificationReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1337,
+      "type": 3,
+      "name": "com.umeng.message.component.UmengNotificationReceiver",
+      "mode": "exact",
+      "priority": 1337,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/umeng/message/component/UmengNotificationReceiver.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.component.UmengNotificationReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1500,
+      "type": 2,
+      "name": "com.umeng.message.component.UmengNotificationClickActivity",
+      "mode": "exact",
+      "priority": 1500,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/umeng/message/component/UmengNotificationClickActivity.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.component.UmengNotificationClickActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1517,
+      "type": 4,
+      "name": "com.umeng.message.component.UmengMessageProvider",
+      "mode": "exact",
+      "priority": 1517,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/umeng/message/component/UmengMessageProvider.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.component.UmengMessageProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1541,
+      "type": 1,
+      "name": "com.umeng.message.component.UmengIntentService",
+      "mode": "exact",
+      "priority": 1541,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/component/UmengIntentService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.component.UmengIntentService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1542,
+      "type": 1,
+      "name": "com.umeng.message.component.UmengMessageHandlerService",
+      "mode": "exact",
+      "priority": 1542,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/component/UmengMessageHandlerService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.component.UmengMessageHandlerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1543,
+      "type": 1,
+      "name": "com.umeng.message.component.UmengMessageReceiverService",
+      "mode": "exact",
+      "priority": 1543,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/umeng/message/component/UmengMessageReceiverService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.component.UmengMessageReceiverService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2358,
+      "type": 9,
+      "name": "com.umeng.accs.intent.action.RECEIVE",
+      "mode": "exact",
+      "priority": 2358,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.accs.intent.action.RECEIVE.json",
+      "examples": {
+        "positive": [
+          "com.umeng.accs.intent.action.RECEIVE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2359,
+      "type": 9,
+      "name": "com.umeng.agoo.client.MessageReceiverService",
+      "mode": "exact",
+      "priority": 2359,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.agoo.client.MessageReceiverService.json",
+      "examples": {
+        "positive": [
+          "com.umeng.agoo.client.MessageReceiverService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2360,
+      "type": 9,
+      "name": "com.umeng.message.action",
+      "mode": "exact",
+      "priority": 2360,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.message.action.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2361,
+      "type": 9,
+      "name": "com.umeng.message.action.notify",
+      "mode": "exact",
+      "priority": 2361,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.message.action.notify.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.action.notify"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2362,
+      "type": 9,
+      "name": "com.umeng.message.disablecallback.action",
+      "mode": "exact",
+      "priority": 2362,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.message.disablecallback.action.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.disablecallback.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2363,
+      "type": 9,
+      "name": "com.umeng.message.enablecallback.action",
+      "mode": "exact",
+      "priority": 2363,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.message.enablecallback.action.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.enablecallback.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2364,
+      "type": 9,
+      "name": "com.umeng.message.message.handler.action",
+      "mode": "exact",
+      "priority": 2364,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.message.message.handler.action.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.message.handler.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2365,
+      "type": 9,
+      "name": "com.umeng.message.message.sendmessage.action",
+      "mode": "exact",
+      "priority": 2365,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.message.message.sendmessage.action.json",
+      "examples": {
+        "positive": [
+          "com.umeng.message.message.sendmessage.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2366,
+      "type": 9,
+      "name": "com.umeng.messge.registercallback.action",
+      "mode": "exact",
+      "priority": 2366,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.umeng.messge.registercallback.action.json",
+      "examples": {
+        "positive": [
+          "com.umeng.messge.registercallback.action"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2381,
+      "type": 9,
+      "name": "org.agoo.android.intent.action.RECEIVE",
+      "mode": "exact",
+      "priority": 2381,
+      "label": "友盟推送",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.agoo.android.intent.action.RECEIVE.json",
+      "examples": {
+        "positive": [
+          "org.agoo.android.intent.action.RECEIVE"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

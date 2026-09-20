@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3193AA06-E864-4E97-A694-F304F744E97C",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ExoPlayer",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ExoPlayer 是一个面向 Android 的应用级媒体播放器。",
+        "source_link": "https://github.com/google/ExoPlayer"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ExoPlayer",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ExoPlayer is an application level media player for Android.",
+        "source_link": "https://github.com/google/ExoPlayer"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2132,
+      "type": 0,
+      "name": "libopusV2JNI.so",
+      "mode": "exact",
+      "priority": 2132,
+      "label": "ExoPlayer",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopusV2JNI.so.json",
+      "examples": {
+        "positive": [
+          "libopusV2JNI.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

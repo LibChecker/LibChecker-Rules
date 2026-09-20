@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B7766B8D-76C4-567A-9AA9-B93180648C2A",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 501,
+      "type": 5,
+      "name": "androidx.collection",
+      "mode": "exact",
+      "priority": 501,
+      "label": "Jetpack Collection",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.collection"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

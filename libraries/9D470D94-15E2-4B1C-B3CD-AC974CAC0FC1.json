@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9D470D94-15E2-4B1C-B3CD-AC974CAC0FC1",
+  "iconId": "ic_lib_baidu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "百度人脸识别",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "人脸离线识别 SDK，包含人脸采集、活体检测、人脸对比/识别、人脸库管理等能力，并全部离线化、本地化。",
+        "source_link": "https://cloud.baidu.com/doc/FACE/s/pk37c1mqu"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Baidu Face Recognition",
+        "dev_team": "Baidu",
+        "rule_contributors": [
+          "ArthurCyy"
+        ],
+        "description": "Offline face recognition SDK, including capabilities like face collection, liveness detection, face comparison/recognition, and face database management, all offline and localized.",
+        "source_link": "https://cloud.baidu.com/doc/FACE/s/pk37c1mqu"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1326,
+      "type": 0,
+      "name": "libbdface_sdk.so",
+      "mode": "exact",
+      "priority": 1326,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbdface_sdk.so.json",
+      "examples": {
+        "positive": [
+          "libbdface_sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1327,
+      "type": 0,
+      "name": "libbd_license.so",
+      "mode": "exact",
+      "priority": 1327,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbd_license.so.json",
+      "examples": {
+        "positive": [
+          "libbd_license.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1328,
+      "type": 0,
+      "name": "libbd_unifylicense.so",
+      "mode": "exact",
+      "priority": 1328,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbd_unifylicense.so.json",
+      "examples": {
+        "positive": [
+          "libbd_unifylicense.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1329,
+      "type": 0,
+      "name": "libliantian.so",
+      "mode": "exact",
+      "priority": 1329,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libliantian.so.json",
+      "examples": {
+        "positive": [
+          "libliantian.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1331,
+      "type": 0,
+      "name": "libaikl_cluster_arm.so",
+      "mode": "exact",
+      "priority": 1331,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaikl_cluster_arm.so.json",
+      "examples": {
+        "positive": [
+          "libaikl_cluster_arm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1332,
+      "type": 0,
+      "name": "libaikl_calc_arm.so",
+      "mode": "exact",
+      "priority": 1332,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaikl_calc_arm.so.json",
+      "examples": {
+        "positive": [
+          "libaikl_calc_arm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1433,
+      "type": 2,
+      "name": "com.baidu.liantian.LiantianActivity",
+      "mode": "exact",
+      "priority": 1433,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/baidu/liantian/LiantianActivity.json",
+      "examples": {
+        "positive": [
+          "com.baidu.liantian.LiantianActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1474,
+      "type": 4,
+      "name": "com.baidu.liantian.LiantianProvider",
+      "mode": "exact",
+      "priority": 1474,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/baidu/liantian/LiantianProvider.json",
+      "examples": {
+        "positive": [
+          "com.baidu.liantian.LiantianProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1483,
+      "type": 3,
+      "name": "com.baidu.liantian.LiantianReceiver",
+      "mode": "exact",
+      "priority": 1483,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/baidu/liantian/LiantianReceiver.json",
+      "examples": {
+        "positive": [
+          "com.baidu.liantian.LiantianReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1488,
+      "type": 1,
+      "name": "com.baidu.liantian.LiantianService",
+      "mode": "exact",
+      "priority": 1488,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/baidu/liantian/LiantianService.json",
+      "examples": {
+        "positive": [
+          "com.baidu.liantian.LiantianService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2109,
+      "type": 0,
+      "name": "libbd_facecollect_unifylicense.so",
+      "mode": "exact",
+      "priority": 2109,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbd_facecollect_unifylicense.so.json",
+      "examples": {
+        "positive": [
+          "libbd_facecollect_unifylicense.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2122,
+      "type": 0,
+      "name": "libliantiansec.so",
+      "mode": "exact",
+      "priority": 2122,
+      "label": "百度人脸识别",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libliantiansec.so.json",
+      "examples": {
+        "positive": [
+          "libliantiansec.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

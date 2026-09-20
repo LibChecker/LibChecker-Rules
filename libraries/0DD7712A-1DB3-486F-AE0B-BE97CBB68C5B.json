@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0DD7712A-1DB3-486F-AE0B-BE97CBB68C5B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PojavLauncher",
+        "dev_team": "PojavLauncherTeam",
+        "rule_contributors": [
+          "peashooter2"
+        ],
+        "description": "一个基于 Boardwalk 的适用于 Android 和 iOS 的《我的世界：Java 版》启动器。",
+        "source_link": "https://github.com/PojavLauncherTeam/PojavLauncher"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PojavLauncher",
+        "dev_team": "PojavLauncherTeam",
+        "rule_contributors": [
+          "peashooter2"
+        ],
+        "description": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk.",
+        "source_link": "https://github.com/PojavLauncherTeam/PojavLauncher"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2553,
+      "type": 0,
+      "name": "libpgw.so",
+      "mode": "exact",
+      "priority": 2553,
+      "label": "PojavLauncher",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpgw.so.json",
+      "examples": {
+        "positive": [
+          "libpgw.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2554,
+      "type": 0,
+      "name": "libpojavexec.so",
+      "mode": "exact",
+      "priority": 2554,
+      "label": "PojavLauncher",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpojavexec.so.json",
+      "examples": {
+        "positive": [
+          "libpojavexec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2555,
+      "type": 0,
+      "name": "libpojavexec_awt.so",
+      "mode": "exact",
+      "priority": 2555,
+      "label": "PojavLauncher",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpojavexec_awt.so.json",
+      "examples": {
+        "positive": [
+          "libpojavexec_awt.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

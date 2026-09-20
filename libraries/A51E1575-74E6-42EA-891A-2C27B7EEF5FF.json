@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A51E1575-74E6-42EA-891A-2C27B7EEF5FF",
+  "iconId": "ic_lib_jolt",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "rn-fetch-blob",
+        "dev_team": "Jolt",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "一个致力于让 React Native 开发者更轻松、更高效地进行文件访问和数据传输的项目。",
+        "source_link": "https://github.com/joltup/rn-fetch-blob"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "rn-fetch-blob",
+        "dev_team": "Jolt",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "A project committed to making file access and data transfer easier, efficient for React Native developers.",
+        "source_link": "https://github.com/joltup/rn-fetch-blob"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2848,
+      "type": 4,
+      "name": "com.RNFetchBlob.Utils.FileProvider",
+      "mode": "exact",
+      "priority": 2848,
+      "label": "rn-fetch-blob",
+      "iconId": "ic_lib_jolt",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/RNFetchBlob/Utils/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.RNFetchBlob.Utils.FileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

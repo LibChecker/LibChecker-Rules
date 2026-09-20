@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C50203D1-FEE4-430D-B944-C34E25CBDC28",
+  "iconId": "ic_lib_golang",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Golang",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "YandexStudio"
+        ],
+        "description": "Go 是一种开源编程语言，可轻松构建简单，可靠和高效的软件。",
+        "source_link": "https://github.com/golang/mobile"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Golang",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "YandexStudio"
+        ],
+        "description": "Go is an open-source programming language that makes it easy to build simple, reliable, and efficient software.",
+        "source_link": "https://github.com/golang/mobile"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 150,
+      "type": 0,
+      "name": "libgojni.so",
+      "mode": "exact",
+      "priority": 150,
+      "label": "Golang",
+      "iconId": "ic_lib_golang",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgojni.so.json",
+      "examples": {
+        "positive": [
+          "libgojni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

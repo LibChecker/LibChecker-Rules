@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1F10DC14-B57A-5F28-9E74-AB6C487EC6AE",
+  "iconId": "ic_lib_play_store",
+  "data": [],
+  "matchers": [
+    {
+      "id": 949,
+      "type": 2,
+      "name": "com\\.google\\.games\\.bridge\\.(.*)",
+      "mode": "regex",
+      "priority": 949,
+      "label": "Games plugin for Unity",
+      "iconId": "ic_lib_play_store",
+      "regexName": "regex_google_play_games_for_unity",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

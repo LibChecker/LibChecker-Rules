@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "06666286-0C44-5230-80ED-3870BF07FCC0",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 519,
+      "type": 5,
+      "name": "androidx.customview",
+      "mode": "exact",
+      "priority": 519,
+      "label": "Jetpack CustomView",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.customview"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

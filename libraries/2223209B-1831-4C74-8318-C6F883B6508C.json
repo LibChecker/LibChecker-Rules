@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2223209B-1831-4C74-8318-C6F883B6508C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CRI ADX2 Unity 插件",
+        "dev_team": "CRIWARE",
+        "rule_contributors": [
+          "kotori2"
+        ],
+        "description": "Unity 中的可用于商业游戏开发的声音系统插件。可以从支持网站上下载专用工具来编辑声音，同时网站上还提供技术支持。",
+        "source_link": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CRI ADX2 Unity Plugin",
+        "dev_team": "CRIWARE",
+        "rule_contributors": [
+          "kotori2"
+        ],
+        "description": "A sound system plugin for commercial game development in Unity. Dedicated tools for editing sound can be downloaded from the support website, and technical support is also available on the website.",
+        "source_link": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 675,
+      "type": 0,
+      "name": "libcri_ware_unity.so",
+      "mode": "exact",
+      "priority": 675,
+      "label": "CRI ADX2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcri_ware_unity.so.json",
+      "examples": {
+        "positive": [
+          "libcri_ware_unity.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

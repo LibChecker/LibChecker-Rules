@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "648D7BF1-F763-488E-88EA-8E657159C68F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Adblock Android SDK",
+        "dev_team": "adblockplus",
+        "rule_contributors": [
+          "codebymikey"
+        ],
+        "description": "一个包含项目、测试、设置片段和 AdblockWebView 演示应用的 Android 库。",
+        "source_link": "https://github.com/adblockplus/libadblockplus-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Adblock Android SDK",
+        "dev_team": "adblockplus",
+        "rule_contributors": [
+          "codebymikey"
+        ],
+        "description": "An Android library containing project, tests, settings fragments, and demo application for AdblockWebView.",
+        "source_link": "https://github.com/adblockplus/libadblockplus-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2585,
+      "type": 0,
+      "name": "libadblockplus-jni.so",
+      "mode": "exact",
+      "priority": 2585,
+      "label": "Adblock Android SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libadblockplus-jni.so.json",
+      "examples": {
+        "positive": [
+          "libadblockplus-jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

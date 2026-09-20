@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "162BDF1E-65A4-4B7B-8795-9249A031A441",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libyaml",
+        "dev_team": "yaml",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "YAML 是一种对所有编程语言友好的数据序列化语言，LibYAML 是一个 YAML 解析器和发射器库。",
+        "source_link": "https://github.com/yaml/libyaml"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libyaml",
+        "dev_team": "yaml",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "YAML is a human-friendly data serialization language for all programming languages and LibYAML is a YAML parser and emitter library.",
+        "source_link": "https://github.com/yaml/libyaml"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1559,
+      "type": 0,
+      "name": "libcyaml.so",
+      "mode": "exact",
+      "priority": 1559,
+      "label": "libyaml",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcyaml.so.json",
+      "examples": {
+        "positive": [
+          "libcyaml.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1574,
+      "type": 0,
+      "name": "libyaml.so",
+      "mode": "exact",
+      "priority": 1574,
+      "label": "libyaml",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyaml.so.json",
+      "examples": {
+        "positive": [
+          "libyaml.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5C466086-DBB2-495D-8F82-58EE37130CC8",
+  "iconId": "ic_lib_tencent_cloud",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯云通信 SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "腾讯云通信基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理能力，帮助您实现文字、图片、短语音、短视频等富媒体消息收发，全面满足通信需要。",
+        "source_link": "https://cloud.tencent.com/product/im/getting-started/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Cloud Communication SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tencent Cloud Communication, developed based on QQ's underlying IM capabilities, allows easy integration of chat, session, group, and data management capabilities by embedding the SDK, helping you achieve the sending and receiving of rich media messages like text, images, short voice, and short video, fully meeting communication needs.",
+        "source_link": "https://cloud.tencent.com/product/im/getting-started/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 24,
+      "type": 0,
+      "name": "libqalcodecwrapper.so",
+      "mode": "exact",
+      "priority": 24,
+      "label": "腾讯云通信 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libqalcodecwrapper.so.json",
+      "examples": {
+        "positive": [
+          "libqalcodecwrapper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 146,
+      "type": 0,
+      "name": "libqalmsfboot.so",
+      "mode": "exact",
+      "priority": 146,
+      "label": "腾讯云通信 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libqalmsfboot.so.json",
+      "examples": {
+        "positive": [
+          "libqalmsfboot.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 155,
+      "type": 0,
+      "name": "libwtcrypto.so",
+      "mode": "exact",
+      "priority": 155,
+      "label": "腾讯云通信 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwtcrypto.so.json",
+      "examples": {
+        "positive": [
+          "libwtcrypto.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 158,
+      "type": 0,
+      "name": "libImSDK.so",
+      "mode": "exact",
+      "priority": 158,
+      "label": "腾讯云通信 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libImSDK.so.json",
+      "examples": {
+        "positive": [
+          "libImSDK.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 217,
+      "type": 1,
+      "name": "com.tencent.qalsdk.service.QalAssistService",
+      "mode": "exact",
+      "priority": 217,
+      "label": "腾讯云通信",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/qalsdk/service/QalAssistService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.qalsdk.service.QalAssistService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 245,
+      "type": 1,
+      "name": "com.tencent.qalsdk.service.QalService",
+      "mode": "exact",
+      "priority": 245,
+      "label": "腾讯云通信",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/qalsdk/service/QalService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.qalsdk.service.QalService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

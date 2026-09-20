@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D8459B8A-96A2-43AA-930D-EF1EB61E9413",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Java 的 Torrent 库",
+        "dev_team": "Alden Torres",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "libtorrent 的 Java 版本，libtorrent 的 swig Java 接口。",
+        "source_link": "https://github.com/aldenml/libtorrent4j"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Torrent library for java",
+        "dev_team": "Alden Torres",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "libtorrent for java, a swig Java interface for libtorrent.",
+        "source_link": "https://github.com/aldenml/libtorrent4j"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 785,
+      "type": 0,
+      "name": "libtorrent4j.so",
+      "mode": "exact",
+      "priority": 785,
+      "label": "Torrent library for java",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtorrent4j.so.json",
+      "examples": {
+        "positive": [
+          "libtorrent4j.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

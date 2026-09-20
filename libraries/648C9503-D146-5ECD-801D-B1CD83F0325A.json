@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "648C9503-D146-5ECD-801D-B1CD83F0325A",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 513,
+      "type": 5,
+      "name": "androidx.room",
+      "mode": "exact",
+      "priority": 513,
+      "label": "Jetpack Room",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.room"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

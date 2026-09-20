@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "679E7EE7-CFDC-4E65-BE77-2125683F4EEC",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SmartAppUpdates",
+        "dev_team": "cundong",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "Android 应用增量更新。",
+        "source_link": "https://github.com/cundong/SmartAppUpdates"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SmartAppUpdates",
+        "dev_team": "cundong",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "Android application incremental update.",
+        "source_link": "https://github.com/cundong/SmartAppUpdates"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1188,
+      "type": 0,
+      "name": "libApkPatchLibrary.so",
+      "mode": "exact",
+      "priority": 1188,
+      "label": "Smart App Updates",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libApkPatchLibrary.so.json",
+      "examples": {
+        "positive": [
+          "libApkPatchLibrary.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

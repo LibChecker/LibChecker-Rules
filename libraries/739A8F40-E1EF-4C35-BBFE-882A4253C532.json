@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "739A8F40-E1EF-4C35-BBFE-882A4253C532",
+  "iconId": "ic_lib_expo_av",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo AV",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "一个通用库，为音频和视频播放提供独立的 API。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-av"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo AV",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "A universal library that provides separate APIs for Audio and Video playback.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-av"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2644,
+      "type": 0,
+      "name": "libexpo-av.so",
+      "mode": "exact",
+      "priority": 2644,
+      "label": "Expo AV",
+      "iconId": "ic_lib_expo_av",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-av.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-av.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

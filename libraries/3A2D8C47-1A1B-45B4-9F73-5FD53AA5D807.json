@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3A2D8C47-1A1B-45B4-9F73-5FD53AA5D807",
+  "iconId": "ic_lib_microsoft",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "1DS",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "1DS (One Data Strategy，亦称为 One Observability) C/C++ SDK 使得从各种微软产品收集跨平台遥测数据成为可能。它支持将数据/遥测上传到 Collector++。",
+        "source_link": "https://github.com/microsoft/cpp_client_telemetry"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "1DS",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "1DS (One Data Strategy, also known as One Observability) C/C++ SDK enables cross-platform telemetry collection from various Microsoft products. It enables data / telemetry upload to Collector++.",
+        "source_link": "https://github.com/microsoft/cpp_client_telemetry"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2229,
+      "type": 0,
+      "name": "libmaesdk.so",
+      "mode": "exact",
+      "priority": 2229,
+      "label": "1DS",
+      "iconId": "ic_lib_microsoft",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmaesdk.so.json",
+      "examples": {
+        "positive": [
+          "libmaesdk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

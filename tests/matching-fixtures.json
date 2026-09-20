@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 5,
+  "cases": [
+    {
+      "name": "exact precedence",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "foo",
+      "type": 0,
+      "expected": 2
+    },
+    {
+      "name": "alternation",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "bar",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "anchoring",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "foobar",
+      "type": 0,
+      "expected": 3
+    },
+    {
+      "name": "final newline",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "bar\n",
+      "type": 0,
+      "expected": null
+    },
+    {
+      "name": "literal regex exact",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "foo|bar",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "escaped dot",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "libx\\.so",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "libx.so",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "escaped dot negative",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "libx\\.so",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "libxXso",
+      "type": 0,
+      "expected": null
+    },
+    {
+      "name": "Unicode literal",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "库[0-9]+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "库12",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "ASCII digits",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "lib\\d+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "lib١",
+      "type": 0,
+      "expected": null
+    },
+    {
+      "name": "line separator",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "a b",
+      "type": 0,
+      "expected": null
+    },
+    {
+      "name": "non-BMP input",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": ".",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "😀",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "regex disabled",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "bar",
+      "type": 0,
+      "useRegex": false,
+      "expected": null
+    },
+    {
+      "name": "wrong type",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "foo|bar",
+          "isRegexRule": true,
+          "priority": 2
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "foo",
+          "isRegexRule": false,
+          "priority": 20
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": ".*",
+          "isRegexRule": true,
+          "priority": 10
+        }
+      ],
+      "input": "foo",
+      "type": 1,
+      "expected": null
+    },
+    {
+      "name": "digit class ascii",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "[\\d]+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "123",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "digit class unicode",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "[\\d]+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "١",
+      "type": 0,
+      "expected": null
+    },
+    {
+      "name": "literal slash d",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "\\\\d+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "\\ddd",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "literal slash unicode",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "\\\\d+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "\\١",
+      "type": 0,
+      "expected": null
+    },
+    {
+      "name": "slash then digits",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "\\\\\\d+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "\\123",
+      "type": 0,
+      "expected": 1
+    },
+    {
+      "name": "slash then unicode",
+      "rules": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "\\\\\\d+",
+          "isRegexRule": true,
+          "priority": 1
+        }
+      ],
+      "input": "\\١",
+      "type": 0,
+      "expected": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A12D8557-3D31-4E33-8895-0591490E0B55",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PDFium",
+        "dev_team": "PDFium",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "PDFium 是 Chrome 的 PDF 渲染引擎，并且是开源的。",
+        "source_link": "https://pdfium.googlesource.com/pdfium/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PDFium",
+        "dev_team": "PDFium",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "PDFium is the PDF rendering engine for Chrome and is open-source.",
+        "source_link": "https://pdfium.googlesource.com/pdfium/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1553,
+      "type": 0,
+      "name": "libPdfium.so",
+      "mode": "exact",
+      "priority": 1553,
+      "label": "PDFium",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPdfium.so.json",
+      "examples": {
+        "positive": [
+          "libPdfium.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

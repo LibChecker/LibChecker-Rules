@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6BCFD489-A6D0-4734-B333-CA57F61810F1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Persona 身份验证",
+        "dev_team": "Persona",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Persona 提供了一个强大且安全的平台，帮助组织收集、验证、存储和分析全球任何个人的身份。前端的转化优化用户界面让你可以在几分钟内轻松开始身份验证。",
+        "source_link": "https://github.com/persona-id/persona-android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Persona Inquiry",
+        "dev_team": "Persona",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Persona provides a powerful, secure platform to help organizations collect, verify, store, and analyze the identity of any individual in the world. A frontend, conversion-optimized user interface makes it easy to start verifying identities in minutes.",
+        "source_link": "https://github.com/persona-id/persona-android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2510,
+      "type": 2,
+      "name": "com.withpersona.sdk2.inquiry.internal.InquiryActivity",
+      "mode": "exact",
+      "priority": 2510,
+      "label": "Persona Inquiry",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/withpersona/sdk2/inquiry/internal/InquiryActivity.json",
+      "examples": {
+        "positive": [
+          "com.withpersona.sdk2.inquiry.internal.InquiryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2565,
+      "type": 4,
+      "name": "com.withpersona.sdk2.inquiry.DocumentFileProvider",
+      "mode": "exact",
+      "priority": 2565,
+      "label": "Persona Inquiry",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/withpersona/sdk2/inquiry/DocumentFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.withpersona.sdk2.inquiry.DocumentFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

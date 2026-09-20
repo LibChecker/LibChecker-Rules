@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0374FD67-A389-4EFC-991B-724E41496520",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Matrix",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "Matrix 是一款微信研发并日常使用的应用性能接入框架，支持 iOS, macOS 和Android。 Matrix 通过接入各种性能监控方案，对性能监控项的异常数据进行采集和分析，输出相应的问题分析、定位与优化建议，从而帮助开发者开发出更高质量的应用。",
+        "source_link": "https://github.com/Tencent/matrix/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Matrix",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "Matrix is an application performance access framework developed and used daily by WeChat, supporting iOS, macOS, and Android. By accessing various performance monitoring solutions, Matrix collects and analyzes abnormal data of performance monitoring items, outputting corresponding problem analysis, positioning, and optimization suggestions, thus helping developers develop higher quality applications.",
+        "source_link": "https://github.com/Tencent/matrix/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 195,
+      "type": 1,
+      "name": "com.tencent.matrix.resource.CanaryWorkerService",
+      "mode": "exact",
+      "priority": 195,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/matrix/resource/CanaryWorkerService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.matrix.resource.CanaryWorkerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 232,
+      "type": 1,
+      "name": "com.tencent.matrix.resource.CanaryResultService",
+      "mode": "exact",
+      "priority": 232,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/matrix/resource/CanaryResultService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.matrix.resource.CanaryResultService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 974,
+      "type": 0,
+      "name": "libmatrix-fd.so",
+      "mode": "exact",
+      "priority": 974,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-fd.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-fd.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 975,
+      "type": 0,
+      "name": "libmatrix-hookcommon.so",
+      "mode": "exact",
+      "priority": 975,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-hookcommon.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-hookcommon.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 976,
+      "type": 0,
+      "name": "libmatrix-jectl.so",
+      "mode": "exact",
+      "priority": 976,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-jectl.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-jectl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 977,
+      "type": 0,
+      "name": "libmatrix-memguard.so",
+      "mode": "exact",
+      "priority": 977,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-memguard.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-memguard.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 978,
+      "type": 0,
+      "name": "libmatrix-memoryhook.so",
+      "mode": "exact",
+      "priority": 978,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-memoryhook.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-memoryhook.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 979,
+      "type": 0,
+      "name": "libmatrix-pthreadhook.so",
+      "mode": "exact",
+      "priority": 979,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-pthreadhook.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-pthreadhook.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 980,
+      "type": 0,
+      "name": "libmatrix-opengl-leak.so",
+      "mode": "exact",
+      "priority": 980,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-opengl-leak.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-opengl-leak.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 981,
+      "type": 0,
+      "name": "libmatrix-traffic.so",
+      "mode": "exact",
+      "priority": 981,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-traffic.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-traffic.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 982,
+      "type": 0,
+      "name": "libmatrix_resource_canary.so",
+      "mode": "exact",
+      "priority": 982,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix_resource_canary.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix_resource_canary.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 983,
+      "type": 0,
+      "name": "libmatrixmrs.so",
+      "mode": "exact",
+      "priority": 983,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrixmrs.so.json",
+      "examples": {
+        "positive": [
+          "libmatrixmrs.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1072,
+      "type": 2,
+      "name": "com.tencent.matrix.backtrace.WarmUpService",
+      "mode": "exact",
+      "priority": 1072,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/matrix/backtrace/WarmUpService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.matrix.backtrace.WarmUpService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1287,
+      "type": 0,
+      "name": "libio-canary.so",
+      "mode": "exact",
+      "priority": 1287,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libio-canary.so.json",
+      "examples": {
+        "positive": [
+          "libio-canary.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1288,
+      "type": 0,
+      "name": "libmatrix_hprof_analyzer.so",
+      "mode": "exact",
+      "priority": 1288,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix_hprof_analyzer.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix_hprof_analyzer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1289,
+      "type": 0,
+      "name": "libmatrix_mem_util.so",
+      "mode": "exact",
+      "priority": 1289,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix_mem_util.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix_mem_util.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1399,
+      "type": 0,
+      "name": "libtrace-canary.so",
+      "mode": "exact",
+      "priority": 1399,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtrace-canary.so.json",
+      "examples": {
+        "positive": [
+          "libtrace-canary.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1712,
+      "type": 1,
+      "name": "com.tencent.matrix.lifecycle.supervisor.SupervisorService",
+      "mode": "exact",
+      "priority": 1712,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/matrix/lifecycle/supervisor/SupervisorService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.matrix.lifecycle.supervisor.SupervisorService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1713,
+      "type": 1,
+      "name": "com.tencent.matrix.openglleak.detector.OpenglIndexDetectorService",
+      "mode": "exact",
+      "priority": 1713,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/matrix/openglleak/detector/OpenglIndexDetectorService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.matrix.openglleak.detector.OpenglIndexDetectorService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1766,
+      "type": 0,
+      "name": "libmatrix-artmisc.so",
+      "mode": "exact",
+      "priority": 1766,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-artmisc.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-artmisc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1767,
+      "type": 0,
+      "name": "libmatrix-stack-tracer.so",
+      "mode": "exact",
+      "priority": 1767,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-stack-tracer.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-stack-tracer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1768,
+      "type": 0,
+      "name": "libmatrix-mallctl.so",
+      "mode": "exact",
+      "priority": 1768,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-mallctl.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-mallctl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2094,
+      "type": 0,
+      "name": "libAkMatrixReverb.so",
+      "mode": "exact",
+      "priority": 2094,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAkMatrixReverb.so.json",
+      "examples": {
+        "positive": [
+          "libAkMatrixReverb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2124,
+      "type": 0,
+      "name": "libmatrix-junwind.so",
+      "mode": "exact",
+      "priority": 2124,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-junwind.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-junwind.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2153,
+      "type": 0,
+      "name": "libwechatbacktrace.so",
+      "mode": "exact",
+      "priority": 2153,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwechatbacktrace.so.json",
+      "examples": {
+        "positive": [
+          "libwechatbacktrace.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2154,
+      "type": 0,
+      "name": "libwechatcommon.so",
+      "mode": "exact",
+      "priority": 2154,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwechatcommon.so.json",
+      "examples": {
+        "positive": [
+          "libwechatcommon.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2155,
+      "type": 0,
+      "name": "libwechatcrash.so",
+      "mode": "exact",
+      "priority": 2155,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwechatcrash.so.json",
+      "examples": {
+        "positive": [
+          "libwechatcrash.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2156,
+      "type": 0,
+      "name": "libwechatns.so",
+      "mode": "exact",
+      "priority": 2156,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwechatns.so.json",
+      "examples": {
+        "positive": [
+          "libwechatns.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2157,
+      "type": 0,
+      "name": "libwechatxlog.so",
+      "mode": "exact",
+      "priority": 2157,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwechatxlog.so.json",
+      "examples": {
+        "positive": [
+          "libwechatxlog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2548,
+      "type": 0,
+      "name": "libmatrix-jnihook.so",
+      "mode": "exact",
+      "priority": 2548,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-jnihook.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-jnihook.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2549,
+      "type": 0,
+      "name": "libmatrix-signaledhook.so",
+      "mode": "exact",
+      "priority": 2549,
+      "label": "Matrix",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmatrix-signaledhook.so.json",
+      "examples": {
+        "positive": [
+          "libmatrix-signaledhook.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

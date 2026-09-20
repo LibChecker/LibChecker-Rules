@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DC0C8104-6FBA-47A4-A926-C3C4CBBFB2C3",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Butu QR SDK",
+        "dev_team": "钚兔团队",
+        "rule_contributors": [
+          "Xixinink"
+        ],
+        "description": "钚兔扫一扫 SDK (Butu QR SDK) 是由钚兔团队开发的扫一扫集成 SDK。只需简单调用即可为用户提供优质的扫码服务。",
+        "source_link": "https://github.com/butuink/butuqrcode-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "钚兔扫一扫 SDK",
+        "dev_team": "钚兔团队",
+        "rule_contributors": [
+          "Xixinink"
+        ],
+        "description": "Butu QR SDK is a scan integration solution developed by the Butu team. It enables high-quality scanning services with simple API calls.",
+        "source_link": "https://github.com/butuink/butuqrcode-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1978,
+      "type": 2,
+      "name": "com.butu.scan.code.sdk.Activity.CaptureActivity",
+      "mode": "exact",
+      "priority": 1978,
+      "label": "Butu QR SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/butu/scan/code/sdk/Activity/CaptureActivity.json",
+      "examples": {
+        "positive": [
+          "com.butu.scan.code.sdk.Activity.CaptureActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1979,
+      "type": 2,
+      "name": "com.butu.scan.code.sdk.Activity.SimpleCaptureActivity",
+      "mode": "exact",
+      "priority": 1979,
+      "label": "Butu QR SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/butu/scan/code/sdk/Activity/SimpleCaptureActivity.json",
+      "examples": {
+        "positive": [
+          "com.butu.scan.code.sdk.Activity.SimpleCaptureActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2004,
+      "type": 0,
+      "name": "libbutuqrcode.so",
+      "mode": "exact",
+      "priority": 2004,
+      "label": "Butu QR SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbutuqrcode.so.json",
+      "examples": {
+        "positive": [
+          "libbutuqrcode.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "316DDA15-F3F3-4141-B926-6516B2EEC387",
+  "iconId": "ic_lib_google_tag_manager",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Tag Manager",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "作为开发者，你可以使用 Google Tag Manager 在移动应用中实现和管理衡量代码和像素，而无需重新构建应用二进制文件并重新提交到应用市场。使用 Google Analytics for Firebase SDK 的开发者可以轻松添加 Tag Manager，以便即使在应用发布后也能管理实现并进行变更。",
+        "source_link": "https://developers.google.com/tag-platform/tag-manager/android/v5"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Tag Manager",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "As a developer, you can use Google Tag Manager to implement and manage measurement tags and pixels in your mobile applications, without having to rebuild and resubmit application binaries to app marketplaces. Developers who work with the Google Analytics for Firebase SDK can easily add Tag Manager to help manage and make changes to the implementation, even after the app has shipped.",
+        "source_link": "https://developers.google.com/tag-platform/tag-manager/android/v5"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2700,
+      "type": 2,
+      "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "mode": "exact",
+      "priority": 2700,
+      "label": "Google Tag Manager",
+      "iconId": "ic_lib_google_tag_manager",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/tagmanager/TagManagerPreviewActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2872,
+      "type": 3,
+      "name": "com.google.android.gms.tagmanager.InstallReferrerReceiver",
+      "mode": "exact",
+      "priority": 2872,
+      "label": "Google Tag Manager",
+      "iconId": "ic_lib_google_tag_manager",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/gms/tagmanager/InstallReferrerReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.tagmanager.InstallReferrerReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2897,
+      "type": 1,
+      "name": "com.google.android.gms.tagmanager.InstallReferrerService",
+      "mode": "exact",
+      "priority": 2897,
+      "label": "Google Tag Manager",
+      "iconId": "ic_lib_google_tag_manager",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/tagmanager/InstallReferrerService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.tagmanager.InstallReferrerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2898,
+      "type": 1,
+      "name": "com.google.android.gms.tagmanager.TagManagerService",
+      "mode": "exact",
+      "priority": 2898,
+      "label": "Google Tag Manager",
+      "iconId": "ic_lib_google_tag_manager",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/tagmanager/TagManagerService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.tagmanager.TagManagerService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

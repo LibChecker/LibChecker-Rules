@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6F757DB6-5C9A-48C1-B336-2231B91B860A",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "TanX",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "阿里妈妈流量市场，支持公开交易、私有交易、优先选择等所有交易方式。",
+        "source_link": "https://tanx.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "TanX",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Alibaba Mama Traffic Market supports all trading methods such as public trading, private trading, and priority selection.",
+        "source_link": "https://tanx.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1304,
+      "type": 0,
+      "name": "libalitanx-lib.so",
+      "mode": "exact",
+      "priority": 1304,
+      "label": "TanX",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libalitanx-lib.so.json",
+      "examples": {
+        "positive": [
+          "libalitanx-lib.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2180,
+      "type": 2,
+      "name": "com.alimm.tanx.core.ad.ad.template.rendering.reward.RewardPortraitActivity",
+      "mode": "exact",
+      "priority": 2180,
+      "label": "TanX",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alimm/tanx/core/ad/ad/template/rendering/reward/RewardPortraitActivity.json",
+      "examples": {
+        "positive": [
+          "com.alimm.tanx.core.ad.ad.template.rendering.reward.RewardPortraitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2181,
+      "type": 2,
+      "name": "com.alimm.tanx.core.ad.ad.template.rendering.reward.RewardVideoPortraitActivity",
+      "mode": "exact",
+      "priority": 2181,
+      "label": "TanX",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alimm/tanx/core/ad/ad/template/rendering/reward/RewardVideoPortraitActivity.json",
+      "examples": {
+        "positive": [
+          "com.alimm.tanx.core.ad.ad.template.rendering.reward.RewardVideoPortraitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2182,
+      "type": 2,
+      "name": "com.alimm.tanx.core.ad.ad.template.rendering.table.screen.TableScreenPortraitActivity",
+      "mode": "exact",
+      "priority": 2182,
+      "label": "TanX",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alimm/tanx/core/ad/ad/template/rendering/table/screen/TableScreenPortraitActivity.json",
+      "examples": {
+        "positive": [
+          "com.alimm.tanx.core.ad.ad.template.rendering.table.screen.TableScreenPortraitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2183,
+      "type": 2,
+      "name": "com.alimm.tanx.core.ad.browser.TanxBrowserActivity",
+      "mode": "exact",
+      "priority": 2183,
+      "label": "TanX",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alimm/tanx/core/ad/browser/TanxBrowserActivity.json",
+      "examples": {
+        "positive": [
+          "com.alimm.tanx.core.ad.browser.TanxBrowserActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2263,
+      "type": 0,
+      "name": "libtanx.so",
+      "mode": "exact",
+      "priority": 2263,
+      "label": "TanX",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtanx.so.json",
+      "examples": {
+        "positive": [
+          "libtanx.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

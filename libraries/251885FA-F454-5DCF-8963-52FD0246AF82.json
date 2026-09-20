@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "251885FA-F454-5DCF-8963-52FD0246AF82",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 486,
+      "type": 5,
+      "name": "androidx.drawerlayout",
+      "mode": "exact",
+      "priority": 486,
+      "label": "Jetpack DrawerLayout",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.drawerlayout"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

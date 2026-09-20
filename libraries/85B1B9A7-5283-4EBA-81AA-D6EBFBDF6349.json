@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "85B1B9A7-5283-4EBA-81AA-D6EBFBDF6349",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "bsdiff",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "用于应用增量补丁的 bsdiff 库。",
+        "source_link": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/main/libbsdiff.pc"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "bsdiff",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "A bsdiff library for applying application delta patches.",
+        "source_link": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/main/libbsdiff.pc"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2800,
+      "type": 0,
+      "name": "libbsdiff.so",
+      "mode": "exact",
+      "priority": 2800,
+      "label": "bsdiff",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbsdiff.so.json",
+      "examples": {
+        "positive": [
+          "libbsdiff.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2801,
+      "type": 0,
+      "name": "libbsdiffutils.so",
+      "mode": "exact",
+      "priority": 2801,
+      "label": "bsdiff",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbsdiffutils.so.json",
+      "examples": {
+        "positive": [
+          "libbsdiffutils.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2839,
+      "type": 0,
+      "name": "libupbsdiffpatch.so",
+      "mode": "exact",
+      "priority": 2839,
+      "label": "bsdiff",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libupbsdiffpatch.so.json",
+      "examples": {
+        "positive": [
+          "libupbsdiffpatch.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4992BA64-D546-4AF2-8FE5-DBB3EC8A8166",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LSPatch",
+        "dev_team": "LSPosed",
+        "rule_contributors": [
+          "duzhaokun123",
+          "zeng-py"
+        ],
+        "description": "LSPatch 从 Xpatch 分支。LSPatch 提供了一种通过重新打包将 dex 和 so 插入目标 APK 的方法。",
+        "source_link": "https://github.com/LSPosed/LSPatch"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LSPatch",
+        "dev_team": "LSPosed",
+        "rule_contributors": [
+          "duzhaokun123",
+          "zeng-py"
+        ],
+        "description": "LSPatch fork from Xpatch. LSPatch provides a way to insert dex and so into the target APK by repackaging.",
+        "source_link": "https://github.com/LSPosed/LSPatch"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 826,
+      "type": 0,
+      "name": "liblspd.so",
+      "mode": "exact",
+      "priority": 826,
+      "label": "LSPatch",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblspd.so.json",
+      "examples": {
+        "positive": [
+          "liblspd.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1071,
+      "type": 0,
+      "name": "liblspatch.so",
+      "mode": "exact",
+      "priority": 1071,
+      "label": "LSPatch",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblspatch.so.json",
+      "examples": {
+        "positive": [
+          "liblspatch.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

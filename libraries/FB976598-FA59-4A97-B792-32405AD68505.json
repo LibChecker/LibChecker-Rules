@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FB976598-FA59-4A97-B792-32405AD68505",
+  "iconId": "ic_lib_oppo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OPPO Push",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "OPPO PUSH 是 ColorOS 上的系统级通道，为开发者提供稳定，高效的消息推送服务。",
+        "source_link": "https://push.oppo.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OPPO Push",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "OPPO PUSH is a system-level channel on ColorOS, providing developers with stable and efficient message push services.",
+        "source_link": "https://push.oppo.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 205,
+      "type": 1,
+      "name": "com.coloros.mcssdk.PushService",
+      "mode": "exact",
+      "priority": 205,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/coloros/mcssdk/PushService.json",
+      "examples": {
+        "positive": [
+          "com.coloros.mcssdk.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 209,
+      "type": 1,
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "mode": "exact",
+      "priority": 209,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/heytap/msp/push/service/DataMessageCallbackService.json",
+      "examples": {
+        "positive": [
+          "com.heytap.msp.push.service.DataMessageCallbackService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 218,
+      "type": 1,
+      "name": "com.heytap.mcssdk.AppPushService",
+      "mode": "exact",
+      "priority": 218,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/heytap/mcssdk/AppPushService.json",
+      "examples": {
+        "positive": [
+          "com.heytap.mcssdk.AppPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 276,
+      "type": 1,
+      "name": "com.heytap.mcssdk.PushService",
+      "mode": "exact",
+      "priority": 276,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/heytap/mcssdk/PushService.json",
+      "examples": {
+        "positive": [
+          "com.heytap.mcssdk.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 283,
+      "type": 1,
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "mode": "exact",
+      "priority": 283,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/heytap/msp/push/service/CompatibleDataMessageCallbackService.json",
+      "examples": {
+        "positive": [
+          "com.heytap.msp.push.service.CompatibleDataMessageCallbackService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2317,
+      "type": 9,
+      "name": "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE",
+      "mode": "exact",
+      "priority": 2317,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.coloros.mcs.action.RECEIVE_MCS_MESSAGE.json",
+      "examples": {
+        "positive": [
+          "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2329,
+      "type": 9,
+      "name": "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+      "mode": "exact",
+      "priority": 2329,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.heytap.mcs.action.RECEIVE_MCS_MESSAGE.json",
+      "examples": {
+        "positive": [
+          "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2330,
+      "type": 9,
+      "name": "com.heytap.msp.push.RECEIVE_MCS_MESSAGE",
+      "mode": "exact",
+      "priority": 2330,
+      "label": "OPPO Push",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.heytap.msp.push.RECEIVE_MCS_MESSAGE.json",
+      "examples": {
+        "positive": [
+          "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

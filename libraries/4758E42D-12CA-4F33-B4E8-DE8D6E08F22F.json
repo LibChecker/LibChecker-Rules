@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4758E42D-12CA-4F33-B4E8-DE8D6E08F22F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "7-Zip",
+        "dev_team": "borisbrodski",
+        "rule_contributors": [
+          "lgc2333"
+        ],
+        "description": "7-Zip-JBinding 是一个免费的跨平台 Java 绑定的 7-Zip 免费压缩/解压缩库。",
+        "source_link": "https://github.com/borisbrodski/sevenzipjbinding"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "7-Zip",
+        "dev_team": "borisbrodski",
+        "rule_contributors": [
+          "lgc2333"
+        ],
+        "description": "7-Zip-JBinding is a free cross-platform java binding of 7-Zip free compress/decompress library.",
+        "source_link": "https://github.com/borisbrodski/sevenzipjbinding"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1064,
+      "type": 0,
+      "name": "lib7-Zip-JBinding.so",
+      "mode": "exact",
+      "priority": 1064,
+      "label": "7-Zip",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/lib7-Zip-JBinding.so.json",
+      "examples": {
+        "positive": [
+          "lib7-Zip-JBinding.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

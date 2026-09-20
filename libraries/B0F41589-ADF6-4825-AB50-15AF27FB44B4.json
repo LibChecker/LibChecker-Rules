@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B0F41589-ADF6-4825-AB50-15AF27FB44B4",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Play Core",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Google Play Core 库是您的应用与 Google Play 商店之间的运行时接口。",
+        "source_link": "https://developer.android.com/guide/playcore"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Play Core",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "The Google Play Core libraries are your app’s runtime interface with the Google Play Store.",
+        "source_link": "https://developer.android.com/guide/playcore"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2091,
+      "type": 2,
+      "name": "com.google.android.libraries.surveys.internal.view.SurveyActivity",
+      "mode": "exact",
+      "priority": 2091,
+      "label": "Google Play Core",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/surveys/internal/view/SurveyActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.surveys.internal.view.SurveyActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AD40CF2D-0585-477C-B774-97D9BB11283D",
+  "iconId": "ic_lib_xunfei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "离线语音合成",
+        "dev_team": "iFlyTek",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "将文字信息转化为声音信息，让应用具备离线语音合成的能力。即让机器像人一样开口说话，给开发者的应用配上“嘴巴”。",
+        "source_link": "https://www.xfyun.cn/service/offline_tts"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Offline Speech Synthesis",
+        "dev_team": "iFlyTek",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "Converts text information into voice information, giving applications the ability for offline speech synthesis. That is, making machines speak like humans, equipping developers' applications with a 'mouth'.",
+        "source_link": "https://www.xfyun.cn/service/offline_tts"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1129,
+      "type": 0,
+      "name": "libAisound.so",
+      "mode": "exact",
+      "priority": 1129,
+      "label": "离线语音合成",
+      "iconId": "ic_lib_xunfei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAisound.so.json",
+      "examples": {
+        "positive": [
+          "libAisound.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

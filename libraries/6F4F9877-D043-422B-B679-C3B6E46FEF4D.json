@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6F4F9877-D043-422B-B679-C3B6E46FEF4D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AppSealing",
+        "dev_team": "INKA Entworks",
+        "rule_contributors": [
+          "haokanjia"
+        ],
+        "description": "AppSealing 是唯一的云端按需付费解决方案，可在无需编写任何代码的情况下保护移动应用。该方案易于使用，能够防止黑客攻击和非法的应用篡改，并通过 RASP 安全特性在运行时保障应用安全。",
+        "source_link": "https://docs.appsealing.com/general/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AppSealing",
+        "dev_team": "INKA Entworks",
+        "rule_contributors": [
+          "haokanjia"
+        ],
+        "description": "AppSealing is the only cloud-based pay-as-you-go solution to protect mobile apps without writing a single line of code. Our solution is easy to use and allows you to protect mobile apps from hackers and illegal application modification, thus making it secure in run-time with RASP Security Features.",
+        "source_link": "https://docs.appsealing.com/general/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2587,
+      "type": 0,
+      "name": "libcovault-appsec.so",
+      "mode": "exact",
+      "priority": 2587,
+      "label": "AppSealing",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcovault-appsec.so.json",
+      "examples": {
+        "positive": [
+          "libcovault-appsec.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

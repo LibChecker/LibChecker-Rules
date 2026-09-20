@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F9E7B38F-D50F-41BC-A9AE-096158B40AAB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libzip",
+        "dev_team": "nih-at",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "libzip 是一个 C 库，用于读取，创建和修改 zip 档案。",
+        "source_link": "https://github.com/nih-at/libzip"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libzip",
+        "dev_team": "nih-at",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "libzip is a C library for reading, creating, and modifying zip archives.",
+        "source_link": "https://github.com/nih-at/libzip"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1126,
+      "type": 0,
+      "name": "libzip.so",
+      "mode": "exact",
+      "priority": 1126,
+      "label": "libzip",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzip.so.json",
+      "examples": {
+        "positive": [
+          "libzip.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B53DAF77-92C3-467B-BE30-27D22AFEAFA7",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MNN",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "nullptr-leo",
+          "Absinthe",
+          "yfdyh000",
+          "binx6",
+          "WOLFRAZOR"
+        ],
+        "description": "MNN 是一个高效、轻量的深度学习框架。它支持深度模型推理与训练，尤其在端侧的推理与训练性能在业界处于领先地位。",
+        "source_link": "https://github.com/alibaba/MNN"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MNN",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "nullptr-leo",
+          "Absinthe",
+          "yfdyh000",
+          "binx6",
+          "WOLFRAZOR"
+        ],
+        "description": "MNN is an efficient, lightweight deep learning framework. It supports deep model inference and training, especially leading in inference and training performance on the end side.",
+        "source_link": "https://github.com/alibaba/MNN"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 6,
+      "type": 0,
+      "name": "libMNN_CL.so",
+      "mode": "exact",
+      "priority": 6,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_CL.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_CL.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 131,
+      "type": 0,
+      "name": "libMNN.so",
+      "mode": "exact",
+      "priority": 131,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN.so.json",
+      "examples": {
+        "positive": [
+          "libMNN.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 133,
+      "type": 0,
+      "name": "libMNN_Express.so",
+      "mode": "exact",
+      "priority": 133,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_Express.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_Express.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1080,
+      "type": 0,
+      "name": "libmnnkitcore.so",
+      "mode": "exact",
+      "priority": 1080,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnnkitcore.so.json",
+      "examples": {
+        "positive": [
+          "libmnnkitcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1206,
+      "type": 0,
+      "name": "libmnnpybridge.so",
+      "mode": "exact",
+      "priority": 1206,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnnpybridge.so.json",
+      "examples": {
+        "positive": [
+          "libmnnpybridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1207,
+      "type": 0,
+      "name": "libmnncv.so",
+      "mode": "exact",
+      "priority": 1207,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnncv.so.json",
+      "examples": {
+        "positive": [
+          "libmnncv.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1716,
+      "type": 0,
+      "name": "libMNNOpenCV.so",
+      "mode": "exact",
+      "priority": 1716,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNNOpenCV.so.json",
+      "examples": {
+        "positive": [
+          "libMNNOpenCV.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1717,
+      "type": 0,
+      "name": "libmnncore.so",
+      "mode": "exact",
+      "priority": 1717,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnncore.so.json",
+      "examples": {
+        "positive": [
+          "libmnncore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1988,
+      "type": 0,
+      "name": "libMNN290.so",
+      "mode": "exact",
+      "priority": 1988,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN290.so.json",
+      "examples": {
+        "positive": [
+          "libMNN290.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1989,
+      "type": 0,
+      "name": "libMSMNN.so",
+      "mode": "exact",
+      "priority": 1989,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMSMNN.so.json",
+      "examples": {
+        "positive": [
+          "libMSMNN.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2095,
+      "type": 0,
+      "name": "libMNN_Vulkan.so",
+      "mode": "exact",
+      "priority": 2095,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_Vulkan.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_Vulkan.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2199,
+      "type": 0,
+      "name": "libMNN_dl.so",
+      "mode": "exact",
+      "priority": 2199,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_dl.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_dl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2231,
+      "type": 0,
+      "name": "libmnn_jsi.so",
+      "mode": "exact",
+      "priority": 2231,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnn_jsi.so.json",
+      "examples": {
+        "positive": [
+          "libmnn_jsi.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2232,
+      "type": 0,
+      "name": "libmnnqjs.so",
+      "mode": "exact",
+      "priority": 2232,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnnqjs.so.json",
+      "examples": {
+        "positive": [
+          "libmnnqjs.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2233,
+      "type": 0,
+      "name": "libmnnruntime.so",
+      "mode": "exact",
+      "priority": 2233,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnnruntime.so.json",
+      "examples": {
+        "positive": [
+          "libmnnruntime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2518,
+      "type": 0,
+      "name": "libMNN_Express_Legacy.so",
+      "mode": "exact",
+      "priority": 2518,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_Express_Legacy.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_Express_Legacy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2519,
+      "type": 0,
+      "name": "libMNN_Legacy.so",
+      "mode": "exact",
+      "priority": 2519,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_Legacy.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_Legacy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2520,
+      "type": 0,
+      "name": "libMNN_NPU.so",
+      "mode": "exact",
+      "priority": 2520,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMNN_NPU.so.json",
+      "examples": {
+        "positive": [
+          "libMNN_NPU.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2654,
+      "type": 0,
+      "name": "libmnn_wrapper.so",
+      "mode": "exact",
+      "priority": 2654,
+      "label": "MNN",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmnn_wrapper.so.json",
+      "examples": {
+        "positive": [
+          "libmnn_wrapper.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

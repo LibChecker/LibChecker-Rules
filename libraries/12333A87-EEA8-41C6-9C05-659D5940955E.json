@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "12333A87-EEA8-41C6-9C05-659D5940955E",
+  "iconId": "ic_lib_xiaohongshu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "小红书分享 SDK",
+        "dev_team": "Xiaohongshu",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "小红书分享开放平台基于行业规则和开发者诉求，提供了基于客户端代码的分享 SDK。",
+        "source_link": "https://agora.xiaohongshu.com/doc/android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Xiaohongshu Share SDK",
+        "dev_team": "Xiaohongshu",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaohongshu Sharing Open Platform provides a sharing SDK based on client code, following industry rules and developer demands.",
+        "source_link": "https://agora.xiaohongshu.com/doc/android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1799,
+      "type": 2,
+      "name": "com.xingin.xhssharesdk.core.XhsShareActivity",
+      "mode": "exact",
+      "priority": 1799,
+      "label": "小红书分享 SDK",
+      "iconId": "ic_lib_xiaohongshu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/xingin/xhssharesdk/core/XhsShareActivity.json",
+      "examples": {
+        "positive": [
+          "com.xingin.xhssharesdk.core.XhsShareActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D599117F-8741-4044-8A08-F0E039E26CC9",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ApngDrawable",
+        "dev_team": "LINE",
+        "rule_contributors": [
+          "Anormi"
+        ],
+        "description": "ApngDrawable 是 Android 平台上的一个高效而轻量的 APNG 图像解码库。",
+        "source_link": "https://github.com/line/apng-drawable"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ApngDrawable",
+        "dev_team": "LINE",
+        "rule_contributors": [
+          "Anormi"
+        ],
+        "description": "ApngDrawable is an efficient and lightweight APNG image decoding library on the Android platform.",
+        "source_link": "https://github.com/line/apng-drawable"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 688,
+      "type": 0,
+      "name": "libapng-drawable.so",
+      "mode": "exact",
+      "priority": 688,
+      "label": "ApngDrawable",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapng-drawable.so.json",
+      "examples": {
+        "positive": [
+          "libapng-drawable.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

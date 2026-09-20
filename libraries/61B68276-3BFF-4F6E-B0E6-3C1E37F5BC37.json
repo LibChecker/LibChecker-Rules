@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "61B68276-3BFF-4F6E-B0E6-3C1E37F5BC37",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "xLua",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "xLua 为 Unity、.Net、Mono 等 C# 环境增加 Lua 脚本编程的能力，借助 xLua，这些 Lua 代码可以方便的和 C# 相互调用。",
+        "source_link": "https://github.com/Tencent/xLua"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "xLua",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "xLua adds Lua scripting capabilities to C# environments such as Unity, .Net, and Mono. With xLua, these Lua codes can easily call each other with C#.",
+        "source_link": "https://github.com/Tencent/xLua"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 643,
+      "type": 0,
+      "name": "libxlua.so",
+      "mode": "exact",
+      "priority": 643,
+      "label": "xLua",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxlua.so.json",
+      "examples": {
+        "positive": [
+          "libxlua.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2160,
+      "type": 0,
+      "name": "libxluau.so",
+      "mode": "exact",
+      "priority": 2160,
+      "label": "xLua",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxluau.so.json",
+      "examples": {
+        "positive": [
+          "libxluau.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

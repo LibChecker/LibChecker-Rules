@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3C2CBBF2-6FB8-4B2D-8F9C-559FB5CC671E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "aterminal",
+        "dev_team": "maoabc",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "基于 libvterm 的新型 Android 终端模拟器。",
+        "source_link": "https://github.com/maoabc/aterminal"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "aterminal",
+        "dev_team": "maoabc",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "The new terminal emulator on Android is based on libvterm.",
+        "source_link": "https://github.com/maoabc/aterminal"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2201,
+      "type": 0,
+      "name": "libaterm.so",
+      "mode": "exact",
+      "priority": 2201,
+      "label": "aterminal",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaterm.so.json",
+      "examples": {
+        "positive": [
+          "libaterm.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

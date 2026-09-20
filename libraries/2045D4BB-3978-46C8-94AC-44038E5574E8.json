@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2045D4BB-3978-46C8-94AC-44038E5574E8",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "乐播 SDK",
+        "dev_team": "Hpplay",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "乐播投屏 SDK，已全面支持 iOS 和 Android 系统。接入后，能让您的 App 轻松拥有投屏与镜像能力，从而在满足用户需求的同时，也将您的内容分发上大屏。可广泛应用于通话，视频，音乐，直播，游戏，教育，办公等场景。",
+        "source_link": "https://cloud.hpplay.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Lebo SDK",
+        "dev_team": "Hpplay",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "LeBo Screen Mirroring SDK fully supports iOS and Android systems. After integration, your app can easily have screen mirroring and projection capabilities, meeting user needs while distributing your content on large screens. It can be widely used in scenarios like calls, videos, music, live broadcasts, games, education, and office work.",
+        "source_link": "https://cloud.hpplay.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 622,
+      "type": 0,
+      "name": "libhpplayae.so",
+      "mode": "exact",
+      "priority": 622,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhpplayae.so.json",
+      "examples": {
+        "positive": [
+          "libhpplayae.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 623,
+      "type": 0,
+      "name": "libed25519.so",
+      "mode": "exact",
+      "priority": 623,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libed25519.so.json",
+      "examples": {
+        "positive": [
+          "libed25519.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 624,
+      "type": 2,
+      "name": "com.hpplay.sdk.source.permission.PermissionBridgeActivity",
+      "mode": "exact",
+      "priority": 624,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hpplay/sdk/source/permission/PermissionBridgeActivity.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.source.permission.PermissionBridgeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 625,
+      "type": 1,
+      "name": "com.hpplay.sdk.source.process.LelinkSdkService",
+      "mode": "exact",
+      "priority": 625,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/hpplay/sdk/source/process/LelinkSdkService.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.source.process.LelinkSdkService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 626,
+      "type": 1,
+      "name": "com.hpplay.sdk.source.mirror.ScreenCastService",
+      "mode": "exact",
+      "priority": 626,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/hpplay/sdk/source/mirror/ScreenCastService.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.source.mirror.ScreenCastService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1061,
+      "type": 3,
+      "name": "com.hpplay.sdk.source.process.LelinkReceiver",
+      "mode": "exact",
+      "priority": 1061,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/hpplay/sdk/source/process/LelinkReceiver.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.source.process.LelinkReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2193,
+      "type": 2,
+      "name": "com.hpplay.sdk.sink.business.BusinessActivity",
+      "mode": "exact",
+      "priority": 2193,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hpplay/sdk/sink/business/BusinessActivity.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.sink.business.BusinessActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2194,
+      "type": 2,
+      "name": "com.hpplay.sdk.sink.business.TipActivity",
+      "mode": "exact",
+      "priority": 2194,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hpplay/sdk/sink/business/TipActivity.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.sink.business.TipActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2195,
+      "type": 2,
+      "name": "com.hpplay.sdk.sink.business.connect.ConnectPageActivity",
+      "mode": "exact",
+      "priority": 2195,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/hpplay/sdk/sink/business/connect/ConnectPageActivity.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.sink.business.connect.ConnectPageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2212,
+      "type": 0,
+      "name": "libhpplayvideo.so",
+      "mode": "exact",
+      "priority": 2212,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhpplayvideo.so.json",
+      "examples": {
+        "positive": [
+          "libhpplayvideo.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2213,
+      "type": 0,
+      "name": "libhpplayvideo19.so",
+      "mode": "exact",
+      "priority": 2213,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhpplayvideo19.so.json",
+      "examples": {
+        "positive": [
+          "libhpplayvideo19.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2215,
+      "type": 0,
+      "name": "liblbffmpeg.so",
+      "mode": "exact",
+      "priority": 2215,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblbffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "liblbffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2216,
+      "type": 0,
+      "name": "liblbplayer.so",
+      "mode": "exact",
+      "priority": 2216,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblbplayer.so.json",
+      "examples": {
+        "positive": [
+          "liblbplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2217,
+      "type": 0,
+      "name": "liblbsdl.so",
+      "mode": "exact",
+      "priority": 2217,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblbsdl.so.json",
+      "examples": {
+        "positive": [
+          "liblbsdl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2218,
+      "type": 0,
+      "name": "liblbtrtc.so",
+      "mode": "exact",
+      "priority": 2218,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblbtrtc.so.json",
+      "examples": {
+        "positive": [
+          "liblbtrtc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2219,
+      "type": 0,
+      "name": "liblbwebpdec.so",
+      "mode": "exact",
+      "priority": 2219,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblbwebpdec.so.json",
+      "examples": {
+        "positive": [
+          "liblbwebpdec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2220,
+      "type": 0,
+      "name": "libleboAudio.so",
+      "mode": "exact",
+      "priority": 2220,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libleboAudio.so.json",
+      "examples": {
+        "positive": [
+          "libleboAudio.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2221,
+      "type": 0,
+      "name": "liblelink.so",
+      "mode": "exact",
+      "priority": 2221,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblelink.so.json",
+      "examples": {
+        "positive": [
+          "liblelink.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2282,
+      "type": 1,
+      "name": "com.hpplay.component.screencapture.ScreenCaptureService",
+      "mode": "exact",
+      "priority": 2282,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/hpplay/component/screencapture/ScreenCaptureService.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.component.screencapture.ScreenCaptureService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2283,
+      "type": 1,
+      "name": "com.hpplay.sdk.sink.business.DaemonService",
+      "mode": "exact",
+      "priority": 2283,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/hpplay/sdk/sink/business/DaemonService.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.sink.business.DaemonService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2333,
+      "type": 9,
+      "name": "com.hpplay.sdk.source.LelinkSdkService.ACTION",
+      "mode": "exact",
+      "priority": 2333,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.hpplay.sdk.source.LelinkSdkService.ACTION.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.source.LelinkSdkService.ACTION"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2334,
+      "type": 9,
+      "name": "com.hpplay.sdk.source.mirrorcast.ScreenCastService.ACTION",
+      "mode": "exact",
+      "priority": 2334,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.hpplay.sdk.source.mirrorcast.ScreenCastService.ACTION.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.sdk.source.mirrorcast.ScreenCastService.ACTION"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2335,
+      "type": 9,
+      "name": "com.hpplay.source.service.close",
+      "mode": "exact",
+      "priority": 2335,
+      "label": "乐播 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.hpplay.source.service.close.json",
+      "examples": {
+        "positive": [
+          "com.hpplay.source.service.close"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

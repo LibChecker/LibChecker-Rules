@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A0A12107-8560-49B9-A47E-8012BEFC71E1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "android-crop",
+        "dev_team": "jdamcd",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个基于 AOSP 的代码提供简单图像裁剪 Activity 的 Android 库。",
+        "source_link": "https://github.com/jdamcd/android-crop/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "android-crop",
+        "dev_team": "jdamcd",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "An Android library providing a simple image cropping Activity based on AOSP code.",
+        "source_link": "https://github.com/jdamcd/android-crop/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 325,
+      "type": 2,
+      "name": "com.soundcloud.android.crop.CropImageActivity",
+      "mode": "exact",
+      "priority": 325,
+      "label": "android-crop",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/soundcloud/android/crop/CropImageActivity.json",
+      "examples": {
+        "positive": [
+          "com.soundcloud.android.crop.CropImageActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

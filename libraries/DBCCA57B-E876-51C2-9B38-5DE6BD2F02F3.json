@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DBCCA57B-E876-51C2-9B38-5DE6BD2F02F3",
+  "iconId": "ic_lib_google",
+  "data": [],
+  "matchers": [
+    {
+      "id": 510,
+      "type": 5,
+      "name": "com.google.android.flexbox",
+      "mode": "exact",
+      "priority": 510,
+      "label": "FlexBox",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.android.flexbox"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3489D3BA-EB43-4AF4-AFB7-18D7782E2A77",
+  "iconId": "ic_lib_sentry",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Sentry",
+        "dev_team": "Sentry",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Sentry 是一个实时事件日志记录和聚合平台，它专门用于监视错误和提取执行适当的事后操作所需的所有信息。",
+        "source_link": "https://sentry.io/for/android/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Sentry",
+        "dev_team": "Sentry",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Sentry is a real-time event logging and aggregation platform specifically designed for monitoring errors and extracting all the information needed for appropriate post-mortem actions.",
+        "source_link": "https://sentry.io/for/android/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 757,
+      "type": 0,
+      "name": "libsentry.so",
+      "mode": "exact",
+      "priority": 757,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry.so.json",
+      "examples": {
+        "positive": [
+          "libsentry.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 758,
+      "type": 0,
+      "name": "libsentry-android.so",
+      "mode": "exact",
+      "priority": 758,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry-android.so.json",
+      "examples": {
+        "positive": [
+          "libsentry-android.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 759,
+      "type": 4,
+      "name": "io.sentry.android.core.SentryInitProvider",
+      "mode": "exact",
+      "priority": 759,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/sentry/android/core/SentryInitProvider.json",
+      "examples": {
+        "positive": [
+          "io.sentry.android.core.SentryInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 842,
+      "type": 4,
+      "name": "io.sentry.android.core.SentryPerformanceProvider",
+      "mode": "exact",
+      "priority": 842,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/sentry/android/core/SentryPerformanceProvider.json",
+      "examples": {
+        "positive": [
+          "io.sentry.android.core.SentryPerformanceProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2057,
+      "type": 0,
+      "name": "libsentry-fd-monitor.so.so",
+      "mode": "exact",
+      "priority": 2057,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry-fd-monitor.so.so.json",
+      "examples": {
+        "positive": [
+          "libsentry-fd-monitor.so.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2058,
+      "type": 0,
+      "name": "libsentry-gwp-asan.so",
+      "mode": "exact",
+      "priority": 2058,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry-gwp-asan.so.json",
+      "examples": {
+        "positive": [
+          "libsentry-gwp-asan.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2059,
+      "type": 0,
+      "name": "libsentry-hook.so",
+      "mode": "exact",
+      "priority": 2059,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry-hook.so.json",
+      "examples": {
+        "positive": [
+          "libsentry-hook.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2060,
+      "type": 0,
+      "name": "libsentry-record.so",
+      "mode": "exact",
+      "priority": 2060,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry-record.so.json",
+      "examples": {
+        "positive": [
+          "libsentry-record.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2061,
+      "type": 0,
+      "name": "libsentry_dumper.so",
+      "mode": "exact",
+      "priority": 2061,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry_dumper.so.json",
+      "examples": {
+        "positive": [
+          "libsentry_dumper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2255,
+      "type": 0,
+      "name": "libsentry-fd-monitor.so",
+      "mode": "exact",
+      "priority": 2255,
+      "label": "Sentry",
+      "iconId": "ic_lib_sentry",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsentry-fd-monitor.so.json",
+      "examples": {
+        "positive": [
+          "libsentry-fd-monitor.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

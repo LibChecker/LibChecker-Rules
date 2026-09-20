@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "59C3C236-2AE1-5CC2-BE7E-910F5C0281E6",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 526,
+      "type": 5,
+      "name": "androidx.print",
+      "mode": "exact",
+      "priority": 526,
+      "label": "Jetpack Print",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.print"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

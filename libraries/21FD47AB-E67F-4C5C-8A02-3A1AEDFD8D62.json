@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "21FD47AB-E67F-4C5C-8A02-3A1AEDFD8D62",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ogg",
+        "dev_team": "xiph",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Ogg 是一个能将原始音频数据流重组成更稳定、更实用的 Ogg 格式的库。",
+        "source_link": "https://github.com/xiph/ogg"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ogg",
+        "dev_team": "xiph",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Ogg is a library capable of reassembling raw audio data streams into the more stable and practical Ogg format.",
+        "source_link": "https://github.com/xiph/ogg"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2655,
+      "type": 0,
+      "name": "libogg.so",
+      "mode": "exact",
+      "priority": 2655,
+      "label": "ogg",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libogg.so.json",
+      "examples": {
+        "positive": [
+          "libogg.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

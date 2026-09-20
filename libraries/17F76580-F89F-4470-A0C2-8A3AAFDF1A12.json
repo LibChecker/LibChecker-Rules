@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "17F76580-F89F-4470-A0C2-8A3AAFDF1A12",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "xnn",
+        "dev_team": "aaalgo",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "一个用 C++ 编写的预测 API，封装了 Caffe、MXNET 和 Python。",
+        "source_link": "https://github.com/aaalgo/xnn"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "xnn",
+        "dev_team": "aaalgo",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "A C++ Prediction API that Wraps Caffe, MXNET and Python",
+        "source_link": "https://github.com/aaalgo/xnn"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1897,
+      "type": 0,
+      "name": "libxnn_zip.so",
+      "mode": "exact",
+      "priority": 1897,
+      "label": "xnn",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxnn_zip.so.json",
+      "examples": {
+        "positive": [
+          "libxnn_zip.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1939,
+      "type": 0,
+      "name": "libxnn.so",
+      "mode": "exact",
+      "priority": 1939,
+      "label": "xnn",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxnn.so.json",
+      "examples": {
+        "positive": [
+          "libxnn.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1940,
+      "type": 0,
+      "name": "libxnnloader.so",
+      "mode": "exact",
+      "priority": 1940,
+      "label": "xnn",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxnnloader.so.json",
+      "examples": {
+        "positive": [
+          "libxnnloader.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2265,
+      "type": 0,
+      "name": "libxnn_core.so",
+      "mode": "exact",
+      "priority": 2265,
+      "label": "xnn",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxnn_core.so.json",
+      "examples": {
+        "positive": [
+          "libxnn_core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2266,
+      "type": 0,
+      "name": "libxnn_invoker.so",
+      "mode": "exact",
+      "priority": 2266,
+      "label": "xnn",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxnn_invoker.so.json",
+      "examples": {
+        "positive": [
+          "libxnn_invoker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2267,
+      "type": 0,
+      "name": "libxnn_media.so",
+      "mode": "exact",
+      "priority": 2267,
+      "label": "xnn",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxnn_media.so.json",
+      "examples": {
+        "positive": [
+          "libxnn_media.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

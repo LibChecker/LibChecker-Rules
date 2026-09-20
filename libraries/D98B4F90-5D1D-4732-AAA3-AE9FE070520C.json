@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D98B4F90-5D1D-4732-AAA3-AE9FE070520C",
+  "iconId": "ic_lib_alibaba",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PCDN SDK",
+        "dev_team": "Alipay",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "PCDN 支持点播和直播的 P2P 加速服务，采用独立进程的方式运行，即使崩溃也不影响 App 主进程的使用。",
+        "source_link": "https://help.aliyun.com/document_detail/54295.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PCDN SDK",
+        "dev_team": "Alipay",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "PCDN supports P2P acceleration services for on-demand and live streaming, running as an independent process so that even if it crashes, it does not affect the main process of the app.",
+        "source_link": "https://help.aliyun.com/document_detail/54295.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 250,
+      "type": 1,
+      "name": "com.edge.pcdn.PcdnLiveService",
+      "mode": "exact",
+      "priority": 250,
+      "label": "PCDN SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/edge/pcdn/PcdnLiveService.json",
+      "examples": {
+        "positive": [
+          "com.edge.pcdn.PcdnLiveService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 259,
+      "type": 1,
+      "name": "com.edge.pcdn.PcdnVodService",
+      "mode": "exact",
+      "priority": 259,
+      "label": "PCDN SDK",
+      "iconId": "ic_lib_alibaba",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/edge/pcdn/PcdnVodService.json",
+      "examples": {
+        "positive": [
+          "com.edge.pcdn.PcdnVodService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

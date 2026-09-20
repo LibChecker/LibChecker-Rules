@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "33EC6892-D962-52E0-9703-C667875BAE0E",
+  "iconId": "ic_lib_square",
+  "data": [],
+  "matchers": [
+    {
+      "id": 555,
+      "type": 5,
+      "name": "okio\\.(.*)",
+      "mode": "regex",
+      "priority": 555,
+      "label": "Okio",
+      "iconId": "ic_lib_square",
+      "regexName": "regex_okio",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

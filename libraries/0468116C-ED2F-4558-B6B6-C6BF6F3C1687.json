@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0468116C-ED2F-4558-B6B6-C6BF6F3C1687",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "DexKit",
+        "dev_team": "LuckyPray",
+        "rule_contributors": [
+          "Headog"
+        ],
+        "description": "一个使用 C++ 实现的 dex 高性能运行时解析库，用于查找被混淆的类、方法或者属性。",
+        "source_link": "https://github.com/LuckyPray/DexKit"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "DexKit",
+        "dev_team": "LuckyPray",
+        "rule_contributors": [
+          "Headog"
+        ],
+        "description": "A high-performance runtime parsing library implemented in C++ for dex, used to find obfuscated classes, methods, or properties.",
+        "source_link": "https://github.com/LuckyPray/DexKit"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1560,
+      "type": 0,
+      "name": "libdexkit.so",
+      "mode": "exact",
+      "priority": 1560,
+      "label": "DexKit",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdexkit.so.json",
+      "examples": {
+        "positive": [
+          "libdexkit.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

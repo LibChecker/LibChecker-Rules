@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2625B5BA-5189-4386-9249-B037015BD402",
+  "iconId": "ic_lib_iqiyi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "xHook",
+        "dev_team": "iQIYI",
+        "rule_contributors": [
+          "Absinthe",
+          "peashooter2"
+        ],
+        "description": "xHook 是一个针对 Android 平台 ELF (可执行文件和动态库) 的 PLT (Procedure Linkage Table) hook 库。",
+        "source_link": "https://github.com/iqiyi/xHook"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "xHook",
+        "dev_team": "iQIYI",
+        "rule_contributors": [
+          "Absinthe",
+          "peashooter2"
+        ],
+        "description": "xHook is a PLT (Procedure Linkage Table) hook library for ELF (Executable and Linkable Format) files and dynamic libraries on the Android platform.",
+        "source_link": "https://github.com/iqiyi/xHook"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 753,
+      "type": 0,
+      "name": "libxhook_lib.so",
+      "mode": "exact",
+      "priority": 753,
+      "label": "xHook",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxhook_lib.so.json",
+      "examples": {
+        "positive": [
+          "libxhook_lib.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1776,
+      "type": 0,
+      "name": "libxhook.so",
+      "mode": "exact",
+      "priority": 1776,
+      "label": "xHook",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxhook.so.json",
+      "examples": {
+        "positive": [
+          "libxhook.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

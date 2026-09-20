@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3875CCD5-A4CD-4F61-BDC2-FD7313957987",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Sign-In",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "提供使用 Google 登录的 API。",
+        "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Sign-In",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Provide API for using Google Sign-In.",
+        "source_link": "https://developers.google.com/android/reference/com/google/android/gms/auth/api/signin/package-summary/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 187,
+      "type": 1,
+      "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+      "mode": "exact",
+      "priority": 187,
+      "label": "Google Sign-In",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/auth/api/signin/RevocationBoundService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.auth.api.signin.RevocationBoundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 342,
+      "type": 2,
+      "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+      "mode": "exact",
+      "priority": 342,
+      "label": "Google Sign-In",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/auth/api/signin/internal/SignInHubActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2090,
+      "type": 2,
+      "name": "com.google.android.libraries.onegoogle.accountmanagement.AddAccountActivity",
+      "mode": "exact",
+      "priority": 2090,
+      "label": "Google Sign-In",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/onegoogle/accountmanagement/AddAccountActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.onegoogle.accountmanagement.AddAccountActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

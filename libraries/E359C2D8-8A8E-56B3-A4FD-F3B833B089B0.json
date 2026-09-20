@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E359C2D8-8A8E-56B3-A4FD-F3B833B089B0",
+  "iconId": "ic_lib_meizu",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2456,
+      "type": 6,
+      "name": "com.meizu.c2dm.intent.REGISTRATION",
+      "mode": "exact",
+      "priority": 2456,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.meizu.c2dm.intent.REGISTRATION"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

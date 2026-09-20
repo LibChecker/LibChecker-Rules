@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "412158E6-C860-43DA-839A-7F16BCB43965",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ShadowHook",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "ShadowHook 支持了很多新增 hook 特性，例如通过“函数地址”或“库名 + 函数名”的方式指定 hook 位置、集成符号地址查找功能等，现在被用于 Tiktok，抖音，今日头条等软件中。",
+        "source_link": "https://github.com/bytedance/android-inline-hook"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ShadowHook",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "ShadowHook supports many new hook features, such as specifying hook locations via 'function address' or 'library name + function name', integrating symbol address lookup functionality, etc., now used in software like TikTok, Douyin, and Toutiao.",
+        "source_link": "https://github.com/bytedance/android-inline-hook"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1509,
+      "type": 0,
+      "name": "libshadowhook.so",
+      "mode": "exact",
+      "priority": 1509,
+      "label": "ShadowHook",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libshadowhook.so.json",
+      "examples": {
+        "positive": [
+          "libshadowhook.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2256,
+      "type": 0,
+      "name": "libshadowhook_nothing.so",
+      "mode": "exact",
+      "priority": 2256,
+      "label": "ShadowHook",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libshadowhook_nothing.so.json",
+      "examples": {
+        "positive": [
+          "libshadowhook_nothing.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

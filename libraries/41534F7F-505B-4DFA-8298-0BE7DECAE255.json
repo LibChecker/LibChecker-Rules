@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "41534F7F-505B-4DFA-8298-0BE7DECAE255",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Slice",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "在应用外显示模板化界面元素。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/slice"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Slice",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Display templated interface elements outside the application.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/slice"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 354,
+      "type": 2,
+      "name": "androidx.slice.compat.SlicePermissionActivity",
+      "mode": "exact",
+      "priority": 354,
+      "label": "Jetpack Slice",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/slice/compat/SlicePermissionActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.slice.compat.SlicePermissionActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

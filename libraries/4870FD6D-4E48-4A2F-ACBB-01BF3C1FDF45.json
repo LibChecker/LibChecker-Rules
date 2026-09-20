@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4870FD6D-4E48-4A2F-ACBB-01BF3C1FDF45",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "游戏语音 GVoice",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "yfdyh000",
+          "crrashh1542"
+        ],
+        "description": "游戏语音（GVoice）全方位为游戏各应用场景提供语音服务，支持实时语音、语音消息、语音识别，范围语音等一系列功能。",
+        "source_link": "https://gcloud.tencent.com/pages/products/gvoice.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Game Voice GVoice",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "yfdyh000",
+          "crrashh1542"
+        ],
+        "description": "Game Voice (GVoice) provides comprehensive voice services for various application scenarios in games, supporting real-time voice, voice messages, voice recognition, range voice, and a series of functions.",
+        "source_link": "https://gcloud.tencent.com/pages/products/gvoice.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1286,
+      "type": 0,
+      "name": "libGCloudVoice.so",
+      "mode": "exact",
+      "priority": 1286,
+      "label": "游戏语音 GVoice",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGCloudVoice.so.json",
+      "examples": {
+        "positive": [
+          "libGCloudVoice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1447,
+      "type": 0,
+      "name": "libGVoice.so",
+      "mode": "exact",
+      "priority": 1447,
+      "label": "游戏语音 GVoice",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGVoice.so.json",
+      "examples": {
+        "positive": [
+          "libGVoice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2514,
+      "type": 0,
+      "name": "libGVoicePlugin.so",
+      "mode": "exact",
+      "priority": 2514,
+      "label": "游戏语音 GVoice",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGVoicePlugin.so.json",
+      "examples": {
+        "positive": [
+          "libGVoicePlugin.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

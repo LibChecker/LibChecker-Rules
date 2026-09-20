@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E240642F-78A6-4721-B9D6-9A4713811993",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "梆梆安全",
+        "dev_team": "梆梆安全",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+        "source_link": "https://dev.bangcle.com/home/introduction"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Bangbang Security",
+        "dev_team": "梆梆安全",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy",
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services, targeting various security risks commonly found in mobile applications, such as cracking, tampering, piracy, phishing fraud, memory debugging, and data theft.",
+        "source_link": "https://dev.bangcle.com/home/introduction"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 43,
+      "type": 0,
+      "name": "libdexjni.so",
+      "mode": "exact",
+      "priority": 43,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdexjni.so.json",
+      "examples": {
+        "positive": [
+          "libdexjni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 66,
+      "type": 0,
+      "name": "libSecShell.so",
+      "mode": "exact",
+      "priority": 66,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSecShell.so.json",
+      "examples": {
+        "positive": [
+          "libSecShell.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 95,
+      "type": 0,
+      "name": "libSecShell-x86.so",
+      "mode": "exact",
+      "priority": 95,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSecShell-x86.so.json",
+      "examples": {
+        "positive": [
+          "libSecShell-x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 126,
+      "type": 0,
+      "name": "libDexHelper.so",
+      "mode": "exact",
+      "priority": 126,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libDexHelper.so.json",
+      "examples": {
+        "positive": [
+          "libDexHelper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 140,
+      "type": 0,
+      "name": "libDexHelper-x86.so",
+      "mode": "exact",
+      "priority": 140,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libDexHelper-x86.so.json",
+      "examples": {
+        "positive": [
+          "libDexHelper-x86.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 164,
+      "type": 0,
+      "name": "libsecexe.so",
+      "mode": "exact",
+      "priority": 164,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsecexe.so.json",
+      "examples": {
+        "positive": [
+          "libsecexe.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 801,
+      "type": 4,
+      "name": "com.secneo.apkwrapper.CP",
+      "mode": "exact",
+      "priority": 801,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/secneo/apkwrapper/CP.json",
+      "examples": {
+        "positive": [
+          "com.secneo.apkwrapper.CP"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1929,
+      "type": 0,
+      "name": "libdexvmp.so",
+      "mode": "exact",
+      "priority": 1929,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdexvmp.so.json",
+      "examples": {
+        "positive": [
+          "libdexvmp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "native-libs/libDexHelper-x86_64.so.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "梆梆安全",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Bangbang Security",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services, targeting various security risks commonly found in mobile applications, such as cracking, tampering, piracy, phishing fraud, memory debugging, and data theft.",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          }
+        ],
+        "uuid": "E240642F-78A6-4721-B9D6-9A4713811993"
+      }
+    },
+    {
+      "path": "native-libs/libbangcle_crypto_tool.so.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "梆梆安全",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Bangbang Security",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services, targeting various security risks commonly found in mobile applications, such as cracking, tampering, piracy, phishing fraud, memory debugging, and data theft.",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          }
+        ],
+        "uuid": "E240642F-78A6-4721-B9D6-9A4713811993"
+      }
+    },
+    {
+      "path": "native-libs/libbangcle_risk.so.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "梆梆安全",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Bangbang Security",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services, targeting various security risks commonly found in mobile applications, such as cracking, tampering, piracy, phishing fraud, memory debugging, and data theft.",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          }
+        ],
+        "uuid": "E240642F-78A6-4721-B9D6-9A4713811993"
+      }
+    },
+    {
+      "path": "native-libs/libpnc-crypto.so.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "梆梆安全",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "针对目前移动应用普遍存在的破解、篡改、盗版、钓鱼欺诈、内存调试、数据窃取等各类安全风险，梆梆安全为开发者提供全面的移动应用加固加密技术和攻击防范服务。",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Bangbang Security",
+              "dev_team": "梆梆安全",
+              "rule_contributors": [
+                "Absinthe",
+                "ArthurCyy",
+                "yfdyh000",
+                "WOLFRAZOR"
+              ],
+              "description": "Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services, targeting various security risks commonly found in mobile applications, such as cracking, tampering, piracy, phishing fraud, memory debugging, and data theft.",
+              "source_link": "https://dev.bangcle.com/home/introduction"
+            }
+          }
+        ],
+        "uuid": "E240642F-78A6-4721-B9D6-9A4713811993"
+      }
+    }
+  ]
+}

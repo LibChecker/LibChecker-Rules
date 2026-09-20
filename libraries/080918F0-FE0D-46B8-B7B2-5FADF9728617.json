@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "080918F0-FE0D-46B8-B7B2-5FADF9728617",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tesseract",
+        "dev_team": "Tesseract",
+        "rule_contributors": [
+          "yfdyh000",
+          "sebastien46"
+        ],
+        "description": "Tesseract 开源 OCR 引擎。",
+        "source_link": "https://github.com/tesseract-ocr/tesseract"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tesseract",
+        "dev_team": "Tesseract",
+        "rule_contributors": [
+          "yfdyh000",
+          "sebastien46"
+        ],
+        "description": "Tesseract Open Source OCR Engine.",
+        "source_link": "https://github.com/tesseract-ocr/tesseract"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1251,
+      "type": 0,
+      "name": "libtess.so",
+      "mode": "exact",
+      "priority": 1251,
+      "label": "Tesseract",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtess.so.json",
+      "examples": {
+        "positive": [
+          "libtess.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2067,
+      "type": 0,
+      "name": "libtesseract.so",
+      "mode": "exact",
+      "priority": 2067,
+      "label": "Tesseract",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtesseract.so.json",
+      "examples": {
+        "positive": [
+          "libtesseract.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

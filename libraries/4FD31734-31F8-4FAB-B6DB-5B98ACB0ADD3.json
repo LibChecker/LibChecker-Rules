@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4FD31734-31F8-4FAB-B6DB-5B98ACB0ADD3",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "米大师",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "米大师（Midas）为腾讯官方唯一虚拟支付平台。原生支持 Q 币、微信支付、QQ 钱包、QQ 卡等支付渠道。",
+        "source_link": "https://wiki.midas.qq.com/index/index/1/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mi Master",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Midas is Tencent's official and only virtual payment platform. It natively supports payment channels such as Q coins, WeChat Pay, QQ Wallet, QQ Card, etc.",
+        "source_link": "https://wiki.midas.qq.com/index/index/1/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 153,
+      "type": 0,
+      "name": "libwtecdh.so",
+      "mode": "exact",
+      "priority": 153,
+      "label": "米大师",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwtecdh.so.json",
+      "examples": {
+        "positive": [
+          "libwtecdh.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 287,
+      "type": 2,
+      "name": "com.tencent.midas.wx.APMidasWXPayActivity",
+      "mode": "exact",
+      "priority": 287,
+      "label": "米大师",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/midas/wx/APMidasWXPayActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.midas.wx.APMidasWXPayActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 350,
+      "type": 2,
+      "name": "com.tencent.midas.proxyactivity.APMidasPayProxyActivity",
+      "mode": "exact",
+      "priority": 350,
+      "label": "米大师",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/midas/proxyactivity/APMidasPayProxyActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.midas.proxyactivity.APMidasPayProxyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 593,
+      "type": 2,
+      "name": "com.tencent.midas.jsbridge.APWebJSBridgeActivity",
+      "mode": "exact",
+      "priority": 593,
+      "label": "米大师",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/midas/jsbridge/APWebJSBridgeActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.midas.jsbridge.APWebJSBridgeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 663,
+      "type": 2,
+      "name": "com.tencent.midas.qq.APMidasQQWalletActivity",
+      "mode": "exact",
+      "priority": 663,
+      "label": "米大师",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/midas/qq/APMidasQQWalletActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.midas.qq.APMidasQQWalletActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

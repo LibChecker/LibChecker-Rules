@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8B333B52-3E1E-4638-8223-5B2036031CAB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "环信 IM",
+        "dev_team": "环信",
+        "rule_contributors": [
+          "YandexStudio",
+          "ArthurCyy"
+        ],
+        "description": "环信即时通讯云为开发者提供基于移动互联网的即时通讯能力，如单聊、群聊、发语音、发图片、发位置、实时音频、实时视频等，让开发者摆脱繁重的移动 IM 通讯底层开发，24 小时即可让 App 拥有稳定健壮的内置 IM 能力。",
+        "source_link": "http://docs-im.easemob.com/im/android/sdk/import"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Easemob IM",
+        "dev_team": "环信",
+        "rule_contributors": [
+          "YandexStudio",
+          "ArthurCyy"
+        ],
+        "description": "Huanxin Instant Messaging Cloud provides developers with mobile internet-based instant messaging capabilities, such as single chat, group chat, voice messages, images, location sharing, real-time audio, and video, allowing developers to bypass the heavy lifting of mobile IM communication layer development, enabling apps to have stable and robust built-in IM capabilities within 24 hours.",
+        "source_link": "http://docs-im.easemob.com/im/android/sdk/import"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 47,
+      "type": 0,
+      "name": "libhyphenate.so",
+      "mode": "exact",
+      "priority": 47,
+      "label": "环信 IM",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhyphenate.so.json",
+      "examples": {
+        "positive": [
+          "libhyphenate.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1460,
+      "type": 0,
+      "name": "libhyphenate_av.so",
+      "mode": "exact",
+      "priority": 1460,
+      "label": "环信 IM",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhyphenate_av.so.json",
+      "examples": {
+        "positive": [
+          "libhyphenate_av.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

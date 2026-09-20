@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0809943C-62F8-4A0B-8332-223ABB1C0549",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Micro3D",
+        "dev_team": "J2ME Loader Project / Open Source Community",
+        "rule_contributors": [
+          "FlutterGenerator"
+        ],
+        "description": "libmicro3d.so 和 libjavam3g.so 是 J2ME 模拟器中使用的原生共享库，用于支持 JSR-184（Mobile 3D Graphics API）。这些库负责 3D 渲染、数学计算、JNI 绑定，以及支持 3D Java ME 游戏和应用所需的运行时能力。它们协同工作，以提升基于 M3G 的 J2ME 软件的性能和兼容性。",
+        "source_link": "https://github.com/nikita36078/J2ME-Loader"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Micro3D",
+        "dev_team": "J2ME Loader Project / Open Source Community",
+        "rule_contributors": [
+          "FlutterGenerator"
+        ],
+        "description": "libmicro3d.so and libjavam3g.so are native shared libraries used in\nJ2ME emulators to provide support for JSR-184 (Mobile 3D Graphics API). These libraries handle 3D rendering, mathematical calculations,\nJNI bindings, and runtime support required by 3D-enabled Java ME\ngames and applications. They work together to improve performance\nand compatibility for M3G-based J2ME software.",
+        "source_link": "https://github.com/nikita36078/J2ME-Loader"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2921,
+      "type": 0,
+      "name": "libjavam3g.so",
+      "mode": "exact",
+      "priority": 2921,
+      "label": "Micro3D",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjavam3g.so.json",
+      "examples": {
+        "positive": [
+          "libjavam3g.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2922,
+      "type": 0,
+      "name": "libmicro3d.so",
+      "mode": "exact",
+      "priority": 2922,
+      "label": "Micro3D",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmicro3d.so.json",
+      "examples": {
+        "positive": [
+          "libmicro3d.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

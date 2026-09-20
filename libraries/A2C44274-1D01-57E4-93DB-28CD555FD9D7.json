@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A2C44274-1D01-57E4-93DB-28CD555FD9D7",
+  "iconId": "ic_lib_meizu",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2458,
+      "type": 6,
+      "name": "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+      "mode": "exact",
+      "priority": 2458,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

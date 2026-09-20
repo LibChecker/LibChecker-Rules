@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7C18D201-2C7B-47BB-AAB1-AD934AC1B253",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Tracing",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "将跟踪事件写入系统跟踪缓冲区。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/tracing"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Tracing",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Write tracking events to the system trace buffer.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/tracing"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1518,
+      "type": 3,
+      "name": "androidx.tracing.perfetto.TracingReceiver",
+      "mode": "exact",
+      "priority": 1518,
+      "label": "Jetpack Tracing",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/tracing/perfetto/TracingReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.tracing.perfetto.TracingReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1704,
+      "type": 3,
+      "name": "androidx.tracing.perfetto.StartupTracingConfigStoreIsEnabledGate",
+      "mode": "exact",
+      "priority": 1704,
+      "label": "Jetpack Tracing",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/tracing/perfetto/StartupTracingConfigStoreIsEnabledGate.json",
+      "examples": {
+        "positive": [
+          "androidx.tracing.perfetto.StartupTracingConfigStoreIsEnabledGate"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

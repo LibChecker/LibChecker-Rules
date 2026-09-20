@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "843A24F5-F3AF-505D-9B43-115442C4388F",
+  "iconId": "ic_lib_flutter",
+  "data": [],
+  "matchers": [
+    {
+      "id": 557,
+      "type": 5,
+      "name": "io\\.flutter\\.(.*)",
+      "mode": "regex",
+      "priority": 557,
+      "label": "Flutter",
+      "iconId": "ic_lib_flutter",
+      "regexName": "regex_flutter",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

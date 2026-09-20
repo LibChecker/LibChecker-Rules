@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "75F0D24D-BEFC-49ED-9121-A8D2C7B4C454",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "jsenv",
+        "dev_team": "OpenAtom Foundation",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "快应用框架依赖的 JavaScript 运行环境。",
+        "source_link": "https://atomgit.com/hapjs/jsenv"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "jsenv",
+        "dev_team": "OpenAtom Foundation",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "The JavaScript runtime environment relied upon by the Quick Application Framework.",
+        "source_link": "https://atomgit.com/hapjs/jsenv"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1642,
+      "type": 0,
+      "name": "libjsenv.so",
+      "mode": "exact",
+      "priority": 1642,
+      "label": "jsenv",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjsenv.so.json",
+      "examples": {
+        "positive": [
+          "libjsenv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

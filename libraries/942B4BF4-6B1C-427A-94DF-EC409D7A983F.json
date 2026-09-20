@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "942B4BF4-6B1C-427A-94DF-EC409D7A983F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Lexbor",
+        "dev_team": "Alexander Borisov",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "一个开源的Web浏览器引擎。",
+        "source_link": "https://github.com/lexbor/lexbor"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Lexbor",
+        "dev_team": "Alexander Borisov",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "An open-source web browser engine.",
+        "source_link": "https://github.com/lexbor/lexbor"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2652,
+      "type": 0,
+      "name": "liblexbor.so",
+      "mode": "exact",
+      "priority": 2652,
+      "label": "Lexbor",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblexbor.so.json",
+      "examples": {
+        "positive": [
+          "liblexbor.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

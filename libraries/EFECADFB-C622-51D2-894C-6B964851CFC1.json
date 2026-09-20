@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EFECADFB-C622-51D2-894C-6B964851CFC1",
+  "iconId": "ic_lib_airbnb",
+  "data": [],
+  "matchers": [
+    {
+      "id": 525,
+      "type": 5,
+      "name": "com.airbnb.lottie",
+      "mode": "exact",
+      "priority": 525,
+      "label": "Lottie",
+      "iconId": "ic_lib_airbnb",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.airbnb.lottie"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

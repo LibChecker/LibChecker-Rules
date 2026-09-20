@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "88100132-7F93-4FF0-9684-D6616FC99B05",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Auth0 SDK",
+        "dev_team": "auth0",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "依托 Auth0 身份平台，为应用添加强大的身份认证与授权功能。集中管理来自多个身份提供商的用户，为他们提供品牌化、无缝的注册和登录体验。通过高度自定义的访问控制，满足最复杂的安全需求。",
+        "source_link": "https://github.com/auth0/Auth0.Android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Auth0 SDK",
+        "dev_team": "auth0",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Rely on the Auth0 identity platform to add sophisticated authentication and authorization to your applications. Centralize and manage users from multiple identity providers and give them branded, seamless signup and login experiences. Finely control access with a degree of customization that can accommodate even the most complex security requirements.",
+        "source_link": "https://github.com/auth0/Auth0.Android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2466,
+      "type": 2,
+      "name": "com.auth0.android.provider.AuthenticationActivity",
+      "mode": "exact",
+      "priority": 2466,
+      "label": "Auth0 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/auth0/android/provider/AuthenticationActivity.json",
+      "examples": {
+        "positive": [
+          "com.auth0.android.provider.AuthenticationActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2467,
+      "type": 2,
+      "name": "com.auth0.android.provider.RedirectActivity",
+      "mode": "exact",
+      "priority": 2467,
+      "label": "Auth0 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/auth0/android/provider/RedirectActivity.json",
+      "examples": {
+        "positive": [
+          "com.auth0.android.provider.RedirectActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

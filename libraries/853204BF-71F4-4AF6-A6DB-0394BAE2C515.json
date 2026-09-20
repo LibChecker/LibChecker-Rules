@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "853204BF-71F4-4AF6-A6DB-0394BAE2C515",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AdColony",
+        "dev_team": "AdColony",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "AdColony 移动广告 SDK 适用于 Android。",
+        "source_link": "https://github.com/AdColony/AdColony-Android-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AdColony",
+        "dev_team": "AdColony",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "AdColony Mobile Ads SDK for Android.",
+        "source_link": "https://github.com/AdColony/AdColony-Android-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 790,
+      "type": 0,
+      "name": "libadcolony.so",
+      "mode": "exact",
+      "priority": 790,
+      "label": "AdColony",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libadcolony.so.json",
+      "examples": {
+        "positive": [
+          "libadcolony.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 5,
+  "uuid": "41140436-280D-44FD-B75F-587CFCBB2606",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "智齿客服 SDK",
+        "dev_team": "智齿科技",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "智齿客服 SDK 是客服系统访客端的解决方案，既包含了客服聊天逻辑管理，也提供了聊天界面，开发者可方便的将客服功能集成到自己的 App 中。",
+        "source_link": "https://www.sobot.com/developerdocs/app_sdk/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Zhichi Customer Service SDK",
+        "dev_team": "智齿科技",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "Zhichi Customer Service SDK is a solution for the visitor side of the customer service system, including customer service chat logic management and providing a chat interface, allowing developers to easily integrate customer service functionality into their apps.",
+        "source_link": "https://www.sobot.com/developerdocs/app_sdk/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 594,
+      "type": 2,
+      "name": "com.sobot.chat.conversation.SobotChatActivity",
+      "mode": "exact",
+      "priority": 594,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/conversation/SobotChatActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.conversation.SobotChatActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 595,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotPhotoActivity",
+      "mode": "exact",
+      "priority": 595,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotPhotoActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotPhotoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 596,
+      "type": 2,
+      "name": "com.sobot.chat.activity.WebViewActivity",
+      "mode": "exact",
+      "priority": 596,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/WebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.WebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 597,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotSkillGroupActivity",
+      "mode": "exact",
+      "priority": 597,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotSkillGroupActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotSkillGroupActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 598,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotPostMsgActivity",
+      "mode": "exact",
+      "priority": 598,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotPostMsgActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotPostMsgActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 599,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotConsultationListActivity",
+      "mode": "exact",
+      "priority": 599,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotConsultationListActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotConsultationListActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 600,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotPhotoListActivity",
+      "mode": "exact",
+      "priority": 600,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotPhotoListActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotPhotoListActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 601,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotCusFieldActivity",
+      "mode": "exact",
+      "priority": 601,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotCusFieldActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotCusFieldActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 602,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotPostCategoryActivity",
+      "mode": "exact",
+      "priority": 602,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotPostCategoryActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotPostCategoryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 603,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotQueryFromActivity",
+      "mode": "exact",
+      "priority": 603,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotQueryFromActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotQueryFromActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 604,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotChooseCityActivity",
+      "mode": "exact",
+      "priority": 604,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotChooseCityActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotChooseCityActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 605,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotChooseFileActivity",
+      "mode": "exact",
+      "priority": 605,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotChooseFileActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotChooseFileActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 606,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotFileDetailActivity",
+      "mode": "exact",
+      "priority": 606,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotFileDetailActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotFileDetailActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 607,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotCameraActivity",
+      "mode": "exact",
+      "priority": 607,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotCameraActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotCameraActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 608,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotVideoActivity",
+      "mode": "exact",
+      "priority": 608,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 609,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotTicketDetailActivity",
+      "mode": "exact",
+      "priority": 609,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotTicketDetailActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotTicketDetailActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 610,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotHelpCenterActivity",
+      "mode": "exact",
+      "priority": 610,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotHelpCenterActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotHelpCenterActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 611,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotProblemCategoryActivity",
+      "mode": "exact",
+      "priority": 611,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotProblemCategoryActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotProblemCategoryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 612,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotProblemDetailActivity",
+      "mode": "exact",
+      "priority": 612,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotProblemDetailActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotProblemDetailActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 613,
+      "type": 2,
+      "name": "com.sobot.chat.activity.SobotPostLeaveMsgActivity",
+      "mode": "exact",
+      "priority": 613,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/activity/SobotPostLeaveMsgActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.activity.SobotPostLeaveMsgActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 614,
+      "type": 2,
+      "name": "com.sobot.chat.widget.dialog.SobotRobotListActivity",
+      "mode": "exact",
+      "priority": 614,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/widget/dialog/SobotRobotListActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.widget.dialog.SobotRobotListActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 615,
+      "type": 2,
+      "name": "com.sobot.chat.widget.dialog.SobotReplyActivity",
+      "mode": "exact",
+      "priority": 615,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/widget/dialog/SobotReplyActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.widget.dialog.SobotReplyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 616,
+      "type": 2,
+      "name": "com.sobot.chat.widget.dialog.SobotTicketEvaluateActivity",
+      "mode": "exact",
+      "priority": 616,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/widget/dialog/SobotTicketEvaluateActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.widget.dialog.SobotTicketEvaluateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 617,
+      "type": 2,
+      "name": "com.sobot.chat.widget.dialog.SobotEvaluateActivity",
+      "mode": "exact",
+      "priority": 617,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/widget/dialog/SobotEvaluateActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.widget.dialog.SobotEvaluateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 618,
+      "type": 2,
+      "name": "com.sobot.chat.widget.dialog.SobotPostMsgTmpListActivity",
+      "mode": "exact",
+      "priority": 618,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/sobot/chat/widget/dialog/SobotPostMsgTmpListActivity.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.widget.dialog.SobotPostMsgTmpListActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 619,
+      "type": 1,
+      "name": "com.sobot.chat.core.channel.SobotTCPServer",
+      "mode": "exact",
+      "priority": 619,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/sobot/chat/core/channel/SobotTCPServer.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.core.channel.SobotTCPServer"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 620,
+      "type": 1,
+      "name": "com.sobot.chat.server.SobotSessionServer",
+      "mode": "exact",
+      "priority": 620,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/sobot/chat/server/SobotSessionServer.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.server.SobotSessionServer"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 621,
+      "type": 4,
+      "name": "com.sobot.chat.provider.SobotFileProvider",
+      "mode": "exact",
+      "priority": 621,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/sobot/chat/provider/SobotFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.sobot.chat.provider.SobotFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1378,
+      "type": 0,
+      "name": "libsobot.so",
+      "mode": "exact",
+      "priority": 1378,
+      "label": "智齿客服 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsobot.so.json",
+      "examples": {
+        "positive": [
+          "libsobot.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

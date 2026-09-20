@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CFEC6874-A200-56EE-9E51-112DD4A0F6D9",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 494,
+      "type": 5,
+      "name": "androidx.multidex",
+      "mode": "exact",
+      "priority": 494,
+      "label": "Jetpack MultiDex",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.multidex"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

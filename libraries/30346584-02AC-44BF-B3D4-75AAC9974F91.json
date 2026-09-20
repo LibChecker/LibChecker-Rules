@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "30346584-02AC-44BF-B3D4-75AAC9974F91",
+  "iconId": "ic_lib_vlc",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "x264",
+        "dev_team": "VideoLAN",
+        "rule_contributors": [
+          "binx6",
+          "crrashh1542"
+        ],
+        "description": "x264 是一个用于将视频流编码为 H.264/MPEG-4 AVC 压缩格式的自由软件库和应用程序，并根据 GNU GPL 条款发布。",
+        "source_link": "https://www.videolan.org/developers/x264.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "x264",
+        "dev_team": "VideoLAN",
+        "rule_contributors": [
+          "binx6",
+          "crrashh1542"
+        ],
+        "description": "x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format, and is released under the terms of the GNU GPL.",
+        "source_link": "https://www.videolan.org/developers/x264.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1623,
+      "type": 0,
+      "name": "libx264.so",
+      "mode": "exact",
+      "priority": 1623,
+      "label": "x264",
+      "iconId": "ic_lib_vlc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libx264.so.json",
+      "examples": {
+        "positive": [
+          "libx264.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2678,
+      "type": 0,
+      "name": "libx264Encoder.so",
+      "mode": "exact",
+      "priority": 2678,
+      "label": "x264",
+      "iconId": "ic_lib_vlc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libx264Encoder.so.json",
+      "examples": {
+        "positive": [
+          "libx264Encoder.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FFA204C8-030B-4C4E-ABAA-5CC5376CF23D",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "bspatch",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "用于应用增量补丁的 bspatch 库。",
+        "source_link": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/master/libbspatch.pc"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "bspatch",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "bspatch library for applying delta patches.",
+        "source_link": "https://android.googlesource.com/platform/external/bsdiff/+/refs/heads/master/libbspatch.pc"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1250,
+      "type": 0,
+      "name": "libbspatch.so",
+      "mode": "exact",
+      "priority": 1250,
+      "label": "bspatch",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbspatch.so.json",
+      "examples": {
+        "positive": [
+          "libbspatch.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1835,
+      "type": 0,
+      "name": "libbspatch_utils",
+      "mode": "exact",
+      "priority": 1835,
+      "label": "bspatch",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbspatch_utils.json",
+      "examples": {
+        "positive": [
+          "libbspatch_utils"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2111,
+      "type": 0,
+      "name": "libbspatch_utils.so",
+      "mode": "exact",
+      "priority": 2111,
+      "label": "bspatch",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbspatch_utils.so.json",
+      "examples": {
+        "positive": [
+          "libbspatch_utils.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2202,
+      "type": 0,
+      "name": "libbspatch-lib.so",
+      "mode": "exact",
+      "priority": 2202,
+      "label": "bspatch",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbspatch-lib.so.json",
+      "examples": {
+        "positive": [
+          "libbspatch-lib.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

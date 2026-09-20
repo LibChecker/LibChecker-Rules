@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EC0AAF53-64E3-49E8-95CC-8A8ABE8465A1",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BytePlus RTC",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "BytePlus RTC 支持全球范围内高可靠、高并发且低延迟的实时通信，并提供允许各种形式在线互动的服务。",
+        "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/docs-66812"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BytePlus RTC",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "BytePlus RTC enables highly reliable, concurrent and low latency real-time communication across the globe and provides a service that allows various forms of online interaction.",
+        "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/docs-66812"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2608,
+      "type": 0,
+      "name": "libAGFX.so",
+      "mode": "exact",
+      "priority": 2608,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libAGFX.so.json",
+      "examples": {
+        "positive": [
+          "libAGFX.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2631,
+      "type": 0,
+      "name": "libRTCFFmpeg.so",
+      "mode": "exact",
+      "priority": 2631,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libRTCFFmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libRTCFFmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2635,
+      "type": 0,
+      "name": "libbdaudioeffect.so",
+      "mode": "exact",
+      "priority": 2635,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbdaudioeffect.so.json",
+      "examples": {
+        "positive": [
+          "libbdaudioeffect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2637,
+      "type": 0,
+      "name": "libbytenn.so",
+      "mode": "exact",
+      "priority": 2637,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytenn.so.json",
+      "examples": {
+        "positive": [
+          "libbytenn.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2638,
+      "type": 0,
+      "name": "libbyteplusrtc.so",
+      "mode": "exact",
+      "priority": 2638,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbyteplusrtc.so.json",
+      "examples": {
+        "positive": [
+          "libbyteplusrtc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2639,
+      "type": 0,
+      "name": "libbytertc_ffmpeg_audio_extension.so",
+      "mode": "exact",
+      "priority": 2639,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_ffmpeg_audio_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_ffmpeg_audio_extension.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2640,
+      "type": 0,
+      "name": "libbytevc0.so",
+      "mode": "exact",
+      "priority": 2640,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytevc0.so.json",
+      "examples": {
+        "positive": [
+          "libbytevc0.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

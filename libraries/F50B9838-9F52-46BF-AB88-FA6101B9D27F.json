@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F50B9838-9F52-46BF-AB88-FA6101B9D27F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndroidAutoSize",
+        "dev_team": "JessYanCoding",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案。",
+        "source_link": "https://github.com/JessYanCoding/AndroidAutoSize"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndroidAutoSize",
+        "dev_team": "JessYanCoding",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "The ultimate version of the Toutiao screen adaptation scheme, an extremely low-cost Android screen adaptation scheme.",
+        "source_link": "https://github.com/JessYanCoding/AndroidAutoSize"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 438,
+      "type": 4,
+      "name": "me.jessyan.autosize.InitProvider",
+      "mode": "exact",
+      "priority": 438,
+      "label": "AndroidAutoSize",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/me/jessyan/autosize/InitProvider.json",
+      "examples": {
+        "positive": [
+          "me.jessyan.autosize.InitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

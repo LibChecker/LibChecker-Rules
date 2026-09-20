@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3450E137-1017-479C-A718-425E3A781274",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OSS Licenses Gradle Plugin",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "该 Gradle 插件会在编译时扫描项目的项目对象模型依赖关系。如果应用程序的直接依赖项存在 Maven 项目对象模型，插件就会处理该元素，并在最终应用程序 APK 的 Android 资产中嵌入每个许可证的链接和标题。",
+        "source_link": "https://developers.google.com/android/guides/opensource"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OSS Licenses Gradle Plugin",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "This Gradle plugin scans the POM dependencies of a project at compile time. When a Maven POM exists for a direct dependency of the app, the plugin processes the element and embeds the link and title of each license in an Android asset in the final app APK.",
+        "source_link": "https://developers.google.com/android/guides/opensource"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1546,
+      "type": 2,
+      "name": "com.google.android.gms.oss.licenses.OssLicensesActivity",
+      "mode": "exact",
+      "priority": 1546,
+      "label": "OSS Licenses Gradle Plugin",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/oss/licenses/OssLicensesActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.oss.licenses.OssLicensesActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1547,
+      "type": 2,
+      "name": "com.google.android.gms.oss.licenses.OssLicensesMenuActivity",
+      "mode": "exact",
+      "priority": 1547,
+      "label": "OSS Licenses Gradle Plugin",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/gms/oss/licenses/OssLicensesMenuActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

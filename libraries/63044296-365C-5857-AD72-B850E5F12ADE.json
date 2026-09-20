@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "63044296-365C-5857-AD72-B850E5F12ADE",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 514,
+      "type": 5,
+      "name": "androidx.constraintlayout",
+      "mode": "exact",
+      "priority": 514,
+      "label": "Jetpack ConstraintLayout",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.constraintlayout"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

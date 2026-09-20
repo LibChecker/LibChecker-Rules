@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1057A9DD-4798-42E5-9269-FCB25C14F2B5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CRI Sofdec2 Unity 插件",
+        "dev_team": "CRIWARE",
+        "rule_contributors": [
+          "kotori2"
+        ],
+        "description": "CRIWARE 中用于视频回放解码的组件。",
+        "source_link": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CRI Sofdec2 Unity Plugin",
+        "dev_team": "CRIWARE",
+        "rule_contributors": [
+          "kotori2"
+        ],
+        "description": "CRIWARE component for video playback decoding.",
+        "source_link": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 674,
+      "type": 0,
+      "name": "libcri_mana_vpx.so",
+      "mode": "exact",
+      "priority": 674,
+      "label": "CRI Sofdec2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcri_mana_vpx.so.json",
+      "examples": {
+        "positive": [
+          "libcri_mana_vpx.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

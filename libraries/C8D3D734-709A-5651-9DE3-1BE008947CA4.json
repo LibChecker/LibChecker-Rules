@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C8D3D734-709A-5651-9DE3-1BE008947CA4",
+  "iconId": "ic_lib_xiaomi",
+  "data": [],
+  "matchers": [
+    {
+      "id": 517,
+      "type": 5,
+      "name": "com.xiaomi.mipush",
+      "mode": "exact",
+      "priority": 517,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.xiaomi.mipush"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

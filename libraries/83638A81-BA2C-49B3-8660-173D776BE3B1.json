@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "83638A81-BA2C-49B3-8660-173D776BE3B1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OpenAL",
+        "dev_team": "Ubuntu MOTU Developers",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "OpenAL 音频 API 的软件实现。",
+        "source_link": "https://packages.ubuntu.com/kinetic/libopenal-dev"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OpenAL",
+        "dev_team": "Ubuntu MOTU Developers",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Software implementation of the OpenAL audio API",
+        "source_link": "https://packages.ubuntu.com/kinetic/libopenal-dev"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1196,
+      "type": 0,
+      "name": "libopenal.so",
+      "mode": "exact",
+      "priority": 1196,
+      "label": "OpenAL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopenal.so.json",
+      "examples": {
+        "positive": [
+          "libopenal.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

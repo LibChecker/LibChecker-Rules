@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "607E600C-B3B2-4C55-BCDB-C827C02703C7",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Chaquopy",
+        "dev_team": "Chaquo Ltd",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "在 Android 应用中使用 Python 的最简单方式。",
+        "source_link": "https://chaquo.com/chaquopy/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Chaquopy",
+        "dev_team": "Chaquo Ltd",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "The easiest way to use Python in an Android app.",
+        "source_link": "https://chaquo.com/chaquopy/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1981,
+      "type": 0,
+      "name": "chaquopy.so",
+      "mode": "exact",
+      "priority": 1981,
+      "label": "Chaquopy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/chaquopy.so.json",
+      "examples": {
+        "positive": [
+          "chaquopy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1982,
+      "type": 0,
+      "name": "chaquopy_android.so",
+      "mode": "exact",
+      "priority": 1982,
+      "label": "Chaquopy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/chaquopy_android.so.json",
+      "examples": {
+        "positive": [
+          "chaquopy_android.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2006,
+      "type": 0,
+      "name": "libchaquopy_java.so",
+      "mode": "exact",
+      "priority": 2006,
+      "label": "Chaquopy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libchaquopy_java.so.json",
+      "examples": {
+        "positive": [
+          "libchaquopy_java.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2009,
+      "type": 0,
+      "name": "libcrypto_chaquopy.so",
+      "mode": "exact",
+      "priority": 2009,
+      "label": "Chaquopy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrypto_chaquopy.so.json",
+      "examples": {
+        "positive": [
+          "libcrypto_chaquopy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2062,
+      "type": 0,
+      "name": "libsqlite3_chaquopy.so",
+      "mode": "exact",
+      "priority": 2062,
+      "label": "Chaquopy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsqlite3_chaquopy.so.json",
+      "examples": {
+        "positive": [
+          "libsqlite3_chaquopy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2063,
+      "type": 0,
+      "name": "libssl_chaquopy.so",
+      "mode": "exact",
+      "priority": 2063,
+      "label": "Chaquopy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libssl_chaquopy.so.json",
+      "examples": {
+        "positive": [
+          "libssl_chaquopy.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

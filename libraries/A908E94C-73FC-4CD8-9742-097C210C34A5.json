@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A908E94C-73FC-4CD8-9742-097C210C34A5",
+  "iconId": "ic_lib_rootbeer",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "RootBeer",
+        "dev_team": "Scott Alexander-Bown",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "一个美味的 root 检查库和示例应用程序。我们在互联网上搜罗了不同的方法来回答那个古老的问题……这个设备有 root 权限吗？",
+        "source_link": "https://github.com/scottyab/rootbeer"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "RootBeer",
+        "dev_team": "Scott Alexander-Bown",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age-old question... Has this device got root?",
+        "source_link": "https://github.com/scottyab/rootbeer"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1682,
+      "type": 0,
+      "name": "libtoolChecker.so",
+      "mode": "exact",
+      "priority": 1682,
+      "label": "RootBeer",
+      "iconId": "ic_lib_rootbeer",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtoolChecker.so.json",
+      "examples": {
+        "positive": [
+          "libtoolChecker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2439,
+      "type": 0,
+      "name": "libtool-checker.so",
+      "mode": "exact",
+      "priority": 2439,
+      "label": "RootBeer",
+      "iconId": "ic_lib_rootbeer",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtool-checker.so.json",
+      "examples": {
+        "positive": [
+          "libtool-checker.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

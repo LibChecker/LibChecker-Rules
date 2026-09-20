@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A817A52C-73FA-4072-8E1E-84442F63E8B6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libjpeg-turbo",
+        "dev_team": "dcommander",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "libjpeg-turbo 是一个 JPEG 图像编解码器，使用 SIMD 指令（MMX、SSE2、AVX2、Neon、AltiVec）来加速 x86、x86-64、Arm 和 PowerPC 系统上的基线 JPEG 压缩与解压缩，以及在 x86、x86-64 和 Arm 系统上的渐进式 JPEG 压缩。",
+        "source_link": "https://github.com/libjpeg-turbo/libjpeg-turbo"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libjpeg-turbo",
+        "dev_team": "dcommander",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems, as well as progressive JPEG compression on x86, x86-64, and Arm systems.",
+        "source_link": "https://github.com/libjpeg-turbo/libjpeg-turbo"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2427,
+      "type": 0,
+      "name": "libjpeg-turbo.so",
+      "mode": "exact",
+      "priority": 2427,
+      "label": "libjpeg-turbo",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjpeg-turbo.so.json",
+      "examples": {
+        "positive": [
+          "libjpeg-turbo.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3B221A67-D50B-46A5-BD8C-FA01456C21DD",
+  "iconId": "ic_lib_vivo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "vivo 网游联运 SDK",
+        "dev_team": "vivo",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "使用 vivo 账号统一登录，支付，并提供统一的实名认证服务。",
+        "source_link": "https://dev.vivo.com.cn/documentCenter/doc/8"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "vivo Online Game Co-operation SDK",
+        "dev_team": "vivo",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Use vivo account for unified login, payment, and provide unified real-name authentication service.",
+        "source_link": "https://dev.vivo.com.cn/documentCenter/doc/8"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1179,
+      "type": 0,
+      "name": "libvivo_account_sdk.so",
+      "mode": "exact",
+      "priority": 1179,
+      "label": "vivo 网游联运 SDK",
+      "iconId": "ic_lib_vivo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvivo_account_sdk.so.json",
+      "examples": {
+        "positive": [
+          "libvivo_account_sdk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C8705221-684A-4444-8B66-4F2EFE48C1CE",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LSPlant",
+        "dev_team": "LSPosed",
+        "rule_contributors": [
+          "Moriafly"
+        ],
+        "description": "Android 运行时 (ART) 的 Hook 框架。",
+        "source_link": "https://github.com/LSPosed/LSPlant"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LSPlant",
+        "dev_team": "LSPosed",
+        "rule_contributors": [
+          "Moriafly"
+        ],
+        "description": "Hook framework for Android Runtime (ART).",
+        "source_link": "https://github.com/LSPosed/LSPlant"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1187,
+      "type": 0,
+      "name": "liblsplant.so",
+      "mode": "exact",
+      "priority": 1187,
+      "label": "LSPlant",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblsplant.so.json",
+      "examples": {
+        "positive": [
+          "liblsplant.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

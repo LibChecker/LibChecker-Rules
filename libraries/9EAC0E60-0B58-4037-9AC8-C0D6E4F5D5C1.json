@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9EAC0E60-0B58-4037-9AC8-C0D6E4F5D5C1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "KDE Framework",
+        "dev_team": "KDE",
+        "rule_contributors": [
+          "xuhongdi"
+        ],
+        "description": "KDE Frameworks 是一套包含 83 个用于 Qt 编程的附加库集合。",
+        "source_link": "https://develop.kde.org/products/frameworks"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "KDE Framework",
+        "dev_team": "KDE",
+        "rule_contributors": [
+          "xuhongdi"
+        ],
+        "description": "The KDE Frameworks are a set of 83 add-on libraries for programming with Qt.",
+        "source_link": "https://develop.kde.org/products/frameworks"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2615,
+      "type": 0,
+      "name": "libKF5Archive_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2615,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5Archive_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5Archive_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2616,
+      "type": 0,
+      "name": "libKF5Completion_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2616,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5Completion_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5Completion_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2617,
+      "type": 0,
+      "name": "libKF5ConfigCore_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2617,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5ConfigCore_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5ConfigCore_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2618,
+      "type": 0,
+      "name": "libKF5ConfigGui_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2618,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5ConfigGui_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5ConfigGui_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2619,
+      "type": 0,
+      "name": "libKF5ConfigQml_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2619,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5ConfigQml_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5ConfigQml_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2620,
+      "type": 0,
+      "name": "libKF5CoreAddons_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2620,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5CoreAddons_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5CoreAddons_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2621,
+      "type": 0,
+      "name": "libKF5GuiAddons_arm64-v8a.so",
+      "mode": "exact",
+      "priority": 2621,
+      "label": "KDE Framework",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libKF5GuiAddons_arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libKF5GuiAddons_arm64-v8a.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

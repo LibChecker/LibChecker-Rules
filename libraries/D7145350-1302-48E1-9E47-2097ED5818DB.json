@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D7145350-1302-48E1-9E47-2097ED5818DB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ENet",
+        "dev_team": "Lee Salzman",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "ENet 的目的是在 UDP（用户数据报协议）之上提供一个相对较薄、简单和稳健的网络通信层。它提供的主要功能是可选的可靠、有序的数据包传递。",
+        "source_link": "http://enet.bespin.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ENet",
+        "dev_team": "Lee Salzman",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "ENet's purpose is to provide a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol). The primary feature it provides is optional reliable, in-order delivery of packets.",
+        "source_link": "http://enet.bespin.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1200,
+      "type": 0,
+      "name": "libenet.so",
+      "mode": "exact",
+      "priority": 1200,
+      "label": "ENet",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libenet.so.json",
+      "examples": {
+        "positive": [
+          "libenet.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

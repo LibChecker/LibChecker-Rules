@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9D42B5B7-B14E-4ABB-91EE-9F3E2C602540",
+  "iconId": "ic_lib_jpush",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "极光推送",
+        "dev_team": "极光",
+        "rule_contributors": [
+          "Absinthe",
+          "zxwpm",
+          "HenryWu01",
+          "Ayx03"
+        ],
+        "description": "JPush 是经过考验的大规模 App 推送平台，每天推送消息数超过 5 亿条。 开发者集成 SDK 后，可以通过调用 API 推送消息。同时，JPush 提供可视化的 web 端控制台发送通知，统计分析推送效果。 JPush 全面支持 Android, iOS, Winphone 三大手机平台。",
+        "source_link": "https://docs.jiguang.cn/jpush/intro/product_guide"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Aurora Push",
+        "dev_team": "极光",
+        "rule_contributors": [
+          "Absinthe",
+          "zxwpm",
+          "HenryWu01",
+          "Ayx03"
+        ],
+        "description": "JPush is a proven large-scale app push platform, with over 500 million messages pushed daily. After integrating the SDK, developers can push messages by calling the API. JPush also provides a visual web console for sending notifications and analyzing push effects. JPush fully supports Android, iOS, and Winphone platforms.",
+        "source_link": "https://docs.jiguang.cn/jpush/intro/product_guide"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 172,
+      "type": 0,
+      "name": "libjcore(.*)\\.so",
+      "mode": "regex",
+      "priority": 172,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": "regex_jpush",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_jpush.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 241,
+      "type": 1,
+      "name": "cn.jpush.android.service.PushService",
+      "mode": "exact",
+      "priority": 241,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/PushService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 269,
+      "type": 1,
+      "name": "cn.jpush.android.service.DownloadService",
+      "mode": "exact",
+      "priority": 269,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/DownloadService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.DownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 274,
+      "type": 1,
+      "name": "cn.jpush.android.service.DaemonService",
+      "mode": "exact",
+      "priority": 274,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/DaemonService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.DaemonService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 309,
+      "type": 2,
+      "name": "cn.jpush.android.service.JNotifyActivity",
+      "mode": "exact",
+      "priority": 309,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/jpush/android/service/JNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.JNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 328,
+      "type": 2,
+      "name": "cn.jpush.android.ui.PushActivity",
+      "mode": "exact",
+      "priority": 328,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/jpush/android/ui/PushActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.ui.PushActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 363,
+      "type": 2,
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "mode": "exact",
+      "priority": 363,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/jpush/android/ui/PopWinActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.ui.PopWinActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 378,
+      "type": 3,
+      "name": "cn.jpush.android.service.SchedulerReceiver",
+      "mode": "exact",
+      "priority": 378,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/service/SchedulerReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.SchedulerReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 395,
+      "type": 3,
+      "name": "cn.jpush.android.service.PluginMeizuPlatformsReceiver",
+      "mode": "exact",
+      "priority": 395,
+      "label": "Meizu Push(JPush Proxy)",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/service/PluginMeizuPlatformsReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PluginMeizuPlatformsReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 397,
+      "type": 3,
+      "name": "cn.jpush.android.service.PushReceiver",
+      "mode": "exact",
+      "priority": 397,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/service/PushReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 406,
+      "type": 3,
+      "name": "cn.jpush.android.service.PluginXiaomiPlatformsReceiver",
+      "mode": "exact",
+      "priority": 406,
+      "label": "MiPush(JPush Proxy)",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/service/PluginXiaomiPlatformsReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PluginXiaomiPlatformsReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 418,
+      "type": 3,
+      "name": "cn.jpush.android.service.AlarmReceiver",
+      "mode": "exact",
+      "priority": 418,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/service/AlarmReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.AlarmReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 434,
+      "type": 4,
+      "name": "cn.jpush.android.service.DownloadProvider",
+      "mode": "exact",
+      "priority": 434,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jpush/android/service/DownloadProvider.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.DownloadProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 464,
+      "type": 4,
+      "name": "cn.jpush.android.service.Downloadrovider",
+      "mode": "exact",
+      "priority": 464,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jpush/android/service/Downloadrovider.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.Downloadrovider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 470,
+      "type": 4,
+      "name": "cn.jpush.android.service.DataProvider",
+      "mode": "exact",
+      "priority": 470,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jpush/android/service/DataProvider.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.DataProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 664,
+      "type": 1,
+      "name": "cn.jpush.android.service.PluginHuaweiPlatformsService",
+      "mode": "exact",
+      "priority": 664,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/PluginHuaweiPlatformsService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PluginHuaweiPlatformsService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 665,
+      "type": 1,
+      "name": "cn.jpush.android.service.PluginOppoPushService",
+      "mode": "exact",
+      "priority": 665,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/PluginOppoPushService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PluginOppoPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 666,
+      "type": 3,
+      "name": "cn.jpush.android.service.PluginVivoMessageReceiver",
+      "mode": "exact",
+      "priority": 666,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/service/PluginVivoMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.PluginVivoMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 667,
+      "type": 3,
+      "name": "cn.jpush.android.asus.AsusPushMessageReceiver",
+      "mode": "exact",
+      "priority": 667,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/cn/jpush/android/asus/AsusPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.asus.AsusPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 668,
+      "type": 2,
+      "name": "cn.jpush.android.service.DActivity",
+      "mode": "exact",
+      "priority": 668,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/jpush/android/service/DActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.DActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1097,
+      "type": 2,
+      "name": "cn.android.service.JTransitActivity",
+      "mode": "exact",
+      "priority": 1097,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/cn/android/service/JTransitActivity.json",
+      "examples": {
+        "positive": [
+          "cn.android.service.JTransitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1162,
+      "type": 1,
+      "name": "cn.jpush.android.service.JPluginFCMMessagingService",
+      "mode": "exact",
+      "priority": 1162,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/JPluginFCMMessagingService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.JPluginFCMMessagingService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1582,
+      "type": 1,
+      "name": "cn.jpush.android.service.JHonorService",
+      "mode": "exact",
+      "priority": 1582,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/jpush/android/service/JHonorService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.JHonorService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1701,
+      "type": 4,
+      "name": "cn.jpush.android.service.InitProvider",
+      "mode": "exact",
+      "priority": 1701,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/cn/jpush/android/service/InitProvider.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.service.InitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2292,
+      "type": 9,
+      "name": "cn.android.service.JTransitActivity",
+      "mode": "exact",
+      "priority": 2292,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.android.service.JTransitActivity.json",
+      "examples": {
+        "positive": [
+          "cn.android.service.JTransitActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2293,
+      "type": 9,
+      "name": "cn.jpush.android.intent.DActivity",
+      "mode": "exact",
+      "priority": 2293,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.DActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.DActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2294,
+      "type": 9,
+      "name": "cn.jpush.android.intent.DaemonService",
+      "mode": "exact",
+      "priority": 2294,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.DaemonService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.DaemonService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2295,
+      "type": 9,
+      "name": "cn.jpush.android.intent.JNotifyActivity",
+      "mode": "exact",
+      "priority": 2295,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.JNotifyActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.JNotifyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2296,
+      "type": 9,
+      "name": "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY",
+      "mode": "exact",
+      "priority": 2296,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2297,
+      "type": 9,
+      "name": "cn.jpush.android.intent.PUSH_TIME",
+      "mode": "exact",
+      "priority": 2297,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.PUSH_TIME.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.PUSH_TIME"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2298,
+      "type": 9,
+      "name": "cn.jpush.android.intent.PushService",
+      "mode": "exact",
+      "priority": 2298,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.PushService.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2299,
+      "type": 9,
+      "name": "cn.jpush.android.intent.REGISTER",
+      "mode": "exact",
+      "priority": 2299,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.REGISTER.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.REGISTER"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2300,
+      "type": 9,
+      "name": "cn.jpush.android.intent.REPORT",
+      "mode": "exact",
+      "priority": 2300,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.intent.REPORT.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.intent.REPORT"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2301,
+      "type": 9,
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "mode": "exact",
+      "priority": 2301,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.ui.PopWinActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.ui.PopWinActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2302,
+      "type": 9,
+      "name": "cn.jpush.android.ui.PushActivity",
+      "mode": "exact",
+      "priority": 2302,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/cn.jpush.android.ui.PushActivity.json",
+      "examples": {
+        "positive": [
+          "cn.jpush.android.ui.PushActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2367,
+      "type": 9,
+      "name": "com.vivo.pushclient.action.RECEIVE",
+      "mode": "exact",
+      "priority": 2367,
+      "label": "极光推送",
+      "iconId": "ic_lib_jpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.vivo.pushclient.action.RECEIVE.json",
+      "examples": {
+        "positive": [
+          "com.vivo.pushclient.action.RECEIVE"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

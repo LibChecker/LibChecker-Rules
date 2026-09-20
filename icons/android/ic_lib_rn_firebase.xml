@@ -1,0 +1,48 @@
+<!--
+  ~ Copyright (C) 2026 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:viewportHeight="1024" android:viewportWidth="1024" android:width="24dp">
+
+    <path android:fillColor="#E88634" android:pathData="M144.1,510C146.5,594 309.3,660.2 509.5,660.2V627.7C348.3,626.9 179.4,577.4 176.5,510H144.1Z"/>
+
+    <path android:fillColor="#F9CB52" android:pathData="M690.1,200.5C615.8,160.7 477.4,268.3 377.5,441.7L405.5,458C486.7,318.7 614.2,196.9 673.9,228.5L690.1,200.5Z"/>
+
+    <path android:fillColor="#E88634" android:pathData="M144.1,510C146.5,425.9 309.3,359.7 509.5,359.7V392.2C348.3,393 179.4,442.6 176.5,510H144.1Z"/>
+
+    <path android:fillColor="#F4A73E" android:pathData="M326.8,193.2C255.3,237.5 279.3,411.3 379.5,584.7L407.6,568.4C328,428.8 286.2,257.4 343,221.2L326.8,193.2Z"/>
+
+    <path android:fillColor="#F9CB52" android:pathData="M326.8,828.3C255.3,784.1 279.3,610.3 379.5,436.9L407.6,453.1C327.6,593.2 285.8,764.2 343,800.3L326.8,828.3Z"/>
+
+    <path android:fillColor="#F4A73E" android:pathData="M322.7,195.2C397,155.5 535.5,263.1 635.3,436.5L607.3,452.7C526.1,313.8 398.6,192 338.9,223.3L322.7,195.2Z"/>
+
+    <path android:fillColor="#E88634" android:pathData="M874.9,510C872.4,425.9 709.6,359.7 509.5,359.7V392.2C670.7,393 839.6,442.6 842.4,510H874.9Z"/>
+
+    <path android:fillColor="#F9CB52" android:pathData="M323.5,828.8C323.9,829.2 324.3,829.2 324.7,829.6C398.2,872.2 538.3,764.2 639.4,589.2L611.4,572.5C529.8,713 400.7,835.7 341.4,801.5C341,801.1 340.2,800.7 339.8,800.3L323.5,828.8Z"/>
+
+    <path android:fillColor="#F4A73E" android:pathData="M692.2,826.3C617.9,866.1 479.4,758.5 379.5,585.1L378.3,583.5L405.9,566.4C487.1,706.5 615.4,830 675.5,798.3L692.2,826.3Z"/>
+
+    <path android:fillColor="#E88634" android:pathData="M874.9,505.9V507.9C874.9,592.8 711.3,660.2 509.5,660.2V627.7C671.9,626.9 842.4,576.6 842.4,508.3V505.9H874.9Z"/>
+
+    <path android:fillColor="#F4A73E" android:pathData="M689.7,828.3C761.2,784.1 737.2,610.3 637,436.9L635.3,433.6L606.9,449.1V449.5C688.1,590 730.7,763 673.9,799.9L689.7,828.3Z"/>
+
+    <path android:fillColor="#F9CB52" android:pathData="M687.3,198.1C759.2,241.5 737.6,415.4 639.8,590.4L611.4,574.5C689.3,433.2 729.1,261.8 671.1,226.5C671.5,226.5 687.3,198.1 687.3,198.1Z"/>
+
+    <path android:fillColor="#F4A73E" android:pathData="M541.1,544.5C540.7,533.1 536.3,524.2 531.4,516.5C532.2,520.5 531.4,526.2 530.2,529.1C515.6,512.8 516,506.3 514.7,488C504.6,498.6 488,523.8 488,542.9C488,553 491.6,566.4 506.2,572.5C508.7,573.3 511.5,573.7 513.9,573.7C516.8,573.7 519.2,573.3 522.1,572.5C532.2,568.9 541.1,556.7 541.1,544.5Z"/>
+
+    <path android:fillColor="#F9CB52" android:pathData="M531.4,552.6C529.8,546.5 525.7,542.1 521.7,538.4C522.9,540.4 523.3,543.7 522.9,545.7C512.3,538.8 511.5,535.1 508.3,525C504.2,532.3 498.5,549 501.4,559.5C503,565.2 506.6,572.1 516,573.3C517.6,573.3 519.2,573.3 520.4,572.9C522.1,572.5 523.3,571.7 524.5,570.9C530.2,567.6 533.4,559.5 531.4,552.6Z"/>
+
+    <path android:fillColor="#E88634" android:pathData="M535.9,473.4C536.7,476.7 537.1,481.1 537.9,485.6C539.1,493.7 539.5,501.8 538.7,505.5C534.6,488.9 526.1,481.1 519.2,471.4C513.5,463.7 508.7,454.3 508.7,437.7C483.5,467.7 480.6,492.1 478.6,505.5C477.4,499.8 479.8,481.9 481.5,473C481.5,473 463.2,496.2 463.2,529.1C463.2,552.6 479.4,572.5 506.2,572.5C491.6,566.4 488,553 488,542.9C488,523.4 504.2,498.2 514.7,488C516,506.3 516,512.8 530.2,529.1C531.4,525.8 532.2,520.5 531.4,516.5C536.7,524.2 541.1,533.1 541.1,544.5C541.5,556.7 532.2,569.3 522.1,572.5C531.4,571.3 553.7,556.3 555.8,529.1C558.2,496.2 535.9,473.4 535.9,473.4Z"/>
+
+</vector>

@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 5,
+  "uuid": "54F743D1-03D4-4CF6-A126-92A9C5ED8041",
+  "iconId": "ic_lib_huawei_cann",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Ascend CANN",
+        "dev_team": "HUAWEI",
+        "rule_contributors": [
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "ArcticFoxPro"
+        ],
+        "description": "CANN（Compute Architecture for Neural Networks）是华为针对 AI 场景推出的异构计算架构，对上支持多种 AI 框架，对下服务 AI 处理器与编程，发挥承上启下的关键作用，是提升昇腾 AI 处理器计算效率的关键平台。",
+        "source_link": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Ascend CANN",
+        "dev_team": "HUAWEI",
+        "rule_contributors": [
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "ArcticFoxPro"
+        ],
+        "description": "CANN (Compute Architecture for Neural Networks) is a heterogeneous computing architecture introduced by Huawei for AI scenarios. It supports multiple AI frameworks at the upper layer and serves AI processors and programming at the lower layer, playing a key bridging role. It is a critical platform for improving the computing efficiency of Ascend AI processors.",
+        "source_link": "https://developer.huawei.com/consumer/cn/hiai#Foundation"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1448,
+      "type": 0,
+      "name": "libai_fmk_dnnacl.so",
+      "mode": "exact",
+      "priority": 1448,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libai_fmk_dnnacl.so.json",
+      "examples": {
+        "positive": [
+          "libai_fmk_dnnacl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1450,
+      "type": 0,
+      "name": "libcpucl.so",
+      "mode": "exact",
+      "priority": 1450,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcpucl.so.json",
+      "examples": {
+        "positive": [
+          "libcpucl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1451,
+      "type": 0,
+      "name": "libhiai.so",
+      "mode": "exact",
+      "priority": 1451,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai.so.json",
+      "examples": {
+        "positive": [
+          "libhiai.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1452,
+      "type": 0,
+      "name": "libhiai_c_def.so",
+      "mode": "exact",
+      "priority": 1452,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_c_def.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_c_def.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1453,
+      "type": 0,
+      "name": "libhiai_debugger.so",
+      "mode": "exact",
+      "priority": 1453,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_debugger.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_debugger.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1454,
+      "type": 0,
+      "name": "libhiai_hcl_model_runtime.so",
+      "mode": "exact",
+      "priority": 1454,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_hcl_model_runtime.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_hcl_model_runtime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1455,
+      "type": 0,
+      "name": "libhiai_ir.so",
+      "mode": "exact",
+      "priority": 1455,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_ir.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_ir.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1456,
+      "type": 0,
+      "name": "libhiai_ir_build.so",
+      "mode": "exact",
+      "priority": 1456,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_ir_build.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_ir_build.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1457,
+      "type": 0,
+      "name": "libhiai_ir_build_aipp.so",
+      "mode": "exact",
+      "priority": 1457,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_ir_build_aipp.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_ir_build_aipp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1458,
+      "type": 0,
+      "name": "libhiai_ir_infershape.so",
+      "mode": "exact",
+      "priority": 1458,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_ir_infershape.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_ir_infershape.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1459,
+      "type": 0,
+      "name": "libhiai_model_compatible.so",
+      "mode": "exact",
+      "priority": 1459,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_model_compatible.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_model_compatible.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1469,
+      "type": 0,
+      "name": "libmodelcrypto.so",
+      "mode": "exact",
+      "priority": 1469,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmodelcrypto.so.json",
+      "examples": {
+        "positive": [
+          "libmodelcrypto.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1775,
+      "type": 0,
+      "name": "libhiai_enhance.so",
+      "mode": "exact",
+      "priority": 1775,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_enhance.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_enhance.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2025,
+      "type": 0,
+      "name": "libhiai_binary_model_runtime.so",
+      "mode": "exact",
+      "priority": 2025,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_binary_model_runtime.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_binary_model_runtime.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2198,
+      "type": 0,
+      "name": "libHiAI_dl.so",
+      "mode": "exact",
+      "priority": 2198,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libHiAI_dl.so.json",
+      "examples": {
+        "positive": [
+          "libHiAI_dl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2539,
+      "type": 0,
+      "name": "libhiai_aar_adapter.so",
+      "mode": "exact",
+      "priority": 2539,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_aar_adapter.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_aar_adapter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2540,
+      "type": 0,
+      "name": "libhiai_v1cl.so",
+      "mode": "exact",
+      "priority": 2540,
+      "label": "Ascend CANN",
+      "iconId": "ic_lib_huawei_cann",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhiai_v1cl.so.json",
+      "examples": {
+        "positive": [
+          "libhiai_v1cl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

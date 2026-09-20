@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3E968304-E256-475E-AE5A-74A31E6C5461",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "QmBlur",
+        "dev_team": "QmDeve",
+        "rule_contributors": [
+          "QmDeve"
+        ],
+        "description": "一个 Android UI 组件库，提供实时、动态的高斯模糊效果。它使用原生 C++ 代码进行高效模糊处理，并提供一组模糊 UI 组件来增强你的应用设计。",
+        "source_link": "https://blurview.qmdeve.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "QmBlur",
+        "dev_team": "QmDeve",
+        "rule_contributors": [
+          "QmDeve"
+        ],
+        "description": "The Android QmBlurView library provides a high-performance blur implementation, compatible with Android 5.0+.",
+        "source_link": "https://blurview.qmdeve.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2629,
+      "type": 0,
+      "name": "libQmBlur.so",
+      "mode": "exact",
+      "priority": 2629,
+      "label": "QmBlur",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libQmBlur.so.json",
+      "examples": {
+        "positive": [
+          "libQmBlur.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

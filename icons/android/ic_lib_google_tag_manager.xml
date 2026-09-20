@@ -1,0 +1,32 @@
+<!--
+  ~ Copyright (C) 2026 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:viewportHeight="1024" android:viewportWidth="1024" android:width="24dp">
+
+    <group>
+
+        <clip-path android:pathData="M112,112h800v800h-800z"/>
+
+        <path android:fillColor="#8AB4F8" android:pathData="M581.6,881.6L442.7,742.5L741.1,441.1L882.5,582.6L581.6,881.6Z"/>
+
+        <path android:fillColor="#4285F4" android:pathData="M582.6,282.7L441.2,141.3L141.4,441.1C132.1,450.4 124.7,461.4 119.7,473.6C114.6,485.7 112,498.7 112,511.9C112,525 114.6,538 119.7,550.1C124.7,562.3 132.1,573.3 141.4,582.6L441.2,882.4L579.9,743L353.3,512L582.6,282.7Z"/>
+
+        <path android:fillColor="#8AB4F8" android:pathData="M882.5,441.1L582.6,141.3C563.9,122.5 538.4,112 511.9,112C485.4,112 460,122.5 441.2,141.3C422.5,160 411.9,185.5 411.9,212C411.9,238.5 422.5,264 441.2,282.7L741.2,582.6C760,601.3 785.4,611.9 811.9,611.9C838.5,611.9 863.9,601.3 882.7,582.6C901.4,563.8 912,538.4 912,511.9C912,485.3 901.4,459.9 882.7,441.1H882.5Z"/>
+
+        <path android:fillColor="#246FDB" android:pathData="M610,812.9C610,839.2 599.6,864.4 581,883C562.4,901.6 537.2,912 510.9,912C484.6,912 459.4,901.6 440.8,883C422.2,864.4 411.8,839.2 411.8,812.9C411.8,786.6 422.2,761.4 440.8,742.8C459.4,724.2 484.6,713.8 510.9,713.8C537.2,713.8 562.4,724.2 581,742.8C599.6,761.4 610,786.6 610,812.9Z"/>
+
+    </group>
+
+</vector>

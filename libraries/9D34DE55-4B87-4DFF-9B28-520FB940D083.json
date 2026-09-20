@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9D34DE55-4B87-4DFF-9B28-520FB940D083",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MTDataFilesProvider",
+        "dev_team": "L-JINBIN",
+        "rule_contributors": [
+          "ByUsi-link"
+        ],
+        "description": "为您自己开发的应用快速注入 MT 的文件提供器，无需 ROOT 即可在手机上管理此应用的私有目录文件。",
+        "source_link": "https://github.com/L-JINBIN/MTDataFilesProvider"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MTDataFilesProvider",
+        "dev_team": "L-JINBIN",
+        "rule_contributors": [
+          "ByUsi-link"
+        ],
+        "description": "Quickly inject the MT file provider into your self-developed application, allowing you to manage the app's private directory files on the phone without ROOT access.",
+        "source_link": "https://github.com/L-JINBIN/MTDataFilesProvider"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2595,
+      "type": 2,
+      "name": "bin.mt.file.content.MTDataFilesWakeUpActivity",
+      "mode": "exact",
+      "priority": 2595,
+      "label": "MTDataFilesProvider",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/bin/mt/file/content/MTDataFilesWakeUpActivity.json",
+      "examples": {
+        "positive": [
+          "bin.mt.file.content.MTDataFilesWakeUpActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2684,
+      "type": 4,
+      "name": "bin.mt.file.content.MTDataFilesProvider",
+      "mode": "exact",
+      "priority": 2684,
+      "label": "MTDataFilesProvider",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/bin/mt/file/content/MTDataFilesProvider.json",
+      "examples": {
+        "positive": [
+          "bin.mt.file.content.MTDataFilesProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

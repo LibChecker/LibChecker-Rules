@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 5,
+  "uuid": "105C339E-D88A-4059-A7D3-1EF735754F8A",
+  "iconId": "ic_lib_chromium",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Cronet",
+        "dev_team": "Chromium",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Cronet 是 Chromium 网络堆栈，可作为库提供给 Android 应用。Cronet 利用多种技术来减少延迟并提高应用正常运行所需的网络请求吞吐量。",
+        "source_link": "https://developer.android.google.cn/guide/topics/connectivity/cronet/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Cronet",
+        "dev_team": "Chromium",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Cronet is the Chromium network stack provided as a library for Android applications. Cronet utilizes multiple technologies to reduce latency and improve the throughput of network requests necessary for the normal operation of applications.",
+        "source_link": "https://developer.android.google.cn/guide/topics/connectivity/cronet/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 169,
+      "type": 0,
+      "name": "libcronet\\.(.*)\\.so",
+      "mode": "regex",
+      "priority": 169,
+      "label": "Cronet",
+      "iconId": "ic_lib_chromium",
+      "regexName": "regex_cronet",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_cronet.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2258,
+      "type": 0,
+      "name": "libsscronet.so",
+      "mode": "exact",
+      "priority": 2258,
+      "label": "Cronet",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsscronet.so.json",
+      "examples": {
+        "positive": [
+          "libsscronet.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2280,
+      "type": 1,
+      "name": "android.net.http.MetaDataHolder",
+      "mode": "exact",
+      "priority": 2280,
+      "label": "Cronet",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/android/net/http/MetadataHolder.json",
+      "examples": {
+        "positive": [
+          "android.net.http.MetaDataHolder"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

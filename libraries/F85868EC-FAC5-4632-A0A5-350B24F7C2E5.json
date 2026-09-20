@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F85868EC-FAC5-4632-A0A5-350B24F7C2E5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "U4 内核",
+        "dev_team": "UC",
+        "rule_contributors": [
+          "velazquezamalia"
+        ],
+        "description": "U4 内核内核是 UC 自研，并与最新 UC 浏览器同款的移动浏览器内核，其具有强大的 webview 能力，让用户获得畅快的 H5 体验。轻量的接入 SDK、稳定的性能以及完备的功能，让合作伙伴在快速嵌入 UC 浏览器内核后，为 app 获得更稳定、更安全、更顺畅的浏览体验。",
+        "source_link": "https://www.open-uc.cn/solution/u4"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "U4 内核",
+        "dev_team": "UC",
+        "rule_contributors": [
+          "velazquezamalia"
+        ],
+        "description": "The U4 Kernel is UC’s self-developed mobile browser engine, the same as the latest UC Browser version. It offers powerful WebView capabilities for a smooth H5 experience. With its lightweight SDK, stable performance, and complete features, partners can quickly integrate the UC Browser engine to deliver a more stable, secure, and smooth browsing experience in their apps.",
+        "source_link": "https://www.open-uc.cn/solution/u4"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2428,
+      "type": 0,
+      "name": "libkernelu4_7z_uc.so",
+      "mode": "exact",
+      "priority": 2428,
+      "label": "U4 内核",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkernelu4_7z_uc.so.json",
+      "examples": {
+        "positive": [
+          "libkernelu4_7z_uc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

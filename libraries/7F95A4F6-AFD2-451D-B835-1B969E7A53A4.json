@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7F95A4F6-AFD2-451D-B835-1B969E7A53A4",
+  "iconId": "ic_lib_xiaomi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MiPush",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+        "source_link": "https://dev.mi.com/console/appservice/push.html/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MiPush",
+        "dev_team": "Xiaomi",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
+        "source_link": "https://dev.mi.com/console/appservice/push.html/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 183,
+      "type": 1,
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "mode": "exact",
+      "priority": 183,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/xiaomi/mipush/sdk/MessageHandleService.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.mipush.sdk.MessageHandleService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 184,
+      "type": 1,
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "mode": "exact",
+      "priority": 184,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/xiaomi/mipush/sdk/PushMessageHandler.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.mipush.sdk.PushMessageHandler"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 194,
+      "type": 1,
+      "name": "com.xiaomi.push.service.XMJobService",
+      "mode": "exact",
+      "priority": 194,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/xiaomi/push/service/XMJobService.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.push.service.XMJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 242,
+      "type": 1,
+      "name": "com.xiaomi.push.service.XMPushService",
+      "mode": "exact",
+      "priority": 242,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/xiaomi/push/service/XMPushService.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.push.service.XMPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 385,
+      "type": 3,
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "mode": "exact",
+      "priority": 385,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/xiaomi/push/service/receivers/NetworkStatusReceiver.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 421,
+      "type": 3,
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "mode": "exact",
+      "priority": 421,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/xiaomi/push/service/receivers/PingReceiver.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.push.service.receivers.PingReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1021,
+      "type": 2,
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "mode": "exact",
+      "priority": 1021,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/xiaomi/mipush/sdk/NotificationClickedActivity.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.mipush.sdk.NotificationClickedActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2369,
+      "type": 9,
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "mode": "exact",
+      "priority": 2369,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.xiaomi.mipush.sdk.NotificationClickedActivity.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.mipush.sdk.NotificationClickedActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2370,
+      "type": 9,
+      "name": "com.xiaomi.push.PING_TIMER",
+      "mode": "exact",
+      "priority": 2370,
+      "label": "MiPush",
+      "iconId": "ic_lib_xiaomi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.xiaomi.push.PING_TIMER.json",
+      "examples": {
+        "positive": [
+          "com.xiaomi.push.PING_TIMER"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "actions-libs/com.xiaomi.mipush.ERROR.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "MiPush",
+              "dev_team": "Xiaomi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "MiPush",
+              "dev_team": "Xiaomi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
+              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+          }
+        ],
+        "uuid": "7F95A4F6-AFD2-451D-B835-1B969E7A53A4"
+      }
+    },
+    {
+      "path": "actions-libs/com.xiaomi.mipush.MESSAGE_ARRIVED.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "MiPush",
+              "dev_team": "Xiaomi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "MiPush",
+              "dev_team": "Xiaomi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
+              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+          }
+        ],
+        "uuid": "7F95A4F6-AFD2-451D-B835-1B969E7A53A4"
+      }
+    },
+    {
+      "path": "actions-libs/com.xiaomi.mipush.RECEIVE_MESSAGE.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "MiPush",
+              "dev_team": "Xiaomi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
+              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "MiPush",
+              "dev_team": "Xiaomi",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
+              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+            }
+          }
+        ],
+        "uuid": "7F95A4F6-AFD2-451D-B835-1B969E7A53A4"
+      }
+    }
+  ]
+}

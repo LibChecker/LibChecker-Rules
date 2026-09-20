@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "06BAFCAF-8C52-493B-BEBF-DC4996CD103B",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PuerTS",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "chang-sheng-bu-lao"
+        ],
+        "description": "PuerTS 是 Unity/Unreal/Dotnet 下的 TypeScript 编程解决方案，提供了一个 JavaScript 运行时，并提供 TypeScript 声明文件生成能力，易于通过 TypeScript 访问宿主引擎。",
+        "source_link": "https://github.com/Tencent/puerts"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PuerTS",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "chang-sheng-bu-lao"
+        ],
+        "description": "PuerTS is a TypeScript programming solution for Unity/Unreal/Dotnet. It provides a JavaScript runtime and TypeScript declaration file generation capabilities, enabling easy access to the host engine via TypeScript.",
+        "source_link": "https://github.com/Tencent/puerts"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2657,
+      "type": 0,
+      "name": "libpuerts.so",
+      "mode": "exact",
+      "priority": 2657,
+      "label": "PuerTS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpuerts.so.json",
+      "examples": {
+        "positive": [
+          "libpuerts.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

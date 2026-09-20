@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "51A3D61E-5A43-48A2-B4E3-4A4C2E36393F",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HMS Core AAID",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "华为推送服务开放能力合集提供的匿名设备标识(AAID) 实体类与令牌实体类包。异步方式获取的 AAID 与令牌通过此包中对应的类承载返回。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-References/push-aaid-entity-pkg"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HMS Core AAID",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Huawei Push Service Open Capability Collection provides anonymous device identifiers (AAID) entity class and token entity class package. The AAID and token obtained asynchronously are carried back through the corresponding classes in this package.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-References/push-aaid-entity-pkg"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 462,
+      "type": 4,
+      "name": "com.huawei.hms.aaid.InitProvider",
+      "mode": "exact",
+      "priority": 462,
+      "label": "HMS Core AAID",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/hms/aaid/InitProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.aaid.InitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

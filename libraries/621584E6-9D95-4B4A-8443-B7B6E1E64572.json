@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 5,
+  "uuid": "621584E6-9D95-4B4A-8443-B7B6E1E64572",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libYUV",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "d1y",
+          "WOLFRAZOR",
+          "crrashh1542"
+        ],
+        "description": "libYUV 是 Google 开源的 yuv 图像处理库，实现对各种 yuv 数据之间的转换，包括数据转换，裁剪，缩放，旋转。",
+        "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libYUV",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "d1y",
+          "WOLFRAZOR",
+          "crrashh1542"
+        ],
+        "description": "libYUV is Google's open-source YUV image processing library, implementing conversion between various YUV data, including data conversion, cropping, scaling, and rotation.",
+        "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 121,
+      "type": 0,
+      "name": "libYUV.so",
+      "mode": "exact",
+      "priority": 121,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyuv.so.json",
+      "examples": {
+        "positive": [
+          "libYUV.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 127,
+      "type": 0,
+      "name": "libyuv.so",
+      "mode": "exact",
+      "priority": 127,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyuv.so.json",
+      "examples": {
+        "positive": [
+          "libyuv.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1130,
+      "type": 0,
+      "name": "libYUVDecoder.so",
+      "mode": "exact",
+      "priority": 1130,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libYUVDecoder.so.json",
+      "examples": {
+        "positive": [
+          "libYUVDecoder.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1131,
+      "type": 0,
+      "name": "libyuv-decoder.so",
+      "mode": "exact",
+      "priority": 1131,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyuv-decoder.so.json",
+      "examples": {
+        "positive": [
+          "libyuv-decoder.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2272,
+      "type": 0,
+      "name": "libyuv_android.so",
+      "mode": "exact",
+      "priority": 2272,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyuv_android.so.json",
+      "examples": {
+        "positive": [
+          "libyuv_android.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2273,
+      "type": 0,
+      "name": "libyuvutil.so",
+      "mode": "exact",
+      "priority": 2273,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyuvutil.so.json",
+      "examples": {
+        "positive": [
+          "libyuvutil.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2821,
+      "type": 0,
+      "name": "libjni_libyuv.so",
+      "mode": "exact",
+      "priority": 2821,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjni_libyuv.so.json",
+      "examples": {
+        "positive": [
+          "libjni_libyuv.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2845,
+      "type": 0,
+      "name": "libyuv_shared.so",
+      "mode": "exact",
+      "priority": 2845,
+      "label": "libYUV",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyuv_shared.so.json",
+      "examples": {
+        "positive": [
+          "libyuv_shared.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

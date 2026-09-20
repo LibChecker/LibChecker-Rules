@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C93E92E4-9E48-5396-B0BC-5CF7EAE45E96",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 506,
+      "type": 5,
+      "name": "androidx.viewpager",
+      "mode": "exact",
+      "priority": 506,
+      "label": "Jetpack ViewPager",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.viewpager"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

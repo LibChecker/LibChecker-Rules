@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CD33B7D3-71A4-45F9-89E5-619B033ACD16",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android Beacon Library",
+        "dev_team": "AltBeacon",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "一个提供与信标交互的 API 的 Android 库。",
+        "source_link": "https://github.com/AltBeacon/android-beacon-library"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android Beacon Library",
+        "dev_team": "AltBeacon",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "An Android library providing APIs to interact with beacons.",
+        "source_link": "https://github.com/AltBeacon/android-beacon-library"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1353,
+      "type": 1,
+      "name": "org.altbeacon.beacon.service.ScanJob",
+      "mode": "exact",
+      "priority": 1353,
+      "label": "Android Beacon Library",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/altbeacon/beacon/service/ScanJob.json",
+      "examples": {
+        "positive": [
+          "org.altbeacon.beacon.service.ScanJob"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1354,
+      "type": 1,
+      "name": "org.altbeacon.beacon.BeaconIntentProcessor",
+      "mode": "exact",
+      "priority": 1354,
+      "label": "Android Beacon Library",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/altbeacon/beacon/BeaconIntentProcessor.json",
+      "examples": {
+        "positive": [
+          "org.altbeacon.beacon.BeaconIntentProcessor"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1355,
+      "type": 1,
+      "name": "org.altbeacon.bluetooth.BluetoothTestJob",
+      "mode": "exact",
+      "priority": 1355,
+      "label": "Android Beacon Library",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/altbeacon/bluetooth/BluetoothTestJob.json",
+      "examples": {
+        "positive": [
+          "org.altbeacon.bluetooth.BluetoothTestJob"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1356,
+      "type": 1,
+      "name": "org.altbeacon.beacon.service.BeaconService",
+      "mode": "exact",
+      "priority": 1356,
+      "label": "Android Beacon Library",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/altbeacon/beacon/service/BeaconService.json",
+      "examples": {
+        "positive": [
+          "org.altbeacon.beacon.service.BeaconService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1357,
+      "type": 3,
+      "name": "org.altbeacon.beacon.startup.StartupBroadcastReceiver",
+      "mode": "exact",
+      "priority": 1357,
+      "label": "Android Beacon Library",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/org/altbeacon/beacon/startup/StartupBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "org.altbeacon.beacon.startup.StartupBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

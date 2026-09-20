@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1681548C-A280-472E-9303-159A5E75C278",
+  "iconId": "ic_lib_chromium",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libmonochrome",
+        "dev_team": "Chromium",
+        "rule_contributors": [
+          "lifansama"
+        ],
+        "description": "Monochrome 的目的是消除 32 位 Chrome 和 Webview 库之间的重复（大部分库是相同的）。在 32 位 Monochrome 中，单个组合库同时满足 Chrome 和 Webview 的需求。64 位版本增加了一个仅限 Webview 的库。",
+        "source_link": "https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/android_native_libraries.md"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libmonochrome",
+        "dev_team": "Chromium",
+        "rule_contributors": [
+          "lifansama"
+        ],
+        "description": "Monochrome's intent was to eliminate the duplication between the 32-bit Chrome and Webview libraries (most of the library is identical). In 32-bit Monochrome, a single combined library serves both Chrome and Webview needs. The 64-bit version adds an extra Webview-only library.",
+        "source_link": "https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/android_native_libraries.md"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1167,
+      "type": 0,
+      "name": "libmonochrome_64.so",
+      "mode": "exact",
+      "priority": 1167,
+      "label": "libmonochrome",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmonochrome_64.so.json",
+      "examples": {
+        "positive": [
+          "libmonochrome_64.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

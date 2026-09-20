@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "09D0DE2C-5866-4F23-B42D-5C66E876A3AD",
+  "iconId": "ic_lib_douyin",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "抖音 SDK",
+        "dev_team": "Douyin",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "抖音开放平台 SDK 目前提供了抖音登录 & 授权以及分享至抖音的基本能力。您可以通过接入抖音开放平台 SDK 来使用抖音授权登录您的应用或者分享图片或视频到抖音。",
+        "source_link": "https://open.douyin.com/platform/doc/6850360698271238152"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Douyin SDK",
+        "dev_team": "Douyin",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Douyin Open Platform SDK currently provides basic capabilities for Douyin login & authorization and sharing to Douyin. You can use the Douyin Open Platform SDK to log in to your application with Douyin authorization or share images or videos to Douyin.",
+        "source_link": "https://open.douyin.com/platform/doc/6850360698271238152"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 848,
+      "type": 2,
+      "name": "com.bytedance.sdk.open.douyin.ui.DouYinWebAuthorizeActivity",
+      "mode": "exact",
+      "priority": 848,
+      "label": "抖音 SDK",
+      "iconId": "ic_lib_douyin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/sdk/open/douyin/ui/DouYinWebAuthorizeActivity.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.sdk.open.douyin.ui.DouYinWebAuthorizeActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A668BF64-C8D9-4CE6-A94E-CD1FF857C99E",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "android-tree-sitter",
+        "dev_team": "AndroidIDEOfficial",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "用于 tree-sitter 的 Android Java 绑定。目前用于 AndroidIDE 和 sora-editor。",
+        "source_link": "https://github.com/AndroidIDEOfficial/android-tree-sitter"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "android-tree-sitter",
+        "dev_team": "AndroidIDEOfficial",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Android Java bindings for tree-sitter. Currently used in AndroidIDE and sora-editor.",
+        "source_link": "https://github.com/AndroidIDEOfficial/android-tree-sitter"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1924,
+      "type": 0,
+      "name": "libandroid-tree-sitter.so",
+      "mode": "exact",
+      "priority": 1924,
+      "label": "android-tree-sitter",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroid-tree-sitter.so.json",
+      "examples": {
+        "positive": [
+          "libandroid-tree-sitter.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

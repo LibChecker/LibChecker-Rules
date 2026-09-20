@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8DB2576B-2109-4C16-8065-A7CD7EE17A73",
+  "iconId": "ic_lib_cmcc",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "移动号码认证",
+        "dev_team": "中国移动",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "号码认证能力提供一键登录、本机号码校验服务。",
+        "source_link": "https://dev.10086.cn/docInside?contentId=10000067529678"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mobile Number Authentication",
+        "dev_team": "中国移动",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Number authentication capability provides one-click login and local number verification services.",
+        "source_link": "https://dev.10086.cn/docInside?contentId=10000067529678"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 310,
+      "type": 2,
+      "name": "com.cmic.sso.sdk.activity.LoginAuthActivity",
+      "mode": "exact",
+      "priority": 310,
+      "label": "移动号码认证",
+      "iconId": "ic_lib_cmcc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/cmic/sso/sdk/activity/LoginAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.cmic.sso.sdk.activity.LoginAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 966,
+      "type": 2,
+      "name": "com.cmic.sso.sdk.view.LoginAuthActivity",
+      "mode": "exact",
+      "priority": 966,
+      "label": "移动号码认证",
+      "iconId": "ic_lib_cmcc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/cmic/sso/sdk/view/LoginAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.cmic.sso.sdk.view.LoginAuthActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1591,
+      "type": 2,
+      "name": "com.cmic.gen.sdk.view.GenLoginAuthActivity",
+      "mode": "exact",
+      "priority": 1591,
+      "label": "移动号码认证",
+      "iconId": "ic_lib_cmcc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/cmic/gen/sdk/view/GenLoginAuthActivity.json",
+      "examples": {
+        "positive": [
+          "com.cmic.gen.sdk.view.GenLoginAuthActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

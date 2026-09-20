@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "52E43EAA-1603-443A-8DFC-2B8C35C69BC8",
+  "iconId": "ic_lib_lua",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndroLua",
+        "dev_team": "mkottman",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "AndroLua 是基于 LuaJava 开发的安卓平台轻量级脚本编程语言工具，既具有 Lua 简洁优雅的特质，又支持绝大部分安卓 API，可以使你在手机上快速编写小型应用。",
+        "source_link": "https://github.com/mkottman/AndroLua/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndroLua",
+        "dev_team": "mkottman",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "AndroLua is a lightweight scripting language tool for the Android platform developed based on LuaJava, featuring the simplicity and elegance of Lua while supporting most Android APIs, enabling you to quickly write small applications on your phone.",
+        "source_link": "https://github.com/mkottman/AndroLua/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 33,
+      "type": 0,
+      "name": "libluajava.so",
+      "mode": "exact",
+      "priority": 33,
+      "label": "AndroLua",
+      "iconId": "ic_lib_lua",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libluajava.so.json",
+      "examples": {
+        "positive": [
+          "libluajava.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

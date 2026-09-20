@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8369CDF8-A953-4BEE-B16C-1C7660F20AA7",
+  "iconId": "ic_lib_live2d",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Live2D Cubism SDK",
+        "dev_team": "Live2D",
+        "rule_contributors": [
+          "MeowHCO3"
+        ],
+        "description": "Cubism SDK 是在用户 APP 上使用通过 Live2D Cubism Editor 制作的模型所需的软件开发组套件。",
+        "source_link": "https://docs.live2d.com/cubism-sdk-manual/top/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Live2D Cubism SDK",
+        "dev_team": "Live2D",
+        "rule_contributors": [
+          "MeowHCO3"
+        ],
+        "description": "Cubism SDK is a software development kit required to use models created with the Live2D Cubism Editor in user applications.",
+        "source_link": "https://docs.live2d.com/cubism-sdk-manual/top/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 776,
+      "type": 0,
+      "name": "libLive2DCubismCore.so",
+      "mode": "exact",
+      "priority": 776,
+      "label": "Live2D Cubism SDK",
+      "iconId": "ic_lib_live2d",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libLive2DCubismCore.so.json",
+      "examples": {
+        "positive": [
+          "libLive2DCubismCore.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CA7554FE-E14B-5D5D-8B9E-D08F9F8FCC56",
+  "iconId": "ic_lib_weibo",
+  "data": [],
+  "matchers": [
+    {
+      "id": 520,
+      "type": 5,
+      "name": "com.sina.weibo",
+      "mode": "exact",
+      "priority": 520,
+      "label": "微博 SDK",
+      "iconId": "ic_lib_weibo",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.sina.weibo"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8CA9C530-AE06-41E5-A15B-C1859EBE6467",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "tun2proxy",
+        "dev_team": "tun2proxy",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "tun2proxy 是一个可在 Linux、Android、macOS、iOS 和 Windows 平台上运行的 HTTP 和 SOCKS 代理隧道接口。",
+        "source_link": "https://github.com/tun2proxy/tun2proxy"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "tun2proxy",
+        "dev_team": "tun2proxy",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "tun2proxy is a tunneling interface for HTTP and SOCKS proxies compatible with Linux, Android, macOS, iOS, and Windows platforms.",
+        "source_link": "https://github.com/tun2proxy/tun2proxy"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2674,
+      "type": 0,
+      "name": "libtun2proxy.so",
+      "mode": "exact",
+      "priority": 2674,
+      "label": "tun2proxy",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtun2proxy.so.json",
+      "examples": {
+        "positive": [
+          "libtun2proxy.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

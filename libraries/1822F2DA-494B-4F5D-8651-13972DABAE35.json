@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1822F2DA-494B-4F5D-8651-13972DABAE35",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "angle",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ANGLE - 几乎原生的图形层引擎。",
+        "source_link": "https://github.com/google/angle"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "angle",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ANGLE - Almost Native Graphics Layer Engine.",
+        "source_link": "https://github.com/google/angle"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1809,
+      "type": 0,
+      "name": "libEGL_angle.so",
+      "mode": "exact",
+      "priority": 1809,
+      "label": "angle",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libEGL_angle.so.json",
+      "examples": {
+        "positive": [
+          "libEGL_angle.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1810,
+      "type": 0,
+      "name": "libGLESv1_CM_angle.so",
+      "mode": "exact",
+      "priority": 1810,
+      "label": "angle",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGLESv1_CM_angle.so.json",
+      "examples": {
+        "positive": [
+          "libGLESv1_CM_angle.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1811,
+      "type": 0,
+      "name": "libGLESv2_angle.so",
+      "mode": "exact",
+      "priority": 1811,
+      "label": "angle",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGLESv2_angle.so.json",
+      "examples": {
+        "positive": [
+          "libGLESv2_angle.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

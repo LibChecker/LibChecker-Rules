@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "07051EC8-DA7A-4835-8FC0-9DCDC023F995",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "EasyPermissions",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "EasyPermissions 是一个包装器库，用于简化针对 Android M 或更高版本的基本系统权限逻辑。",
+        "source_link": "https://github.com/googlesamples/easypermissions"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "EasyPermissions",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "EasyPermissions is a wrapper library to simplify the basic system permissions logic for Android M and above.",
+        "source_link": "https://github.com/googlesamples/easypermissions"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 312,
+      "type": 2,
+      "name": "pub.devrel.easypermissions.AppSettingsDialogHolderActivity",
+      "mode": "exact",
+      "priority": 312,
+      "label": "EasyPermissions",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/pub/devrel/easypermissions/AppSettingsDialogHolderActivity.json",
+      "examples": {
+        "positive": [
+          "pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

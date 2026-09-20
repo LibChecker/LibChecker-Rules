@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C033018D-6D44-4A38-B502-2DEC3466E57D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Izuko",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "由 Absinthe 提供支持。",
+        "source_link": "https://zhaobozhen.github.io/Anywhere-Docs"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Izuko",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Powered by Absinthe.",
+        "source_link": "https://zhaobozhen.github.io/Anywhere-Docs"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1960,
+      "type": 0,
+      "name": "libizuko.so",
+      "mode": "exact",
+      "priority": 1960,
+      "label": "Izuko",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libizuko.so.json",
+      "examples": {
+        "positive": [
+          "libizuko.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

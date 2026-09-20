@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1F5FAAD5-0BA2-4723-ACF2-4478BF1F02FE",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android NDK GIF",
+        "dev_team": "waynejo",
+        "rule_contributors": [
+          "lgc2333"
+        ],
+        "description": "用 ndk 和 gradle 构建的 GIF 库，采用 aar 格式，用于与 Android gradle 构建系统一起使用。",
+        "source_link": "https://github.com/waynejo/android-ndk-gif"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android NDK GIF",
+        "dev_team": "waynejo",
+        "rule_contributors": [
+          "lgc2333"
+        ],
+        "description": "GIF library built with ndk and gradle in aar format for usage with android gradle build system.",
+        "source_link": "https://github.com/waynejo/android-ndk-gif"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1063,
+      "type": 0,
+      "name": "libandroidndkgif.so",
+      "mode": "exact",
+      "priority": 1063,
+      "label": "Android NDK GIF",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroidndkgif.so.json",
+      "examples": {
+        "positive": [
+          "libandroidndkgif.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

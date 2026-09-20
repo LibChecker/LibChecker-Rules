@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D3A7DD55-A0CC-453F-8061-CADCCE16A9C3",
+  "iconId": "ic_lib_clash",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Clash Core",
+        "dev_team": "Dreamacro",
+        "rule_contributors": [
+          "Aoang"
+        ],
+        "description": "用 Go 编写的基于规则的隧道。",
+        "source_link": "https://github.com/Dreamacro/clash"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Clash Core",
+        "dev_team": "Dreamacro",
+        "rule_contributors": [
+          "Aoang"
+        ],
+        "description": "A rule-based tunnel in Go.",
+        "source_link": "https://github.com/Dreamacro/clash"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 807,
+      "type": 0,
+      "name": "libclash.so",
+      "mode": "exact",
+      "priority": 807,
+      "label": "Clash Core",
+      "iconId": "ic_lib_clash",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libclash.so.json",
+      "examples": {
+        "positive": [
+          "libclash.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

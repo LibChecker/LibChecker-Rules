@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4CE2737C-5ACF-5ACD-8BC9-176DD96BB027",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 1209,
+      "type": 4,
+      "name": "libbangcle_risk.so",
+      "mode": "exact",
+      "priority": 1209,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libbangcle_risk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

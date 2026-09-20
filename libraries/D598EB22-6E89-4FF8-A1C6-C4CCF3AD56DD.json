@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D598EB22-6E89-4FF8-A1C6-C4CCF3AD56DD",
+  "iconId": "ic_lib_bilibili",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "IJKPlayer",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe",
+          "crrashh1542"
+        ],
+        "description": "IJKPlayer 是一款基于 FFmpeg 的轻量级 Android/iOS 视频播放器，具有 API 易于集成、编译配置可裁剪、支持硬件加速解码、DanmakuFlameMaster 架构清晰、简单易用等优势。",
+        "source_link": "https://github.com/bilibili/ijkplayer/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "IJKPlayer",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe",
+          "crrashh1542"
+        ],
+        "description": "IJKPlayer is a lightweight Android/iOS video player based on FFmpeg, with advantages such as easy-to-integrate APIs, customizable compile configurations, support for hardware-accelerated decoding, a clear DanmakuFlameMaster architecture, and ease of use.",
+        "source_link": "https://github.com/bilibili/ijkplayer/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 30,
+      "type": 0,
+      "name": "libijkplayer.so",
+      "mode": "exact",
+      "priority": 30,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkplayer.so.json",
+      "examples": {
+        "positive": [
+          "libijkplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 50,
+      "type": 0,
+      "name": "libijkffmpeg.so",
+      "mode": "exact",
+      "priority": 50,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libijkffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 97,
+      "type": 0,
+      "name": "libijksdl.so",
+      "mode": "exact",
+      "priority": 97,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijksdl.so.json",
+      "examples": {
+        "positive": [
+          "libijksdl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 823,
+      "type": 1,
+      "name": "tv.danmaku.ijk.media.player.services.IjkMediaPlayerService",
+      "mode": "exact",
+      "priority": 823,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/tv/danmaku/ijk/media/player/services/IjkMediaPlayerService.json",
+      "examples": {
+        "positive": [
+          "tv.danmaku.ijk.media.player.services.IjkMediaPlayerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 824,
+      "type": 2,
+      "name": "tv.danmaku.ijk.media.player.services.IjkMediaPlayerNoUIActivity",
+      "mode": "exact",
+      "priority": 824,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/tv/danmaku/ijk/media/player/services/IjkMediaPlayerNoUIActivity.json",
+      "examples": {
+        "positive": [
+          "tv.danmaku.ijk.media.player.services.IjkMediaPlayerNoUIActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1963,
+      "type": 0,
+      "name": "libijkffext.so",
+      "mode": "exact",
+      "priority": 1963,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkffext.so.json",
+      "examples": {
+        "positive": [
+          "libijkffext.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2811,
+      "type": 0,
+      "name": "libijkeditor.so",
+      "mode": "exact",
+      "priority": 2811,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkeditor.so.json",
+      "examples": {
+        "positive": [
+          "libijkeditor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2812,
+      "type": 0,
+      "name": "libijkeditor4x.so",
+      "mode": "exact",
+      "priority": 2812,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkeditor4x.so.json",
+      "examples": {
+        "positive": [
+          "libijkeditor4x.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2813,
+      "type": 0,
+      "name": "libijkengine-gif.so",
+      "mode": "exact",
+      "priority": 2813,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkengine-gif.so.json",
+      "examples": {
+        "positive": [
+          "libijkengine-gif.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2814,
+      "type": 0,
+      "name": "libijkengine-gif4x.so",
+      "mode": "exact",
+      "priority": 2814,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkengine-gif4x.so.json",
+      "examples": {
+        "positive": [
+          "libijkengine-gif4x.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2815,
+      "type": 0,
+      "name": "libijkengine-mp3.so",
+      "mode": "exact",
+      "priority": 2815,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkengine-mp3.so.json",
+      "examples": {
+        "positive": [
+          "libijkengine-mp3.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2816,
+      "type": 0,
+      "name": "libijkffmpeg4x.so",
+      "mode": "exact",
+      "priority": 2816,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkffmpeg4x.so.json",
+      "examples": {
+        "positive": [
+          "libijkffmpeg4x.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2817,
+      "type": 0,
+      "name": "libijkmmengine.so",
+      "mode": "exact",
+      "priority": 2817,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkmmengine.so.json",
+      "examples": {
+        "positive": [
+          "libijkmmengine.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2818,
+      "type": 0,
+      "name": "libijkmmengine4x.so",
+      "mode": "exact",
+      "priority": 2818,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkmmengine4x.so.json",
+      "examples": {
+        "positive": [
+          "libijkmmengine4x.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2819,
+      "type": 0,
+      "name": "libijkrecorder.so",
+      "mode": "exact",
+      "priority": 2819,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkrecorder.so.json",
+      "examples": {
+        "positive": [
+          "libijkrecorder.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2820,
+      "type": 0,
+      "name": "libijkrecorder4x.so",
+      "mode": "exact",
+      "priority": 2820,
+      "label": "IJKPlayer",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libijkrecorder4x.so.json",
+      "examples": {
+        "positive": [
+          "libijkrecorder4x.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

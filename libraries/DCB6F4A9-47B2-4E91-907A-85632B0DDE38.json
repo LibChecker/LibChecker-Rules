@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DCB6F4A9-47B2-4E91-907A-85632B0DDE38",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Dobby",
+        "dev_team": "jmpews",
+        "rule_contributors": [
+          "CLOUDERHEM"
+        ],
+        "description": "一个轻量级的、多平台、多架构的 Hook 框架。",
+        "source_link": "https://github.com/jmpews/Dobby"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Dobby",
+        "dev_team": "jmpews",
+        "rule_contributors": [
+          "CLOUDERHEM"
+        ],
+        "description": "a lightweight, multi-platform, multi-architecture hook framework.",
+        "source_link": "https://github.com/jmpews/Dobby"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2536,
+      "type": 0,
+      "name": "libdobby.so",
+      "mode": "exact",
+      "priority": 2536,
+      "label": "Dobby",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdobby.so.json",
+      "examples": {
+        "positive": [
+          "libdobby.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6A182DF7-14B1-4AC9-8747-3DC02153EAE3",
+  "iconId": "ic_lib_gio",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Gio",
+        "dev_team": "Gio",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "Gio是一个用于编写跨平台即时模式GUI的Go语言库。Gio支持所有主要平台：Linux、macOS、Windows、Android、iOS、FreeBSD、OpenBSD和WebAssembly。",
+        "source_link": "https://gioui.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Gio",
+        "dev_team": "Gio",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "Gio is a Go language library for writing cross-platform immediate mode GUIs. Gio supports all major platforms: Linux, macOS, Windows, Android, iOS, FreeBSD, OpenBSD, and WebAssembly.",
+        "source_link": "https://gioui.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1502,
+      "type": 0,
+      "name": "libgio.so",
+      "mode": "exact",
+      "priority": 1502,
+      "label": "Gio",
+      "iconId": "ic_lib_gio",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgio.so.json",
+      "examples": {
+        "positive": [
+          "libgio.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

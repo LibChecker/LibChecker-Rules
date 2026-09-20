@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "79A51827-3838-43F5-8EF6-3BDB6496AC6D",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Camera2",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Camera2 是最新的低级 Android 相机包，取代了已弃用的 Camera 类。Camera2 为复杂的用例提供深入的控制，但需要您管理设备特定的配置。",
+        "source_link": "https://developer.android.com/training/camera2"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Camera2",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Camera2 is the latest low-level Android camera package and replaces the deprecated Camera class. Camera2 provides in-depth controls for complex use cases, but requires you to manage device-specific configurations.",
+        "source_link": "https://developer.android.com/training/camera2"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1088,
+      "type": 4,
+      "name": "androidx.camera.camera2.impl.Camera2Initializer",
+      "mode": "exact",
+      "priority": 1088,
+      "label": "Jetpack Camera2",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/androidx/camera/camera2/impl/Camera2Initializer.json",
+      "examples": {
+        "positive": [
+          "androidx.camera.camera2.impl.Camera2Initializer"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

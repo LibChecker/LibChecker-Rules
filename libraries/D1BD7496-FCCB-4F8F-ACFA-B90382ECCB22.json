@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D1BD7496-FCCB-4F8F-ACFA-B90382ECCB22",
+  "iconId": "ic_lib_rn_firebase",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native Firebase",
+        "dev_team": "Invertase",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native Firebase 是一组官方 React Native 模块，用于连接 Firebase 服务；每个模块都是一个轻量级 JavaScript 层，可连接到适用于 iOS 和 Android 的原生 Firebase SDK。",
+        "source_link": "https://github.com/invertase/react-native-firebase"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native Firebase",
+        "dev_team": "Invertase",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "React Native Firebase is a collection of official React Native modules connecting you to Firebase services; each module is a light-weight JavaScript layer connecting you to the native Firebase SDKs for both iOS and Android.",
+        "source_link": "https://github.com/invertase/react-native-firebase"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2856,
+      "type": 4,
+      "name": "io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider",
+      "mode": "exact",
+      "priority": 2856,
+      "label": "React Native Firebase",
+      "iconId": "ic_lib_rn_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/invertase/firebase/app/ReactNativeFirebaseAppInitProvider.json",
+      "examples": {
+        "positive": [
+          "io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2857,
+      "type": 4,
+      "name": "io.invertase.firebase.appcheck.ReactNativeFirebaseAppCheckProvider",
+      "mode": "exact",
+      "priority": 2857,
+      "label": "React Native Firebase",
+      "iconId": "ic_lib_rn_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/invertase/firebase/appcheck/ReactNativeFirebaseAppCheckProvider.json",
+      "examples": {
+        "positive": [
+          "io.invertase.firebase.appcheck.ReactNativeFirebaseAppCheckProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2858,
+      "type": 4,
+      "name": "io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider",
+      "mode": "exact",
+      "priority": 2858,
+      "label": "React Native Firebase",
+      "iconId": "ic_lib_rn_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/invertase/firebase/crashlytics/ReactNativeFirebaseCrashlyticsInitProvider.json",
+      "examples": {
+        "positive": [
+          "io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2880,
+      "type": 3,
+      "name": "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver",
+      "mode": "exact",
+      "priority": 2880,
+      "label": "React Native Firebase",
+      "iconId": "ic_lib_rn_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/io/invertase/firebase/messaging/ReactNativeFirebaseMessagingReceiver.json",
+      "examples": {
+        "positive": [
+          "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2914,
+      "type": 1,
+      "name": "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService",
+      "mode": "exact",
+      "priority": 2914,
+      "label": "React Native Firebase",
+      "iconId": "ic_lib_rn_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io/invertase/firebase/messaging/ReactNativeFirebaseMessagingHeadlessService.json",
+      "examples": {
+        "positive": [
+          "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2915,
+      "type": 1,
+      "name": "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService",
+      "mode": "exact",
+      "priority": 2915,
+      "label": "React Native Firebase",
+      "iconId": "ic_lib_rn_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io/invertase/firebase/messaging/ReactNativeFirebaseMessagingService.json",
+      "examples": {
+        "positive": [
+          "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,4 @@
+# Byte-stable compiler identity and generated icon source across checkouts.
+tools/*.py text eol=lf
+icons/*.svg text eol=lf
+icons/android/*.xml text eol=lf

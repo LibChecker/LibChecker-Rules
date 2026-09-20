@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FF0376C6-52F3-4CED-99BB-E801A8C0A82C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HCL2",
+        "dev_team": "Nukosuke",
+        "rule_contributors": [
+          "EntertainmentOne"
+        ],
+        "description": "C 语言的 HCL2 解析库。",
+        "source_link": "https://github.com/nukosuke/libhcl"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HCL2",
+        "dev_team": "Nukosuke",
+        "rule_contributors": [
+          "EntertainmentOne"
+        ],
+        "description": "HCL2 parser library for C.",
+        "source_link": "https://github.com/nukosuke/libhcl"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2118,
+      "type": 0,
+      "name": "libhcl.so",
+      "mode": "exact",
+      "priority": 2118,
+      "label": "HCL2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhcl.so.json",
+      "examples": {
+        "positive": [
+          "libhcl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FDD57430-D3CB-598B-9992-A49A9D7F4D45",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 533,
+      "type": 5,
+      "name": "androidx.versionedparcelable",
+      "mode": "exact",
+      "priority": 533,
+      "label": "Jetpack Versionedparcelable",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.versionedparcelable"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

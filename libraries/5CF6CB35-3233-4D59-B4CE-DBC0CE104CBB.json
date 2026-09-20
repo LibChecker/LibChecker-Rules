@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5CF6CB35-3233-4D59-B4CE-DBC0CE104CBB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibJPEG",
+        "dev_team": "Independent JPEG Group",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "此包包含用于实现 JPEG 图像编码、解码和转码的 C 软件。JPEG 是一种标准化的全彩色和灰度图像压缩方法。",
+        "source_link": "https://ijg.org/files"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibJPEG",
+        "dev_team": "Independent JPEG Group",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "This package contains C software to implement JPEG image encoding, decoding, and transcoding. JPEG is a standardized compression method for full-color and grayscale images.",
+        "source_link": "https://ijg.org/files"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1774,
+      "type": 0,
+      "name": "libjpeg.so",
+      "mode": "exact",
+      "priority": 1774,
+      "label": "LibJPEG",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjpeg.so.json",
+      "examples": {
+        "positive": [
+          "libjpeg.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

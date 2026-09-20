@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3408F5A6-2D52-498B-A1A6-F1C630B03DBD",
+  "iconId": "ic_lib_react",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-host",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "@rnx-kit/react-native-host 简化了 React Native 初始化。该包旨在提供一种向后（以及向前）兼容的 React Native 初始化方式，无论你使用的是新架构还是已完全无桥化。@rnx-kit/react-native-host 还将提供一种简单方式来启用拆分包和服务交付。",
+        "source_link": "https://github.com/microsoft/rnx-kit/tree/main/packages/react-native-host"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-host",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "@rnx-kit/react-native-host simplifies React Native initialization. The aim of this package is to provide a backwards (and forwards) compatible way of initializing React Native, regardless of whether you're on New Architecture or have gone fully bridgeless.@rnx-kit/react-native-host will also a provide a simple way to enable split bundles and service delivery.",
+        "source_link": "https://github.com/microsoft/rnx-kit/tree/main/packages/react-native-host"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2828,
+      "type": 0,
+      "name": "libofficereacthost.so",
+      "mode": "exact",
+      "priority": 2828,
+      "label": "react-native-host",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libofficereacthost.so.json",
+      "examples": {
+        "positive": [
+          "libofficereacthost.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2835,
+      "type": 0,
+      "name": "librnxreacthost.so",
+      "mode": "exact",
+      "priority": 2835,
+      "label": "react-native-host",
+      "iconId": "ic_lib_react",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnxreacthost.so.json",
+      "examples": {
+        "positive": [
+          "librnxreacthost.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

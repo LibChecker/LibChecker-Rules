@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F04B2BAF-71ED-487F-8CC0-035B68F6412B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Log for C++",
+        "dev_team": "bastiaan, sanchouss_, waffel",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Log4cpp 是一个 C++ 类库，用于灵活地将日志记录到文件、系统日志、IDSA 和其他目的地。",
+        "source_link": "https://sourceforge.net/projects/log4cpp/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Log for C++",
+        "dev_team": "bastiaan, sanchouss_, waffel",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Log4cpp is a library of C++ classes for flexible logging to files, syslog, IDSA, and other destinations.",
+        "source_link": "https://sourceforge.net/projects/log4cpp/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 775,
+      "type": 0,
+      "name": "liblog4cpp.so",
+      "mode": "exact",
+      "priority": 775,
+      "label": "Log for C++",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblog4cpp.so.json",
+      "examples": {
+        "positive": [
+          "liblog4cpp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

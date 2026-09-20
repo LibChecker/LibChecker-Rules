@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "15E5D81C-2406-4AC3-BA93-B32E0E0D2E34",
+  "iconId": "ic_lib_liftoff",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Liftoff Monetize",
+        "dev_team": "Liftoff",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "通过将全球优质需求与出色的广告体验匹配到你的广告库存，提升每次展示的收益，从而增加收入。",
+        "source_link": "https://liftoff.ai/monetize/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Liftoff Monetize",
+        "dev_team": "Liftoff",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Grow your revenue by matching global premium demand with a superior ad experience to your inventory, maximizing earnings for every impression.",
+        "source_link": "https://liftoff.ai/monetize/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2918,
+      "type": 2,
+      "name": "com.vungle.ads.internal.ui.VungleActivity",
+      "mode": "exact",
+      "priority": 2918,
+      "label": "Liftoff Monetize",
+      "iconId": "ic_lib_liftoff",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/vungle/ads/internal/ui/VungleActivity.json",
+      "examples": {
+        "positive": [
+          "com.vungle.ads.internal.ui.VungleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2919,
+      "type": 2,
+      "name": "com.vungle.warren.ui.VungleActivity",
+      "mode": "exact",
+      "priority": 2919,
+      "label": "Liftoff Monetize",
+      "iconId": "ic_lib_liftoff",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/vungle/warren/ui/VungleActivity.json",
+      "examples": {
+        "positive": [
+          "com.vungle.warren.ui.VungleActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2920,
+      "type": 2,
+      "name": "com.vungle.warren.ui.VungleFlexViewActivity",
+      "mode": "exact",
+      "priority": 2920,
+      "label": "Liftoff Monetize",
+      "iconId": "ic_lib_liftoff",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/vungle/warren/ui/VungleFlexViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.vungle.warren.ui.VungleFlexViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2923,
+      "type": 4,
+      "name": "com.vungle.ads.VungleProvider",
+      "mode": "exact",
+      "priority": 2923,
+      "label": "Liftoff Monetize",
+      "iconId": "ic_lib_liftoff",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/vungle/ads/VungleProvider.json",
+      "examples": {
+        "positive": [
+          "com.vungle.ads.VungleProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "92B9BE37-F808-5D09-928A-17BEF0B17043",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 518,
+      "type": 5,
+      "name": "com.bumptech.glide",
+      "mode": "exact",
+      "priority": 518,
+      "label": "Glide",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.bumptech.glide"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

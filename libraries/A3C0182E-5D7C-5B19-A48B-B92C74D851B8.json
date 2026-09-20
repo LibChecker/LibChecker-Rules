@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A3C0182E-5D7C-5B19-A48B-B92C74D851B8",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 516,
+      "type": 5,
+      "name": "androidx.coordinatorlayout",
+      "mode": "exact",
+      "priority": 516,
+      "label": "Jetpack CoordinatorLayout",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.coordinatorlayout"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

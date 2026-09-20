@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A30B7FF4-9477-4775-B670-FF04260D390F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Polyv HTML5 Player",
+        "dev_team": "Polyv",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Polyv 直播 web SDK 为您提供了高效的音视频直播场景集成方案。",
+        "source_link": "https://help.polyv.net/index.html#/live/js/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Polyv HTML5 Player",
+        "dev_team": "Polyv",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "The Polyv Live Web SDK provides efficient integration solutions for audio and video live streaming scenarios.",
+        "source_link": "https://help.polyv.net/index.html#/live/js/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2043,
+      "type": 0,
+      "name": "libpolyvffmpeg.so",
+      "mode": "exact",
+      "priority": 2043,
+      "label": "Polyv HTML5 Player",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpolyvffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libpolyvffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2044,
+      "type": 0,
+      "name": "libpolyvplayer.so",
+      "mode": "exact",
+      "priority": 2044,
+      "label": "Polyv HTML5 Player",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpolyvplayer.so.json",
+      "examples": {
+        "positive": [
+          "libpolyvplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2045,
+      "type": 0,
+      "name": "libpolyvsdl.so",
+      "mode": "exact",
+      "priority": 2045,
+      "label": "Polyv HTML5 Player",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpolyvsdl.so.json",
+      "examples": {
+        "positive": [
+          "libpolyvsdl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "107614AB-92EE-4681-BF7E-EAF85EB5F45C",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libhfyuv",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "libyuv 是一个开源项目，包含 YUV 缩放和转换功能。",
+        "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libhfyuv",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "libyuv is an open source project that includes YUV scaling and conversion functionality.",
+        "source_link": "https://chromium.googlesource.com/libyuv/libyuv/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1246,
+      "type": 0,
+      "name": "libhfyuv.so",
+      "mode": "exact",
+      "priority": 1246,
+      "label": "libhfyuv",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhfyuv.so.json",
+      "examples": {
+        "positive": [
+          "libhfyuv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

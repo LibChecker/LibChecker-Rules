@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AFFDAB45-1BC3-47E2-B344-DE2B94EDD5A4",
+  "iconId": "ic_lib_unionpay",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "银联 SDK",
+        "dev_team": "银联",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "银联在线支付网关是中国银联联合各商业银行为持卡人提供的集成化、综合性互联网支付工具，主要支持输入卡号付款、用户登录支付、网银支付、迷你付（IC 卡支付）等多种支付方式，为持卡人提供境内外网上购物、水电煤缴费、商旅预订等支付服务。",
+        "source_link": "https://open.unionpay.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "UnionPay SDK",
+        "dev_team": "银联",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "UnionPay Online Payment Gateway is an integrated, comprehensive internet payment tool provided by China UnionPay in collaboration with commercial banks. It mainly supports various payment methods such as card number input payment, user login payment, online banking payment, and mini payment (IC card payment), offering cardholders services for domestic and international online shopping, utility bill payments, travel bookings, and more.",
+        "source_link": "https://open.unionpay.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 29,
+      "type": 0,
+      "name": "libuptsmaddonmi.so",
+      "mode": "exact",
+      "priority": 29,
+      "label": "银联 SDK",
+      "iconId": "ic_lib_unionpay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libuptsmaddonmi.so.json",
+      "examples": {
+        "positive": [
+          "libuptsmaddonmi.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 109,
+      "type": 0,
+      "name": "libuptsmaddon.so",
+      "mode": "exact",
+      "priority": 109,
+      "label": "银联 SDK",
+      "iconId": "ic_lib_unionpay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libuptsmaddon.so.json",
+      "examples": {
+        "positive": [
+          "libuptsmaddon.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 110,
+      "type": 0,
+      "name": "libuptsmservice.so",
+      "mode": "exact",
+      "priority": 110,
+      "label": "银联 SDK",
+      "iconId": "ic_lib_unionpay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libuptsmservice.so.json",
+      "examples": {
+        "positive": [
+          "libuptsmservice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 119,
+      "type": 0,
+      "name": "libentryexpro.so",
+      "mode": "exact",
+      "priority": 119,
+      "label": "银联 SDK",
+      "iconId": "ic_lib_unionpay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libentryexpro.so.json",
+      "examples": {
+        "positive": [
+          "libentryexpro.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 292,
+      "type": 2,
+      "name": "com.unionpay.uppay.PayActivity",
+      "mode": "exact",
+      "priority": 292,
+      "label": "银联 SDK",
+      "iconId": "ic_lib_unionpay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unionpay/uppay/PayActivity.json",
+      "examples": {
+        "positive": [
+          "com.unionpay.uppay.PayActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 331,
+      "type": 2,
+      "name": "com.unionpay.UPPayWapActivity",
+      "mode": "exact",
+      "priority": 331,
+      "label": "银联 SDK",
+      "iconId": "ic_lib_unionpay",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unionpay/UPPayWapActivity.json",
+      "examples": {
+        "positive": [
+          "com.unionpay.UPPayWapActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

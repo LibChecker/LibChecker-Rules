@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C342A1C6-F940-4F92-B9FB-B914BBCBC3F6",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Huawei DTM",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "华为动态标签管理器 Dynamic Tag Manager（DTM）是一个动态标签代码管理系统（Tag Manager System），您可以通过 Web 页面动态更新跟踪代码，轻松完成特定事件跟踪并将数据传送给第三方分析平台，实现营销数据随需监控。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/dtm-guide"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Huawei DTM",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Huawei Dynamic Tag Manager (DTM) is a dynamic tag code management system (Tag Manager System), allowing you to dynamically update tracking codes through a web page, easily complete specific event tracking, and transmit data to third-party analytics platforms, achieving on-demand monitoring of marketing data.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/dtm-guide"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 316,
+      "type": 2,
+      "name": "com.huawei.hms.dtm.PreviewActivity",
+      "mode": "exact",
+      "priority": 316,
+      "label": "HUAWEI DTM",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/hms/dtm/PreviewActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.dtm.PreviewActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

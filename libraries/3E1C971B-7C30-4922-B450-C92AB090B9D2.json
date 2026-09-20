@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3E1C971B-7C30-4922-B450-C92AB090B9D2",
+  "iconId": "ic_lib_skip",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Skip",
+        "dev_team": "Skip",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Skip 将 Swift 应用开发带到 Android。它是一款工具，使开发者能够基于单一 Swift 和 SwiftUI 代码库，为 iOS 和 Android 构建真正原生的应用。",
+        "source_link": "https://skip.dev/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Skip",
+        "dev_team": "Skip",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Skip brings Swift app development to Android. It is a tool that enables developers to build genuinely native apps for both iOS and Android from a single Swift and SwiftUI codebase.",
+        "source_link": "https://skip.dev/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2776,
+      "type": 0,
+      "name": "libSkipAV.so",
+      "mode": "exact",
+      "priority": 2776,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipAV.so.json",
+      "examples": {
+        "positive": [
+          "libSkipAV.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2777,
+      "type": 0,
+      "name": "libSkipAndroidBridge.so",
+      "mode": "exact",
+      "priority": 2777,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipAndroidBridge.so.json",
+      "examples": {
+        "positive": [
+          "libSkipAndroidBridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2778,
+      "type": 0,
+      "name": "libSkipBridge.so",
+      "mode": "exact",
+      "priority": 2778,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipBridge.so.json",
+      "examples": {
+        "positive": [
+          "libSkipBridge.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2779,
+      "type": 0,
+      "name": "libSkipDevice.so",
+      "mode": "exact",
+      "priority": 2779,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipDevice.so.json",
+      "examples": {
+        "positive": [
+          "libSkipDevice.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2780,
+      "type": 0,
+      "name": "libSkipFoundation.so",
+      "mode": "exact",
+      "priority": 2780,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipFoundation.so.json",
+      "examples": {
+        "positive": [
+          "libSkipFoundation.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2781,
+      "type": 0,
+      "name": "libSkipFuse.so",
+      "mode": "exact",
+      "priority": 2781,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipFuse.so.json",
+      "examples": {
+        "positive": [
+          "libSkipFuse.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2782,
+      "type": 0,
+      "name": "libSkipFuseUI.so",
+      "mode": "exact",
+      "priority": 2782,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipFuseUI.so.json",
+      "examples": {
+        "positive": [
+          "libSkipFuseUI.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2783,
+      "type": 0,
+      "name": "libSkipKeychain.so",
+      "mode": "exact",
+      "priority": 2783,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipKeychain.so.json",
+      "examples": {
+        "positive": [
+          "libSkipKeychain.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2784,
+      "type": 0,
+      "name": "libSkipKit.so",
+      "mode": "exact",
+      "priority": 2784,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipKit.so.json",
+      "examples": {
+        "positive": [
+          "libSkipKit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2785,
+      "type": 0,
+      "name": "libSkipLib.so",
+      "mode": "exact",
+      "priority": 2785,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipLib.so.json",
+      "examples": {
+        "positive": [
+          "libSkipLib.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2786,
+      "type": 0,
+      "name": "libSkipMarketplace.so",
+      "mode": "exact",
+      "priority": 2786,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipMarketplace.so.json",
+      "examples": {
+        "positive": [
+          "libSkipMarketplace.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2787,
+      "type": 0,
+      "name": "libSkipModel.so",
+      "mode": "exact",
+      "priority": 2787,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipModel.so.json",
+      "examples": {
+        "positive": [
+          "libSkipModel.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2788,
+      "type": 0,
+      "name": "libSkipMotion.so",
+      "mode": "exact",
+      "priority": 2788,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipMotion.so.json",
+      "examples": {
+        "positive": [
+          "libSkipMotion.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2789,
+      "type": 0,
+      "name": "libSkipNotify.so",
+      "mode": "exact",
+      "priority": 2789,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipNotify.so.json",
+      "examples": {
+        "positive": [
+          "libSkipNotify.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2790,
+      "type": 0,
+      "name": "libSkipSQLPlus.so",
+      "mode": "exact",
+      "priority": 2790,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipSQLPlus.so.json",
+      "examples": {
+        "positive": [
+          "libSkipSQLPlus.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2791,
+      "type": 0,
+      "name": "libSkipUI.so",
+      "mode": "exact",
+      "priority": 2791,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipUI.so.json",
+      "examples": {
+        "positive": [
+          "libSkipUI.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2792,
+      "type": 0,
+      "name": "libSkipWeb.so",
+      "mode": "exact",
+      "priority": 2792,
+      "label": "Skip",
+      "iconId": "ic_lib_skip",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSkipWeb.so.json",
+      "examples": {
+        "positive": [
+          "libSkipWeb.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

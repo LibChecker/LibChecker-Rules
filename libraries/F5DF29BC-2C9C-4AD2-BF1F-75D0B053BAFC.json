@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F5DF29BC-2C9C-4AD2-BF1F-75D0B053BAFC",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "RUpgrade",
+        "dev_team": "rhymelph",
+        "rule_contributors": [
+          "LollipopKit"
+        ],
+        "description": "Android 和 iOS 的升级应用插件。",
+        "source_link": "https://github.com/rhymelph/r_upgrade"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "RUpgrade",
+        "dev_team": "rhymelph",
+        "rule_contributors": [
+          "LollipopKit"
+        ],
+        "description": "Upgrade application plugin for Android and iOS.",
+        "source_link": "https://github.com/rhymelph/r_upgrade"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 956,
+      "type": 0,
+      "name": "libr_upgrade_lib.so",
+      "mode": "exact",
+      "priority": 956,
+      "label": "RUpgrade",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libr_upgrade_lib.so.json",
+      "examples": {
+        "positive": [
+          "libr_upgrade_lib.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

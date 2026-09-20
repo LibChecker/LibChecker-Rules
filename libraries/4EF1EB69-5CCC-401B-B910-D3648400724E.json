@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4EF1EB69-5CCC-401B-B910-D3648400724E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Bugsnag",
+        "dev_team": "Bugsnag",
+        "rule_contributors": [
+          "su1216",
+          "WOLFRAZOR"
+        ],
+        "description": "Bugsnag 的 Android 崩溃报告库会自动检测 Android 应用程序中的崩溃，收集诊断信息并立即通知您的开发团队，以帮助您尽快理解和解决问题。",
+        "source_link": "https://github.com/bugsnag/bugsnag-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Bugsnag",
+        "dev_team": "Bugsnag",
+        "rule_contributors": [
+          "su1216",
+          "WOLFRAZOR"
+        ],
+        "description": "Bugsnag's Android crash reporting library automatically detects crashes in Android applications, collects diagnostic information, and immediately notifies your development team to help you understand and resolve issues as soon as possible.",
+        "source_link": "https://github.com/bugsnag/bugsnag-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 75,
+      "type": 0,
+      "name": "libbugsnag-plugin-android-anr.so",
+      "mode": "exact",
+      "priority": 75,
+      "label": "Bugsnag",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbugsnag-plugin-android-anr.so.json",
+      "examples": {
+        "positive": [
+          "libbugsnag-plugin-android-anr.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 98,
+      "type": 0,
+      "name": "libbugsnag-ndk.so",
+      "mode": "exact",
+      "priority": 98,
+      "label": "Bugsnag",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbugsnag-ndk.so.json",
+      "examples": {
+        "positive": [
+          "libbugsnag-ndk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1837,
+      "type": 0,
+      "name": "libbugsnag-root-detection.so",
+      "mode": "exact",
+      "priority": 1837,
+      "label": "Bugsnag",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbugsnag-root-detection.so.json",
+      "examples": {
+        "positive": [
+          "libbugsnag-root-detection.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

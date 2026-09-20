@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7920F0B3-BA37-460B-BB47-60C5CD0D3890",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-sqlite-storage",
+        "dev_team": "Andrzej Porebski",
+        "rule_contributors": [
+          "chengyuhui"
+        ],
+        "description": "适用于 React Native 的 SQLite3 本机插件。",
+        "source_link": "https://github.com/andpor/react-native-sqlite-storage"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-sqlite-storage",
+        "dev_team": "Andrzej Porebski",
+        "rule_contributors": [
+          "chengyuhui"
+        ],
+        "description": "SQLite3 Native Plugin for React Native",
+        "source_link": "https://github.com/andpor/react-native-sqlite-storage"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1572,
+      "type": 0,
+      "name": "libsqlc-native-driver.so",
+      "mode": "exact",
+      "priority": 1572,
+      "label": "react-native-sqlite-storage",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsqlc-native-driver.so.json",
+      "examples": {
+        "positive": [
+          "libsqlc-native-driver.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

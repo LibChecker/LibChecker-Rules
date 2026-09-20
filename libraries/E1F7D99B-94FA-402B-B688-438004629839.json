@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E1F7D99B-94FA-402B-B688-438004629839",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libaria2",
+        "dev_team": "aria2",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "libaria2 是一个 C 库，并提供 aria2 的核心功能。该库负责所有网络和下载内容，因此，其用法现在非常简单。",
+        "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libaria2",
+        "dev_team": "aria2",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "libaria2 is a C library that provides the core functionality of aria2. The library handles all network and download content, making its usage very simple now.",
+        "source_link": "https://aria2.github.io/manual/en/html/libaria2.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 577,
+      "type": 0,
+      "name": "libaria2c.so",
+      "mode": "exact",
+      "priority": 577,
+      "label": "libaria2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaria2c.so.json",
+      "examples": {
+        "positive": [
+          "libaria2c.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E9AD44DF-7029-41EA-B4A2-E3A6E7DE5099",
+  "iconId": "ic_lib_oppo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OPPO 广告 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Jian66666",
+          "Absinthe",
+          "shengyuansir"
+        ],
+        "description": "OPPO 广告借助 OS 能力与场景为不同行业打造解决方案，助力广告主高效链接用户，实现长效的商业价值增长。",
+        "source_link": "https://e.oppo.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OPPO 广告 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Jian66666",
+          "Absinthe",
+          "shengyuansir"
+        ],
+        "description": "OPPO Ads leverages OS capabilities and scenarios to create solutions for different industries, helping advertisers efficiently connect with users and achieve long-term commercial value growth.",
+        "source_link": "https://e.oppo.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2408,
+      "type": 2,
+      "name": "com.opos.cmn.an.transactivity.api.TransActivity",
+      "mode": "exact",
+      "priority": 2408,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/cmn/an/transactivity/api/TransActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.cmn.an.transactivity.api.TransActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2449,
+      "type": 1,
+      "name": "com.opos.mobad.service.AdService",
+      "mode": "exact",
+      "priority": 2449,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/opos/mobad/service/AdService.json",
+      "examples": {
+        "positive": [
+          "com.opos.mobad.service.AdService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2579,
+      "type": 2,
+      "name": "com.opos.ca.biz.cmn.splash.ui.apiimpl.web.WebActivity",
+      "mode": "exact",
+      "priority": 2579,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/ca/biz/cmn/splash/ui/apiimpl/web/WebActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.ca.biz.cmn.splash.ui.apiimpl.web.WebActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2580,
+      "type": 2,
+      "name": "com.opos.cmn.biz.web.activity.apiimpl.AdWebActivity",
+      "mode": "exact",
+      "priority": 2580,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/cmn/biz/web/activity/apiimpl/AdWebActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.cmn.biz.web.activity.apiimpl.AdWebActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2581,
+      "type": 2,
+      "name": "com.opos.cmn.module.ui.WevViewActivity",
+      "mode": "exact",
+      "priority": 2581,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/cmn/module/ui/WevViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.cmn.module.ui.WevViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2582,
+      "type": 2,
+      "name": "com.opos.mobad.activity.AdActivity",
+      "mode": "exact",
+      "priority": 2582,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/mobad/activity/AdActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.mobad.activity.AdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2583,
+      "type": 2,
+      "name": "com.opos.mobad.activity.VideoActivity",
+      "mode": "exact",
+      "priority": 2583,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/mobad/activity/VideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.mobad.activity.VideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2584,
+      "type": 2,
+      "name": "com.opos.mobad.ui.feedback.FeedBackWebViewActivity",
+      "mode": "exact",
+      "priority": 2584,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/opos/mobad/ui/feedback/FeedBackWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.opos.mobad.ui.feedback.FeedBackWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2586,
+      "type": 0,
+      "name": "libads-c.so",
+      "mode": "exact",
+      "priority": 2586,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libads-c.so.json",
+      "examples": {
+        "positive": [
+          "libads-c.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2591,
+      "type": 4,
+      "name": "com.opos.mobad.provider.MobAdGlobalProvider",
+      "mode": "exact",
+      "priority": 2591,
+      "label": "OPPO 广告 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/opos/mobad/provider/MobAdGlobalProvider.json",
+      "examples": {
+        "positive": [
+          "com.opos.mobad.provider.MobAdGlobalProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "510DEA22-E11E-5FDC-8652-F79DAC1F5C32",
+  "iconId": "ic_lib_iqiyi",
+  "data": [],
+  "matchers": [
+    {
+      "id": 877,
+      "type": 2,
+      "name": "org.qiyi.pluginlibrary.component.ServiceProxy1",
+      "mode": "exact",
+      "priority": 877,
+      "label": "Neptune",
+      "iconId": "ic_lib_iqiyi",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "org.qiyi.pluginlibrary.component.ServiceProxy1"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

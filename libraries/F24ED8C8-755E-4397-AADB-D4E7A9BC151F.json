@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F24ED8C8-755E-4397-AADB-D4E7A9BC151F",
+  "iconId": "ic_lib_jverification",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "天翼账号认证",
+        "dev_team": "天翼数字生活科技有限公司",
+        "rule_contributors": [
+          "HenryWu01",
+          "FinalLins",
+          "Absinthe"
+        ],
+        "description": "自动识别本机号码，实现一键登录。",
+        "source_link": "https://id.dlife.cn/api?initialSrc=/html/api_detail_634.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "天翼账号认证",
+        "dev_team": "天翼数字生活科技有限公司",
+        "rule_contributors": [
+          "HenryWu01",
+          "FinalLins",
+          "Absinthe"
+        ],
+        "description": "Automatically detects the local phone number to enable one-click login.",
+        "source_link": "https://id.dlife.cn/api?initialSrc=/html/api_detail_634.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 83,
+      "type": 0,
+      "name": "libCtaApiLib.so",
+      "mode": "exact",
+      "priority": 83,
+      "label": "极光认证 SDK",
+      "iconId": "ic_lib_jverification",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libCtaApiLib.so.json",
+      "examples": {
+        "positive": [
+          "libCtaApiLib.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

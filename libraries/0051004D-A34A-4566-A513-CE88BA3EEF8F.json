@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0051004D-A34A-4566-A513-CE88BA3EEF8F",
+  "iconId": "ic_lib_qualcomm",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "QESDK",
+        "dev_team": "Qualcomm",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Qualcomm 增强型软件开发套件 (QESDK) 提供了一个框架，允许 QTI 服务直接向 Android 应用程序公开 API。",
+        "source_link": "https://docs.qualcomm.com/bundle/publicresource/topics/80-PK177-134Y/qesdk_overview.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "QESDK",
+        "dev_team": "Qualcomm",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "The Qualcomm Enhanced Software Development Kit (QESDK) provides a framework that allows QTI services to expose APIs directly to Android applications.",
+        "source_link": "https://docs.qualcomm.com/bundle/publicresource/topics/80-PK177-134Y/qesdk_overview.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2668,
+      "type": 0,
+      "name": "libsnapdragon_services_adk.qti.so",
+      "mode": "exact",
+      "priority": 2668,
+      "label": "QESDK",
+      "iconId": "ic_lib_qualcomm",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnapdragon_services_adk.qti.so.json",
+      "examples": {
+        "positive": [
+          "libsnapdragon_services_adk.qti.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2669,
+      "type": 0,
+      "name": "libsnapdragon_services_qape.qti.so",
+      "mode": "exact",
+      "priority": 2669,
+      "label": "QESDK",
+      "iconId": "ic_lib_qualcomm",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsnapdragon_services_qape.qti.so.json",
+      "examples": {
+        "positive": [
+          "libsnapdragon_services_qape.qti.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

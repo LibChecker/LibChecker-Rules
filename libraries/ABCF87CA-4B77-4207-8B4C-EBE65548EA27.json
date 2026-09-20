@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "ABCF87CA-4B77-4207-8B4C-EBE65548EA27",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Tun2Socks",
+        "dev_team": "Jason Lyu（xjasonlyu）",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "Tun2Socks 是一个网络通信库，它可以处理来自当前设备的任意应用的所有网络流量，并通过 HTTP/Socks4/Socks5/Shadowsocks 远程连接，支持 Windows、macOS 等多平台，并且支持 IPv6，可以提供最佳的性能。",
+        "source_link": "https://github.com/xjasonlyu/tun2socks"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tun2Socks",
+        "dev_team": "Jason Lyu（xjasonlyu）",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "Tun2Socks is a network communication library that can handle all network traffic from any application on the current device and connect remotely via HTTP/Socks4/Socks5/Shadowsocks, supporting multiple platforms like Windows, macOS, and supporting IPv6, providing optimal performance.",
+        "source_link": "https://github.com/xjasonlyu/tun2socks"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1473,
+      "type": 0,
+      "name": "libtun2socks.so",
+      "mode": "exact",
+      "priority": 1473,
+      "label": "Tun2Socks",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtun2socks.so.json",
+      "examples": {
+        "positive": [
+          "libtun2socks.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "71BB7631-F78D-54E7-906F-FAA9B94F73B8",
+  "iconId": "ic_lib_google",
+  "data": [],
+  "matchers": [
+    {
+      "id": 547,
+      "type": 5,
+      "name": "com.google.gson",
+      "mode": "exact",
+      "priority": 547,
+      "label": "gson",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.gson"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

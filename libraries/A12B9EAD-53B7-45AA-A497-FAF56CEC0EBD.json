@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A12B9EAD-53B7-45AA-A497-FAF56CEC0EBD",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Zucchini",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Zucchini 是一个用于生成和应用补丁的库，主要用于在更新二进制文件时高效地传输改动。",
+        "source_link": "https://android.googlesource.com/platform/external/zucchini/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Zucchini",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Zucchini is a library for generating and applying patches, designed for efficient binary file updates.",
+        "source_link": "https://android.googlesource.com/platform/external/zucchini/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2078,
+      "type": 0,
+      "name": "libzucchini.so",
+      "mode": "exact",
+      "priority": 2078,
+      "label": "Zucchini",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzucchini.so.json",
+      "examples": {
+        "positive": [
+          "libzucchini.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "53E31EB8-9DB5-4B9A-ACE6-35C270EA9FB2",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Car",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "为 Android Auto 和 Android Automotive OS 构建导航和兴趣点应用。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/car-app"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Car",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Build navigation and point of interest apps for Android Auto and Android Automotive OS.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/car-app"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1545,
+      "type": 2,
+      "name": "androidx.car.app.CarAppPermissionActivity",
+      "mode": "exact",
+      "priority": 1545,
+      "label": "Jetpack Car",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/car/app/CarAppPermissionActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.car.app.CarAppPermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1578,
+      "type": 3,
+      "name": "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",
+      "mode": "exact",
+      "priority": 1578,
+      "label": "Jetpack Car",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/car/app/notification/CarAppNotificationBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.car.app.notification.CarAppNotificationBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1580,
+      "type": 1,
+      "name": "androidx.car.app.CarAppMetadataHolderService",
+      "mode": "exact",
+      "priority": 1580,
+      "label": "Jetpack Car",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/car/app/CarAppMetadataHolderService.json",
+      "examples": {
+        "positive": [
+          "androidx.car.app.CarAppMetadataHolderService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

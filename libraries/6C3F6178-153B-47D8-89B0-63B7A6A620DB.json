@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6C3F6178-153B-47D8-89B0-63B7A6A620DB",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Liblouis",
+        "dev_team": "Liblouis",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Liblouis 软件套件提供了一个开源盲文翻译器、反翻译器和格式化器，适用于大量语言和盲文代码。它是一组库，设计用于许多应用程序，无论是免费还是商业的。它用 C 编写，因此不需要运行时环境，因此可以在用高级语言（如 Java 和 Python）编写的应用程序中使用。",
+        "source_link": "https://liblouis.io/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Liblouis",
+        "dev_team": "Liblouis",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "The Liblouis software suite provides an open-source braille translator, back-translator, and formatter for a large number of languages and braille codes. It is a set of libraries designed for use in any of a number of applications, both free and commercial. It is written in C so that it does not require a runtime environment and hence can be used in applications written in high-level languages such as Java and Python.",
+        "source_link": "https://liblouis.io/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1607,
+      "type": 0,
+      "name": "liblouis.so",
+      "mode": "exact",
+      "priority": 1607,
+      "label": "Liblouis",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblouis.so.json",
+      "examples": {
+        "positive": [
+          "liblouis.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1608,
+      "type": 0,
+      "name": "liblouiswrap.so",
+      "mode": "exact",
+      "priority": 1608,
+      "label": "Liblouis",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblouiswrap.so.json",
+      "examples": {
+        "positive": [
+          "liblouiswrap.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

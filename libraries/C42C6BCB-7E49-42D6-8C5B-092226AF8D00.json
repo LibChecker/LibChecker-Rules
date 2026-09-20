@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C42C6BCB-7E49-42D6-8C5B-092226AF8D00",
+  "iconId": "ic_lib_tencent_map",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯地图 SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "HenryWu01",
+          "dtapps"
+        ],
+        "description": "腾讯地图定位 SDK 是一套基于 Android 4.1 及以上版本设备的应用程序接口。通过该接口，您可以轻松使用腾讯地图定位服务，构建 LBS 应用程序。",
+        "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Map SDK",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "HenryWu01",
+          "dtapps"
+        ],
+        "description": "Tencent Map Location SDK is a set of application programming interfaces based on Android 4.1 and above devices. Through this interface, you can easily use Tencent map location services to build LBS applications.",
+        "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 64,
+      "type": 0,
+      "name": "libtxmapengine.so",
+      "mode": "exact",
+      "priority": 64,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtxmapengine.so.json",
+      "examples": {
+        "positive": [
+          "libtxmapengine.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 132,
+      "type": 0,
+      "name": "libtencentloc.so",
+      "mode": "exact",
+      "priority": 132,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtencentloc.so.json",
+      "examples": {
+        "positive": [
+          "libtencentloc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 960,
+      "type": 0,
+      "name": "liblocationbeaconid.so",
+      "mode": "exact",
+      "priority": 960,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblocationbeaconid.so.json",
+      "examples": {
+        "positive": [
+          "liblocationbeaconid.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 961,
+      "type": 0,
+      "name": "liblocationlocalenc.so",
+      "mode": "exact",
+      "priority": 961,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblocationlocalenc.so.json",
+      "examples": {
+        "positive": [
+          "liblocationlocalenc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1084,
+      "type": 0,
+      "name": "libtxmapvis.so",
+      "mode": "exact",
+      "priority": 1084,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtxmapvis.so.json",
+      "examples": {
+        "positive": [
+          "libtxmapvis.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1085,
+      "type": 0,
+      "name": "libtmsqmp.so",
+      "mode": "exact",
+      "priority": 1085,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtmsqmp.so.json",
+      "examples": {
+        "positive": [
+          "libtmsqmp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1689,
+      "type": 1,
+      "name": "com.tencent.map.geolocation.s",
+      "mode": "exact",
+      "priority": 1689,
+      "label": "腾讯地图 SDK",
+      "iconId": "ic_lib_tencent_map",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/map/geolocation/s.json",
+      "examples": {
+        "positive": [
+          "com.tencent.map.geolocation.s"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "腾讯地图 SDK",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "HenryWu01"
+            ],
+            "description": "腾讯地图定位 SDK 是一套基于 Android 4.1 及以上版本设备的应用程序接口。通过该接口，您可以轻松使用腾讯地图定位服务，构建 LBS 应用程序。",
+            "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Tencent Map SDK",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "HenryWu01"
+            ],
+            "description": "Tencent Map Location SDK is a set of application programming interfaces based on Android 4.1 and above devices. Through this interface, you can easily use Tencent map location services to build LBS applications.",
+            "source_link": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

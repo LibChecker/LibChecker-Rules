@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1B6E2410-05BD-4B92-89FF-B05170BCD1AA",
+  "iconId": "ic_lib_rongyun",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "融云 IM SDK",
+        "dev_team": "融云 RongCloud",
+        "rule_contributors": [
+          "zxwpm",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "IM 即时通讯 - SealTalk 支持应用内社交等场景，体验单群聊、聊天室、音视频通话、小视频、动态表情等通讯能力",
+        "source_link": "https://github.com/sealtalk/sealtalk-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "RongCloud IM SDK",
+        "dev_team": "融云 RongCloud",
+        "rule_contributors": [
+          "zxwpm",
+          "ArthurCyy",
+          "WOLFRAZOR",
+          "Absinthe"
+        ],
+        "description": "IM Instant Messaging - SealTalk supports in-app social scenarios, providing experiences like single and group chat, chat rooms, audio and video calls, short videos, dynamic expressions, and more.",
+        "source_link": "https://github.com/sealtalk/sealtalk-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 72,
+      "type": 0,
+      "name": "libRongIMLib.so",
+      "mode": "exact",
+      "priority": 72,
+      "label": "融云 IM",
+      "iconId": "ic_lib_rongyun",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libRongIMLib.so.json",
+      "examples": {
+        "positive": [
+          "libRongIMLib.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1444,
+      "type": 2,
+      "name": "io.rong.push.notification.RongBridgeActivity",
+      "mode": "exact",
+      "priority": 1444,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/rong/push/notification/RongBridgeActivity.json",
+      "examples": {
+        "positive": [
+          "io.rong.push.notification.RongBridgeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1478,
+      "type": 4,
+      "name": "io.rong.imlib.chatroom.base.ChatRoomContentProvider",
+      "mode": "exact",
+      "priority": 1478,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/rong/imlib/chatroom/base/ChatRoomContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.chatroom.base.ChatRoomContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1479,
+      "type": 4,
+      "name": "io.rong.imlib.cs.base.CustomServiceContentProvider",
+      "mode": "exact",
+      "priority": 1479,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/rong/imlib/cs/base/CustomServiceContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.cs.base.CustomServiceContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1480,
+      "type": 4,
+      "name": "io.rong.imlib.discussion.base.DiscussionContentProvider",
+      "mode": "exact",
+      "priority": 1480,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/rong/imlib/discussion/base/DiscussionContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.discussion.base.DiscussionContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1481,
+      "type": 4,
+      "name": "io.rong.imlib.location.base.LocationContentProvider",
+      "mode": "exact",
+      "priority": 1481,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/rong/imlib/location/base/LocationContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.location.base.LocationContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1482,
+      "type": 4,
+      "name": "io.rong.imlib.publicservice.base.PublicServiceContentProvider",
+      "mode": "exact",
+      "priority": 1482,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/rong/imlib/publicservice/base/PublicServiceContentProvider.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.publicservice.base.PublicServiceContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1485,
+      "type": 3,
+      "name": "io.rong.imlib.ConnectChangeReceiver",
+      "mode": "exact",
+      "priority": 1485,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/io/rong/imlib/ConnectChangeReceiver.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.ConnectChangeReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1486,
+      "type": 3,
+      "name": "io.rong.imlib.HeartbeatReceiver",
+      "mode": "exact",
+      "priority": 1486,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/io/rong/imlib/HeartbeatReceiver.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.HeartbeatReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1487,
+      "type": 3,
+      "name": "io.rong.push.rongpush.PushReceiver",
+      "mode": "exact",
+      "priority": 1487,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/io/rong/push/rongpush/PushReceiver.json",
+      "examples": {
+        "positive": [
+          "io.rong.push.rongpush.PushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1495,
+      "type": 1,
+      "name": "io.rong.imlib.ipc.RongService",
+      "mode": "exact",
+      "priority": 1495,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io/rong/imlib/ipc/RongService.json",
+      "examples": {
+        "positive": [
+          "io.rong.imlib.ipc.RongService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1496,
+      "type": 1,
+      "name": "io.rong.push.rongpush.PushService",
+      "mode": "exact",
+      "priority": 1496,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io/rong/push/rongpush/PushService.json",
+      "examples": {
+        "positive": [
+          "io.rong.push.rongpush.PushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1867,
+      "type": 0,
+      "name": "librongcloud_xcrash.so",
+      "mode": "exact",
+      "priority": 1867,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librongcloud_xcrash.so.json",
+      "examples": {
+        "positive": [
+          "librongcloud_xcrash.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1868,
+      "type": 0,
+      "name": "librongcloud_xcrash_dumper.so",
+      "mode": "exact",
+      "priority": 1868,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librongcloud_xcrash_dumper.so.json",
+      "examples": {
+        "positive": [
+          "librongcloud_xcrash_dumper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1926,
+      "type": 0,
+      "name": "lib_RongRTC_so.so",
+      "mode": "exact",
+      "priority": 1926,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/lib_RongRTC_so.so.json",
+      "examples": {
+        "positive": [
+          "lib_RongRTC_so.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2371,
+      "type": 9,
+      "name": "io.rong.push.notification.RongBridgeActivity",
+      "mode": "exact",
+      "priority": 2371,
+      "label": "融云 IM SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/io.rong.push.notification.RongBridgeActivity.json",
+      "examples": {
+        "positive": [
+          "io.rong.push.notification.RongBridgeActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5FE36683-0A85-544B-982F-985942676864",
+  "iconId": "ic_lib_tencent",
+  "data": [],
+  "matchers": [
+    {
+      "id": 484,
+      "type": 5,
+      "name": "com.tencent.smtt",
+      "mode": "exact",
+      "priority": 484,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.tencent.smtt"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

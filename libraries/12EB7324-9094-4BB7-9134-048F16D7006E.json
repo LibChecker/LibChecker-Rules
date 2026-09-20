@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "12EB7324-9094-4BB7-9134-048F16D7006E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibOMP",
+        "dev_team": "OMPI-X",
+        "rule_contributors": [
+          "EntertainmentOne"
+        ],
+        "description": "OpenMP 库。",
+        "source_link": "https://github.com/OMPI-X/libomp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibOMP",
+        "dev_team": "OMPI-X",
+        "rule_contributors": [
+          "EntertainmentOne"
+        ],
+        "description": "OpenMP Library.",
+        "source_link": "https://github.com/OMPI-X/libomp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2129,
+      "type": 0,
+      "name": "libomp.so",
+      "mode": "exact",
+      "priority": 2129,
+      "label": "LibOMP",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libomp.so.json",
+      "examples": {
+        "positive": [
+          "libomp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

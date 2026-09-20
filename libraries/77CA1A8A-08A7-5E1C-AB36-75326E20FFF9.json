@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "77CA1A8A-08A7-5E1C-AB36-75326E20FFF9",
+  "iconId": "ic_lib_google",
+  "data": [],
+  "matchers": [
+    {
+      "id": 537,
+      "type": 5,
+      "name": "com.google.zxing",
+      "mode": "exact",
+      "priority": 537,
+      "label": "ZXing",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.zxing"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

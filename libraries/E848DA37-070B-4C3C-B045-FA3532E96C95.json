@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "E848DA37-070B-4C3C-B045-FA3532E96C95",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OkDownload",
+        "dev_team": "LingoChamp",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "可靠，灵活，高性能以及强大的下载引擎。",
+        "source_link": "https://github.com/lingochamp/okdownload/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OkDownload",
+        "dev_team": "LingoChamp",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Reliable, flexible, high-performance, and powerful download engine.",
+        "source_link": "https://github.com/lingochamp/okdownload/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 429,
+      "type": 4,
+      "name": "com.liulishuo.okdownload.OkDownloadProvider",
+      "mode": "exact",
+      "priority": 429,
+      "label": "OkDownload",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/liulishuo/okdownload/OkDownloadProvider.json",
+      "examples": {
+        "positive": [
+          "com.liulishuo.okdownload.OkDownloadProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

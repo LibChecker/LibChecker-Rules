@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "807841F8-5FC8-4DBB-B526-30F640902436",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AppGallery Connect APM",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "华为 AppGallery Connect（简称 AGC）性能管理（APM，App Performance Management）服务是一个功能强大、使用简便的性能管理解决方案。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-apm-introduction-0000001052247254"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AppGallery Connect APM",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Huawei AppGallery Connect (AGC) Performance Management (APM, App Performance Management) service is a powerful and easy-to-use performance management solution.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-apm-introduction-0000001052247254"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1260,
+      "type": 0,
+      "name": "libapms_ndk_anr.so",
+      "mode": "exact",
+      "priority": 1260,
+      "label": "AGC APM",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapms_ndk_anr.so.json",
+      "examples": {
+        "positive": [
+          "libapms_ndk_anr.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

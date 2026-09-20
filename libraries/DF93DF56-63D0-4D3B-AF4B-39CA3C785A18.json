@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DF93DF56-63D0-4D3B-AF4B-39CA3C785A18",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Activity",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "访问基于 Activity 构建的可组合 API。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/activity"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Activity",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "ArcticFoxPro"
+        ],
+        "description": "Access composable APIs built on top of Activity.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/activity"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2688,
+      "type": 2,
+      "name": "androidx.activity.ComponentActivity",
+      "mode": "exact",
+      "priority": 2688,
+      "label": "Jetpack Activity",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/activity/ComponentActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.activity.ComponentActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "37420872-9E87-52C9-AB02-4F94D307223C",
+  "iconId": "ic_lib_getui",
+  "data": [],
+  "matchers": [
+    {
+      "id": 942,
+      "type": 2,
+      "name": "com.getui.gtc.GtcService",
+      "mode": "exact",
+      "priority": 942,
+      "label": "个推",
+      "iconId": "ic_lib_getui",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.getui.gtc.GtcService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B924ECDC-1EDA-5588-A4DD-A284AF8BD953",
+  "iconId": "ic_lib_didi",
+  "data": [],
+  "matchers": [
+    {
+      "id": 885,
+      "type": 2,
+      "name": "com\\.didi\\.virtualapk\\.(.*)",
+      "mode": "regex",
+      "priority": 885,
+      "label": "VirtualAPK",
+      "iconId": "ic_lib_didi",
+      "regexName": "regex_virtual_apk",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

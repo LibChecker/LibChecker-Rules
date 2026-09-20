@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AEF9680F-4A43-4EDC-A5B8-8119D23BCD21",
+  "iconId": "ic_lib_flutter",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Flutter",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "Flutter 是一个开源的用户界面工具包，用于从单一代码库中为移动、网络、桌面和嵌入式设备构建美观的本地编译应用程序。",
+        "source_link": "https://flutter.dev/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Flutter",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "Flutter is an open source UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.",
+        "source_link": "https://flutter.dev/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 44,
+      "type": 0,
+      "name": "libapp.so",
+      "mode": "exact",
+      "priority": 44,
+      "label": "Flutter",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapp.so.json",
+      "examples": {
+        "positive": [
+          "libapp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 71,
+      "type": 0,
+      "name": "libflutter.so",
+      "mode": "exact",
+      "priority": 71,
+      "label": "Flutter",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libflutter.so.json",
+      "examples": {
+        "positive": [
+          "libflutter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 670,
+      "type": 2,
+      "name": "io.flutter.plugins.urllauncher.WebViewActivity",
+      "mode": "exact",
+      "priority": 670,
+      "label": "Flutter",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/flutter/plugins/urllauncher/WebViewActivity.json",
+      "examples": {
+        "positive": [
+          "io.flutter.plugins.urllauncher.WebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 671,
+      "type": 2,
+      "name": "io.flutter.embedding.android.FlutterActivity",
+      "mode": "exact",
+      "priority": 671,
+      "label": "Flutter",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/flutter/embedding/android/FlutterActivity.json",
+      "examples": {
+        "positive": [
+          "io.flutter.embedding.android.FlutterActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1060,
+      "type": 4,
+      "name": "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+      "mode": "exact",
+      "priority": 1060,
+      "label": "Flutter",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/flutter/plugins/imagepicker/ImagePickerFileProvider.json",
+      "examples": {
+        "positive": [
+          "io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BCE9B7C2-BA58-4960-A25F-321A8E0B347D",
+  "iconId": "ic_lib_oppo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "欢太账号授权 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "账号服务是向您提供的基于 Oauth2.0 标准协议的快捷登录服务，用户可以通过授权的方式直接登录手机上的欢太账号，快速访问您的应用。",
+        "source_link": "https://open.oppomobile.com/documentation/page/info?id=10847"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "欢太账号授权 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "The Account Service provides a quick login solution based on the Oauth2.0 standard protocol. Users can log in directly to your app using their authorized Huantai account for quick access.",
+        "source_link": "https://open.oppomobile.com/documentation/page/info?id=10847"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2410,
+      "type": 2,
+      "name": "com.platform.account.oauth.web.ui.OAuthWebActivity",
+      "mode": "exact",
+      "priority": 2410,
+      "label": "欢太账号授权 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/platform/account/oauth/web/ui/OAuthWebActivity.json",
+      "examples": {
+        "positive": [
+          "com.platform.account.oauth.web.ui.OAuthWebActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B9CAC057-3098-4840-8A14-2D18B7C92819",
+  "iconId": "ic_lib_mpaas",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "mPaaS",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "移动开发平台（Mobile PaaS，简称 mPaaS）是源于支付宝 App 的移动开发平台，为移动开发、测试、运营及运维提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率，协助企业快速搭建稳定高质量的移动 App。",
+        "source_link": "https://help.aliyun.com/document_detail/49549.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "mPaaS",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "ArthurCyy",
+          "WOLFRAZOR"
+        ],
+        "description": "Mobile PaaS (mPaaS) is a mobile development platform originating from the Alipay app, providing a one-stop solution from cloud to end for mobile development, testing, operation, and maintenance, effectively reducing technical barriers, reducing R&D costs, improving development efficiency, and assisting enterprises in quickly building stable and high-quality mobile apps.",
+        "source_link": "https://help.aliyun.com/document_detail/49549.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1027,
+      "type": 2,
+      "name": "com.alipay.mobile.core.loading.impl.LoadingPage",
+      "mode": "exact",
+      "priority": 1027,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/core/loading/impl/LoadingPage.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.core.loading.impl.LoadingPage"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1028,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInlite1",
+      "mode": "exact",
+      "priority": 1028,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInlite1.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInlite1"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1029,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInlite2",
+      "mode": "exact",
+      "priority": 1029,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInlite2.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInlite2"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1030,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInlite3",
+      "mode": "exact",
+      "priority": 1030,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInlite3.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInlite3"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1031,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInlite4",
+      "mode": "exact",
+      "priority": 1031,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInlite4.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInlite4"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1032,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInlite5",
+      "mode": "exact",
+      "priority": 1032,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInlite5.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInlite5"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1033,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInMainProcess",
+      "mode": "exact",
+      "priority": 1033,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInMainProcess.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInMainProcess"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1034,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInPushProcess",
+      "mode": "exact",
+      "priority": 1034,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInPushProcess.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInPushProcess"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1035,
+      "type": 1,
+      "name": "com.alipay.mobile.common.logging.process.LogServiceInToolsProcess",
+      "mode": "exact",
+      "priority": 1035,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/logging/process/LogServiceInToolsProcess.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.logging.process.LogServiceInToolsProcess"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1036,
+      "type": 3,
+      "name": "com.alipay.mobile.logmonitor.TraceStubReceiver",
+      "mode": "exact",
+      "priority": 1036,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/alipay/mobile/logmonitor/TraceStubReceiver.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.logmonitor.TraceStubReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1037,
+      "type": 3,
+      "name": "com.alipay.mobile.logmonitor.ClientMonitorExtReceiver",
+      "mode": "exact",
+      "priority": 1037,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/alipay/mobile/logmonitor/ClientMonitorExtReceiver.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.logmonitor.ClientMonitorExtReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1038,
+      "type": 1,
+      "name": "com.alipay.android.phone.mobilesdk.apm.service.APMInnerService",
+      "mode": "exact",
+      "priority": 1038,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/android/phone/mobilesdk/apm/service/APMInnerService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.android.phone.mobilesdk.apm.service.APMInnerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1039,
+      "type": 1,
+      "name": "com.alipay.mobile.logmonitor.ClientMonitorService",
+      "mode": "exact",
+      "priority": 1039,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/logmonitor/ClientMonitorService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.logmonitor.ClientMonitorService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1040,
+      "type": 2,
+      "name": "com.alipay.mobile.quinox.activity.StubActivity",
+      "mode": "exact",
+      "priority": 1040,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/quinox/activity/StubActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.quinox.activity.StubActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1041,
+      "type": 1,
+      "name": "com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess",
+      "mode": "exact",
+      "priority": 1041,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/quinox/classloader/DexOptServiceInToolsProcess.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1042,
+      "type": 2,
+      "name": "com.alipay.mobile.quinox.preload.PreloadFodderActivity",
+      "mode": "exact",
+      "priority": 1042,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alipay/mobile/quinox/preload/PreloadFodderActivity.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.quinox.preload.PreloadFodderActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1043,
+      "type": 1,
+      "name": "com.alipay.mobile.quinox.preload.PreloadService",
+      "mode": "exact",
+      "priority": 1043,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/quinox/preload/PreloadService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.quinox.preload.PreloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1044,
+      "type": 1,
+      "name": "com.alipay.mobile.quinox.preload.MainPldService",
+      "mode": "exact",
+      "priority": 1044,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/quinox/preload/MainPldService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.quinox.preload.MainPldService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1045,
+      "type": 1,
+      "name": "com.alipay.mobile.quinox.preload.ExcaliburService",
+      "mode": "exact",
+      "priority": 1045,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/quinox/preload/ExcaliburService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.quinox.preload.ExcaliburService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1053,
+      "type": 1,
+      "name": "com.alipay.mobile.common.fgbg.FgBgMonitorService",
+      "mode": "exact",
+      "priority": 1053,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/common/fgbg/FgBgMonitorService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.common.fgbg.FgBgMonitorService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1054,
+      "type": 1,
+      "name": "com.alipay.mobile.rome.syncsdk.service.LongLinkService",
+      "mode": "exact",
+      "priority": 1054,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/alipay/mobile/rome/syncsdk/service/LongLinkService.json",
+      "examples": {
+        "positive": [
+          "com.alipay.mobile.rome.syncsdk.service.LongLinkService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1262,
+      "type": 0,
+      "name": "libandroid-phone-(.*)\\.so",
+      "mode": "regex",
+      "priority": 1262,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": "regex_mpaas",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_mpaas.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1263,
+      "type": 0,
+      "name": "libcom-mpaas-(.*)\\.so",
+      "mode": "regex",
+      "priority": 1263,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": "regex_mpaas",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_mpaas.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1324,
+      "type": 0,
+      "name": "libmpaas_crypto.so",
+      "mode": "exact",
+      "priority": 1324,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaas_crypto.so.json",
+      "examples": {
+        "positive": [
+          "libmpaas_crypto.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1325,
+      "type": 0,
+      "name": "libmpaascpu.so",
+      "mode": "exact",
+      "priority": 1325,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaascpu.so.json",
+      "examples": {
+        "positive": [
+          "libmpaascpu.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2127,
+      "type": 0,
+      "name": "libmpaas_teclability.so",
+      "mode": "exact",
+      "priority": 2127,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaas_teclability.so.json",
+      "examples": {
+        "positive": [
+          "libmpaas_teclability.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2234,
+      "type": 0,
+      "name": "libmpaas_common_teclabilities.so",
+      "mode": "exact",
+      "priority": 2234,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaas_common_teclabilities.so.json",
+      "examples": {
+        "positive": [
+          "libmpaas_common_teclabilities.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2235,
+      "type": 0,
+      "name": "libmpaas_network_kotlin_adapter.so",
+      "mode": "exact",
+      "priority": 2235,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaas_network_kotlin_adapter.so.json",
+      "examples": {
+        "positive": [
+          "libmpaas_network_kotlin_adapter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2236,
+      "type": 0,
+      "name": "libmpaas_teclability_interface.so",
+      "mode": "exact",
+      "priority": 2236,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaas_teclability_interface.so.json",
+      "examples": {
+        "positive": [
+          "libmpaas_teclability_interface.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2373,
+      "type": 9,
+      "name": "monitor.action.MONITOR_POWER",
+      "mode": "exact",
+      "priority": 2373,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/monitor.action.MONITOR_POWER.json",
+      "examples": {
+        "positive": [
+          "monitor.action.MONITOR_POWER"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2374,
+      "type": 9,
+      "name": "monitor.action.dump.stacktracer",
+      "mode": "exact",
+      "priority": 2374,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/monitor.action.dump.stacktracer.json",
+      "examples": {
+        "positive": [
+          "monitor.action.dump.stacktracer"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2375,
+      "type": 9,
+      "name": "monitor.action.dump.traceview",
+      "mode": "exact",
+      "priority": 2375,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/monitor.action.dump.traceview.json",
+      "examples": {
+        "positive": [
+          "monitor.action.dump.traceview"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2376,
+      "type": 9,
+      "name": "monitor.ext.action.SYNC_MDAP_LOG",
+      "mode": "exact",
+      "priority": 2376,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/monitor.ext.action.SYNC_MDAP_LOG.json",
+      "examples": {
+        "positive": [
+          "monitor.ext.action.SYNC_MDAP_LOG"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2551,
+      "type": 0,
+      "name": "libmpaas_cppbase.so",
+      "mode": "exact",
+      "priority": 2551,
+      "label": "mPaaS",
+      "iconId": "ic_lib_mpaas",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmpaas_cppbase.so.json",
+      "examples": {
+        "positive": [
+          "libmpaas_cppbase.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

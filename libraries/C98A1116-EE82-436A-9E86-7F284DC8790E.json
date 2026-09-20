@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C98A1116-EE82-436A-9E86-7F284DC8790E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FloatingX",
+        "dev_team": "Petterpx",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Android 上强大的悬浮窗组件，支持 系统浮窗(需要权限)、应用内浮窗(无权限)、局部悬浮(View)，支持边缘吸附、回弹、自定义动画、位置保存、窗口化及分屏后位置修复等。",
+        "source_link": "https://github.com/Petterpx/FloatingX"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FloatingX",
+        "dev_team": "Petterpx",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "A powerful floating window component for Android, supporting system-level floating windows (requires permission), in-app floating windows (no permission), and partial floating views. It supports edge adsorption, rebound, custom animations, position saving, and position restoration after windowing or split-screen.",
+        "source_link": "https://github.com/Petterpx/FloatingX"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2442,
+      "type": 4,
+      "name": "com.petterp.floatingx.assist.FxContentProvider",
+      "mode": "exact",
+      "priority": 2442,
+      "label": "FloatingX",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/petterp/floatingx/assist/FxContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.petterp.floatingx.assist.FxContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2443,
+      "type": 4,
+      "name": "com.petterp.floatingx.impl.lifecycle.FxLifecycleProvider",
+      "mode": "exact",
+      "priority": 2443,
+      "label": "FloatingX",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/petterp/floatingx/impl/lifecycle/FxLifecycleProvider.json",
+      "examples": {
+        "positive": [
+          "com.petterp.floatingx.impl.lifecycle.FxLifecycleProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

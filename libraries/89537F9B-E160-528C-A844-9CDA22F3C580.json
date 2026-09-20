@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "89537F9B-E160-528C-A844-9CDA22F3C580",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 489,
+      "type": 5,
+      "name": "butterknife.internal",
+      "mode": "exact",
+      "priority": 489,
+      "label": "Butter Knife",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "butterknife.internal"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

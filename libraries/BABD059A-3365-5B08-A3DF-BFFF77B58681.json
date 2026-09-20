@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BABD059A-3365-5B08-A3DF-BFFF77B58681",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 2454,
+      "type": 6,
+      "name": "com.huawei.push.action.MESSAGING_EVENT",
+      "mode": "exact",
+      "priority": 2454,
+      "label": "HUAWEI Push",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.huawei.push.action.MESSAGING_EVENT"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

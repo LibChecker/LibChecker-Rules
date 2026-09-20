@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FA5EF076-DB47-4EE8-B12B-14E84B24B92C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Sense",
+        "dev_team": "HighCapable",
+        "rule_contributors": [
+          "fankes"
+        ],
+        "description": "为你的项目集成一个高效可复用的 Activity 实例片段。",
+        "source_link": "https://github.com/fankes/Sense"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Sense",
+        "dev_team": "HighCapable",
+        "rule_contributors": [
+          "fankes"
+        ],
+        "description": "Integrate an efficient and reusable Activity instance fragment into your project.",
+        "source_link": "https://github.com/fankes/Sense"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 932,
+      "type": 2,
+      "name": "com.highcapable.sense.SenseActivity",
+      "mode": "exact",
+      "priority": 932,
+      "label": "Sense",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/highcapable/sense/SenseActivity.json",
+      "examples": {
+        "positive": [
+          "com.highcapable.sense.SenseActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

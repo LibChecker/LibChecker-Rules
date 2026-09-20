@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "45634710-448A-57C8-9DEF-E95BCAF71B8C",
+  "iconId": "ic_lib_google",
+  "data": [],
+  "matchers": [
+    {
+      "id": 545,
+      "type": 5,
+      "name": "com.google.android.exoplayer2",
+      "mode": "exact",
+      "priority": 545,
+      "label": "ExoPlayer",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "com.google.android.exoplayer2"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

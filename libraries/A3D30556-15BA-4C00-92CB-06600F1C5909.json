@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A3D30556-15BA-4C00-92CB-06600F1C5909",
+  "iconId": "ic_lib_tds_wcdb",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "WCDB",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR",
+          "ArcticFoxPro"
+        ],
+        "description": "由微信团队开发并已在 GitHub 上开源的业界领先终端数据库。它全面支持 C++、Java、Kotlin、Swift 和 Objc 五种开发语言，覆盖 Android、iOS、macOS、Windows、Linux 及鸿蒙 Next 六大终端平台，并提供数据备份、修复、迁移、压缩等多项业界领先的数据管理能力，助力多端应用高效、可靠地实现数据持久化。",
+        "source_link": "https://github.com/Tencent/wcdb/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "WCDB",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR",
+          "ArcticFoxPro"
+        ],
+        "description": "An industry-leading client-side database developed by the WeChat team and open-sourced on GitHub. It fully supports five development languages: C++, Java, Kotlin, Swift, and ObjC. It covers six client platforms: Android, iOS, macOS, Windows, Linux, and HarmonyOS Next, and provides industry-leading data management capabilities such as data backup, repair, migration, and compression, helping multi-platform applications implement data persistence efficiently and reliably.",
+        "source_link": "https://github.com/Tencent/wcdb/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 115,
+      "type": 0,
+      "name": "libwcdb.so",
+      "mode": "exact",
+      "priority": 115,
+      "label": "WCDB",
+      "iconId": "ic_lib_tds_wcdb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwcdb.so.json",
+      "examples": {
+        "positive": [
+          "libwcdb.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2152,
+      "type": 0,
+      "name": "libwcdb_legacy.so",
+      "mode": "exact",
+      "priority": 2152,
+      "label": "WCDB",
+      "iconId": "ic_lib_tds_wcdb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwcdb_legacy.so.json",
+      "examples": {
+        "positive": [
+          "libwcdb_legacy.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2177,
+      "type": 0,
+      "name": "libWCDB.so",
+      "mode": "exact",
+      "priority": 2177,
+      "label": "WCDB",
+      "iconId": "ic_lib_tds_wcdb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwcdb.so.json",
+      "examples": {
+        "positive": [
+          "libWCDB.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

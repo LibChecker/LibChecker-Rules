@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "27F37B9F-F218-57D8-AA66-6038E99A876E",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 543,
+      "type": 5,
+      "name": "androidx.viewpager2",
+      "mode": "exact",
+      "priority": 543,
+      "label": "Jetpack ViewPager2",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.viewpager2"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

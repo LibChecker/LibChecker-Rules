@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A94CE28D-42DD-573A-85CB-0DDF80A61DC5",
+  "iconId": "ic_lib_android",
+  "data": [],
+  "matchers": [
+    {
+      "id": 497,
+      "type": 5,
+      "name": "android.support.v4",
+      "mode": "exact",
+      "priority": 497,
+      "label": "Support Library",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "android.support.v4"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

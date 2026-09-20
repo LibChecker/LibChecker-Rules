@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5B152231-C449-45AC-8E62-7B6CBAC4A38A",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libIME",
+        "dev_team": "Fcitx / Fcitx 5 for Android",
+        "rule_contributors": [
+          "WhiredPlanck"
+        ],
+        "description": "一个支持通用输入法实现的库。（表格）",
+        "source_link": "https://github.com/fcitx/libime"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libIME",
+        "dev_team": "Fcitx / Fcitx 5 for Android",
+        "rule_contributors": [
+          "WhiredPlanck"
+        ],
+        "description": "A library to support generic input method implementation. (table)",
+        "source_link": "https://github.com/fcitx/libime"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1910,
+      "type": 0,
+      "name": "libIMETable.so",
+      "mode": "exact",
+      "priority": 1910,
+      "label": "libIME",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libIMETable.so.json",
+      "examples": {
+        "positive": [
+          "libIMETable.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1938,
+      "type": 0,
+      "name": "libIMECore.so",
+      "mode": "exact",
+      "priority": 1938,
+      "label": "libIME",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libIMECore.so.json",
+      "examples": {
+        "positive": [
+          "libIMECore.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "libIME",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "一个支持通用输入法实现的库。（表格）",
+            "source_link": "https://github.com/fcitx/libime"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "libIME",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "A library to support generic input method implementation. (core)",
+            "source_link": "https://github.com/fcitx/libime"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1945,
+      "type": 0,
+      "name": "libIMEPinyin.so",
+      "mode": "exact",
+      "priority": 1945,
+      "label": "libIME",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libIMEPinyin.so.json",
+      "examples": {
+        "positive": [
+          "libIMEPinyin.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "libIME",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "一个支持通用输入法实现的库。（表格）",
+            "source_link": "https://github.com/fcitx/libime"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "libIME",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "A library to support generic input method implementation. (pinyin)",
+            "source_link": "https://github.com/fcitx/libime"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

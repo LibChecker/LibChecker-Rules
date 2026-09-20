@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A370F8D4-75E5-4731-9189-A0665FD411AF",
+  "iconId": "ic_lib_paypal",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PayPal Android SDK",
+        "dev_team": "Paypal",
+        "rule_contributors": [
+          "Xiaoze886"
+        ],
+        "description": "PayPal 安卓 SDK 可以轻松地将 PayPal 支付服务集成到移动应用中。",
+        "source_link": "https://github.com/paypal/PayPal-Android-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PayPal Android SDK",
+        "dev_team": "Paypal",
+        "rule_contributors": [
+          "Xiaoze886"
+        ],
+        "description": "PayPal Android SDK can easily integrate PayPal payment services into mobile applications.",
+        "source_link": "https://github.com/paypal/PayPal-Android-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 690,
+      "type": 1,
+      "name": "com.paypal.android.sdk.payments.PayPalService",
+      "mode": "exact",
+      "priority": 690,
+      "label": "PayPal",
+      "iconId": "ic_lib_paypal",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/paypal/android/sdk/payments/PayPalService.json",
+      "examples": {
+        "positive": [
+          "com.paypal.android.sdk.payments.PayPalService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BBAF95E8-44CF-581E-8A72-21BFE5C8BD14",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 492,
+      "type": 5,
+      "name": "androidx.documentfile",
+      "mode": "exact",
+      "priority": 492,
+      "label": "Jetpack DocumentFile",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.documentfile"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

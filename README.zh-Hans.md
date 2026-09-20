@@ -47,3 +47,19 @@ npx skills add LibChecker/LibChecker-Rules
 ## 许可
 
 本仓库基于 [Apache License 2.0](LICENSE) 发布。
+
+## 基础规则规范源（v5）
+
+基础规则统一编辑 `libraries/<UUID>.json` 与 `icons/`；旧按名称拆分的 JSON 和
+数据库作为兼容输出保留。字段、编辑器接口、匹配与图标约束、发布及迁移审计见
+[v5 契约](docs/rules-v5-contract.md)。
+
+```sh
+python3 tools/rules.py check
+python3 -m unittest discover -s tests -v
+python3 tools/rules.py build --output /tmp/libchecker-rules
+```
+
+编译器仅使用 Python 标准库，跨语言测试另需 Node.js 和 JDK。新增图标使用
+`import-icon` 自动追加索引。SDK 详情与图表流水线独立；新 SDK 指纹定义先保留为
+候选文件，客户端兼容发布后才能激活。

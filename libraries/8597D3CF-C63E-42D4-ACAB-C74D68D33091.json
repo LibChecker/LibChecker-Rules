@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8597D3CF-C63E-42D4-ACAB-C74D68D33091",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "zipw",
+        "dev_team": "A dog's life software",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "一个共享库，适用于 Android、iOS*、OSX、Windows、Linux 和 webGL**，用于压缩/解压缩 zip/gzip/tar/bz2 (.zip/.gz) 文件和缓冲区。",
+        "source_link": "https://assetstore.unity.com/packages/tools/input-management/zip-gzip-multiplatform-native-plugin-39411"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "zipw",
+        "dev_team": "A dog's life software",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "A shared library for Android, iOS*, OSX, Windows, Linux, and webGL** to compress/decompress zip/gzip/tar/bz2 (.zip/.gz) files and buffers.",
+        "source_link": "https://assetstore.unity.com/packages/tools/input-management/zip-gzip-multiplatform-native-plugin-39411"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1204,
+      "type": 0,
+      "name": "libzipw.so",
+      "mode": "exact",
+      "priority": 1204,
+      "label": "zipw",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzipw.so.json",
+      "examples": {
+        "positive": [
+          "libzipw.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

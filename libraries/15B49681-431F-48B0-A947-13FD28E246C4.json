@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 5,
+  "uuid": "15B49681-431F-48B0-A947-13FD28E246C4",
+  "iconId": "ic_lib_google_analytics",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Analytics",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "提供各种 API，可帮助您收集、配置和报告用户与您的在线内容进行互动的数据。",
+        "source_link": "https://developers.google.com/analytics/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Analytics",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "sebastien46"
+        ],
+        "description": "Provide various APIs to help you collect, configure, and report data on user interactions with your online content.",
+        "source_link": "https://developers.google.com/analytics/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 253,
+      "type": 1,
+      "name": "com.google.android.gms.analytics.AnalyticsJobService",
+      "mode": "exact",
+      "priority": 253,
+      "label": "Google Analytics",
+      "iconId": "ic_lib_google_analytics",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/analytics/AnalyticsJobService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.analytics.AnalyticsJobService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 258,
+      "type": 1,
+      "name": "com.google.android.gms.analytics.AnalyticsService",
+      "mode": "exact",
+      "priority": 258,
+      "label": "Google Analytics",
+      "iconId": "ic_lib_google_analytics",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/analytics/AnalyticsService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.analytics.AnalyticsService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 375,
+      "type": 3,
+      "name": "com.google.android.gms.analytics.AnalyticsReceiver",
+      "mode": "exact",
+      "priority": 375,
+      "label": "Google Analytics",
+      "iconId": "ic_lib_google_analytics",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/gms/analytics/AnalyticsReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.analytics.AnalyticsReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2323,
+      "type": 9,
+      "name": "com.google.android.gms.analytics.ANALYTICS_DISPATCH",
+      "mode": "exact",
+      "priority": 2323,
+      "label": "Google Analytics",
+      "iconId": "ic_lib_google_analytics",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.google.android.gms.analytics.ANALYTICS_DISPATCH.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2871,
+      "type": 3,
+      "name": "com.google.android.gms.analytics.CampaignTrackingReceiver",
+      "mode": "exact",
+      "priority": 2871,
+      "label": "Google Analytics",
+      "iconId": "ic_lib_google_analytics",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/gms/analytics/CampaignTrackingReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.analytics.CampaignTrackingReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2896,
+      "type": 1,
+      "name": "com.google.android.gms.analytics.CampaignTrackingService",
+      "mode": "exact",
+      "priority": 2896,
+      "label": "Google Analytics",
+      "iconId": "ic_lib_google_analytics",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/analytics/CampaignTrackingService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.analytics.CampaignTrackingService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

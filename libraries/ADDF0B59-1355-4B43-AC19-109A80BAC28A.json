@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "ADDF0B59-1355-4B43-AC19-109A80BAC28A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MobileIMSDK",
+        "dev_team": "JackJiang",
+        "rule_contributors": [
+          "huo20102836shui"
+        ],
+        "description": "一套专为移动端开发的原创 IM 通信层框架。",
+        "source_link": "https://github.com/JackJiang2011/MobileIMSDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MobileIMSDK",
+        "dev_team": "JackJiang",
+        "rule_contributors": [
+          "huo20102836shui"
+        ],
+        "description": "An original IM communication layer framework designed for mobile development.",
+        "source_link": "https://github.com/JackJiang2011/MobileIMSDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1747,
+      "type": 0,
+      "name": "libP2PController.so",
+      "mode": "exact",
+      "priority": 1747,
+      "label": "MobileIMSDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libP2PController.so.json",
+      "examples": {
+        "positive": [
+          "libP2PController.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

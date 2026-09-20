@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "48EF5087-9EC5-5625-8F9A-2E20B20CA119",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 508,
+      "type": 5,
+      "name": "androidx.browser",
+      "mode": "exact",
+      "priority": 508,
+      "label": "Jetpack Browser",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.browser"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

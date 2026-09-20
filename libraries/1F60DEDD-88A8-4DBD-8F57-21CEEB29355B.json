@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1F60DEDD-88A8-4DBD-8F57-21CEEB29355B",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Brotli",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Goooler",
+          "WOLFRAZOR"
+        ],
+        "description": "Brotli 是一种通用的无损压缩算法，通过结合现代变体的 LZ77 算法、霍夫曼编码和二阶上下文建模来压缩数据，其压缩比可与当前可用的最佳通用压缩方法相媲美。它的速度与 deflate 相似，但提供更高密度的压缩。",
+        "source_link": "https://github.com/google/brotli"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Brotli",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Goooler",
+          "WOLFRAZOR"
+        ],
+        "description": "Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding, and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression.",
+        "source_link": "https://github.com/google/brotli"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1406,
+      "type": 0,
+      "name": "libbrotli.so",
+      "mode": "exact",
+      "priority": 1406,
+      "label": "Brotli",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbrotli.so.json",
+      "examples": {
+        "positive": [
+          "libbrotli.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1834,
+      "type": 0,
+      "name": "libbrotli_native.so",
+      "mode": "exact",
+      "priority": 1834,
+      "label": "Brotli",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbrotli_native.so.json",
+      "examples": {
+        "positive": [
+          "libbrotli_native.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2001,
+      "type": 0,
+      "name": "libbrotlicommon.so",
+      "mode": "exact",
+      "priority": 2001,
+      "label": "Brotli",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbrotlicommon.so.json",
+      "examples": {
+        "positive": [
+          "libbrotlicommon.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2002,
+      "type": 0,
+      "name": "libbrotlidec.so",
+      "mode": "exact",
+      "priority": 2002,
+      "label": "Brotli",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbrotlidec.so.json",
+      "examples": {
+        "positive": [
+          "libbrotlidec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2003,
+      "type": 0,
+      "name": "libbrotlienc.so",
+      "mode": "exact",
+      "priority": 2003,
+      "label": "Brotli",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbrotlienc.so.json",
+      "examples": {
+        "positive": [
+          "libbrotlienc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

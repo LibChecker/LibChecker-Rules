@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B68DB390-F7D8-4CB9-9F4B-F08B1EDD674A",
+  "iconId": "ic_lib_bilibili",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "烈焰弹幕使",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "烈焰弹幕使是 Android 上开源的弹幕解析绘制引擎项目。",
+        "source_link": "https://github.com/bilibili/DanmakuFlameMaster/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Flame Barrage Master",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Flame Danmaku Master is an open-source engine project for parsing and rendering danmaku on Android.",
+        "source_link": "https://github.com/bilibili/DanmakuFlameMaster/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 130,
+      "type": 0,
+      "name": "libndkbitmap.so",
+      "mode": "exact",
+      "priority": 130,
+      "label": "烈焰弹幕使",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libndkbitmap.so.json",
+      "examples": {
+        "positive": [
+          "libndkbitmap.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

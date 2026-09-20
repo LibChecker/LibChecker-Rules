@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 5,
+  "uuid": "951BAD0E-83E5-44F7-83F2-7B3B6AF1C7BC",
+  "iconId": "ic_lib_fresco",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Fresco",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "Fresco 是一个用于管理图像及其使用的内存的 Android 库。",
+        "source_link": "https://github.com/facebook/fresco/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Fresco",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "Absinthe",
+          "ArcticFoxPro"
+        ],
+        "description": "Fresco is an Android library for managing images and their memory usage.",
+        "source_link": "https://github.com/facebook/fresco/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 9,
+      "type": 0,
+      "name": "libnative-imagetranscoder.so",
+      "mode": "exact",
+      "priority": 9,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnative-imagetranscoder.so.json",
+      "examples": {
+        "positive": [
+          "libnative-imagetranscoder.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 14,
+      "type": 0,
+      "name": "libnative-filters.so",
+      "mode": "exact",
+      "priority": 14,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnative-filters.so.json",
+      "examples": {
+        "positive": [
+          "libnative-filters.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 19,
+      "type": 0,
+      "name": "libwebpimage.so",
+      "mode": "exact",
+      "priority": 19,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwebpimage.so.json",
+      "examples": {
+        "positive": [
+          "libwebpimage.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 25,
+      "type": 0,
+      "name": "libimagepipeline.so",
+      "mode": "exact",
+      "priority": 25,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libimagepipeline.so.json",
+      "examples": {
+        "positive": [
+          "libimagepipeline.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 73,
+      "type": 0,
+      "name": "libbitmaps.so",
+      "mode": "exact",
+      "priority": 73,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbitmaps.so.json",
+      "examples": {
+        "positive": [
+          "libbitmaps.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 122,
+      "type": 0,
+      "name": "libstatic-webp.so",
+      "mode": "exact",
+      "priority": 122,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libstatic-webp.so.json",
+      "examples": {
+        "positive": [
+          "libstatic-webp.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 139,
+      "type": 0,
+      "name": "libmemchunk.so",
+      "mode": "exact",
+      "priority": 139,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmemchunk.so.json",
+      "examples": {
+        "positive": [
+          "libmemchunk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2027,
+      "type": 0,
+      "name": "libimagepipeline_x86.so",
+      "mode": "exact",
+      "priority": 2027,
+      "label": "Fresco",
+      "iconId": "ic_lib_fresco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libimagepipeline_x86.so.json",
+      "examples": {
+        "positive": [
+          "libimagepipeline_x86.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

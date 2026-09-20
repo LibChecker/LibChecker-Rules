@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "18A5E6C3-71D4-4AF7-9A9F-48F0A07BAACE",
+  "iconId": "ic_lib_bilibili",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Bilibili Oauth SDK",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "哔哩哔哩 OAuth 2.0，可使用户授权第三方应用访问其哔哩哔哩上基本开放信息和其他已授权的相关信息，而无需将用户名和密码提供给第三方应用。",
+        "source_link": "https://openhome.bilibili.com/doc/4/1f1cd948-de8f-6a9f-3b9c-2cb484da3cbb"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Bilibili Oauth SDK",
+        "dev_team": "Bilibili",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Bilibili OAuth 2.0 allows users to authorize third-party applications to access their basic open information and other authorized related information on Bilibili without providing usernames and passwords to third-party applications.",
+        "source_link": "https://openhome.bilibili.com/doc/4/1f1cd948-de8f-6a9f-3b9c-2cb484da3cbb"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1699,
+      "type": 2,
+      "name": "com.bilibili.lib.accountoauth.OauthWebActivity",
+      "mode": "exact",
+      "priority": 1699,
+      "label": "Bilibili Oauth SDK",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bilibili/lib/accountoauth/OauthWebActivity.json",
+      "examples": {
+        "positive": [
+          "com.bilibili.lib.accountoauth.OauthWebActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1702,
+      "type": 4,
+      "name": "com.bilibili.infra.base.provider.InfraInitProvider",
+      "mode": "exact",
+      "priority": 1702,
+      "label": "Bilibili Oauth SDK",
+      "iconId": "ic_lib_bilibili",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bilibili/infra/base/provider/InfraInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.bilibili.infra.base.provider.InfraInitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

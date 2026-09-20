@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D4449A0B-FB85-4137-8D35-C3E8B04C52F6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GPUImage-Plus",
+        "dev_team": "wysaid",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "一个可用于图片、实时摄像和视频的 C++ & Java 的滤镜处理库。",
+        "source_link": "https://github.com/wysaid/android-gpuimage-plus"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GPUImage-Plus",
+        "dev_team": "wysaid",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "A C++ & Java filter processing library for images, real-time camera feeds, and video.",
+        "source_link": "https://github.com/wysaid/android-gpuimage-plus"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2610,
+      "type": 0,
+      "name": "libCGE.so",
+      "mode": "exact",
+      "priority": 2610,
+      "label": "GPUImage-Plus",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libCGE.so.json",
+      "examples": {
+        "positive": [
+          "libCGE.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FA8C2355-2037-5F07-8D77-F2B9EEF71A0A",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 493,
+      "type": 5,
+      "name": "androidx.media",
+      "mode": "exact",
+      "priority": 493,
+      "label": "Jetpack Media",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.media"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

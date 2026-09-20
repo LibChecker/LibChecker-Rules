@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "48EDA1EA-9320-4CEE-8E18-6E4258E565D0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "XPopup",
+        "dev_team": "li-xiaojun",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "内置几种了常用的弹窗，十几种良好的动画，将弹窗和动画的自定义设计的极其简单。",
+        "source_link": "https://github.com/li-xiaojun/XPopup"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "XPopup",
+        "dev_team": "li-xiaojun",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Built-in several common pop-ups, with dozens of good animations, making the custom design of pop-ups and animations extremely simple.",
+        "source_link": "https://github.com/li-xiaojun/XPopup"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 781,
+      "type": 2,
+      "name": "com.lxj.xpopup.util.XPermission$PermissionActivity",
+      "mode": "exact",
+      "priority": 781,
+      "label": "XPopup",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/lxj/xpopup/util/XPermission$PermissionActivity.json",
+      "examples": {
+        "positive": [
+          "com.lxj.xpopup.util.XPermission$PermissionActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

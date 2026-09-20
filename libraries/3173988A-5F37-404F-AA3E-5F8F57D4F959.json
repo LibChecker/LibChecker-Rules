@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3173988A-5F37-404F-AA3E-5F8F57D4F959",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "AndroidUtils",
+        "dev_team": "zhengxiaopeng",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "一些通用代码，包括代码和资源文件。",
+        "source_link": "https://github.com/zhengxiaopeng/AndroidUtils"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "AndroidUtils",
+        "dev_team": "zhengxiaopeng",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Some general code, including code and resource files.",
+        "source_link": "https://github.com/zhengxiaopeng/AndroidUtils"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1862,
+      "type": 0,
+      "name": "libpatcher.so",
+      "mode": "exact",
+      "priority": 1862,
+      "label": "AndroidUtils",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpatcher.so.json",
+      "examples": {
+        "positive": [
+          "libpatcher.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

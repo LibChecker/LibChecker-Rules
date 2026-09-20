@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4373F630-4557-4DB6-8B6B-BCC98F27380A",
+  "iconId": "ic_lib_expo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Expo",
+        "dev_team": "650 Industries, Inc.",
+        "rule_contributors": [
+          "jerone",
+          "youngxhui",
+          "Minori-ty"
+        ],
+        "description": "Expo 是一个框架，使开发 Android 和 iOS 应用变得更简单。该框架提供基于文件的路由、标准的原生模块库等功能。",
+        "source_link": "https://expo.dev/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Expo",
+        "dev_team": "650 Industries, Inc.",
+        "rule_contributors": [
+          "jerone",
+          "youngxhui",
+          "Minori-ty"
+        ],
+        "description": "Expo is a framework that makes developing Android and iOS apps easier. The framework provides file-based routing, a standard library of native modules, and much more.",
+        "source_link": "https://expo.dev/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2423,
+      "type": 0,
+      "name": "libexpo-modules-core.so",
+      "mode": "exact",
+      "priority": 2423,
+      "label": "Expo",
+      "iconId": "ic_lib_expo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-modules-core.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-modules-core.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

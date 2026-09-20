@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0CA405CA-9D3B-4DFF-B1C3-E1C72E52F989",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ZWrapper",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "一种 ImageProvider，可在 PDF 文档上绘制 Flutter 小部件。",
+        "source_link": "https://pub.dev/documentation/zezis_printing/latest/wrapper_src_z_wrapper/ZWrapper-class.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ZWrapper",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "ImageProvider that draws a Flutter Widget on a PDF document.",
+        "source_link": "https://pub.dev/documentation/zezis_printing/latest/wrapper_src_z_wrapper/ZWrapper-class.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2079,
+      "type": 0,
+      "name": "libzwrapper.so",
+      "mode": "exact",
+      "priority": 2079,
+      "label": "ZWrapper",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzwrapper.so.json",
+      "examples": {
+        "positive": [
+          "libzwrapper.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

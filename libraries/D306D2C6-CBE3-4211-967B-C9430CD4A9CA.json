@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D306D2C6-CBE3-4211-967B-C9430CD4A9CA",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "WebP 编解码器",
+        "dev_team": "WebM project",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "WebP 编解码器是一个用于编码和解码 WebP 格式图像的库。此包包含可在其他程序中使用以添加 WebP 支持的库，以及命令行工具 'cwebp' 和 'dwebp'，分别用于压缩和解压缩图像。",
+        "source_link": "https://chromium.googlesource.com/webm/libwebp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "WebP Codec",
+        "dev_team": "WebM project",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "WebP codec is a library to encode and decode images in WebP format. This package contains the library that can be used in other programs to add WebP support, as well as the command line tools ‘cwebp’ and ‘dwebp’ to compress and decompress images respectively.",
+        "source_link": "https://chromium.googlesource.com/webm/libwebp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 157,
+      "type": 0,
+      "name": "libwebp.so",
+      "mode": "exact",
+      "priority": 157,
+      "label": "WebP Codec",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwebp.so.json",
+      "examples": {
+        "positive": [
+          "libwebp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

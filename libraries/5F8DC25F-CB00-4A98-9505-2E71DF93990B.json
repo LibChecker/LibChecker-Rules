@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5F8DC25F-CB00-4A98-9505-2E71DF93990B",
+  "iconId": "ic_lib_opencc",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OpenCC",
+        "dev_team": "BYVoid",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "中文簡繁轉換開源項目，支持詞彙級別的轉換、異體字轉換和地區習慣用詞轉換（中國大陸、臺灣、香港、日本新字體）。",
+        "source_link": "https://github.com/BYVoid/OpenCC"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OpenCC",
+        "dev_team": "BYVoid",
+        "rule_contributors": [
+          "culat"
+        ],
+        "description": "An open-source project for converting between traditional and simplified Chinese, supporting conversion at the vocabulary level, variant character conversion, and regional habitual word conversion (Mainland China, Taiwan, Hong Kong, Japan's new characters).",
+        "source_link": "https://github.com/BYVoid/OpenCC"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 773,
+      "type": 0,
+      "name": "libopencc.so",
+      "mode": "exact",
+      "priority": 773,
+      "label": "OpenCC",
+      "iconId": "ic_lib_opencc",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopencc.so.json",
+      "examples": {
+        "positive": [
+          "libopencc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

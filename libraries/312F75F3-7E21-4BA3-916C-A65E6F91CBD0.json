@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "312F75F3-7E21-4BA3-916C-A65E6F91CBD0",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "uni-app",
+        "dev_team": "DCloud",
+        "rule_contributors": [
+          "Neatsuki"
+        ],
+        "description": "uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到 iOS、Android、鸿蒙 Next、Web（响应式）、以及各种小程序、快应用、鸿蒙元服务等多个平台。",
+        "source_link": "https://uniapp.dcloud.net.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "uni-app",
+        "dev_team": "DCloud",
+        "rule_contributors": [
+          "Neatsuki"
+        ],
+        "description": "uni-app is a framework for developing all front-end applications using Vue.js. Developers write one set of code and can publish it to iOS, Android, HarmonyOS Next, Web (responsive), and various mini programs, quick apps, and HarmonyOS services.",
+        "source_link": "https://uniapp.dcloud.net.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2415,
+      "type": 2,
+      "name": "io.dcloud.PandoraEntryActivity",
+      "mode": "exact",
+      "priority": 2415,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/dcloud/PandoraEntryActivity.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.PandoraEntryActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2416,
+      "type": 2,
+      "name": "io.dcloud.ProcessMediator",
+      "mode": "exact",
+      "priority": 2416,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/dcloud/ProcessMediator.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.ProcessMediator"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2417,
+      "type": 2,
+      "name": "io.dcloud.WebviewActivity",
+      "mode": "exact",
+      "priority": 2417,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/dcloud/WebviewActivity.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.WebviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2418,
+      "type": 2,
+      "name": "io.dcloud.feature.gallery.imageedit.IMGEditActivity",
+      "mode": "exact",
+      "priority": 2418,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/dcloud/feature/gallery/imageedit/IMGEditActivity.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.feature.gallery.imageedit.IMGEditActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2419,
+      "type": 2,
+      "name": "io.dcloud.feature.nativeObj.photoview.PhotoActivity",
+      "mode": "exact",
+      "priority": 2419,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/dcloud/feature/nativeObj/photoview/PhotoActivity.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2420,
+      "type": 2,
+      "name": "io.dcloud.sdk.activity.WebViewActivity",
+      "mode": "exact",
+      "priority": 2420,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/dcloud/sdk/activity/WebViewActivity.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.sdk.activity.WebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2451,
+      "type": 1,
+      "name": "io.dcloud.sdk.base.service.DownloadService",
+      "mode": "exact",
+      "priority": 2451,
+      "label": "uni-app",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/io/dcloud/sdk/base/service/DownloadService.json",
+      "examples": {
+        "positive": [
+          "io.dcloud.sdk.base.service.DownloadService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

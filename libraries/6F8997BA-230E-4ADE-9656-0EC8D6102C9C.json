@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6F8997BA-230E-4ADE-9656-0EC8D6102C9C",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HMS Analytics Kit",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "华为分析服务（Analytics Kit）是针对移动应用、Web、快应用等产品的一站式用户行为分析平台，贴合业务场景，提供数据采集、数据管理、数据分析、数据应用的一体化解决方案，驱动企业实现精准拉新、产品优化、精益运营、业务增长。    ",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HMS Analytics Kit",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Huawei Analytics Kit is a one-stop user behavior analysis platform for mobile apps, web, quick apps, etc., tailored to business scenarios, providing an integrated solution for data collection, management, analysis, and application, driving enterprises to achieve precise user acquisition, product optimization, lean operations, and business growth.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 799,
+      "type": 3,
+      "name": "com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver",
+      "mode": "exact",
+      "priority": 799,
+      "label": "HMS Analytics Kit",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/huawei/hms/analytics/receiver/HiAnalyticsSvcEvtReceiver.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 800,
+      "type": 4,
+      "name": "com.huawei.hms.analytics.provider.AnalyticsInitializeProvider",
+      "mode": "exact",
+      "priority": 800,
+      "label": "HMS Analytics Kit",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/hms/analytics/provider/AnalyticsInitializeProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.analytics.provider.AnalyticsInitializeProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

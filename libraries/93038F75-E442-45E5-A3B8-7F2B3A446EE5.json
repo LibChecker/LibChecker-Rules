@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 5,
+  "uuid": "93038F75-E442-45E5-A3B8-7F2B3A446EE5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "jlibtorrent",
+        "dev_team": "FrostWire",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "FrostWire 的制造商为 libtorrent 提供的 Swig Java 接口。享受用 Java 编写代码来开发基于 libtorrent 的应用程序。",
+        "source_link": "https://github.com/frostwire/frostwire-jlibtorrent"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "jlibtorrent",
+        "dev_team": "FrostWire",
+        "rule_contributors": [
+          "飘落的枫叶"
+        ],
+        "description": "FrostWire's manufacturer provides the Swig Java interface for libtorrent. Enjoy writing code in Java to develop applications based on libtorrent.",
+        "source_link": "https://github.com/frostwire/frostwire-jlibtorrent"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 581,
+      "type": 0,
+      "name": "libjlibtorrent-(.*).so",
+      "mode": "regex",
+      "priority": 581,
+      "label": "jlibtorrent",
+      "iconId": null,
+      "regexName": "regex_jlibtorrent",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_jlibtorrent.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

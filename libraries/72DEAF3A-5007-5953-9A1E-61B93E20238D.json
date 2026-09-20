@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "72DEAF3A-5007-5953-9A1E-61B93E20238D",
+  "iconId": "ic_lib_tencent",
+  "data": [],
+  "matchers": [
+    {
+      "id": 1898,
+      "type": 0,
+      "name": "libxwebfullpack.so.bak",
+      "mode": "exact",
+      "priority": 1898,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libxwebfullpack.so.bak"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

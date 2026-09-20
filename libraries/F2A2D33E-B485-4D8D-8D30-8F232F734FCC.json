@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F2A2D33E-B485-4D8D-8D30-8F232F734FCC",
+  "iconId": "ic_lib_didi",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "滴滴 SDK",
+        "dev_team": "Didi",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "滴滴出行开放平台正式上线，三方应用与个人开发者接入 SDK 后，可将滴滴出行集成到自己的应用中，轻松构建打车服务，为您的用户提供一段美好旅程。",
+        "source_link": "https://developer.xiaojukeji.com/doc/sdk/implementation.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Didi SDK",
+        "dev_team": "Didi",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Didi Chuxing Open Platform is officially launched, allowing third-party applications and individual developers to integrate Didi Chuxing into their own applications via SDK, easily building ride-hailing services and offering your users a pleasant journey.",
+        "source_link": "https://developer.xiaojukeji.com/doc/sdk/implementation.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1640,
+      "type": 0,
+      "name": "libdidi_secure.so",
+      "mode": "exact",
+      "priority": 1640,
+      "label": "滴滴 SDK",
+      "iconId": "ic_lib_didi",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdidi_secure.so.json",
+      "examples": {
+        "positive": [
+          "libdidi_secure.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

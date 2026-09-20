@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FC311A7B-E1A4-4572-8AD1-5F78F6731244",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "nubia Push",
+        "dev_team": "nubia",
+        "rule_contributors": [
+          "ShuiHuo"
+        ],
+        "description": "努比亚系统的推送服务。",
+        "source_link": "https://developer.nubia.com/developer/view/help/help_center.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Nubia Push",
+        "dev_team": "nubia",
+        "rule_contributors": [
+          "ShuiHuo"
+        ],
+        "description": "Nubia system push service.",
+        "source_link": "https://developer.nubia.com/developer/view/help/help_center.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1686,
+      "type": 1,
+      "name": "cn.nubia.neopush.sdk.MessageHandleService",
+      "mode": "exact",
+      "priority": 1686,
+      "label": "nubia Push",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/nubia/neopush/sdk/MessageHandleService.json",
+      "examples": {
+        "positive": [
+          "cn.nubia.neopush.sdk.MessageHandleService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1687,
+      "type": 1,
+      "name": "cn.nubia.neopush.sdk.PushMessageHandler",
+      "mode": "exact",
+      "priority": 1687,
+      "label": "nubia Push",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/cn/nubia/neopush/sdk/PushMessageHandler.json",
+      "examples": {
+        "positive": [
+          "cn.nubia.neopush.sdk.PushMessageHandler"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

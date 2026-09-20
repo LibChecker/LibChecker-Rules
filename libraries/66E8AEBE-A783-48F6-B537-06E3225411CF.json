@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "66E8AEBE-A783-48F6-B537-06E3225411CF",
+  "iconId": "ic_lib_node_js",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Node.js",
+        "dev_team": "plenluno",
+        "rule_contributors": [
+          "lgc2333"
+        ],
+        "description": "libnode 是 Node.js 的 C++ 实现。",
+        "source_link": "https://github.com/plenluno/libnode"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Node.js",
+        "dev_team": "plenluno",
+        "rule_contributors": [
+          "lgc2333"
+        ],
+        "description": "libnode is a C++ implementation of Node.js.",
+        "source_link": "https://github.com/plenluno/libnode"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1069,
+      "type": 0,
+      "name": "libnode.so",
+      "mode": "exact",
+      "priority": 1069,
+      "label": "Node.js",
+      "iconId": "ic_lib_node_js",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnode.so.json",
+      "examples": {
+        "positive": [
+          "libnode.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

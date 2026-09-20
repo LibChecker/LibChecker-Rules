@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BF2E2488-27E3-43DA-B40C-D34207E9CC45",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "librtlsdr",
+        "dev_team": "librtlsdr",
+        "rule_contributors": [
+          "brooks-xzy"
+        ],
+        "description": "将 RTL2832U 转变为 SDR 的软件。",
+        "source_link": "https://github.com/steve-m/librtlsdr"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "librtlsdr",
+        "dev_team": "librtlsdr",
+        "rule_contributors": [
+          "brooks-xzy"
+        ],
+        "description": "Software to turn the RTL2832U into an SDR.",
+        "source_link": "https://github.com/steve-m/librtlsdr"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1778,
+      "type": 0,
+      "name": "liblibrtlsdr.so",
+      "mode": "exact",
+      "priority": 1778,
+      "label": "liblibrtlsdr.so",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblibrtlsdr.so.json",
+      "examples": {
+        "positive": [
+          "liblibrtlsdr.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

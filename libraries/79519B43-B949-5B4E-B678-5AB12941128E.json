@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "79519B43-B949-5B4E-B678-5AB12941128E",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 546,
+      "type": 5,
+      "name": "androidx.databinding",
+      "mode": "exact",
+      "priority": 546,
+      "label": "Jetpack DataBinding",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.databinding"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

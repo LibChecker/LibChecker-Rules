@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "FE56D341-7041-4AB8-AB18-F5F3D56571EF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Krisp AI 语音 SDK",
+        "dev_team": "krisp",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "使用 AI Voice SDK 并结合我们的完整指南，你可以轻松将 AI 驱动的噪声消除和音频解决方案集成到应用中。",
+        "source_link": "https://sdk-docs.krisp.ai/docs/getting-started"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Krisp AI Voice SDK",
+        "dev_team": "krisp",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Use AI Voice SDK with the help of our comprehensive guide. Easily integrate AI-powered noise cancellation and audio solutions into your applications.",
+        "source_link": "https://sdk-docs.krisp.ai/docs/getting-started"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2543,
+      "type": 0,
+      "name": "libkrisp-audio-sdk.so",
+      "mode": "exact",
+      "priority": 2543,
+      "label": "Krisp AI Voice SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkrisp-audio-sdk.so.json",
+      "examples": {
+        "positive": [
+          "libkrisp-audio-sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2544,
+      "type": 0,
+      "name": "libkrisp_noise_cancellation.so",
+      "mode": "exact",
+      "priority": 2544,
+      "label": "Krisp AI Voice SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libkrisp_noise_cancellation.so.json",
+      "examples": {
+        "positive": [
+          "libkrisp_noise_cancellation.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

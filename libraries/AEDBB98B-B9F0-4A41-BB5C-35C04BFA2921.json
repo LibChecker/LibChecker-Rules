@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "AEDBB98B-B9F0-4A41-BB5C-35C04BFA2921",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "iApp",
+        "dev_team": "iApp",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "将想法变为现实一款国产手机端可视化编程软件。",
+        "source_link": "http://www.yougais.com"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "iApp",
+        "dev_team": "iApp",
+        "rule_contributors": [
+          "d1y"
+        ],
+        "description": "Turn ideas into reality with a domestic mobile visual programming software.",
+        "source_link": "http://www.yougais.com"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1128,
+      "type": 0,
+      "name": "libygsiyu.so",
+      "mode": "exact",
+      "priority": 1128,
+      "label": "iApp",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libygsiyu.so.json",
+      "examples": {
+        "positive": [
+          "libygsiyu.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

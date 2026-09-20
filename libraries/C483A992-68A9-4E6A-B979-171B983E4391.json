@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C483A992-68A9-4E6A-B979-171B983E4391",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯浏览服务（TBS）",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "腾讯浏览服务，依托 X5 内核强大的能力，致力于提供优化移动端浏览体验的整套解决方案。",
+        "source_link": "https://x5.tencent.com/tbs/guide/sdkInit.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Browser Service (TBS)",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "yfdyh000",
+          "WOLFRAZOR"
+        ],
+        "description": "Tencent Browser Service, relying on the powerful capabilities of the X5 kernel, is dedicated to providing a complete solution for optimizing mobile browsing experiences.",
+        "source_link": "https://x5.tencent.com/tbs/guide/sdkInit.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 203,
+      "type": 1,
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "mode": "exact",
+      "priority": 203,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/smtt/export/external/DexClassLoaderProviderService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.smtt.export.external.DexClassLoaderProviderService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 300,
+      "type": 2,
+      "name": "com.tencent.smtt.sdk.VideoActivity",
+      "mode": "exact",
+      "priority": 300,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/smtt/sdk/VideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.smtt.sdk.VideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 951,
+      "type": 0,
+      "name": "liblbs.so",
+      "mode": "exact",
+      "priority": 951,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblbs.so.json",
+      "examples": {
+        "positive": [
+          "liblbs.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 986,
+      "type": 4,
+      "name": "com.tencent.smtt.utils.FileProvider",
+      "mode": "exact",
+      "priority": 986,
+      "label": "TBS",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/smtt/utils/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.smtt.utils.FileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1879,
+      "type": 0,
+      "name": "libtbs.MANIFEST.so",
+      "mode": "exact",
+      "priority": 1879,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtbs.MANIFEST.so.json",
+      "examples": {
+        "positive": [
+          "libtbs.MANIFEST.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1881,
+      "type": 0,
+      "name": "libtbs.pb_dex.jar.so",
+      "mode": "exact",
+      "priority": 1881,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtbs.pb_dex.jar.so.json",
+      "examples": {
+        "positive": [
+          "libtbs.pb_dex.jar.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1882,
+      "type": 0,
+      "name": "libtbs.renderer_dex.jar.so",
+      "mode": "exact",
+      "priority": 1882,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtbs.renderer_dex.jar.so.json",
+      "examples": {
+        "positive": [
+          "libtbs.renderer_dex.jar.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1883,
+      "type": 0,
+      "name": "libtbs.resources.pak.so",
+      "mode": "exact",
+      "priority": 1883,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtbs.resources.pak.so.json",
+      "examples": {
+        "positive": [
+          "libtbs.resources.pak.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1884,
+      "type": 0,
+      "name": "libtbs.tbs_sdk_extension_dex.jar.so",
+      "mode": "exact",
+      "priority": 1884,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtbs.tbs_sdk_extension_dex.jar.so.json",
+      "examples": {
+        "positive": [
+          "libtbs.tbs_sdk_extension_dex.jar.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2159,
+      "type": 0,
+      "name": "libx5linker.so",
+      "mode": "exact",
+      "priority": 2159,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libx5linker.so.json",
+      "examples": {
+        "positive": [
+          "libx5linker.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2161,
+      "type": 0,
+      "name": "libxphttpclientex.so",
+      "mode": "exact",
+      "priority": 2161,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxphttpclientex.so.json",
+      "examples": {
+        "positive": [
+          "libxphttpclientex.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2162,
+      "type": 0,
+      "name": "libxplatform.so",
+      "mode": "exact",
+      "priority": 2162,
+      "label": "腾讯浏览服务（TBS）",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxplatform.so.json",
+      "examples": {
+        "positive": [
+          "libxplatform.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

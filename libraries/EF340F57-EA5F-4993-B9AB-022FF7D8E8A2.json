@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EF340F57-EA5F-4993-B9AB-022FF7D8E8A2",
+  "iconId": "ic_lib_oppo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "欢太账号 OAuth 授权 SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "欢太账号 OAuth 授权 SDK 是向您提供的基于 Oauth2.0 标准协议的快捷登录服务，用户可以通过授权的方式直接登录手机上的欢太账号，快速访问您的应用。",
+        "source_link": "https://open.oppomobile.com/documentation/page/info?id=10847"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Huantai Account OAuth Authorization SDK",
+        "dev_team": "OPPO",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "The Huantai Account OAuth Authorization SDK provides a quick login service based on the OAuth 2.0 standard protocol. Users can directly log in to the Huantai account on their phones through authorization and quickly access your application.",
+        "source_link": "https://open.oppomobile.com/documentation/page/info?id=10847"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2563,
+      "type": 4,
+      "name": "com.heytap.usercenter.accountsdk.utils.UCAccountSDKInitProvider",
+      "mode": "exact",
+      "priority": 2563,
+      "label": "欢太账号 OAuth 授权 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/heytap/usercenter/accountsdk/utils/UCAccountSDKInitProvider.json",
+      "examples": {
+        "positive": [
+          "com.heytap.usercenter.accountsdk.utils.UCAccountSDKInitProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2568,
+      "type": 3,
+      "name": "com.heytap.usercenter.accountsdk.utils.app.UserCenterOperateReceiver",
+      "mode": "exact",
+      "priority": 2568,
+      "label": "欢太账号 OAuth 授权 SDK",
+      "iconId": "ic_lib_oppo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/heytap/usercenter/accountsdk/utils/app/UserCenterOperateReceiver.json",
+      "examples": {
+        "positive": [
+          "com.heytap.usercenter.accountsdk.utils.app.UserCenterOperateReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9BF5AA4B-551A-4CCC-B385-C88959734D80",
+  "iconId": "ic_lib_tencent",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mars",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "Mars 是微信官方的跨平台跨业务的终端基础组件。",
+        "source_link": "https://github.com/Tencent/Mars/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mars",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "crrashh1542",
+          "WOLFRAZOR"
+        ],
+        "description": "Mars is the cross-platform cross-business terminal basic component officially developed by WeChat.",
+        "source_link": "https://github.com/Tencent/Mars/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2,
+      "type": 0,
+      "name": "libmarsxlog.so",
+      "mode": "exact",
+      "priority": 2,
+      "label": "Mars",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmarsxlog.so.json",
+      "examples": {
+        "positive": [
+          "libmarsxlog.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1706,
+      "type": 3,
+      "name": "com.tencent.mars.comm.Alarm",
+      "mode": "exact",
+      "priority": 1706,
+      "label": "Mars",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/tencent/mars/comm/Alarm.json",
+      "examples": {
+        "positive": [
+          "com.tencent.mars.comm.Alarm"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1851,
+      "type": 0,
+      "name": "libmarsstn.so",
+      "mode": "exact",
+      "priority": 1851,
+      "label": "Mars",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmarsstn.so.json",
+      "examples": {
+        "positive": [
+          "libmarsstn.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2036,
+      "type": 0,
+      "name": "libmarsnative.so",
+      "mode": "exact",
+      "priority": 2036,
+      "label": "Mars",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmarsnative.so.json",
+      "examples": {
+        "positive": [
+          "libmarsnative.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

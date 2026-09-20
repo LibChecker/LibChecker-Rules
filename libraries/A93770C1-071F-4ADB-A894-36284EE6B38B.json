@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B",
+  "iconId": "ic_lib_meizu",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Meizu Push",
+        "dev_team": "Meizu",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+        "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Meizu Push",
+        "dev_team": "Meizu",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Meizu Push Service is a message push service provided by Meizu for developers, allowing developers to push notifications or messages to clients integrated with the Meizu push SDK in real-time, keeping interaction with users and increasing activity rate.",
+        "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 216,
+      "type": 1,
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "mode": "exact",
+      "priority": 216,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/meizu/cloud/pushsdk/NotificationService.json",
+      "examples": {
+        "positive": [
+          "com.meizu.cloud.pushsdk.NotificationService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 407,
+      "type": 3,
+      "name": "com.meizu.cloud.pushsdk.SystemReceiver",
+      "mode": "exact",
+      "priority": 407,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/meizu/cloud/pushsdk/SystemReceiver.json",
+      "examples": {
+        "positive": [
+          "com.meizu.cloud.pushsdk.SystemReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 847,
+      "type": 3,
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "mode": "exact",
+      "priority": 847,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/meizu/cloud/pushsdk/MzPushSystemReceiver.json",
+      "examples": {
+        "positive": [
+          "com.meizu.cloud.pushsdk.MzPushSystemReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2346,
+      "type": 9,
+      "name": "com.meizu.cloud.pushservice.action.PUSH_SERVICE_START",
+      "mode": "exact",
+      "priority": 2346,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.meizu.cloud.pushservice.action.PUSH_SERVICE_START.json",
+      "examples": {
+        "positive": [
+          "com.meizu.cloud.pushservice.action.PUSH_SERVICE_START"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2347,
+      "type": 9,
+      "name": "com.meizu.flyme.push.intent.PUSH_SYSTEM",
+      "mode": "exact",
+      "priority": 2347,
+      "label": "Meizu Push",
+      "iconId": "ic_lib_meizu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.meizu.flyme.push.intent.PUSH_SYSTEM.json",
+      "examples": {
+        "positive": [
+          "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "actions-libs/com.meizu.c2dm.intent.RECEIVE.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Meizu Push Service is a message push service provided by Meizu for developers, allowing developers to push notifications or messages to clients integrated with the Meizu push SDK in real-time, keeping interaction with users and increasing activity rate.",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          }
+        ],
+        "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B"
+      }
+    },
+    {
+      "path": "actions-libs/com.meizu.c2dm.intent.REGISTRATION.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Meizu Push Service is a message push service provided by Meizu for developers, allowing developers to push notifications or messages to clients integrated with the Meizu push SDK in real-time, keeping interaction with users and increasing activity rate.",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          }
+        ],
+        "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B"
+      }
+    },
+    {
+      "path": "actions-libs/com.meizu.flyme.push.intent.MESSAGE.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Meizu Push Service is a message push service provided by Meizu for developers, allowing developers to push notifications or messages to clients integrated with the Meizu push SDK in real-time, keeping interaction with users and increasing activity rate.",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          }
+        ],
+        "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B"
+      }
+    },
+    {
+      "path": "actions-libs/com.meizu.flyme.push.intent.REGISTER.FEEDBACK.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Meizu Push Service is a message push service provided by Meizu for developers, allowing developers to push notifications or messages to clients integrated with the Meizu push SDK in real-time, keeping interaction with users and increasing activity rate.",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          }
+        ],
+        "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B"
+      }
+    },
+    {
+      "path": "actions-libs/com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "魅族推送服务是由魅族公司为开发者提供的消息推送服务，开发者可以向集成了魅族 push SDK 的客户端实时地推送通知或者消息，与用户保持互动，提高活跃率。",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "Meizu Push",
+              "dev_team": "Meizu",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "Meizu Push Service is a message push service provided by Meizu for developers, allowing developers to push notifications or messages to clients integrated with the Meizu push SDK in real-time, keeping interaction with users and increasing activity rate.",
+              "source_link": "https://open.flyme.cn/open-web/views/push.html/"
+            }
+          }
+        ],
+        "uuid": "A93770C1-071F-4ADB-A894-36284EE6B38B"
+      }
+    }
+  ]
+}

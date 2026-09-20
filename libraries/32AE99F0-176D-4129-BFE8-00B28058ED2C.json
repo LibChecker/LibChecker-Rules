@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "32AE99F0-176D-4129-BFE8-00B28058ED2C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Speex",
+        "dev_team": "Xiph.Org Foundation",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Speex 是一种开源/自由软件无专利音频压缩格式，专为语音设计。Speex 项目的目标是通过提供一个免费的替代方案来降低语音应用程序的进入门槛，以替代昂贵的专有语音编解码器。此外，Speex 非常适合互联网应用程序，并提供大多数其他编解码器中不存在的有用功能。最后，Speex 是 GNU 项目的一部分，采用修订版 BSD 许可证提供。",
+        "source_link": "https://www.speex.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Speex",
+        "dev_team": "Xiph.Org Foundation",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "Speex is an Open Source/Free Software patent-free audio compression format designed for speech. The Speex Project aims to lower the barrier of entry for voice applications by providing a free alternative to expensive proprietary speech codecs. Moreover, Speex is well-adapted to Internet applications and provides useful features that are not present in most other codecs. Finally, Speex is part of the GNU Project and is available under the revised BSD license.",
+        "source_link": "https://www.speex.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1258,
+      "type": 0,
+      "name": "libspeex.so",
+      "mode": "exact",
+      "priority": 1258,
+      "label": "Speex",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspeex.so.json",
+      "examples": {
+        "positive": [
+          "libspeex.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1259,
+      "type": 0,
+      "name": "libspeexdsp.so",
+      "mode": "exact",
+      "priority": 1259,
+      "label": "Speex",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspeexdsp.so.json",
+      "examples": {
+        "positive": [
+          "libspeexdsp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

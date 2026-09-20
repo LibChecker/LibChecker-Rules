@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 5,
+  "uuid": "14A524DE-4B4E-47CF-BB77-37E9BCD5FAEA",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HUAWEI Ads Kit",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "广告服务（Ads Kit）依托华为终端平台与数据能力为您提供流量变现服务，帮助您解决流量变现的难题；同时为广告主提供广告服务，配合华为终端平台向用户提供个性化的营销活动或商业广告。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HUAWEI Ads Kit",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Ads Kit relies on Huawei's terminal platform and data capabilities to provide you with traffic monetization services, helping you solve the problem of traffic monetization; at the same time, it provides advertising services for advertisers, cooperating with Huawei's terminal platform to offer personalized marketing activities or commercial advertisements to users.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1637,
+      "type": 2,
+      "name": "com\\.huawei\\.openalliance\\.ad\\.activity\\.(.*)",
+      "mode": "regex",
+      "priority": 1637,
+      "label": "HUAWEI Ads Kit",
+      "iconId": "ic_lib_huawei",
+      "regexName": "regex_huawei_ads_kit",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_huawei_ads_kit.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

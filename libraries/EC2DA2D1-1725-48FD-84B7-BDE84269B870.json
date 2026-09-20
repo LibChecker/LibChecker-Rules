@@ -1,0 +1,766 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EC2DA2D1-1725-48FD-84B7-BDE84269B870",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Pangle SDK",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "Absinthe",
+          "HenryWu01",
+          "WOLFRAZOR",
+          "ChenSiWu",
+          "yfdyh000",
+          "crrashh1542"
+        ],
+        "description": "穿山甲是巨量引擎旗下全球应用变现与增长平台，合作优质媒体超 30,000 家，日请求突破 607 亿，日均展示达 100 亿，覆盖 7 亿日活用户，为全球应用和广告主提供高效的用户增长和变现解决方案。",
+        "source_link": "https://www.csjplatform.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Pangle SDK",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "Absinthe",
+          "HenryWu01",
+          "WOLFRAZOR",
+          "ChenSiWu",
+          "yfdyh000",
+          "crrashh1542"
+        ],
+        "description": "Pangolin is a global application monetization and growth platform under ByteDance, cooperating with over 30,000 quality media, with daily requests exceeding 60.7 billion, daily displays reaching 10 billion, covering 700 million daily active users, providing efficient user growth and monetization solutions for global applications and advertisers.",
+        "source_link": "https://www.csjplatform.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 5,
+      "type": 0,
+      "name": "libfile_lock_pg.so",
+      "mode": "exact",
+      "priority": 5,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libfile_lock_pg.so.json",
+      "examples": {
+        "positive": [
+          "libfile_lock_pg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 67,
+      "type": 0,
+      "name": "libbuffer_pg.so",
+      "mode": "exact",
+      "priority": 67,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbuffer_pg.so.json",
+      "examples": {
+        "positive": [
+          "libbuffer_pg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 108,
+      "type": 0,
+      "name": "libtobEmbedEncrypt.so",
+      "mode": "exact",
+      "priority": 108,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtobEmbedEncrypt.so.json",
+      "examples": {
+        "positive": [
+          "libtobEmbedEncrypt.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 165,
+      "type": 0,
+      "name": "libnms.so",
+      "mode": "exact",
+      "priority": 165,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnms.so.json",
+      "examples": {
+        "positive": [
+          "libnms.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 256,
+      "type": 1,
+      "name": "com.bytedance.tea.crash.upload.CrashUploadService",
+      "mode": "exact",
+      "priority": 256,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/bytedance/tea/crash/upload/CrashUploadService.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.tea.crash.upload.CrashUploadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 285,
+      "type": 1,
+      "name": "com\\.ss\\.android\\.socialbase\\.(.*)",
+      "mode": "regex",
+      "priority": 285,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "services-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 286,
+      "type": 1,
+      "name": "com\\.bytedance\\.sdk\\.openadsdk\\.(.*)",
+      "mode": "regex",
+      "priority": 286,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "services-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 369,
+      "type": 2,
+      "name": "com\\.bytedance\\.sdk\\.openadsdk\\.(.*)",
+      "mode": "regex",
+      "priority": 369,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 370,
+      "type": 2,
+      "name": "com\\.ss\\.android\\.socialbase\\.(.*)",
+      "mode": "regex",
+      "priority": 370,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 371,
+      "type": 2,
+      "name": "com\\.ss\\.android\\.downloadlib\\.(.*)",
+      "mode": "regex",
+      "priority": 371,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 372,
+      "type": 2,
+      "name": "com\\.yxcorp\\.gifshow\\.ad(.*)",
+      "mode": "regex",
+      "priority": 372,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 373,
+      "type": 2,
+      "name": "com\\.yxcorp\\.map\\.advertisement\\.(.*)",
+      "mode": "regex",
+      "priority": 373,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 377,
+      "type": 3,
+      "name": "com.ss.android.downloadlib.core.download.DownloadReceiver",
+      "mode": "exact",
+      "priority": 377,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/ss/android/downloadlib/core/download/DownloadReceiver.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.downloadlib.core.download.DownloadReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 380,
+      "type": 3,
+      "name": "com.bytedance.embedapplog.collector.Collector",
+      "mode": "exact",
+      "priority": 380,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/bytedance/embedapplog/collector/Collector.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.embedapplog.collector.Collector"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 752,
+      "type": 0,
+      "name": "libmetasec_ml.so",
+      "mode": "exact",
+      "priority": 752,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmetasec_ml.so.json",
+      "examples": {
+        "positive": [
+          "libmetasec_ml.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 849,
+      "type": 4,
+      "name": "com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager",
+      "mode": "exact",
+      "priority": 849,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/sdk/openadsdk/stub/server/DownloaderServerManager.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 850,
+      "type": 4,
+      "name": "com.bytedance.pangle.servermanager.MainServerManager",
+      "mode": "exact",
+      "priority": 850,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/pangle/servermanager/MainServerManager.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.pangle.servermanager.MainServerManager"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 851,
+      "type": 4,
+      "name": "com.bytedance.pangle.provider.MainProcessProviderProxy",
+      "mode": "exact",
+      "priority": 851,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/pangle/provider/MainProcessProviderProxy.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.pangle.provider.MainProcessProviderProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 890,
+      "type": 0,
+      "name": "libpangleflipped.so",
+      "mode": "exact",
+      "priority": 890,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpangleflipped.so.json",
+      "examples": {
+        "positive": [
+          "libpangleflipped.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 921,
+      "type": 4,
+      "name": "com\\.bytedance\\.sdk\\.openadsdk\\.(.*)",
+      "mode": "regex",
+      "priority": 921,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": "regex_pangle",
+      "hasDetail": true,
+      "legacyPath": "providers-libs/regex/regex_pangle.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 1108,
+      "type": 4,
+      "name": "com.bytedance.pangle.FileProvider",
+      "mode": "exact",
+      "priority": 1108,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/pangle/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.pangle.FileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1511,
+      "type": 0,
+      "name": "libzeus_direct_dex.so",
+      "mode": "exact",
+      "priority": 1511,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzeus_direct_dex.so.json",
+      "examples": {
+        "positive": [
+          "libzeus_direct_dex.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1513,
+      "type": 4,
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "mode": "exact",
+      "priority": 1513,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/sdk/openadsdk/TTFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.sdk.openadsdk.TTFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1514,
+      "type": 4,
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "mode": "exact",
+      "priority": 1514,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/sdk/openadsdk/multipro/TTMultiProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1784,
+      "type": 2,
+      "name": "com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity",
+      "mode": "exact",
+      "priority": 1784,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/downloadlib/addownload/compliance/AppPrivacyPolicyActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1785,
+      "type": 2,
+      "name": "com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity",
+      "mode": "exact",
+      "priority": 1785,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/downloadlib/addownload/compliance/AppDetailInfoActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1786,
+      "type": 2,
+      "name": "com.ss.android.downloadlib.activity.TTDelegateActivity",
+      "mode": "exact",
+      "priority": 1786,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/downloadlib/activity/TTDelegateActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.downloadlib.activity.TTDelegateActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1787,
+      "type": 2,
+      "name": "com.ss.android.downloadlib.activity.JumpKllkActivity",
+      "mode": "exact",
+      "priority": 1787,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/downloadlib/activity/JumpKllkActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.downloadlib.activity.JumpKllkActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1788,
+      "type": 1,
+      "name": "com.ss.android.socialbase.appdownloader.DownloadHandlerService",
+      "mode": "exact",
+      "priority": 1788,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/ss/android/socialbase/appdownloader/DownloadHandlerService.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.socialbase.appdownloader.DownloadHandlerService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1789,
+      "type": 2,
+      "name": "com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity",
+      "mode": "exact",
+      "priority": 1789,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/socialbase/appdownloader/view/DownloadTaskDeleteActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1790,
+      "type": 2,
+      "name": "com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity",
+      "mode": "exact",
+      "priority": 1790,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/ss/android/socialbase/appdownloader/view/JumpUnknownSourceActivity.json",
+      "examples": {
+        "positive": [
+          "com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1791,
+      "type": 2,
+      "name": "com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy",
+      "mode": "exact",
+      "priority": 1791,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/android/openliveplugin/stub/activity/DouyinAuthorizeActivityProxy.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1792,
+      "type": 2,
+      "name": "com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy",
+      "mode": "exact",
+      "priority": 1792,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/bytedance/android/openliveplugin/stub/activity/DouyinAuthorizeActivityLiveProcessProxy.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1794,
+      "type": 4,
+      "name": "com.bytedance.dataplatform.ABExtraProvider",
+      "mode": "exact",
+      "priority": 1794,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/dataplatform/ABExtraProvider.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.dataplatform.ABExtraProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1795,
+      "type": 4,
+      "name": "com.bytedance.android.openliveplugin.process.server.LiveServerManager",
+      "mode": "exact",
+      "priority": 1795,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/bytedance/android/openliveplugin/process/server/LiveServerManager.json",
+      "examples": {
+        "positive": [
+          "com.bytedance.android.openliveplugin.process.server.LiveServerManager"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1796,
+      "type": 4,
+      "name": "com.byted.live.lite.ServerManager_bytelive",
+      "mode": "exact",
+      "priority": 1796,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/byted/live/lite/ServerManager_bytelive.json",
+      "examples": {
+        "positive": [
+          "com.byted.live.lite.ServerManager_bytelive"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1797,
+      "type": 4,
+      "name": "com.byted.live.lite.ServerManager_push",
+      "mode": "exact",
+      "priority": 1797,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/byted/live/lite/ServerManager_push.json",
+      "examples": {
+        "positive": [
+          "com.byted.live.lite.ServerManager_push"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2240,
+      "type": 0,
+      "name": "libpanglearmor.so",
+      "mode": "exact",
+      "priority": 2240,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpanglearmor.so.json",
+      "examples": {
+        "positive": [
+          "libpanglearmor.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2613,
+      "type": 0,
+      "name": "libEncryptorP.so",
+      "mode": "exact",
+      "priority": 2613,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libEncryptorP.so.json",
+      "examples": {
+        "positive": [
+          "libEncryptorP.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2673,
+      "type": 0,
+      "name": "libtobEmbedPagEncrypt.so",
+      "mode": "exact",
+      "priority": 2673,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtobEmbedPagEncrypt.so.json",
+      "examples": {
+        "positive": [
+          "libtobEmbedPagEncrypt.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2770,
+      "type": 0,
+      "name": "libPglbizssdk_ml.so",
+      "mode": "exact",
+      "priority": 2770,
+      "label": "Pangle SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPglbizssdk_ml.so.json",
+      "examples": {
+        "positive": [
+          "libPglbizssdk_ml.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

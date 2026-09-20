@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "02F9D51A-248A-4B0F-8CE5-E3607441D63D",
+  "iconId": "ic_lib_tencent_cloud",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯客户端性能分析",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "腾讯客户端性能分析（QAPM）是一款全方位定位检测 APP 应用性能的 SDK，其简单易用、并能提供多维度检测及分析，您只需简单的调用几个接口，就能对您的 APP 做全方位的性能检测。",
+        "source_link": "https://cloud.tencent.com/document/product/683"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Client Performance Analysis",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Tencent Client Performance Analysis (QAPM) is an SDK for comprehensive detection of app performance, which is simple to use and provides multi-dimensional detection and analysis. You only need to call a few interfaces to perform comprehensive performance detection on your app.",
+        "source_link": "https://cloud.tencent.com/document/product/683"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 644,
+      "type": 0,
+      "name": "libapmart.so",
+      "mode": "exact",
+      "priority": 644,
+      "label": "QAPM",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapmart.so.json",
+      "examples": {
+        "positive": [
+          "libapmart.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 645,
+      "type": 0,
+      "name": "libapmcrash.so",
+      "mode": "exact",
+      "priority": 645,
+      "label": "QAPM",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapmcrash.so.json",
+      "examples": {
+        "positive": [
+          "libapmcrash.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 646,
+      "type": 0,
+      "name": "libapmdalvik.so",
+      "mode": "exact",
+      "priority": 646,
+      "label": "QAPM",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapmdalvik.so.json",
+      "examples": {
+        "positive": [
+          "libapmdalvik.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 647,
+      "type": 0,
+      "name": "libapmioFake.so",
+      "mode": "exact",
+      "priority": 647,
+      "label": "QAPM",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libapmioFake.so.json",
+      "examples": {
+        "positive": [
+          "libapmioFake.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

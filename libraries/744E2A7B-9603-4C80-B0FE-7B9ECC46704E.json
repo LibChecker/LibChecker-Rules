@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 5,
+  "uuid": "744E2A7B-9603-4C80-B0FE-7B9ECC46704E",
+  "iconId": "ic_lib_jetpack",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Jetpack Glance",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "使用 Jetpack Compose 风格的 API 为远程表面构建布局。",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/glance"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Jetpack Glance",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe",
+          "WOLFRAZOR"
+        ],
+        "description": "Build layouts for remote surfaces using a Jetpack Compose-style API.",
+        "source_link": "https://developer.android.com/jetpack/androidx/releases/glance"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1589,
+      "type": 2,
+      "name": "androidx.glance.appwidget.action.ActionTrampolineActivity",
+      "mode": "exact",
+      "priority": 1589,
+      "label": "Jetpack Glance",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/glance/appwidget/action/ActionTrampolineActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.glance.appwidget.action.ActionTrampolineActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1590,
+      "type": 2,
+      "name": "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+      "mode": "exact",
+      "priority": 1590,
+      "label": "Jetpack Glance",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/androidx/glance/appwidget/action/InvisibleActionTrampolineActivity.json",
+      "examples": {
+        "positive": [
+          "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1627,
+      "type": 3,
+      "name": "androidx.glance.appwidget.MyPackageReplacedReceiver",
+      "mode": "exact",
+      "priority": 1627,
+      "label": "Jetpack Glance",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/glance/appwidget/MyPackageReplacedReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.glance.appwidget.MyPackageReplacedReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1628,
+      "type": 3,
+      "name": "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver",
+      "mode": "exact",
+      "priority": 1628,
+      "label": "Jetpack Glance",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/glance/appwidget/action/ActionCallbackBroadcastReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1633,
+      "type": 1,
+      "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+      "mode": "exact",
+      "priority": 1633,
+      "label": "Jetpack Glance",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/glance/appwidget/GlanceRemoteViewsService.json",
+      "examples": {
+        "positive": [
+          "androidx.glance.appwidget.GlanceRemoteViewsService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2171,
+      "type": 3,
+      "name": "androidx.glance.appwidget.UnmanagedSessionReceiver",
+      "mode": "exact",
+      "priority": 2171,
+      "label": "Jetpack Glance",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/glance/appwidget/UnmanagedSessionReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.glance.appwidget.UnmanagedSessionReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

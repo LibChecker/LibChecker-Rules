@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6E53BF19-A08F-48D0-98A8-74CF79E192CF",
+  "iconId": "ic_lib_tencent_tds",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Bugly",
+        "dev_team": "TDS 腾讯端服务",
+        "rule_contributors": [
+          "qhy040404",
+          "Absinthe",
+          "ArthurCyy",
+          "JimmyJLNU",
+          "WOLFRAZOR"
+        ],
+        "description": "Bugly 是 TDS 腾讯端服务（Tencent Device-oriented Service）旗下的端质量监控平台，通过采集、监控、定位、告警等核心能力，提供专业的质量监控服务，帮助开发者及时发现并解决质量问题，打造高质量应用。",
+        "source_link": "https://bugly.qq.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Bugly",
+        "dev_team": "Tencent Device-oriented Service",
+        "rule_contributors": [
+          "qhy040404",
+          "Absinthe",
+          "ArthurCyy",
+          "JimmyJLNU",
+          "WOLFRAZOR"
+        ],
+        "description": "Bugly is an end quality monitoring platform under Tencent Device-oriented Service (TDS), which provides professional quality monitoring services through the core competencies of collection, monitoring, location, and alerts to help developers find and solve quality problems in time and build high-quality applications.",
+        "source_link": "https://bugly.qq.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 11,
+      "type": 0,
+      "name": "libBugly.so",
+      "mode": "exact",
+      "priority": 11,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly.so.json",
+      "examples": {
+        "positive": [
+          "libBugly.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 15,
+      "type": 0,
+      "name": "libBugly-rqd.so",
+      "mode": "exact",
+      "priority": 15,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly-rqd.so.json",
+      "examples": {
+        "positive": [
+          "libBugly-rqd.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 237,
+      "type": 1,
+      "name": "com.tencent.bugly.beta.tinker.TinkerResultService",
+      "mode": "exact",
+      "priority": 237,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/bugly/beta/tinker/TinkerResultService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.bugly.beta.tinker.TinkerResultService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 351,
+      "type": 2,
+      "name": "com.tencent.bugly.beta.ui.BetaActivity",
+      "mode": "exact",
+      "priority": 351,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/bugly/beta/ui/BetaActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.bugly.beta.ui.BetaActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Bugly",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "qhy040404",
+              "Absinthe",
+              "ArthurCyy",
+              "JimmyJLNU",
+              "WOLFRAZOR"
+            ],
+            "description": "Bugly 是 TDS 腾讯端服务（Tencent Device-oriented Service）旗下的端质量监控平台，通过采集、监控、定位、告警等核心能力，提供专业的质量监控服务，帮助开发者及时发现并解决质量问题，打造高质量应用。",
+            "source_link": "https://bugly.qq.com/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Bugly",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "qhy040404",
+              "Absinthe",
+              "ArthurCyy",
+              "JimmyJLNU",
+              "WOLFRAZOR"
+            ],
+            "description": "Bugly is an end quality monitoring platform under Tencent Device-oriented Service (TDS), which provides professional quality monitoring services through the core competencies of collection, monitoring, location, and alerts to help developers find and solve quality problems in time and build high-quality applications.",
+            "source_link": "https://bugly.qq.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "type": 4,
+      "name": "com.tencent.bugly.beta.utils.BuglyFileProvider",
+      "mode": "exact",
+      "priority": 453,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/bugly/beta/utils/BuglyFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.bugly.beta.utils.BuglyFileProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1081,
+      "type": 0,
+      "name": "libBugly-ext.so",
+      "mode": "exact",
+      "priority": 1081,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly-ext.so.json",
+      "examples": {
+        "positive": [
+          "libBugly-ext.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1082,
+      "type": 0,
+      "name": "libBugly-webank.so",
+      "mode": "exact",
+      "priority": 1082,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly-webank.so.json",
+      "examples": {
+        "positive": [
+          "libBugly-webank.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1317,
+      "type": 0,
+      "name": "libBugly-idasc.so",
+      "mode": "exact",
+      "priority": 1317,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly-idasc.so.json",
+      "examples": {
+        "positive": [
+          "libBugly-idasc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1318,
+      "type": 0,
+      "name": "libBugly_Native.so",
+      "mode": "exact",
+      "priority": 1318,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly_Native.so.json",
+      "examples": {
+        "positive": [
+          "libBugly_Native.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1446,
+      "type": 0,
+      "name": "libBugly-yaq.so",
+      "mode": "exact",
+      "priority": 1446,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly-yaq.so.json",
+      "examples": {
+        "positive": [
+          "libBugly-yaq.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1558,
+      "type": 0,
+      "name": "libbugly_dumper.so",
+      "mode": "exact",
+      "priority": 1558,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbugly_dumper.so.json",
+      "examples": {
+        "positive": [
+          "libbugly_dumper.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1836,
+      "type": 0,
+      "name": "libbuglybacktrace.so",
+      "mode": "exact",
+      "priority": 1836,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbuglybacktrace.so.json",
+      "examples": {
+        "positive": [
+          "libbuglybacktrace.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1985,
+      "type": 0,
+      "name": "libBugly_Native_idasc.so",
+      "mode": "exact",
+      "priority": 1985,
+      "label": "Bugly",
+      "iconId": "ic_lib_tencent_tds",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libBugly_Native_idasc.so.json",
+      "examples": {
+        "positive": [
+          "libBugly_Native_idasc.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

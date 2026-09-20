@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DD1B51DF-9A29-4EF3-8588-F66F5E5E821B",
+  "iconId": "ic_lib_honor",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "HONOR Push",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "这是一个适用于荣耀推送的服务类。",
+        "source_link": ""
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "HONOR Push",
+        "dev_team": "Absinthe",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "This is a service class for HONOR Push",
+        "source_link": ""
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2331,
+      "type": 9,
+      "name": "com.hihonor.push.action.RECEIVE",
+      "mode": "exact",
+      "priority": 2331,
+      "label": "HONOR Push",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.hihonor.push.action.RECEIVE.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.push.action.RECEIVE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2332,
+      "type": 9,
+      "name": "com.hihonor.push.action.REGISTRATION",
+      "mode": "exact",
+      "priority": 2332,
+      "label": "HONOR Push",
+      "iconId": "ic_lib_honor",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.hihonor.push.action.REGISTRATION.json",
+      "examples": {
+        "positive": [
+          "com.hihonor.push.action.REGISTRATION"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": [
+    {
+      "path": "actions-libs/com.hihonor.push.action.MESSAGING_EVENT.json",
+      "payload": {
+        "data": [
+          {
+            "locale": "zh-Hans",
+            "data": {
+              "label": "HONOR Push",
+              "dev_team": "Absinthe",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "这是一个适用于荣耀推送的服务类。",
+              "source_link": ""
+            }
+          },
+          {
+            "locale": "en",
+            "data": {
+              "label": "HONOR Push",
+              "dev_team": "Absinthe",
+              "rule_contributors": [
+                "Absinthe"
+              ],
+              "description": "This is a service class for HONOR Push",
+              "source_link": ""
+            }
+          }
+        ],
+        "uuid": "DD1B51DF-9A29-4EF3-8588-F66F5E5E821B"
+      }
+    }
+  ]
+}

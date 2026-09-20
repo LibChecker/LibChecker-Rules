@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0F7FA946-08DC-400B-A880-C19C06591C81",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Sodium",
+        "dev_team": "jedisct1",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "一个现代、便携、易于使用的加密库。",
+        "source_link": "https://github.com/jedisct1/libsodium"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Sodium",
+        "dev_team": "jedisct1",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "A modern, portable, easy to use crypto library.",
+        "source_link": "https://github.com/jedisct1/libsodium"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 791,
+      "type": 0,
+      "name": "libsodium.so",
+      "mode": "exact",
+      "priority": 791,
+      "label": "Sodium",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsodium.so.json",
+      "examples": {
+        "positive": [
+          "libsodium.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

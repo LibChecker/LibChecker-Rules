@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0CC5126B-1719-4240-B541-821C7F62087A",
+  "iconId": "ic_lib_netease",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "tracepath",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "利用 ping、tcp connect 和 traceroute 的原理，对指定域名（通常为后台 API 的提供域名）进行网络诊断，并收集诊断日志。",
+        "source_link": "https://github.com/Lede-Inc/LDNetDiagnoService_Android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "tracepath",
+        "dev_team": "Netease",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Utilizes the principles of ping, TCP connect, and traceroute to perform network diagnostics on a specified domain name (usually the domain provided by a backend API) and collects diagnostic logs.",
+        "source_link": "https://github.com/Lede-Inc/LDNetDiagnoService_Android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1928,
+      "type": 0,
+      "name": "libtracepath.so",
+      "mode": "exact",
+      "priority": 1928,
+      "label": "tracepath",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtracepath.so.json",
+      "examples": {
+        "positive": [
+          "libtracepath.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2254,
+      "type": 0,
+      "name": "libroute-tracepath.so",
+      "mode": "exact",
+      "priority": 2254,
+      "label": "tracepath",
+      "iconId": "ic_lib_netease",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libroute-tracepath.so.json",
+      "examples": {
+        "positive": [
+          "libroute-tracepath.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

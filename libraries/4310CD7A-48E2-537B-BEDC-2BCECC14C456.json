@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4310CD7A-48E2-537B-BEDC-2BCECC14C456",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 480,
+      "type": 5,
+      "name": "androidx.interpolator",
+      "mode": "exact",
+      "priority": 480,
+      "label": "Jetpack Interpolator",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.interpolator"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

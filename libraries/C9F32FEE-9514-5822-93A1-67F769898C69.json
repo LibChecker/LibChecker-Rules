@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C9F32FEE-9514-5822-93A1-67F769898C69",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 500,
+      "type": 5,
+      "name": "org.greenbot.greendao",
+      "mode": "exact",
+      "priority": 500,
+      "label": "GreenDAO",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "org.greenbot.greendao"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

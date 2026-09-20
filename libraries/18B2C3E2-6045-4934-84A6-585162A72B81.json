@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "18B2C3E2-6045-4934-84A6-585162A72B81",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native App Utils",
+        "dev_team": "Stumble App",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "一个简单的 React-Native Utils 库，具有随机有用的功能。主要用于后台服务任务，例如通知 onReceive 事件。",
+        "source_link": "https://github.com/stumbleapp/react-native-app-utils"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native App Utils",
+        "dev_team": "Stumble App",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "A simple React-Native Utils library with randomly useful functions. Mainly used for background service tasks, such as notification onReceive events.",
+        "source_link": "https://github.com/stumbleapp/react-native-app-utils"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1392,
+      "type": 0,
+      "name": "libreactnativeutilsjni.so",
+      "mode": "exact",
+      "priority": 1392,
+      "label": "React Native App Utils",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactnativeutilsjni.so.json",
+      "examples": {
+        "positive": [
+          "libreactnativeutilsjni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

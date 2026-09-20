@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "85A6B8E4-F6D1-4A5C-AB49-FE7264B13AED",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LibRaw",
+        "dev_team": "LibRaw LLC",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "LibRaw 是一个用于读取数码相机 RAW 文件的库。",
+        "source_link": "https://github.com/LibRaw/LibRaw"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LibRaw",
+        "dev_team": "LibRaw LLC",
+        "rule_contributors": [
+          "watwhat"
+        ],
+        "description": "LibRaw is a library for reading RAW files from digital cameras.",
+        "source_link": "https://github.com/LibRaw/LibRaw"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 788,
+      "type": 0,
+      "name": "libraw.so",
+      "mode": "exact",
+      "priority": 788,
+      "label": "LibRaw",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libraw.so.json",
+      "examples": {
+        "positive": [
+          "libraw.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

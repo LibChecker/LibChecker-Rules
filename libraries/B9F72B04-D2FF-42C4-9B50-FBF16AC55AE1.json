@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B9F72B04-D2FF-42C4-9B50-FBF16AC55AE1",
+  "iconId": "ic_lib_google_cardboard",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Cardboard SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000",
+          "sebastien46"
+        ],
+        "description": "开源 Cardboard SDK 允许您为 Android 和 iOS 构建沉浸式跨平台 VR 体验。",
+        "source_link": "https://developers.google.com/cardboard"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Cardboard SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "yfdyh000",
+          "sebastien46"
+        ],
+        "description": "The open source Cardboard SDK allows you to build immersive cross-platform VR experiences for Android and iOS.",
+        "source_link": "https://developers.google.com/cardboard"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1189,
+      "type": 0,
+      "name": "libpano_video_renderer.so",
+      "mode": "exact",
+      "priority": 1189,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpano_video_renderer.so.json",
+      "examples": {
+        "positive": [
+          "libpano_video_renderer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1190,
+      "type": 0,
+      "name": "libpanorenderer.so",
+      "mode": "exact",
+      "priority": 1190,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpanorenderer.so.json",
+      "examples": {
+        "positive": [
+          "libpanorenderer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1191,
+      "type": 0,
+      "name": "libvraudio_engine.so",
+      "mode": "exact",
+      "priority": 1191,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvraudio_engine.so.json",
+      "examples": {
+        "positive": [
+          "libvraudio_engine.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1192,
+      "type": 0,
+      "name": "libvrtoolkit.so",
+      "mode": "exact",
+      "priority": 1192,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvrtoolkit.so.json",
+      "examples": {
+        "positive": [
+          "libvrtoolkit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1193,
+      "type": 0,
+      "name": "libgvrbase.so",
+      "mode": "exact",
+      "priority": 1193,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgvrbase.so.json",
+      "examples": {
+        "positive": [
+          "libgvrbase.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2701,
+      "type": 2,
+      "name": "com.google.cardboard.sdk.HeadsetDetectionActivity",
+      "mode": "exact",
+      "priority": 2701,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/cardboard/sdk/HeadsetDetectionActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.cardboard.sdk.HeadsetDetectionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2702,
+      "type": 2,
+      "name": "com.google.cardboard.sdk.QrCodeCaptureActivity",
+      "mode": "exact",
+      "priority": 2702,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/cardboard/sdk/QrCodeCaptureActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.cardboard.sdk.QrCodeCaptureActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2756,
+      "type": 0,
+      "name": "libGfxPluginCardboard_only_gles2.so",
+      "mode": "exact",
+      "priority": 2756,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libGfxPluginCardboard_only_gles2.so.json",
+      "examples": {
+        "positive": [
+          "libGfxPluginCardboard_only_gles2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2802,
+      "type": 0,
+      "name": "libcardboard_sdk_jni.so",
+      "mode": "exact",
+      "priority": 2802,
+      "label": "Cardboard SDK",
+      "iconId": "ic_lib_google_cardboard",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcardboard_sdk_jni.so.json",
+      "examples": {
+        "positive": [
+          "libcardboard_sdk_jni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

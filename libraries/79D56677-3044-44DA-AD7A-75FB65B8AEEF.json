@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 5,
+  "uuid": "79D56677-3044-44DA-AD7A-75FB65B8AEEF",
+  "iconId": "ic_lib_donut",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Donut",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "enKl03B",
+          "ArcticFoxPro"
+        ],
+        "description": "Donut 多端框架是支持使用小程序技术和工具开发移动应用的框架，开发者可以一次编码，分别编译为小程序和 Android 以及 iOS 应用，实现多端开发；能帮助企业有效降低多端应用开发的技术门槛和研发成本，以及提升开发效率和开发体验。",
+        "source_link": "https://dev.weixin.qq.com/docs/miniapp/intro"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Donut",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "enKl03B",
+          "ArcticFoxPro"
+        ],
+        "description": "The Donut multi-end framework supports using mini program technologies and tools to develop mobile applications. Developers can write code once and compile it into mini programs, Android apps, and iOS apps, enabling cross-platform development. It helps enterprises effectively reduce the technical barriers and R&D costs of multi-end application development, while improving development efficiency and experience.",
+        "source_link": "https://dev.weixin.qq.com/docs/miniapp/intro"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2574,
+      "type": 2,
+      "name": "com\\.tencent\\.luggage\\.(.*)",
+      "mode": "regex",
+      "priority": 2574,
+      "label": "Donut",
+      "iconId": "ic_lib_donut",
+      "regexName": "regex_donut",
+      "hasDetail": true,
+      "legacyPath": "activities-libs/regex/regex_donut.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2575,
+      "type": 1,
+      "name": "com\\.tencent\\.luggage\\.(.*)",
+      "mode": "regex",
+      "priority": 2575,
+      "label": "Donut",
+      "iconId": "ic_lib_donut",
+      "regexName": "regex_donut",
+      "hasDetail": true,
+      "legacyPath": "services-libs/regex/regex_donut.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2590,
+      "type": 0,
+      "name": "libwxaopenruntimejni.so",
+      "mode": "exact",
+      "priority": 2590,
+      "label": "Donut",
+      "iconId": "ic_lib_donut",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libwxaopenruntimejni.so.json",
+      "examples": {
+        "positive": [
+          "libwxaopenruntimejni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2592,
+      "type": 4,
+      "name": "com.tencent.luggage.wxa.WxaFileExportContentProvider",
+      "mode": "exact",
+      "priority": 2592,
+      "label": "Donut",
+      "iconId": "ic_lib_donut",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/luggage/wxa/WxaFileExportContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.luggage.wxa.WxaFileExportContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

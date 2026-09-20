@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6350ECA8-45AF-4E86-808C-134880E6C87C",
+  "iconId": "ic_lib_ali_security",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "实人认证 SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "基于大数据风险识别及生物特征，面向多场景，提供多样化动态认证服务平台，精准识别并认证当前行为人的身份。",
+        "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=105524&docType=1"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Real Person Authentication SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Based on big data risk identification and biometric features, this platform provides diverse dynamic authentication services across multiple scenarios, accurately identifying and authenticating the current user's identity.",
+        "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=105524&docType=1"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 835,
+      "type": 2,
+      "name": "com.alibaba.security.realidentity.activity.RPWebViewActivity",
+      "mode": "exact",
+      "priority": 835,
+      "label": "实人认证 SDK",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/security/realidentity/activity/RPWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.security.realidentity.activity.RPWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 836,
+      "type": 2,
+      "name": "com.alibaba.security.realidentity.activity.RPTakePhotoActivity",
+      "mode": "exact",
+      "priority": 836,
+      "label": "实人认证 SDK",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/security/realidentity/activity/RPTakePhotoActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.security.realidentity.activity.RPTakePhotoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 837,
+      "type": 2,
+      "name": "com.alibaba.security.biometrics.activity.ALModelLoadingActivity",
+      "mode": "exact",
+      "priority": 837,
+      "label": "实人认证 SDK",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/security/biometrics/activity/ALModelLoadingActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.security.biometrics.activity.ALModelLoadingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 838,
+      "type": 2,
+      "name": "com.alibaba.security.biometrics.activity.ALBiometricsActivity",
+      "mode": "exact",
+      "priority": 838,
+      "label": "实人认证 SDK",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/alibaba/security/biometrics/activity/ALBiometricsActivity.json",
+      "examples": {
+        "positive": [
+          "com.alibaba.security.biometrics.activity.ALBiometricsActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "实人认证 SDK",
+            "dev_team": "Alibaba",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "基于大数据风险识别及生物特征，面向多场景，提供多样化动态认证服务平台，精准识别并认证当前行为人的身份。",
+            "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?spm=a313e.7629140.0.0.246751c3G9nvDl&treeId=243&articleId=105524&docType=1"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Real Person Authentication SDK",
+            "dev_team": "Alibaba",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "Based on big data risk identification and biometric features, this platform provides diverse dynamic authentication services across multiple scenarios, accurately identifying and authenticating the current user's identity.",
+            "source_link": "https://jaq-doc.alibaba.com/docs/doc.htm?spm=a313e.7629140.0.0.246751c3G9nvDl&treeId=243&articleId=105524&docType=1"
+          }
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "type": 0,
+      "name": "libALBiometricsJni.so",
+      "mode": "exact",
+      "priority": 839,
+      "label": "实人认证 SDK",
+      "iconId": "ic_lib_ali_security",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libALBiometricsJni.so.json",
+      "examples": {
+        "positive": [
+          "libALBiometricsJni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

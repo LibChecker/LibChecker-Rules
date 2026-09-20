@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6ED982AA-B4C2-4710-B0ED-97D9C627D6D7",
+  "iconId": "ic_lib_opus",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Opus",
+        "dev_team": "Xiph.Org",
+        "rule_contributors": [
+          "MeowHCO3",
+          "WOLFRAZOR"
+        ],
+        "description": "Opus 是用于通过网络进行交互式语音和音频传输的编解码器。",
+        "source_link": "https://gitlab.xiph.org/xiph/opus"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Opus",
+        "dev_team": "Xiph.Org",
+        "rule_contributors": [
+          "MeowHCO3",
+          "WOLFRAZOR"
+        ],
+        "description": "Opus is a codec for interactive voice and audio transmission over the internet.",
+        "source_link": "https://gitlab.xiph.org/xiph/opus"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 774,
+      "type": 0,
+      "name": "libopus.so",
+      "mode": "exact",
+      "priority": 774,
+      "label": "Opus",
+      "iconId": "ic_lib_opus",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopus.so.json",
+      "examples": {
+        "positive": [
+          "libopus.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1858,
+      "type": 0,
+      "name": "libogg_opus_encoder.so",
+      "mode": "exact",
+      "priority": 1858,
+      "label": "Opus",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libogg_opus_encoder.so.json",
+      "examples": {
+        "positive": [
+          "libogg_opus_encoder.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1861,
+      "type": 0,
+      "name": "libopuscodec.so",
+      "mode": "exact",
+      "priority": 1861,
+      "label": "Opus",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libopuscodec.so.json",
+      "examples": {
+        "positive": [
+          "libopuscodec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2128,
+      "type": 0,
+      "name": "libogg_opus_encoder_translate.so",
+      "mode": "exact",
+      "priority": 2128,
+      "label": "Opus",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libogg_opus_encoder_translate.so.json",
+      "examples": {
+        "positive": [
+          "libogg_opus_encoder_translate.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

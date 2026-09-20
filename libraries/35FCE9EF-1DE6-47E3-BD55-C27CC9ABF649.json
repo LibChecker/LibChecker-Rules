@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 5,
+  "uuid": "35FCE9EF-1DE6-47E3-BD55-C27CC9ABF649",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PairIP",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "JasonKhew96",
+          "Absinthe"
+        ],
+        "description": "Google Play 的自动保护服务，可帮助你防止应用和游戏被未经授权地重新分发和盗版。",
+        "source_link": "https://support.google.com/googleplay/android-developer/answer/10183279"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PairIP",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "JasonKhew96",
+          "Absinthe"
+        ],
+        "description": "Google Play’s automatic protection is a service that helps you protect your apps and games against unauthorized redistribution and piracy.",
+        "source_link": "https://support.google.com/googleplay/android-developer/answer/10183279"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2409,
+      "type": 2,
+      "name": "com.pairip.licensecheck.LicenseActivity",
+      "mode": "exact",
+      "priority": 2409,
+      "label": "PairIP",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/pairip/licensecheck/LicenseActivity.json",
+      "examples": {
+        "positive": [
+          "com.pairip.licensecheck.LicenseActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2431,
+      "type": 0,
+      "name": "libpairipcore.so",
+      "mode": "exact",
+      "priority": 2431,
+      "label": "PairIP",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpairipcore.so.json",
+      "examples": {
+        "positive": [
+          "libpairipcore.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2441,
+      "type": 4,
+      "name": "com.pairip.licensecheck.LicenseContentProvider",
+      "mode": "exact",
+      "priority": 2441,
+      "label": "PairIP",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/pairip/licensecheck/LicenseContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.pairip.licensecheck.LicenseContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

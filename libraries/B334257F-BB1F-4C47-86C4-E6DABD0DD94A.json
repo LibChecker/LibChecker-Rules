@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B334257F-BB1F-4C47-86C4-E6DABD0DD94A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "imebra",
+        "dev_team": "imebra.com",
+        "rule_contributors": [
+          "KennethYo"
+        ],
+        "description": "Imebra DICOM C++ 库连接您的医疗设备。",
+        "source_link": "https://imebra.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "imebra",
+        "dev_team": "imebra.com",
+        "rule_contributors": [
+          "KennethYo"
+        ],
+        "description": "Imebra DICOM C++ Library Connecting your medical devices.",
+        "source_link": "https://imebra.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 990,
+      "type": 0,
+      "name": "libimebra_lib.so",
+      "mode": "exact",
+      "priority": 990,
+      "label": "imebra",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libimebra_lib.so.json",
+      "examples": {
+        "positive": [
+          "libimebra_lib.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

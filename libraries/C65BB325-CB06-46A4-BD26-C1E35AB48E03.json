@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C65BB325-CB06-46A4-BD26-C1E35AB48E03",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "nmmp",
+        "dev_team": "maoabc",
+        "rule_contributors": [
+          "Super12138",
+          "binx6"
+        ],
+        "description": "nmmp 是一个用于保护 Android 类的 dex 文件的库，它使用 dex-vm 技术将类和方法转换为字节码，从而防止反编译。",
+        "source_link": "https://github.com/maoabc/nmmp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "nmmp",
+        "dev_team": "maoabc",
+        "rule_contributors": [
+          "Super12138",
+          "binx6"
+        ],
+        "description": "nmmp is a library for protecting Android class dex files, using dex-vm technology to convert classes and methods into bytecode, preventing decompilation.",
+        "source_link": "https://github.com/maoabc/nmmp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1568,
+      "type": 0,
+      "name": "libnmmvm.so",
+      "mode": "exact",
+      "priority": 1568,
+      "label": "nmmp",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnmmvm.so.json",
+      "examples": {
+        "positive": [
+          "libnmmvm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2237,
+      "type": 0,
+      "name": "libnmmp.so",
+      "mode": "exact",
+      "priority": 2237,
+      "label": "nmmp",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libnmmp.so.json",
+      "examples": {
+        "positive": [
+          "libnmmp.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

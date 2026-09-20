@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DB8527EC-15FD-4053-9703-48DEDCC137CB",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Cast",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "使用 Google Cast SDK，您可以扩展 Android，iOS 或 Chrome 应用，以将其流式视频和音频定向到电视或声音系统。 您的应用程序成为播放，暂停，搜索，倒带，停止和控制媒体的遥控器。",
+        "source_link": "https://developers.google.com/cast/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Cast",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "Using the Google Cast SDK, you can extend Android, iOS, or Chrome apps to direct their streaming video and audio to a TV or sound system. Your app becomes a remote control for playing, pausing, searching, rewinding, stopping, and controlling media.",
+        "source_link": "https://developers.google.com/cast/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 190,
+      "type": 1,
+      "name": "com.google.android.gms.cast.framework.ReconnectionService",
+      "mode": "exact",
+      "priority": 190,
+      "label": "Google Cast",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/cast/framework/ReconnectionService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.cast.framework.ReconnectionService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 204,
+      "type": 1,
+      "name": "com.google.android.gms.cast.framework.media.MediaNotificationService",
+      "mode": "exact",
+      "priority": 204,
+      "label": "Google Cast",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/google/android/gms/cast/framework/media/MediaNotificationService.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.cast.framework.media.MediaNotificationService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 391,
+      "type": 3,
+      "name": "com.google.android.gms.cast.framework.media.MediaIntentReceiver",
+      "mode": "exact",
+      "priority": 391,
+      "label": "Google Cast",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/google/android/gms/cast/framework/media/MediaIntentReceiver.json",
+      "examples": {
+        "positive": [
+          "com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

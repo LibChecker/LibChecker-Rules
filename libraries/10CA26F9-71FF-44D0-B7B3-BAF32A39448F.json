@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 5,
+  "uuid": "10CA26F9-71FF-44D0-B7B3-BAF32A39448F",
+  "iconId": "ic_lib_huawei",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Huawei Push",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "华为推送服务（HUAWEI Push Kit）是华为为开发者提供的消息推送平台，建立了从云端到终端的消息推送通道。开发者通过集成 HUAWEI Push Kit 可以实时推送消息到用户终端应用，构筑良好的用户关系，提升用户的感知度和活跃度。",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/push-introduction/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Huawei Push",
+        "dev_team": "Huawei",
+        "rule_contributors": [
+          "Absinthe"
+        ],
+        "description": "HUAWEI Push Kit is a message push platform provided by Huawei for developers, establishing a message push channel from the cloud to the terminal. Developers can push messages to user terminal apps in real-time by integrating HUAWEI Push Kit, building a good user relationship, and enhancing user perception and activity.",
+        "source_link": "https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/push-introduction/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 185,
+      "type": 1,
+      "name": "com.huawei.hms.support.api.push.service.HmsMsgService",
+      "mode": "exact",
+      "priority": 185,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/huawei/hms/support/api/push/service/HmsMsgService.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.support.api.push.service.HmsMsgService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 236,
+      "type": 1,
+      "name": "com.huawei.updatesdk.service.deamon.download.DownloadService",
+      "mode": "exact",
+      "priority": 236,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/huawei/updatesdk/service/deamon/download/DownloadService.json",
+      "examples": {
+        "positive": [
+          "com.huawei.updatesdk.service.deamon.download.DownloadService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 376,
+      "type": 3,
+      "name": "com.huawei.hms.support.api.push.PushMsgReceiver",
+      "mode": "exact",
+      "priority": 376,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/huawei/hms/support/api/push/PushMsgReceiver.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.support.api.push.PushMsgReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 387,
+      "type": 3,
+      "name": "com.huawei.hms.support.api.push.PushReceiver",
+      "mode": "exact",
+      "priority": 387,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/huawei/hms/support/api/push/PushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.support.api.push.PushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 411,
+      "type": 3,
+      "name": "com.huawei.android.pushagent.PushBootReceiver",
+      "mode": "exact",
+      "priority": 411,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/huawei/android/pushagent/PushBootReceiver.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.pushagent.PushBootReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 415,
+      "type": 3,
+      "name": "com.huawei.hms.support.api.push.PushEventReceiver",
+      "mode": "exact",
+      "priority": 415,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/huawei/hms/support/api/push/PushEventReceiver.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.support.api.push.PushEventReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 422,
+      "type": 3,
+      "name": "com.huawei.android.pushagent.PushEventReceiver",
+      "mode": "exact",
+      "priority": 422,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/huawei/android/pushagent/PushEventReceiver.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.pushagent.PushEventReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 472,
+      "type": 4,
+      "name": "com.huawei.hms.support.api.push.PushProvider",
+      "mode": "exact",
+      "priority": 472,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/huawei/hms/support/api/push/PushProvider.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.support.api.push.PushProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1079,
+      "type": 2,
+      "name": "com.huawei.hms.support.api.push.TransActivity",
+      "mode": "exact",
+      "priority": 1079,
+      "label": "HUAWEI Push",
+      "iconId": "ic_lib_huawei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/huawei/hms/support/api/push/TransActivity.json",
+      "examples": {
+        "positive": [
+          "com.huawei.hms.support.api.push.TransActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

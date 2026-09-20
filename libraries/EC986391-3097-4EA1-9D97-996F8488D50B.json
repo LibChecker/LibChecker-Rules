@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EC986391-3097-4EA1-9D97-996F8488D50B",
+  "iconId": "ic_lib_meta",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Zstandard",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "mustmine",
+          "WOLFRAZOR"
+        ],
+        "description": "Zstandard，缩写 zstd,是一种快速无损压缩算法，针对 zlib 级别的实时压缩场景以及更好的压缩比。",
+        "source_link": "https://github.com/facebook/zstd"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Zstandard",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "mustmine",
+          "WOLFRAZOR"
+        ],
+        "description": "Zstandard, abbreviated as zstd, is a fast lossless compression algorithm aimed at real-time compression scenarios at zlib level and offering better compression ratios.",
+        "source_link": "https://github.com/facebook/zstd"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1962,
+      "type": 0,
+      "name": "libzstd.so",
+      "mode": "exact",
+      "priority": 1962,
+      "label": "Zstandard",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzstd.so.json",
+      "examples": {
+        "positive": [
+          "libzstd.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2077,
+      "type": 0,
+      "name": "libzstd_jni.so",
+      "mode": "exact",
+      "priority": 2077,
+      "label": "Zstandard",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzstd_jni.so.json",
+      "examples": {
+        "positive": [
+          "libzstd_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2179,
+      "type": 0,
+      "name": "libzstd-jni-(.*)\\.so",
+      "mode": "regex",
+      "priority": 2179,
+      "label": "Zstandard",
+      "iconId": "ic_lib_meta",
+      "regexName": "regex_zstd",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_zstd.json",
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2562,
+      "type": 0,
+      "name": "libzstandard_android.so",
+      "mode": "exact",
+      "priority": 2562,
+      "label": "Zstandard",
+      "iconId": "ic_lib_meta",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzstandard_android.so.json",
+      "examples": {
+        "positive": [
+          "libzstandard_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "15ABBE99-3F06-4667-8F5F-785DB4AABCA3",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "DCloud",
+        "dev_team": "数字天堂",
+        "rule_contributors": [
+          "ohyeah521"
+        ],
+        "description": "libdeflate 是一个用于快速、全缓冲区的 DEFLATE 压缩和解压缩的库。",
+        "source_link": "https://github.com/ebiggers/libdeflate"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "DCloud",
+        "dev_team": "数字天堂",
+        "rule_contributors": [
+          "ohyeah521"
+        ],
+        "description": "libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.",
+        "source_link": "https://github.com/ebiggers/libdeflate"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1916,
+      "type": 0,
+      "name": "libdcblur.so",
+      "mode": "exact",
+      "priority": 1916,
+      "label": "DCloud",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdcblur.so.json",
+      "examples": {
+        "positive": [
+          "libdcblur.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

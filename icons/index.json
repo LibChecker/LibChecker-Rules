@@ -1,0 +1,702 @@
+{
+  "0": {
+    "iconId": "ic_lib_360",
+    "isSimpleColorIcon": false
+  },
+  "1": {
+    "iconId": "ic_lib_airbnb",
+    "isSimpleColorIcon": false
+  },
+  "2": {
+    "iconId": "ic_lib_ali_security",
+    "isSimpleColorIcon": true
+  },
+  "3": {
+    "iconId": "ic_lib_alibaba",
+    "isSimpleColorIcon": true
+  },
+  "4": {
+    "iconId": "ic_lib_alipay",
+    "isSimpleColorIcon": false
+  },
+  "5": {
+    "iconId": "ic_lib_aliyun",
+    "isSimpleColorIcon": true
+  },
+  "6": {
+    "iconId": "ic_lib_amap",
+    "isSimpleColorIcon": true
+  },
+  "7": {
+    "iconId": "ic_lib_android",
+    "isSimpleColorIcon": false
+  },
+  "8": {
+    "iconId": "ic_lib_appauth",
+    "isSimpleColorIcon": false
+  },
+  "9": {
+    "iconId": "ic_lib_baidu",
+    "isSimpleColorIcon": true
+  },
+  "10": {
+    "iconId": "ic_lib_bilibili",
+    "isSimpleColorIcon": true
+  },
+  "11": {
+    "iconId": "ic_lib_huawei_cann",
+    "isSimpleColorIcon": true
+  },
+  "12": {
+    "iconId": "ic_lib_bytedance",
+    "isSimpleColorIcon": false
+  },
+  "13": {
+    "iconId": "ic_lib_chromium",
+    "isSimpleColorIcon": true
+  },
+  "14": {
+    "iconId": "ic_lib_cmb",
+    "isSimpleColorIcon": true
+  },
+  "15": {
+    "iconId": "ic_lib_cpp",
+    "isSimpleColorIcon": true
+  },
+  "16": {
+    "iconId": "ic_lib_didi",
+    "isSimpleColorIcon": true
+  },
+  "17": {
+    "iconId": "ic_lib_evernote",
+    "isSimpleColorIcon": true
+  },
+  "18": {
+    "iconId": "ic_lib_meta",
+    "isSimpleColorIcon": false
+  },
+  "19": {
+    "iconId": "ic_lib_firebase",
+    "isSimpleColorIcon": false
+  },
+  "20": {
+    "iconId": "ic_lib_flutter",
+    "isSimpleColorIcon": false
+  },
+  "21": {
+    "iconId": "ic_lib_golang",
+    "isSimpleColorIcon": false
+  },
+  "22": {
+    "iconId": "ic_lib_google",
+    "isSimpleColorIcon": false
+  },
+  "23": {
+    "iconId": "ic_lib_google_analytics",
+    "isSimpleColorIcon": false
+  },
+  "24": {
+    "iconId": "ic_lib_google_arcore",
+    "isSimpleColorIcon": false
+  },
+  "25": {
+    "iconId": "ic_lib_hapjs",
+    "isSimpleColorIcon": true
+  },
+  "26": {
+    "iconId": "ic_lib_huawei",
+    "isSimpleColorIcon": false
+  },
+  "27": {
+    "iconId": "ic_lib_iqiyi",
+    "isSimpleColorIcon": true
+  },
+  "28": {
+    "iconId": "ic_lib_jetpack",
+    "isSimpleColorIcon": false
+  },
+  "29": {
+    "iconId": "ic_lib_jpush",
+    "isSimpleColorIcon": false
+  },
+  "30": {
+    "iconId": "ic_lib_jverification",
+    "isSimpleColorIcon": true
+  },
+  "31": {
+    "iconId": "ic_lib_kuaishou",
+    "isSimpleColorIcon": true
+  },
+  "32": {
+    "iconId": "ic_lib_lua",
+    "isSimpleColorIcon": false
+  },
+  "33": {
+    "iconId": "ic_lib_material",
+    "isSimpleColorIcon": false
+  },
+  "34": {
+    "iconId": "ic_lib_meizu",
+    "isSimpleColorIcon": false
+  },
+  "35": {
+    "iconId": "ic_lib_microsoft",
+    "isSimpleColorIcon": false
+  },
+  "36": {
+    "iconId": "ic_lib_netease",
+    "isSimpleColorIcon": false
+  },
+  "37": {
+    "iconId": "ic_lib_opencv",
+    "isSimpleColorIcon": false
+  },
+  "38": {
+    "iconId": "ic_lib_oppo",
+    "isSimpleColorIcon": true
+  },
+  "39": {
+    "iconId": "ic_lib_play_store",
+    "isSimpleColorIcon": false
+  },
+  "40": {
+    "iconId": "ic_lib_qiniu",
+    "isSimpleColorIcon": true
+  },
+  "41": {
+    "iconId": "ic_lib_react",
+    "isSimpleColorIcon": false
+  },
+  "42": {
+    "iconId": "ic_lib_realm",
+    "isSimpleColorIcon": false
+  },
+  "43": {
+    "iconId": "ic_lib_rongyun",
+    "isSimpleColorIcon": true
+  },
+  "44": {
+    "iconId": "ic_lib_sensors",
+    "isSimpleColorIcon": true
+  },
+  "45": {
+    "iconId": "ic_lib_shizuku",
+    "isSimpleColorIcon": false
+  },
+  "46": {
+    "iconId": "ic_lib_sqlite",
+    "isSimpleColorIcon": false
+  },
+  "47": {
+    "iconId": "ic_lib_square",
+    "isSimpleColorIcon": true
+  },
+  "48": {
+    "iconId": "ic_lib_tencent",
+    "isSimpleColorIcon": true
+  },
+  "49": {
+    "iconId": "ic_lib_tencent_ad",
+    "isSimpleColorIcon": false
+  },
+  "50": {
+    "iconId": "ic_lib_tencent_cloud",
+    "isSimpleColorIcon": false
+  },
+  "51": {
+    "iconId": "ic_lib_tencent_map",
+    "isSimpleColorIcon": true
+  },
+  "52": {
+    "iconId": "ic_lib_litert",
+    "isSimpleColorIcon": false
+  },
+  "53": {
+    "iconId": "ic_lib_umeng",
+    "isSimpleColorIcon": true
+  },
+  "54": {
+    "iconId": "ic_lib_unionpay",
+    "isSimpleColorIcon": false
+  },
+  "55": {
+    "iconId": "ic_lib_unity",
+    "isSimpleColorIcon": false
+  },
+  "56": {
+    "iconId": "ic_lib_unreal_engine",
+    "isSimpleColorIcon": true
+  },
+  "57": {
+    "iconId": "ic_lib_vivo",
+    "isSimpleColorIcon": false
+  },
+  "58": {
+    "iconId": "ic_lib_webrtc",
+    "isSimpleColorIcon": false
+  },
+  "59": {
+    "iconId": "ic_lib_weibo",
+    "isSimpleColorIcon": true
+  },
+  "60": {
+    "iconId": "ic_lib_xamarin",
+    "isSimpleColorIcon": false
+  },
+  "61": {
+    "iconId": "ic_lib_xiaoai",
+    "isSimpleColorIcon": true
+  },
+  "62": {
+    "iconId": "ic_lib_xiaomi",
+    "isSimpleColorIcon": false
+  },
+  "63": {
+    "iconId": "ic_lib_xunfei",
+    "isSimpleColorIcon": true
+  },
+  "64": {
+    "iconId": "ic_lib_zhihu",
+    "isSimpleColorIcon": true
+  },
+  "65": {
+    "iconId": "ic_lib_kotlin",
+    "isSimpleColorIcon": false
+  },
+  "66": {
+    "iconId": "ic_lib_telegram",
+    "isSimpleColorIcon": true
+  },
+  "67": {
+    "iconId": "ic_lib_ffmpeg",
+    "isSimpleColorIcon": false
+  },
+  "68": {
+    "iconId": "ic_lib_vlc",
+    "isSimpleColorIcon": false
+  },
+  "69": {
+    "iconId": "ic_lib_paypal",
+    "isSimpleColorIcon": false
+  },
+  "70": {
+    "iconId": "ic_lib_qt",
+    "isSimpleColorIcon": false
+  },
+  "71": {
+    "iconId": "ic_lib_dataranger",
+    "isSimpleColorIcon": false
+  },
+  "72": {
+    "iconId": "ic_lib_rclone",
+    "isSimpleColorIcon": false
+  },
+  "73": {
+    "iconId": "ic_lib_sentry",
+    "isSimpleColorIcon": false
+  },
+  "74": {
+    "iconId": "ic_lib_jd",
+    "isSimpleColorIcon": true
+  },
+  "75": {
+    "iconId": "ic_lib_curl",
+    "isSimpleColorIcon": false
+  },
+  "76": {
+    "iconId": "ic_lib_opencc",
+    "isSimpleColorIcon": true
+  },
+  "77": {
+    "iconId": "ic_lib_zbar",
+    "isSimpleColorIcon": false
+  },
+  "78": {
+    "iconId": "ic_lib_opus",
+    "isSimpleColorIcon": false
+  },
+  "79": {
+    "iconId": "ic_lib_live2d",
+    "isSimpleColorIcon": false
+  },
+  "80": {
+    "iconId": "ic_lib_google_ml_kit",
+    "isSimpleColorIcon": false
+  },
+  "81": {
+    "iconId": "ic_lib_yandex_speech_kit",
+    "isSimpleColorIcon": true
+  },
+  "82": {
+    "iconId": "ic_lib_getui",
+    "isSimpleColorIcon": true
+  },
+  "83": {
+    "iconId": "ic_lib_dx_risk",
+    "isSimpleColorIcon": true
+  },
+  "84": {
+    "iconId": "ic_lib_clash",
+    "isSimpleColorIcon": true
+  },
+  "85": {
+    "iconId": "ic_lib_jetpack_compose",
+    "isSimpleColorIcon": false
+  },
+  "86": {
+    "iconId": "ic_lib_douyin",
+    "isSimpleColorIcon": false
+  },
+  "87": {
+    "iconId": "ic_lib_agora",
+    "isSimpleColorIcon": false
+  },
+  "88": {
+    "iconId": "ic_lib_hermes",
+    "isSimpleColorIcon": false
+  },
+  "89": {
+    "iconId": "ic_lib_netease_yunxin",
+    "isSimpleColorIcon": false
+  },
+  "90": {
+    "iconId": "ic_lib_applovin",
+    "isSimpleColorIcon": false
+  },
+  "91": {
+    "iconId": "ic_lib_godot",
+    "isSimpleColorIcon": false
+  },
+  "92": {
+    "iconId": "ic_lib_gamemaker",
+    "isSimpleColorIcon": false
+  },
+  "93": {
+    "iconId": "ic_lib_cmcc",
+    "isSimpleColorIcon": true
+  },
+  "94": {
+    "iconId": "ic_lib_mpaas",
+    "isSimpleColorIcon": false
+  },
+  "95": {
+    "iconId": "ic_lib_node_js",
+    "isSimpleColorIcon": false
+  },
+  "96": {
+    "iconId": "ic_lib_fresco",
+    "isSimpleColorIcon": false
+  },
+  "97": {
+    "iconId": "ic_lib_meituan",
+    "isSimpleColorIcon": true
+  },
+  "98": {
+    "iconId": "ic_lib_netease_shield",
+    "isSimpleColorIcon": false
+  },
+  "99": {
+    "iconId": "ic_lib_vorbis",
+    "isSimpleColorIcon": false
+  },
+  "100": {
+    "iconId": "ic_lib_mapbox",
+    "isSimpleColorIcon": true
+  },
+  "101": {
+    "iconId": "ic_lib_google_cardboard",
+    "isSimpleColorIcon": true
+  },
+  "102": {
+    "iconId": "ic_lib_ncnn",
+    "isSimpleColorIcon": false
+  },
+  "103": {
+    "iconId": "ic_lib_youdao",
+    "isSimpleColorIcon": true
+  },
+  "104": {
+    "iconId": "ic_lib_honor",
+    "isSimpleColorIcon": true
+  },
+  "105": {
+    "iconId": "ic_lib_rn_reanimated",
+    "isSimpleColorIcon": false
+  },
+  "106": {
+    "iconId": "ic_lib_meiqia",
+    "isSimpleColorIcon": false
+  },
+  "107": {
+    "iconId": "ic_lib_instabug",
+    "isSimpleColorIcon": false
+  },
+  "108": {
+    "iconId": "ic_lib_rust",
+    "isSimpleColorIcon": true
+  },
+  "109": {
+    "iconId": "ic_lib_volcengine",
+    "isSimpleColorIcon": false
+  },
+  "110": {
+    "iconId": "ic_lib_wwise",
+    "isSimpleColorIcon": true
+  },
+  "111": {
+    "iconId": "ic_lib_gio",
+    "isSimpleColorIcon": true
+  },
+  "112": {
+    "iconId": "ic_lib_mpv",
+    "isSimpleColorIcon": false
+  },
+  "113": {
+    "iconId": "ic_lib_isar",
+    "isSimpleColorIcon": false
+  },
+  "114": {
+    "iconId": "ic_lib_snapdragon",
+    "isSimpleColorIcon": false
+  },
+  "115": {
+    "iconId": "ic_lib_oracle",
+    "isSimpleColorIcon": false
+  },
+  "116": {
+    "iconId": "ic_lib_javet",
+    "isSimpleColorIcon": false
+  },
+  "117": {
+    "iconId": "ic_lib_openvpn",
+    "isSimpleColorIcon": false
+  },
+  "118": {
+    "iconId": "ic_lib_wireguard",
+    "isSimpleColorIcon": false
+  },
+  "119": {
+    "iconId": "ic_lib_rootbeer",
+    "isSimpleColorIcon": false
+  },
+  "120": {
+    "iconId": "ic_lib_xiaohongshu",
+    "isSimpleColorIcon": false
+  },
+  "121": {
+    "iconId": "ic_lib_megvii",
+    "isSimpleColorIcon": false
+  },
+  "122": {
+    "iconId": "ic_lib_folly",
+    "isSimpleColorIcon": false
+  },
+  "123": {
+    "iconId": "ic_lib_ironsource",
+    "isSimpleColorIcon": false
+  },
+  "124": {
+    "iconId": "ic_lib_android_ide",
+    "isSimpleColorIcon": true
+  },
+  "125": {
+    "iconId": "ic_lib_rnscreen",
+    "isSimpleColorIcon": false
+  },
+  "126": {
+    "iconId": "ic_lib_fcitx",
+    "isSimpleColorIcon": false
+  },
+  "127": {
+    "iconId": "ic_lib_tuanjie",
+    "isSimpleColorIcon": false
+  },
+  "128": {
+    "iconId": "ic_lib_tvm",
+    "isSimpleColorIcon": false
+  },
+  "129": {
+    "iconId": "ic_lib_singbox",
+    "isSimpleColorIcon": false
+  },
+  "130": {
+    "iconId": "ic_lib_google_mediapipe",
+    "isSimpleColorIcon": false
+  },
+  "131": {
+    "iconId": "ic_lib_tencent_tds",
+    "isSimpleColorIcon": false
+  },
+  "132": {
+    "iconId": "ic_lib_tencent_beacon",
+    "isSimpleColorIcon": false
+  },
+  "133": {
+    "iconId": "ic_lib_tencent_youtu",
+    "isSimpleColorIcon": false
+  },
+  "134": {
+    "iconId": "ic_lib_jna",
+    "isSimpleColorIcon": false
+  },
+  "135": {
+    "iconId": "ic_lib_maplibre_native",
+    "isSimpleColorIcon": false
+  },
+  "136": {
+    "iconId": "ic_lib_graphene_os",
+    "isSimpleColorIcon": true
+  },
+  "137": {
+    "iconId": "ic_lib_termux",
+    "isSimpleColorIcon": false
+  },
+  "138": {
+    "iconId": "ic_lib_rive",
+    "isSimpleColorIcon": true
+  },
+  "139": {
+    "iconId": "ic_lib_lynx",
+    "isSimpleColorIcon": true
+  },
+  "140": {
+    "iconId": "ic_lib_expo",
+    "isSimpleColorIcon": true
+  },
+  "141": {
+    "iconId": "ic_lib_cordova",
+    "isSimpleColorIcon": false
+  },
+  "142": {
+    "iconId": "ic_lib_donut",
+    "isSimpleColorIcon": false
+  },
+  "143": {
+    "iconId": "ic_lib_stripe",
+    "isSimpleColorIcon": false
+  },
+  "144": {
+    "iconId": "ic_lib_rn_worklets",
+    "isSimpleColorIcon": false
+  },
+  "145": {
+    "iconId": "ic_lib_rn_svg",
+    "isSimpleColorIcon": false
+  },
+  "146": {
+    "iconId": "ic_lib_qualcomm",
+    "isSimpleColorIcon": false
+  },
+  "147": {
+    "iconId": "ic_lib_akamai",
+    "isSimpleColorIcon": false
+  },
+  "148": {
+    "iconId": "ic_lib_appcenter",
+    "isSimpleColorIcon": false
+  },
+  "149": {
+    "iconId": "ic_lib_callstack_media_kit",
+    "isSimpleColorIcon": true
+  },
+  "150": {
+    "iconId": "ic_lib_expo_av",
+    "isSimpleColorIcon": false
+  },
+  "151": {
+    "iconId": "ic_lib_datadog",
+    "isSimpleColorIcon": false
+  },
+  "152": {
+    "iconId": "ic_lib_rn_firebase",
+    "isSimpleColorIcon": false
+  },
+  "153": {
+    "iconId": "ic_lib_baseflow",
+    "isSimpleColorIcon": true
+  },
+  "154": {
+    "iconId": "ic_lib_jetbrain_kmp",
+    "isSimpleColorIcon": false
+  },
+  "155": {
+    "iconId": "ic_lib_comscore",
+    "isSimpleColorIcon": false
+  },
+  "156": {
+    "iconId": "ic_lib_adjust",
+    "isSimpleColorIcon": false
+  },
+  "157": {
+    "iconId": "ic_lib_microsoft_intune",
+    "isSimpleColorIcon": false
+  },
+  "158": {
+    "iconId": "ic_lib_microsoft_extra_id",
+    "isSimpleColorIcon": false
+  },
+  "159": {
+    "iconId": "ic_lib_microsoft_skiasharp",
+    "isSimpleColorIcon": false
+  },
+  "160": {
+    "iconId": "ic_lib_rn_skia",
+    "isSimpleColorIcon": false
+  },
+  "161": {
+    "iconId": "ic_lib_rn_gesture_handler",
+    "isSimpleColorIcon": false
+  },
+  "162": {
+    "iconId": "ic_lib_rn_image_crop_picker",
+    "isSimpleColorIcon": false
+  },
+  "163": {
+    "iconId": "ic_lib_jolt",
+    "isSimpleColorIcon": false
+  },
+  "164": {
+    "iconId": "ic_lib_lame",
+    "isSimpleColorIcon": false
+  },
+  "165": {
+    "iconId": "ic_lib_intercom",
+    "isSimpleColorIcon": true
+  },
+  "166": {
+    "iconId": "ic_lib_batch",
+    "isSimpleColorIcon": false
+  },
+  "167": {
+    "iconId": "ic_lib_notifee",
+    "isSimpleColorIcon": false
+  },
+  "168": {
+    "iconId": "ic_lib_wasmer",
+    "isSimpleColorIcon": false
+  },
+  "169": {
+    "iconId": "ic_lib_tds_wcdb",
+    "isSimpleColorIcon": false
+  },
+  "170": {
+    "iconId": "ic_lib_google_tag_manager",
+    "isSimpleColorIcon": false
+  },
+  "171": {
+    "iconId": "ic_lib_matrix",
+    "isSimpleColorIcon": false
+  },
+  "172": {
+    "iconId": "ic_lib_skip",
+    "isSimpleColorIcon": false
+  },
+  "173": {
+    "iconId": "ic_lib_liftoff",
+    "isSimpleColorIcon": true
+  },
+  "-1": {
+    "iconId": null,
+    "isSimpleColorIcon": true
+  }
+}

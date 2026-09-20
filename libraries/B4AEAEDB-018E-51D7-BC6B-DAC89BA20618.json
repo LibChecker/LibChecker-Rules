@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B4AEAEDB-018E-51D7-BC6B-DAC89BA20618",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 485,
+      "type": 5,
+      "name": "androidx.transition",
+      "mode": "exact",
+      "priority": 485,
+      "label": "Jetpack Transition",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.transition"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

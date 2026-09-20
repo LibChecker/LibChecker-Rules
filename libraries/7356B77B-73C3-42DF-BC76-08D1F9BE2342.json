@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7356B77B-73C3-42DF-BC76-08D1F9BE2342",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "JusTalk Cloud",
+        "dev_team": "宁波菊风系统软件有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "全球领先的移动音视频通讯云平台。",
+        "source_link": "https://justalkcloud.com/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "JusTalk Cloud",
+        "dev_team": "宁波菊风系统软件有限公司",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "A global leading mobile audio and video communication cloud platform.",
+        "source_link": "https://justalkcloud.com/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1296,
+      "type": 0,
+      "name": "libmtc.so",
+      "mode": "exact",
+      "priority": 1296,
+      "label": "JusTalk Cloud",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmtc.so.json",
+      "examples": {
+        "positive": [
+          "libmtc.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1297,
+      "type": 0,
+      "name": "libzmf.so",
+      "mode": "exact",
+      "priority": 1297,
+      "label": "JusTalk Cloud",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libzmf.so.json",
+      "examples": {
+        "positive": [
+          "libzmf.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

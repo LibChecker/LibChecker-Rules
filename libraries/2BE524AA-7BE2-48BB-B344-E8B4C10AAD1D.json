@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2BE524AA-7BE2-48BB-B344-E8B4C10AAD1D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SQLCipher",
+        "dev_team": "Zetetic",
+        "rule_contributors": [
+          "Absinthe",
+          "kotori2"
+        ],
+        "description": "SQLCipher 是一个 SQLite 扩展，它提供数据库文件的 256 位 AES 加密能力。",
+        "source_link": "https://github.com/sqlcipher/sqlcipher/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SQLCipher",
+        "dev_team": "Zetetic",
+        "rule_contributors": [
+          "Absinthe",
+          "kotori2"
+        ],
+        "description": "SQLCipher is an SQLite extension that provides 256-bit AES encryption for database files.",
+        "source_link": "https://github.com/sqlcipher/sqlcipher/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 22,
+      "type": 0,
+      "name": "libsqlcipher.so",
+      "mode": "exact",
+      "priority": 22,
+      "label": "SQLCipher",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsqlcipher.so.json",
+      "examples": {
+        "positive": [
+          "libsqlcipher.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 120,
+      "type": 0,
+      "name": "libstlport_shared.so",
+      "mode": "exact",
+      "priority": 120,
+      "label": "SQLCipher",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libstlport_shared.so.json",
+      "examples": {
+        "positive": [
+          "libstlport_shared.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "SQLCipher",
+            "dev_team": "SQLCipher",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "SQLCipher 是一个 SQLite 扩展，它提供数据库文件的 256 位 AES 加密能力。",
+            "source_link": "https://github.com/sqlcipher/sqlcipher/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "SQLCipher",
+            "dev_team": "SQLCipher",
+            "rule_contributors": [
+              "Absinthe"
+            ],
+            "description": "SQLCipher is an SQLite extension that provides 256-bit AES encryption for database files.",
+            "source_link": "https://github.com/sqlcipher/sqlcipher/"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C73A124B-2C4E-5476-8F10-5830D98D90A1",
+  "iconId": "ic_lib_yandex_speech_kit",
+  "data": [],
+  "matchers": [
+    {
+      "id": 777,
+      "type": 0,
+      "name": "libYandexSpeechKitJni\\.(.*)\\.so",
+      "mode": "regex",
+      "priority": 777,
+      "label": "Yandex SpeechKit",
+      "iconId": "ic_lib_yandex_speech_kit",
+      "regexName": "regex_yandex_speechKit",
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

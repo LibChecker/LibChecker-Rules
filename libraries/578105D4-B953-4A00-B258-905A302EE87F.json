@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "578105D4-B953-4A00-B258-905A302EE87F",
+  "iconId": "ic_lib_datadog",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Datadog Native Crash Collection",
+        "dev_team": "Datadog",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为应用中 C/C++ 代码引发的问题发送崩溃报告。",
+        "source_link": "https://github.com/DataDog/dd-sdk-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Datadog Native Crash Collection",
+        "dev_team": "Datadog",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Send crash report for issues rising from the C/C++ code in your application.",
+        "source_link": "https://github.com/DataDog/dd-sdk-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2804,
+      "type": 0,
+      "name": "libdatadog-native-lib.so",
+      "mode": "exact",
+      "priority": 2804,
+      "label": "Datadog Native Crash Collection",
+      "iconId": "ic_lib_datadog",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdatadog-native-lib.so.json",
+      "examples": {
+        "positive": [
+          "libdatadog-native-lib.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2851,
+      "type": 4,
+      "name": "com.datadog.android.rum.DdRumContentProvider",
+      "mode": "exact",
+      "priority": 2851,
+      "label": "Datadog Native Crash Collection",
+      "iconId": "ic_lib_datadog",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/datadog/android/rum/DdRumContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.datadog.android.rum.DdRumContentProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

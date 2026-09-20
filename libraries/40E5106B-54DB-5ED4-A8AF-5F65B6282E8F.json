@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "40E5106B-54DB-5ED4-A8AF-5F65B6282E8F",
+  "iconId": "ic_lib_jetpack",
+  "data": [],
+  "matchers": [
+    {
+      "id": 2570,
+      "type": 1,
+      "name": "androidx.core.telecom.internal.JetpackConnenctionService",
+      "mode": "exact",
+      "priority": 2570,
+      "label": "Jetpack Core",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "androidx.core.telecom.internal.JetpackConnenctionService"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

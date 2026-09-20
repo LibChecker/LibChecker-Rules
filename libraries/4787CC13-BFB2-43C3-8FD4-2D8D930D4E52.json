@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4787CC13-BFB2-43C3-8FD4-2D8D930D4E52",
+  "iconId": "ic_lib_android",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Fcitx 5 for Android",
+        "dev_team": "Fcitx / Fcitx 5 for Android",
+        "rule_contributors": [
+          "WhiredPlanck"
+        ],
+        "description": "Fcitx 5 的 Android 插件。（通知）",
+        "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Fcitx 5 for Android",
+        "dev_team": "Fcitx / Fcitx 5 for Android",
+        "rule_contributors": [
+          "WhiredPlanck"
+        ],
+        "description": "Fcitx 5 for Android addon. (notification)",
+        "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1951,
+      "type": 0,
+      "name": "libandroidnotification.so",
+      "mode": "exact",
+      "priority": 1951,
+      "label": "Fcitx 5 for Android",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroidnotification.so.json",
+      "examples": {
+        "positive": [
+          "libandroidnotification.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1959,
+      "type": 0,
+      "name": "libandroidfrontend.so",
+      "mode": "exact",
+      "priority": 1959,
+      "label": "Fcitx 5 for Android",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroidfrontend.so.json",
+      "examples": {
+        "positive": [
+          "libandroidfrontend.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 for Android",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（通知）",
+            "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 for Android",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (frontend)",
+            "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1966,
+      "type": 0,
+      "name": "libandroidkeyboard.so",
+      "mode": "exact",
+      "priority": 1966,
+      "label": "Fcitx 5 for Android",
+      "iconId": "ic_lib_android",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libandroidkeyboard.so.json",
+      "examples": {
+        "positive": [
+          "libandroidkeyboard.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Fcitx 5 for Android",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 的 Android 插件。（通知）",
+            "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Fcitx 5 for Android",
+            "dev_team": "Fcitx / Fcitx 5 for Android",
+            "rule_contributors": [
+              "WhiredPlanck"
+            ],
+            "description": "Fcitx 5 for Android addon. (keyboard)",
+            "source_link": "https://github.com/fcitx5-android/fcitx5-android/tree/0.0.9/app/src/main/cpp"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

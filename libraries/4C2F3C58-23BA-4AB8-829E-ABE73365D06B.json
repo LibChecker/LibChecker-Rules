@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4C2F3C58-23BA-4AB8-829E-ABE73365D06B",
+  "iconId": "ic_lib_vivo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "VCAP",
+        "dev_team": "vivo",
+        "rule_contributors": [
+          "ashes68"
+        ],
+        "description": "VCAP 是 vivo 自研的全能力、高性能、跨平台的移动端 AI 计算加速平台，助力开发者将 AI 算法在移动端快速部署、高效运行。",
+        "source_link": "https://developers.vivo.com/product/ai/vcap"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "VCAP",
+        "dev_team": "vivo",
+        "rule_contributors": [
+          "ashes68"
+        ],
+        "description": "VCAP is vivo's self-developed comprehensive, high-performance, cross-platform mobile AI computing acceleration platform, assisting developers in quickly deploying and efficiently running AI algorithms on mobile devices.",
+        "source_link": "https://developers.vivo.com/product/ai/vcap"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1648,
+      "type": 0,
+      "name": "libvcap.so",
+      "mode": "exact",
+      "priority": 1648,
+      "label": "VCAP",
+      "iconId": "ic_lib_vivo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcap.so.json",
+      "examples": {
+        "positive": [
+          "libvcap.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1649,
+      "type": 0,
+      "name": "libvcap_core.so",
+      "mode": "exact",
+      "priority": 1649,
+      "label": "VCAP",
+      "iconId": "ic_lib_vivo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcap_core.so.json",
+      "examples": {
+        "positive": [
+          "libvcap_core.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1650,
+      "type": 0,
+      "name": "libvcap_npu.so",
+      "mode": "exact",
+      "priority": 1650,
+      "label": "VCAP",
+      "iconId": "ic_lib_vivo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcap_npu.so.json",
+      "examples": {
+        "positive": [
+          "libvcap_npu.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1651,
+      "type": 0,
+      "name": "libvcap_opencl.so",
+      "mode": "exact",
+      "priority": 1651,
+      "label": "VCAP",
+      "iconId": "ic_lib_vivo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcap_opencl.so.json",
+      "examples": {
+        "positive": [
+          "libvcap_opencl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1652,
+      "type": 0,
+      "name": "libvcaplite_android.so",
+      "mode": "exact",
+      "priority": 1652,
+      "label": "VCAP",
+      "iconId": "ic_lib_vivo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcaplite_android.so.json",
+      "examples": {
+        "positive": [
+          "libvcaplite_android.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

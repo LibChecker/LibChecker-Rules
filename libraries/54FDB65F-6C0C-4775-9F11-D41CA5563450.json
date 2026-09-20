@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "54FDB65F-6C0C-4775-9F11-D41CA5563450",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ShadowSafety",
+        "dev_team": "江西影安科技有限公司",
+        "rule_contributors": [
+          "CatZiTan0"
+        ],
+        "description": "由江西影安科技有限公司提供的安卓应用加固，包含签名验证、定制vmp保护、模块化加固、私人定制特征、dex定制加壳等保护。",
+        "source_link": "https://www.shadowsafety.cn/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ShadowSafety",
+        "dev_team": "江西影安科技有限公司",
+        "rule_contributors": [
+          "CatZiTan0"
+        ],
+        "description": "Android application hardening provided by Jiangxi Ying'an Technology Co., Ltd., including signature verification, custom VMP protection, modular hardening, privately customized signatures, and custom DEX packing protection.",
+        "source_link": "https://www.shadowsafety.cn/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2771,
+      "type": 0,
+      "name": "libShadowSafetyProtect.so",
+      "mode": "exact",
+      "priority": 2771,
+      "label": "ShadowSafety",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libShadowSafetyProtect.so.json",
+      "examples": {
+        "positive": [
+          "libShadowSafetyProtect.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2772,
+      "type": 0,
+      "name": "libShadowSafetyProtect_a64.so",
+      "mode": "exact",
+      "priority": 2772,
+      "label": "ShadowSafety",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libShadowSafetyProtect_a64.so.json",
+      "examples": {
+        "positive": [
+          "libShadowSafetyProtect_a64.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2773,
+      "type": 0,
+      "name": "libShadowSafetyProtect_x64.so",
+      "mode": "exact",
+      "priority": 2773,
+      "label": "ShadowSafety",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libShadowSafetyProtect_x64.so.json",
+      "examples": {
+        "positive": [
+          "libShadowSafetyProtect_x64.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2774,
+      "type": 0,
+      "name": "libShadowSafetyProtect_x86.so",
+      "mode": "exact",
+      "priority": 2774,
+      "label": "ShadowSafety",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libShadowSafetyProtect_x86.so.json",
+      "examples": {
+        "positive": [
+          "libShadowSafetyProtect_x86.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

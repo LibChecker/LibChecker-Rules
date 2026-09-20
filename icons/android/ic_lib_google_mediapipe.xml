@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+
+    <path
+        android:fillColor="#0097A7"
+        android:pathData="M592,325.3C621.5,325.3 645.3,301.5 645.3,272C645.3,242.5 621.5,218.7 592,218.7C562.5,218.7 538.7,242.5 538.7,272C538.7,301.5 562.5,325.3 592,325.3Z" />
+
+    <path
+        android:fillColor="#0097A7"
+        android:fillType="evenOdd"
+        android:pathData="M218.7,592L218.7,590.3C219.6,561.7 243.1,538.7 272,538.7C301.5,538.7 325.3,562.5 325.3,592V752C325.3,781.5 301.5,805.3 272,805.3C242.5,805.3 218.7,781.5 218.7,752V592Z" />
+
+    <path
+        android:fillColor="#0097A7"
+        android:fillType="evenOdd"
+        android:pathData="M218.7,272L218.7,270.3C219.6,241.7 243.1,218.7 272,218.7C301.5,218.7 325.3,242.5 325.3,272V432C325.3,461.5 301.5,485.3 272,485.3C242.5,485.3 218.7,461.5 218.7,432V272Z" />
+
+    <path
+        android:fillColor="#0097A7"
+        android:fillType="evenOdd"
+        android:pathData="M378.7,272L378.7,270.3C379.6,241.7 403.1,218.7 432,218.7C461.5,218.7 485.3,242.5 485.3,272V592C485.3,621.5 461.5,645.3 432,645.3C402.5,645.3 378.7,621.5 378.7,592V272Z" />
+
+    <path
+        android:fillColor="#0097A7"
+        android:fillType="evenOdd"
+        android:pathData="M698.7,272L698.7,270.3C699.6,241.7 723.1,218.7 752,218.7C781.5,218.7 805.3,242.5 805.3,272V752C805.3,781.5 781.5,805.3 752,805.3C722.5,805.3 698.7,781.5 698.7,752V272Z" />
+
+    <path
+        android:fillColor="#0097A7"
+        android:fillType="evenOdd"
+        android:pathData="M538.7,432L538.7,430.3C539.6,401.7 563.1,378.7 592,378.7C621.5,378.7 645.3,402.5 645.3,432V752C645.3,781.5 621.5,805.3 592,805.3C562.5,805.3 538.7,781.5 538.7,752V432Z" />
+
+    <path
+        android:fillColor="#0097A7"
+        android:pathData="M432,805.3C461.5,805.3 485.3,781.5 485.3,752C485.3,722.5 461.5,698.7 432,698.7C402.5,698.7 378.7,722.5 378.7,752C378.7,781.5 402.5,805.3 432,805.3Z" />
+
+</vector>

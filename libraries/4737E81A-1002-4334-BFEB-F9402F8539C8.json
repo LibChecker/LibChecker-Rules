@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4737E81A-1002-4334-BFEB-F9402F8539C8",
+  "iconId": "ic_lib_tencent_cloud",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "腾讯移动推送",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "移动推送 TPNS（Tencent Push Notification Service）为您提供稳定、快速高抵达的 APP 推送服务。其接入方便快捷，拥有行业前沿的技术实力，稳定可靠的消息推送通道，独有可自选的双 Service 联合保活服务，能有效提升消息抵达率；系统每分钟可容纳1800万推送消息，消息能秒级到达（支撑王者荣耀等腾讯内应用推送工具）；此外，其具备精准用户标签能力，有效助力 APP 的精细化运营。 ",
+        "source_link": "https://cloud.tencent.com/product/tpns"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tencent Mobile Push",
+        "dev_team": "Tencent",
+        "rule_contributors": [
+          "Absinthe",
+          "ArthurCyy"
+        ],
+        "description": "Mobile Push TPNS (Tencent Push Notification Service) provides you with stable, fast, and high-reach app push services. Its integration is convenient and fast, with industry-leading technical strength, stable and reliable message push channels, and a unique optional dual-Service joint keep-alive service, effectively improving message reach rate; the system can accommodate 18 million push messages per minute, with messages reaching in seconds (supporting Tencent internal applications like Honor of Kings); additionally, it has precise user tag capabilities, effectively assisting in refined app operations.",
+        "source_link": "https://cloud.tencent.com/product/tpns"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 193,
+      "type": 1,
+      "name": "com.tencent.tpns.mqttchannel.services.MqttService",
+      "mode": "exact",
+      "priority": 193,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/tpns/mqttchannel/services/MqttService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tpns.mqttchannel.services.MqttService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 225,
+      "type": 1,
+      "name": "com.tencent.android.tpush.service.XGDaemonService",
+      "mode": "exact",
+      "priority": 225,
+      "label": "信鸽推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/service/XGDaemonService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.service.XGDaemonService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 238,
+      "type": 1,
+      "name": "com.tencent.android.tpush.service.XGPushService",
+      "mode": "exact",
+      "priority": 238,
+      "label": "信鸽推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/service/XGPushService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.service.XGPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 261,
+      "type": 1,
+      "name": "com.tencent.android.tpush.service.XGPushServiceV4",
+      "mode": "exact",
+      "priority": 261,
+      "label": "信鸽推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/service/XGPushServiceV4.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.service.XGPushServiceV4"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 262,
+      "type": 1,
+      "name": "com.tencent.android.tpush.service.XGPushServiceV3",
+      "mode": "exact",
+      "priority": 262,
+      "label": "信鸽推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/service/XGPushServiceV3.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.service.XGPushServiceV3"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 265,
+      "type": 1,
+      "name": "com.tencent.android.tpush.service.XGVipPushService",
+      "mode": "exact",
+      "priority": 265,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/service/XGVipPushService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.service.XGVipPushService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 278,
+      "type": 1,
+      "name": "com.tencent.android.tpush.rpc.XGRemoteService",
+      "mode": "exact",
+      "priority": 278,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/rpc/XGRemoteService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.rpc.XGRemoteService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 319,
+      "type": 2,
+      "name": "com.tencent.android.tpush.TpnsActivity",
+      "mode": "exact",
+      "priority": 319,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/android/tpush/TpnsActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.TpnsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 388,
+      "type": 3,
+      "name": "com.tencent.android.mzpush.MZPushMessageReceiver",
+      "mode": "exact",
+      "priority": 388,
+      "label": "Meizu Push(TPNS Proxy)",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/tencent/android/mzpush/MZPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.mzpush.MZPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 402,
+      "type": 3,
+      "name": "com.tencent.android.mipush.XMPushMessageReceiver",
+      "mode": "exact",
+      "priority": 402,
+      "label": "MiPush(TPNS Proxy)",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/tencent/android/mipush/XMPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.mipush.XMPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 420,
+      "type": 3,
+      "name": "com.tencent.android.tpush.XGPushReceiver",
+      "mode": "exact",
+      "priority": 420,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/tencent/android/tpush/XGPushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.XGPushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 425,
+      "type": 3,
+      "name": "com.tencent.android.vivopush.VivoPushMessageReceiver",
+      "mode": "exact",
+      "priority": 425,
+      "label": "vivo Push(TPNS Proxy)",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/tencent/android/vivopush/VivoPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.vivopush.VivoPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 441,
+      "type": 4,
+      "name": "com.tencent.tpns.baseapi.base.SettingsContentProvider",
+      "mode": "exact",
+      "priority": 441,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/tpns/baseapi/base/SettingsContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.tpns.baseapi.base.SettingsContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 461,
+      "type": 4,
+      "name": "com.tencent.android.tpush.XGPushProvider",
+      "mode": "exact",
+      "priority": 461,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/android/tpush/XGPushProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.XGPushProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 467,
+      "type": 4,
+      "name": "com.tencent.android.tpush.SettingsContentProvider",
+      "mode": "exact",
+      "priority": 467,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/android/tpush/SettingsContentProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.SettingsContentProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 476,
+      "type": 4,
+      "name": "com.tencent.android.tpush.XGVipPushKAProvider",
+      "mode": "exact",
+      "priority": 476,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/tencent/android/tpush/XGVipPushKAProvider.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.XGVipPushKAProvider"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 727,
+      "type": 2,
+      "name": "com.tencent.android.tpush.inappmessage.InAppMessageActivity",
+      "mode": "exact",
+      "priority": 727,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/android/tpush/inappmessage/InAppMessageActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.inappmessage.InAppMessageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 779,
+      "type": 0,
+      "name": "libxgVipSecurity.so",
+      "mode": "exact",
+      "priority": 779,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxgVipSecurity.so.json",
+      "examples": {
+        "positive": [
+          "libxgVipSecurity.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 780,
+      "type": 1,
+      "name": "com.huawei.android.hms.tpns.HWHmsMessageService",
+      "mode": "exact",
+      "priority": 780,
+      "label": "HUAWEI Push(TPNS Proxy)",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/huawei/android/hms/tpns/HWHmsMessageService.json",
+      "examples": {
+        "positive": [
+          "com.huawei.android.hms.tpns.HWHmsMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 965,
+      "type": 2,
+      "name": "com.tencent.android.tpush.InnerTpnsActivity",
+      "mode": "exact",
+      "priority": 965,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/tencent/android/tpush/InnerTpnsActivity.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.InnerTpnsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1336,
+      "type": 3,
+      "name": "com.tencent.android.hwpush.HWPushMessageReceiver",
+      "mode": "exact",
+      "priority": 1336,
+      "label": "HUAWEI Push(TPNS Proxy)",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/tencent/android/hwpush/HWPushMessageReceiver.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.hwpush.HWPushMessageReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 1430,
+      "type": 1,
+      "name": "com.tencent.android.tpush.honor.HonorMessageService",
+      "mode": "exact",
+      "priority": 1430,
+      "label": "HONOR Push(TPNS Proxy)",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/tencent/android/tpush/honor/HonorMessageService.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.tpush.honor.HonorMessageService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2351,
+      "type": 9,
+      "name": "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE",
+      "mode": "exact",
+      "priority": 2351,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2352,
+      "type": 9,
+      "name": "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE",
+      "mode": "exact",
+      "priority": 2352,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2353,
+      "type": 9,
+      "name": "com.tencent.android.xg.vip.action.SDK",
+      "mode": "exact",
+      "priority": 2353,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.android.xg.vip.action.SDK.json",
+      "examples": {
+        "positive": [
+          "com.tencent.android.xg.vip.action.SDK"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2355,
+      "type": 9,
+      "name": "com.tencent.weishi.OPEN_TPNS_ACTIVITY",
+      "mode": "exact",
+      "priority": 2355,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.weishi.OPEN_TPNS_ACTIVITY.json",
+      "examples": {
+        "positive": [
+          "com.tencent.weishi.OPEN_TPNS_ACTIVITY"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2356,
+      "type": 9,
+      "name": "com.tencent.weishi.OPEN_TPNS_ACTIVITY_V2",
+      "mode": "exact",
+      "priority": 2356,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.weishi.OPEN_TPNS_ACTIVITY_V2.json",
+      "examples": {
+        "positive": [
+          "com.tencent.weishi.OPEN_TPNS_ACTIVITY_V2"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2357,
+      "type": 9,
+      "name": "com.tencent.weishi.XGVIP_PUSH_ACTION",
+      "mode": "exact",
+      "priority": 2357,
+      "label": "腾讯移动推送",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/com.tencent.weishi.XGVIP_PUSH_ACTION.json",
+      "examples": {
+        "positive": [
+          "com.tencent.weishi.XGVIP_PUSH_ACTION"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

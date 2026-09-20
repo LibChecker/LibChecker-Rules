@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7A97A65F-E732-5539-BFEE-5A1165973553",
+  "iconId": null,
+  "data": [],
+  "matchers": [
+    {
+      "id": 1150,
+      "type": 4,
+      "name": "libDexHelper-x86_64.so",
+      "mode": "exact",
+      "priority": 1150,
+      "label": "梆梆安全",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": false,
+      "legacyPath": null,
+      "examples": {
+        "positive": [
+          "libDexHelper-x86_64.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

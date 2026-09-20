@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7744424D-1021-4FCD-B7A8-BCF355EF8176",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "quiche",
+        "dev_team": "Cloudflare",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "quiche 是 Cloudflare 实现的 QUIC 传输协议和 IETF HTTP/3。它为处理 QUIC 数据包和处理连接状态提供了一个低级的 API。应用程序负责提供 I/O (例如 socket 处理)以及支持计时器的事件循环。",
+        "source_link": "https://github.com/cloudflare/quiche"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "quiche",
+        "dev_team": "Cloudflare",
+        "rule_contributors": [
+          "ag2s20150909"
+        ],
+        "description": "quiche is Cloudflare's implementation of the QUIC transport protocol and IETF HTTP/3. It provides a low-level API for processing QUIC packets and handling connection state. The application is responsible for providing I/O (e.g., socket handling) and supporting a timer-driven event loop.",
+        "source_link": "https://github.com/cloudflare/quiche"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 957,
+      "type": 0,
+      "name": "libquiche.so",
+      "mode": "exact",
+      "priority": 957,
+      "label": "quiche",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libquiche.so.json",
+      "examples": {
+        "positive": [
+          "libquiche.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

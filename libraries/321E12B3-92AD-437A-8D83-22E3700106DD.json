@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "321E12B3-92AD-437A-8D83-22E3700106DD",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "EasyProtector",
+        "dev_team": "lamster2018",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "一行代码检测 XP/调试/多开/模拟器/root。",
+        "source_link": "https://github.com/lamster2018/EasyProtector"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "EasyProtector",
+        "dev_team": "lamster2018",
+        "rule_contributors": [
+          "yfdyh000"
+        ],
+        "description": "One-line code to detect XP/debug/multi-open/emulator/root.",
+        "source_link": "https://github.com/lamster2018/EasyProtector"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 1205,
+      "type": 0,
+      "name": "libantitrace.so",
+      "mode": "exact",
+      "priority": 1205,
+      "label": "EasyProtector",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libantitrace.so.json",
+      "examples": {
+        "positive": [
+          "libantitrace.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

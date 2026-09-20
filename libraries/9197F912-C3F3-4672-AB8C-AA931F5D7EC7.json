@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9197F912-C3F3-4672-AB8C-AA931F5D7EC7",
+  "iconId": "ic_lib_chromium",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "crashpad",
+        "dev_team": "Chromium",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Crashpad 是一个崩溃报告系统。",
+        "source_link": "https://github.com/chromium/crashpad"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "crashpad",
+        "dev_team": "Chromium",
+        "rule_contributors": [
+          "WOLFRAZOR"
+        ],
+        "description": "Crashpad is a crash-reporting system.",
+        "source_link": "https://github.com/chromium/crashpad"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2007,
+      "type": 0,
+      "name": "libcrashpad_client.so",
+      "mode": "exact",
+      "priority": 2007,
+      "label": "crashpad",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrashpad_client.so.json",
+      "examples": {
+        "positive": [
+          "libcrashpad_client.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2008,
+      "type": 0,
+      "name": "libcrashpad_handler.so",
+      "mode": "exact",
+      "priority": 2008,
+      "label": "crashpad",
+      "iconId": "ic_lib_chromium",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcrashpad_handler.so.json",
+      "examples": {
+        "positive": [
+          "libcrashpad_handler.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
