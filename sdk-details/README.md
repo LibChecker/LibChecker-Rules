@@ -42,10 +42,17 @@ python sdk-details/tools/update.py --all
 
 ## Stable fingerprint indexes (staged migration)
 
-`python tools/build_indexes.py` generates fixed public `data/index.json` files and
-candidate definitions under `candidates/`. Run with `--check` to detect stale output.
-Candidates use `index_path` plus `entries_field: "entries"`; clients match captured
-values locally against `expected_field`, then project `items_field` releases.
-Never interpolate local fingerprints into request URLs or logs. Active definitions
-and the catalog remain unchanged until compatible readers have shipped. The base
-rules publisher does not activate SDK candidates.
+`python sdk-details/tools/build_indexes.py` generates fixed public `data/index.json`
+files and candidate definitions under `candidates/`. Run with `--check` to detect
+stale output. Fixed-index definitions use `index_path` plus `entries_field: "entries"`;
+clients match captured values locally against `expected_field`, then project
+`items_field` releases. Never interpolate local fingerprints into request URLs or logs.
+
+Flutter's active `sdks/flutter/definition.json` uses schema 2 and the fixed index,
+so compatible clients resolve it directly without fetching a candidate definition.
+Keep its candidate copy available for clients holding a cached legacy definition.
+Per-engine files remain provider inputs for rebuilding the index.
+AndroidX Test remains staged until its compatible reader has shipped. The base
+rules publisher does not activate SDK candidates. Publish SDK definition changes
+on the descriptions branch and synchronize its mirrors; rebuilding the rule database
+alone does not publish them.
