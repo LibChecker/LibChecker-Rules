@@ -30,7 +30,11 @@ class IndexTest(unittest.TestCase):
             matches=[entry for entry in index['entries'] if entry[lookup['expected_field']]==value]
             self.assertTrue(matches[0][lookup['items_field']])
             active=json.loads((build_indexes.ROOT/'sdks'/sdk/'definition.json').read_text())
-            self.assertIn('path_template',active['lookups'][0])
+            if sdk == 'flutter':
+                self.assertEqual(2, active['schema_version'])
+                self.assertEqual(definition, active)
+            else:
+                self.assertIn('path_template',active['lookups'][0])
             bad=copy.deepcopy(definition);bad['lookups'][0]['index_path']='sdk-details/{value}.json'
             with self.assertRaises(ValueError):validate.validate_definition(candidate,bad)
 

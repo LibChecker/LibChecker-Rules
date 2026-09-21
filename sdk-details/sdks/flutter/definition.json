@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "sdk_id": "flutter",
   "target_uuids": [
     "AEF9680F-4A43-4EDC-A5B8-8119D23BCD21"
@@ -39,7 +39,6 @@
   "lookups": [
     {
       "input": "engine_revisions",
-      "path_template": "sdk-details/sdks/flutter/data/engine/{value}.json",
       "expected_field": "engine",
       "items_field": "releases",
       "max_requests": 2,
@@ -61,7 +60,9 @@
           "output": "framework_revisions",
           "field": "framework"
         }
-      ]
+      ],
+      "index_path": "sdk-details/sdks/flutter/data/index.json",
+      "entries_field": "entries"
     }
   ],
   "presentation": {
