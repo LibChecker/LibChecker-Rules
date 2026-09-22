@@ -3525,6 +3525,18 @@
       ]
     },
     {
+      "engine": "774a76734848e38c908681d752e465b2a1595adb",
+      "releases": [
+        {
+          "flutter": "3.49.0-0.1.pre",
+          "dart": "3.14.0 (build 3.14.0-211.1.beta)",
+          "channel": "beta",
+          "framework": "e1dc10cc0416d4d879191a375b165ab2288b2888",
+          "release_date": "2026-09-21T23:07:42.299536Z"
+        }
+      ]
+    },
+    {
       "engine": "776efd2034d50af73e2876d703213601df384e88",
       "releases": [
         {
