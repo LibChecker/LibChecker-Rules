@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A847C7FD-588B-4B85-96AA-068C7397D7C9",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Json.NET",
+        "dev_team": "Newtonsoft",
+        "rule_contributors": [
+          "freedevgraph"
+        ],
+        "description": "Json.NET 是一个流行的高性能 .NET JSON 框架。",
+        "source_link": "https://github.com/JamesNK/Newtonsoft.Json"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Json.NET",
+        "dev_team": "Newtonsoft",
+        "rule_contributors": [
+          "freedevgraph"
+        ],
+        "description": "Json.NET is a popular high-performance JSON framework for .NET.",
+        "source_link": "https://github.com/JamesNK/Newtonsoft.Json"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2933,
+      "type": 0,
+      "name": "libaot-Newtonsoft.Json.dll.so",
+      "mode": "exact",
+      "priority": 2933,
+      "label": "Json.NET",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaot-Newtonsoft.Json.dll.so.json",
+      "examples": {
+        "positive": [
+          "libaot-Newtonsoft.Json.dll.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
