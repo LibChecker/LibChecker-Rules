@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8893E85F-3B1D-4838-B506-86121EFDAF14",
+  "iconId": "ic_lib_servo",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Servo",
+        "dev_team": "Servo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Servo 是一个用 Rust 编写的网络浏览器引擎原型。",
+        "source_link": "https://github.com/servo/servo"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Servo",
+        "dev_team": "Servo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Servo is a prototype web browser engine written in the Rust language.",
+        "source_link": "https://github.com/servo/servo"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2939,
+      "type": 0,
+      "name": "libservoshell.so",
+      "mode": "exact",
+      "priority": 2939,
+      "label": "Servo",
+      "iconId": "ic_lib_servo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libservoshell.so.json",
+      "examples": {
+        "positive": [
+          "libservoshell.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
