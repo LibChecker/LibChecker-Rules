@@ -695,6 +695,10 @@
     "iconId": "ic_lib_liftoff",
     "isSimpleColorIcon": true
   },
+  "175": {
+    "iconId": "ic_lib_servo",
+    "isSimpleColorIcon": false
+  },
   "-1": {
     "iconId": null,
     "isSimpleColorIcon": true
