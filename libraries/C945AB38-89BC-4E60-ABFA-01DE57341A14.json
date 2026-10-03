@@ -72,42 +72,6 @@
         ],
         "negative": []
       }
-    },
-    {
-      "id": 2676,
-      "type": 0,
-      "name": "libunreal.so",
-      "mode": "exact",
-      "priority": 2676,
-      "label": "Unreal Engine",
-      "iconId": "ic_lib_unreal_engine",
-      "regexName": null,
-      "hasDetail": true,
-      "legacyPath": "native-libs/libunreal.so.json",
-      "examples": {
-        "positive": [
-          "libunreal.so"
-        ],
-        "negative": []
-      }
-    },
-    {
-      "id": 2917,
-      "type": 0,
-      "name": "libUnreal.so",
-      "mode": "exact",
-      "priority": 2917,
-      "label": "Unreal Engine",
-      "iconId": "ic_lib_unreal_engine",
-      "regexName": null,
-      "hasDetail": true,
-      "legacyPath": "native-libs/libunreal.so.json",
-      "examples": {
-        "positive": [
-          "libUnreal.so"
-        ],
-        "negative": []
-      }
     }
   ],
   "unreferencedDescriptions": []
