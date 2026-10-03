@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4D2C6A3C-954A-49A1-B621-FE14EFC2D229",
+  "iconId": "ic_lib_unreal_engine",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Unreal Engine 5",
+        "dev_team": "Epic Games",
+        "rule_contributors": [
+          "xuhongdi",
+          "velazquezamalia",
+          "ENDDREAM-ZM",
+          "chy2240"
+        ],
+        "description": "虚幻引擎 5 是一款由 Epic Games 开发的次世代游戏引擎，于 2022 年正式发布。作为虚幻引擎系列的最新迭代，它旨在实现影视级的实时渲染精度。该引擎最初虽以开发高质量射击游戏闻名，但凭借其强大的 Nanite（虚拟化微多边形几何体）和 Lumen（动态全局光照）技术，现已广泛应用于超大规模开放世界游戏、影视虚拟制作、建筑可视化及汽车模拟等多个前沿领域。",
+        "source_link": "https://dev.epicgames.com/documentation/unreal-engine/index.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Unreal Engine 5",
+        "dev_team": "Epic Games",
+        "rule_contributors": [
+          "xuhongdi",
+          "velazquezamalia",
+          "ENDDREAM-ZM",
+          "chy2240"
+        ],
+        "description": "Unreal Engine 5 is a next-generation game engine developed by Epic Games, officially released in 2022. As the latest iteration of the Unreal Engine series, it aims to achieve cinematic-quality real-time rendering precision. While the engine was originally renowned for developing high-quality shooters, it is now widely utilized in massive open-world games, film and television virtual production, architectural visualization, and automotive simulation, powered by its Nanite (Virtualized Micropolygon Geometry) and Lumen (Dynamic Global Illumination) technologies.",
+        "source_link": "https://dev.epicgames.com/documentation/unreal-engine/index.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2676,
+      "type": 0,
+      "name": "libunreal.so",
+      "mode": "exact",
+      "priority": 2676,
+      "label": "Unreal Engine 5",
+      "iconId": "ic_lib_unreal_engine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libunreal.so.json",
+      "examples": {
+        "positive": [
+          "libunreal.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2917,
+      "type": 0,
+      "name": "libUnreal.so",
+      "mode": "exact",
+      "priority": 2917,
+      "label": "Unreal Engine 5",
+      "iconId": "ic_lib_unreal_engine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libunreal.so.json",
+      "examples": {
+        "positive": [
+          "libUnreal.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
