@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EC981174-0B9C-4057-AD44-973A1514C615",
+  "iconId": "ic_lib_react_native_teleport",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-teleport",
+        "dev_team": "kirillzyusko",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "react-native-teleport 为 React Native 提供缺失的原生 Portal 实现，可在组件树中传送视图，用于实现无缝过渡和复杂的 UI 模式。",
+        "source_link": "https://github.com/kirillzyusko/react-native-teleport"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-teleport",
+        "dev_team": "kirillzyusko",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Missing native portal implementation for react-native. Teleport views across your component tree for seamless transitions and powerful UI patterns.",
+        "source_link": "https://github.com/kirillzyusko/react-native-teleport"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2934,
+      "type": 0,
+      "name": "libreact_codegen_TeleportViewSpec.so",
+      "mode": "exact",
+      "priority": 2934,
+      "label": "react-native-teleport",
+      "iconId": "ic_lib_react_native_teleport",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_TeleportViewSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_TeleportViewSpec.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
