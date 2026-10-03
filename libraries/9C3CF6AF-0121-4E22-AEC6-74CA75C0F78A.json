@@ -466,6 +466,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 2926,
+      "type": 0,
+      "name": "libhigh_available_android_mini.so",
+      "mode": "exact",
+      "priority": 2926,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhigh_available_android_mini.so.json",
+      "examples": {
+        "positive": [
+          "libhigh_available_android_mini.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []
