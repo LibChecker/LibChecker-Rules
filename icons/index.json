@@ -695,6 +695,10 @@
     "iconId": "ic_lib_liftoff",
     "isSimpleColorIcon": true
   },
+  "174": {
+    "iconId": "ic_lib_react_native_teleport",
+    "isSimpleColorIcon": false
+  },
   "-1": {
     "iconId": null,
     "isSimpleColorIcon": true
