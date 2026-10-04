@@ -102,6 +102,168 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 2941,
+      "type": 0,
+      "name": "libSDL2_image.so",
+      "mode": "exact",
+      "priority": 2941,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_image.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_image.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2942,
+      "type": 0,
+      "name": "libSDL2_mixer.so",
+      "mode": "exact",
+      "priority": 2942,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_mixer.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_mixer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2943,
+      "type": 0,
+      "name": "libSDL2_net.so",
+      "mode": "exact",
+      "priority": 2943,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_net.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_net.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2944,
+      "type": 0,
+      "name": "libSDL2_ttf.so",
+      "mode": "exact",
+      "priority": 2944,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_ttf.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_ttf.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2945,
+      "type": 0,
+      "name": "libSDL3_image.so",
+      "mode": "exact",
+      "priority": 2945,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_image.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_image.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2946,
+      "type": 0,
+      "name": "libSDL3_mixer.so",
+      "mode": "exact",
+      "priority": 2946,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_mixer.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_mixer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2947,
+      "type": 0,
+      "name": "libSDL3_net.so",
+      "mode": "exact",
+      "priority": 2947,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_net.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_net.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2948,
+      "type": 0,
+      "name": "libSDL3_ttf.so",
+      "mode": "exact",
+      "priority": 2948,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_ttf.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_ttf.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2949,
+      "type": 0,
+      "name": "libSDL3_shadercross.so",
+      "mode": "exact",
+      "priority": 2949,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_shadercross.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_shadercross.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []
