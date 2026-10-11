@@ -66,7 +66,16 @@ def replace(source, remote, revision):
         (data / 'replacement-audits').mkdir(exist_ok=True)
         (data / 'replacement-audits' / (OPERATION + '.json')).write_bytes(rules.encoded(audit))
         for checkout, message in [(legacy, 'Update v4 compatibility for one-time V46 replacement'), (data, 'Replace unpublished V46 once with audited old and new hashes')]:
-            git(checkout, 'add', '--all'); git(checkout, 'commit', '-m', message)
+            git(checkout, 'add', '--all')
+            if checkout == legacy:
+                # Preserve case-distinct legacy filenames on macOS as exact Git blobs.
+                with zipfile.ZipFile(output / manifest['artifacts']['legacy']['path']) as archive:
+                    names = archive.namelist()
+                    for name in names:
+                        if sum(other.casefold() == name.casefold() for other in names) > 1:
+                            blob = subprocess.check_output(['git', '-C', str(legacy), 'hash-object', '-w', '--stdin'], input=archive.read(name)).decode().strip()
+                            git(legacy, 'update-index', '--add', '--cacheinfo', '100644,' + blob + ',' + name)
+            git(checkout, 'commit', '-m', message)
         # Both branches advance together, or neither does. Ordinary FF rules reject races.
         git(data, 'push', '--atomic', 'origin', 'HEAD:refs/heads/rules-data', 'replacement-compat:refs/heads/v4')
         print('Atomically replaced V46 data and compatibility for ' + revision)
