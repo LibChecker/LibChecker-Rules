@@ -466,6 +466,59 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3100,
+      "type": 0,
+      "name": "libhigh_available_android_mini.so",
+      "mode": "exact",
+      "priority": 3100,
+      "label": "网易云信",
+      "iconId": "ic_lib_netease_yunxin",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhigh_available_android_mini.so.json",
+      "examples": {
+        "positive": [
+          "libhigh_available_android_mini.so"
+        ],
+        "negative": [
+          "libhigh_available_android_mini.so.backup",
+          "LIBHIGH_AVAILABLE_ANDROID_MINI.SO"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "网易云信",
+            "dev_team": "Netease",
+            "rule_contributors": [
+              "culat",
+              "MattFirefly",
+              "WOLFRAZOR",
+              "crrashh1542"
+            ],
+            "description": "网易云信致力于互联网络技术的开发与研究，使开发者通过简单集成客户端 SDK 和云端开放 API，快速实现强大的移动互联网 IM 和音视频功能。",
+            "source_link": "https://yunxin.163.com/"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "网易云信",
+            "dev_team": "Netease",
+            "rule_contributors": [
+              "culat",
+              "MattFirefly",
+              "WOLFRAZOR",
+              "crrashh1542"
+            ],
+            "description": "NetEase Cloud Communication is dedicated to the development and research of internet technology, enabling developers to quickly implement powerful mobile internet IM and audio-video functions through simple integration of client SDK and cloud open API.",
+            "source_link": "https://yunxin.163.com/"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

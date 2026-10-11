@@ -66,6 +66,24 @@
       }
     },
     {
+      "id": 2997,
+      "type": 2,
+      "name": "com.mbridge.msdk.newreward.player.MBRewardVideoActivity",
+      "mode": "exact",
+      "priority": 2997,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mbridge/msdk/newreward/player/MBRewardVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.newreward.player.MBRewardVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
       "id": 2998,
       "type": 2,
       "name": "com.mbridge.msdk.out.LoadingActivity",

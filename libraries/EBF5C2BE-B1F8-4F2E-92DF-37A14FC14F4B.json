@@ -136,6 +136,190 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3024,
+      "type": 2,
+      "name": "com.beizi.ad.v2.activity.BeiZiNewInterstitialActivity",
+      "mode": "exact",
+      "priority": 3024,
+      "label": "BeiZi SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/beizi/ad/v2/activity/BeiZiNewInterstitialActivity.json",
+      "examples": {
+        "positive": [
+          "com.beizi.ad.v2.activity.BeiZiNewInterstitialActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi 立志为媒体打造跨屏广告流量一站式管理平台，提供了聚合广告、收入优化的流量托管等多种广告流量售卖方式，让您流量的策略更加灵活，并可以借助我们提供的人群定向、日志和报表分析等服务来获得最大化的收益。",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi is committed to building a one-stop cross-screen ad traffic management platform for media. It provides multiple ways to sell ad inventory, including aggregated advertising and revenue optimization hosting, giving you more flexible strategies. You can also use our audience targeting, log, and report analysis services to maximize your revenue.",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3025,
+      "type": 2,
+      "name": "com.beizi.ad.v2.activity.BeiZiLandingPageActivity",
+      "mode": "exact",
+      "priority": 3025,
+      "label": "BeiZi SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/beizi/ad/v2/activity/BeiZiLandingPageActivity.json",
+      "examples": {
+        "positive": [
+          "com.beizi.ad.v2.activity.BeiZiLandingPageActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi 立志为媒体打造跨屏广告流量一站式管理平台，提供了聚合广告、收入优化的流量托管等多种广告流量售卖方式，让您流量的策略更加灵活，并可以借助我们提供的人群定向、日志和报表分析等服务来获得最大化的收益。",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi is committed to building a one-stop cross-screen ad traffic management platform for media. It provides multiple ways to sell ad inventory, including aggregated advertising and revenue optimization hosting, giving you more flexible strategies. You can also use our audience targeting, log, and report analysis services to maximize your revenue.",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3026,
+      "type": 2,
+      "name": "com.beizi.ad.v2.activity.BeiZiNewLandingPageActivity",
+      "mode": "exact",
+      "priority": 3026,
+      "label": "BeiZi SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/beizi/ad/v2/activity/BeiZiNewLandingPageActivity.json",
+      "examples": {
+        "positive": [
+          "com.beizi.ad.v2.activity.BeiZiNewLandingPageActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi 立志为媒体打造跨屏广告流量一站式管理平台，提供了聚合广告、收入优化的流量托管等多种广告流量售卖方式，让您流量的策略更加灵活，并可以借助我们提供的人群定向、日志和报表分析等服务来获得最大化的收益。",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi is committed to building a one-stop cross-screen ad traffic management platform for media. It provides multiple ways to sell ad inventory, including aggregated advertising and revenue optimization hosting, giving you more flexible strategies. You can also use our audience targeting, log, and report analysis services to maximize your revenue.",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3027,
+      "type": 2,
+      "name": "com.beizi.ad.v2.activity.BeiZiLandingActivity",
+      "mode": "exact",
+      "priority": 3027,
+      "label": "BeiZi SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/beizi/ad/v2/activity/BeiZiLandingActivity.json",
+      "examples": {
+        "positive": [
+          "com.beizi.ad.v2.activity.BeiZiLandingActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi 立志为媒体打造跨屏广告流量一站式管理平台，提供了聚合广告、收入优化的流量托管等多种广告流量售卖方式，让您流量的策略更加灵活，并可以借助我们提供的人群定向、日志和报表分析等服务来获得最大化的收益。",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BeiZi SDK",
+            "dev_team": "BeiZi",
+            "rule_contributors": [
+              "Eddyzho",
+              "Neatsuki"
+            ],
+            "description": "BeiZi is committed to building a one-stop cross-screen ad traffic management platform for media. It provides multiple ways to sell ad inventory, including aggregated advertising and revenue optimization hosting, giving you more flexible strategies. You can also use our audience targeting, log, and report analysis services to maximize your revenue.",
+            "source_link": "https://sdkdoc.beizi.biz/#/zh-cn/android/4xx/Configuration/AccessConfiguration"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

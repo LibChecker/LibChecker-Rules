@@ -16,7 +16,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    if: github.ref_name == 'v4'
+    # Only the explicitly marked one-time source commit is published by replace_v46.py.
+    if: github.ref_name == 'v4' && !contains(github.event.head_commit.message, '[v46-replacement-20261011]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

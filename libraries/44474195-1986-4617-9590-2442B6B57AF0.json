@@ -66,6 +66,24 @@
       }
     },
     {
+      "id": 3054,
+      "type": 0,
+      "name": "libttmplayer_lite.so",
+      "mode": "exact",
+      "priority": 3054,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libttmplayer_lite.so.json",
+      "examples": {
+        "positive": [
+          "libttmplayer_lite.so"
+        ],
+        "negative": []
+      }
+    },
+    {
       "id": 3055,
       "type": 0,
       "name": "libttmverify.so",

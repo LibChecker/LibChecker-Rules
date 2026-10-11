@@ -30,6 +30,24 @@
   ],
   "matchers": [
     {
+      "id": 3074,
+      "type": 0,
+      "name": "libxl_thunder_sdk.so",
+      "mode": "exact",
+      "priority": 3074,
+      "label": "迅雷 SDK",
+      "iconId": "ic_lib_xunlei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxl_thunder_sdk.so.json",
+      "examples": {
+        "positive": [
+          "libxl_thunder_sdk.so"
+        ],
+        "negative": []
+      }
+    },
+    {
       "id": 3075,
       "type": 0,
       "name": "libdk.so",

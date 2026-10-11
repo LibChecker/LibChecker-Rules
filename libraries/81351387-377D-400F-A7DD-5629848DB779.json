@@ -30,6 +30,24 @@
   ],
   "matchers": [
     {
+      "id": 3008,
+      "type": 0,
+      "name": "libaot-CoreDataDomeSDK.Android.dll.so",
+      "mode": "exact",
+      "priority": 3008,
+      "label": "DataDome",
+      "iconId": "ic_lib_datadome",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaot-CoreDataDomeSDK.Android.dll.so.json",
+      "examples": {
+        "positive": [
+          "libaot-CoreDataDomeSDK.Android.dll.so"
+        ],
+        "negative": []
+      }
+    },
+    {
       "id": 3009,
       "type": 2,
       "name": "co.datadome.sdk.CaptchaActivity",
@@ -61,6 +79,24 @@
       "examples": {
         "positive": [
           "co.datadome.sdk.ChallengeActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3011,
+      "type": 2,
+      "name": "co.datadome.sdk.implementation.ui.challenge.ChallengeActivity",
+      "mode": "exact",
+      "priority": 3011,
+      "label": "DataDome",
+      "iconId": "ic_lib_datadome",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/co/datadome/sdk/implementation/ui/challenge/ChallengeActivity.json",
+      "examples": {
+        "positive": [
+          "co.datadome.sdk.implementation.ui.challenge.ChallengeActivity"
         ],
         "negative": []
       }

@@ -84,6 +84,54 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3079,
+      "type": 0,
+      "name": "libhuiyanandroidsdk.so",
+      "mode": "exact",
+      "priority": 3079,
+      "label": "腾讯云慧眼 SDK",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhuiyanandroidsdk.so.json",
+      "examples": {
+        "positive": [
+          "libhuiyanandroidsdk.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "腾讯云慧眼 SDK",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "ArthurCyy",
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "腾讯云慧眼 Android 人脸核身 SDK，提供人脸活体检测与身份验证能力。",
+            "source_link": "https://github.com/TencentCloud/huiyan-faceid-demo/tree/main/faceid-android-example"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Tencent Cloud Huiyan SDK",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "ArthurCyy",
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Tencent Cloud Huiyan SDK for Android face liveness detection and identity verification.",
+            "source_link": "https://github.com/TencentCloud/huiyan-faceid-demo/tree/main/faceid-android-example"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

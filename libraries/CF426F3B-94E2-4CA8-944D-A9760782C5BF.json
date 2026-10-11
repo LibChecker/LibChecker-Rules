@@ -30,6 +30,42 @@
   ],
   "matchers": [
     {
+      "id": 3086,
+      "type": 0,
+      "name": "libtingyun-android-base.so",
+      "mode": "exact",
+      "priority": 3086,
+      "label": "基调听云 App",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtingyun-android-base.so.json",
+      "examples": {
+        "positive": [
+          "libtingyun-android-base.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3087,
+      "type": 0,
+      "name": "libtingyun-fast-dump.so",
+      "mode": "exact",
+      "priority": 3087,
+      "label": "基调听云 App",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtingyun-fast-dump.so.json",
+      "examples": {
+        "positive": [
+          "libtingyun-fast-dump.so"
+        ],
+        "negative": []
+      }
+    },
+    {
       "id": 3088,
       "type": 0,
       "name": "libtingyun-strip-dump.so",

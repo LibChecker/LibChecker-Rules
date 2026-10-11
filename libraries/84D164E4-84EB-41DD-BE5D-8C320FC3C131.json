@@ -30,6 +30,50 @@
   ],
   "matchers": [
     {
+      "id": 3076,
+      "type": 0,
+      "name": "libdjinni_interface_core_public.so",
+      "mode": "exact",
+      "priority": 3076,
+      "label": "Djinni",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdjinni_interface_core_public.so.json",
+      "examples": {
+        "positive": [
+          "libdjinni_interface_core_public.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Djinni",
+            "dev_team": "Tencent（Djinni 框架：Dropbox）",
+            "rule_contributors": [
+              "crrashh1542"
+            ],
+            "description": "腾讯 QQ 中使用的 Djinni 生成 C++ 与 Java 接口绑定。Djinni 由 Dropbox 开发；该文件属于应用集成的接口组件。",
+            "source_link": "https://github.com/dropbox/djinni"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Djinni",
+            "dev_team": "Tencent (Djinni framework: Dropbox)",
+            "rule_contributors": [
+              "crrashh1542"
+            ],
+            "description": "Djinni-generated C++ and Java interface bindings used in Tencent QQ. Djinni was developed by Dropbox; this file is an application-integrated interface component.",
+            "source_link": "https://github.com/dropbox/djinni"
+          }
+        }
+      ]
+    },
+    {
       "id": 3077,
       "type": 0,
       "name": "libdjinni_support_lib.so",

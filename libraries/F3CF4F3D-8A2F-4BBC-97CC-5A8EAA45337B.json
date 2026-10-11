@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F3CF4F3D-8A2F-4BBC-97CC-5A8EAA45337B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BidMachine",
+        "dev_team": "BidMachine",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为移动应用提供广告变现和广告展示功能的 SDK。",
+        "source_link": "https://github.com/appodeal/BidMachine-Android-SDK"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BidMachine",
+        "dev_team": "BidMachine",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Advertising monetization and rendering SDK for mobile applications.",
+        "source_link": "https://github.com/appodeal/BidMachine-Android-SDK"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3017,
+      "type": 2,
+      "name": "io.bidmachine.iab.mraid.MraidActivity",
+      "mode": "exact",
+      "priority": 3017,
+      "label": "BidMachine",
+      "iconId": "ic_lib_bidmachine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/bidmachine/iab/mraid/MraidActivity.json",
+      "examples": {
+        "positive": [
+          "io.bidmachine.iab.mraid.MraidActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3018,
+      "type": 2,
+      "name": "io.bidmachine.iab.vast.activity.VastActivity",
+      "mode": "exact",
+      "priority": 3018,
+      "label": "BidMachine",
+      "iconId": "ic_lib_bidmachine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/bidmachine/iab/vast/activity/VastActivity.json",
+      "examples": {
+        "positive": [
+          "io.bidmachine.iab.vast.activity.VastActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3019,
+      "type": 2,
+      "name": "io.bidmachine.nativead.view.VideoPlayerActivity",
+      "mode": "exact",
+      "priority": 3019,
+      "label": "BidMachine",
+      "iconId": "ic_lib_bidmachine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/bidmachine/nativead/view/VideoPlayerActivity.json",
+      "examples": {
+        "positive": [
+          "io.bidmachine.nativead.view.VideoPlayerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3020,
+      "type": 2,
+      "name": "io.bidmachine.rendering.ad.fullscreen.FullScreenActivity",
+      "mode": "exact",
+      "priority": 3020,
+      "label": "BidMachine",
+      "iconId": "ic_lib_bidmachine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/bidmachine/rendering/ad/fullscreen/FullScreenActivity.json",
+      "examples": {
+        "positive": [
+          "io.bidmachine.rendering.ad.fullscreen.FullScreenActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3021,
+      "type": 2,
+      "name": "io.bidmachine.rendering.ad.view.ExpandActivity",
+      "mode": "exact",
+      "priority": 3021,
+      "label": "BidMachine",
+      "iconId": "ic_lib_bidmachine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/io/bidmachine/rendering/ad/view/ExpandActivity.json",
+      "examples": {
+        "positive": [
+          "io.bidmachine.rendering.ad.view.ExpandActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3022,
+      "type": 4,
+      "name": "io.bidmachine.BidMachineInitProvider",
+      "mode": "exact",
+      "priority": 3022,
+      "label": "BidMachine",
+      "iconId": "ic_lib_bidmachine",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/bidmachine/BidMachineInitProvider.json",
+      "examples": {
+        "positive": [
+          "io.bidmachine.BidMachineInitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

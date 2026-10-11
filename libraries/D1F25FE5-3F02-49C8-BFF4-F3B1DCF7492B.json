@@ -48,6 +48,24 @@
       }
     },
     {
+      "id": 3039,
+      "type": 0,
+      "name": "libbmf_hydra_lite.so",
+      "mode": "exact",
+      "priority": 3039,
+      "label": "BMF",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbmf_hydra_lite.so.json",
+      "examples": {
+        "positive": [
+          "libbmf_hydra_lite.so"
+        ],
+        "negative": []
+      }
+    },
+    {
       "id": 3040,
       "type": 0,
       "name": "libbmf_mods.so",

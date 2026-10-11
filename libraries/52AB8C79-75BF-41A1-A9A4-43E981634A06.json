@@ -95,6 +95,55 @@
           }
         }
       ]
+    },
+    {
+      "id": 3099,
+      "type": 0,
+      "name": "libLiteRtTopKOpenClSamplerReal.so",
+      "mode": "exact",
+      "priority": 3099,
+      "label": "LiteRT-LM",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libLiteRtTopKOpenClSamplerReal.so.json",
+      "examples": {
+        "positive": [
+          "libLiteRtTopKOpenClSamplerReal.so"
+        ],
+        "negative": [
+          "libLiteRtTopKOpenClSamplerReal.so.backup",
+          "LIBLITERTTOPKOPENCLSAMPLERREAL.SO"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "LiteRT-LM",
+            "dev_team": "Google",
+            "rule_contributors": [
+              "sebastien46",
+              "crrashh1542"
+            ],
+            "description": "基于 LiteRT 的语言模型端侧推理运行时。",
+            "source_link": "https://github.com/google-ai-edge/LiteRT-LM"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "LiteRT-LM",
+            "dev_team": "Google",
+            "rule_contributors": [
+              "sebastien46",
+              "crrashh1542"
+            ],
+            "description": "On-device language model inference runtime built on LiteRT.",
+            "source_link": "https://github.com/google-ai-edge/LiteRT-LM"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

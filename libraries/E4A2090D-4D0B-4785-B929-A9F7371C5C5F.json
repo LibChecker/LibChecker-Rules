@@ -48,6 +48,54 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3078,
+      "type": 0,
+      "name": "libpng-arm64-v8a.so",
+      "mode": "exact",
+      "priority": 3078,
+      "label": "libpng",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libpng-arm64-v8a.so.json",
+      "examples": {
+        "positive": [
+          "libpng-arm64-v8a.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "libpng",
+            "dev_team": "Greg Roelofs",
+            "rule_contributors": [
+              "WOLFRAZOR",
+              "sebastien46",
+              "crrashh1542"
+            ],
+            "description": "这是一个开源项目，用于开发和维护参考库，用于读取、创建和操作 PNG（便携式网络图形）光栅图像文件的应用程序。",
+            "source_link": "https://github.com/pnggroup/libpng"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "libpng",
+            "dev_team": "Greg Roelofs",
+            "rule_contributors": [
+              "WOLFRAZOR",
+              "sebastien46",
+              "crrashh1542"
+            ],
+            "description": "This is an open source project to develop and maintain the reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files.",
+            "source_link": "https://github.com/pnggroup/libpng"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

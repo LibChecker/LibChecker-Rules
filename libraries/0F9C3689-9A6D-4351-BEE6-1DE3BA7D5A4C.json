@@ -82,6 +82,382 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3135,
+      "type": 9,
+      "name": "org.unifiedpush.android.distributor.REGISTER",
+      "mode": "exact",
+      "priority": 3135,
+      "label": "UnifiedPush Distributor",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.distributor.REGISTER.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.distributor.REGISTER"
+        ],
+        "negative": [
+          "org.unifiedpush.android.distributor.REGISTER.backup",
+          "org.unifiedpush.android.distributor.register"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Distributor",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于向应用分发推送通知的 UnifiedPush Android 协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Distributor",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The UnifiedPush Android protocol for delivering push notifications to applications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3136,
+      "type": 9,
+      "name": "org.unifiedpush.android.distributor.UNREGISTER",
+      "mode": "exact",
+      "priority": 3136,
+      "label": "UnifiedPush Distributor",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.distributor.UNREGISTER.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.distributor.UNREGISTER"
+        ],
+        "negative": [
+          "org.unifiedpush.android.distributor.UNREGISTER.backup",
+          "org.unifiedpush.android.distributor.unregister"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Distributor",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于向应用分发推送通知的 UnifiedPush Android 协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Distributor",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The UnifiedPush Android protocol for delivering push notifications to applications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3137,
+      "type": 9,
+      "name": "org.unifiedpush.android.distributor.MESSAGE_ACK",
+      "mode": "exact",
+      "priority": 3137,
+      "label": "UnifiedPush Distributor",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.distributor.MESSAGE_ACK.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.distributor.MESSAGE_ACK"
+        ],
+        "negative": [
+          "org.unifiedpush.android.distributor.MESSAGE_ACK.backup",
+          "org.unifiedpush.android.distributor.message_ack"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Distributor",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于向应用分发推送通知的 UnifiedPush Android 协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Distributor",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The UnifiedPush Android protocol for delivering push notifications to applications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3138,
+      "type": 9,
+      "name": "org.unifiedpush.android.connector.NEW_ENDPOINT",
+      "mode": "exact",
+      "priority": 3138,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.connector.NEW_ENDPOINT.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.NEW_ENDPOINT"
+        ],
+        "negative": [
+          "org.unifiedpush.android.connector.NEW_ENDPOINT.backup",
+          "org.unifiedpush.android.connector.new_endpoint"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于接收 UnifiedPush 通知的 Android 连接协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The Android connector protocol for receiving UnifiedPush notifications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3139,
+      "type": 9,
+      "name": "org.unifiedpush.android.connector.REGISTRATION_FAILED",
+      "mode": "exact",
+      "priority": 3139,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.connector.REGISTRATION_FAILED.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.REGISTRATION_FAILED"
+        ],
+        "negative": [
+          "org.unifiedpush.android.connector.REGISTRATION_FAILED.backup",
+          "org.unifiedpush.android.connector.registration_failed"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于接收 UnifiedPush 通知的 Android 连接协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The Android connector protocol for receiving UnifiedPush notifications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3140,
+      "type": 9,
+      "name": "org.unifiedpush.android.connector.MESSAGE",
+      "mode": "exact",
+      "priority": 3140,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.connector.MESSAGE.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.MESSAGE"
+        ],
+        "negative": [
+          "org.unifiedpush.android.connector.MESSAGE.backup",
+          "org.unifiedpush.android.connector.message"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于接收 UnifiedPush 通知的 Android 连接协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The Android connector protocol for receiving UnifiedPush notifications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3141,
+      "type": 9,
+      "name": "org.unifiedpush.android.connector.UNREGISTERED",
+      "mode": "exact",
+      "priority": 3141,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.connector.UNREGISTERED.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.UNREGISTERED"
+        ],
+        "negative": [
+          "org.unifiedpush.android.connector.UNREGISTERED.backup",
+          "org.unifiedpush.android.connector.unregistered"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于接收 UnifiedPush 通知的 Android 连接协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The Android connector protocol for receiving UnifiedPush notifications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3142,
+      "type": 9,
+      "name": "org.unifiedpush.android.connector.TEMP_UNAVAILABLE",
+      "mode": "exact",
+      "priority": 3142,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "actions-libs/org.unifiedpush.android.connector.TEMP_UNAVAILABLE.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.TEMP_UNAVAILABLE"
+        ],
+        "negative": [
+          "org.unifiedpush.android.connector.TEMP_UNAVAILABLE.backup",
+          "org.unifiedpush.android.connector.temp_unavailable"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "用于接收 UnifiedPush 通知的 Android 连接协议。",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "UnifiedPush Android Connector",
+            "dev_team": "UnifiedPush",
+            "rule_contributors": [
+              "Arshirui"
+            ],
+            "description": "The Android connector protocol for receiving UnifiedPush notifications.",
+            "source_link": "https://github.com/UnifiedPush/android-connector"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

@@ -11,8 +11,8 @@
         "rule_contributors": [
           "Absinthe"
         ],
-        "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
-        "source_link": "https://dev.mi.com/console/appservice/push.html/"
+        "description": "小米推送（MiPush）是小米面向开发者的消息推送服务，使用云端与客户端之间的持久连接，将消息实时发送到应用。",
+        "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
       }
     },
     {
@@ -23,8 +23,8 @@
         "rule_contributors": [
           "Absinthe"
         ],
-        "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
-        "source_link": "https://dev.mi.com/console/appservice/push.html/"
+        "description": "MiPush is Xiaomi’s messaging service for developers. It delivers messages to apps in real time over a persistent connection between the cloud and the client.",
+        "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
       }
     }
   ],
@@ -205,8 +205,8 @@
               "rule_contributors": [
                 "Absinthe"
               ],
-              "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
-              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+              "description": "小米推送（MiPush）是小米面向开发者的消息推送服务，使用云端与客户端之间的持久连接，将消息实时发送到应用。",
+              "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
             }
           },
           {
@@ -217,8 +217,8 @@
               "rule_contributors": [
                 "Absinthe"
               ],
-              "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
-              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+              "description": "MiPush is Xiaomi’s messaging service for developers. It delivers messages to apps in real time over a persistent connection between the cloud and the client.",
+              "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
             }
           }
         ],
@@ -237,8 +237,8 @@
               "rule_contributors": [
                 "Absinthe"
               ],
-              "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
-              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+              "description": "小米推送（MiPush）是小米面向开发者的消息推送服务，使用云端与客户端之间的持久连接，将消息实时发送到应用。",
+              "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
             }
           },
           {
@@ -249,8 +249,8 @@
               "rule_contributors": [
                 "Absinthe"
               ],
-              "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
-              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+              "description": "MiPush is Xiaomi’s messaging service for developers. It delivers messages to apps in real time over a persistent connection between the cloud and the client.",
+              "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
             }
           }
         ],
@@ -269,8 +269,8 @@
               "rule_contributors": [
                 "Absinthe"
               ],
-              "description": "小米消息推送服务在 MIUI 上为系统级通道，并且全平台通用，可以为开发者提供稳定、可靠、高效的推送服务。",
-              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+              "description": "小米推送（MiPush）是小米面向开发者的消息推送服务，使用云端与客户端之间的持久连接，将消息实时发送到应用。",
+              "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
             }
           },
           {
@@ -281,8 +281,8 @@
               "rule_contributors": [
                 "Absinthe"
               ],
-              "description": "Xiaomi Message Push Service is a system-level channel on MIUI and is universal across platforms, providing developers with stable, reliable, and efficient push services.",
-              "source_link": "https://dev.mi.com/console/appservice/push.html/"
+              "description": "MiPush is Xiaomi’s messaging service for developers. It delivers messages to apps in real time over a persistent connection between the cloud and the client.",
+              "source_link": "https://dev.mi.com/xiaomihyperos/documentation/detail?pId=1533"
             }
           }
         ],

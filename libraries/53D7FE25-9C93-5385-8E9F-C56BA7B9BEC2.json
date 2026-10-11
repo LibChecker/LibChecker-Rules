@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "53D7FE25-9C93-5385-8E9F-C56BA7B9BEC2",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "亿帆广告 SDK",
+        "dev_team": "南京亿帆数字科技有限公司",
+        "rule_contributors": [
+          "saewacgd-glitch"
+        ],
+        "description": "用于 Android 应用广告聚合与变现的 SDK。",
+        "source_link": "https://github.com/com-yifan/ads-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Yifan Ads SDK",
+        "dev_team": "南京亿帆数字科技有限公司",
+        "rule_contributors": [
+          "saewacgd-glitch"
+        ],
+        "description": "An SDK for advertising mediation and monetization in Android applications.",
+        "source_link": "https://github.com/com-yifan/ads-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3134,
+      "type": 0,
+      "name": "libyf_ads.so",
+      "mode": "exact",
+      "priority": 3134,
+      "label": "亿帆广告 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libyf_ads.so.json",
+      "examples": {
+        "positive": [
+          "libyf_ads.so"
+        ],
+        "negative": [
+          "libyf_ads.so.backup",
+          "LIBYF_ADS.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

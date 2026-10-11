@@ -70,6 +70,27 @@
           "COM.EXAMPLE.JEAN.JCPLAYER.SERVICE.NOTIFICATION.JCPLAYERNOTIFICATIONRECEIVER"
         ]
       }
+    },
+    {
+      "id": 3118,
+      "type": 0,
+      "name": "libjcplayer.so",
+      "mode": "exact",
+      "priority": 3118,
+      "label": "JC Player",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libjcplayer.so.json",
+      "examples": {
+        "positive": [
+          "libjcplayer.so"
+        ],
+        "negative": [
+          "libjcplayer.so.backup",
+          "LIBJCPLAYER.SO"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []
