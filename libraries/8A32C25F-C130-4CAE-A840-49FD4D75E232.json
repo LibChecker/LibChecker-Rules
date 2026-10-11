@@ -216,6 +216,42 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 2927,
+      "type": 0,
+      "name": "libLiteRtTopKOpenClSampler.so",
+      "mode": "exact",
+      "priority": 2927,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libLiteRtTopKOpenClSampler.so.json",
+      "examples": {
+        "positive": [
+          "libLiteRtTopKOpenClSampler.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2928,
+      "type": 0,
+      "name": "libLiteRtTopKOpenClSamplerReal.so",
+      "mode": "exact",
+      "priority": 2928,
+      "label": "LiteRT",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libLiteRtTopKOpenClSamplerReal.so.json",
+      "examples": {
+        "positive": [
+          "libLiteRtTopKOpenClSamplerReal.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []
