@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "94DED5C0-C673-440D-A1D8-0A91BC3DAC85",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Json.NET",
+        "dev_team": "Newtonsoft",
+        "rule_contributors": [
+          "freedevgraph"
+        ],
+        "description": "适用于 .NET 的 JSON 序列化与反序列化框架；此文件名对应 Android AOT 编译产物。",
+        "source_link": "https://github.com/JamesNK/Newtonsoft.Json"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Json.NET",
+        "dev_team": "Newtonsoft",
+        "rule_contributors": [
+          "freedevgraph"
+        ],
+        "description": "JSON serialization and deserialization framework for .NET; this filename identifies its Android AOT output.",
+        "source_link": "https://github.com/JamesNK/Newtonsoft.Json"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3091,
+      "type": 0,
+      "name": "libaot-Newtonsoft.Json.dll.so",
+      "mode": "exact",
+      "priority": 3091,
+      "label": "Json.NET",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaot-Newtonsoft.Json.dll.so.json",
+      "examples": {
+        "positive": [
+          "libaot-Newtonsoft.Json.dll.so"
+        ],
+        "negative": [
+          "libaot-Newtonsoft.Json.dll.so.other"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

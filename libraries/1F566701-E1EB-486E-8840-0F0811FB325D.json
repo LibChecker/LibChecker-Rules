@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1F566701-E1EB-486E-8840-0F0811FB325D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "CoreCLR",
+        "dev_team": "Microsoft .NET Team",
+        "rule_contributors": [
+          "RegulusSource"
+        ],
+        "description": ".NET 的执行引擎，包含 JIT 编译器、垃圾回收器和类型系统。",
+        "source_link": "https://github.com/dotnet/runtime"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "CoreCLR",
+        "dev_team": "Microsoft .NET Team",
+        "rule_contributors": [
+          "RegulusSource"
+        ],
+        "description": "The execution engine for .NET, including the JIT compiler, garbage collector, and type system.",
+        "source_link": "https://github.com/dotnet/runtime"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3130,
+      "type": 0,
+      "name": "libcoreclr.so",
+      "mode": "exact",
+      "priority": 3130,
+      "label": "CoreCLR",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcoreclr.so.json",
+      "examples": {
+        "positive": [
+          "libcoreclr.so"
+        ],
+        "negative": [
+          "libcoreclr.so.backup",
+          "LIBCORECLR.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

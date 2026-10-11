@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DE6CF229-CD48-43AF-B705-45B06BEEDAA7",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Neko DesktopLyricRenderer",
+        "dev_team": "FantasyNetwork",
+        "rule_contributors": [
+          "NyaNyagulugulu"
+        ],
+        "description": "Neko 歌姬计划 Android 客户端的桌面歌词 JNI 组件，用于解析歌词及取得当前歌词和上下文。",
+        "source_link": "https://github.com/FantasyNetworkCN/NekoMusicForAndroid"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Neko DesktopLyricRenderer",
+        "dev_team": "FantasyNetwork",
+        "rule_contributors": [
+          "NyaNyagulugulu"
+        ],
+        "description": "JNI lyrics component used by the Neko Music Android client to parse lyrics and retrieve current lines and surrounding context.",
+        "source_link": "https://github.com/FantasyNetworkCN/NekoMusicForAndroid"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3102,
+      "type": 0,
+      "name": "libDesktopLyricRenderer.so",
+      "mode": "exact",
+      "priority": 3102,
+      "label": "Neko DesktopLyricRenderer",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libDesktopLyricRenderer.so.json",
+      "examples": {
+        "positive": [
+          "libDesktopLyricRenderer.so"
+        ],
+        "negative": [
+          "libDesktopLyricRenderer.so.backup",
+          "LIBDESKTOPLYRICRENDERER.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

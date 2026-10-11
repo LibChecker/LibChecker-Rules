@@ -100,6 +100,144 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3071,
+      "type": 0,
+      "name": "libtcpcore-master.so",
+      "mode": "exact",
+      "priority": 3071,
+      "label": "腾讯云音视频播放组件",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtcpcore-master.so.json",
+      "examples": {
+        "positive": [
+          "libtcpcore-master.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "腾讯云音视频播放组件",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "腾讯云 LiteAV SDK 使用的原生播放与下载组件，可由播放器及短视频等 SDK 共享。",
+            "source_link": "https://github.com/LiteAVSDK/Player_Android"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Tencent Cloud Media Playback Components",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Native playback and download components used by Tencent Cloud LiteAV SDKs, shared by player and short-video SDKs.",
+            "source_link": "https://github.com/LiteAVSDK/Player_Android"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3072,
+      "type": 0,
+      "name": "libtcpdownloadproxy.so",
+      "mode": "exact",
+      "priority": 3072,
+      "label": "腾讯云音视频播放组件",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtcpdownloadproxy.so.json",
+      "examples": {
+        "positive": [
+          "libtcpdownloadproxy.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "腾讯云音视频播放组件",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "腾讯云 LiteAV SDK 使用的原生播放与下载组件，可由播放器及短视频等 SDK 共享。",
+            "source_link": "https://github.com/LiteAVSDK/Player_Android"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Tencent Cloud Media Playback Components",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Native playback and download components used by Tencent Cloud LiteAV SDKs, shared by player and short-video SDKs.",
+            "source_link": "https://github.com/LiteAVSDK/Player_Android"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3073,
+      "type": 0,
+      "name": "libtcpthirdparties-master.so",
+      "mode": "exact",
+      "priority": 3073,
+      "label": "腾讯云音视频播放组件",
+      "iconId": "ic_lib_tencent_cloud",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtcpthirdparties-master.so.json",
+      "examples": {
+        "positive": [
+          "libtcpthirdparties-master.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "腾讯云音视频播放组件",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "腾讯云 LiteAV SDK 使用的原生播放与下载组件，可由播放器及短视频等 SDK 共享。",
+            "source_link": "https://github.com/LiteAVSDK/Player_Android"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Tencent Cloud Media Playback Components",
+            "dev_team": "Tencent",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Native playback and download components used by Tencent Cloud LiteAV SDKs, shared by player and short-video SDKs.",
+            "source_link": "https://github.com/LiteAVSDK/Player_Android"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

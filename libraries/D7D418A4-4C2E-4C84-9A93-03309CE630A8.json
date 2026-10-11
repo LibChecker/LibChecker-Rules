@@ -46,6 +46,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 2972,
+      "type": 0,
+      "name": "libreact_codegen_RNKC.so",
+      "mode": "exact",
+      "priority": 2972,
+      "label": "react-native-keyboard-controller",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_RNKC.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_RNKC.so"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

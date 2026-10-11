@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9C4AAAA9-6E88-4780-B680-B2313AB8E443",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ByteVC1 Encoder",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "字节跳动的 ByteVC1 视频编码组件，可随不同音视频 SDK 使用。",
+        "source_link": "https://docs.byteplus.com/en/docs/byteplus-rtc/1108726"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ByteVC1 Encoder",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "ByteDance ByteVC1 video encoder component used by audio and video SDKs.",
+        "source_link": "https://docs.byteplus.com/en/docs/byteplus-rtc/1108726"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3081,
+      "type": 0,
+      "name": "libbytevc1enc.so",
+      "mode": "exact",
+      "priority": 3081,
+      "label": "ByteVC1 Encoder",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytevc1enc.so.json",
+      "examples": {
+        "positive": [
+          "libbytevc1enc.so"
+        ],
+        "negative": [
+          "libbytevc1enc.so.backup",
+          "LIBBYTEVC1ENC.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

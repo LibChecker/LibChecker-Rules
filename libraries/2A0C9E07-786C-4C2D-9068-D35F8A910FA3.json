@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2A0C9E07-786C-4C2D-9068-D35F8A910FA3",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "迅雷 SDK",
+        "dev_team": "迅雷",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "为 Android 应用提供迅雷下载能力。",
+        "source_link": "https://open.xunlei.com/doc?doc=quickstart_java_android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "迅雷 SDK",
+        "dev_team": "迅雷",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Xunlei downloading capabilities for Android applications.",
+        "source_link": "https://open.xunlei.com/doc?doc=quickstart_java_android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3075,
+      "type": 0,
+      "name": "libdk.so",
+      "mode": "exact",
+      "priority": 3075,
+      "label": "迅雷 SDK",
+      "iconId": "ic_lib_xunlei",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdk.so.json",
+      "examples": {
+        "positive": [
+          "libdk.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

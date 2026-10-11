@@ -154,6 +154,374 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3041,
+      "type": 0,
+      "name": "libbytertc_vp8codec_extension.so",
+      "mode": "exact",
+      "priority": 3041,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_vp8codec_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_vp8codec_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3042,
+      "type": 0,
+      "name": "libbytertc_fdk-aac_extension.so",
+      "mode": "exact",
+      "priority": 3042,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_fdk-aac_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_fdk-aac_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3043,
+      "type": 0,
+      "name": "libbytertc_license_extension.so",
+      "mode": "exact",
+      "priority": 3043,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_license_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_license_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3044,
+      "type": 0,
+      "name": "libbytertc_nico_extension.so",
+      "mode": "exact",
+      "priority": 3044,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_nico_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_nico_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3045,
+      "type": 0,
+      "name": "libbytertc_videodenoise_extension.so",
+      "mode": "exact",
+      "priority": 3045,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_videodenoise_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_videodenoise_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3046,
+      "type": 0,
+      "name": "libbytertc_videosharpen_extension.so",
+      "mode": "exact",
+      "priority": 3046,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_videosharpen_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_videosharpen_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3047,
+      "type": 0,
+      "name": "libbytertc_videosr_extension.so",
+      "mode": "exact",
+      "priority": 3047,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbytertc_videosr_extension.so.json",
+      "examples": {
+        "positive": [
+          "libbytertc_videosr_extension.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3048,
+      "type": 0,
+      "name": "libh265enc.so",
+      "mode": "exact",
+      "priority": 3048,
+      "label": "BytePlus RTC",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libh265enc.so.json",
+      "examples": {
+        "positive": [
+          "libh265enc.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "BytePlus RTC 实时音视频 SDK 的原生插件，提供编解码与音视频处理能力；部分媒体组件可由多个字节 SDK 共享。",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "BytePlus RTC",
+            "dev_team": "ByteDance",
+            "rule_contributors": [
+              "yfdyh000",
+              "crrashh1542"
+            ],
+            "description": "Native plugins for BytePlus RTC providing codecs and audio/video processing; some media components are shared across ByteDance SDKs.",
+            "source_link": "https://docs.byteplus.com/zh-CN/docs/byteplus-rtc/1108726"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

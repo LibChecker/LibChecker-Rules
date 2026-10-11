@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 5,
+  "uuid": "09E2B7FF-D07F-44A9-8F0D-1A9D89906B14",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MaaFramework",
+        "dev_team": "MaaXYZ",
+        "rule_contributors": [
+          "Manicsteiner"
+        ],
+        "description": "基于图像识别的自动化黑盒测试框架。",
+        "source_link": "https://github.com/MaaXYZ/MaaFramework"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MaaFramework",
+        "dev_team": "MaaXYZ",
+        "rule_contributors": [
+          "Manicsteiner"
+        ],
+        "description": "Automation black-box testing framework based on image recognition.",
+        "source_link": "https://github.com/MaaXYZ/MaaFramework"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2980,
+      "type": 0,
+      "name": "libMaaAdbControlUnit.so",
+      "mode": "exact",
+      "priority": 2980,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaAdbControlUnit.so.json",
+      "examples": {
+        "positive": [
+          "libMaaAdbControlUnit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2981,
+      "type": 0,
+      "name": "libMaaAgentClient.so",
+      "mode": "exact",
+      "priority": 2981,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaAgentClient.so.json",
+      "examples": {
+        "positive": [
+          "libMaaAgentClient.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2982,
+      "type": 0,
+      "name": "libMaaAgentServer.so",
+      "mode": "exact",
+      "priority": 2982,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaAgentServer.so.json",
+      "examples": {
+        "positive": [
+          "libMaaAgentServer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2983,
+      "type": 0,
+      "name": "libMaaAndroidNativeControlUnit.so",
+      "mode": "exact",
+      "priority": 2983,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaAndroidNativeControlUnit.so.json",
+      "examples": {
+        "positive": [
+          "libMaaAndroidNativeControlUnit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2984,
+      "type": 0,
+      "name": "libMaaCustomControlUnit.so",
+      "mode": "exact",
+      "priority": 2984,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaCustomControlUnit.so.json",
+      "examples": {
+        "positive": [
+          "libMaaCustomControlUnit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2985,
+      "type": 0,
+      "name": "libMaaFramework.so",
+      "mode": "exact",
+      "priority": 2985,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaFramework.so.json",
+      "examples": {
+        "positive": [
+          "libMaaFramework.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2986,
+      "type": 0,
+      "name": "libMaaRecordControlUnit.so",
+      "mode": "exact",
+      "priority": 2986,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaRecordControlUnit.so.json",
+      "examples": {
+        "positive": [
+          "libMaaRecordControlUnit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2987,
+      "type": 0,
+      "name": "libMaaReplayControlUnit.so",
+      "mode": "exact",
+      "priority": 2987,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaReplayControlUnit.so.json",
+      "examples": {
+        "positive": [
+          "libMaaReplayControlUnit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2988,
+      "type": 0,
+      "name": "libMaaToolkit.so",
+      "mode": "exact",
+      "priority": 2988,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaToolkit.so.json",
+      "examples": {
+        "positive": [
+          "libMaaToolkit.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2989,
+      "type": 0,
+      "name": "libMaaUtils.so",
+      "mode": "exact",
+      "priority": 2989,
+      "label": "MaaFramework",
+      "iconId": "ic_lib_maa_framework",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMaaUtils.so.json",
+      "examples": {
+        "positive": [
+          "libMaaUtils.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

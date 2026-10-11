@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "730F2E2E-F709-4418-96A8-066DDBEF5F38",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-mmkv",
+        "dev_team": "Margelo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "为 React Native 提供 MMKV 原生存储绑定。",
+        "source_link": "https://github.com/margelo/react-native-mmkv"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-mmkv",
+        "dev_team": "Margelo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Native MMKV storage bindings for React Native.",
+        "source_link": "https://github.com/margelo/react-native-mmkv"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2926,
+      "type": 0,
+      "name": "libreactnativemmkv.so",
+      "mode": "exact",
+      "priority": 2926,
+      "label": "react-native-mmkv",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreactnativemmkv.so.json",
+      "examples": {
+        "positive": [
+          "libreactnativemmkv.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

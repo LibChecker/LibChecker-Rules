@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5B941F2C-D8D4-4544-9196-C29B2079E292",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "阿里云播放器 SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "为 Android 应用提供音视频播放及播放插件。",
+        "source_link": "https://help.aliyun.com/zh/vod/developer-reference/quick-integration-1"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "阿里云播放器 SDK",
+        "dev_team": "Alibaba",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Audio and video playback and playback plugins for Android applications.",
+        "source_link": "https://help.aliyun.com/zh/vod/developer-reference/quick-integration-1"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3060,
+      "type": 0,
+      "name": "libcicada_plugin_aem_filter.so",
+      "mode": "exact",
+      "priority": 3060,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_aem_filter.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_aem_filter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3061,
+      "type": 0,
+      "name": "libcicada_plugin_artcSource.so",
+      "mode": "exact",
+      "priority": 3061,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_artcSource.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_artcSource.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3062,
+      "type": 0,
+      "name": "libcicada_plugin_audio_enhance_filter.so",
+      "mode": "exact",
+      "priority": 3062,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_audio_enhance_filter.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_audio_enhance_filter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3063,
+      "type": 0,
+      "name": "libcicada_plugin_av3a_codec.so",
+      "mode": "exact",
+      "priority": 3063,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_av3a_codec.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_av3a_codec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3064,
+      "type": 0,
+      "name": "libcicada_plugin_normal_sr_filter.so",
+      "mode": "exact",
+      "priority": 3064,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_normal_sr_filter.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_normal_sr_filter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3065,
+      "type": 0,
+      "name": "libPluginSR.so",
+      "mode": "exact",
+      "priority": 3065,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libPluginSR.so.json",
+      "examples": {
+        "positive": [
+          "libPluginSR.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3066,
+      "type": 0,
+      "name": "libcicada_plugin_sr_filter.so",
+      "mode": "exact",
+      "priority": 3066,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_sr_filter.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_sr_filter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3067,
+      "type": 0,
+      "name": "libcicada_plugin_vivid_filter.so",
+      "mode": "exact",
+      "priority": 3067,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_vivid_filter.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_vivid_filter.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3068,
+      "type": 0,
+      "name": "libcicada_plugin_vvc_codec.so",
+      "mode": "exact",
+      "priority": 3068,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcicada_plugin_vvc_codec.so.json",
+      "examples": {
+        "positive": [
+          "libcicada_plugin_vvc_codec.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3069,
+      "type": 0,
+      "name": "libsaasCorePlayer.so",
+      "mode": "exact",
+      "priority": 3069,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsaasCorePlayer.so.json",
+      "examples": {
+        "positive": [
+          "libsaasCorePlayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3070,
+      "type": 0,
+      "name": "libsaasDownloader.so",
+      "mode": "exact",
+      "priority": 3070,
+      "label": "阿里云播放器 SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsaasDownloader.so.json",
+      "examples": {
+        "positive": [
+          "libsaasDownloader.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

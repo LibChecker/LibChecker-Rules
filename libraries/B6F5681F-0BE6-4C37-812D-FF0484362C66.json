@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "B6F5681F-0BE6-4C37-812D-FF0484362C66",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mihomo",
+        "dev_team": "MetaCubeX",
+        "rule_contributors": [
+          "YumeYuka"
+        ],
+        "description": "基于 Clash 的网络代理核心。该共享库名称可由 Android 集成 wrapper 生成，不表示所有 Mihomo 分发均使用此文件名。",
+        "source_link": "https://github.com/MetaCubeX/mihomo/tree/v1.19.32"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mihomo",
+        "dev_team": "MetaCubeX",
+        "rule_contributors": [
+          "YumeYuka"
+        ],
+        "description": "Clash-based network proxy core. This shared-library name is used by Android integration wrappers and is not universal to all Mihomo distributions.",
+        "source_link": "https://github.com/MetaCubeX/mihomo/tree/v1.19.32"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3093,
+      "type": 0,
+      "name": "libmihomo.so",
+      "mode": "exact",
+      "priority": 3093,
+      "label": "Mihomo",
+      "iconId": "ic_lib_mihomo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmihomo.so.json",
+      "examples": {
+        "positive": [
+          "libmihomo.so"
+        ],
+        "negative": [
+          "libmihomo.so.other"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "8BA38F47-1A7E-45A3-86B3-58447C357EBC",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "react-native-teleport",
+        "dev_team": "Kirill Zyusko",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为 React Native 提供原生视图传送与过渡组件。",
+        "source_link": "https://github.com/kirillzyusko/react-native-teleport"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "react-native-teleport",
+        "dev_team": "Kirill Zyusko",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Native view portals and transitions for React Native.",
+        "source_link": "https://github.com/kirillzyusko/react-native-teleport"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2928,
+      "type": 0,
+      "name": "libreact_codegen_TeleportViewSpec.so",
+      "mode": "exact",
+      "priority": 2928,
+      "label": "react-native-teleport",
+      "iconId": "ic_lib_rn_teleport",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact_codegen_TeleportViewSpec.so.json",
+      "examples": {
+        "positive": [
+          "libreact_codegen_TeleportViewSpec.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

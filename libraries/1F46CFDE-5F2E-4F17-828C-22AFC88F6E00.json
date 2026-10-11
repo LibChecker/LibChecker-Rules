@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1F46CFDE-5F2E-4F17-828C-22AFC88F6E00",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "xDL",
+        "dev_team": "hexhacking",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Android 动态链接函数的增强实现。",
+        "source_link": "https://github.com/hexhacking/xDL"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "xDL",
+        "dev_team": "hexhacking",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Enhanced implementations of Android dynamic linker functions.",
+        "source_link": "https://github.com/hexhacking/xDL"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2976,
+      "type": 0,
+      "name": "libxdl.so",
+      "mode": "exact",
+      "priority": 2976,
+      "label": "xDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxdl.so.json",
+      "examples": {
+        "positive": [
+          "libxdl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

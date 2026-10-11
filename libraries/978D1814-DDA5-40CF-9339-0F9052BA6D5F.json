@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "978D1814-DDA5-40CF-9339-0F9052BA6D5F",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Dart JNI",
+        "dev_team": "Dart Project",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "为 Dart 与 Flutter 提供 JNI 访问支持。",
+        "source_link": "https://github.com/dart-lang/native/tree/main/pkgs/jni"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Dart JNI",
+        "dev_team": "Dart Project",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "JNI access support for Dart and Flutter.",
+        "source_link": "https://github.com/dart-lang/native/tree/main/pkgs/jni"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2973,
+      "type": 0,
+      "name": "libdartjni.so",
+      "mode": "exact",
+      "priority": 2973,
+      "label": "Dart JNI",
+      "iconId": "ic_lib_dart_jni",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdartjni.so.json",
+      "examples": {
+        "positive": [
+          "libdartjni.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

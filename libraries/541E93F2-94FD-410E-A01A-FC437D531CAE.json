@@ -46,6 +46,144 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3035,
+      "type": 0,
+      "name": "libucrash.so",
+      "mode": "exact",
+      "priority": 3035,
+      "label": "U-APM SDK",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libucrash.so.json",
+      "examples": {
+        "positive": [
+          "libucrash.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "U-APM SDK",
+            "dev_team": "Umeng",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "友盟应用性能监控 SDK，提供崩溃和应用稳定性监控。",
+            "source_link": "https://devs.umeng.com/docs/193624/detail/194590"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "U-APM SDK",
+            "dev_team": "Umeng",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Umeng application performance monitoring SDK for crash and application stability monitoring.",
+            "source_link": "https://devs.umeng.com/docs/193624/detail/194590"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3036,
+      "type": 0,
+      "name": "libumonitor.so",
+      "mode": "exact",
+      "priority": 3036,
+      "label": "U-APM SDK",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libumonitor.so.json",
+      "examples": {
+        "positive": [
+          "libumonitor.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "U-APM SDK",
+            "dev_team": "Umeng",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "友盟应用性能监控 SDK，提供崩溃和应用稳定性监控。",
+            "source_link": "https://devs.umeng.com/docs/193624/detail/194590"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "U-APM SDK",
+            "dev_team": "Umeng",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Umeng application performance monitoring SDK for crash and application stability monitoring.",
+            "source_link": "https://devs.umeng.com/docs/193624/detail/194590"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3037,
+      "type": 0,
+      "name": "libucrash-core.so",
+      "mode": "exact",
+      "priority": 3037,
+      "label": "U-APM SDK",
+      "iconId": "ic_lib_umeng",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libucrash-core.so.json",
+      "examples": {
+        "positive": [
+          "libucrash-core.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "U-APM SDK",
+            "dev_team": "Umeng",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "友盟应用性能监控 SDK，提供崩溃和应用稳定性监控。",
+            "source_link": "https://devs.umeng.com/docs/193624/detail/194590"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "U-APM SDK",
+            "dev_team": "Umeng",
+            "rule_contributors": [
+              "Absinthe",
+              "crrashh1542"
+            ],
+            "description": "Umeng application performance monitoring SDK for crash and application stability monitoring.",
+            "source_link": "https://devs.umeng.com/docs/193624/detail/194590"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

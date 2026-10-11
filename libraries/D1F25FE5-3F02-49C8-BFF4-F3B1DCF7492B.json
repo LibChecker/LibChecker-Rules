@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D1F25FE5-3F02-49C8-BFF4-F3B1DCF7492B",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "BMF",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "字节跳动开发的 Babit Multimedia Framework 及其客户端多媒体处理组件。",
+        "source_link": "https://github.com/BabitMF/bmf"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "BMF",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Babit Multimedia Framework and its client-side multimedia processing components, developed by ByteDance.",
+        "source_link": "https://github.com/BabitMF/bmf"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3038,
+      "type": 0,
+      "name": "libbmf_hydra.so",
+      "mode": "exact",
+      "priority": 3038,
+      "label": "BMF",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbmf_hydra.so.json",
+      "examples": {
+        "positive": [
+          "libbmf_hydra.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3040,
+      "type": 0,
+      "name": "libbmf_mods.so",
+      "mode": "exact",
+      "priority": 3040,
+      "label": "BMF",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbmf_mods.so.json",
+      "examples": {
+        "positive": [
+          "libbmf_mods.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

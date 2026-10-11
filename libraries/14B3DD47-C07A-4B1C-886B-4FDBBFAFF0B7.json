@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 5,
+  "uuid": "14B3DD47-C07A-4B1C-886B-4FDBBFAFF0B7",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Cash Raven",
+        "dev_team": "Cash Raven",
+        "rule_contributors": [
+          "autovalue"
+        ],
+        "description": "通过用户同意的带宽共享为应用提供收益的 SDK。",
+        "source_link": "https://cashraven.io/docs"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Cash Raven",
+        "dev_team": "Cash Raven",
+        "rule_contributors": [
+          "autovalue"
+        ],
+        "description": "SDK that monetizes applications through user-consented bandwidth sharing.",
+        "source_link": "https://cashraven.io/docs"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3109,
+      "type": 1,
+      "name": "io.cashraven.sdk.ForegroundService",
+      "mode": "exact",
+      "priority": 3109,
+      "regexName": null,
+      "hasDetail": true,
+      "label": "Cash Raven",
+      "iconId": null,
+      "legacyPath": "services-libs/io/cashraven/sdk/ForegroundService.json",
+      "examples": {
+        "positive": [
+          "io.cashraven.sdk.ForegroundService"
+        ],
+        "negative": [
+          "io.cashraven.sdk.ForegroundService.backup",
+          "IO.CASHRAVEN.SDK.FOREGROUNDSERVICE"
+        ]
+      }
+    },
+    {
+      "id": 3110,
+      "type": 3,
+      "name": "io.cashraven.sdk.BootCompletedReceiver",
+      "mode": "exact",
+      "priority": 3110,
+      "regexName": null,
+      "hasDetail": true,
+      "label": "Cash Raven",
+      "iconId": null,
+      "legacyPath": "receivers-libs/io/cashraven/sdk/BootCompletedReceiver.json",
+      "examples": {
+        "positive": [
+          "io.cashraven.sdk.BootCompletedReceiver"
+        ],
+        "negative": [
+          "io.cashraven.sdk.BootCompletedReceiver.backup",
+          "IO.CASHRAVEN.SDK.BOOTCOMPLETEDRECEIVER"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 5,
+  "uuid": "6C18D62D-F57E-422C-9CDA-BFF78B5F67A5",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "JC Player",
+        "dev_team": "Jean Sanchez",
+        "rule_contributors": [
+          "ASimpUsr"
+        ],
+        "description": "JC Player 是用于 Android 音频播放的 Java 库，提供播放服务与通知控制组件。",
+        "source_link": "https://github.com/jeancsanchez/JcPlayer"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "JC Player",
+        "dev_team": "Jean Sanchez",
+        "rule_contributors": [
+          "ASimpUsr"
+        ],
+        "description": "JC Player is a Java audio player library for Android with playback service and notification control components.",
+        "source_link": "https://github.com/jeancsanchez/JcPlayer"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3106,
+      "type": 1,
+      "name": "com.example.jean.jcplayer.service.JcPlayerService",
+      "mode": "exact",
+      "priority": 3106,
+      "label": "JC Player",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/example/jean/jcplayer/service/JcPlayerService.json",
+      "examples": {
+        "positive": [
+          "com.example.jean.jcplayer.service.JcPlayerService"
+        ],
+        "negative": [
+          "com.example.jean.jcplayer.service.JcPlayerService.backup",
+          "COM.EXAMPLE.JEAN.JCPLAYER.SERVICE.JCPLAYERSERVICE"
+        ]
+      }
+    },
+    {
+      "id": 3107,
+      "type": 3,
+      "name": "com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver",
+      "mode": "exact",
+      "priority": 3107,
+      "label": "JC Player",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/example/jean/jcplayer/service/notification/JcPlayerNotificationReceiver.json",
+      "examples": {
+        "positive": [
+          "com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver"
+        ],
+        "negative": [
+          "com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver.backup",
+          "COM.EXAMPLE.JEAN.JCPLAYER.SERVICE.NOTIFICATION.JCPLAYERNOTIFICATIONRECEIVER"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

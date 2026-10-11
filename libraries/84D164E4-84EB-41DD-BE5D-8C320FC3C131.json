@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "84D164E4-84EB-41DD-BE5D-8C320FC3C131",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Djinni",
+        "dev_team": "Dropbox",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "用于 C++ 与 Java、Objective-C 的跨语言接口绑定工具。",
+        "source_link": "https://github.com/dropbox/djinni"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Djinni",
+        "dev_team": "Dropbox",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Cross-language interface binding tools for C++, Java and Objective-C.",
+        "source_link": "https://github.com/dropbox/djinni"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3077,
+      "type": 0,
+      "name": "libdjinni_support_lib.so",
+      "mode": "exact",
+      "priority": 3077,
+      "label": "Djinni",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdjinni_support_lib.so.json",
+      "examples": {
+        "positive": [
+          "libdjinni_support_lib.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

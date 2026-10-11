@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9A79BFA2-254E-41B9-BCB7-5B60FF2D9BFD",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "FairGuard",
+        "dev_team": "杭州法嘉德科技有限公司",
+        "rule_contributors": [
+          "CPositionTour"
+        ],
+        "description": "FairGuard 是面向游戏的安全保护方案，提供原生代码加固和反外挂功能。官方 Android 加固工具包含 libFairGuard.so 文件名的处理逻辑。",
+        "source_link": "https://www.fair-guard.com/help/89.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "FairGuard",
+        "dev_team": "杭州法嘉德科技有限公司",
+        "rule_contributors": [
+          "CPositionTour"
+        ],
+        "description": "FairGuard provides native code protection and anti-cheat features for games. Its official Android protection tool handles the libFairGuard.so filename.",
+        "source_link": "https://www.fair-guard.com/help/89.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3105,
+      "type": 0,
+      "name": "libFairGuard.so",
+      "mode": "exact",
+      "priority": 3105,
+      "label": "FairGuard",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libFairGuard.so.json",
+      "examples": {
+        "positive": [
+          "libFairGuard.so"
+        ],
+        "negative": [
+          "libFairGuard.so.backup",
+          "LIBFAIRGUARD.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

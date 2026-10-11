@@ -116,6 +116,56 @@
         "positive": [],
         "negative": []
       }
+    },
+    {
+      "id": 3085,
+      "type": 0,
+      "name": "libtiny_magic.so",
+      "mode": "exact",
+      "priority": 3085,
+      "label": "百度地图 SDK",
+      "iconId": "ic_lib_baidu",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtiny_magic.so.json",
+      "examples": {
+        "positive": [
+          "libtiny_magic.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "百度地图 SDK",
+            "dev_team": "Baidu",
+            "rule_contributors": [
+              "Absinthe",
+              "YandexStudio",
+              "WOLFRAZOR",
+              "crrashh1542"
+            ],
+            "description": "百度地图 Android SDK 提供地图展示、交互、绘制和地图数据检索等功能。",
+            "source_link": "https://lbsyun.baidu.com/docs/android?title=androidsdk/index"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Baidu Map SDK",
+            "dev_team": "Baidu",
+            "rule_contributors": [
+              "Absinthe",
+              "YandexStudio",
+              "WOLFRAZOR",
+              "crrashh1542"
+            ],
+            "description": "Baidu Maps Android SDK provides map display, interaction, drawing, and map data search.",
+            "source_link": "https://lbsyun.baidu.com/docs/android?title=androidsdk/index"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

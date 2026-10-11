@@ -46,6 +46,54 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3090,
+      "type": 0,
+      "name": "libmupdf.so",
+      "mode": "exact",
+      "priority": 3090,
+      "label": "MuPDF",
+      "iconId": "ic_lib_mupdf",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmupdf.so.json",
+      "examples": {
+        "positive": [
+          "libmupdf.so"
+        ],
+        "negative": [
+          "libmupdf.so.other"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "MuPDF",
+            "dev_team": "Artifex Software Inc.",
+            "rule_contributors": [
+              "XieyilinMain",
+              "nnxfb"
+            ],
+            "description": "MuPDF 是一个轻量级的 PDF、XPS 和电子书查看器。",
+            "source_link": "https://github.com/ArtifexSoftware/mupdf"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "MuPDF",
+            "dev_team": "Artifex Software Inc.",
+            "rule_contributors": [
+              "XieyilinMain",
+              "nnxfb"
+            ],
+            "description": "MuPDF is a lightweight PDF, XPS, and E-book viewer.",
+            "source_link": "https://github.com/ArtifexSoftware/mupdf"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

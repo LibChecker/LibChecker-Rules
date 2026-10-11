@@ -82,6 +82,50 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3030,
+      "type": 0,
+      "name": "libmapbox-maps.so",
+      "mode": "exact",
+      "priority": 3030,
+      "label": "Mapbox Maps SDK for Android",
+      "iconId": "ic_lib_mapbox",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmapbox-maps.so.json",
+      "examples": {
+        "positive": [
+          "libmapbox-maps.so"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Mapbox Maps SDK for Android",
+            "dev_team": "Mapbox",
+            "rule_contributors": [
+              "sebastien46"
+            ],
+            "description": "为 Android 应用提供交互式矢量地图。",
+            "source_link": "https://github.com/mapbox/mapbox-maps-android"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Mapbox Maps SDK for Android",
+            "dev_team": "Mapbox",
+            "rule_contributors": [
+              "sebastien46"
+            ],
+            "description": "Interactive vector maps for Android applications.",
+            "source_link": "https://github.com/mapbox/mapbox-maps-android"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

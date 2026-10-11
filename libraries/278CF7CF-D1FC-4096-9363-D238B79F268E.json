@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "278CF7CF-D1FC-4096-9363-D238B79F268E",
+  "iconId": "ic_lib_cordova",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "cordova-plugin-file-opener2",
+        "dev_team": "pwlin",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "用于在 Android 上打开文件的 Cordova 插件。",
+        "source_link": "https://github.com/pwlin/cordova-plugin-file-opener2"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "cordova-plugin-file-opener2",
+        "dev_team": "pwlin",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Cordova plugin for opening files on Android.",
+        "source_link": "https://github.com/pwlin/cordova-plugin-file-opener2"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2940,
+      "type": 4,
+      "name": "io.github.pwlin.cordova.plugins.fileopener2.FileProvider",
+      "mode": "exact",
+      "priority": 2940,
+      "label": "cordova-plugin-file-opener2",
+      "iconId": "ic_lib_cordova",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/io/github/pwlin/cordova/plugins/fileopener2/FileProvider.json",
+      "examples": {
+        "positive": [
+          "io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

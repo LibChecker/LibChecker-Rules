@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2CB19619-6E48-4F46-A1A4-AF8D7347E056",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mapbox Common",
+        "dev_team": "Mapbox",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Mapbox SDK 使用的共享基础组件。",
+        "source_link": "https://docs.mapbox.com/android/maps/api/11.2.2/mapbox-maps-android/com.mapbox.common/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mapbox Common",
+        "dev_team": "Mapbox",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Shared foundational components used by Mapbox SDKs.",
+        "source_link": "https://docs.mapbox.com/android/maps/api/11.2.2/mapbox-maps-android/com.mapbox.common/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3031,
+      "type": 0,
+      "name": "libmapbox-common.so",
+      "mode": "exact",
+      "priority": 3031,
+      "label": "Mapbox Common",
+      "iconId": "ic_lib_mapbox",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libmapbox-common.so.json",
+      "examples": {
+        "positive": [
+          "libmapbox-common.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3032,
+      "type": 1,
+      "name": "com.mapbox.common.LifecycleService",
+      "mode": "exact",
+      "priority": 3032,
+      "label": "Mapbox Common",
+      "iconId": "ic_lib_mapbox",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/mapbox/common/LifecycleService.json",
+      "examples": {
+        "positive": [
+          "com.mapbox.common.LifecycleService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3033,
+      "type": 3,
+      "name": "com.mapbox.common.location.LocationUpdatesReceiver",
+      "mode": "exact",
+      "priority": 3033,
+      "label": "Mapbox Common",
+      "iconId": "ic_lib_mapbox",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/mapbox/common/location/LocationUpdatesReceiver.json",
+      "examples": {
+        "positive": [
+          "com.mapbox.common.location.LocationUpdatesReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

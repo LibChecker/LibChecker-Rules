@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "ACC25918-E5CC-4169-A98A-1E4F2C046B5C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "MobileGL",
+        "dev_team": "MobileGL-Dev",
+        "rule_contributors": [
+          "hfhhfhzx"
+        ],
+        "description": "桌面 OpenGL API 的跨平台实现。",
+        "source_link": "https://github.com/MobileGL-Dev/MobileGL"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MobileGL",
+        "dev_team": "MobileGL-Dev",
+        "rule_contributors": [
+          "hfhhfhzx"
+        ],
+        "description": "Cross-platform implementation of desktop OpenGL APIs.",
+        "source_link": "https://github.com/MobileGL-Dev/MobileGL"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2978,
+      "type": 0,
+      "name": "libMobileGL.so",
+      "mode": "exact",
+      "priority": 2978,
+      "label": "MobileGL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMobileGL.so.json",
+      "examples": {
+        "positive": [
+          "libMobileGL.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

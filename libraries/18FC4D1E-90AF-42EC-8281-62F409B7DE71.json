@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "18FC4D1E-90AF-42EC-8281-62F409B7DE71",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "优推广告 SDK",
+        "dev_team": "华夏乐游",
+        "rule_contributors": [
+          "y3881811-oss"
+        ],
+        "description": "优推广告平台 ADN SDK 的原生组件，用于广告投放相关功能。",
+        "source_link": "https://lemon.gameley.com/flowdocs/SDK接入文档/Android接入文档/优推聚合AndroidSDK接入文档.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Youtui Ad SDK",
+        "dev_team": "Gameley",
+        "rule_contributors": [
+          "y3881811-oss"
+        ],
+        "description": "Native component of the Youtui advertising platform ADN SDK.",
+        "source_link": "https://lemon.gameley.com/flowdocs/SDK接入文档/Android接入文档/优推聚合AndroidSDK接入文档.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3116,
+      "type": 0,
+      "name": "libadalliance.so",
+      "mode": "exact",
+      "priority": 3116,
+      "regexName": null,
+      "hasDetail": true,
+      "label": "优推广告 SDK",
+      "iconId": null,
+      "legacyPath": "native-libs/libadalliance.so.json",
+      "examples": {
+        "positive": [
+          "libadalliance.so"
+        ],
+        "negative": [
+          "libadalliance.so.backup",
+          "LIBADALLIANCE.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

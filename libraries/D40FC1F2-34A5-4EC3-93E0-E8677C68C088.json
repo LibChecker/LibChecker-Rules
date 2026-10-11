@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D40FC1F2-34A5-4EC3-93E0-E8677C68C088",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "sherpa-onnx",
+        "dev_team": "k2-fsa",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "使用 ONNX Runtime 在本地执行语音识别、语音合成、说话人分离、语音增强和语音活动检测等任务。",
+        "source_link": "https://github.com/k2-fsa/sherpa-onnx"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "sherpa-onnx",
+        "dev_team": "k2-fsa",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "On-device speech recognition, speech synthesis, speaker diarization, speech enhancement, and voice activity detection using ONNX Runtime.",
+        "source_link": "https://github.com/k2-fsa/sherpa-onnx"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3120,
+      "type": 0,
+      "name": "libsherpa-onnx-jni.so",
+      "mode": "exact",
+      "priority": 3120,
+      "label": "sherpa-onnx",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsherpa-onnx-jni.so.json",
+      "examples": {
+        "positive": [
+          "libsherpa-onnx-jni.so"
+        ],
+        "negative": [
+          "libsherpa-onnx-jni.so.backup",
+          "LIBSHERPA-ONNX-JNI.SO"
+        ]
+      }
+    },
+    {
+      "id": 3121,
+      "type": 0,
+      "name": "libsherpa-onnx-c-api.so",
+      "mode": "exact",
+      "priority": 3121,
+      "label": "sherpa-onnx",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsherpa-onnx-c-api.so.json",
+      "examples": {
+        "positive": [
+          "libsherpa-onnx-c-api.so"
+        ],
+        "negative": [
+          "libsherpa-onnx-c-api.so.backup",
+          "LIBSHERPA-ONNX-C-API.SO"
+        ]
+      }
+    },
+    {
+      "id": 3122,
+      "type": 0,
+      "name": "libsherpa-onnx-cxx-api.so",
+      "mode": "exact",
+      "priority": 3122,
+      "label": "sherpa-onnx",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsherpa-onnx-cxx-api.so.json",
+      "examples": {
+        "positive": [
+          "libsherpa-onnx-cxx-api.so"
+        ],
+        "negative": [
+          "libsherpa-onnx-cxx-api.so.backup",
+          "LIBSHERPA-ONNX-CXX-API.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

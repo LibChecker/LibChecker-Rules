@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F2F98DE4-C728-4894-A91E-156F7CFBFCF3",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Honeygain",
+        "dev_team": "Honeygain",
+        "rule_contributors": [
+          "autovalue"
+        ],
+        "description": "通过用户同意的带宽共享为应用提供收益的 SDK。",
+        "source_link": "https://developers.honeygain.com/docs/integration-guides/android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Honeygain",
+        "dev_team": "Honeygain",
+        "rule_contributors": [
+          "autovalue"
+        ],
+        "description": "SDK that monetizes applications through user-consented bandwidth sharing.",
+        "source_link": "https://developers.honeygain.com/docs/integration-guides/android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3111,
+      "type": 1,
+      "name": "com.honeygain.vobler.lib.longevity.RewardsService",
+      "mode": "exact",
+      "priority": 3111,
+      "regexName": null,
+      "hasDetail": true,
+      "label": "Honeygain",
+      "iconId": null,
+      "legacyPath": "services-libs/com/honeygain/vobler/lib/longevity/RewardsService.json",
+      "examples": {
+        "positive": [
+          "com.honeygain.vobler.lib.longevity.RewardsService"
+        ],
+        "negative": [
+          "com.honeygain.vobler.lib.longevity.RewardsService.backup",
+          "COM.HONEYGAIN.VOBLER.LIB.LONGEVITY.REWARDSSERVICE"
+        ]
+      }
+    },
+    {
+      "id": 3112,
+      "type": 2,
+      "name": "com.honeygain.vobler.lib.ConsentActivity",
+      "mode": "exact",
+      "priority": 3112,
+      "regexName": null,
+      "hasDetail": true,
+      "label": "Honeygain",
+      "iconId": null,
+      "legacyPath": "activities-libs/com/honeygain/vobler/lib/ConsentActivity.json",
+      "examples": {
+        "positive": [
+          "com.honeygain.vobler.lib.ConsentActivity"
+        ],
+        "negative": [
+          "com.honeygain.vobler.lib.ConsentActivity.backup",
+          "COM.HONEYGAIN.VOBLER.LIB.CONSENTACTIVITY"
+        ]
+      }
+    },
+    {
+      "id": 3113,
+      "type": 3,
+      "name": "com.honeygain.vobler.lib.BootReceiver",
+      "mode": "exact",
+      "priority": 3113,
+      "regexName": null,
+      "hasDetail": true,
+      "label": "Honeygain",
+      "iconId": null,
+      "legacyPath": "receivers-libs/com/honeygain/vobler/lib/BootReceiver.json",
+      "examples": {
+        "positive": [
+          "com.honeygain.vobler.lib.BootReceiver"
+        ],
+        "negative": [
+          "com.honeygain.vobler.lib.BootReceiver.backup",
+          "COM.HONEYGAIN.VOBLER.LIB.BOOTRECEIVER"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

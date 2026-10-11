@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "770E70AF-445D-4603-BC27-8A211333BD39",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "super_native_extensions",
+        "dev_team": "Superlist",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "提供剪贴板、拖放等原生 API 接口的 Flutter 插件。",
+        "source_link": "https://github.com/superlistapp/super_native_extensions"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "super_native_extensions",
+        "dev_team": "Superlist",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Flutter plugin exposing native APIs such as clipboard and drag and drop.",
+        "source_link": "https://github.com/superlistapp/super_native_extensions"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3034,
+      "type": 0,
+      "name": "libsuper_native_extensions.so",
+      "mode": "exact",
+      "priority": 3034,
+      "label": "super_native_extensions",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsuper_native_extensions.so.json",
+      "examples": {
+        "positive": [
+          "libsuper_native_extensions.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

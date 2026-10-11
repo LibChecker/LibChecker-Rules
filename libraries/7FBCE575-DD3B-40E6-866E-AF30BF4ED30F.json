@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7FBCE575-DD3B-40E6-866E-AF30BF4ED30F",
+  "iconId": "ic_lib_flutter",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "open_file",
+        "dev_team": "crazecoder",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "使用系统应用打开文件的 Flutter 插件。",
+        "source_link": "https://github.com/crazecoder/open_file"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "open_file",
+        "dev_team": "crazecoder",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Flutter plugin for opening files with system applications.",
+        "source_link": "https://github.com/crazecoder/open_file"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2942,
+      "type": 4,
+      "name": "com.crazecoder.openfile.FileProvider",
+      "mode": "exact",
+      "priority": 2942,
+      "label": "open_file",
+      "iconId": "ic_lib_flutter",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/crazecoder/openfile/FileProvider.json",
+      "examples": {
+        "positive": [
+          "com.crazecoder.openfile.FileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

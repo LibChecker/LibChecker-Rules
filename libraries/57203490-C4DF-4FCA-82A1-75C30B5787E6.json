@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "57203490-C4DF-4FCA-82A1-75C30B5787E6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ServoShell",
+        "dev_team": "Servo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Servo 浏览器引擎的 ServoShell Android 原生库。",
+        "source_link": "https://github.com/servo/servo"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ServoShell",
+        "dev_team": "Servo",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Android native library for ServoShell, the browser shell built on the Servo engine.",
+        "source_link": "https://github.com/servo/servo"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3101,
+      "type": 0,
+      "name": "libservoshell.so",
+      "mode": "exact",
+      "priority": 3101,
+      "label": "ServoShell",
+      "iconId": "ic_lib_servo",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libservoshell.so.json",
+      "examples": {
+        "positive": [
+          "libservoshell.so"
+        ],
+        "negative": [
+          "libservoshell.so.backup",
+          "LIBSERVOSHELL.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

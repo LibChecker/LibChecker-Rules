@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BE4BD390-8F5F-4D34-8BF4-AC1C1E6A2BB9",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Microsoft Clarity",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "harshithm8"
+        ],
+        "description": "应用行为分析 SDK，用于会话回放与用户交互分析。",
+        "source_link": "https://learn.microsoft.com/en-us/clarity/mobile-sdk/android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Microsoft Clarity",
+        "dev_team": "Microsoft",
+        "rule_contributors": [
+          "harshithm8"
+        ],
+        "description": "Behavior analytics SDK for session replay and user interaction analysis.",
+        "source_link": "https://learn.microsoft.com/en-us/clarity/mobile-sdk/android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3089,
+      "type": 1,
+      "name": "com.microsoft.clarity.jobs.UploadSessionJob",
+      "mode": "exact",
+      "priority": 3089,
+      "label": "Microsoft Clarity",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/com/microsoft/clarity/jobs/UploadSessionJob.json",
+      "examples": {
+        "positive": [
+          "com.microsoft.clarity.jobs.UploadSessionJob"
+        ],
+        "negative": [
+          "com.microsoft.clarity.jobs.UploadSessionJob.other"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

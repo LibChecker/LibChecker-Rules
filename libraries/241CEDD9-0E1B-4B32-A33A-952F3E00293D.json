@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "241CEDD9-0E1B-4B32-A33A-952F3E00293D",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Screeb",
+        "dev_team": "Screeb",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "面向应用的用户研究与反馈 SDK。",
+        "source_link": "https://github.com/ScreebApp/sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Screeb",
+        "dev_team": "Screeb",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "User research and feedback SDK for applications.",
+        "source_link": "https://github.com/ScreebApp/sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2990,
+      "type": 2,
+      "name": "app.screeb.sdk.ScreebFilePickerActivity",
+      "mode": "exact",
+      "priority": 2990,
+      "label": "Screeb",
+      "iconId": "ic_lib_screeb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/app/screeb/sdk/ScreebFilePickerActivity.json",
+      "examples": {
+        "positive": [
+          "app.screeb.sdk.ScreebFilePickerActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2991,
+      "type": 2,
+      "name": "app.screeb.sdk.ScreebPermissionActivity",
+      "mode": "exact",
+      "priority": 2991,
+      "label": "Screeb",
+      "iconId": "ic_lib_screeb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/app/screeb/sdk/ScreebPermissionActivity.json",
+      "examples": {
+        "positive": [
+          "app.screeb.sdk.ScreebPermissionActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2992,
+      "type": 4,
+      "name": "app.screeb.sdk.ScreebInitProvider",
+      "mode": "exact",
+      "priority": 2992,
+      "label": "Screeb",
+      "iconId": "ic_lib_screeb",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/app/screeb/sdk/ScreebInitProvider.json",
+      "examples": {
+        "positive": [
+          "app.screeb.sdk.ScreebInitProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

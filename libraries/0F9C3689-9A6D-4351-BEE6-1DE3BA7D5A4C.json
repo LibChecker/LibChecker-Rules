@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "0F9C3689-9A6D-4351-BEE6-1DE3BA7D5A4C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "UnifiedPush Android Connector",
+        "dev_team": "UnifiedPush",
+        "rule_contributors": [
+          "Arshirui"
+        ],
+        "description": "用于接收 UnifiedPush 通知的 Android 连接库。",
+        "source_link": "https://github.com/UnifiedPush/android-connector"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "UnifiedPush Android Connector",
+        "dev_team": "UnifiedPush",
+        "rule_contributors": [
+          "Arshirui"
+        ],
+        "description": "Android connector library for receiving UnifiedPush notifications.",
+        "source_link": "https://github.com/UnifiedPush/android-connector"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2964,
+      "type": 1,
+      "name": "org.unifiedpush.android.connector.internal.RaiseToForegroundService",
+      "mode": "exact",
+      "priority": 2964,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/org/unifiedpush/android/connector/internal/RaiseToForegroundService.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.internal.RaiseToForegroundService"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2965,
+      "type": 2,
+      "name": "org.unifiedpush.android.connector.internal.LinkActivity",
+      "mode": "exact",
+      "priority": 2965,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/org/unifiedpush/android/connector/internal/LinkActivity.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.internal.LinkActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2966,
+      "type": 3,
+      "name": "org.unifiedpush.android.connector.internal.MessagingReceiverImpl",
+      "mode": "exact",
+      "priority": 2966,
+      "label": "UnifiedPush Android Connector",
+      "iconId": "ic_lib_unifiedpush",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/org/unifiedpush/android/connector/internal/MessagingReceiverImpl.json",
+      "examples": {
+        "positive": [
+          "org.unifiedpush.android.connector.internal.MessagingReceiverImpl"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 5,
+  "uuid": "52AB8C79-75BF-41A1-A9A4-43E981634A06",
+  "iconId": "ic_lib_litert",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LiteRT-LM",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "基于 LiteRT 的语言模型端侧推理运行时。",
+        "source_link": "https://github.com/google-ai-edge/LiteRT-LM"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LiteRT-LM",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "On-device language model inference runtime built on LiteRT.",
+        "source_link": "https://github.com/google-ai-edge/LiteRT-LM"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2979,
+      "type": 0,
+      "name": "liblitertlm_jni.so",
+      "mode": "exact",
+      "priority": 2979,
+      "label": "LiteRT-LM",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/liblitertlm_jni.so.json",
+      "examples": {
+        "positive": [
+          "liblitertlm_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3098,
+      "type": 0,
+      "name": "libLiteRtTopKOpenClSampler.so",
+      "mode": "exact",
+      "priority": 3098,
+      "label": "LiteRT-LM",
+      "iconId": "ic_lib_litert",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libLiteRtTopKOpenClSampler.so.json",
+      "examples": {
+        "positive": [
+          "libLiteRtTopKOpenClSampler.so"
+        ],
+        "negative": [
+          "libLiteRtTopKOpenClSampler.so.backup",
+          "libLiteRtTopKOpenClSamplerReal.so"
+        ]
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "LiteRT-LM",
+            "dev_team": "Google",
+            "rule_contributors": [
+              "sebastien46",
+              "crrashh1542"
+            ],
+            "description": "基于 LiteRT 的语言模型端侧推理运行时。",
+            "source_link": "https://github.com/google-ai-edge/LiteRT-LM"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "LiteRT-LM",
+            "dev_team": "Google",
+            "rule_contributors": [
+              "sebastien46",
+              "crrashh1542"
+            ],
+            "description": "On-device language model inference runtime built on LiteRT.",
+            "source_link": "https://github.com/google-ai-edge/LiteRT-LM"
+          }
+        }
+      ]
+    }
+  ],
+  "unreferencedDescriptions": []
+}

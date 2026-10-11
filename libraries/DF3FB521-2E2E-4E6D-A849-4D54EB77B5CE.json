@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "DF3FB521-2E2E-4E6D-A849-4D54EB77B5CE",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Code CIN",
+        "dev_team": "ByUsi Studio",
+        "rule_contributors": [
+          "BeiAne"
+        ],
+        "description": "Code CIN 由 Go 实现的原生字节码虚拟机运行时。",
+        "source_link": "https://github.com/ByUsiStudio/Code-CIN-Docs/blob/main/dev/build-native.md"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Code CIN",
+        "dev_team": "ByUsi Studio",
+        "rule_contributors": [
+          "BeiAne"
+        ],
+        "description": "Code CIN native bytecode virtual-machine runtime implemented in Go.",
+        "source_link": "https://github.com/ByUsiStudio/Code-CIN-Docs/blob/main/dev/build-native.md"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2927,
+      "type": 0,
+      "name": "libcodecin_native.so",
+      "mode": "exact",
+      "priority": 2927,
+      "label": "Code CIN",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcodecin_native.so.json",
+      "examples": {
+        "positive": [
+          "libcodecin_native.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

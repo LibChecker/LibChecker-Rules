@@ -100,6 +100,144 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3005,
+      "type": 2,
+      "name": "com.unity3d.ads.adplayer.FullScreenWebViewDisplay",
+      "mode": "exact",
+      "priority": 3005,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/ads/adplayer/FullScreenWebViewDisplay.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.ads.adplayer.FullScreenWebViewDisplay"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unity Ads",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "JerryHan3",
+              "sebastien46"
+            ],
+            "description": "为 Android 与 Unity 应用提供广告加载、展示和变现能力的 SDK。",
+            "source_link": "https://docs.unity.com/en-us/grow/ads/android-sdk"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unity Ads",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "JerryHan3",
+              "sebastien46"
+            ],
+            "description": "SDK for loading, showing and monetizing ads in Android and Unity applications.",
+            "source_link": "https://docs.unity.com/en-us/grow/ads/android-sdk"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3006,
+      "type": 2,
+      "name": "com.unity3d.ads.adunit.AdUnitActivity",
+      "mode": "exact",
+      "priority": 3006,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/ads/adunit/AdUnitActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.ads.adunit.AdUnitActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unity Ads",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "JerryHan3",
+              "sebastien46"
+            ],
+            "description": "为 Android 与 Unity 应用提供广告加载、展示和变现能力的 SDK。",
+            "source_link": "https://docs.unity.com/en-us/grow/ads/android-sdk"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unity Ads",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "JerryHan3",
+              "sebastien46"
+            ],
+            "description": "SDK for loading, showing and monetizing ads in Android and Unity applications.",
+            "source_link": "https://docs.unity.com/en-us/grow/ads/android-sdk"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3007,
+      "type": 2,
+      "name": "com.unity3d.ads.adunit.AdUnitSoftwareActivity",
+      "mode": "exact",
+      "priority": 3007,
+      "label": "Unity Ads",
+      "iconId": "ic_lib_unity",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/unity3d/ads/adunit/AdUnitSoftwareActivity.json",
+      "examples": {
+        "positive": [
+          "com.unity3d.ads.adunit.AdUnitSoftwareActivity"
+        ],
+        "negative": []
+      },
+      "detailData": [
+        {
+          "locale": "zh-Hans",
+          "data": {
+            "label": "Unity Ads",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "JerryHan3",
+              "sebastien46"
+            ],
+            "description": "为 Android 与 Unity 应用提供广告加载、展示和变现能力的 SDK。",
+            "source_link": "https://docs.unity.com/en-us/grow/ads/android-sdk"
+          }
+        },
+        {
+          "locale": "en",
+          "data": {
+            "label": "Unity Ads",
+            "dev_team": "Unity Technologies",
+            "rule_contributors": [
+              "JerryHan3",
+              "sebastien46"
+            ],
+            "description": "SDK for loading, showing and monetizing ads in Android and Unity applications.",
+            "source_link": "https://docs.unity.com/en-us/grow/ads/android-sdk"
+          }
+        }
+      ]
     }
   ],
   "unreferencedDescriptions": []

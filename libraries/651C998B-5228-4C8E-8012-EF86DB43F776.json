@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "651C998B-5228-4C8E-8012-EF86DB43F776",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SignatureKillerEx",
+        "dev_team": "L-JINBIN",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "演示 Android APK 签名校验移除原理及其对抗方式的开源项目。",
+        "source_link": "https://github.com/L-JINBIN/ApkSignatureKillerEx"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SignatureKillerEx",
+        "dev_team": "L-JINBIN",
+        "rule_contributors": [
+          "binx6"
+        ],
+        "description": "Open-source project demonstrating the removal of Android APK signature checks and a countermeasure.",
+        "source_link": "https://github.com/L-JINBIN/ApkSignatureKillerEx"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3084,
+      "type": 0,
+      "name": "libSignatureKiller.so",
+      "mode": "exact",
+      "priority": 3084,
+      "label": "SignatureKillerEx",
+      "iconId": "ic_lib_sk",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSignatureKiller.so.json",
+      "examples": {
+        "positive": [
+          "libSignatureKiller.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

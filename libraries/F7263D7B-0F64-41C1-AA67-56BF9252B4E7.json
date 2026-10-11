@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "F7263D7B-0F64-41C1-AA67-56BF9252B4E7",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Mobile Ads Next-Gen SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Google 移动广告的新一代 Android SDK。",
+        "source_link": "https://developers.google.com/ad-manager/mobile-ads-sdk/android/next-gen/quick-start"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Mobile Ads Next-Gen SDK",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Next-generation Android SDK for Google mobile ads.",
+        "source_link": "https://developers.google.com/ad-manager/mobile-ads-sdk/android/next-gen/quick-start"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2935,
+      "type": 2,
+      "name": "com.google.android.libraries.ads.mobile.sdk.common.AdActivity",
+      "mode": "exact",
+      "priority": 2935,
+      "label": "Google Mobile Ads Next-Gen SDK",
+      "iconId": "ic_lib_google_ad_manager",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/ads/mobile/sdk/common/AdActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.ads.mobile.sdk.common.AdActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

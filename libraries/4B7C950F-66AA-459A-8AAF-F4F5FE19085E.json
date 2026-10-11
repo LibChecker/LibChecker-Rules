@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4B7C950F-66AA-459A-8AAF-F4F5FE19085E",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "dotLottie Android",
+        "dev_team": "LottieFiles",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "用于 Android 的 dotLottie 动画播放器。",
+        "source_link": "https://github.com/LottieFiles/dotlottie-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "dotLottie Android",
+        "dev_team": "LottieFiles",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "dotLottie animation player for Android.",
+        "source_link": "https://github.com/LottieFiles/dotlottie-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2943,
+      "type": 0,
+      "name": "libdlplayer.so",
+      "mode": "exact",
+      "priority": 2943,
+      "label": "dotLottie Android",
+      "iconId": "ic_lib_dotlottie",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdlplayer.so.json",
+      "examples": {
+        "positive": [
+          "libdlplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2944,
+      "type": 0,
+      "name": "libdotlottie_player.so",
+      "mode": "exact",
+      "priority": 2944,
+      "label": "dotLottie Android",
+      "iconId": "ic_lib_dotlottie",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdotlottie_player.so.json",
+      "examples": {
+        "positive": [
+          "libdotlottie_player.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

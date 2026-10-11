@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "21DBD8DE-7CD8-4B83-BC7C-932663478A78",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "irondash Engine Context",
+        "dev_team": "irondash",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "为原生代码提供 Flutter 引擎组件访问能力。",
+        "source_link": "https://github.com/irondash/irondash"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "irondash Engine Context",
+        "dev_team": "irondash",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Native access to Flutter engine components.",
+        "source_link": "https://github.com/irondash/irondash"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2967,
+      "type": 0,
+      "name": "libirondash_engine_context_native.so",
+      "mode": "exact",
+      "priority": 2967,
+      "label": "irondash Engine Context",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libirondash_engine_context_native.so.json",
+      "examples": {
+        "positive": [
+          "libirondash_engine_context_native.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4487DD7F-BAE7-4DD6-870B-35ED5D842551",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Agora AOSL",
+        "dev_team": "Agora",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Agora 的底层支持库，由实时音视频（RTC）和实时消息（RTM）SDK 共用。",
+        "source_link": "https://github.com/AgoraIO-Community/aosl"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Agora AOSL",
+        "dev_team": "Agora",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "A low-level support library shared by Agora real-time communication (RTC) and real-time messaging (RTM) SDKs.",
+        "source_link": "https://github.com/AgoraIO-Community/aosl"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3131,
+      "type": 0,
+      "name": "libaosl.so",
+      "mode": "exact",
+      "priority": 3131,
+      "label": "Agora AOSL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libaosl.so.json",
+      "examples": {
+        "positive": [
+          "libaosl.so"
+        ],
+        "negative": [
+          "libaosl.so.backup",
+          "LIBAOSL.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

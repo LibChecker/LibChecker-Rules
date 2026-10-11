@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "4AAE23A3-16DD-47AD-9CAD-C867C0738E73",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "InkReaderLink",
+        "dev_team": "Coldin04",
+        "rule_contributors": [
+          "Coldin04"
+        ],
+        "description": "面向电子墨水阅读设备及兼容固件的设备桥接层，Android 绑定通过 UniFFI 调用 Rust 原生库，提供设备发现、文件传输和设备文件管理等能力。",
+        "source_link": "https://github.com/Coldin04/InkReaderLink"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "InkReaderLink",
+        "dev_team": "Coldin04",
+        "rule_contributors": [
+          "Coldin04"
+        ],
+        "description": "A device bridge for e-ink readers and compatible firmware. Android bindings use UniFFI to call a Rust native library for device discovery, file transfer, and file management.",
+        "source_link": "https://github.com/Coldin04/InkReaderLink"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3119,
+      "type": 0,
+      "name": "libcold04_inkreaderlink.so",
+      "mode": "exact",
+      "priority": 3119,
+      "label": "InkReaderLink",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libcold04_inkreaderlink.so.json",
+      "examples": {
+        "positive": [
+          "libcold04_inkreaderlink.so"
+        ],
+        "negative": [
+          "libcold04_inkreaderlink.so.backup",
+          "LIBCOLD04_INKREADERLINK.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

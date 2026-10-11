@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C09CF190-81B9-4456-917B-DB254A375849",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Android Image Cropper",
+        "dev_team": "CanHub",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "用于 Android 的图像裁剪库。",
+        "source_link": "https://github.com/CanHub/Android-Image-Cropper"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Android Image Cropper",
+        "dev_team": "CanHub",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Image cropping library for Android.",
+        "source_link": "https://github.com/CanHub/Android-Image-Cropper"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2962,
+      "type": 2,
+      "name": "com.canhub.cropper.CropImageActivity",
+      "mode": "exact",
+      "priority": 2962,
+      "label": "Android Image Cropper",
+      "iconId": "ic_lib_android_image_cropper",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/canhub/cropper/CropImageActivity.json",
+      "examples": {
+        "positive": [
+          "com.canhub.cropper.CropImageActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2963,
+      "type": 4,
+      "name": "com.canhub.cropper.CropFileProvider",
+      "mode": "exact",
+      "priority": 2963,
+      "label": "Android Image Cropper",
+      "iconId": "ic_lib_android_image_cropper",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/canhub/cropper/CropFileProvider.json",
+      "examples": {
+        "positive": [
+          "com.canhub.cropper.CropFileProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CF426F3B-94E2-4CA8-944D-A9760782C5BF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "基调听云 App",
+        "dev_team": "基调听云",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "用于采集崩溃、卡顿、超时及用户体验数据的移动应用性能管理 SDK。",
+        "source_link": "https://doc.tingyun.com/app/html/Android%20SDKjianjie.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tingyun App",
+        "dev_team": "Tingyun",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Mobile application performance monitoring SDK for crashes, stalls, timeouts and user experience.",
+        "source_link": "https://doc.tingyun.com/app/html/Android%20SDKjianjie.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3088,
+      "type": 0,
+      "name": "libtingyun-strip-dump.so",
+      "mode": "exact",
+      "priority": 3088,
+      "label": "基调听云 App",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtingyun-strip-dump.so.json",
+      "examples": {
+        "positive": [
+          "libtingyun-strip-dump.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

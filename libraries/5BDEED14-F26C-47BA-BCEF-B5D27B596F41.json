@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5BDEED14-F26C-47BA-BCEF-B5D27B596F41",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "slua",
+        "dev_team": "多个实现",
+        "rule_contributors": [
+          "ghost"
+        ],
+        "description": "此来源链接对应 pangweiwei/slua 的 Lua/C# 绑定实现；Neopallium/slua 编译器项目也可产生同名共享库。仅凭 libslua.so 文件名无法唯一判定具体实现。",
+        "source_link": "https://github.com/pangweiwei/slua"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "slua",
+        "dev_team": "Multiple implementations",
+        "rule_contributors": [
+          "ghost"
+        ],
+        "description": "The linked source corresponds to the Lua/C# binding implementation in pangweiwei/slua; the Neopallium/slua compiler project can also produce a shared library with the same name. The filename libslua.so alone does not uniquely identify an implementation.",
+        "source_link": "https://github.com/pangweiwei/slua"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3108,
+      "type": 0,
+      "name": "libslua.so",
+      "mode": "exact",
+      "priority": 3108,
+      "label": "slua",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libslua.so.json",
+      "examples": {
+        "positive": [
+          "libslua.so"
+        ],
+        "negative": [
+          "libslua.so.backup",
+          "LIBSLUA.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

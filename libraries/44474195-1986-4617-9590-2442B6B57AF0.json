@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 5,
+  "uuid": "44474195-1986-4617-9590-2442B6B57AF0",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "火山引擎点播 SDK",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "火山引擎点播 Android 播放器 SDK 使用的原生媒体组件，可与其他字节音视频 SDK 共享。",
+        "source_link": "https://docs.volcengine.com/docs/video_on_demand/IntegratedSDK?lang=zh"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "火山引擎点播 SDK",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Native media components used by the Volcengine VOD Android player SDK and shared with other ByteDance media SDKs.",
+        "source_link": "https://docs.volcengine.com/docs/video_on_demand/IntegratedSDK?lang=zh"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3052,
+      "type": 0,
+      "name": "libttffmpeg.so",
+      "mode": "exact",
+      "priority": 3052,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libttffmpeg.so.json",
+      "examples": {
+        "positive": [
+          "libttffmpeg.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3053,
+      "type": 0,
+      "name": "libttmplayer.so",
+      "mode": "exact",
+      "priority": 3053,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libttmplayer.so.json",
+      "examples": {
+        "positive": [
+          "libttmplayer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3055,
+      "type": 0,
+      "name": "libttmverify.so",
+      "mode": "exact",
+      "priority": 3055,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libttmverify.so.json",
+      "examples": {
+        "positive": [
+          "libttmverify.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3056,
+      "type": 0,
+      "name": "libttmverifylite.so",
+      "mode": "exact",
+      "priority": 3056,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libttmverifylite.so.json",
+      "examples": {
+        "positive": [
+          "libttmverifylite.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3057,
+      "type": 0,
+      "name": "libvcn.so",
+      "mode": "exact",
+      "priority": 3057,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcn.so.json",
+      "examples": {
+        "positive": [
+          "libvcn.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3058,
+      "type": 0,
+      "name": "libvcnverify.so",
+      "mode": "exact",
+      "priority": 3058,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcnverify.so.json",
+      "examples": {
+        "positive": [
+          "libvcnverify.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3059,
+      "type": 0,
+      "name": "libvcnverifylite.so",
+      "mode": "exact",
+      "priority": 3059,
+      "label": "火山引擎点播 SDK",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libvcnverifylite.so.json",
+      "examples": {
+        "positive": [
+          "libvcnverifylite.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

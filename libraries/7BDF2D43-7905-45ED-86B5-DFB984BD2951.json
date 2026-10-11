@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "7BDF2D43-7905-45ED-86B5-DFB984BD2951",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Adyen 3D Secure 2 Native",
+        "dev_team": "Adyen",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "用于原生应用支付流程的 3D Secure 2 认证 SDK。",
+        "source_link": "https://github.com/Adyen/adyen-3ds2-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Adyen 3D Secure 2 Native",
+        "dev_team": "Adyen",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "3D Secure 2 authentication SDK for native payment flows.",
+        "source_link": "https://github.com/Adyen/adyen-3ds2-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3012,
+      "type": 2,
+      "name": "com.adyen.threeds2.internal.ui.activity.ChallengeActivity",
+      "mode": "exact",
+      "priority": 3012,
+      "label": "Adyen 3D Secure 2 Native",
+      "iconId": "ic_lib_adyen",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/adyen/threeds2/internal/ui/activity/ChallengeActivity.json",
+      "examples": {
+        "positive": [
+          "com.adyen.threeds2.internal.ui.activity.ChallengeActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

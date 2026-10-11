@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<vector xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android" android:width="1024dp" android:height="1024dp" android:viewportWidth="1024" android:viewportHeight="1024">
+  <group>
+    <clip-path android:pathData="M112,112L912,112L912,912L112,912Z" />
+    <group>
+      <clip-path android:pathData="M278.7,112L745.3,112A166.7,166.7 0,0 1,912 278.7L912,745.3A166.7,166.7 0,0 1,745.3 912L278.7,912A166.7,166.7 0,0 1,112 745.3L112,278.7A166.7,166.7 0,0 1,278.7 112z" />
+      <path android:pathData="M278.7,112L745.3,112A166.7,166.7 0,0 1,912 278.7L912,745.3A166.7,166.7 0,0 1,745.3 912L278.7,912A166.7,166.7 0,0 1,112 745.3L112,278.7A166.7,166.7 0,0 1,278.7 112z" android:fillColor="#CA3214" />
+      <path android:pathData="M-188,-354.7L545.3,-354.7A166.7,166.7 0,0 1,712 -188L712,545.3A166.7,166.7 0,0 1,545.3 712L-188,712A166.7,166.7 0,0 1,-354.7 545.3L-354.7,-188A166.7,166.7 0,0 1,-188 -354.7z" android:fillAlpha="0.4">
+        <aapt:attr name="android:fillColor">
+          <gradient android:centerX="178.7" android:centerY="178.7" android:gradientRadius="533.3" android:type="radial">
+            <item android:offset="0" android:color="#FFFFFFFF" />
+            <item android:offset="1" android:color="#00FFFFFF" />
+          </gradient>
+        </aapt:attr>
+      </path>
+      <path android:pathData="M512,653.2C529.7,669 553,678.7 578.7,678.7C633.9,678.7 678.7,633.9 678.7,578.7C678.7,532.5 647.4,493.7 605,482.2" android:strokeAlpha="0.4" android:strokeLineJoin="round" android:strokeWidth="33.3" android:fillColor="#000000" android:fillAlpha="0" android:strokeColor="#ffffff" android:strokeLineCap="round" />
+      <path android:pathData="M419,482.2C376.5,493.7 345.3,532.5 345.3,578.7C345.3,633.9 390.1,678.7 445.3,678.7C500.6,678.7 545.3,633.9 545.3,578.7C545.3,565.6 542.8,553.2 538.3,541.8M612,445.3C612,500.6 567.2,545.3 512,545.3C456.8,545.3 412,500.6 412,445.3C412,390.1 456.8,345.3 512,345.3C567.2,345.3 612,390.1 612,445.3Z" android:strokeLineJoin="round" android:strokeWidth="33.3" android:fillColor="#000000" android:fillAlpha="0" android:strokeColor="#ffffff" android:strokeLineCap="round" />
+    </group>
+  </group>
+</vector>

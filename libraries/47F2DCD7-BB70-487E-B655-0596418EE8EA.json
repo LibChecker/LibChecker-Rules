@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "47F2DCD7-BB70-487E-B655-0596418EE8EA",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "ByteVC2 Decoder",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "字节跳动的 ByteVC2 解码组件，已在 veImageX 图像解码扩展中分发。",
+        "source_link": "https://docs.volcengine.com/docs/veImageX/Integrationpreparation?lang=zh"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "ByteVC2 Decoder",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "ByteDance ByteVC2 decoding component, distributed with the veImageX image decoding extension.",
+        "source_link": "https://docs.volcengine.com/docs/veImageX/Integrationpreparation?lang=zh"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3080,
+      "type": 0,
+      "name": "libbyteVC2dec.so",
+      "mode": "exact",
+      "priority": 3080,
+      "label": "ByteVC2 Decoder",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libbyteVC2dec.so.json",
+      "examples": {
+        "positive": [
+          "libbyteVC2dec.so"
+        ],
+        "negative": [
+          "libbyteVC2dec.so.backup",
+          "LIBBYTEVC2DEC.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

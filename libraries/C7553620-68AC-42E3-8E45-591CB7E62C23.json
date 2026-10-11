@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C7553620-68AC-42E3-8E45-591CB7E62C23",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "OpenCV Face Detection Sample",
+        "dev_team": "OpenCV",
+        "rule_contributors": [
+          "jiuri6666"
+        ],
+        "description": "OpenCV Android 人脸检测示例的 JNI 检测跟踪组件。该名称识别示例原生模块，不表示完整 OpenCV SDK。",
+        "source_link": "https://github.com/opencv/opencv/tree/3.4.13/samples/android/face-detection"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "OpenCV Face Detection Sample",
+        "dev_team": "OpenCV",
+        "rule_contributors": [
+          "jiuri6666"
+        ],
+        "description": "JNI detection and tracking component from the OpenCV Android face detection sample. This filename identifies the sample module rather than the complete OpenCV SDK.",
+        "source_link": "https://github.com/opencv/opencv/tree/3.4.13/samples/android/face-detection"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3104,
+      "type": 0,
+      "name": "libdetection_based_tracker.so",
+      "mode": "exact",
+      "priority": 3104,
+      "label": "OpenCV Face Detection Sample",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libdetection_based_tracker.so.json",
+      "examples": {
+        "positive": [
+          "libdetection_based_tracker.so"
+        ],
+        "negative": [
+          "libdetection_based_tracker.so.backup",
+          "LIBDETECTION_BASED_TRACKER.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

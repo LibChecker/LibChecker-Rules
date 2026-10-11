@@ -695,6 +695,94 @@
     "iconId": "ic_lib_liftoff",
     "isSimpleColorIcon": true
   },
+  "174": {
+    "iconId": "ic_lib_sk",
+    "isSimpleColorIcon": true
+  },
+  "175": {
+    "iconId": "ic_lib_maa_framework",
+    "isSimpleColorIcon": true
+  },
+  "176": {
+    "iconId": "ic_lib_mupdf",
+    "isSimpleColorIcon": false
+  },
+  "177": {
+    "iconId": "ic_lib_dart_jni",
+    "isSimpleColorIcon": false
+  },
+  "178": {
+    "iconId": "ic_lib_expo_gl",
+    "isSimpleColorIcon": false
+  },
+  "179": {
+    "iconId": "ic_lib_expo_updates",
+    "isSimpleColorIcon": false
+  },
+  "180": {
+    "iconId": "ic_lib_xunlei",
+    "isSimpleColorIcon": false
+  },
+  "181": {
+    "iconId": "ic_lib_mihomo",
+    "isSimpleColorIcon": false
+  },
+  "182": {
+    "iconId": "ic_lib_unifiedpush",
+    "isSimpleColorIcon": false
+  },
+  "183": {
+    "iconId": "ic_lib_android_image_cropper",
+    "isSimpleColorIcon": false
+  },
+  "184": {
+    "iconId": "ic_lib_bidmachine",
+    "isSimpleColorIcon": false
+  },
+  "185": {
+    "iconId": "ic_lib_moloco",
+    "isSimpleColorIcon": false
+  },
+  "186": {
+    "iconId": "ic_lib_rn_executorch",
+    "isSimpleColorIcon": false
+  },
+  "187": {
+    "iconId": "ic_lib_bricks",
+    "isSimpleColorIcon": false
+  },
+  "188": {
+    "iconId": "ic_lib_dotlottie",
+    "isSimpleColorIcon": false
+  },
+  "189": {
+    "iconId": "ic_lib_adyen",
+    "isSimpleColorIcon": false
+  },
+  "190": {
+    "iconId": "ic_lib_datadome",
+    "isSimpleColorIcon": false
+  },
+  "191": {
+    "iconId": "ic_lib_servo",
+    "isSimpleColorIcon": false
+  },
+  "192": {
+    "iconId": "ic_lib_google_ad_manager",
+    "isSimpleColorIcon": false
+  },
+  "193": {
+    "iconId": "ic_lib_braze",
+    "isSimpleColorIcon": false
+  },
+  "194": {
+    "iconId": "ic_lib_rn_teleport",
+    "isSimpleColorIcon": false
+  },
+  "195": {
+    "iconId": "ic_lib_screeb",
+    "isSimpleColorIcon": false
+  },
   "-1": {
     "iconId": null,
     "isSimpleColorIcon": true

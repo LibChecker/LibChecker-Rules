@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "9AA458B4-2128-41F6-9705-FD9521E9BBAF",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "expo-updates",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "为 Expo 应用管理远程代码更新。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-updates"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "expo-updates",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Remote application code updates for Expo apps.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-updates"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2970,
+      "type": 0,
+      "name": "libexpo-updates.so",
+      "mode": "exact",
+      "priority": 2970,
+      "label": "expo-updates",
+      "iconId": "ic_lib_expo_updates",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-updates.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-updates.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

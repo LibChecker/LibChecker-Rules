@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "309216AB-C1CC-4E17-9408-5F5EBD45B580",
+  "iconId": "ic_lib_cordova",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Cordova Plugin Fingerprint AIO",
+        "dev_team": "Niklas Merz",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "提供指纹及生物识别认证的 Cordova 插件。",
+        "source_link": "https://github.com/NiklasMerz/cordova-plugin-fingerprint-aio"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Cordova Plugin Fingerprint AIO",
+        "dev_team": "Niklas Merz",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Cordova plugin for fingerprint and biometric authentication.",
+        "source_link": "https://github.com/NiklasMerz/cordova-plugin-fingerprint-aio"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2941,
+      "type": 2,
+      "name": "de.niklasmerz.cordova.biometric.BiometricActivity",
+      "mode": "exact",
+      "priority": 2941,
+      "label": "Cordova Plugin Fingerprint AIO",
+      "iconId": "ic_lib_cordova",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/de/niklasmerz/cordova/biometric/BiometricActivity.json",
+      "examples": {
+        "positive": [
+          "de.niklasmerz.cordova.biometric.BiometricActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

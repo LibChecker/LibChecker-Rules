@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 5,
+  "uuid": "48ED4C07-3328-442F-BC29-ADEABCD06D36",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Spectrum",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "可集成到 Android 和 iOS 应用中的跨平台图像转码库，为移动平台提供高效的图像操作。",
+        "source_link": "https://github.com/facebookincubator/spectrum"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Spectrum",
+        "dev_team": "Facebook",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "A cross-platform image transcoding library for efficient image operations in Android and iOS applications.",
+        "source_link": "https://github.com/facebookincubator/spectrum"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3123,
+      "type": 0,
+      "name": "libspectrum.so",
+      "mode": "exact",
+      "priority": 3123,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrum.so.json",
+      "examples": {
+        "positive": [
+          "libspectrum.so"
+        ],
+        "negative": [
+          "libspectrum.so.backup",
+          "LIBSPECTRUM.SO"
+        ]
+      }
+    },
+    {
+      "id": 3124,
+      "type": 0,
+      "name": "libspectrumcpp.so",
+      "mode": "exact",
+      "priority": 3124,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumcpp.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumcpp.so"
+        ],
+        "negative": [
+          "libspectrumcpp.so.backup",
+          "LIBSPECTRUMCPP.SO"
+        ]
+      }
+    },
+    {
+      "id": 3125,
+      "type": 0,
+      "name": "libspectrumfbjni.so",
+      "mode": "exact",
+      "priority": 3125,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumfbjni.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumfbjni.so"
+        ],
+        "negative": [
+          "libspectrumfbjni.so.backup",
+          "LIBSPECTRUMFBJNI.SO"
+        ]
+      }
+    },
+    {
+      "id": 3126,
+      "type": 0,
+      "name": "libspectrumpluginjpeg.so",
+      "mode": "exact",
+      "priority": 3126,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumpluginjpeg.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumpluginjpeg.so"
+        ],
+        "negative": [
+          "libspectrumpluginjpeg.so.backup",
+          "LIBSPECTRUMPLUGINJPEG.SO"
+        ]
+      }
+    },
+    {
+      "id": 3127,
+      "type": 0,
+      "name": "libspectrumpluginpng.so",
+      "mode": "exact",
+      "priority": 3127,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumpluginpng.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumpluginpng.so"
+        ],
+        "negative": [
+          "libspectrumpluginpng.so.backup",
+          "LIBSPECTRUMPLUGINPNG.SO"
+        ]
+      }
+    },
+    {
+      "id": 3128,
+      "type": 0,
+      "name": "libspectrumpluginwebp.so",
+      "mode": "exact",
+      "priority": 3128,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumpluginwebp.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumpluginwebp.so"
+        ],
+        "negative": [
+          "libspectrumpluginwebp.so.backup",
+          "LIBSPECTRUMPLUGINWEBP.SO"
+        ]
+      }
+    },
+    {
+      "id": 3129,
+      "type": 0,
+      "name": "libspectrumpluginplatform.so",
+      "mode": "exact",
+      "priority": 3129,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumpluginplatform.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumpluginplatform.so"
+        ],
+        "negative": [
+          "libspectrumpluginplatform.so.backup",
+          "LIBSPECTRUMPLUGINPLATFORM.SO"
+        ]
+      }
+    },
+    {
+      "id": 3133,
+      "type": 0,
+      "name": "libspectrumpluginavif.so",
+      "mode": "exact",
+      "priority": 3133,
+      "label": "Spectrum",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libspectrumpluginavif.so.json",
+      "examples": {
+        "positive": [
+          "libspectrumpluginavif.so"
+        ],
+        "negative": [
+          "libspectrumpluginavif.so.backup",
+          "LIBSPECTRUMPLUGINAVIF.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

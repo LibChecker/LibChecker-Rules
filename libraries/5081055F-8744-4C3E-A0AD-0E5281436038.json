@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "5081055F-8744-4C3E-A0AD-0E5281436038",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "React Native ExecuTorch",
+        "dev_team": "Software Mansion",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "基于 ExecuTorch 的 React Native 端侧机器学习库。",
+        "source_link": "https://github.com/software-mansion/react-native-executorch"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "React Native ExecuTorch",
+        "dev_team": "Software Mansion",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "On-device machine learning for React Native powered by ExecuTorch.",
+        "source_link": "https://github.com/software-mansion/react-native-executorch"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2961,
+      "type": 0,
+      "name": "libreact-native-executorch.so",
+      "mode": "exact",
+      "priority": 2961,
+      "label": "React Native ExecuTorch",
+      "iconId": "ic_lib_rn_executorch",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libreact-native-executorch.so.json",
+      "examples": {
+        "positive": [
+          "libreact-native-executorch.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 5,
+  "uuid": "2C9B0880-F874-4C98-8A28-2B278C668BD6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "llama.rn",
+        "dev_team": "BRICKS",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为 React Native 提供 llama.cpp 原生推理绑定。",
+        "source_link": "https://github.com/mybigday/llama.rn"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "llama.rn",
+        "dev_team": "BRICKS",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Native llama.cpp inference bindings for React Native.",
+        "source_link": "https://github.com/mybigday/llama.rn"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2947,
+      "type": 0,
+      "name": "librnllama.so",
+      "mode": "exact",
+      "priority": 2947,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama.so.json",
+      "examples": {
+        "positive": [
+          "librnllama.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2948,
+      "type": 0,
+      "name": "librnllama_jni.so",
+      "mode": "exact",
+      "priority": 2948,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2949,
+      "type": 0,
+      "name": "librnllama_v8.so",
+      "mode": "exact",
+      "priority": 2949,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_v8.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_v8.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2950,
+      "type": 0,
+      "name": "librnllama_jni_v8.so",
+      "mode": "exact",
+      "priority": 2950,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni_v8.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni_v8.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2951,
+      "type": 0,
+      "name": "librnllama_v8_2.so",
+      "mode": "exact",
+      "priority": 2951,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_v8_2.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_v8_2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2952,
+      "type": 0,
+      "name": "librnllama_jni_v8_2.so",
+      "mode": "exact",
+      "priority": 2952,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni_v8_2.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni_v8_2.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2953,
+      "type": 0,
+      "name": "librnllama_v8_2_dotprod.so",
+      "mode": "exact",
+      "priority": 2953,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_v8_2_dotprod.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_v8_2_dotprod.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2954,
+      "type": 0,
+      "name": "librnllama_jni_v8_2_dotprod.so",
+      "mode": "exact",
+      "priority": 2954,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni_v8_2_dotprod.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni_v8_2_dotprod.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2955,
+      "type": 0,
+      "name": "librnllama_v8_2_i8mm.so",
+      "mode": "exact",
+      "priority": 2955,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_v8_2_i8mm.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_v8_2_i8mm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2956,
+      "type": 0,
+      "name": "librnllama_jni_v8_2_i8mm.so",
+      "mode": "exact",
+      "priority": 2956,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni_v8_2_i8mm.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni_v8_2_i8mm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2957,
+      "type": 0,
+      "name": "librnllama_v8_2_dotprod_i8mm.so",
+      "mode": "exact",
+      "priority": 2957,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_v8_2_dotprod_i8mm.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_v8_2_dotprod_i8mm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2958,
+      "type": 0,
+      "name": "librnllama_jni_v8_2_dotprod_i8mm.so",
+      "mode": "exact",
+      "priority": 2958,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni_v8_2_dotprod_i8mm.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni_v8_2_dotprod_i8mm.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2959,
+      "type": 0,
+      "name": "librnllama_v8_2_dotprod_i8mm_hexagon_opencl.so",
+      "mode": "exact",
+      "priority": 2959,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_v8_2_dotprod_i8mm_hexagon_opencl.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_v8_2_dotprod_i8mm_hexagon_opencl.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2960,
+      "type": 0,
+      "name": "librnllama_jni_v8_2_dotprod_i8mm_hexagon_opencl.so",
+      "mode": "exact",
+      "priority": 2960,
+      "label": "llama.rn",
+      "iconId": "ic_lib_bricks",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/librnllama_jni_v8_2_dotprod_i8mm_hexagon_opencl.so.json",
+      "examples": {
+        "positive": [
+          "librnllama_jni_v8_2_dotprod_i8mm_hexagon_opencl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

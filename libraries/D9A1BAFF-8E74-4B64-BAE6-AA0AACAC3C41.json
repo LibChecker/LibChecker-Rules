@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D9A1BAFF-8E74-4B64-BAE6-AA0AACAC3C41",
+  "iconId": "ic_lib_firebase",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Firebase Authentication",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为应用提供用户身份验证服务。",
+        "source_link": "https://firebase.google.com/docs/auth/android/start"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Firebase Authentication",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "User authentication services for applications.",
+        "source_link": "https://firebase.google.com/docs/auth/android/start"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2933,
+      "type": 2,
+      "name": "com.google.firebase.auth.internal.GenericIdpActivity",
+      "mode": "exact",
+      "priority": 2933,
+      "label": "Firebase Authentication",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/firebase/auth/internal/GenericIdpActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.auth.internal.GenericIdpActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2934,
+      "type": 2,
+      "name": "com.google.firebase.auth.internal.RecaptchaActivity",
+      "mode": "exact",
+      "priority": 2934,
+      "label": "Firebase Authentication",
+      "iconId": "ic_lib_firebase",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/firebase/auth/internal/RecaptchaActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.firebase.auth.internal.RecaptchaActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

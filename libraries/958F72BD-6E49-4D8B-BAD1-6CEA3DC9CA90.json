@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 5,
+  "uuid": "958F72BD-6E49-4D8B-BAD1-6CEA3DC9CA90",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Moloco Ads SDK",
+        "dev_team": "Moloco",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "用于加载及展示 VAST、MRAID 和 HTML 广告的 SDK。",
+        "source_link": "https://moloco.github.io/android-sdk-docs/index.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Moloco Ads SDK",
+        "dev_team": "Moloco",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "SDK for loading and rendering VAST, MRAID and HTML advertisements.",
+        "source_link": "https://moloco.github.io/android-sdk-docs/index.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3013,
+      "type": 2,
+      "name": "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid.MraidActivity",
+      "mode": "exact",
+      "priority": 3013,
+      "label": "Moloco Ads SDK",
+      "iconId": "ic_lib_moloco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/mraid/MraidActivity.json",
+      "examples": {
+        "positive": [
+          "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid.MraidActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3014,
+      "type": 2,
+      "name": "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.staticrenderer.StaticAdActivity",
+      "mode": "exact",
+      "priority": 3014,
+      "label": "Moloco Ads SDK",
+      "iconId": "ic_lib_moloco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/staticrenderer/StaticAdActivity.json",
+      "examples": {
+        "positive": [
+          "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.staticrenderer.StaticAdActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3015,
+      "type": 2,
+      "name": "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.templates.renderer.fullscreen.FullscreenWebviewActivity",
+      "mode": "exact",
+      "priority": 3015,
+      "label": "Moloco Ads SDK",
+      "iconId": "ic_lib_moloco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/templates/renderer/fullscreen/FullscreenWebviewActivity.json",
+      "examples": {
+        "positive": [
+          "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.templates.renderer.fullscreen.FullscreenWebviewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3016,
+      "type": 2,
+      "name": "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.vast.VastActivity",
+      "mode": "exact",
+      "priority": 3016,
+      "label": "Moloco Ads SDK",
+      "iconId": "ic_lib_moloco",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/moloco/sdk/xenoss/sdkdevkit/android/adrenderer/internal/vast/VastActivity.json",
+      "examples": {
+        "positive": [
+          "com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.vast.VastActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 5,
+  "uuid": "44DAB7F9-5C71-43B4-A74E-A9C1CBCD7883",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Mintegral Mobile SDK",
+        "dev_team": "Mintegral",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "提供广告投放及应用变现能力的移动广告 SDK。",
+        "source_link": "https://github.com/Mintegral-official/mediation-android#androidmanifestxml-configuration"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Mintegral Mobile SDK",
+        "dev_team": "Mintegral",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Mobile advertising SDK for ad delivery and application monetization.",
+        "source_link": "https://github.com/Mintegral-official/mediation-android#androidmanifestxml-configuration"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2995,
+      "type": 2,
+      "name": "com.mbridge.msdk.activity.MBCommonActivity",
+      "mode": "exact",
+      "priority": 2995,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mbridge/msdk/activity/MBCommonActivity.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.activity.MBCommonActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2996,
+      "type": 2,
+      "name": "com.mbridge.msdk.config.activity.MBRewardVideoActivity",
+      "mode": "exact",
+      "priority": 2996,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mbridge/msdk/config/activity/MBRewardVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.config.activity.MBRewardVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2998,
+      "type": 2,
+      "name": "com.mbridge.msdk.out.LoadingActivity",
+      "mode": "exact",
+      "priority": 2998,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mbridge/msdk/out/LoadingActivity.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.out.LoadingActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2999,
+      "type": 2,
+      "name": "com.mbridge.msdk.reward.player.MBRewardVideoActivity",
+      "mode": "exact",
+      "priority": 2999,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mbridge/msdk/reward/player/MBRewardVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.reward.player.MBRewardVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3000,
+      "type": 2,
+      "name": "com.mintegral.msdk.activity.MTGCommonActivity",
+      "mode": "exact",
+      "priority": 3000,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mintegral/msdk/activity/MTGCommonActivity.json",
+      "examples": {
+        "positive": [
+          "com.mintegral.msdk.activity.MTGCommonActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3001,
+      "type": 2,
+      "name": "com.mintegral.msdk.reward.player.MTGRewardVideoActivity",
+      "mode": "exact",
+      "priority": 3001,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/mintegral/msdk/reward/player/MTGRewardVideoActivity.json",
+      "examples": {
+        "positive": [
+          "com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3002,
+      "type": 3,
+      "name": "com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver",
+      "mode": "exact",
+      "priority": 3002,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/mbridge/msdk/foundation/same/broadcast/NetWorkChangeReceiver.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3003,
+      "type": 4,
+      "name": "com.mbridge.msdk.config.component.status.MBComponentLifecycleProvider",
+      "mode": "exact",
+      "priority": 3003,
+      "label": "Mintegral Mobile SDK",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "providers-libs/com/mbridge/msdk/config/component/status/MBComponentLifecycleProvider.json",
+      "examples": {
+        "positive": [
+          "com.mbridge.msdk.config.component.status.MBComponentLifecycleProvider"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

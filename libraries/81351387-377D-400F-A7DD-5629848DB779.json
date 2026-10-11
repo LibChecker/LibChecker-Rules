@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 5,
+  "uuid": "81351387-377D-400F-A7DD-5629848DB779",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "DataDome",
+        "dev_team": "DataDome",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为 Android 应用提供请求保护与验证挑战的 SDK。",
+        "source_link": "https://docs.datadome.co/docs/sdk-android"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "DataDome",
+        "dev_team": "DataDome",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Request protection and verification challenges for Android applications.",
+        "source_link": "https://docs.datadome.co/docs/sdk-android"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3009,
+      "type": 2,
+      "name": "co.datadome.sdk.CaptchaActivity",
+      "mode": "exact",
+      "priority": 3009,
+      "label": "DataDome",
+      "iconId": "ic_lib_datadome",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/co/datadome/sdk/CaptchaActivity.json",
+      "examples": {
+        "positive": [
+          "co.datadome.sdk.CaptchaActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3010,
+      "type": 2,
+      "name": "co.datadome.sdk.ChallengeActivity",
+      "mode": "exact",
+      "priority": 3010,
+      "label": "DataDome",
+      "iconId": "ic_lib_datadome",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/co/datadome/sdk/ChallengeActivity.json",
+      "examples": {
+        "positive": [
+          "co.datadome.sdk.ChallengeActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 5,
+  "uuid": "BEBF232E-DAC1-4E25-B05E-B24F374DBE52",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "GGML",
+        "dev_team": "ggml-org",
+        "rule_contributors": [
+          "Straosp"
+        ],
+        "description": "面向机器学习的跨平台张量计算库，提供 CPU 和 Vulkan 等计算后端。",
+        "source_link": "https://github.com/ggml-org/ggml"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "GGML",
+        "dev_team": "ggml-org",
+        "rule_contributors": [
+          "Straosp"
+        ],
+        "description": "Cross-platform tensor computation library for machine learning with CPU and Vulkan backends.",
+        "source_link": "https://github.com/ggml-org/ggml"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3094,
+      "type": 0,
+      "name": "libggml.so",
+      "mode": "exact",
+      "priority": 3094,
+      "label": "GGML",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libggml.so.json",
+      "examples": {
+        "positive": [
+          "libggml.so"
+        ],
+        "negative": [
+          "libggml.so.backup",
+          "LIBGGML.SO"
+        ]
+      }
+    },
+    {
+      "id": 3095,
+      "type": 0,
+      "name": "libggml-base.so",
+      "mode": "exact",
+      "priority": 3095,
+      "label": "GGML",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libggml-base.so.json",
+      "examples": {
+        "positive": [
+          "libggml-base.so"
+        ],
+        "negative": [
+          "libggml-base.so.backup",
+          "LIBGGML-BASE.SO"
+        ]
+      }
+    },
+    {
+      "id": 3096,
+      "type": 0,
+      "name": "libggml-cpu.so",
+      "mode": "exact",
+      "priority": 3096,
+      "label": "GGML",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libggml-cpu.so.json",
+      "examples": {
+        "positive": [
+          "libggml-cpu.so"
+        ],
+        "negative": [
+          "libggml-cpu.so.backup",
+          "LIBGGML-CPU.SO"
+        ]
+      }
+    },
+    {
+      "id": 3097,
+      "type": 0,
+      "name": "libggml-vulkan.so",
+      "mode": "exact",
+      "priority": 3097,
+      "label": "GGML",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libggml-vulkan.so.json",
+      "examples": {
+        "positive": [
+          "libggml-vulkan.so"
+        ],
+        "negative": [
+          "libggml-vulkan.so.backup",
+          "LIBGGML-VULKAN.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

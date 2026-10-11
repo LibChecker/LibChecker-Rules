@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "D8F84A76-0B38-4BE8-BDA2-3F6EB0A12721",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "expo-gl",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "提供 OpenGL ES 渲染视图的 Expo 模块。",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-gl"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "expo-gl",
+        "dev_team": "Expo",
+        "rule_contributors": [
+          "Minori-ty"
+        ],
+        "description": "Expo module providing an OpenGL ES rendering view.",
+        "source_link": "https://github.com/expo/expo/tree/main/packages/expo-gl"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2971,
+      "type": 0,
+      "name": "libexpo-gl.so",
+      "mode": "exact",
+      "priority": 2971,
+      "label": "expo-gl",
+      "iconId": "ic_lib_expo_gl",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libexpo-gl.so.json",
+      "examples": {
+        "positive": [
+          "libexpo-gl.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

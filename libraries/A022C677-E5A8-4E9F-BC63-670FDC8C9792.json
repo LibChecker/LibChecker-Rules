@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "A022C677-E5A8-4E9F-BC63-670FDC8C9792",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Suwayomi-next",
+        "dev_team": "576576",
+        "rule_contributors": [
+          "576576"
+        ],
+        "description": "Suwayomi-next 的 Android JNI 服务核心，将 Rust 漫画服务嵌入 Android 宿主应用。",
+        "source_link": "https://github.com/576576/Suwayomi-next"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Suwayomi-next",
+        "dev_team": "576576",
+        "rule_contributors": [
+          "576576"
+        ],
+        "description": "Android JNI server core for Suwayomi-next, embedding its Rust manga service in the Android host app.",
+        "source_link": "https://github.com/576576/Suwayomi-next"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3103,
+      "type": 0,
+      "name": "libsuwayomi_android.so",
+      "mode": "exact",
+      "priority": 3103,
+      "label": "Suwayomi-next",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libsuwayomi_android.so.json",
+      "examples": {
+        "positive": [
+          "libsuwayomi_android.so"
+        ],
+        "negative": [
+          "libsuwayomi_android.so.backup",
+          "LIBSUWAYOMI_ANDROID.SO"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

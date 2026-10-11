@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 5,
+  "uuid": "51794A22-13EB-4C20-9EE4-6623DB652D14",
+  "iconId": "ic_lib_google",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Google Places SDK for Android",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "为 Android 应用提供地点搜索及地点详情。",
+        "source_link": "https://developers.google.com/maps/documentation/places/android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Google Places SDK for Android",
+        "dev_team": "Google",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Place search and place details for Android applications.",
+        "source_link": "https://developers.google.com/maps/documentation/places/android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2936,
+      "type": 2,
+      "name": "com.google.android.libraries.places.widget.AutocompleteActivity",
+      "mode": "exact",
+      "priority": 2936,
+      "label": "Google Places SDK for Android",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/places/widget/AutocompleteActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.places.widget.AutocompleteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2937,
+      "type": 2,
+      "name": "com.google.android.libraries.places.widget.BasicPlaceAutocompleteActivity",
+      "mode": "exact",
+      "priority": 2937,
+      "label": "Google Places SDK for Android",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/places/widget/BasicPlaceAutocompleteActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.places.widget.BasicPlaceAutocompleteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2938,
+      "type": 2,
+      "name": "com.google.android.libraries.places.widget.PlaceAutocompleteActivity",
+      "mode": "exact",
+      "priority": 2938,
+      "label": "Google Places SDK for Android",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/places/widget/PlaceAutocompleteActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.places.widget.PlaceAutocompleteActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2939,
+      "type": 2,
+      "name": "com.google.android.libraries.places.widget.internal.placedetails.photoviewer.PlacesLightboxActivity",
+      "mode": "exact",
+      "priority": 2939,
+      "label": "Google Places SDK for Android",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/places/widget/internal/placedetails/photoviewer/PlacesLightboxActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.places.widget.internal.placedetails.photoviewer.PlacesLightboxActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 3004,
+      "type": 2,
+      "name": "com.google.android.libraries.places.widget.internal.photoviewer.PlacesLightboxActivity",
+      "mode": "exact",
+      "priority": 3004,
+      "label": "Google Places SDK for Android",
+      "iconId": "ic_lib_google",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/google/android/libraries/places/widget/internal/photoviewer/PlacesLightboxActivity.json",
+      "examples": {
+        "positive": [
+          "com.google.android.libraries.places.widget.internal.photoviewer.PlacesLightboxActivity"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

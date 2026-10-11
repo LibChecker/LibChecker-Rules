@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 5,
+  "uuid": "C37D370A-1DCD-458E-9A49-3D1E5D73BD8C",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "Braze",
+        "dev_team": "Braze",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "客户互动 SDK，支持推送、应用内消息及内容卡片。",
+        "source_link": "https://github.com/braze-inc/braze-android-sdk"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Braze",
+        "dev_team": "Braze",
+        "rule_contributors": [
+          "sebastien46"
+        ],
+        "description": "Customer engagement SDK supporting push, in-app messaging and Content Cards.",
+        "source_link": "https://github.com/braze-inc/braze-android-sdk"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2929,
+      "type": 2,
+      "name": "com.braze.ui.BrazeWebViewActivity",
+      "mode": "exact",
+      "priority": 2929,
+      "label": "Braze",
+      "iconId": "ic_lib_braze",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/braze/ui/BrazeWebViewActivity.json",
+      "examples": {
+        "positive": [
+          "com.braze.ui.BrazeWebViewActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2930,
+      "type": 2,
+      "name": "com.braze.ui.activities.ContentCardsActivity",
+      "mode": "exact",
+      "priority": 2930,
+      "label": "Braze",
+      "iconId": "ic_lib_braze",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/braze/ui/activities/ContentCardsActivity.json",
+      "examples": {
+        "positive": [
+          "com.braze.ui.activities.ContentCardsActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2931,
+      "type": 2,
+      "name": "com.braze.push.NotificationTrampolineActivity",
+      "mode": "exact",
+      "priority": 2931,
+      "label": "Braze",
+      "iconId": "ic_lib_braze",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/braze/push/NotificationTrampolineActivity.json",
+      "examples": {
+        "positive": [
+          "com.braze.push.NotificationTrampolineActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2932,
+      "type": 3,
+      "name": "com.braze.push.BrazePushReceiver",
+      "mode": "exact",
+      "priority": 2932,
+      "label": "Braze",
+      "iconId": "ic_lib_braze",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/braze/push/BrazePushReceiver.json",
+      "examples": {
+        "positive": [
+          "com.braze.push.BrazePushReceiver"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2993,
+      "type": 2,
+      "name": "com.braze.ui.activities.BrazeFeedActivity",
+      "mode": "exact",
+      "priority": 2993,
+      "label": "Braze",
+      "iconId": "ic_lib_braze",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "activities-libs/com/braze/ui/activities/BrazeFeedActivity.json",
+      "examples": {
+        "positive": [
+          "com.braze.ui.activities.BrazeFeedActivity"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2994,
+      "type": 3,
+      "name": "com.braze.BrazeFlushPushDeliveryReceiver",
+      "mode": "exact",
+      "priority": 2994,
+      "label": "Braze",
+      "iconId": "ic_lib_braze",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/com/braze/BrazeFlushPushDeliveryReceiver.json",
+      "examples": {
+        "positive": [
+          "com.braze.BrazeFlushPushDeliveryReceiver"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
