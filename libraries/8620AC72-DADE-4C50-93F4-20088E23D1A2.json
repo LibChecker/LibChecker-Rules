@@ -31,7 +31,7 @@
   "matchers": [
     {
       "id": 2754,
-      "type": 0,
+      "type": 1,
       "name": "androidx.appfunctions.service.ExtensionAppFunctionService",
       "mode": "exact",
       "priority": 2754,
@@ -39,7 +39,7 @@
       "iconId": "ic_lib_jetpack",
       "regexName": null,
       "hasDetail": true,
-      "legacyPath": "native-libs/androidx.appfunctions.service.ExtensionAppFunctionService.json",
+      "legacyPath": "services-libs/androidx/appfunctions/service/ExtensionAppFunctionService.json",
       "examples": {
         "positive": [
           "androidx.appfunctions.service.ExtensionAppFunctionService"
