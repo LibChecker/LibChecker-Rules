@@ -64,6 +64,27 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3144,
+      "type": 0,
+      "name": "libgcloudcore.so",
+      "mode": "exact",
+      "priority": 3144,
+      "label": "腾讯游戏 GCloud",
+      "iconId": "ic_lib_tencent",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libgcloudcore.so.json",
+      "examples": {
+        "positive": [
+          "libgcloudcore.so"
+        ],
+        "negative": [
+          "libgcloudcore.so.other",
+          "gcloudcore.so"
+        ]
+      }
     }
   ],
   "unreferencedDescriptions": []

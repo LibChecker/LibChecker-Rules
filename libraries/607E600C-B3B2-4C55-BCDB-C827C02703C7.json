@@ -32,17 +32,17 @@
     {
       "id": 1981,
       "type": 0,
-      "name": "chaquopy.so",
+      "name": "libchaquopy.so",
       "mode": "exact",
       "priority": 1981,
       "label": "Chaquopy",
       "iconId": null,
       "regexName": null,
       "hasDetail": true,
-      "legacyPath": "native-libs/chaquopy.so.json",
+      "legacyPath": "native-libs/libchaquopy.so.json",
       "examples": {
         "positive": [
-          "chaquopy.so"
+          "libchaquopy.so"
         ],
         "negative": []
       }
@@ -50,17 +50,17 @@
     {
       "id": 1982,
       "type": 0,
-      "name": "chaquopy_android.so",
+      "name": "libchaquopy_android.so",
       "mode": "exact",
       "priority": 1982,
       "label": "Chaquopy",
       "iconId": null,
       "regexName": null,
       "hasDetail": true,
-      "legacyPath": "native-libs/chaquopy_android.so.json",
+      "legacyPath": "native-libs/libchaquopy_android.so.json",
       "examples": {
         "positive": [
-          "chaquopy_android.so"
+          "libchaquopy_android.so"
         ],
         "negative": []
       }

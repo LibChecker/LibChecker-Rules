@@ -142,17 +142,17 @@
     {
       "id": 2092,
       "type": 0,
-      "name": "lbtoyger-release-alijtca_plus.so",
+      "name": "libtoyger-release-alijtca_plus.so",
       "mode": "exact",
       "priority": 2092,
       "label": "金融级实人认证 SDK",
       "iconId": "ic_lib_alibaba",
       "regexName": null,
       "hasDetail": true,
-      "legacyPath": "native-libs/lbtoyger-release-alijtca_plus.so.json",
+      "legacyPath": "native-libs/libtoyger-release-alijtca_plus.so.json",
       "examples": {
         "positive": [
-          "lbtoyger-release-alijtca_plus.so"
+          "libtoyger-release-alijtca_plus.so"
         ],
         "negative": []
       }

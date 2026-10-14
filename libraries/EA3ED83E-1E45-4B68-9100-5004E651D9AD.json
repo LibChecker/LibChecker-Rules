@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 5,
+  "uuid": "EA3ED83E-1E45-4B68-9100-5004E651D9AD",
+  "iconId": "ic_lib_mediatek",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "天玑倍帧 SDK",
+        "dev_team": "MediaTek",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "联发科技天玑提供的游戏插帧 SDK，通过生成中间帧提高游戏画面的显示帧率，提升流畅度并降低功耗。",
+        "source_link": "https://developer.mediatek.com/MFRC"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "MediaTek Dimensity Frame Rate Converter SDK",
+        "dev_team": "MediaTek",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "A game frame interpolation SDK from MediaTek Dimensity that generates intermediate frames to increase the displayed frame rate, improve smoothness, and reduce power consumption.",
+        "source_link": "https://developer.mediatek.com/MFRC"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3146,
+      "type": 0,
+      "name": "libMFRC_SDK.so",
+      "mode": "exact",
+      "priority": 3146,
+      "label": "天玑倍帧 SDK",
+      "iconId": "ic_lib_mediatek",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMFRC_SDK.so.json",
+      "examples": {
+        "positive": [
+          "libMFRC_SDK.so"
+        ],
+        "negative": [
+          "libMFRC_SDK.so.other",
+          "libmfrc_sdk.so"
+        ]
+      }
+    },
+    {
+      "id": 3147,
+      "type": 0,
+      "name": "libMFRCConfig.so",
+      "mode": "exact",
+      "priority": 3147,
+      "label": "天玑倍帧 SDK",
+      "iconId": "ic_lib_mediatek",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMFRCConfig.so.json",
+      "examples": {
+        "positive": [
+          "libMFRCConfig.so"
+        ],
+        "negative": [
+          "libMFRCConfig.so.other",
+          "libmfrcconfig.so"
+        ]
+      }
+    },
+    {
+      "id": 3148,
+      "type": 0,
+      "name": "libMFRCLayer_eco.so",
+      "mode": "exact",
+      "priority": 3148,
+      "label": "天玑倍帧 SDK",
+      "iconId": "ic_lib_mediatek",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libMFRCLayer_eco.so.json",
+      "examples": {
+        "positive": [
+          "libMFRCLayer_eco.so"
+        ],
+        "negative": [
+          "libMFRCLayer_eco.so.other",
+          "libmfrclayer_eco.so"
+        ]
+      }
+    },
+    {
+      "id": 3149,
+      "type": 0,
+      "name": "libVkLayer_mfrc.so",
+      "mode": "exact",
+      "priority": 3149,
+      "label": "天玑倍帧 SDK",
+      "iconId": "ic_lib_mediatek",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libVkLayer_mfrc.so.json",
+      "examples": {
+        "positive": [
+          "libVkLayer_mfrc.so"
+        ],
+        "negative": [
+          "libVkLayer_mfrc.so.other",
+          "libvklayer_mfrc.so"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
