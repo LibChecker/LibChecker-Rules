@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 5,
+  "uuid": "CFE75F63-2830-4BF9-A3D9-09E127EEEC20",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "QEMU",
+        "dev_team": "QEMU",
+        "rule_contributors": [
+          "AnmiTaliDev"
+        ],
+        "description": "QEMU 是一个通用的开源机器模拟器和虚拟化器。",
+        "source_link": "https://www.qemu.org/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "QEMU",
+        "dev_team": "QEMU",
+        "rule_contributors": [
+          "AnmiTaliDev"
+        ],
+        "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+        "source_link": "https://www.qemu.org/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2952,
+      "type": 0,
+      "name": "libqemu-system-(.*)\\.so",
+      "mode": "regex",
+      "priority": 2952,
+      "label": "QEMU",
+      "iconId": null,
+      "regexName": "regex_qemu",
+      "hasDetail": true,
+      "legacyPath": "native-libs/regex/regex_qemu.json",
+      "examples": {
+        "positive": [
+          "libqemu-system-x86_64.so",
+          "libqemu-system-i386.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
