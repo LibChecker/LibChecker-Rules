@@ -10,7 +10,8 @@
         "dev_team": "libsdl.org",
         "rule_contributors": [
           "飘落的枫叶",
-          "yfdyh000"
+          "yfdyh000",
+          "AnmiTaliDev"
         ],
         "description": "SDL 是一个跨平台的开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它被视频回放软件、模拟器和流行游戏使用，包括 Valve 的获奖目录和许多 Humble Bundle 游戏。    ",
         "source_link": "https://www.libsdl.org"
@@ -23,7 +24,8 @@
         "dev_team": "libsdl.org",
         "rule_contributors": [
           "飘落的枫叶",
-          "yfdyh000"
+          "yfdyh000",
+          "AnmiTaliDev"
         ],
         "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award-winning catalog and many Humble Bundle games.",
         "source_link": "https://www.libsdl.org"
@@ -80,6 +82,186 @@
       "legacyPath": "native-libs/regex/regex_sdl.json",
       "examples": {
         "positive": [],
+        "negative": []
+      }
+    },
+    {
+      "id": 2940,
+      "type": 0,
+      "name": "libSDL3.so",
+      "mode": "exact",
+      "priority": 2940,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2941,
+      "type": 0,
+      "name": "libSDL2_image.so",
+      "mode": "exact",
+      "priority": 2941,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_image.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_image.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2942,
+      "type": 0,
+      "name": "libSDL2_mixer.so",
+      "mode": "exact",
+      "priority": 2942,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_mixer.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_mixer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2943,
+      "type": 0,
+      "name": "libSDL2_net.so",
+      "mode": "exact",
+      "priority": 2943,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_net.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_net.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2944,
+      "type": 0,
+      "name": "libSDL2_ttf.so",
+      "mode": "exact",
+      "priority": 2944,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL2_ttf.so.json",
+      "examples": {
+        "positive": [
+          "libSDL2_ttf.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2945,
+      "type": 0,
+      "name": "libSDL3_image.so",
+      "mode": "exact",
+      "priority": 2945,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_image.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_image.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2946,
+      "type": 0,
+      "name": "libSDL3_mixer.so",
+      "mode": "exact",
+      "priority": 2946,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_mixer.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_mixer.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2947,
+      "type": 0,
+      "name": "libSDL3_net.so",
+      "mode": "exact",
+      "priority": 2947,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_net.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_net.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2948,
+      "type": 0,
+      "name": "libSDL3_ttf.so",
+      "mode": "exact",
+      "priority": 2948,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_ttf.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_ttf.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2949,
+      "type": 0,
+      "name": "libSDL3_shadercross.so",
+      "mode": "exact",
+      "priority": 2949,
+      "label": "libSDL",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libSDL3_shadercross.so.json",
+      "examples": {
+        "positive": [
+          "libSDL3_shadercross.so"
+        ],
         "negative": []
       }
     }
