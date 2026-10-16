@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 5,
+  "uuid": "518A2AB0-E408-4406-B5B3-1437ECDC3F05",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "PhysicsFS",
+        "dev_team": "icculus",
+        "rule_contributors": [
+          "AnmiTaliDev"
+        ],
+        "description": "PhysicsFS 是一个可移植、灵活的文件 I/O 抽象库。它提供一个写入目录和由多个读取目录组成的搜索路径，禁止访问指定目录之外的文件，并可将 ZIP 等归档文件透明地作为目录结构使用。",
+        "source_link": "https://icculus.org/physfs/"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "PhysicsFS",
+        "dev_team": "icculus",
+        "rule_contributors": [
+          "AnmiTaliDev"
+        ],
+        "description": "PhysicsFS is a portable, flexible file I/O abstraction library. It provides a single write directory and a search path of read directories, denies file access outside the specified directories, and lets archives such as ZIP files be used transparently as directory structures.",
+        "source_link": "https://icculus.org/physfs/"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2950,
+      "type": 0,
+      "name": "libphysfs.so",
+      "mode": "exact",
+      "priority": 2950,
+      "label": "PhysicsFS",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libphysfs.so.json",
+      "examples": {
+        "positive": [
+          "libphysfs.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
