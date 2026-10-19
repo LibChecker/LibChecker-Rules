@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 5,
+  "uuid": "3598CFF6-F2A0-4DCA-B0DB-916B2C098BD1",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "基调听云 App",
+        "dev_team": "基调听云",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "基调听云 App 移动应用性能管理产品采用 SDK 方式实现对 App 的崩溃、卡顿、超时等性能问题进行采集，并能对真实用户体验数据进行量化分析，实现版本迭代过程中的用户体验优化。",
+        "source_link": "https://doc.tingyun.com/app/html/Android%20SDKjianjie.html"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "Tingyun App",
+        "dev_team": "Tingyun",
+        "rule_contributors": [
+          "crrashh1542"
+        ],
+        "description": "Tingyun App is a mobile application performance management product. Its SDK collects performance issues such as crashes, freezes and timeouts, and quantifies real user experience data to support user experience optimization across app versions.",
+        "source_link": "https://doc.tingyun.com/app/html/Android%20SDKjianjie.html"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 2929,
+      "type": 0,
+      "name": "libtingyun-android-base.so",
+      "mode": "exact",
+      "priority": 2929,
+      "label": "基调听云 App",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtingyun-android-base.so.json",
+      "examples": {
+        "positive": [
+          "libtingyun-android-base.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2930,
+      "type": 0,
+      "name": "libtingyun-fast-dump.so",
+      "mode": "exact",
+      "priority": 2930,
+      "label": "基调听云 App",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtingyun-fast-dump.so.json",
+      "examples": {
+        "positive": [
+          "libtingyun-fast-dump.so"
+        ],
+        "negative": []
+      }
+    },
+    {
+      "id": 2931,
+      "type": 0,
+      "name": "libtingyun-strip-dump.so",
+      "mode": "exact",
+      "priority": 2931,
+      "label": "基调听云 App",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libtingyun-strip-dump.so.json",
+      "examples": {
+        "positive": [
+          "libtingyun-strip-dump.so"
+        ],
+        "negative": []
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
