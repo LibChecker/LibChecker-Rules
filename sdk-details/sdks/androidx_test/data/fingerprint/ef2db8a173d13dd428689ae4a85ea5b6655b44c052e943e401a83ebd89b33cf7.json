@@ -3,6 +3,11 @@
   "releases": [
     {
       "artifact": "core",
+      "version": "1.8.0-alpha03",
+      "entry": "META-INF/core_java_androidx_test_core-core_kt.kotlin_module"
+    },
+    {
+      "artifact": "core",
       "version": "1.8.0-alpha01",
       "entry": "META-INF/core_java_androidx_test_core-core_kt.kotlin_module"
     },
