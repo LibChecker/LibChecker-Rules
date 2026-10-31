@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 5,
+  "uuid": "1F6E5833-C25C-47E4-AB99-B37F17C4814A",
+  "iconId": "ic_lib_bytedance",
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "SAEP",
+        "dev_team": "字节跳动",
+        "rule_contributors": [
+          "zerofancy"
+        ],
+        "description": "SAEP（Screen Automation Execution Protocol，屏幕自动化执行协议）允许应用声明约束 Agent 屏幕自动化操作的保护策略。应用通过 application 级元数据 com.obric.agentrobots.POLICY_JSON 引用打包的静态策略资源。此规则仅识别该静态策略声明，不验证策略内容，也不代表设备已启用 SAEP 或保护规则当前生效。",
+        "source_link": "https://github.com/bytedance/SAEP-demo"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "SAEP",
+        "dev_team": "ByteDance",
+        "rule_contributors": [
+          "zerofancy"
+        ],
+        "description": "SAEP (Screen Automation Execution Protocol) lets apps declare protection policies that constrain Agent screen automation. The application metadata com.obric.agentrobots.POLICY_JSON references a packaged static policy resource. This rule identifies the static declaration only; it does not validate the policy or confirm that SAEP is enabled on the device or that protection rules are enforced.",
+        "source_link": "https://github.com/bytedance/SAEP-demo"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3150,
+      "type": 8,
+      "name": "com.obric.agentrobots.POLICY_JSON",
+      "mode": "exact",
+      "priority": 3150,
+      "label": "SAEP",
+      "iconId": "ic_lib_bytedance",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "metadata-libs/com.obric.agentrobots.POLICY_JSON.json",
+      "examples": {
+        "positive": [
+          "com.obric.agentrobots.POLICY_JSON"
+        ],
+        "negative": [
+          "com.obric.agentrobots.POLICY_JSON.extra",
+          "com.obric.agentrobots.policy_json",
+          "com.obric.agentrobots.provider"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
