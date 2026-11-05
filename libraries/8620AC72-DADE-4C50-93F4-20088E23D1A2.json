@@ -64,6 +64,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3151,
+      "type": 2,
+      "name": "androidx.appfunctions.internal.AppFunctionCallerVerificationReceiver",
+      "mode": "exact",
+      "priority": 3151,
+      "label": "Jetpack AppFunctions",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "receivers-libs/androidx/appfunctions/internal/AppFunctionCallerVerificationReceiver.json",
+      "examples": {
+        "positive": [
+          "androidx.appfunctions.internal.AppFunctionCallerVerificationReceiver"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []

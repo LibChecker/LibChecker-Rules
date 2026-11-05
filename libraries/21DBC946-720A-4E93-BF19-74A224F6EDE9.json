@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "21DBC946-720A-4E93-BF19-74A224F6EDE9",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "hrt-pk-core",
+        "dev_team": "Project Misaka",
+        "rule_contributors": [
+          "imisakamikoto"
+        ],
+        "description": "hrt-pk-core 是一个用于雌二醇和睾酮 HRT（激素替代治疗）的离线药代动力学引擎，打包为带有 JSON-over-C ABI 的小型原生库。",
+        "source_link": "https://github.com/imisakamikoto/hrt-pk-core"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "hrt-pk-core",
+        "dev_team": "Project Misaka",
+        "rule_contributors": [
+          "imisakamikoto"
+        ],
+        "description": "An offline pharmacokinetic engine for estradiol and testosterone HRT, packaged as a small native library with a JSON-over-C ABI.",
+        "source_link": "https://github.com/imisakamikoto/hrt-pk-core"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3153,
+      "type": 0,
+      "name": "libhrt_core.so",
+      "mode": "exact",
+      "priority": 3153,
+      "label": "hrt-pk-core",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libhrt_core.so.json",
+      "examples": {
+        "positive": [
+          "libhrt_core.so"
+        ],
+        "negative": [
+          "libhrt_core.so.other",
+          "hrt_core.so"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

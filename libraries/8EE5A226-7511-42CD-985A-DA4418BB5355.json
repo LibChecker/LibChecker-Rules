@@ -46,6 +46,24 @@
         ],
         "negative": []
       }
+    },
+    {
+      "id": 3150,
+      "type": 1,
+      "name": "androidx.room3.MultiInstanceInvalidationService",
+      "mode": "exact",
+      "priority": 3150,
+      "label": "Jetpack Room",
+      "iconId": "ic_lib_jetpack",
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "services-libs/androidx/room3/MultiInstanceInvalidationService.json",
+      "examples": {
+        "positive": [
+          "androidx.room3.MultiInstanceInvalidationService"
+        ],
+        "negative": []
+      }
     }
   ],
   "unreferencedDescriptions": []
