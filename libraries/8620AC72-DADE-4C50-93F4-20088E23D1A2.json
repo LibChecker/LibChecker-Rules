@@ -67,7 +67,7 @@
     },
     {
       "id": 3151,
-      "type": 2,
+      "type": 3,
       "name": "androidx.appfunctions.internal.AppFunctionCallerVerificationReceiver",
       "mode": "exact",
       "priority": 3151,
