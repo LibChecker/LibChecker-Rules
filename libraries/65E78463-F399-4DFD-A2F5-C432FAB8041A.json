@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "65E78463-F399-4DFD-A2F5-C432FAB8041A",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "LevelDB JNI",
+        "dev_team": "fusesource",
+        "rule_contributors": [
+          "alanchen32768"
+        ],
+        "description": "LevelDB JNI 为 Google 开发的快速键值存储库 LevelDB C++ 提供了 Java 接口，可提供从字符串键到字符串值的有序映射。",
+        "source_link": "https://github.com/fusesource/leveldbjni"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "LevelDB JNI",
+        "dev_team": "fusesource",
+        "rule_contributors": [
+          "alanchen32768"
+        ],
+        "description": "LevelDB JNI gives you a Java interface to the LevelDB C++ library which is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+        "source_link": "https://github.com/fusesource/leveldbjni"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3154,
+      "type": 0,
+      "name": "libleveldbjni.so",
+      "mode": "exact",
+      "priority": 3154,
+      "label": "LevelDB JNI",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libleveldbjni.so.json",
+      "examples": {
+        "positive": [
+          "libleveldbjni.so"
+        ],
+        "negative": [
+          "libleveldbjni.so.other",
+          "leveldbjni.so"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}

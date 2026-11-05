@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 5,
+  "uuid": "84F0BD4B-EDE2-40C9-9E6B-D5CA20923DB6",
+  "iconId": null,
+  "data": [
+    {
+      "locale": "zh-Hans",
+      "data": {
+        "label": "libxml2",
+        "dev_team": "GNOME",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "libxml2 最初为 GNOME 项目开发，是一个用 C 语言实现的 XML 工具包。",
+        "source_link": "https://gitlab.gnome.org/GNOME/libxml2"
+      }
+    },
+    {
+      "locale": "en",
+      "data": {
+        "label": "libxml2",
+        "dev_team": "GNOME",
+        "rule_contributors": [
+          "Super12138"
+        ],
+        "description": "libxml2 is an XML toolkit implemented in C, originally developed for the GNOME Project.",
+        "source_link": "https://gitlab.gnome.org/GNOME/libxml2"
+      }
+    }
+  ],
+  "matchers": [
+    {
+      "id": 3152,
+      "type": 0,
+      "name": "libxml2.so",
+      "mode": "exact",
+      "priority": 3152,
+      "label": "libxml2",
+      "iconId": null,
+      "regexName": null,
+      "hasDetail": true,
+      "legacyPath": "native-libs/libxml2.so.json",
+      "examples": {
+        "positive": [
+          "libxml2.so"
+        ],
+        "negative": [
+          "libxml2.so.other",
+          "xml2.so"
+        ]
+      }
+    }
+  ],
+  "unreferencedDescriptions": []
+}
