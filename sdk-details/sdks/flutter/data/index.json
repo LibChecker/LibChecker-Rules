@@ -1640,6 +1640,18 @@
       ]
     },
     {
+      "engine": "371f77202a73e8dff57a8b3bff75bca55c090aee",
+      "releases": [
+        {
+          "flutter": "3.50.0",
+          "dart": "3.14.0",
+          "channel": "stable",
+          "framework": "ab2912035e160d9cad6306df307576da6128ebdb",
+          "release_date": "2026-11-11T19:05:47.758707Z"
+        }
+      ]
+    },
+    {
       "engine": "3757390fa4b00d2d261bfdf5182d2e87c9113ff9",
       "releases": [
         {
@@ -7142,6 +7154,18 @@
           "channel": "dev",
           "framework": "be09a200ee19024db34257653b067dcf5b998dc2",
           "release_date": "2018-05-04T20:12:10.557689Z"
+        }
+      ]
+    },
+    {
+      "engine": "e98d27d956eb75479e4677bcc651a3d8f0b7eb91",
+      "releases": [
+        {
+          "flutter": "3.51.0-0.1.pre",
+          "dart": "3.15.0 (build 3.15.0-118.1.beta)",
+          "channel": "beta",
+          "framework": "d040ef5c5c4c8be0948207fadd35e87305920146",
+          "release_date": "2026-11-11T23:30:00.905267Z"
         }
       ]
     },
