@@ -24,9 +24,12 @@ Each matcher has the following **required** fields:
 - `priority`: nonnegative integer, lower first; import uses legacy `_id`.
 - `label`: original DB display label, independent of localized details.
 - `iconId`: stable `ic_lib_*` string or null; explicit per-matcher value.
-- `regexName`: original string or null, used only for compatibility paths.
+- `regexName`: compatibility detail alias or null; a nonempty alias makes Android
+  request `<type-dir>/regex/<regexName>.json`, including for `exact` matchers.
+  It does not change `name` or matching mode.
 - `hasDetail`: boolean; false means no details, even if library `data` exists.
-- `legacyPath`: original detail path or null.
+- `legacyPath`: compatibility detail path or null; must agree with the client's
+  request path, including any `regexName` alias.
 - `examples`: `{positive: [string], negative: [string]}`; empty arrays permitted for
   imported patterns without trustworthy examples, never invented witnesses.
 
@@ -92,6 +95,13 @@ Legacy ZIP contains `cloud/rules/v4/rules.db` (original seven columns),
 legacy files are retained during migration; new source edits ship updated legacy
 artifacts from the same compiler invocation. Orphan descriptions remain available
 at old paths without becoming matches.
+
+`load_source` rejects distinct legacy detail paths whose `casefold()` values are
+equal, so generated files can coexist on case-insensitive filesystems. Use a
+distinct detail alias when exact names differ only by case; keep their matching
+names unchanged. Publish a detail path change together with the updated rules DB.
+Removing the old path makes its detail unavailable to clients still using the old
+DB until they update their rules; a path rename is not seamless compatibility.
 
 ## Matching and SVG safety
 

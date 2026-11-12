@@ -149,10 +149,11 @@ def load_source(root=ROOT):
         raw=path.read_bytes();generated=validate_vector(raw,path.stem)
         fail(icons.get(f'icons/{path.stem}.svg')==generated,f'SVG must be derived from Android XML: {path.stem}')
         vectors[f'icons/android/{path.name}']=raw
-    libraries=[];rules=[];details={};legacy={};ids=set();names=set()
+    libraries=[];rules=[];details={};legacy={};legacy_names={};ids=set();names=set()
     def add_legacy(path,payload):
         safe_path(path)
         fail(path.split('/')[0] in ('native-libs','services-libs','activities-libs','receivers-libs','providers-libs','dex-libs','static-libs','permissions-libs','metadata-libs','actions-libs') and path.endswith('.json'),'Invalid legacy detail path')
+        fail(legacy_names.setdefault(path.casefold(),path)==path,f'Case-insensitive legacy path collision: {legacy_names[path.casefold()]} and {path}')
         value=encoded(payload)
         fail(path not in legacy or legacy[path]==value,f'Conflicting legacy details: {path}')
         legacy[path]=value

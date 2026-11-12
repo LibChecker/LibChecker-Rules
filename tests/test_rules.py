@@ -30,6 +30,35 @@ class RulesTest(unittest.TestCase):
                 self.assertEqual(row['uuid'],detail['uuid'])
                 self.assertTrue(detail['data'])
 
+    def test_mupdf_case_distinct_names_and_detail_paths(self):
+        for name,id,legacy_path,alias in [('libMuPDF.so',1773,'native-libs/regex/mupdf_uppercase.json','mupdf_uppercase'),
+                                          ('libmupdf.so',3090,'native-libs/libmupdf.so.json',None)]:
+            row=next(row for row in self.rows if row['id']==id)
+            self.assertFalse(row['isRegexRule'])
+            self.assertEqual(alias,row['regexName'])
+            for use_regex in (False,True):
+                self.assertEqual(id,rules.find_rule(self.rows,name,0,use_regex))
+            self.assertEqual(self.common[row['detailPath']],self.legacy[legacy_path])
+        self.assertNotIn('native-libs/libMuPDF.so.json',self.legacy)
+
+    def test_legacy_paths_reject_case_collisions_and_allow_identical_reuse(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);shutil.copytree(ROOT/'icons',root/'icons');(root/'libraries').mkdir()
+            filename='D100E2DE-D729-4D97-A66E-8B51A090ED5B.json'
+            original=rules.read(ROOT/'libraries'/filename);path=root/'libraries'/filename
+            for source in ('matcher','orphan'):
+                with self.subTest(source=source):
+                    lib=copy.deepcopy(original)
+                    if source=='matcher':lib['matchers'][0]['legacyPath']='native-libs/libMuPDF.so.json'
+                    else:lib['unreferencedDescriptions']=[dict(path='native-libs/libMuPDF.so.json',payload=dict(uuid=lib['uuid'],data=lib['data']))]
+                    path.write_bytes(rules.encoded(lib))
+                    with self.assertRaisesRegex(ValueError,'Case-insensitive legacy path collision'):rules.load_source(root)
+            lib=copy.deepcopy(original)
+            lib['unreferencedDescriptions']=[dict(path=lib['matchers'][0]['legacyPath'],payload=dict(uuid=lib['uuid'],data=lib['data']))]
+            path.write_bytes(rules.encoded(lib))
+            _,_,legacy,_=rules.load_source(root)
+            self.assertEqual(2,len(legacy))
+
     def test_reproducible_build_and_versioning(self):
         with tempfile.TemporaryDirectory() as tmp,contextlib.redirect_stdout(io.StringIO()):
             a,b=Path(tmp)/'a',Path(tmp)/'b'

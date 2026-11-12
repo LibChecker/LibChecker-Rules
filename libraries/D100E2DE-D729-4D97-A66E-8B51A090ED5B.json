@@ -39,9 +39,9 @@
       "priority": 1773,
       "label": "MuPDF",
       "iconId": null,
-      "regexName": null,
+      "regexName": "mupdf_uppercase",
       "hasDetail": true,
-      "legacyPath": "native-libs/libMuPDF.so.json",
+      "legacyPath": "native-libs/regex/mupdf_uppercase.json",
       "examples": {
         "positive": [
           "libMuPDF.so"
