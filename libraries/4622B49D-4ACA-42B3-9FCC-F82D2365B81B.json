@@ -32,24 +32,6 @@
   ],
   "matchers": [
     {
-      "id": 36,
-      "type": 0,
-      "name": "libmain.so",
-      "mode": "exact",
-      "priority": 36,
-      "label": "Unity",
-      "iconId": "ic_lib_unity",
-      "regexName": null,
-      "hasDetail": true,
-      "legacyPath": "native-libs/libmain.so.json",
-      "examples": {
-        "positive": [
-          "libmain.so"
-        ],
-        "negative": []
-      }
-    },
-    {
       "id": 85,
       "type": 0,
       "name": "libunity.so",
