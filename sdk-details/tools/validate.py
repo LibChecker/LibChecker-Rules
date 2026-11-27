@@ -14,8 +14,7 @@ UUID_PATTERN = re.compile(
     r"^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
 )
 SDK_ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9_-]{0,63}$")
-SUPPORTED_SCHEMA_VERSIONS = {1, 2}
-SUPPORTED_SOURCE_OPERATORS = {"package_file"}
+SUPPORTED_SCHEMA_VERSIONS = {1, 2, 3}
 V1_READER_OPERATORS = {"ascii_strings"}
 V2_READER_OPERATORS = {"ascii_strings", "file_sha256"}
 V1_CAPTURE_TYPES = {"sha1", "semver_channel"}
@@ -50,14 +49,91 @@ def validate_remote_path(value, field):
 
 
 def require_int(value, field, minimum, maximum):
-    if not isinstance(value, int) or not minimum <= value <= maximum:
+    if type(value) is not int or not minimum <= value <= maximum:
         raise ValueError(f"Invalid {field}: {value!r}")
+
+
+def validate_archive_entry(value, path):
+    if (
+        not isinstance(value, str)
+        or not 1 <= len(value) <= MAX_ARCHIVE_PATH_LENGTH
+        or any(part in {"", ".", ".."} for part in value.split("/"))
+        or "\\" in value
+        or ".." in value
+        or any(ord(character) < 32 for character in value)
+    ):
+        raise ValueError(f"Unsafe archive entry in {path}: {value!r}")
+
+
+HEADER_LOAD = re.compile(r"(?:u8|u32le|u32be|u64be)@(end|[0-9]{1,3})")
+HEADER_FORMAT = re.compile(r"(?:#|\[[A-Za-z]+\]|[A-Za-z0-9._-])+")
+
+
+def validate_operand(value, path):
+    if not isinstance(value, str) or len(value) > 64:
+        raise ValueError(f"Invalid header operand in {path}")
+    terms = value.split("+")
+    if len(terms) > 2:
+        raise ValueError(f"Too many operand terms in {path}")
+    for term in terms:
+        if term in {"end", "size"}:
+            continue
+        if re.fullmatch(r"[0-9]{1,19}", term) and int(term) <= 2**63 - 1:
+            continue
+        load = HEADER_LOAD.fullmatch(term)
+        if load and (load[1] == "end" or int(load[1]) <= 511):
+            continue
+        raise ValueError(f"Invalid header operand in {path}: {term!r}")
+
+
+def validate_header_reader(reader, path):
+    layouts = reader.get("layouts")
+    if not isinstance(layouts, list) or not 1 <= len(layouts) <= 8:
+        raise ValueError(f"Invalid binary header layouts in {path}")
+    for layout in layouts:
+        if not isinstance(layout, dict) or set(layout) != {"offset", "checks"}:
+            raise ValueError(f"Invalid binary header layout in {path}")
+        require_int(layout["offset"], "offset", 0, 511)
+        checks = layout["checks"]
+        if not isinstance(checks, list) or not 1 <= len(checks) <= 24:
+            raise ValueError(f"Invalid binary header checks in {path}")
+        for check in checks:
+            if not isinstance(check, dict) or set(check) != {"left", "op", "right"}:
+                raise ValueError(f"Invalid binary header check in {path}")
+            if check["op"] not in ("eq", "le", "ge"):
+                raise ValueError(f"Unknown comparison in {path}")
+            validate_operand(check["left"], path)
+            validate_operand(check["right"], path)
+
+
+def validate_formats(formats, path):
+    if not isinstance(formats, list) or len(formats) > 8:
+        raise ValueError(f"Invalid format list in {path}")
+    for mask in formats:
+        if (not isinstance(mask, str) or not 1 <= len(mask) <= 80
+                or "##" in mask or not HEADER_FORMAT.fullmatch(mask)):
+            raise ValueError(f"Invalid capture format in {path}: {mask!r}")
+
+
+def validate_native_library_names(names, path):
+    if not isinstance(names, list) or not 1 <= len(names) <= 16:
+        raise ValueError(f"Invalid native_library_names in {path}")
+    for name in names:
+        if (not isinstance(name, str) or len(name) > MAX_FILE_NAME_LENGTH
+                or ".." in name or not re.fullmatch(r"[A-Za-z0-9_+.-]+\.so", name)):
+            raise ValueError(f"Invalid native library basename in {path}: {name!r}")
+    if len(set(names)) != len(names):
+        raise ValueError(f"Duplicate native library name in {path}")
 
 
 def validate_definition(path, data):
     schema_version = data.get("schema_version")
     if schema_version not in SUPPORTED_SCHEMA_VERSIONS:
         raise ValueError(f"Unsupported schema_version in {path}")
+    if "native_library_names" in data:
+        if schema_version != 3:
+            raise ValueError(f"native_library_names requires schema 3 in {path}")
+        validate_native_library_names(data["native_library_names"], path)
     sdk_id = data.get("sdk_id")
     if not isinstance(sdk_id, str) or not SDK_ID_PATTERN.fullmatch(sdk_id):
         raise ValueError(f"Invalid sdk_id in {path}: {sdk_id!r}")
@@ -78,6 +154,8 @@ def validate_definition(path, data):
             raise ValueError(f"Invalid target UUID in {path}: {target_uuid!r}")
 
     outputs = set()
+    truncated_outputs = set()
+    lookup_outputs_by_name = set()
     probes = data.get("probes")
     if not isinstance(probes, list) or not 1 <= len(probes) <= 8:
         raise ValueError(f"Invalid probes in {path}")
@@ -87,32 +165,45 @@ def validate_definition(path, data):
             raise ValueError(f"Invalid probe id in {path}")
         source = probe.get("source", {})
         reader = probe.get("reader", {})
-        if source.get("operator") not in SUPPORTED_SOURCE_OPERATORS:
-            raise ValueError(f"Unsupported source operator in {path}")
         reader_operator = reader.get("operator")
-        supported_readers = (
-            V1_READER_OPERATORS
-            if schema_version == 1
-            else V2_READER_OPERATORS
-        )
-        if reader_operator not in supported_readers:
-            raise ValueError(f"Unsupported reader operator in {path}")
-        file_name = source.get("file_name")
-        if (
-            not isinstance(file_name, str)
-            or not file_name
-            or len(file_name) > MAX_FILE_NAME_LENGTH
-            or "/" in file_name
-            or "\\" in file_name
-        ):
-            raise ValueError(f"Invalid package file name in {path}")
+        if schema_version == 3 and source.get("operator") == "archive_entry":
+            if set(source) - {"operator", "archive_paths", "container"}:
+                raise ValueError(f"Unexpected archive source field in {path}")
+            if reader_operator != "binary_header":
+                raise ValueError(f"Unsupported archive reader in {path}")
+            validate_header_reader(reader, path)
+            if "container" in source:
+                container = source["container"]
+                if (not isinstance(container, dict) or set(container) != {"format", "entry"}
+                        or container["format"] != "unityfs"):
+                    raise ValueError(f"Unsupported archive container in {path}")
+                validate_archive_entry(container["entry"], path)
+        elif source.get("operator") == "package_file":
+            if "container" in source or "layouts" in reader:
+                raise ValueError(f"Unexpected binary header fields in package probe in {path}")
+            supported_readers = V1_READER_OPERATORS if schema_version == 1 else V2_READER_OPERATORS
+            if reader_operator not in supported_readers:
+                raise ValueError(f"Unsupported reader or container in {path}")
+            file_name = source.get("file_name")
+            if (
+                not isinstance(file_name, str)
+                or not file_name
+                or len(file_name) > MAX_FILE_NAME_LENGTH
+                or "/" in file_name
+                or "\\" in file_name
+            ):
+                raise ValueError(f"Invalid package file name in {path}")
+        else:
+            raise ValueError(f"Unsupported source operator in {path}")
         archive_paths = source.get("archive_paths")
         if not isinstance(archive_paths, list) or not 1 <= len(archive_paths) <= 16:
             raise ValueError(f"Invalid archive paths in {path}")
         if len(archive_paths) != len(set(archive_paths)):
             raise ValueError(f"Duplicate archive path in {path}")
         for archive_path in archive_paths:
-            if (
+            if source.get("operator") == "archive_entry":
+                validate_archive_entry(archive_path, path)
+            elif (
                 not isinstance(archive_path, str)
                 or not archive_path
                 or len(archive_path) > MAX_ARCHIVE_PATH_LENGTH
@@ -133,10 +224,15 @@ def validate_definition(path, data):
             capture_type = capture.get("type")
             if schema_version == 1:
                 supported_captures = V1_CAPTURE_TYPES
+            elif reader_operator == "binary_header":
+                supported_captures = {"ascii_z"}
+                validate_formats(capture.get("formats", []), path)
             elif reader_operator == "file_sha256":
                 supported_captures = V2_DIGEST_CAPTURE_TYPES
             else:
                 supported_captures = V2_ASCII_CAPTURE_TYPES
+            if "formats" in capture and capture_type != "ascii_z":
+                raise ValueError(f"Unexpected capture formats in {path}")
             if capture_type not in supported_captures:
                 raise ValueError(f"Unsupported capture type in {path}")
             prefix = capture.get("prefix")
@@ -151,6 +247,8 @@ def validate_definition(path, data):
             elif prefix is not None:
                 raise ValueError(f"Unexpected capture prefix in {path}")
             require_int(capture.get("max_results"), "max_results", 1, 16)
+            if capture["max_results"] < 2:
+                truncated_outputs.add(output)
             outputs.add(output)
 
     lookups = data.get("lookups", [])
@@ -188,6 +286,7 @@ def validate_definition(path, data):
             if not isinstance(field, str) or not SDK_ID_PATTERN.fullmatch(field):
                 raise ValueError(f"Invalid lookup field in {path}")
             outputs.add(output)
+            lookup_outputs_by_name.add(output)
 
     presentation = data.get("presentation", {})
     summary = presentation.get("summary")
@@ -197,6 +296,11 @@ def validate_definition(path, data):
     if not isinstance(details, list) or len(details) > 8:
         raise ValueError(f"Invalid presentation details in {path}")
     for item in summary + details:
+        if "require_unique" in item:
+            if schema_version != 3 or not isinstance(item["require_unique"], bool):
+                raise ValueError(f"Invalid require_unique in {path}")
+            if item["require_unique"] and item.get("source") in truncated_outputs | lookup_outputs_by_name:
+                raise ValueError(f"Unique fields require local captures with max_results >= 2 in {path}")
         labels = item.get("label")
         if not isinstance(labels, dict) or not isinstance(labels.get("default"), str):
             raise ValueError(f"Presentation label requires a default value in {path}")
@@ -250,6 +354,7 @@ def collect_jetpack_rule_uuids():
 def build_catalog():
     rule_uuids = collect_rule_uuids()
     uuid_owners = {}
+    native_library_owners = {}
     entries = []
     for path in sorted(SDKS_DIR.glob("*/definition.json")):
         data = load_json(path)
@@ -262,13 +367,18 @@ def build_catalog():
                 raise ValueError(f"Rule UUID {target_uuid} belongs to multiple SDKs")
         relative_path = path.relative_to(ROOT).as_posix()
         validate_remote_path(relative_path, "definition")
-        entries.append(
-            {
-                "sdk_id": sdk_id,
-                "library_uuids": sorted(target_uuids),
-                "definition": relative_path,
-            }
-        )
+        entry = {
+            "sdk_id": sdk_id,
+            "library_uuids": sorted(target_uuids),
+            "definition": relative_path,
+        }
+        if "native_library_names" in data:
+            for name in data["native_library_names"]:
+                owner = native_library_owners.setdefault(name, sdk_id)
+                if owner != sdk_id:
+                    raise ValueError(f"Native library name {name} belongs to both {owner} and {sdk_id}")
+            entry["native_library_names"] = data["native_library_names"]
+        entries.append(entry)
     if not entries:
         raise ValueError("No SDK detail definitions found")
     if len(entries) > MAX_CATALOG_ENTRIES:

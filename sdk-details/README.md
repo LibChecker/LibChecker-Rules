@@ -56,3 +56,36 @@ AndroidX Test remains staged until its compatible reader has shipped. The base
 rules publisher does not activate SDK candidates. Publish SDK definition changes
 on the descriptions branch and synchronize its mirrors; rebuilding the rule database
 alone does not publish them.
+
+## Binary header probes (definition v3)
+
+An `archive_entry` identifies exact APK paths and may specify one inner archive
+member with `container: {"format": "unityfs", "entry": "..."}`. The
+`binary_header` reader tries up to eight layouts. Each layout gives a prefix
+offset for an `ascii_z` capture and up to 24 integer comparisons. Integers can
+be constants, the entry's logical `size`, `end` (the byte immediately after the
+NUL), or unsigned `u8`, `u32le`, `u32be`, or `u64be` loads at a prefix
+offset or `end`. One addition per operand is supported. Every check must pass.
+The capture's optional `formats` match the entire string. `#` is a nonempty
+run of decimal digits, `[abc]` matches one of the listed letters, and ASCII
+letters, digits, dots, underscores, and hyphens are literals. Omitting formats
+or giving an empty list accepts printable ASCII. Keep per-file and per-probe
+byte budgets as small as the source permits.
+
+A definition can declare `native_library_names` for exact native library
+basename matching. The catalog generator copies the one to sixteen distinct
+names from the definition into its catalog entry. Each basename must belong
+to a single SDK across the catalog. A match selects the
+definition to probe; its binary checks determine the displayed value. The Unity
+candidate adds `libyuanshen.so` alongside the existing library UUID match.
+
+A presentation field with `require_unique: true` appears only for a single
+distinct result. Each capture contributing to that output needs a
+`max_results` of at least two. Lookup outputs cannot use this constraint.
+
+The Unity candidate uses this protocol to read Player SerializedFiles, including
+the first segment and an exact member inside a UnityFS archive. Its Android
+platform ID, supported format ranges, version masks, and header layout are all
+declared in the definition. Once the compatible client ships, move the candidate
+to `sdks/unity/definition.json`, regenerate the catalog with
+`tools/validate.py --write`, and publish both to the descriptions branch.

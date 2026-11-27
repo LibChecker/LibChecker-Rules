@@ -1,0 +1,285 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://libchecker.github.io/schemas/sdk-details/definition-v3.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sdk_id",
+    "target_uuids",
+    "probes",
+    "presentation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 3
+    },
+    "sdk_id": {
+      "$ref": "definition-v2.schema.json#/$defs/identifier"
+    },
+    "target_uuids": {
+      "$ref": "definition-v2.schema.json#/properties/target_uuids"
+    },
+    "probes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "definition-v2.schema.json#/$defs/probe"
+          },
+          {
+            "$ref": "#/$defs/archiveProbe"
+          }
+        ]
+      }
+    },
+    "lookups": {
+      "$ref": "definition-v2.schema.json#/properties/lookups"
+    },
+    "presentation": {
+      "$ref": "#/$defs/presentation"
+    },
+    "native_library_names": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "maxLength": 128,
+        "pattern": "^(?!.*\\.\\.)[A-Za-z0-9_+.\\-]+\\.so$"
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^(?!.*\\.\\.)(?!.*(?:^|/)\\.(?:/|$))[^/\\\\\\x00-\\x1f]+(?:/[^/\\\\\\x00-\\x1f]+)*$"
+    },
+    "archiveProbe": {
+      "type": "object",
+      "required": [
+        "id",
+        "source",
+        "reader",
+        "captures"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "definition-v2.schema.json#/$defs/identifier"
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "operator",
+            "archive_paths"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "operator": {
+              "const": "archive_entry"
+            },
+            "archive_paths": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 16,
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/entry"
+              }
+            },
+            "container": {
+              "type": "object",
+              "required": [
+                "format",
+                "entry"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "format": {
+                  "const": "unityfs"
+                },
+                "entry": {
+                  "$ref": "#/$defs/entry"
+                }
+              }
+            }
+          }
+        },
+        "reader": {
+          "type": "object",
+          "required": [
+            "operator",
+            "max_bytes_per_file",
+            "max_total_bytes",
+            "layouts"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "operator": {
+              "const": "binary_header"
+            },
+            "max_bytes_per_file": {
+              "$ref": "definition-v2.schema.json#/$defs/reader/properties/max_bytes_per_file"
+            },
+            "max_total_bytes": {
+              "$ref": "definition-v2.schema.json#/$defs/reader/properties/max_total_bytes"
+            },
+            "layouts": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 8,
+              "items": {
+                "$ref": "#/$defs/layout"
+              }
+            }
+          }
+        },
+        "captures": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {
+            "$ref": "#/$defs/binaryCapture"
+          }
+        }
+      }
+    },
+    "binaryCapture": {
+      "type": "object",
+      "required": [
+        "output",
+        "type",
+        "max_results"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "output": {
+          "$ref": "definition-v2.schema.json#/$defs/identifier"
+        },
+        "type": {
+          "const": "ascii_z"
+        },
+        "max_results": {
+          "$ref": "definition-v2.schema.json#/$defs/capture/properties/max_results"
+        },
+        "formats": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^(?!.*##)(?:#|\\[[A-Za-z]+\\]|[A-Za-z0-9._-])+$"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "required": [
+        "offset",
+        "checks"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "offset": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 511
+        },
+        "checks": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 24,
+          "items": {
+            "$ref": "#/$defs/check"
+          }
+        }
+      }
+    },
+    "check": {
+      "type": "object",
+      "required": [
+        "left",
+        "op",
+        "right"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "left": {
+          "$ref": "#/$defs/operand"
+        },
+        "op": {
+          "enum": [
+            "eq",
+            "le",
+            "ge"
+          ]
+        },
+        "right": {
+          "$ref": "#/$defs/operand"
+        }
+      }
+    },
+    "operand": {
+      "type": "string",
+      "maxLength": 64,
+      "pattern": "^(?:end|size|[0-9]{1,19}|(?:u8|u32le|u32be|u64be)@(?:end|(?:[0-4][0-9]{2}|50[0-9]|51[01]|[0-9]{1,2})))(?:\\+(?:end|size|[0-9]{1,19}|(?:u8|u32le|u32be|u64be)@(?:end|(?:[0-4][0-9]{2}|50[0-9]|51[01]|[0-9]{1,2}))))?$"
+    },
+    "presentation": {
+      "type": "object",
+      "required": [
+        "summary"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/presentationField"
+          }
+        },
+        "details": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 8,
+          "items": {
+            "$ref": "#/$defs/presentationField"
+          }
+        }
+      }
+    },
+    "presentationField": {
+      "type": "object",
+      "required": [
+        "label",
+        "source",
+        "max_values"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "$ref": "definition-v2.schema.json#/$defs/presentationField/properties/label"
+        },
+        "source": {
+          "$ref": "definition-v2.schema.json#/$defs/presentationField/properties/source"
+        },
+        "max_values": {
+          "$ref": "definition-v2.schema.json#/$defs/presentationField/properties/max_values"
+        },
+        "require_unique": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

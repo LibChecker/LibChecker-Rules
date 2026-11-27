@@ -1,0 +1,380 @@
+{
+  "schema_version": 3,
+  "sdk_id": "unity",
+  "target_uuids": [
+    "4622B49D-4ACA-42B3-9FCC-F82D2365B81B"
+  ],
+  "native_library_names": [
+    "libyuanshen.so"
+  ],
+  "probes": [
+    {
+      "id": "player_data",
+      "source": {
+        "operator": "archive_entry",
+        "archive_paths": [
+          "assets/bin/Data/globalgamemanagers"
+        ]
+      },
+      "reader": {
+        "operator": "binary_header",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 4096,
+        "layouts": [
+          {
+            "offset": 20,
+            "checks": [
+              {
+                "left": "u32be@8",
+                "op": "ge",
+                "right": "9"
+              },
+              {
+                "left": "u32be@8",
+                "op": "le",
+                "right": "21"
+              },
+              {
+                "left": "u8@16",
+                "op": "eq",
+                "right": "0"
+              },
+              {
+                "left": "u32be@4",
+                "op": "eq",
+                "right": "size"
+              },
+              {
+                "left": "end+4",
+                "op": "le",
+                "right": "20+u32be@0"
+              },
+              {
+                "left": "20+u32be@0",
+                "op": "le",
+                "right": "u32be@12"
+              },
+              {
+                "left": "u32be@12",
+                "op": "le",
+                "right": "u32be@4"
+              },
+              {
+                "left": "u32le@end",
+                "op": "eq",
+                "right": "13"
+              }
+            ]
+          },
+          {
+            "offset": 48,
+            "checks": [
+              {
+                "left": "u32be@8",
+                "op": "ge",
+                "right": "22"
+              },
+              {
+                "left": "u32be@8",
+                "op": "le",
+                "right": "26"
+              },
+              {
+                "left": "u8@40",
+                "op": "eq",
+                "right": "0"
+              },
+              {
+                "left": "u64be@24",
+                "op": "eq",
+                "right": "size"
+              },
+              {
+                "left": "end+4",
+                "op": "le",
+                "right": "48+u64be@16"
+              },
+              {
+                "left": "48+u64be@16",
+                "op": "le",
+                "right": "u64be@32"
+              },
+              {
+                "left": "u64be@32",
+                "op": "le",
+                "right": "u64be@24"
+              },
+              {
+                "left": "u32le@end",
+                "op": "eq",
+                "right": "13"
+              }
+            ]
+          }
+        ]
+      },
+      "captures": [
+        {
+          "output": "unity_version",
+          "type": "ascii_z",
+          "max_results": 2,
+          "formats": [
+            "#.#.#[abfp]#",
+            "#.#.#[abfp]#c#"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "segmented_player_data",
+      "source": {
+        "operator": "archive_entry",
+        "archive_paths": [
+          "assets/bin/Data/globalgamemanagers.split0"
+        ]
+      },
+      "reader": {
+        "operator": "binary_header",
+        "max_bytes_per_file": 256,
+        "max_total_bytes": 4096,
+        "layouts": [
+          {
+            "offset": 20,
+            "checks": [
+              {
+                "left": "u32be@8",
+                "op": "ge",
+                "right": "9"
+              },
+              {
+                "left": "u32be@8",
+                "op": "le",
+                "right": "21"
+              },
+              {
+                "left": "u8@16",
+                "op": "eq",
+                "right": "0"
+              },
+              {
+                "left": "u32be@4",
+                "op": "ge",
+                "right": "size"
+              },
+              {
+                "left": "end+4",
+                "op": "le",
+                "right": "20+u32be@0"
+              },
+              {
+                "left": "20+u32be@0",
+                "op": "le",
+                "right": "u32be@12"
+              },
+              {
+                "left": "u32be@12",
+                "op": "le",
+                "right": "u32be@4"
+              },
+              {
+                "left": "u32le@end",
+                "op": "eq",
+                "right": "13"
+              }
+            ]
+          },
+          {
+            "offset": 48,
+            "checks": [
+              {
+                "left": "u32be@8",
+                "op": "ge",
+                "right": "22"
+              },
+              {
+                "left": "u32be@8",
+                "op": "le",
+                "right": "26"
+              },
+              {
+                "left": "u8@40",
+                "op": "eq",
+                "right": "0"
+              },
+              {
+                "left": "u64be@24",
+                "op": "ge",
+                "right": "size"
+              },
+              {
+                "left": "end+4",
+                "op": "le",
+                "right": "48+u64be@16"
+              },
+              {
+                "left": "48+u64be@16",
+                "op": "le",
+                "right": "u64be@32"
+              },
+              {
+                "left": "u64be@32",
+                "op": "le",
+                "right": "u64be@24"
+              },
+              {
+                "left": "u32le@end",
+                "op": "eq",
+                "right": "13"
+              }
+            ]
+          }
+        ]
+      },
+      "captures": [
+        {
+          "output": "unity_version",
+          "type": "ascii_z",
+          "max_results": 2,
+          "formats": [
+            "#.#.#[abfp]#",
+            "#.#.#[abfp]#c#"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compressed_player_data",
+      "source": {
+        "operator": "archive_entry",
+        "archive_paths": [
+          "assets/bin/Data/data.unity3d"
+        ],
+        "container": {
+          "format": "unityfs",
+          "entry": "globalgamemanagers"
+        }
+      },
+      "reader": {
+        "operator": "binary_header",
+        "max_bytes_per_file": 16777216,
+        "max_total_bytes": 33554432,
+        "layouts": [
+          {
+            "offset": 20,
+            "checks": [
+              {
+                "left": "u32be@8",
+                "op": "ge",
+                "right": "9"
+              },
+              {
+                "left": "u32be@8",
+                "op": "le",
+                "right": "21"
+              },
+              {
+                "left": "u8@16",
+                "op": "eq",
+                "right": "0"
+              },
+              {
+                "left": "u32be@4",
+                "op": "eq",
+                "right": "size"
+              },
+              {
+                "left": "end+4",
+                "op": "le",
+                "right": "20+u32be@0"
+              },
+              {
+                "left": "20+u32be@0",
+                "op": "le",
+                "right": "u32be@12"
+              },
+              {
+                "left": "u32be@12",
+                "op": "le",
+                "right": "u32be@4"
+              },
+              {
+                "left": "u32le@end",
+                "op": "eq",
+                "right": "13"
+              }
+            ]
+          },
+          {
+            "offset": 48,
+            "checks": [
+              {
+                "left": "u32be@8",
+                "op": "ge",
+                "right": "22"
+              },
+              {
+                "left": "u32be@8",
+                "op": "le",
+                "right": "26"
+              },
+              {
+                "left": "u8@40",
+                "op": "eq",
+                "right": "0"
+              },
+              {
+                "left": "u64be@24",
+                "op": "eq",
+                "right": "size"
+              },
+              {
+                "left": "end+4",
+                "op": "le",
+                "right": "48+u64be@16"
+              },
+              {
+                "left": "48+u64be@16",
+                "op": "le",
+                "right": "u64be@32"
+              },
+              {
+                "left": "u64be@32",
+                "op": "le",
+                "right": "u64be@24"
+              },
+              {
+                "left": "u32le@end",
+                "op": "eq",
+                "right": "13"
+              }
+            ]
+          }
+        ]
+      },
+      "captures": [
+        {
+          "output": "unity_version",
+          "type": "ascii_z",
+          "max_results": 2,
+          "formats": [
+            "#.#.#[abfp]#",
+            "#.#.#[abfp]#c#"
+          ]
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "summary": [
+      {
+        "label": {
+          "default": "Unity build version",
+          "zh-Hans": "Unity 构建版本"
+        },
+        "source": "unity_version",
+        "max_values": 1,
+        "require_unique": true
+      }
+    ]
+  }
+}

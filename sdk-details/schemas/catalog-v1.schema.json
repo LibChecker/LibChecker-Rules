@@ -31,6 +31,9 @@
               "pattern": "^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
             }
           },
+          "native_library_names": {
+            "$ref": "definition-v3.schema.json#/properties/native_library_names"
+          },
           "definition": {
             "type": "string",
             "pattern": "^sdk-details/sdks/[a-z0-9_-]+/definition\\.json$"
