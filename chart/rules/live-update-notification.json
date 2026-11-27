@@ -1,0 +1,50 @@
+{
+    "id": "official.live-update-notification",
+    "revision": 2,
+    "source": "official",
+    "releaseChannel": "preview-only",
+    "title": {
+        "translations": {
+            "en": "Live update notifications",
+            "zh-Hans": "实时更新通知"
+        }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "Checks whether the app requests the promoted notifications permission. Actual notification activity is not measured.",
+                "zh-Hans": "统计声明提升通知权限的应用，无法据此判断应用是否实际发布过实时更新通知。"
+            }
+        },
+        "referenceUrl": "https://developer.android.com/develop/ui/views/notifications/live-update"
+    },
+    "icon": {
+        "asset": "icons/live-update-notification.svg",
+        "renderMode": "original"
+    },
+    "calculation": {
+        "kind": "predicate",
+        "predicate": {
+            "evidence": "requested_permission",
+            "operator": "contains_any",
+            "value": {
+                "strings": [
+                    "android.permission.POST_PROMOTED_NOTIFICATIONS"
+                ]
+            },
+            "matchedTitle": {
+                "translations": {
+                    "en": "Permission declared",
+                    "zh-Hans": "已声明权限"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Permission declaration not detected",
+                    "zh-Hans": "未检测到权限声明"
+                }
+            }
+        }
+    },
+    "fingerprint": "artifact"
+}

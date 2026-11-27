@@ -43,7 +43,7 @@ python3 -m unittest chart.tools.test_build_bundle
 python3 chart/tools/build_bundle.py \
   --bundle-version 12 \
   --channel preview \
-  --minimum-app-version-code 2731 \
+  --minimum-app-version-code 2981 \
   --output-dir /tmp/libchecker-chart-preview
 ```
 
@@ -305,7 +305,7 @@ Predicate 必须包含 `matchedTitle`、`unmatchedTitle` 和一个完整条件�
 | --- | --- | --- | --- | --- |
 | `predicate.matchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 条件结果为真的应用分组名称。 |
 | `predicate.unmatchedTitle` | 多语言文本 | 是 | 每种语言 1 至 80 个字符 | 条件结果为假的应用分组名称。 |
-| `predicate.evidence` | 字符串 | 直接叶子写法必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action`、`manifest_attribute` | 叶子条件使用的证据。 |
+| `predicate.evidence` | 字符串 | 直接叶子写法必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action`、`manifest_attribute`、`requested_permission`、`application_icon_trait` | 叶子条件使用的证据。 |
 | `predicate.operator` | 字符串 | 直接叶子写法必填 | 取决于 `evidence` | 应用于证据的比较操作。 |
 | `predicate.value` | 对象 | 直接叶子写法必填 | 只能包含一种与 `evidence` 兼容的值 | 比较所需的目标值。 |
 | `predicate.condition` | Condition 对象 | 递归写法必填 | 一个证据叶子、`all`、`any` 或 `not` | 代替三个直接叶子字段的递归条件。 |
@@ -450,7 +450,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 
 | 参数 | 类型 | 是否必填 | 全部可选值与限制 | 含义 |
 | --- | --- | --- | --- | --- |
-| `evidence` | 字符串 | 叶子条件必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action`、`manifest_attribute` | 选择要检查的应用数据。 |
+| `evidence` | 字符串 | 叶子条件必填 | `target_sdk`、`native_library`、`archive_entry`、`dex_class`、`manifest_receiver_action`、`manifest_attribute`、`requested_permission`、`application_icon_trait` | 选择要检查的应用数据。 |
 | `operator` | 字符串 | 叶子条件必填 | `equal`、`greater_than_or_equal`、`less_than_or_equal`、`contains`、`contains_any`，具体兼容性取决于 `evidence` | 选择比较方式。 |
 | `value` | 对象 | 叶子条件必填 | 只能包含 `integer`、`string`、`strings`、`dexClasses`、`manifestAttribute` 中的一个 | 提供比较目标。 |
 | `all` | Condition 数组 | `all` 节点必填 | 1 至 16 个子条件 | 所有子条件都为真时匹配。 |
@@ -465,7 +465,7 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 | --- | --- | --- | --- | --- |
 | `integer` | 整数 | `target_sdk` | 任意 JSON 整数 | 数值比较目标。 |
 | `string` | 字符串 | `native_library` | 1 至 160 个安全文件名字符 | 精确的原生库文件名。 |
-| `strings` | 字符串数组 | `archive_entry`、`manifest_receiver_action` | 1 至 16 项，每项 1 至 160 个符合对应证据限制的安全字符 | 精确 APK 条目或 Receiver Action 列表，任意一项可以匹配。 |
+| `strings` | 字符串数组 | `archive_entry`、`manifest_receiver_action`、`requested_permission`、`application_icon_trait` | 1 至 16 项，每项 1 至 160 个符合对应证据限制的安全字符 | 按对应证据精确匹配任一 APK 条目、Receiver Action、请求权限或支持的图标特征。 |
 | `dexClasses` | DEX Class Query 数组 | `dex_class` | 1 至 16 个查询 | 类查询列表，任意一个查询可以匹配。 |
 | `manifestAttribute` | Manifest 属性查询 | `manifest_attribute` | 一个 `application` 元素、一个安全的 `android:` 属性名和一个布尔值 | 精确的 Application Manifest 布尔属性及期望值。 |
 
@@ -521,6 +521,8 @@ Condition 对象只能是一个带类型的证据叶子，或者一个逻辑操�
 | `archive_entry` | `contains_any` | `{ "strings": ["<条目名称>", ...] }` | Base APK 或 Split APK 中存在任意一个精确条目时为真。 |
 | `dex_class` | `contains_any` | `{ "dexClasses": [<查询>, ...] }` | 任意查询匹配任意一个 DEX 类时为真。 |
 | `manifest_receiver_action` | `contains_any` | `{ "strings": ["<action>", ...] }` | Manifest Receiver 声明任意一个 Action 时为真。 |
+| `requested_permission` | `contains_any` | `{ "strings": ["android.permission.POST_PROMOTED_NOTIFICATIONS"] }` | 精确匹配任一请求权限名称，支持自定义权限，与授权状态无关。 |
+| `application_icon_trait` | `contains_any` | `{ "strings": ["adaptive"] }` | 匹配应用主图标具有的任一特征。目前只接受 `adaptive`。 |
 | `manifest_attribute` | `equal` | `{ "manifestAttribute": { "element": "application", "name": "android:<属性名>", "boolean": <布尔值> } }` | 匹配显式声明的 Application Manifest 布尔属性。 |
 
 ### `target_sdk`
@@ -829,7 +831,7 @@ JSON Schema 定义完整的对象结构与字段限制。Python 生成器还会�
 python3 chart/tools/build_bundle.py \
   --bundle-version 12 \
   --channel preview \
-  --minimum-app-version-code 2731 \
+  --minimum-app-version-code 2981 \
   --output-dir /tmp/libchecker-chart-preview
 ```
 
@@ -839,7 +841,7 @@ python3 chart/tools/build_bundle.py \
 python3 chart/tools/build_bundle.py \
   --bundle-version 12 \
   --channel preview \
-  --minimum-app-version-code 2731
+  --minimum-app-version-code 2981
 ```
 
 ### 命令行参数

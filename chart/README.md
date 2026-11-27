@@ -61,7 +61,7 @@ python3 -m unittest chart.tools.test_build_bundle
 python3 chart/tools/build_bundle.py \
   --bundle-version 12 \
   --channel preview \
-  --minimum-app-version-code 2731 \
+  --minimum-app-version-code 2981 \
   --output-dir /tmp/libchecker-chart-preview
 ```
 
@@ -359,7 +359,7 @@ directly in `predicate`:
 | --- | --- | --- | --- | --- |
 | `predicate.matchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Label for apps whose condition evaluates to true. |
 | `predicate.unmatchedTitle` | Translated text | Yes | 1 to 80 characters per locale | Label for apps whose condition evaluates to false. |
-| `predicate.evidence` | String | Required for direct-leaf form | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action`, `manifest_attribute` | Evidence provider used by the leaf. |
+| `predicate.evidence` | String | Required for direct-leaf form | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action`, `manifest_attribute`, `requested_permission`, `application_icon_trait` | Evidence provider used by the leaf. |
 | `predicate.operator` | String | Required for direct-leaf form | Depends on `evidence` | Comparison applied to the evidence. |
 | `predicate.value` | Object | Required for direct-leaf form | Exactly one value variant compatible with `evidence` | Expected value for the comparison. |
 | `predicate.condition` | Condition | Required for recursive form | One leaf, `all`, `any`, or `not` | Recursive condition used instead of the three direct-leaf fields. |
@@ -513,7 +513,7 @@ Additional properties are rejected.
 
 | Parameter | Type | Required | Possible values and limits | Meaning |
 | --- | --- | --- | --- | --- |
-| `evidence` | String | Required for a leaf | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action`, `manifest_attribute` | Selects the app data to inspect. |
+| `evidence` | String | Required for a leaf | `target_sdk`, `native_library`, `archive_entry`, `dex_class`, `manifest_receiver_action`, `manifest_attribute`, `requested_permission`, `application_icon_trait` | Selects the app data to inspect. |
 | `operator` | String | Required for a leaf | `equal`, `greater_than_or_equal`, `less_than_or_equal`, `contains`, `contains_any`; compatibility depends on `evidence` | Selects the comparison. |
 | `value` | Object | Required for a leaf | Exactly one of `integer`, `string`, `strings`, `dexClasses`, `manifestAttribute` | Supplies the expected value. |
 | `all` | Array of conditions | Required for an `all` node | 1 to 16 children | True when every child is true. |
@@ -530,7 +530,7 @@ Exactly one operation is allowed. A leaf must contain all of `evidence`,
 | --- | --- | --- | --- | --- |
 | `integer` | Integer | `target_sdk` | Any JSON integer | Numeric comparison target. |
 | `string` | String | `native_library` | 1 to 160 safe filename characters | Exact native-library filename. |
-| `strings` | Array of strings | `archive_entry`, `manifest_receiver_action` | 1 to 16 values, each 1 to 160 safe characters for its evidence type | Exact archive entries or receiver actions; any listed value may match. |
+| `strings` | Array of strings | `archive_entry`, `manifest_receiver_action`, `requested_permission`, `application_icon_trait` | 1 to 16 values, each 1 to 160 safe characters for its evidence type | Any exact archive entry, receiver action, requested permission, or supported icon trait may match. |
 | `dexClasses` | Array of DEX class queries | `dex_class` | 1 to 16 queries | Class queries; any query may match. |
 | `manifestAttribute` | Manifest attribute query | `manifest_attribute` | One `application` element, one safe `android:` attribute name, and one Boolean | Exact application-manifest Boolean attribute and expected value. |
 
@@ -605,6 +605,8 @@ condition is not necessarily a more accurate condition.
 | `archive_entry` | `contains_any` | `{ "strings": ["<entry-name>", ...] }` | Matches when any exact entry exists in the base or split APKs. |
 | `dex_class` | `contains_any` | `{ "dexClasses": [<query>, ...] }` | Matches when any query matches one DEX class. |
 | `manifest_receiver_action` | `contains_any` | `{ "strings": ["<action>", ...] }` | Matches when any listed action is declared by a manifest receiver. |
+| `requested_permission` | `contains_any` | `{ "strings": ["android.permission.POST_PROMOTED_NOTIFICATIONS"] }` | Matches any exact requested permission name, including custom permissions, regardless of grant state. |
+| `application_icon_trait` | `contains_any` | `{ "strings": ["adaptive"] }` | Matches any supported primary application icon trait. Currently accepts only `adaptive`. |
 | `manifest_attribute` | `equal` | `{ "manifestAttribute": { "element": "application", "name": "android:<name>", "boolean": <Boolean> } }` | Matches an explicitly declared application-manifest Boolean attribute. |
 
 ### `target_sdk`
@@ -916,7 +918,7 @@ modify tracked generated files:
 python3 chart/tools/build_bundle.py \
   --bundle-version 12 \
   --channel preview \
-  --minimum-app-version-code 2731 \
+  --minimum-app-version-code 2981 \
   --output-dir /tmp/libchecker-chart-preview
 ```
 
@@ -926,7 +928,7 @@ For the final branch artifact, omit `--output-dir` to write to `chart/cloud/v1/`
 python3 chart/tools/build_bundle.py \
   --bundle-version 12 \
   --channel preview \
-  --minimum-app-version-code 2731
+  --minimum-app-version-code 2981
 ```
 
 Builder arguments:

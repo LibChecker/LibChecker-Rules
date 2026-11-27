@@ -7,6 +7,7 @@ from pathlib import Path
 
 from chart.tools.build_bundle import (
     build_bundle,
+    calculation_version_floor,
     read_rules,
     validate_calculation,
     validate_details,
@@ -22,8 +23,10 @@ class BuildChartBundleTest(unittest.TestCase):
 
         self.assertEqual(
             [
+                "official.adaptive-icon",
                 "official.flutter",
                 "official.itgsa",
+                "official.live-update-notification",
                 "official.predictive-back-gesture",
                 "official.reactivex",
             ],
@@ -32,16 +35,18 @@ class BuildChartBundleTest(unittest.TestCase):
 
     def test_bundle_is_deterministic_and_contains_only_expected_files(self) -> None:
         with tempfile.TemporaryDirectory() as first, tempfile.TemporaryDirectory() as second:
-            first_manifest = build_bundle(self.chart_dir, Path(first), 1)
-            second_manifest = build_bundle(self.chart_dir, Path(second), 1)
+            first_manifest = build_bundle(self.chart_dir, Path(first), 1, minimum_app_version_code=2981)
+            second_manifest = build_bundle(self.chart_dir, Path(second), 1, minimum_app_version_code=2981)
 
             self.assertEqual(first_manifest, second_manifest)
             with zipfile.ZipFile(Path(first) / "chart.bundle") as archive:
                 self.assertEqual(
                     [
                         "catalog.json",
+                        "icons/adaptive-icon.svg",
                         "icons/flutter.svg",
                         "icons/itgsa.svg",
+                        "icons/live-update-notification.svg",
                         "icons/predictive-back-gesture.svg",
                         "icons/reactivex.svg",
                     ],
@@ -49,10 +54,31 @@ class BuildChartBundleTest(unittest.TestCase):
                 )
                 catalog = json.loads(archive.read("catalog.json"))
             self.assertEqual(1, catalog["schemaVersion"])
-            self.assertEqual(4, len(catalog["definitions"]))
+            self.assertEqual(6, len(catalog["definitions"]))
             self.assertTrue(
                 all("releaseChannel" not in rule for rule in catalog["definitions"])
             )
+
+    def test_preview_requires_package_evidence_client(self) -> None:
+        with tempfile.TemporaryDirectory() as output:
+            for version in (0, 2731, 2980):
+                with self.subTest(version=version), self.assertRaisesRegex(ValueError, "2981"):
+                    build_bundle(self.chart_dir, Path(output), 18, minimum_app_version_code=version)
+
+    def test_nested_package_evidence_requires_compatible_client(self) -> None:
+        leaf = {"evidence": "requested_permission"}
+        condition = {"all": [{"evidence": "archive_entry"}, {"not": {"any": [leaf]}}]}
+        self.assertEqual(2981, calculation_version_floor({"kind": "predicate", "predicate": {"condition": condition}}))
+        self.assertEqual(2981, calculation_version_floor({"kind": "facets", "facets": {"items": [{"condition": condition}]}}))
+
+    def test_invalid_package_evidence(self) -> None:
+        rules = {rule["id"]: rule for rule in read_rules(self.chart_dir)}
+        for slug, invalid in [("adaptive-icon", "unknown"), ("live-update-notification", "bad/name")]:
+            for operator, names in [("equal", ["adaptive"]), ("contains_any", [invalid]), ("contains_any", [])]:
+                rule = deepcopy(rules["official." + slug])
+                rule["calculation"]["predicate"].update(operator=operator, value={"strings": names})
+                with self.subTest(slug=slug, names=names), self.assertRaises(ValueError):
+                    validate_calculation(rule, rule["id"])
 
     def test_schema_declares_manifest_attribute_evidence(self) -> None:
         schema = json.loads(

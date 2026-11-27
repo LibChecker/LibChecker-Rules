@@ -401,7 +401,9 @@
                         "dex_class",
                         "archive_entry",
                         "manifest_receiver_action",
-                        "manifest_attribute"
+                        "manifest_attribute",
+                        "requested_permission",
+                        "application_icon_trait"
                     ]
                 },
                 "operator": {
@@ -624,6 +626,71 @@
                                 "required": [
                                     "manifestAttribute"
                                 ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "requested_permission"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains_any"
+                            },
+                            "value": {
+                                "required": [
+                                    "strings"
+                                ],
+                                "properties": {
+                                    "strings": {
+                                        "items": {
+                                            "pattern": "^[A-Za-z_][A-Za-z0-9_]*(?:[.][A-Za-z_][A-Za-z0-9_]*)+$",
+                                            "maxLength": 160
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "required": [
+                            "evidence"
+                        ],
+                        "properties": {
+                            "evidence": {
+                                "const": "application_icon_trait"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "operator": {
+                                "const": "contains_any"
+                            },
+                            "value": {
+                                "required": [
+                                    "strings"
+                                ],
+                                "properties": {
+                                    "strings": {
+                                        "items": {
+                                            "enum": [
+                                                "adaptive"
+                                            ]
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

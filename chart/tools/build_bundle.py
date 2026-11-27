@@ -41,6 +41,8 @@ DEX_CLASS_PATTERN = re.compile(r"L[A-Za-z0-9_$/-]{1,158};?")
 DEX_CLASS_DESCRIPTOR = re.compile(r"L[A-Za-z0-9_$/-]{1,158};")
 DEX_METHOD_NAME = re.compile(r"[A-Za-z0-9_$<>-]{1,80}")
 DEX_PARAMETER_TYPE = re.compile(r"\[*[ZBSCIJFD]|\[*L[A-Za-z0-9_$/-]{1,158};")
+PERMISSION_NAME = re.compile(r"[A-Za-z_][A-Za-z0-9_]*(?:[.][A-Za-z_][A-Za-z0-9_]*)+")
+ICON_TRAITS = {"adaptive"}
 MANIFEST_ACTION = re.compile(r"[A-Za-z0-9_.-]{1,160}")
 MANIFEST_ATTRIBUTE = re.compile(r"android:[A-Za-z][A-Za-z0-9_]{0,79}")
 ARCHIVE_ENTRY_NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9._+/-]{0,159}")
@@ -289,6 +291,16 @@ def validate_evidence(evidence: str, operator: str, value: dict, rule_id: str) -
             actions, MANIFEST_ACTION, MAX_STRING_VALUES
         ):
             raise ValueError(f"Manifest receiver action rule requires safe actions: {rule_id}")
+    elif evidence in {"requested_permission", "application_icon_trait"}:
+        names = value.get("strings")
+        pattern = PERMISSION_NAME if evidence == "requested_permission" else None
+        if (
+            operator != "contains_any"
+            or set(value) != {"strings"}
+            or not safe_string_list(names, pattern, MAX_STRING_VALUES)
+            or (evidence == "application_icon_trait" and not ICON_TRAITS.issuperset(names))
+        ):
+            raise ValueError(f"Invalid names or operator for {evidence}: {rule_id}")
     elif evidence == "manifest_attribute":
         attribute = value.get("manifestAttribute")
         if operator != "equal":
@@ -427,6 +439,29 @@ def zip_entry(name: str, data: bytes) -> tuple[zipfile.ZipInfo, bytes]:
     return info, data
 
 
+# First client version that understands each version-gated evidence type.
+EVIDENCE_MINIMUM_APP_VERSION = {
+    "application_icon_trait": 2981,
+    "requested_permission": 2981,
+}
+
+
+def condition_version_floor(condition: dict) -> int:
+    if "not" in condition:
+        return condition_version_floor(condition["not"])
+    children = condition.get("all") or condition.get("any")
+    if children:
+        return max(map(condition_version_floor, children))
+    return EVIDENCE_MINIMUM_APP_VERSION.get(condition.get("evidence"), 0)
+
+
+def calculation_version_floor(calculation: dict) -> int:
+    if calculation["kind"] == "predicate":
+        predicate = calculation["predicate"]
+        return condition_version_floor(predicate.get("condition", predicate))
+    return max(condition_version_floor(item["condition"]) for item in calculation["facets"]["items"])
+
+
 def build_bundle(
     chart_dir: Path,
     output_dir: Path,
@@ -435,6 +470,10 @@ def build_bundle(
     minimum_app_version_code: int = 0,
 ) -> dict:
     rules = read_rules(chart_dir, channel=channel)
+    for rule in rules:
+        required = calculation_version_floor(rule["calculation"])
+        if minimum_app_version_code < required:
+            raise ValueError(f"{rule['id']} requires --minimum-app-version-code >= {required}")
     output_dir.mkdir(parents=True, exist_ok=True)
     catalog = {
         "schemaVersion": 1,

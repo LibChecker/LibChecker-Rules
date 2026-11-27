@@ -1,0 +1,50 @@
+{
+    "id": "official.adaptive-icon",
+    "revision": 1,
+    "source": "official",
+    "releaseChannel": "preview-only",
+    "title": {
+        "translations": {
+            "en": "Adaptive icons",
+            "zh-Hans": "自适应图标"
+        }
+    },
+    "details": {
+        "description": {
+            "translations": {
+                "en": "Checks the application’s primary icon for adaptive icon layers.",
+                "zh-Hans": "检查应用主图标是否为自适应图标。"
+            }
+        },
+        "referenceUrl": "https://developer.android.com/develop/ui/compose/system/icon_design_adaptive"
+    },
+    "icon": {
+        "asset": "icons/adaptive-icon.svg",
+        "renderMode": "original"
+    },
+    "calculation": {
+        "kind": "predicate",
+        "predicate": {
+            "evidence": "application_icon_trait",
+            "operator": "contains_any",
+            "value": {
+                "strings": [
+                    "adaptive"
+                ]
+            },
+            "matchedTitle": {
+                "translations": {
+                    "en": "Adaptive main icon",
+                    "zh-Hans": "使用自适应主图标"
+                }
+            },
+            "unmatchedTitle": {
+                "translations": {
+                    "en": "Adaptive main icon not detected",
+                    "zh-Hans": "未检测到自适应主图标"
+                }
+            }
+        }
+    },
+    "fingerprint": "artifact"
+}
