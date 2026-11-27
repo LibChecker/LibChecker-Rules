@@ -62,6 +62,7 @@ class ValidateTest(unittest.TestCase):
         definition = validate.load_json(path)
         sdk_id, uuids = validate.validate_definition(path, definition)
         self.assertEqual("unity", sdk_id)
+        self.assertNotIn("native_library_names", definition)
         self.assertEqual([validate.load_json(validate.ROOT / "native-libs/libunity.so.json")["uuid"]], uuids)
         for probe in definition["probes"]:
             modern = next(layout for layout in probe["reader"]["layouts"] if layout["offset"] == 48)
@@ -106,7 +107,7 @@ class ValidateTest(unittest.TestCase):
         if not definition.exists():
             definition = validate.SDKS_DIR / "unity/definition.json"
         unity = validate.load_json(definition)
-        self.assertEqual(["libyuanshen.so"], unity["native_library_names"])
+        unity["native_library_names"] = ["libexample.so"]
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             sdks = root / "sdk-details/sdks"

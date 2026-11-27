@@ -77,7 +77,7 @@ basename matching. The catalog generator copies the one to sixteen distinct
 names from the definition into its catalog entry. Each basename must belong
 to a single SDK across the catalog. A match selects the
 definition to probe; its binary checks determine the displayed value. The Unity
-candidate adds `libyuanshen.so` alongside the existing library UUID match.
+candidate matches only by library UUID.
 
 A presentation field with `require_unique: true` appears only for a single
 distinct result. Each capture contributing to that output needs a

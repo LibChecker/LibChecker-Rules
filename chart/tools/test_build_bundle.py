@@ -140,6 +140,12 @@ class BuildChartBundleTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "must use contains"):
             validate_calculation(invalid_rule, invalid_rule["id"])
 
+    def test_live_update_icon_follows_theme(self) -> None:
+        rule = next(
+            rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.live-update-notification"
+        )
+        self.assertEqual("monochrome", rule["icon"]["renderMode"])
+
     def test_flutter_rule_preserves_brand_colors(self) -> None:
         flutter_rule = next(
             rule for rule in read_rules(self.chart_dir) if rule["id"] == "official.flutter"
