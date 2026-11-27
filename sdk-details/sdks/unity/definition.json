@@ -4,6 +4,9 @@
   "target_uuids": [
     "4622B49D-4ACA-42B3-9FCC-F82D2365B81B"
   ],
+  "native_library_names": [
+    "libyuanshen.so"
+  ],
   "probes": [
     {
       "id": "player_data",

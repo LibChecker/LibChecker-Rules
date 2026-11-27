@@ -76,16 +76,13 @@ A definition can declare `native_library_names` for exact native library
 basename matching. The catalog generator copies the one to sixteen distinct
 names from the definition into its catalog entry. Each basename must belong
 to a single SDK across the catalog. A match selects the
-definition to probe; its binary checks determine the displayed value. The Unity
-candidate matches only by library UUID.
+definition to probe; its binary checks determine the displayed value.
 
 A presentation field with `require_unique: true` appears only for a single
 distinct result. Each capture contributing to that output needs a
 `max_results` of at least two. Lookup outputs cannot use this constraint.
 
-The Unity candidate uses this protocol to read Player SerializedFiles, including
+The Unity definition uses this protocol to read Player SerializedFiles, including
 the first segment and an exact member inside a UnityFS archive. Its Android
 platform ID, supported format ranges, version masks, and header layout are all
-declared in the definition. Once the compatible client ships, move the candidate
-to `sdks/unity/definition.json`, regenerate the catalog with
-`tools/validate.py --write`, and publish both to the descriptions branch.
+declared in `sdks/unity/definition.json`.

@@ -32,6 +32,7 @@ class ValidateTest(unittest.TestCase):
         self.assertTrue(
             {
                 "flutter",
+                "unity",
                 *[
                     item["sdk_id"]
                     for item in generate_androidx_definitions.ANDROIDX_DEFINITIONS
@@ -55,14 +56,11 @@ class ValidateTest(unittest.TestCase):
         generate_androidx_definitions.check()
 
     def test_unity_definition_and_archive_contract(self):
-        path = validate.SDK_DETAILS_DIR / "candidates/unity/definition.json"
-        # Continue checking the contract after promoting the definition.
-        if not path.exists():
-            path = validate.SDKS_DIR / "unity/definition.json"
+        path = validate.SDKS_DIR / "unity/definition.json"
         definition = validate.load_json(path)
         sdk_id, uuids = validate.validate_definition(path, definition)
         self.assertEqual("unity", sdk_id)
-        self.assertNotIn("native_library_names", definition)
+        self.assertEqual(["libyuanshen.so"], definition["native_library_names"])
         self.assertEqual([validate.load_json(validate.ROOT / "native-libs/libunity.so.json")["uuid"]], uuids)
         for probe in definition["probes"]:
             modern = next(layout for layout in probe["reader"]["layouts"] if layout["offset"] == 48)
@@ -102,26 +100,10 @@ class ValidateTest(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     validate.validate_definition(path, changed)
 
-    def test_promoted_definition_exports_native_library_names(self):
-        definition = validate.SDK_DETAILS_DIR / "candidates/unity/definition.json"
-        if not definition.exists():
-            definition = validate.SDKS_DIR / "unity/definition.json"
-        unity = validate.load_json(definition)
-        unity["native_library_names"] = ["libexample.so"]
-        with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
-            sdks = root / "sdk-details/sdks"
-            promoted = sdks / "unity/definition.json"
-            promoted.parent.mkdir(parents=True)
-            promoted.write_text(json.dumps(unity), encoding="utf-8")
-            with (
-                mock.patch.object(validate, "ROOT", root),
-                mock.patch.object(validate, "SDKS_DIR", sdks),
-                mock.patch.object(validate, "collect_rule_uuids", return_value=set(unity["target_uuids"])),
-                mock.patch.object(validate, "collect_jetpack_rule_uuids", return_value=set()),
-            ):
-                entry, = validate.build_catalog()["entries"]
-            self.assertEqual(unity["native_library_names"], entry["native_library_names"])
+    def test_unity_catalog_exports_native_library_names(self):
+        catalog = validate.load_json(validate.CATALOG_PATH)
+        entry, = (entry for entry in catalog["entries"] if entry["sdk_id"] == "unity")
+        self.assertEqual(["libyuanshen.so"], entry["native_library_names"])
 
     def test_rejects_native_library_name_owned_by_two_sdks(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -133,8 +115,6 @@ class ValidateTest(unittest.TestCase):
                 rule = validate.load_json(validate.ROOT / f"native-libs/lib{sdk_id}.so.json")
                 (rules / f"lib{sdk_id}.so.json").write_text(json.dumps(rule), encoding="utf-8")
                 source = validate.SDKS_DIR / sdk_id / "definition.json"
-                if not source.exists():
-                    source = validate.SDK_DETAILS_DIR / "candidates" / sdk_id / "definition.json"
                 definition = validate.load_json(source)
                 definition.update(schema_version=3, target_uuids=[rule["uuid"]], native_library_names=["libshared.so"])
                 target = sdks / sdk_id / "definition.json"
